@@ -2,26 +2,37 @@
 
 ## Project
 
-This repository contains a written black-box completion guide specification and development materials for a Skyrim Anniversary Edition PS4 Legendary “true 100%” route.
+This repository contains the specification and development materials for a Skyrim Anniversary Edition PS4 Legendary "true 100%" route.
 
-The goal is not to produce a normal hand-holding walkthrough. The final guide should be a linear itinerary: go here, do this quest/objective, collect this checklist item, stop here, return later, hard save here, etc.
+The goal is not a normal hand-holding walkthrough. The final guide should be a linear black-box itinerary: go here, do this quest/objective, collect this checklist item, stop here, return later, hard save here, etc.
 
-## Primary specification
+## Canonical Documents
 
-Read `docs/guide-specification.md` before doing any task. Follow it unless a task explicitly says otherwise.
+Read `docs/guide-specification.md` before doing any task. It is the canonical project specification unless a task explicitly says otherwise.
 
-## Source standards
+Use the other project documents as supporting documents:
 
-Use current online sources. Prioritize:
-1. Bethesda official support / official AE information.
-2. UESP.
-3. Reliable trophy/achievement guides.
-4. Well-maintained community checklists.
-5. Community discussion only as secondary evidence.
+* `docs/development-plan.md` contains the extracted development plan.
+* `docs/source-standards.md` records the sourcing rules for gameplay research.
+* `docs/decisions-log.md` records resolved user decisions and should stay consistent with the specification.
+* `docs/task-board.md`, if present, tracks current coordination notes and next work.
 
-Every factual gameplay claim that affects routing must include a citation in the relevant source notes.
+## Task Prompt Handling
+
+The user may provide prompts beginning with "Task:" that were generated outside this repo. Treat those prompts as guiding briefs, not rigid scripts.
+
+When a task prompt fits the current state and project documents, follow it. When it is stale, redundant, underspecified, or points in a direction that would weaken the project structure, do the better repo-aware version instead and briefly note the adjustment. Do not add requirements beyond the specification unless the user explicitly decides them.
+
+After completing a staged task, update `docs/task-board.md` when the status or next unblocked task changes.
+
+## Source Standards
+
+For gameplay research, follow `docs/source-standards.md`.
+
+Every factual gameplay claim that affects routing must include a citation in the relevant source notes. Do not research gameplay for infrastructure-only tasks.
 
 Do not rely on memory for:
+
 - AE Creation start triggers.
 - leveled item thresholds.
 - quest conflicts.
@@ -35,6 +46,7 @@ Do not rely on memory for:
 Prefer structured Markdown tables and concise notes.
 
 Do not write the final guide prematurely. Build the guide in layers:
+
 1. objective database;
 2. constraint tables;
 3. route skeleton;
@@ -48,11 +60,12 @@ Do not write the final guide prematurely. Build the guide in layers:
 
 ## Completion policy
 
-The scope is maximalist:
+The high-level user-resolved scope is summarized below. If this summary and `docs/guide-specification.md` diverge, update the summary to match the specification rather than creating a second rule set.
+
 - Survival Mode on.
 - Legendary difficulty.
 - PS4 trophies preserved.
-- Official AE Creation Club bundle only.
+- Base game, official DLC, and official AE Creation Club bundle only.
 - All perks required.
 - Civil War main route: Imperial.
 - Dawnguard main route: Dawnguard.
@@ -68,6 +81,7 @@ The scope is maximalist:
 Fully route only branches with substantial alternate content, rewards, trophies, faction experiences, or completionist significance.
 
 At a branch point:
+
 1. create a named hard save;
 2. play the alternate branch first;
 3. include only branch-exclusive content;
@@ -79,8 +93,9 @@ Do not branch isolated preference choices. For spouse, children, stewards, house
 ## Done means
 
 For any deliverable:
+
 - The file is internally consistent.
-- Sources are cited.
+- Gameplay factual claims are cited.
 - Uncertainties are marked.
 - Assumptions are explicit.
 - The output does not prematurely overfit the final route.
