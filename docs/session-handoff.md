@@ -24,7 +24,9 @@ TB-027 is complete. `data/constraints/skill-perk-leveling-plan.md` and `drafts/r
 
 TB-028 is complete. `drafts/branch-routes/README.md` now contains the branch decision matrix, branch/default vocabulary, full-branch/reward-branch/trophy-branch/option-list classification, and the TB-029 prototype queue. `data/constraints/quest-conflicts-hard-saves.md` is updated with TB-028 defaults and branch classifications. Route-planning indexes were regenerated so `objective-constraints.csv`, `objective-route-index.csv`, and `prototype-objective-block-map.csv` reflect the new branch/trophy constraints; objective row counts remain stable and `data/objectives/objectives.csv` was not changed.
 
-The current next task is TB-029: draft branch route prototypes.
+TB-029 is complete. `drafts/branch-routes/major-faction-branches-v0.md`, `drafts/branch-routes/solstheim-ae-branches-v0.md`, and `drafts/branch-routes/reward-and-trophy-branches-v0.md` now contain grouped branch prototypes with hard-save points, branch-exclusive objective/reward queues, reload points, and downstream warning/checklist/validation handoffs. The prototypes remain route-planning artifacts, not final guide prose. Follow-up cleanup added explicit TB-033 branch-verification expectations, Volkihar representative-radiant escalation language, and `The Gift` spouse-state coordination as a TB-030/TB-032 dependency.
+
+The current next unblocked task is TB-032: add the warning and hard-save layer. TB-030 remains blocked until checklist input is available.
 
 ## Restart Checklist
 
@@ -39,32 +41,30 @@ At the start of the next session:
 7. Read `data/objectives/phase-2-research-inputs.md`.
 8. Read `data/constraints/README.md`, then `data/constraints/ae-creation-start-triggers.md`, `data/constraints/leveled-unique-items.md`, `data/constraints/cell-entry-locks.md`, `data/constraints/quest-conflicts-hard-saves.md`, `data/constraints/trophy-dependencies.md`, `data/constraints/npc-dependencies.md`, `data/constraints/bug-prone-quests.md`, `data/constraints/radiant-boundaries.md`, `data/constraints/survival-mode-constraints.md`, and `data/constraints/skill-perk-leveling-plan.md` for Phase 2 overlaps.
 9. Read `data/locations/location-catalog.csv`, `data/locations/location-coordinates.csv`, `data/locations/location-coordinate-reconciliation.md`, `data/locations/location-geography.csv`, and `data/locations/location-geography-reconciliation.md` before changing geography-sensitive tasks.
-10. Read `data/objectives/route-rigidity-classification-notes.md`, `data/route-planning/README.md`, `data/route-planning/objective-route-index.csv`, `data/route-planning/objective-constraints.csv`, `data/route-planning/prototype-objective-block-map.csv`, `drafts/route-prototypes/route-anchors-v0.md`, `drafts/route-prototypes/level-gated-skeleton-v0.md`, `drafts/route-prototypes/survival-geography-pass-v0.md`, `drafts/route-prototypes/main-route-prototype-v0.md`, and `drafts/branch-routes/README.md` before TB-029 or later route-placement work.
+10. Read `data/objectives/route-rigidity-classification-notes.md`, `data/route-planning/README.md`, `data/route-planning/objective-route-index.csv`, `data/route-planning/objective-constraints.csv`, `data/route-planning/prototype-objective-block-map.csv`, `drafts/route-prototypes/route-anchors-v0.md`, `drafts/route-prototypes/level-gated-skeleton-v0.md`, `drafts/route-prototypes/survival-geography-pass-v0.md`, `drafts/route-prototypes/main-route-prototype-v0.md`, `drafts/branch-routes/README.md`, and the TB-029 branch prototype files before TB-032 or later route-placement work.
 11. Run `git status --short` and preserve unrelated existing changes.
 12. For UESP page fetches, prefer `python3 tools/fetch_uesp.py 'Skyrim:Page Title' --mode wikitext` or `--mode html`; direct raw `curl` may trigger Cloudflare without a browser User-Agent. For Gamemap marker refreshes, use `python3 tools/fetch_uesp_gamemap.py`, regenerate coordinates with `python3 tools/build_location_coordinates.py`, then regenerate geography with `python3 tools/build_location_geography.py`. For route-planning index refreshes, run `python3 tools/build_route_planning_index.py`, `python3 tools/build_prototype_objective_block_map.py`, and optionally `python3 tools/build_route_planning_database.py`.
 
 ## Next Task Details
 
-Start TB-029 by drafting branch route prototypes from `drafts/branch-routes/README.md` and `data/constraints/quest-conflicts-hard-saves.md`. Use `docs/guide-specification.md`, `docs/decisions-log.md`, `data/constraints/trophy-dependencies.md`, `data/constraints/radiant-boundaries.md`, `data/constraints/npc-dependencies.md`, `data/constraints/bug-prone-quests.md`, `data/route-planning/objective-route-index.csv`, `data/route-planning/objective-constraints.csv`, `data/route-planning/prototype-objective-block-map.csv`, and the route-block prototype files.
+Start TB-032 by adding the warning and hard-save layer. Use `docs/guide-specification.md`, `docs/decisions-log.md`, `data/constraints/quest-conflicts-hard-saves.md`, `data/constraints/bug-prone-quests.md`, `data/constraints/cell-entry-locks.md`, `data/constraints/leveled-unique-items.md`, `data/constraints/trophy-dependencies.md`, `data/constraints/npc-dependencies.md`, `data/constraints/radiant-boundaries.md`, `drafts/route-prototypes/level-gated-skeleton-v0.md`, `drafts/route-prototypes/main-route-prototype-v0.md`, and the TB-029 branch prototype files.
 
 Primary output:
 
-* `drafts/branch-routes/*.md` branch prototype files or a small set of grouped branch prototype files
-* `drafts/branch-routes/README.md`, only if the prototype queue or status needs updating
+* concise warning/hard-save layer updates in `drafts/route-prototypes/main-route-prototype-v0.md` and/or a dedicated warning-layer section if that better preserves reviewability
+* updates to `data/constraints/quest-conflicts-hard-saves.md` only if TB-032 discovers stale handoff wording
 * task-board status updates when complete
 
 Research rules:
 
-* Use current online sources if new gameplay facts become necessary, but prefer existing source-backed objective, constraint, route-planning, geography, branch, and trophy tables for this pass.
+* Use current online sources if new gameplay facts become necessary, but prefer existing source-backed objective, constraint, route-planning, geography, branch, bug, leveled-reward, cell-entry, and trophy tables for this pass.
 * Do not rely on memory for quest conflicts, branch rewards, missable rewards, trophy behavior, bug risks, NPC dependencies, cell-entry locking, radiant availability, or AE branch behavior.
 * Mark unknowns explicitly instead of guessing.
-* Use the TB-028 matrix as the default branch decision authority. Do not re-choose canonical defaults unless a source-backed contradiction is found.
-* Preserve user-resolved canonical main-route defaults: Imperial, Dawnguard, Dark Brotherhood join, Paarthurnax preserved, and artifact-maximizing Daedric defaults where supported.
-* Preserve branch policy: named hard save, play alternate first, include only branch-exclusive content, reload, then continue canonical main route.
-* Include branch-exclusive content only. Do not duplicate main-route objectives in branch prototypes unless the branch-only state changes availability, reward, or checklist meaning.
-* Draft Master Criminal as a compact trophy branch with placeholder crime method; TB-032 finalizes exact warnings/actions.
+* Place warnings exactly where the current prototypes imply they belong; do not create broad generic warnings detached from a route block or branch point.
+* Keep warning text concise: hard save here, do not enter/accept/loot/read/turn in yet, choose this reward, stop here, reload here.
+* Preserve branch policy and TB-029 branch prototypes. Do not re-choose branch defaults unless a source-backed contradiction is found.
+* TB-032 may finalize warning/action wording for Master Criminal, Hircine/Bloated Man's Grotto, Civil War/War Hero, Dawnguard/Volkihar, Dark Brotherhood, Thirsk, Bittercup, and reward branches, but checklist escalation remains TB-030.
 * Treat `Battle of the Champions` equipment coverage as source-note dependent until TB-030/TB-033 verifies both equipment-set availability for checklist mapping.
-* Keep prototypes compact: section headings, hard-save point, objective IDs/names, branch-exclusive rewards/counters, reload point, and handoff warnings. Do not write final black-box guide prose yet.
 * Do not draft the final guide.
 
 TB-027 support handoffs:
@@ -101,7 +101,7 @@ TB-024 support handoffs:
 * Skeleton bands are `S00` through `S15`.
 * TB-025 consumed the skeleton into `survival-geography-pass-v0.md`; TB-026 placed flexible queues within that frame; TB-027 added progression blocks while preserving the mandatory gate checklist.
 * The skeleton keeps source-tier reward policy conservative until a later explicit decision accepts a documented tradeoff.
-* Branch defaults, detailed warning prose, skill-reset distribution, and checklist mapping remain assigned to later tasks.
+* Branch defaults and branch prototypes are now captured in TB-028/TB-029; detailed warning prose, skill-reset distribution, and checklist mapping remain assigned to later tasks.
 
 TB-023 support handoffs:
 
@@ -109,7 +109,7 @@ TB-023 support handoffs:
 * Structural anchors are numbered `A00` through `A21`.
 * The level/reward gate register is an input to TB-024, not a finished level skeleton.
 * The branch and hard-save register records constraint-table hard-save names but does not route branch content.
-* Flexible geography is now captured in TB-025; flexible objective insertion is now captured in TB-026; skill reset distribution is now captured at prototype level in TB-027. Branch default selection, warning prose, and checklist mapping remain assigned to later tasks.
+* Flexible geography is now captured in TB-025; flexible objective insertion is now captured in TB-026; skill reset distribution is now captured at prototype level in TB-027. Branch default selection and branch prototypes are now captured in TB-028/TB-029; warning prose and checklist mapping remain assigned to later tasks.
 
 TB-022 support handoffs:
 
@@ -133,7 +133,7 @@ TB-021A/TB-021B/TB-021C support handoffs:
 * TB-021B added `worldspace_access_model`, `transport_access_flags`, `cold_risk`, `barrier_flags`, and `geography_confidence`. These are route filters, not final pathfinding; road, pass, water, quest-state, enemy, and exact access validation still belongs to later route passes.
 * Companions Hired Muscle should be accepted if the early seed offers it, but the guide should not require a new-game restart solely to force that representative radiant type.
 * Thieves Guild 125 side jobs remain a source-backed completionist counter candidate pending checklist mapping.
-* TB-028 set Volkihar `New Allegiances` baseline branch depth to one successful conversion; TB-030 may escalate to all three named conversions only if checklist mapping creates member-level requirements.
+* TB-028/TB-029 set Volkihar representative radiants and `New Allegiances` to branch-prototype coverage only. TB-030 may escalate representative radiants or all three named `New Allegiances` conversions only if checklist mapping creates named-variant or all-variant requirements. `The Gift` also needs spouse-state coordination before final branch routing.
 
 Earlier Phase 2 handoffs to keep in view:
 

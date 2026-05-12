@@ -1,10 +1,18 @@
 # Branch Routes
 
-Status: TB-028 complete.
+Status: TB-029 complete.
 
 Selective alternate-branch route drafts belong here. Branch drafts should stay sharply scoped to branch-exclusive content and should not duplicate objectives intended for the canonical main route.
 
-This file is the TB-028 branch decision matrix. It decides branch treatment and canonical defaults where the existing source-backed tables provide enough support. It is not branch-route prose; TB-029 drafts the actual branch prototypes.
+This file preserves the TB-028 branch decision matrix and indexes the TB-029 branch prototype outputs. The prototype files are not final guide prose; they define branch containers, objective coverage, reload points, and later handoffs.
+
+## TB-029 Prototype Outputs
+
+| File | Coverage |
+| --- | --- |
+| `major-faction-branches-v0.md` | Civil War Stormcloak, Volkihar, Destroy the Dark Brotherhood, and compact Paarthurnax/Blades prototypes. |
+| `solstheim-ae-branches-v0.md` | Thirsk Riekling, Ghosts destroy-heretics, and Bittercup Power/Nothing prototypes. |
+| `reward-and-trophy-branches-v0.md` | Daedric reward branches, Aetherium Forge reward branches, Master Criminal trophy branch, and main-route-resolved optional outcome notes. |
 
 ## Boundaries
 
@@ -104,7 +112,7 @@ This file is the TB-028 branch decision matrix. It decides branch treatment and 
 
 | Owner | Handoff |
 | --- | --- |
-| TB-029 | Draft branch prototypes using this matrix. Include branch-exclusive objectives only, plus explicit reload/resume points. |
-| TB-030 | Decide checklist treatment for branch-only rewards, Volkihar `New Allegiances` conversion depth, Bittercup alternate-path rewards, option-list defaults, source-note-dependent Battle of the Champions equipment coverage, and any promoted branch/audit rows. |
+| TB-029 | Complete. Prototype files listed above include branch-exclusive objectives only, plus explicit reload/resume points. |
+| TB-030 | Decide checklist treatment for branch-only rewards, Volkihar representative-radiant and `New Allegiances` conversion depth, Bittercup alternate-path rewards, option-list defaults, source-note-dependent Battle of the Champions equipment coverage, and any promoted branch/audit rows. |
 | TB-032 | Place concise hard-save and warning text at the exact main-route steps. |
-| TB-033 | Validate that branches do not duplicate main-route objectives, that trophy branches pop correctly before reload, and that final continuity still matches canonical defaults. |
+| TB-033 | Validate objective completion, branch-exclusive reward/state capture, trophy pop where relevant, reload point, and restoration of canonical continuity without duplicating main-route objectives. |
