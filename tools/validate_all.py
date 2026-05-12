@@ -15,6 +15,8 @@ VALIDATORS = [
     "tools/validate_sources.py",
     "tools/validate_books.py",
     "tools/validate_npc_options.py",
+    "tools/validate_items.py",
+    "tools/validate_properties.py",
 ]
 
 

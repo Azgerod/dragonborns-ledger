@@ -12,3 +12,7 @@ Current tools:
 | `validate_objectives.py` | Basic objective CSV header validation. |
 | `validate_coverage.py` | Basic coverage-matrix structure validation. |
 | `validate_sources.py` | Basic source workflow structure validation. |
+| `validate_books.py` | Book/document location table structural validation. |
+| `validate_npc_options.py` | Relationship, household role, follower, pet, and mount option table structural validation. |
+| `validate_items.py` | AE item-member table structural validation. |
+| `validate_properties.py` | Property detail table structural validation. |
