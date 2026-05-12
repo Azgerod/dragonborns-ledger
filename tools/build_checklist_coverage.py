@@ -38,6 +38,7 @@ PERKS = REPO_ROOT / "data" / "skills" / "perk-rank-catalog.csv"
 MERCHANTS = REPO_ROOT / "data" / "skills" / "merchant-investment-catalog.csv"
 ITEM_MEMBERS = REPO_ROOT / "data" / "items" / "ae-item-members.csv"
 NPC_OPTIONS = REPO_ROOT / "data" / "npc" / "relationship-options.csv"
+SOURCE_READINESS_RESOLUTIONS = REPO_ROOT / "data" / "checklist-mapping" / "source-readiness-resolutions.csv"
 
 CHECKLIST_TABS = {
     "Quests",
@@ -391,6 +392,16 @@ def read_csv(path: Path) -> list[dict[str, str]]:
         return list(csv.DictReader(handle))
 
 
+def append_pipe_values(existing: str, *new_values: str) -> str:
+    parts = [part.strip() for part in existing.split("|") if part.strip()]
+    for value in new_values:
+        for part in value.split("|"):
+            part = part.strip()
+            if part and part not in parts:
+                parts.append(part)
+    return " | ".join(parts)
+
+
 def load_indexes() -> dict[str, Any]:
     objective_rows = {row["objective_id"]: row for row in read_csv(OBJECTIVES)}
     prototype_rows = {row["objective_id"]: row for row in read_csv(PROTOTYPE_MAP)}
@@ -529,6 +540,16 @@ def load_indexes() -> dict[str, Any]:
                 continue
             npc_options.setdefault(key, []).append(row["option_id"])
 
+    source_readiness_resolutions: dict[tuple[str, str, str], dict[str, str]] = {}
+    if SOURCE_READINESS_RESOLUTIONS.exists():
+        for row in read_csv(SOURCE_READINESS_RESOLUTIONS):
+            key = (
+                row.get("checklist_tab", ""),
+                normalize(row.get("checklist_entry", "")),
+                row.get("category", ""),
+            )
+            source_readiness_resolutions[key] = row
+
     return {
         "objective_rows": objective_rows,
         "prototype_rows": prototype_rows,
@@ -542,6 +563,7 @@ def load_indexes() -> dict[str, Any]:
         "merchant_excluded": merchant_excluded,
         "item_members": item_members,
         "npc_options": npc_options,
+        "source_readiness_resolutions": source_readiness_resolutions,
     }
 
 
@@ -1089,11 +1111,71 @@ def classify(entry: ChecklistEntry, objective_id: str, match_source: str, indexe
     return row
 
 
+def source_readiness_resolution(entry: ChecklistEntry, indexes: dict[str, Any]) -> dict[str, str]:
+    key = (entry.tab, normalize(entry.entry), entry.category)
+    return indexes["source_readiness_resolutions"].get(key, {})
+
+
+def source_resolution_exclusion(entry: ChecklistEntry, resolution: dict[str, str]) -> dict[str, str]:
+    return {
+        "objective_id": "",
+        "matched_objective_name": "",
+        "route_block": "",
+        "disposition": "",
+        "prototype_status": "",
+        "deferred_to": "",
+        "match_status": "support_table_only",
+        "match_source": resolution.get("match_source", "checklist_source_readiness_exclusion"),
+        "mapping_type": "Explicit exclusion",
+        "guide_location": "excluded",
+        "branch_name": "",
+        "exclusion_reason": resolution.get("exclusion_reason", "Checklist source-readiness review excludes this row from required coverage."),
+        "source_note_refs": resolution.get("source_note_refs", CHECKLIST_MANUAL_REVIEW_SOURCE_NOTE),
+        "status": "excluded_with_justification",
+        "notes": resolution.get("notes", "Resolved by source-readiness review."),
+    }
+
+
+def apply_source_resolution_metadata(mapping: dict[str, str], resolution: dict[str, str]) -> dict[str, str]:
+    mapping = dict(mapping)
+    mapping["match_source"] = resolution.get("match_source", mapping.get("match_source", ""))
+    mapping["source_note_refs"] = append_pipe_values(
+        mapping.get("source_note_refs", ""),
+        resolution.get("source_note_refs", ""),
+    )
+
+    if resolution.get("resolution") == "map_branch":
+        branch_name = resolution.get("branch_name") or resolution.get("guide_location") or "TB-029 branch prototype"
+        mapping["mapping_type"] = "Branch-route prototype"
+        mapping["guide_location"] = resolution.get("guide_location") or branch_name
+        mapping["branch_name"] = branch_name
+        mapping["status"] = "mapped_to_branch_prototype"
+        mapping["disposition"] = "branch_prototype"
+        mapping["prototype_status"] = "branch_source_readiness_resolved"
+        mapping["deferred_to"] = branch_name
+        mapping["exclusion_reason"] = ""
+
+    resolution_note = resolution.get("notes", "")
+    if resolution_note:
+        mapping["notes"] = f"{mapping.get('notes', '').rstrip()} {resolution_note}".strip()
+    return mapping
+
+
 def build_rows(entries: list[ChecklistEntry], indexes: dict[str, Any]) -> list[dict[str, str]]:
     rows: list[dict[str, str]] = []
     for sequence, entry in enumerate(entries, start=1):
-        objective_id, match_source = choose_objective_id(entry, indexes)
-        mapping = classify(entry, objective_id, match_source, indexes)
+        resolution = source_readiness_resolution(entry, indexes)
+        if resolution and resolution.get("resolution") == "exclude":
+            mapping = source_resolution_exclusion(entry, resolution)
+        else:
+            if resolution and resolution.get("resolution") in {"map_objective", "map_branch"}:
+                objective_id = resolution.get("objective_id", "")
+                match_source = resolution.get("match_source", "checklist_source_readiness_resolution")
+            else:
+                objective_id, match_source = choose_objective_id(entry, indexes)
+            mapping = classify(entry, objective_id, match_source, indexes)
+            if resolution:
+                mapping = apply_source_resolution_metadata(mapping, resolution)
         checklist_id = f"CHK-{re.sub(r'[^A-Z0-9]+', '-', entry.tab.upper()).strip('-')}-{sequence:04d}"
         row = {
             "checklist_id": checklist_id,

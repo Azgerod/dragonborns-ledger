@@ -15,7 +15,7 @@ This pass decides whether checklist evidence promotes representative, branch, op
 | Total checklist rows | Unchanged at 3,697. |
 | Branch prototype checklist rows | Reduced from 37 to 30 after canonical defaults were promoted out of branch handling. |
 | Main-route prototype checklist rows | Increased from 3,069 to 3,076 after canonical defaults were promoted. |
-| Source-readiness holds | Unchanged at 90 in TB-031C; after TB-031H, remaining source-readiness holds point to TB-036/TB-037 downstream validation rather than TB-031C. |
+| Source-readiness holds | Unchanged at 90 in TB-031C; TB-031J later resolved the remaining source-readiness rows before TB-032. |
 | Objective route placement | Canonical Thirsk Nord-side rows, Aetherial Crown, and Ring of Hircine are main-route rows. `The Pit` is a Bittercup Power branch row. |
 
 ## Decisions
@@ -24,14 +24,14 @@ This pass decides whether checklist evidence promotes representative, branch, op
 | --- | --- | --- |
 | Representative radiants and no-journal activities | Do not escalate checklist variants into all-NPC/all-location requirements. Keep the existing representative-type policy; the 65 no-journal activity/favor checklist variants remain mapped to representative activity rows. | TB-031F chooses exact route actions and counter mechanics. TB-031D may choose targets where defaults affect logistics or relationships. |
 | Thieves Guild 125 side jobs | Treat the source-backed 125-job Guild display/safe boundary as required completionist counter coverage through `OBJ-000048`, not as an optional appendix. | TB-031F chooses job mix, rejection policy, Raven Rock/Riften handling, and counter tracking. |
-| Volkihar representative radiants | Keep one representative branch instance for ordinary Volkihar hunt/framing radiants. Do not escalate all targets unless later source-readiness work finds a named checklist row not already covered. | TB-033 validates branch completion; TB-032 places warnings. |
+| Volkihar representative radiants | Keep one representative branch instance for ordinary Volkihar hunt/framing radiants. Do not escalate all targets unless a later concrete checklist/source contradiction proves a named row is still not covered. | TB-033 validates branch completion; TB-032 places warnings. |
 | `New Allegiances` | Keep one successful conversion in the Volkihar branch. The checklist has one quest row, not member-level rows for all named conversion targets. | TB-032 warns about branch setup and known radiant hazards. |
 | `The Gift` | Keep as Volkihar branch-only conditional coverage. It does not decide the canonical spouse default. | TB-031D chooses spouse/default logistics; TB-032 ensures the branch save has a valid spouse setup or marks the quest conditional. |
 | Thirsk Mead Hall | Canonical main continuity is the Nord side: `Retaking Thirsk` plus Nord-side Elmus/Halbarn/Hilund favors. The Riekling side remains the branch. | TB-032 places the hard-save/reload warning; TB-034 routes canonical Solstheim steps. |
-| Ghosts of the Tribunal | Keep join/infiltrate as main continuity and destroy-heretics as the branch audit. Checklist book/document rows that are not source-ready remain TB-036 appendix/source-readiness work; no extra branch is promoted here. | TB-031H audited ownership; TB-033 verifies final branch/checklist coverage. |
+| Ghosts of the Tribunal | Keep join/infiltrate as main continuity and destroy-heretics as the branch audit. TB-031J later source-checked the remaining Ghosts book/document rows: ordinary Ashfall's Tear or carried journals map to main Ghosts handling, while `Reclamation Priest's Journal (AE)` maps to BR-007 branch coverage. | TB-033 verifies final branch/checklist coverage. |
 | Bittercup | Keep Fortune/Fortunate Son as canonical main continuity. Promote `The Pit` to the Power branch. Keep the Nothing/Rulnik path as compact branch/option coverage without promoting extra checklist rows from unsupported item names. | TB-031E handles Master Transmute/progression source timing; TB-035 handles Rulnik option-list presentation. |
 | Daedric and Aetherial branch rewards | Keep existing reward branches. Promote canonical Ring of Hircine and Aetherial Crown rows to main-route handling; Savior's Hide, Rueful Axe, Azura's Star, Aetherial Staff, and Aetherial Shield remain branch rewards. | TB-032 places reward hard-save warnings; TB-033 verifies branch reward capture and reloads. |
-| Velehk, Frost, and Ralis | Do not promote new full branches. Current main defaults remain: release Velehk, keep Frost, and spare Ralis. Checklist rows for Velehk's map, Frost, Ralis, and Hoarfrost are covered by existing main-route or option/default handling. | TB-036 validates any remaining unique-gear/source-readiness questions; TB-035 handles option-list rows. |
+| Velehk, Frost, and Ralis | Do not promote new full branches. Current main defaults remain: release Velehk, keep Frost, and spare Ralis. Checklist rows for Velehk's map, Frost, Ralis, and Hoarfrost are covered by existing main-route or option/default handling. | TB-035 handles option-list rows; TB-033 validates final coverage. |
 | Battle of the Champions | Do not create a separate branch from checklist evidence alone. Keep Imperial-aligned handling with Civil War context; side-equipment availability remains source-note dependent. | TB-033 verifies both equipment-set availability before final checklist coverage; TB-032 places any side-selection warning. |
 | Personal/default choices | Do not branch spouse, children, stewards, followers, pets, mounts, Black Book powers, or similar personal choices from checklist presence alone. | TB-031D chooses route-affecting defaults; TB-035 writes option-list presentation. |
 | TB-031B quest source-readiness rows | Do not promote `Rebuilding the Blades`, `Dragon Hunting`, `Archery Practice`, or `Scare My Enemy` without source validation. TB-031F resolved the Blades rows as BR-004 branch content and the Angi/Hired Muscle rows as source-backed main-route handling. | TB-031F complete; TB-031H audited owner labels. |
@@ -40,7 +40,7 @@ This pass decides whether checklist evidence promotes representative, branch, op
 
 | Objective | New treatment | Reason |
 | --- | --- | --- |
-| `OBJ-000048` Thieves Guild City Influence and Side Job Counter | Main-route dependency-flexible counter. | The 125-job boundary is required completionist counter coverage, with mechanics deferred to TB-031F. |
+| `OBJ-000048` Thieves Guild City Influence and Side Job Counter | Main-route dependency-flexible counter. | The 125-job boundary is required completionist counter coverage; TB-031F resolved the mechanics. |
 | `OBJ-000455` Retaking Thirsk | Main-route windowed row. | Nord side is canonical after branch hard-save/reload handling. |
 | `OBJ-000456` through `OBJ-000459` Thirsk favors | Main-route dependency-flexible rows. | Nord-side favor/service coverage belongs to canonical continuity. |
 | `OBJ-000574` The Pit | Branch-route branch-only row. | Power path is a Bittercup alternate branch; Fortune remains canonical. |
@@ -53,5 +53,5 @@ This pass decides whether checklist evidence promotes representative, branch, op
 | --- | --- |
 | Exact route steps for radiants/counters | TB-031C decides escalation only. TB-031F handles counter mechanics and TB-034/TB-035 write route prose. |
 | Exact spouse/family/steward/default choices | These choices affect logistics and final continuity, so TB-031D owns them. |
-| Exact source-readiness validation | TB-031H completed the source/objective/support readiness audit after TB-031D through TB-031G touched their rows. |
+| Exact source-readiness validation | TB-031H completed the source/objective/support readiness audit after TB-031D through TB-031G touched their rows; TB-031J then completed the row-level source-readiness mappings and exclusions. |
 | Final checklist proof | TB-033/TB-037 validate branch restoration, objective completion, and final coverage after route/default/progression decisions are integrated. |

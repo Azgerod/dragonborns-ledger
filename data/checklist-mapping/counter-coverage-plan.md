@@ -84,14 +84,14 @@ Source support: SN-000127 plus the source notes named in each row below.
 | `Firebrand Wine Case` | Promoted to `OBJ-002788` parent-quest quest-item checklist cue. | Cue acquisition/use during `Scoundrel's Folly`; final QA verifies retention or turn-in state. |
 | `Map of Dragon Burials` | Promoted to `OBJ-002789` parent-quest quest-item checklist cue. | Cue inspection/acquisition during `A Blade in the Dark`; final QA verifies retention or quest-use state. |
 
-After regeneration, no TB-031F-owned `source_readiness_required` row should remain. After TB-031H, non-TB-031F source-readiness rows are assigned to TB-036/TB-037 rather than back to TB-031F.
+After regeneration, no TB-031F-owned `source_readiness_required` row should remain. TB-031J later pulled the remaining non-TB-031F source-readiness rows forward and resolved them before TB-032.
 
 ## Handoffs
 
 | Owner | Remaining work |
 | --- | --- |
 | TB-031G | Complete: validates clear/discovery mechanics, duplicate and secondary markers, location access classes, no-marker rows, and separate-worldspace cases before counter rows become final route steps. |
-| TB-031H | Complete: audit metadata/readiness labels after TB-031F promotions and assign remaining source-readiness rows to downstream owners. |
+| TB-031H/TB-031J | Complete: audit metadata/readiness labels after TB-031F promotions, then resolve remaining source-readiness rows before warning placement. |
 | TB-032 | Place concise warnings for trophy-pop saves, crime branches, Hired Muscle target bugs, Blades/Paarthurnax branch setup, and one-shot counter actions. |
 | TB-033 | Validate final trophy pops, counter totals, branch reload state, and checklist proof against the finished route. |
 | TB-034/TB-037 | Convert these checkpoint policies into final route instructions and checklist cues. |

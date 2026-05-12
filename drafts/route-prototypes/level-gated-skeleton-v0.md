@@ -22,7 +22,7 @@ No new gameplay research was performed for this pass. Gameplay facts are carried
 | --- | --- |
 | Level bands are not exact route sections. | TB-025 may move flexible content within or across bands for Survival Mode geography, but must not violate hard gates. |
 | No detailed route steps here. | Later files should convert bands into route blocks only after geography, flexible insertion, branches, and warnings are ready. |
-| Branch defaults remain deferred. | Do not choose canonical Hircine, Aetherial, Thirsk, Bittercup, Velehk Sain, Ghosts of the Tribunal, or similar unresolved defaults before TB-028. |
+| Branch defaults are external to this skeleton. | Use TB-028 defaults, TB-029 branch prototypes, and TB-031C checklist escalation decisions instead of choosing branch policy here. |
 | Source-tier reward policy remains conservative. | Use maximum-tier leveled reward gates unless a later explicit decision accepts a documented tradeoff such as Nightingale Blade utility. |
 | Conservative does not mean optimal. | These gates optimize permanent/recoverable completion value over short-term power, convenience, or natural quest flow; later route passes may recommend documented tradeoffs only where the specification permits them. |
 | Survival Mode remains first-order. | Each band assumes food, sleep, carry, cold, storage, and transport checks will be added in TB-025. |
@@ -47,7 +47,7 @@ No new gameplay research was performed for this pass. Gameplay facts are carried
 | S12 | Level 60-77 | A16, A17, A18, A19, A20 | Dragonborn finalization and maximum Miraak equipment become safe by level. Late Solstheim, Black Book, Dragon Aspect, Dragonrider, Karstaag, high-risk AE, and mythic content can consolidate here if power/geography supports them. | Legendary Dragon remains locked until 78. Ebony Warrior remains locked until 80. Do not start final all-perks cleanup until the combat build and infrastructure can survive skill resets. | TB-025, TB-027, TB-032 |
 | S13 | Level 78-79 | A20 | Legend trophy checkpoint. | Use a late combat-ready Legendary Dragon block; do not treat this as all late progression completion. Ebony Warrior still waits for 80. | TB-027, TB-032 |
 | S14 | Level 80-251 | A20, A21 | Ebony Warrior, late counters, remaining high-risk objectives, and controlled progression toward all perks. | TB-027 now provides the Legendary reset baseline and fallback structure; exact final crafting, investment sweeps, enchantment source selection, and alchemy recipes remain TB-031E. | TB-027, TB-031E |
-| S15 | Level 252+ / final completion state | A20, A21 | All-perks and final reconciliation band. | Final state must restore all skills to 100 after Legendary resets, allocate all 251 skill perk ranks, preserve unique-item policy, and map every objective/checklist row to a route, branch, option list, appendix, or exclusion. | TB-031A-TB-031I, TB-033 |
+| S15 | Level 252+ / final completion state | A20, A21 | All-perks and final reconciliation band. | Final state must restore all skills to 100 after Legendary resets, allocate all 251 skill perk ranks, preserve unique-item policy, and map every objective/checklist row to a route, branch, option list, appendix, or exclusion. | TB-033, TB-036, TB-037 |
 
 ## Mandatory Gate Checklist
 
@@ -86,7 +86,7 @@ Branch anchors remain placeholders for TB-028/TB-029. This skeleton only assigns
 | Thirsk Mead Hall | S11 | S11-S12 Solstheim band. | Thirsk side-choice save and branch-exclusive NPC/favor state. | TB-028 chooses canonical Thirsk side and branch depth. |
 | Bittercup altar | S04 | S04-S11 only after branch matrix chooses a default path. | Fortune/Power/Nothing default and branch-save policy. | TB-028 chooses Fortune, Power, or Nothing default. |
 | Ghosts of the Tribunal | S12 | S12 Solstheim band unless TB-025 proves an earlier Solstheim block is practical. | Provisional join/infiltrate default and Temple-state branch save. | TB-028 confirms or changes default and branch depth. |
-| Velehk Sain, Frost, Ralis, Civil War Champions | Parent-route dependent | Place with their parent route blocks. | Relevant unresolved or provisional default from TB-023, plus checklist/branch decision. | TB-028/checklist mapping decides branch treatment before final placement. |
+| Velehk Sain, Frost, Ralis, Civil War Champions | Parent-route dependent | Place with their parent route blocks. | Use TB-028 branch/default decisions and TB-031C checklist escalation treatment. | TB-034 places parent-route steps; TB-033/TB-037 validate coverage. |
 
 ## Progression and Power-Curve Handoff
 

@@ -13,3 +13,6 @@ Read `guide-specification.md` before any project work. Keep durable process deci
 | `decisions-log.md` | User-resolved decisions and unresolved defaults. |
 | `task-board.md` | Coordination and consistency notes. |
 | `session-handoff.md` | Current restart point for a new session. |
+| `source-objective-readiness-audit.md` | TB-031H readiness ownership audit for source notes, objective rows, support tables, and generated indexes. |
+| `deferred-work-audit.md` | TB-031I closed Phase 10 deferred-work scan before warning placement. |
+| `../data/checklist-mapping/source-readiness-resolutions.csv` | TB-031J row-level source-readiness resolutions consumed by the checklist coverage generator. |

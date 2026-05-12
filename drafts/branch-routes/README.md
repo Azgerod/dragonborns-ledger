@@ -62,7 +62,7 @@ This file preserves the TB-028 branch decision matrix and indexes the TB-029 bra
 | Thirsk | Nord side and Nord-side favors are canonical main-route rows; Riekling side remains BR-006. |
 | Bittercup | Fortune remains canonical; `The Pit` is BR-008A Power branch; Nothing/Rulnik remains compact branch/option coverage. |
 | Daedric/Aetherial rewards | Ring of Hircine and Aetherial Crown are canonical main-route rows; alternate rewards remain compact reward branches. |
-| Velehk/Frost/Ralis/Battle of the Champions | No new full branch. Keep current main defaults and validate any source-note-dependent equipment/source-readiness questions later. |
+| Velehk/Frost/Ralis/Battle of the Champions | No new full branch. Keep current main defaults and validate any source-note-dependent equipment availability during TB-033 final checklist coverage. |
 | Option-list defaults | No checklist-driven branch escalation for personal/default choices; TB-031D chooses route defaults and TB-035 presents options. |
 
 ## Decision Vocabulary

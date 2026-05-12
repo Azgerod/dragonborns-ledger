@@ -38,24 +38,24 @@ Two additional rows (`Dawnguard` and `Dragonborn`) were fixed by tightening the 
 
 These rows are no longer generic manual review. They are explicit `source_readiness_required` rows with `match_status=support_table_only`, `source_note_refs=SN-000125-checklist-manual-review-reconciliation.md`, and a named owner in `guide_location`.
 
-This table records the TB-031B source-readiness buckets with current owner annotations where later TB-031 tasks have completed. For current counts, use `checklist-coverage-summary.md`; by TB-031G, the single location row (`The Chill*`) has been resolved as an explicit official-scope exclusion, and by TB-031H the remaining book/document, unique-gear, and skill-book holds are assigned to TB-036.
+This table records the TB-031B source-readiness buckets with current owner annotations where later TB-031 tasks have completed. For current counts, use `checklist-coverage-summary.md`; by TB-031G, the single location row (`The Chill*`) had been resolved as an explicit official-scope exclusion, and TB-031J pulled the remaining book/document, unique-gear, and skill-book holds forward before TB-032.
 
 | Category | Rows | Owner |
 | --- | ---: | --- |
-| `book_document` | 43 | TB-036 book/document appendix source-readiness review after TB-031H ownership audit. |
-| `unique_item` | 34 | TB-036 unique-gear appendix source-readiness review after TB-031H ownership audit. |
+| `book_document` | 43 | Resolved by TB-031J: 41 main-route mappings, 1 BR-007 branch mapping, and 1 explicit regular-book exclusion. |
+| `unique_item` | 34 | Resolved by TB-031J as source-backed mappings to parent objectives, route blocks, or route-placement owners. |
 | `quest` | 4 | Resolved by TB-031F; any future checklist-only quest catch-all goes to TB-034/TB-037. |
 | `alchemy_effect` | 4 | Resolved by TB-031E; any future checklist-only alchemy catch-all goes to TB-033/TB-037. |
 | `collectible_item` | 2 | Resolved by TB-031F; any future checklist-only collectible catch-all goes to TB-033/TB-037. |
 | `enchantment` | 1 | Resolved by TB-031E; any future checklist-only enchantment catch-all goes to TB-033. |
 | `location` | 1 | Resolved later in TB-031G as the `The Chill*` official-scope exclusion. |
-| `skill_book` | 1 | TB-036 skill-book appendix source-readiness review after TB-031H ownership audit. |
+| `skill_book` | 1 | Resolved by TB-031J as an explicit source-backed skill-book misclassification exclusion. |
 
 ## Boundary
 
-`source_readiness_required` does not mean the item is route-ready, appendix-ready, or in final scope. It means the raw checklist row is now visible as a typed reconciliation input, and the named task must make a source-backed decision before final checklist synchronization.
+Historically, `source_readiness_required` did not mean the item was route-ready, appendix-ready, or in final scope. It meant the raw checklist row was visible as a typed reconciliation input and the named task had to make a source-backed decision before final checklist synchronization.
 
-Do not use TB-032 warning prose, TB-033 validation, or final-guide drafting to silently promote these rows. Promotion requires source-standard-compliant research and either objective/support-table updates or an explicit exclusion.
+TB-031J has now made those source-backed decisions for every remaining source-readiness row. Do not reintroduce source-readiness holds in TB-032 warning prose, TB-033 validation, or final-guide drafting unless a new concrete checklist/source contradiction is discovered and assigned to a named task.
 
 Expected counts after TB-031B:
 

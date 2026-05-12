@@ -6,7 +6,7 @@ This file exists to make a session switch cheap. It is a coordination note only;
 
 ## Current Project State
 
-Phase 1 source-list objective setup is closed. The objective database currently has 2,789 rows, and source notes currently run through `SN-000128-location-route-validation.md`.
+Phase 1 source-list objective setup is closed. The objective database currently has 2,789 rows, and source notes currently run through `SN-000129-checklist-source-readiness-forward-review.md`.
 
 Phase 2 constraint-table research is reviewed. TB-011 through TB-021 are complete. TB-021A added the first computation-ready coordinate support layer for the location catalog, TB-021B added the hub/corridor geography support layer, and TB-021C added the route-planning index layer.
 
@@ -26,27 +26,31 @@ TB-028 is complete. `drafts/branch-routes/README.md` now contains the branch dec
 
 TB-029 is complete. `drafts/branch-routes/major-faction-branches-v0.md`, `drafts/branch-routes/solstheim-ae-branches-v0.md`, and `drafts/branch-routes/reward-and-trophy-branches-v0.md` now contain grouped branch prototypes with hard-save points, branch-exclusive objective/reward queues, reload points, and downstream warning/checklist/validation handoffs. The prototypes remain route-planning artifacts, not final guide prose. Follow-up cleanup added explicit TB-033 branch-verification expectations, Volkihar representative-radiant escalation language, and `The Gift` spouse-state coordination as a TB-031D/TB-032 dependency.
 
-TB-030 is complete. `data/checklist-mapping/raw/Skyrim Checklist.xlsx` is the tracked raw checklist snapshot. `tools/build_checklist_coverage.py` generates `data/checklist-mapping/coverage-matrix.csv`, and `data/checklist-mapping/checklist-coverage-summary.md` records the intake counts and remaining explicit holds. After TB-031G, the matrix has 3,697 spreadsheet rows: 3,085 mapped to main-route prototype handling, 32 branch prototype rows, 75 option-list rows, 107 appendix rows, 320 explicit exclusions, and 78 typed source-readiness holds.
+TB-030 is complete. `data/checklist-mapping/raw/Skyrim Checklist.xlsx` is the tracked raw checklist snapshot. `tools/build_checklist_coverage.py` generates `data/checklist-mapping/coverage-matrix.csv`, and `data/checklist-mapping/checklist-coverage-summary.md` records the intake counts and explicit mappings. After TB-031J, the matrix has 3,697 spreadsheet rows: 3,160 mapped to main-route prototype handling, 33 branch prototype rows, 75 option-list rows, 107 appendix rows, 322 explicit exclusions, and 0 typed source-readiness holds.
 
 TB-031 is complete. `tools/validate_coverage.py` now validates the real 24-column checklist coverage matrix, including unique checklist IDs, allowed mapping/status/match values, ID/source/block formats, status-specific blank-field rules, and required branch/exclusion/review fields. `tools/build_checklist_coverage.py` now marks non-investable merchant appendix rows with explicit `support_table_only` metadata instead of leaving them structurally unmatched.
 
 TB-031A is complete. `data/checklist-mapping/checklist-scope-review.md` records the scope decision: all 312 broad regular-book rows from the raw checklist are explicit exclusions from required route and appendix coverage, with `match_source=book_scope_review`. No `scope_review_required` rows remain.
 
-TB-031B is complete. `data/checklist-mapping/checklist-manual-review.md` records the manual-review resolution. `coverage-matrix.csv` now has no `manual_review_required` or `unmatched` rows. 195 formerly manual rows map to existing source-backed objective/support handling, and 90 checklist-only rows are typed `source_readiness_required` holds with named owners.
+TB-031B is complete. `data/checklist-mapping/checklist-manual-review.md` records the manual-review resolution. `coverage-matrix.csv` still has no `manual_review_required` or `unmatched` rows. At the TB-031B checkpoint, 195 formerly manual rows mapped to existing source-backed objective/support handling, and 90 checklist-only rows became typed `source_readiness_required` holds with named owners.
 
-TB-031C is complete. `data/checklist-mapping/checklist-escalation-decisions.md` records no all-target radiant escalation, required Thieves Guild 125-job counter coverage, canonical/default promotions, and branch-only holds. `coverage-matrix.csv` now has 3,076 main-route prototype rows, 30 branch prototype rows, 75 option-list rows, 107 appendix rows, 319 explicit exclusions, and 90 typed source-readiness holds. TB-031C also promoted canonical Thirsk Nord-side rows, Aetherial Crown, and Ring of Hircine to main-route handling, and moved `The Pit` to the Bittercup Power branch.
+TB-031C is complete. `data/checklist-mapping/checklist-escalation-decisions.md` records no all-target radiant escalation, required Thieves Guild 125-job counter coverage, canonical/default promotions, and branch-only holds. At the TB-031C checkpoint, `coverage-matrix.csv` had 3,076 main-route prototype rows, 30 branch prototype rows, 75 option-list rows, 107 appendix rows, 319 explicit exclusions, and 90 typed source-readiness holds. TB-031C also promoted canonical Thirsk Nord-side rows, Aetherial Crown, and Ring of Hircine to main-route handling, and moved `The Pit` to the Bittercup Power branch.
 
 TB-031D is complete. `data/route-planning/route-default-decisions.md` records route-shaping defaults for first safe storage, main base/home, property service timing, transport infrastructure, spouse/children/stewards/farm steward, Black Book powers, final transformation state, and representative no-journal activity/favor targets. Default-sensitive source notes, constraints, support rows, generated owner labels, and checklist coverage were updated.
 
-TB-031E is complete. `data/constraints/progression-source-selection.md` and generated `data/constraints/progression-source-selections.csv` record selected skill-book copies/read policy, spell-tome source defaults, enchantment source families, alchemy source methods, merchant investment circuit rules, crafting outputs/material staging, training blocks, Legendary reset distribution, Oghma timing, and exploit exclusions. `tools/build_checklist_coverage.py` now maps the TB-031E-owned `Damage Stamina` and `Kesh Fiber (AE)` aliases to source-backed objectives. `coverage-matrix.csv` now has 3,081 main-route prototype rows, 30 branch prototype rows, 75 option-list rows, 107 appendix rows, 319 explicit exclusions, and 85 typed source-readiness holds.
+TB-031E is complete. `data/constraints/progression-source-selection.md` and generated `data/constraints/progression-source-selections.csv` record selected skill-book copies/read policy, spell-tome source defaults, enchantment source families, alchemy source methods, merchant investment circuit rules, crafting outputs/material staging, training blocks, Legendary reset distribution, Oghma timing, and exploit exclusions. `tools/build_checklist_coverage.py` maps the TB-031E-owned `Damage Stamina` and `Kesh Fiber (AE)` aliases to source-backed objectives. At the TB-031E checkpoint, `coverage-matrix.csv` had 3,081 main-route prototype rows, 30 branch prototype rows, 75 option-list rows, 107 appendix rows, 319 explicit exclusions, and 85 typed source-readiness holds.
 
 TB-031F is complete. `data/checklist-mapping/counter-coverage-plan.md` and `SN-000127-checklist-counter-route-mechanics.md` record counter/action rules for trophy counters, Thieves Guild side jobs, Dawnguard `Lost Relic`, Fishing, work actions, support-only lumber/milling treatment, and trophy-pop fallbacks. TB-031F also added `OBJ-002785` through `OBJ-002789`, mapped `Scare My Enemy` to Hired Muscle, updated the Paarthurnax/Blades branch prototype, and regenerated route/checklist indexes.
 
-TB-031G is complete. `data/locations/location-route-validation.md` and `SN-000128-location-route-validation.md` record Delver/Explorer mechanics, normal clear-trigger policy, Angarvunde/Mistwatch exceptions, duplicate and secondary marker treatment, AE content-location handling, coordinate exception rules, separate-worldspace/manual geography handling, and the `The Chill*` official-scope exclusion. TB-031G updated location/objective support rows, regenerated route/checklist indexes, and reduced source-readiness holds to 78.
+TB-031G is complete. `data/locations/location-route-validation.md` and `SN-000128-location-route-validation.md` record Delver/Explorer mechanics, normal clear-trigger policy, Angarvunde/Mistwatch exceptions, duplicate and secondary marker treatment, AE content-location handling, coordinate exception rules, separate-worldspace/manual geography handling, and the `The Chill*` official-scope exclusion. TB-031G updated location/objective support rows, regenerated route/checklist indexes, and reduced source-readiness holds to 78 at that checkpoint.
 
-TB-031H is complete. `docs/source-objective-readiness-audit.md` records the source/objective/support-table/generated-index readiness audit. `sources/source-notes/README.md` now defines source-note status semantics, generated route/checklist/progression outputs no longer name TB-031H as a future owner, and the remaining 78 `source_readiness_required` rows are assigned to TB-036.
+TB-031H is complete. `docs/source-objective-readiness-audit.md` records the source/objective/support-table/generated-index readiness audit. `sources/source-notes/README.md` defines source-note status semantics, generated route/checklist/progression outputs no longer name TB-031H as a future owner, and the then-remaining 78 `source_readiness_required` rows were assigned to TB-036 before TB-031J pulled them forward.
 
-The current next task is TB-031I: close the final Phase 10 deferred-work audit before TB-032 starts.
+TB-031I is complete. `docs/deferred-work-audit.md` is closed; active generic deferrals are either completed, assigned to named downstream owners, or documented as QA risk. Stale branch/default/checklist wording in route prototypes was cleaned up before warning placement.
+
+TB-031J is complete. `data/checklist-mapping/source-readiness-resolutions.csv` and `SN-000129-checklist-source-readiness-forward-review.md` pull the 78 former TB-036 source-readiness rows forward before TB-032. The generated coverage matrix now has no `source_readiness_required` rows: 75 rows map to main-route prototype handling, 1 row maps to BR-007 branch coverage for `Reclamation Priest's Journal (AE)`, and 2 rows are explicit exclusions for regular-book/scope mismatches.
+
+The current next task is TB-032: add the warning and hard-save layer.
 
 ## Restart Checklist
 
@@ -61,31 +65,30 @@ At the start of the next session:
 7. Read `data/objectives/phase-2-research-inputs.md`.
 8. Read `data/constraints/README.md`, then `data/constraints/ae-creation-start-triggers.md`, `data/constraints/leveled-unique-items.md`, `data/constraints/cell-entry-locks.md`, `data/constraints/quest-conflicts-hard-saves.md`, `data/constraints/trophy-dependencies.md`, `data/constraints/npc-dependencies.md`, `data/constraints/bug-prone-quests.md`, `data/constraints/radiant-boundaries.md`, `data/constraints/survival-mode-constraints.md`, and `data/constraints/skill-perk-leveling-plan.md` for Phase 2 overlaps.
 9. Read `data/locations/location-catalog.csv`, `data/locations/location-coordinates.csv`, `data/locations/location-coordinate-reconciliation.md`, `data/locations/location-geography.csv`, `data/locations/location-geography-reconciliation.md`, and `data/locations/location-route-validation.md` before changing geography-sensitive tasks.
-10. Read `data/checklist-mapping/README.md`, `data/checklist-mapping/checklist-coverage-strategy.md`, `data/checklist-mapping/checklist-coverage-summary.md`, `data/checklist-mapping/checklist-scope-review.md`, `data/checklist-mapping/checklist-manual-review.md`, `data/checklist-mapping/checklist-escalation-decisions.md`, `data/checklist-mapping/counter-coverage-plan.md`, `data/route-planning/route-default-decisions.md`, `data/constraints/progression-source-selection.md`, `data/constraints/progression-source-selections.csv`, `data/checklist-mapping/coverage-matrix.csv`, `docs/source-objective-readiness-audit.md`, and `docs/deferred-work-audit.md` before TB-031I or later checklist/coverage work.
+10. Read `data/checklist-mapping/README.md`, `data/checklist-mapping/checklist-coverage-strategy.md`, `data/checklist-mapping/checklist-coverage-summary.md`, `data/checklist-mapping/checklist-scope-review.md`, `data/checklist-mapping/checklist-manual-review.md`, `data/checklist-mapping/checklist-escalation-decisions.md`, `data/checklist-mapping/counter-coverage-plan.md`, `data/checklist-mapping/source-readiness-resolutions.csv`, `data/route-planning/route-default-decisions.md`, `data/constraints/progression-source-selection.md`, `data/constraints/progression-source-selections.csv`, `data/checklist-mapping/coverage-matrix.csv`, `docs/source-objective-readiness-audit.md`, and `docs/deferred-work-audit.md` before TB-032 or later checklist/coverage work.
 11. Read `data/objectives/route-rigidity-classification-notes.md`, `data/route-planning/README.md`, `data/route-planning/objective-route-index.csv`, `data/route-planning/objective-constraints.csv`, `data/route-planning/prototype-objective-block-map.csv`, `drafts/route-prototypes/route-anchors-v0.md`, `drafts/route-prototypes/level-gated-skeleton-v0.md`, `drafts/route-prototypes/survival-geography-pass-v0.md`, `drafts/route-prototypes/main-route-prototype-v0.md`, `drafts/branch-routes/README.md`, and the TB-029 branch prototype files before TB-032 or later route-placement work.
 12. Run `git status --short` and preserve unrelated existing changes.
 13. For UESP page fetches, prefer `python3 tools/fetch_uesp.py 'Skyrim:Page Title' --mode wikitext` or `--mode html`; direct raw `curl` may trigger Cloudflare without a browser User-Agent. For Gamemap marker refreshes, use `python3 tools/fetch_uesp_gamemap.py`, regenerate coordinates with `python3 tools/build_location_coordinates.py`, then regenerate geography with `python3 tools/build_location_geography.py`. For route-planning index refreshes, run `python3 tools/build_route_planning_index.py`, `python3 tools/build_prototype_objective_block_map.py`, and optionally `python3 tools/build_route_planning_database.py`.
 
 ## Next Task Details
 
-Start TB-031I by re-scanning deferral language and closing the Phase 10 deferred-work audit before TB-032 warning placement starts. Use `docs/deferred-work-audit.md`, `docs/source-objective-readiness-audit.md`, `docs/task-board.md`, `docs/session-handoff.md`, `data/checklist-mapping/checklist-coverage-summary.md`, `data/checklist-mapping/checklist-coverage-strategy.md`, `data/checklist-mapping/coverage-matrix.csv`, `data/route-planning/README.md`, `data/route-planning/prototype-objective-block-map.csv`, current route prototypes, current branch prototypes, and `docs/source-standards.md`.
+Start TB-032 by adding the warning and hard-save layer. Use `drafts/route-prototypes/main-route-prototype-v0.md`, `data/constraints/quest-conflicts-hard-saves.md`, `data/constraints/leveled-unique-items.md`, `data/constraints/cell-entry-locks.md`, `data/constraints/trophy-dependencies.md`, `data/constraints/npc-dependencies.md`, `data/constraints/bug-prone-quests.md`, `data/constraints/radiant-boundaries.md`, `data/constraints/survival-mode-constraints.md`, `data/checklist-mapping/counter-coverage-plan.md`, `data/locations/location-route-validation.md`, `drafts/branch-routes/README.md`, the TB-029 branch prototype files, `docs/deferred-work-audit.md`, and `docs/source-standards.md`.
 
 Primary output:
 
-* final updates to `docs/deferred-work-audit.md`
-* targeted wording cleanup where active prose still hides a route-affecting deferral behind generic `later`, `manual validation`, `needs review`, `source readiness`, or stale task-owner language
+* concise warning and hard-save annotations in the route-prototype layer
+* updates to `data/constraints/quest-conflicts-hard-saves.md` only if warning placement needs a clearer hard-save register entry
 * task-board and handoff status updates when complete
-* regenerated route/checklist indexes only if canonical metadata changes require it
+* regenerated route/checklist indexes only if warning metadata changes affect generated labels
 
-TB-031I rules:
+TB-032 rules:
 
-* Treat TB-031A through TB-031H as complete unless the scan finds a concrete inconsistency.
-* For each active deferral phrase, confirm it is completed, assigned to a specific later task with a reason, or recorded as an unresolved risk.
-* Distinguish historical task-board/session-handoff history from current unresolved work.
+* Keep warnings concise and placed exactly where needed: hard saves, do-not-enter gates, do-not-turn-in gates, do-not-sell/disenchant notes, branch save/reload points, NPC dependency warnings, trophy-pop saves, and bug mitigations.
+* Do not resolve Phase 10 checklist/default/progression/counter/location/readiness decisions inside the warning layer.
+* Do not write final black-box route prose or reorder the whole route; preserve the prototype layer.
+* Use source-backed constraint rows for gameplay warnings, and cite or preserve the relevant source-note references.
 * Do not do broad gameplay research. If a concrete row needs a gameplay correction, source-check only that row and cite it under `docs/source-standards.md`.
-* Run `python3 tools/build_checklist_coverage.py`, `python3 tools/validate_all.py`, and `git diff --check`; run route/progression generators first only if metadata changes affect generated labels.
-
-TB-032 should wait until TB-031I is complete. When starting TB-032, use the warning-layer rules from the task board and do not re-open already resolved checklist/default/progression/location/readiness buckets inside warning prose.
+* Run affected route/checklist generators if metadata changes require it, then `python3 tools/build_checklist_coverage.py`, `python3 tools/validate_all.py`, and `git diff --check`.
 
 TB-027 support handoffs:
 

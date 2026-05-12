@@ -63,7 +63,7 @@ Warnings and handoffs:
 | Hard save | `HS-AE-GHOSTS-TEMPLE` before committing to heretic join/infiltrate versus destruction. |
 | Canonical resume | Reload and continue the join/infiltrate path. |
 | Branch goal | Record the destroy-heretics alternate state, including lost armory-key/Skullcrusher access and alternate Temple state, without losing main-route armory/crafting/follower coverage. |
-| Source support | `SN-000099`. |
+| Source support | `SN-000099`; `SN-000129`. |
 
 Affected objective queue:
 
@@ -76,13 +76,14 @@ Affected objective queue:
 | `OBJ-000619` | `Her Word Against Theirs` | Record branch-specific propaganda/Temple-state consequences if available. |
 | `OBJ-000620` | `Trueflame` | Record branch-specific access differences if affected by destroyed-heretic state. |
 | `OBJ-000740` | `Ghosts of the Tribunal Equipment Parent Set` | Record unavailable or altered equipment access, especially armory-key and Skullcrusher consequences. |
+| Checklist cue | `Reclamation Priest's Journal (AE)` | TB-031J maps this to BR-007 because the source ties it to giving propaganda to the Reclamation Priest and his later Ashfall's Tear attack state. Record it as branch-only checklist coverage unless TB-033 proves a main-continuity-safe acquisition. |
 
 Warnings and handoffs:
 
 | Topic | TB-029 handling |
 | --- | --- |
 | Main default | Join/infiltrate remains canonical because it preserves armory access, crafting permissions, followers, companion tasks, and Skullcrusher access. |
-| Equipment coverage | TB-031C found no checklist evidence requiring a larger destroy-only or join-only equipment branch. TB-031H audited readiness ownership; TB-036 still validates Ghosts book/document source-readiness rows, and TB-033 verifies final branch/checklist coverage. |
+| Equipment and document coverage | TB-031C found no equipment evidence requiring a larger destroy-only or join-only branch. TB-031J resolves the Ghosts source-readiness document rows: ordinary Ashfall's Tear or carried journals map to main Ghosts handling, while `Reclamation Priest's Journal (AE)` maps to this branch. TB-033 verifies final branch/checklist coverage. |
 | Route granularity | This branch should be an alternate-state audit, not a second copy of every Ghosts quest step. |
 | Reload point | After destroy-heretics audit, reload `HS-AE-GHOSTS-TEMPLE` and continue join/infiltrate continuity. |
 

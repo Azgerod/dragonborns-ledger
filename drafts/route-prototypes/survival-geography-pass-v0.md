@@ -26,10 +26,10 @@ No new gameplay research was performed for this pass. Gameplay facts are carried
 | Geography is not hold membership. | Use hub/corridor, worldspace, access model, transport, cold risk, and rest/base fields. Do not group by hold alone. |
 | Straight-line support is not pathfinding. | Validate roads, passes, water, quest access, enemy pressure, weather, and exact entrances before route prose. |
 | Level gates still win. | Survival convenience cannot cross the TB-024 mandatory gates at levels 8, 25, 27, 32, 36, 40, 46, 60, 78, 80, or 252. |
-| Branch defaults remain deferred. | Do not choose canonical Hircine, Aetherial, Thirsk, Bittercup, Velehk Sain, Ghosts of the Tribunal, or similar unresolved defaults before TB-028. |
-| Flexible objectives remain deferred. | TB-026 inserts safe nearby objectives after this corridor frame exists. |
+| Branch defaults are external to this geography pass. | Use TB-028 defaults, TB-029 branch prototypes, and TB-031C checklist escalation decisions rather than choosing branch policy here. |
+| Flexible objective insertion is complete at prototype level. | TB-026 inserted safe nearby objective queues into the corridor frame; TB-034 still chooses final step order. |
 | Skill/perk/grind detail is block-level only. | TB-027 supplies progression blocks, underleveled fallbacks, and the Legendary reset baseline; exact source choices, checklist cues, warning prose, and final validation remain later work. |
-| Checklist synchronization remains deferred. | TB-030 mapped the raw checklist; TB-031A through TB-031I resolve review buckets, defaults, counters, location validation, source/index readiness, and route-affecting checklist decisions before warning prose. |
+| Checklist synchronization is complete at prototype/audit level. | TB-030 mapped the raw checklist; TB-031A through TB-031J resolved review buckets, defaults, counters, location validation, source/index readiness, source-readiness rows, and route-affecting checklist decisions before warning prose. |
 
 ## Terms
 
@@ -130,7 +130,7 @@ The TB-024 skeleton remains the level/reward law. This table adds Survival geogr
 | S12 | Solstheim and late mythic consolidation. Treat Raven Rock/Severin as the island logistics spine, not ordinary Skyrim backtracking. | `raven_rock_west`, `thirsk_central`, `skaal_north`, `tel_mithryn_east`, plus separate-worldspace/AE expedition blocks. | Raven Rock restock, Severin storage only after validation, hot soup ingredients/warmth kit, ferry return plan, cold-interior handling, and Black Book/Dragonborn progression checks. | Final Miraak safe at 60+; Legendary Dragon still waits for 78 and Ebony Warrior for 80. |
 | S13 | Legendary Dragon checkpoint. Geography should serve combat readiness, not checklist cleanup sprawl. | Prepared dragon-hunt block in a supportable exterior region. | Verified bed, food and hot soup ingredients if cold, healing, carry space, and recovery endpoint. | Level 78 only; Ebony Warrior remains locked until 80. |
 | S14 | Late high-risk and progression tail. Use established bases, transport, and known corridors to finish remaining hard content without unstable backtracking. | Any corridor, but each block must have a rest/base/transport endpoint and avoid unnecessary cold exposure. | Final combat kit, storage, sell-off, sleep-before-level checks, and bounded reset recovery planning. | Level 80 Ebony Warrior; all-perks grind still not final until 252. |
-| S15 | All-perks and final reconciliation. Geography becomes cleanup validation, not discovery by wandering. | Corridor-by-corridor final audit after TB-031A-TB-031I reconciliation. | Stable checklist map, final storage/display policy, all skills restored to 100 after resets, and explicit remaining travel loops. | Level 252 all-perks finalization and complete route/checklist reconciliation. |
+| S15 | All-perks and final reconciliation. Geography becomes cleanup validation, not discovery by wandering. | Corridor-by-corridor final audit after TB-031A-TB-031J reconciliation. | Stable checklist map, final storage/display policy, all skills restored to 100 after resets, and explicit remaining travel loops. | Level 252 all-perks finalization and complete route/checklist validation. |
 
 ## Route Block Frame for TB-026
 
@@ -152,7 +152,7 @@ TB-026 should use these blocks as insertion containers. A block can contain ques
 | G11 | Dawnguard expedition. | `dayspring_canyon`, `icewater_volkihar_ferry`, related separate interiors/worldspaces after validation. | S11-S12 | `Bloodline` hard save, ferry/cold kit, transformation/trophy planning, food/rest/carry plan. | Choosing Volkihar branch depth or Aetherial default before TB-028. |
 | G12 | Solstheim/Raven Rock spine. | `raven_rock_west`, then `thirsk_central`, `skaal_north`, `tel_mithryn_east`. | S11-S12 | Raven Rock inn/restock, ferry return, Severin validation before storage, cold kit, camps as backup only. | Broad island cleanup before support is established or final Miraak before 60. |
 | G13 | Separate-worldspace and AE high-risk expeditions. | Manual/not-comparable rows, Black Books/Apocrypha, Skuldafn, Deadlands, and similar route-specific spaces after validation. | S11-S14 | Parent quest access, explicit exit/recovery path, inventory/carry plan, and source-row validation. | Automated placement from straight-line geography. |
-| G14 | Late cleanup by corridor. | All corridors, one supportable loop at a time. | S14-S15 | Checklist map, final storage/display policy, bed/food/carry endpoints, remaining objective validation. | Replacing TB-031A-TB-031I reconciliation or TB-033 constraint validation. |
+| G14 | Late cleanup by corridor. | All corridors, one supportable loop at a time. | S14-S15 | Checklist map, final storage/display policy, bed/food/carry endpoints, remaining objective validation. | Replacing TB-031A-TB-031J reconciliation or TB-033 constraint validation. |
 
 ## Prepared Sweep Requirements
 

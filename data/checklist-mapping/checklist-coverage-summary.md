@@ -1,12 +1,12 @@
 # Checklist Coverage Summary
 
-Status: TB-031H source/objective/support readiness audit complete.
+Status: TB-031J source-readiness review complete.
 
 Raw input: `data/checklist-mapping/raw/Skyrim Checklist.xlsx`
 
 Generated output: `data/checklist-mapping/coverage-matrix.csv`
 
-TB-031H audited source/objective/support-table readiness ownership and removed TB-031H from generated future-owner labels. The matrix is generated from the raw workbook plus existing objective, support-table, route-planning, branch-prototype, default, progression-selection, counter-planning, location-validation, and readiness-audit artifacts.
+TB-031J pulled the remaining source-readiness rows forward from TB-036, added `data/checklist-mapping/source-readiness-resolutions.csv`, and resolved the last 78 checklist source-readiness holds as source-backed mappings, branch coverage, or explicit exclusions. The matrix is generated from the raw workbook plus existing objective, support-table, route-planning, branch-prototype, default, progression-selection, counter-planning, location-validation, readiness-audit, and TB-031J source-readiness artifacts.
 
 ## Intake Counts
 
@@ -30,23 +30,21 @@ TB-031H audited source/objective/support-table readiness ownership and removed T
 
 | Mapping type | Rows | Meaning |
 | --- | ---: | --- |
-| Main-route prototype block | 3,085 | Matched to an objective or support row currently assigned to main-route prototype handling. Final guide step numbers remain later work. |
-| Explicit exclusion | 320 | Source-backed exclusion or current-scope exclusion with justification. Includes 312 broad regular-book rows resolved by TB-031A and the TB-031G `The Chill*` official-scope exclusion. |
+| Main-route prototype block | 3,160 | Matched to an objective or support row currently assigned to main-route prototype handling. Final guide step numbers remain later work. |
+| Explicit exclusion | 322 | Source-backed exclusion or current-scope exclusion with justification. Includes 312 broad regular-book rows resolved by TB-031A, the TB-031G `The Chill*` official-scope exclusion, and two TB-031J regular-book/skill-book misclassification exclusions. |
 | Appendix-only checklist | 107 | Tracked outside the current main-route prototype as appendix/reference coverage. |
-| Source-readiness hold | 78 | Checklist-only rows carried as typed source-readiness work for TB-036; not route-ready until validated, promoted, or excluded. |
 | Option-list note | 75 | Matched to route-default and option-list recommendation surfaces rather than routed branches. |
-| Branch-route prototype | 32 | Matched to TB-029 branch prototype coverage. |
+| Branch-route prototype | 33 | Matched to TB-029 branch prototype coverage. |
 
 ## Status Counts
 
 | Status | Rows |
 | --- | ---: |
-| `mapped_to_route_prototype` | 3,085 |
-| `excluded_with_justification` | 320 |
+| `mapped_to_route_prototype` | 3,160 |
+| `excluded_with_justification` | 322 |
 | `mapped_to_appendix` | 107 |
-| `source_readiness_required` | 78 |
 | `mapped_to_option_list` | 75 |
-| `mapped_to_branch_prototype` | 32 |
+| `mapped_to_branch_prototype` | 33 |
 
 ## Resolved Scope Buckets
 
@@ -67,15 +65,18 @@ TB-031H audited source/objective/support-table readiness ownership and removed T
 | TB-031G-owned location hold resolved | 1 | `The Chill*` is now an explicit exclusion under official PS4 AE scope because its map marker is USKP-only, not official Skyrim. |
 | Source-readiness holds after TB-031G | 78 | Remaining holds entered TB-031H readiness audit. |
 | TB-031H owner audit | 78 | TB-031H assigned the remaining checklist-only holds to TB-036 book/document, skill-book, or unique-gear source-readiness validation. No generated checklist row now names TB-031H as a future owner. |
+| TB-031J source-readiness rows pulled forward | 78 | TB-031J resolved the remaining holds before TB-032: 75 rows now map to main-route prototype handling, 1 row maps to BR-007 branch-prototype coverage, and 2 regular-book/scope rows are explicit exclusions. |
 | Generic manual review | 0 | `tools/validate_coverage.py` no longer allows unmatched/manual-review rows. |
 
-## Source-Readiness Holds
+## Source-Readiness Resolutions
 
-| Bucket | Rows | Owner |
+| Bucket | Rows | TB-031J treatment |
 | --- | ---: | --- |
-| Book/document rows | 43 | TB-036 book/document appendix source-readiness review. |
-| Unique item rows | 34 | TB-036 unique-gear appendix source-readiness review. |
-| Skill-book row | 1 | TB-036 skill-book appendix source-readiness review. |
+| Unique item rows | 34 | Mapped to source-backed parent objective, route block, or location handling. |
+| AE book/document rows | 41 | Mapped to existing main-route AE quest/package handling. |
+| Ghosts branch document row | 1 | `Reclamation Priest's Journal (AE)` maps to BR-007 because the source ties it to the Reclamation Priest attack-state branch. |
+| Regular/scope book rows | 2 | `A Kiss, Sweet Mother` and `Pension of the Ancestor Moth` are explicit exclusions after source checking. |
+| Remaining `source_readiness_required` rows | 0 | No checklist source-readiness holds remain before TB-032. |
 
 ## Handoffs
 
@@ -90,7 +91,8 @@ TB-031H audited source/objective/support-table readiness ownership and removed T
 | TB-031F | Complete: `counter-coverage-plan.md` records route-planning counter checkpoints, Thieves Guild 125-job policy, Lost Relic filler policy, Fishing/support-action treatment, trophy-pop fallbacks, and six source-readiness row resolutions. |
 | TB-031G | Complete: `location-route-validation.md` records Delver/Explorer mechanics, normal clear-trigger policy, duplicate/secondary marker handling, AE content-location treatment, coordinate/access rules, and the `The Chill*` official-scope exclusion. |
 | TB-031H | Complete: `docs/source-objective-readiness-audit.md` records source-note, objective-row, support-table, generated-index readiness, stale owner label, unknown/audit-only support row, and broad `later`/`manual validation` ownership treatment after TB-031A through TB-031G. |
-| TB-031I | Re-scan deferred-work language and close `docs/deferred-work-audit.md` before warning-layer work starts. |
-| TB-032 | Warning placement should proceed only after TB-031I so warnings use resolved checklist, default, progression, counter, branch, location, and source-readiness decisions. |
+| TB-031I | Complete: `docs/deferred-work-audit.md` is closed, and active generic deferrals have explicit downstream owners before warning-layer work starts. |
+| TB-031J | Complete: `source-readiness-resolutions.csv` and `SN-000129` resolve all remaining source-readiness rows before warning-layer work. |
+| TB-032 | Warning placement can now proceed using resolved checklist, default, progression, counter, branch, location, and source-readiness decisions. |
 | TB-033 | Validate that branch/checklist mappings still preserve canonical continuity and trophy/reward constraints. |
-| TB-036/TB-037 | Verify appendix and final checklist coverage after TB-031A/B/C/E/F/G/H and final guide drafting. |
+| TB-036/TB-037 | Verify appendix and final checklist coverage after TB-031A/B/C/E/F/G/H/I/J and final guide drafting; no source-readiness bucket remains for TB-036. |

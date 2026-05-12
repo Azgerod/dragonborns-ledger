@@ -20,11 +20,11 @@ TB-031B uses these rows only to preserve checklist synchronization pressure. A r
 
 ## Evidence Summary
 
-The TB-031B generator pass mapped naming, spelling, abbreviation, parent-objective, quest-detail, and location-detail gaps to existing source-backed rows where the repository already had source support. Remaining checklist-only rows are carried as typed source-readiness holds. They are grouped by category and owner in `data/checklist-mapping/checklist-manual-review.md`.
+The TB-031B generator pass mapped naming, spelling, abbreviation, parent-objective, quest-detail, and location-detail gaps to existing source-backed rows where the repository already had source support. Remaining checklist-only rows were carried as typed source-readiness holds. They are grouped by category and owner in `data/checklist-mapping/checklist-manual-review.md`; TB-031J later resolved the final source-readiness queue in `data/checklist-mapping/source-readiness-resolutions.csv`.
 
 ## Confidence and Open Questions
 
-Confidence is high that the listed checklist rows exist in the workbook snapshot. Confidence is not asserted for gameplay availability, PS4 AE scope, route safety, or final completion value of any `source_readiness_required` row. TB-031H audited ownership for the remaining rows; unresolved book/document, skill-book, and unique-gear source-readiness holds are now assigned to TB-036 in the coverage matrix.
+Confidence is high that the listed checklist rows exist in the workbook snapshot. Confidence is not asserted here for gameplay availability, PS4 AE scope, route safety, or final completion value of any historical `source_readiness_required` row. TB-031H audited ownership for the remaining rows; TB-031J then source-checked and resolved the book/document, skill-book, and unique-gear source-readiness holds before TB-032.
 
 ## Linked Records
 
