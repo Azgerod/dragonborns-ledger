@@ -1,6 +1,6 @@
 # Source Note: Transformation Power Sets
 
-Status: needs review.
+Status: researched; TB-031D final-state default added.
 
 Source note ID: SN-000050
 
@@ -31,7 +31,7 @@ UESP identifies Beast Form and Vampire Lord as transformation powers with associ
 
 ## Confidence and Open Questions
 
-Confidence is high that the transformation systems need coverage. Exact acquisition timing, cure sequencing, final state, Serana/Harkon/Aela dependencies, Vampire Lord on a Dawnguard canonical route, werewolf and vampire perk-grind routing, and trophy-safe branch handling remain deferred.
+Confidence is high that the transformation systems need coverage. TB-031D selects a final mortal state after werewolf and Vampire Lord perk/power coverage is complete. Exact acquisition timing, cure sequencing, Serana/Harkon/Aela dependencies, Vampire Lord on a Dawnguard canonical route, werewolf and vampire perk-grind routing, and trophy-safe branch handling remain deferred to TB-031E/TB-032/TB-033.
 
 ## Linked Records
 

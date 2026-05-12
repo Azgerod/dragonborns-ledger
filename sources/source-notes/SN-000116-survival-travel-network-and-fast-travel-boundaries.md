@@ -36,7 +36,7 @@ Horses increase movement speed and let the player ride while over-encumbered. Th
 
 ## Confidence and Open Questions
 
-Confidence is high for transport-network boundaries. Later route passes must choose exact timing for first owned horse, Hearthfire carriage services, Dead Man's Dread, Arvak or other summonable mounts, and dragon riding. Those are route-efficiency decisions layered on top of the fixed Survival travel rules.
+Confidence is high for transport-network boundaries. TB-031D selects Whiterun Stable Horse as first bought horse, all three Hearthfire carriage drivers after service prerequisites, delayed Dead Man's Dread use after acquisition/destination validation, and ordinary route handling for Frost, Shadowmere, and Arvak when their parent quests unlock. Later route passes must still choose exact timing, dragon-riding cleanup use, and validation/warning wording.
 
 ## Linked Records
 

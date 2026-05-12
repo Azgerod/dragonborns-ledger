@@ -960,7 +960,7 @@ def classify(entry: ChecklistEntry, objective_id: str, match_source: str, indexe
             row["status"] = "mapped_to_branch_prototype"
         elif route_placement == "option_list":
             row["mapping_type"] = "Option-list note"
-            row["guide_location"] = deferred_to or disposition or "TB-035 option/default pass"
+            row["guide_location"] = deferred_to or disposition or "TB-031D route-default register / TB-035 option presentation"
             row["status"] = "mapped_to_option_list"
         elif route_placement == "appendix":
             row["mapping_type"] = "Appendix-only checklist"
@@ -1014,9 +1014,9 @@ def classify(entry: ChecklistEntry, objective_id: str, match_source: str, indexe
 
     if entry.category == "follower_option" and match_source == "npc_option_table":
         row["mapping_type"] = "Option-list note"
-        row["guide_location"] = "TB-035 option/default pass"
+        row["guide_location"] = "TB-031D route-default register / TB-035 option presentation"
         row["status"] = "mapped_to_option_list"
-        row["notes"] = "Matched to relationship option table; final default/recruitment recommendation remains later work."
+        row["notes"] = "Matched to relationship option table; TB-031D records route-affecting defaults and TB-035 presents non-default options."
         return row
 
     if entry.category in SOURCE_READINESS_BY_CATEGORY:

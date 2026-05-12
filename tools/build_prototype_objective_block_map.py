@@ -37,7 +37,7 @@ FIXED_EARLY = {
     "OBJ-000705": (
         "G00",
         "inserted_setup_support",
-        "TB-031D/TB-031E/TB-032",
+        "TB-031E/TB-032",
         "System coverage only; actual camping-supply crafting waits for material, station, carry, Survival, checklist, and warning validation.",
     ),
 }
@@ -373,7 +373,7 @@ def fixed_late_block(row: dict[str, str]) -> tuple[str, str]:
 def support_selection_owner(row: dict[str, str]) -> str:
     category = row["category"]
     if category == "property":
-        return "TB-031D"
+        return "TB-031E/TB-032/TB-034"
     if category in {"trophy", "collectible"}:
         return "TB-031F"
     if category in {"book_document", "spell_power", "crafting_unlock"}:
@@ -386,18 +386,18 @@ def support_selection_owner(row: dict[str, str]) -> str:
 def unresolved_support_owner(row: dict[str, str]) -> str:
     category = row["category"]
     if category == "property":
-        return "TB-031D"
+        return "TB-031E/TB-032/TB-034"
     if category in {"book_document", "spell_power", "crafting_unlock"}:
         return "TB-031E"
     if category in {"trophy", "collectible"}:
         return "TB-031F"
-    return "TB-031B/TB-031D/TB-031E"
+    return "TB-031E/TB-031H/TB-034"
 
 
 def dependency_anchor_owner(row: dict[str, str]) -> str:
     category = row["category"]
     if category in {"npc_relationship", "pet_mount"}:
-        return "TB-031D"
+        return "TB-032/TB-034/TB-035"
     if category == "radiant":
         return "TB-031F"
     if category == "unique_item":
@@ -412,7 +412,7 @@ def non_main_assignment(row: dict[str, str]) -> tuple[str, str, str, str]:
     if placement == "branch_route":
         return "", "held_branch_deferred", BRANCH_OWNER, "Branch-exclusive or unresolved branch-default row."
     if placement == "option_list":
-        return "", "held_option_list", "TB-031D/TB-035", "Isolated default/option selection, not routed as a main step."
+        return "", "held_option_list", "TB-031D route-default-decisions.md; TB-035 option presentation", "Isolated default/option selection, not routed as a main step."
     if placement == "appendix":
         return "", "held_appendix", "TB-031A/TB-031B/TB-036", "Reference/checklist row, not a main-route insertion step."
     if placement == "excluded":
@@ -471,7 +471,7 @@ def main_assignment(row: dict[str, str], location_lookup: dict[str, str]) -> tup
     if candidate_status == "single_support_candidate":
         if len(blocks) == 1:
             if category == "property":
-                return blocks[0], "support_candidate_conditional", "TB-031D", "Property/home candidate assigned to a regional block, but acquisition, ownership, safe storage, and support use remain conditional."
+                return blocks[0], "support_candidate_conditional", "TB-032/TB-034", "Property/home candidate assigned to a regional block, but acquisition, ownership, safe storage, and support use remain conditional."
             return blocks[0], "inserted_support_candidate", "route_block", "Single support candidate assigned to the matching route block; availability remains conditional."
         return "", "support_candidate_conditional", unresolved_support_owner(row), "Single support candidate lacks a resolved route block; inspect support row before placement."
 

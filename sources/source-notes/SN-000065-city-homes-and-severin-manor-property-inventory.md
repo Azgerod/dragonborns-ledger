@@ -28,7 +28,7 @@ The same Houses page lists Severin Manor under Dragonborn houses and describes i
 
 ## Confidence and Open Questions
 
-Confidence is high for source-list property membership. Exact acquisition prerequisites, Civil War steward/Jarl state, gold timing, storage safety, furnishing tradeoffs, child-bedroom choices, bug mitigations, family-home recommendations, and Survival Mode route value remain deferred to property, conflict, NPC, bug, economy, and route passes.
+Confidence is high for source-list property membership. TB-031D selects Breezehome as first-storage bridge, Tundra Homestead as main base, Goldenhills as farm support, and Severin Manor as Solstheim base after verification. Exact acquisition prerequisites, Civil War steward/Jarl state, gold timing, storage safety, furnishing tradeoffs, child-bedroom implementation, bug mitigations, and route timing remain deferred to property, conflict, NPC, bug, economy, and route passes.
 
 ## Linked Records
 

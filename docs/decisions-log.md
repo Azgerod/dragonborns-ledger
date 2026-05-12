@@ -35,16 +35,32 @@ This log records user-resolved project decisions that shape the guide. `docs/gui
 | Fully route by default | Volkihar branch, Destroy the Dark Brotherhood, Stormcloak Civil War if distinct enough, Blades/Paarthurnax alternative, major Daedric alternate outcomes, and AE Creation branches with substantial alternate content or unique rewards. |
 | Note/list only by default | Isolated preference choices such as spouse, adopted children, stewards, house decoration, minor dialogue variants, and similar choices without material route consequences. |
 
+## 2026-05-12 - Route Default Recommendations
+
+TB-031D resolves route-shaping defaults for the main continuity. Non-default candidates remain available for TB-035 option-list presentation.
+
+| Area | Resolved recommendation |
+| --- | --- |
+| First safe storage | Breezehome after legal purchase/furnishing/storage verification; inns and short sell-off loops before then. |
+| Main base/home | Tundra Homestead after purchase and storage/family verification. |
+| Food/income base | Goldenhills Plantation as food, pantry, income, crop, and Rorikstead-area support after setup; not the primary unique-display base until validation. |
+| Solstheim base | Severin Manor only after `Served Cold` and ownership/container verification. |
+| Hearthfire property order | Prioritize Lakeview Manor before Dark Brotherhood `Kill Helvard`; then Windstad Manor and Heljarchen Hall as route windows allow. |
+| Hearthfire wings | Lakeview: Armory, Storage Room, Bedrooms. Windstad: Kitchen, Alchemy Laboratory, Greenhouse. Heljarchen: Library, Trophy Room, Enchanter's Tower. |
+| Hearthfire services | Assign one steward per homestead, hire all three carriage drivers, hire bards only after Main Hall readiness, and keep construction/furnishing verification saves. |
+| Travel infrastructure | Buy Whiterun Stable Horse early; keep Frost, Shadowmere, and Arvak when their parent quests unlock; hire Hearthfire carriages; treat ferries/boats as prepared travel legs. |
+| Spouse | Recommend Ysolda, with marriage completed before any Volkihar branch attempt that includes `The Gift`. |
+| Adopted children | Recommend Lucia and Sofie after a valid child-ready home exists; do not orphan extra children for route convenience. |
+| Household pet | No child-pet default unless a later verified pet route deliberately selects one. |
+| Hearthfire stewards | Rayya for Lakeview, Valdimar for Windstad, and Gregor for Heljarchen, if their housecarl states are unlocked and verified. |
+| Goldenhills steward and farmhands | Faendal as default Goldenhills steward after early follower/training needs are resolved; generic steward-hired farmhands by default. |
+| Black Book powers | Waking Dreams reset service reserved for late controlled windows; Dragonborn Force, Secret of Arcana, Mora's Boon, Seeker of Sorcery standing default with temporary crafting switches, Secret Servant, and Scholar's Insight until skill-book completion then Companion's Insight. |
+| Final transformation state | End mortal after werewolf and Vampire Lord perk/power windows are complete. |
+| Representative no-journal targets | Hod for Chop Wood, Alfhild Battle-Born for crop sale, Grogmar gro-Burzag for Mine Ore, Uthgerd for brawl, Brenuin for beggar favor, and Embry for drunk favor. |
+
 ## Remaining Writer-Recommended Defaults
 
 The specification says these are not yet user-resolved and require later research-backed recommendations:
 
-* Spouse.
-* Adopted children.
-* Hearthfire stewards.
-* Farm steward, if applicable.
-* Main base/home.
-* Black Book powers.
-* Final transformation state.
 * Acceptable exploit list and exact conditions for use.
 * Exact distribution of grinding/leveling blocks across the route.

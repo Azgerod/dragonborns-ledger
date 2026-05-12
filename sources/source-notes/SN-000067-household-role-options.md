@@ -1,12 +1,12 @@
 # Source Note: Household Role Options
 
-Status: needs review.
+Status: researched; TB-031D defaults added.
 
 Source note ID: SN-000067
 
 ## Claim
 
-Spouse, adopted-child, personal-steward, homestead-bard, carriage-service, and Goldenhills farmhand choices should be tracked as option lists rather than hard-save branch routes at this stage.
+Spouse, adopted-child, personal-steward, homestead-bard, carriage-service, and Goldenhills farmhand choices should be tracked as option lists rather than hard-save branch routes. TB-031D records the main-route defaults while preserving the remaining candidates for TB-035 option-list presentation.
 
 ## Routing Relevance
 
@@ -28,11 +28,11 @@ The specification says isolated role-assignment choices should be listed with a 
 
 The Marriage page lists 67 marriage candidates split into female and male NPC tables. The Adoption page lists adoptable children from Honorhall Orphanage and elsewhere, plus child pet options. The Personal Steward page lists steward commands/services, Goldenhills farm services, and 35 candidates who can become stewards. The Bardic Performances page identifies the Hearthfire homestead bards, while Hearthfire and Goldenhills sources establish carriage-driver, bard, steward, and farmhand service categories.
 
-`data/npc/relationship-options.csv` now records these role candidates and services as option-list data rather than individual routed branches. Later passes still need to recommend defaults and validate NPC safety, quest conflicts, spouse property, child-bedroom availability, steward assignment bugs, and farm staffing value.
+`data/npc/relationship-options.csv` now records these role candidates and services as option-list data rather than individual routed branches. TB-031D marks the selected route defaults in that table and in `data/route-planning/route-default-decisions.md`: Ysolda as spouse, Lucia and Sofie as adopted children, Rayya/Valdimar/Gregor as Hearthfire stewards, Faendal as Goldenhills steward, all Hearthfire bard and carriage services after prerequisites, and generic Goldenhills farmhands.
 
 ## Confidence and Open Questions
 
-Confidence is high for source-list candidate membership at this stage. Exact route timing, default spouse, adopted children, steward assignments, farmhand choice, household pet policy, service-hiring order, and bug mitigation remain deferred.
+Confidence is high for source-list candidate membership and TB-031D default selection. Exact route timing, NPC safety, spouse/family movement checks, child-bedroom availability, steward assignment bug mitigation, service-hiring warnings, and non-default option presentation remain downstream work.
 
 ## Linked Records
 

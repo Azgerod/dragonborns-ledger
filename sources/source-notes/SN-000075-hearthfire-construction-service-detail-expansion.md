@@ -30,7 +30,7 @@ UESP's Personal Steward page lists Hearthfire steward services: carriage driver,
 
 ## Confidence and Open Questions
 
-Confidence is high for source-listed Hearthfire construction, service, and material rows. Later passes must still decide default wing layouts, self-build versus steward furnishing policy, family-home defaults, property-service ordering, trophy timing on PS4, material procurement route, construction bug mitigations, and final safe-storage recommendations.
+Confidence is high for source-listed Hearthfire construction, service, and material rows. TB-031D selects the default wing layout, Hearthfire steward/service policy, and family-base direction. Later passes must still decide exact material procurement route, self-build details for checklist-sensitive furnishings, trophy timing on PS4, construction bug mitigations, and final safe-storage validation.
 
 ## Linked Records
 

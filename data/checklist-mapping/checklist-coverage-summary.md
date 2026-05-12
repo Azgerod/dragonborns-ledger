@@ -1,6 +1,6 @@
 # Checklist Coverage Summary
 
-Status: TB-031C escalation decisions complete.
+Status: TB-031D route-default decisions complete.
 
 Raw input: `data/checklist-mapping/raw/Skyrim Checklist.xlsx`
 
@@ -34,7 +34,7 @@ No new gameplay research was performed. The matrix is generated from the raw wor
 | Explicit exclusion | 319 | Source-backed exclusion or current-scope exclusion with justification. Includes 312 broad regular-book rows resolved by TB-031A. |
 | Appendix-only checklist | 107 | Tracked outside the current main-route prototype as appendix/reference coverage. |
 | Source-readiness hold | 90 | Checklist-only rows carried as typed source-readiness work for TB-031E through TB-031H/TB-036 plus TB-031F quest/counter review; not route-ready until validated, promoted, or excluded. |
-| Option-list note | 75 | Matched to option/default recommendation surfaces rather than routed branches. |
+| Option-list note | 75 | Matched to route-default and option-list recommendation surfaces rather than routed branches. |
 | Branch-route prototype | 30 | Matched to TB-029 branch prototype coverage. |
 
 ## Status Counts
@@ -83,7 +83,7 @@ No new gameplay research was performed. The matrix is generated from the raw wor
 | TB-031A | Complete: all 312 `scope_review_required` broad regular-book rows are explicit exclusions with justification and `match_source=book_scope_review`; no `scope_review_required` rows remain. |
 | TB-031B | Complete: no `manual_review_required` or `unmatched` rows remain. 195 rows were mapped to existing source-backed handling; 90 checklist-only rows are explicit `source_readiness_required` holds for named later tasks. |
 | TB-031C | Complete: `checklist-escalation-decisions.md` records no all-target radiant escalation, required Thieves Guild 125-job counter coverage, canonical/default promotions, and branch-only holds. |
-| TB-031D | Resolve route-affecting defaults and Survival logistics choices before warning/final-route prose depends on them. |
+| TB-031D | Complete: `data/route-planning/route-default-decisions.md` records route-affecting defaults for storage, bases, property services, travel, household roles, Black Book powers, final transformation state, and representative activity/favor targets. |
 | TB-031E | Resolve exact progression source selections, training/reset/grind distribution, crafting outputs, and allowed exploit conditions. |
 | TB-031F | Resolve checklist/trophy counter mechanics and route actions for counters and activity systems. |
 | TB-031G | Resolve location access, clear-trigger, discovery/clearance, duplicate-marker, separate-worldspace, and manual geography validation before route/warning prose depends on corridor data. |

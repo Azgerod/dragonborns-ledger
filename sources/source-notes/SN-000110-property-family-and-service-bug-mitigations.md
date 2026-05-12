@@ -33,9 +33,8 @@ The Adoption page records that adoption and later moves can fail, that being den
 
 ## Confidence and Open Questions
 
-Confidence is high that hard saves and verification checkpoints are needed before steward assignment, bard hiring, adoption, and family moves. Exact default spouse, children, stewards, bards, carriage drivers, wing layouts, and self-build versus steward-furnishing policy remain downstream decisions for TB-019, TB-020, TB-028, and TB-032.
+Confidence is high that hard saves and verification checkpoints are needed before steward assignment, bard hiring, adoption, and family moves. TB-031D has selected the spouse, children, steward, bard/carriage service, family-base, and wing-layout defaults. Exact construction materials, route timing, save wording, verification checkpoints, and final warning placement remain downstream decisions for TB-031E, TB-032, and route drafting.
 
 ## Linked Records
 
 `data/constraints/bug-prone-quests.md`; `data/properties/property-details.csv`; `data/npc/relationship-options.csv`; OBJ-000407 through OBJ-000412; OBJ-001945 through OBJ-001954; OBJ-001919 through OBJ-001925.
-

@@ -39,7 +39,7 @@ Camping adds a movable campsite with shelter, a warmth-providing campfire, limit
 
 ## Confidence and Open Questions
 
-Confidence is high that base/storage/food/carry infrastructure must be planned before large sweeps. The final recommended main base, first storage purchase, farm crop mix, pet/follower cargo policy, and camping-supply stock levels are still open route decisions. Property safe-storage final approval and bug-safe acquisition sequencing remain constrained by existing property and bug tables.
+Confidence is high that base/storage/food/carry infrastructure must be planned before large sweeps. TB-031D selects Breezehome as first-storage bridge, Tundra Homestead as main base, Goldenhills as food/income support, Severin Manor as Solstheim base, and Whiterun Stable Horse as first bought horse. Farm crop mix, pet/follower cargo policy, camping-supply stock levels, property safe-storage final approval, and bug-safe acquisition sequencing remain constrained by later property, progression, and warning tasks.
 
 ## Linked Records
 

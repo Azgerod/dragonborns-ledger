@@ -40,7 +40,7 @@ Farming Construction lists Goldenhills Farmer's Workbench exterior construction 
 
 ## Confidence and Open Questions
 
-Confidence is high for source-listed AE home and Goldenhills detail rows. Later passes must still validate exact AE start triggers, quest difficulty, bug mitigations, safe-storage recommendations, display/checklist audits, Goldenhills crop defaults, farmhand/steward choices, farm-income repeatability bounds, family-home policy, and Survival Mode route value.
+Confidence is high for source-listed AE home and Goldenhills detail rows. TB-031D selects Tundra Homestead as main base, Goldenhills as farm/food/income support, Faendal as Goldenhills steward, and generic Goldenhills farmhands. Later passes must still validate exact AE start triggers, quest difficulty, bug mitigations, safe-storage recommendations, display/checklist audits, Goldenhills crop defaults, farm-income repeatability bounds, family-home implementation, and Survival Mode route value.
 
 ## Linked Records
 

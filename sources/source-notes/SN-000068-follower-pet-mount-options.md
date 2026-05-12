@@ -1,12 +1,12 @@
 # Source Note: Follower, Pet, and Mount Options
 
-Status: needs review.
+Status: researched; TB-031D mount defaults added.
 
 Source note ID: SN-000068
 
 ## Claim
 
-Permanent followers, animal followers, household pet options, purchasable horses, and unique mounts should be tracked as candidate lists and source-list objective sets before route placement. Unique named mounts should also have objective rows where acquisition is completion-relevant.
+Permanent followers, animal followers, household pet options, purchasable horses, and unique mounts should be tracked as candidate lists and source-list objective sets before route placement. Unique named mounts should also have objective rows where acquisition is completion-relevant. TB-031D records the first bought-horse default while preserving the remaining candidates for TB-035 option-list presentation.
 
 ## Routing Relevance
 
@@ -29,9 +29,11 @@ UESP's Followers page groups permanent followers by faction/category and include
 
 UESP's Horses page lists purchasable stable horses and identifies unique horse categories. The option table records nine purchasable/steward-bought horse options plus unique mount rows for Frost, Shadowmere, and Arvak. Individual pages for Frost, Shadowmere, and Arvak support their quest links and named-mount status. The Adoption page supports five child pet options.
 
+TB-031D selects Whiterun Stable Horse as the first bought-horse default for early Survival travel. It keeps Frost, Shadowmere, and Arvak as route-relevant named mounts when their parent quest windows unlock, and it does not set a default household pet.
+
 ## Confidence and Open Questions
 
-Confidence is high for source-list candidate membership. Later passes must still validate which followers/pets/mounts are required route acquisitions, which are option-list recommendations, exact quest or faction prerequisites, NPC death/safety risks, follower dismissal/recruitment bugs, horse ownership behavior, Survival Mode carry/travel implications, and overlap with already entered AE pet/mount rows.
+Confidence is high for source-list candidate membership and the Whiterun Stable Horse default. Later passes must still validate which followers/pets/mounts are required route acquisitions, which remain option-list recommendations, exact quest or faction prerequisites, NPC death/safety risks, follower dismissal/recruitment bugs, horse ownership behavior, Survival Mode carry/travel implications, and overlap with already entered AE pet/mount rows.
 
 ## Linked Records
 

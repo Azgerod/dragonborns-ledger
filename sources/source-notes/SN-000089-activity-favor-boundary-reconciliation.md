@@ -1,6 +1,6 @@
 # Source Note: Activity and Favor Boundary Reconciliation
 
-Status: needs review.
+Status: researched; TB-031D representative targets added.
 
 Source note ID: SN-000089
 
@@ -41,7 +41,18 @@ The guide specification requires finite miscellaneous quests and favors that are
 
 The UESP non-journal category listed 19 pages during this audit. Existing objective rows already represented `Drowned Sorrows`, `Falion's Secret`, `Tolfdir the Absent-Minded`, and `Yngol's Barrow`. TB-010A adds missing finite non-journal quest rows for `Coming of Age`, `Forgotten Names`, `Liar's Retreat`, `Rannveig's Fast`, `Robber's Gorge`, and `Volskygge`.
 
-The same category also contains repeatable or radiant no-journal activity/favor pages. TB-010A adds representative rows for `Chop Wood`, `Gather Wheat`, `Mine Ore`, `Fight! Fight!`, `Quest all Beggars Have`, and `Quest all Drunks Have`. These rows are not exhaustive variant lists; TB-018 should later choose exact representative targets, classify required versus representative completion, and capture any NPC, thane, trophy, bug, or Survival Mode implications.
+The same category also contains repeatable or radiant no-journal activity/favor pages. TB-010A adds representative rows for `Chop Wood`, `Gather Wheat`, `Mine Ore`, `Fight! Fight!`, `Quest all Beggars Have`, and `Quest all Drunks Have`. These rows are not exhaustive variant lists.
+
+TB-031D chooses representative targets for route-default planning:
+
+| Representative row | Target default | Source-backed basis |
+| --- | --- | --- |
+| Chop Wood | Hod at Riverwood. | `Chop Wood` lists Hod as a Whiterun Hold/Riverwood quest giver, says the activity is repeatable, notes thane-help disposition credit, and specifically calls Riverwood the easiest early two-block woodcutting location. |
+| Gather Wheat / crop sale | Alfhild Battle-Born at Battle-Born Farm. | `Gather Wheat` lists Alfhild Battle-Born at Battle-Born Farm in Whiterun Hold as a crop buyer and says these crop-sale favors count toward hold help. |
+| Mine Ore | Grogmar gro-Burzag at Redbelly Mine. | `Mine Ore` lists Grogmar at Redbelly Mine, says the activity is repeatable and counts toward hold help, and notes Redbelly Mine completion raises favor enough to make the player blood-kin to the Orcs. |
+| Fight! Fight! | Uthgerd the Unbroken in Whiterun. | `Fight! Fight!` lists Uthgerd in Whiterun and records follower, marriage, Blades, and Hearthfire steward option value; the page also records brawl assault risks that need controlled execution. |
+| Quest all Beggars Have | Brenuin in Whiterun. | The beggar favor page lists Brenuin in Whiterun and records Gift of Charity, disposition, repeatability, and thane-help relevance. |
+| Quest all Drunks Have | Embry in Riverwood. | The drunk favor page lists Embry at Riverwood's Sleeping Giant Inn and records disposition, repeatability, and thane-help relevance, while noting this unmarked quest does not count for `Hero of the People`. |
 
 `Inheritance`, `Revenge, Hired Thugs`, and `Steal, Thugs hunt player` are reactive events caused by NPC death, murder, or theft. The guide should not require causing arbitrary NPC deaths, murder-triggered retaliation, or theft-triggered retaliation purely for completion. TB-010A adds excluded audit rows so they remain visible without becoming required objectives.
 
@@ -51,12 +62,10 @@ Cutting lumber and milling remain support-only material/food-processing actions,
 
 ## Confidence and Open Questions
 
-Confidence is high for category membership and the boundary decision. Confidence is intentionally lower for exact route treatment, because TB-018, TB-016, TB-015, TB-017, TB-019, and TB-030 still need to research radiant boundaries, NPC dependencies, trophy behavior, bug risks, Survival Mode timing, and checklist mapping.
+Confidence is high for category membership, the boundary decision, and the TB-031D representative target defaults. Confidence remains intentionally lower for exact action timing, counter tracking, trophy fallback treatment, and warning placement, because TB-031F and TB-032 still need to route the actual mechanics.
 
 Open questions deferred to later tasks:
 
-* Which exact NPC/location should satisfy each representative activity/favor row?
-* Which brawl, beggar, drunk, wood, crop, and ore targets best serve thane, relationship, route, and Survival Mode constraints?
 * Whether any external checklist row explicitly tracks a child game, cutting lumber, milling, inheritance, or hired-thug event despite the current exclusion/default-support policy.
 
 ## Linked Records

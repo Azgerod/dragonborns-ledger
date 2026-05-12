@@ -29,7 +29,7 @@ UESP's Houses and Severin Manor pages identify Severin Manor as the Raven Rock/S
 
 ## Confidence and Open Questions
 
-Confidence is high for source-listed city-home and Severin Manor details. Later passes must still validate exact acquisition prerequisites, Civil War steward/Jarl state, Hjerim and Honeyside bugs, final safe-storage recommendations, child-bedroom defaults, city-home economy timing, and checklist mapping.
+Confidence is high for source-listed city-home and Severin Manor details. TB-031D selects Breezehome as first-storage bridge, Tundra Homestead as main base, and Severin Manor as Solstheim base after `Served Cold` verification. Later passes must still validate exact acquisition prerequisites, Civil War steward/Jarl state, Hjerim and Honeyside bugs, city-home economy timing, child-bedroom implementation, and checklist mapping.
 
 ## Linked Records
 
