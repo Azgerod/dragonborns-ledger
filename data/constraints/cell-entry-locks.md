@@ -1,6 +1,6 @@
 # Cell-Entry Locks
 
-Status: initial TB-013 pass complete; needs review.
+Status: TB-021 reviewed.
 
 This file records source-backed location-entry, first-visit, or location-spawn constraints from TB-013. It does not replace `data/constraints/leveled-unique-items.md`; reward-time locks and quest-stage locks are separated below so later route warnings do not overstate cell-entry behavior.
 

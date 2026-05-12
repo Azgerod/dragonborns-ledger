@@ -1,6 +1,6 @@
 # AE Creation Start Triggers
 
-Status: needs review.
+Status: TB-021 reviewed.
 
 This table is the TB-011 package-level constraint pass for the official Anniversary Edition / Anniversary Upgrade Creation Club bundle. It records how each Creation starts or becomes available, what broad region it belongs to, and which later constraint pass still owns unresolved routing risks. It is not a route draft.
 

@@ -22,6 +22,12 @@ Map-marker discovery and location clearing are related but not identical:
 
 * `location-catalog.template.csv` defines the shared header for location catalog tables.
 * `location-catalog.csv` records source-listed location rows and their current discovery/clearance status.
+* `location-coordinates.template.csv` defines the generated coordinate table header.
+* `location-coordinates.csv` records UESP Gamemap numeric marker coordinates, proxy markers, multi-marker cases, and no-marker/worldspace exceptions for catalog locations.
+* `location-coordinate-reconciliation.md` summarizes coordinate coverage and distance-use policy.
+* `location-geography.template.csv` defines the generated hub/corridor geography table header.
+* `location-geography.csv` records derived nearest service candidates, corridor assignments, worldspace access models, cold risk, and barrier flags for coordinate rows.
+* `location-geography-reconciliation.md` summarizes the hub/corridor model, seed-node counts, coverage, and distance-use limits.
 * `clearable-location-reconciliation.md` summarizes current clearable-location source-list coverage and downstream reconciliation boundaries.
 * `discoverable-location-reconciliation.md` summarizes current discoverable non-clearable location coverage and downstream reconciliation boundaries.
 * `location-reconciliation.md` summarizes duplicate marker, secondary marker, and AE location-gap reconciliation.

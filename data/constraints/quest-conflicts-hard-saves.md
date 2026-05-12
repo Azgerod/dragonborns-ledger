@@ -1,6 +1,6 @@
 # Quest Conflicts and Hard Saves
 
-Status: TB-014 researched.
+Status: TB-021 reviewed.
 
 Scope: this is a constraint table, not route prose. Use it to place hard saves, branch reloads, and warning-layer notes in later route drafts. Trophy timing, NPC protection, and bug mitigations still belong to TB-015, TB-016, and TB-017.
 

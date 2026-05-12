@@ -1,6 +1,6 @@
 # Leveled Unique Items
 
-Status: needs review.
+Status: TB-021 reviewed.
 
 Use this table for unique rewards whose level tier, pickup timing, or location-entry timing can affect route order.
 
