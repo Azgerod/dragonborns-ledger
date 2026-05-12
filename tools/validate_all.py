@@ -13,6 +13,8 @@ VALIDATORS = [
     "tools/validate_objectives.py",
     "tools/validate_coverage.py",
     "tools/validate_sources.py",
+    "tools/validate_books.py",
+    "tools/validate_npc_options.py",
 ]
 
 

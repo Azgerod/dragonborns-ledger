@@ -37,6 +37,89 @@ Primary support is `SN-000035-ae-bundle-membership-and-parent-inventory.md`, whi
 * Those unique-equipment parent rows cite `SN-000045-ae-unique-equipment-parent-sets.md`.
 * These TB-006E rows intentionally remain parent-set coverage only. Individual spell, ingredient, recipe, item-member, acquisition, preservation, checklist-mapping, level-gate, and route-placement decisions remain deferred to later item/checklist/crafting and constraint-table passes.
 
+## Package-to-Child Reconciliation
+
+TB-006F checked parent rows `OBJ-000479` through `OBJ-000552` against child-row parent references in `objectives.csv`.
+
+Result: all 74 AE parent package rows now have at least one source-list child row or child parent-set row. This is a source-list coverage check only. It does not validate individual item members, exact starts, level gates, conflicts, bugs, checklist mappings, or route placement.
+
+| Parent row | Creation | Current child rows | Coverage lanes | Deferred detail |
+| --- | --- | --- | --- | --- |
+| OBJ-000479 | Survival Mode | OBJ-000702 | system/item | Survival constraints and food/item checklist detail remain deferred. |
+| OBJ-000480 | Arcane Accessories | OBJ-000568, OBJ-000693 | quest, spell/power | Spell, robe, vendor/drop, checklist, and route details remain deferred. |
+| OBJ-000481 | Arcane Archer Pack | OBJ-000569, OBJ-000570, OBJ-000706 | quest, crafting/equipment | Ammunition, recipe, checklist, and route details remain deferred. |
+| OBJ-000482 | Chrysamere | OBJ-000578, OBJ-000736 | quest, unique/equipment | Quest constraints, acquisition timing, and preservation details remain deferred. |
+| OBJ-000483 | Divine Crusader | OBJ-000583, OBJ-000584, OBJ-000728 | quest, unique/equipment | Quest constraints, acquisition timing, and preservation details remain deferred. |
+| OBJ-000484 | Plague of the Dead | OBJ-000632, OBJ-000692, OBJ-000695, OBJ-000699 | quest, system/item, spell/power, crafting/equipment | Level-start, zombie-system, spell, ingredient, and Survival Mode details remain deferred. |
+| OBJ-000485 | Ruin's Edge | OBJ-000634, OBJ-000742 | quest, unique/equipment | Quest constraints, acquisition timing, and preservation details remain deferred. |
+| OBJ-000486 | Staff of Sheogorath | OBJ-000648, OBJ-000745 | quest, unique/equipment | Quest constraints, acquisition timing, and preservation details remain deferred. |
+| OBJ-000487 | Stendarr's Hammer | OBJ-000649, OBJ-000746 | quest, unique/equipment | Quest constraints, acquisition timing, and preservation details remain deferred. |
+| OBJ-000488 | Dwarven Armored Mudcrab | OBJ-000585, OBJ-000669, OBJ-000759 | quest, pet/mount, unique/equipment | Pet, spell/item, acquisition, and checklist details remain deferred. |
+| OBJ-000489 | Lord's Mail | OBJ-000625, OBJ-000741 | quest, unique/equipment | Quest constraints, item-state handling, and preservation details remain deferred. |
+| OBJ-000490 | Adventurer's Backpack | OBJ-000704 | crafting/equipment | Backpack variants, recipes, checklist, and Survival Mode logistics remain deferred. |
+| OBJ-000491 | Camping | OBJ-000705 | crafting/equipment | Camping supplies, recipe/material, and Survival Mode route details remain deferred. |
+| OBJ-000492 | Nix-Hound | OBJ-000629, OBJ-000670, OBJ-000703 | quest, pet/mount, system/item | Pet, food/item, Solstheim logistics, and checklist details remain deferred. |
+| OBJ-000493 | Shadowrend | OBJ-000645, OBJ-000743 | quest, unique/equipment | Quest constraints, form handling, and preservation details remain deferred. |
+| OBJ-000494 | Tundra Homestead | OBJ-000668 | property | Acquisition, safe-storage, display, furnishing, and family-use details remain deferred. |
+| OBJ-000495 | Myrwatch | OBJ-000626, OBJ-000665, OBJ-000712 | quest, property, crafting/equipment | Acquisition, safe-storage, display, crafting-station, and route details remain deferred. |
+| OBJ-000496 | Nordic Jewelry | OBJ-000630, OBJ-000709 | quest, crafting/equipment | Recipe, item-member, checklist, and route details remain deferred. |
+| OBJ-000497 | Pets of Skyrim | OBJ-000631, OBJ-000672, OBJ-000673, OBJ-000674, OBJ-000675, OBJ-000676, OBJ-000757 | quest, pet/mount, unique/equipment | Pet assignment, equipment, checklist, and route details remain deferred. |
+| OBJ-000498 | Rare Curios | OBJ-000697 | crafting/equipment | Ingredient, material, recipe, checklist, and merchant-route details remain deferred. |
+| OBJ-000499 | Bone Wolf | OBJ-000576, OBJ-000671 | quest, pet/mount | Prerequisite, pet, checklist, and route details remain deferred. |
+| OBJ-000500 | Staff of Hasedoki | OBJ-000647, OBJ-000744 | quest, unique/equipment | Quest constraints, acquisition timing, and preservation details remain deferred. |
+| OBJ-000501 | Wild Horses | OBJ-000657, OBJ-000658, OBJ-000680, OBJ-000681, OBJ-000682, OBJ-000683, OBJ-000684, OBJ-000685, OBJ-000686, OBJ-000687, OBJ-000758 | quest, pet/mount, unique/equipment | Mount, saddle, map, checklist, and travel-logistics details remain deferred. |
+| OBJ-000502 | Civil War Champions | OBJ-000579, OBJ-000732 | quest, unique/equipment | Civil War branch, reward, conflict, and preservation details remain deferred. |
+| OBJ-000503 | Elite Crossbows | OBJ-000586, OBJ-000708 | quest, crafting/equipment | Crossbow acquisition, recipe, checklist, and route details remain deferred. |
+| OBJ-000504 | Forgotten Seasons | OBJ-000611, OBJ-000612, OBJ-000613, OBJ-000688, OBJ-000701, OBJ-000739 | quest, pet/mount, system/item, unique/equipment | Dungeon, mount, item, reward, difficulty, and route details remain deferred. |
+| OBJ-000505 | Saturalia Holiday Pack | OBJ-000643, OBJ-000689, OBJ-000734 | quest, pet/mount, unique/equipment | Outfit, mount, checklist, and northern-route details remain deferred. |
+| OBJ-000506 | Sunder & Wraithguard | OBJ-000650, OBJ-000747 | quest, unique/equipment | Quest constraints, artifact preservation, and route details remain deferred. |
+| OBJ-000507 | Vigil Enforcer Armor Set | OBJ-000656, OBJ-000731 | quest, unique/equipment | Quest constraints, armor-member, and Hall of the Vigilant timing details remain deferred. |
+| OBJ-000508 | Arms of Chaos | OBJ-000571, OBJ-000735 | quest, unique/equipment | Quest constraints, item-member, reward, and route details remain deferred. |
+| OBJ-000509 | Shadowfoot Sanctum | OBJ-000644, OBJ-000667 | quest, property | Acquisition, safe-storage, display, furnishing, and family-use details remain deferred. |
+| OBJ-000510 | Spell Knight Armor | OBJ-000646, OBJ-000730 | quest, unique/equipment | Quest outcome, armor-member, crafting, and preservation details remain deferred. |
+| OBJ-000511 | Umbra | OBJ-000655, OBJ-000749 | quest, unique/equipment | Quest constraints, difficulty, acquisition, and preservation details remain deferred. |
+| OBJ-000512 | Alternative Armors - Dwarven Mail | OBJ-000557, OBJ-000717 | quest, unique/equipment | Quest constraints, armor-member, recipe, and checklist details remain deferred. |
+| OBJ-000513 | Alternative Armors - Stalhrim Fur | OBJ-000566, OBJ-000726 | quest, unique/equipment | Quest constraints, armor-member, recipe, and checklist details remain deferred. |
+| OBJ-000514 | Dawnfang & Duskfang | OBJ-000580, OBJ-000581, OBJ-000737 | quest, unique/equipment | Quest constraints, weapon-state handling, and preservation details remain deferred. |
+| OBJ-000515 | Expanded Crossbow Pack | OBJ-000707 | crafting/equipment | Crossbow acquisition, recipe, checklist, and route details remain deferred. |
+| OBJ-000516 | Netch Leather Armor | OBJ-000628, OBJ-000729 | quest, unique/equipment | Quest constraints, armor-member, recipe, and checklist details remain deferred. |
+| OBJ-000517 | Alternative Armors - Daedric Mail | OBJ-000553, OBJ-000713 | quest, unique/equipment | Quest constraints, armor-member, recipe, and checklist details remain deferred. |
+| OBJ-000518 | Alternative Armors - Dragonscale | OBJ-000555, OBJ-000716 | quest, unique/equipment | Quest constraints, armor-member, recipe, and checklist details remain deferred. |
+| OBJ-000519 | Alternative Armors - Elven Hunter | OBJ-000560, OBJ-000720 | quest, unique/equipment | Quest constraints, armor-member, recipe, and checklist details remain deferred. |
+| OBJ-000520 | Alternative Armors - Ebony Plate | OBJ-000559, OBJ-000719 | quest, unique/equipment | Level-start, quest constraints, armor-member, recipe, and checklist details remain deferred. |
+| OBJ-000521 | Alternative Armors - Steel Soldier | OBJ-000567, OBJ-000727 | quest, unique/equipment | Quest constraints, armor-member, recipe, and checklist details remain deferred. |
+| OBJ-000522 | Dead Man's Dread | OBJ-000582, OBJ-000660, OBJ-000738 | quest, property, unique/equipment | Quest, property, display, item-member, and route details remain deferred. |
+| OBJ-000523 | Goblins | OBJ-000621, OBJ-000679, OBJ-000756 | quest, follower, unique/equipment | Follower, carried item, quest, and route details remain deferred. |
+| OBJ-000524 | Saints & Seducers | OBJ-000635, OBJ-000636, OBJ-000637, OBJ-000638, OBJ-000639, OBJ-000640, OBJ-000641, OBJ-000642, OBJ-000677, OBJ-000678, OBJ-000698 | quest, pet/mount, crafting/equipment | Quest, pet, ingredient, branch/conflict, and item-member details remain deferred. |
+| OBJ-000525 | Hendraheim | OBJ-000624, OBJ-000664 | quest, property | Acquisition, safe-storage, display, furnishing, and family-use details remain deferred. |
+| OBJ-000526 | The Gray Cowl Returns! | OBJ-000654, OBJ-000748 | quest, unique/equipment | Quest constraints, item-member, reward, and route details remain deferred. |
+| OBJ-000527 | Alternative Armors - Daedric Plate | OBJ-000554, OBJ-000714 | quest, unique/equipment | Quest constraints, armor-member, recipe, and checklist details remain deferred. |
+| OBJ-000528 | Alternative Armors - Dragon Plate | OBJ-000556, OBJ-000715 | quest, unique/equipment | Quest constraints, armor-member, recipe, and checklist details remain deferred. |
+| OBJ-000529 | Alternative Armors - Dwarven Plate | OBJ-000558, OBJ-000718 | quest, unique/equipment | Quest constraints, armor-member, recipe, and checklist details remain deferred. |
+| OBJ-000530 | Alternative Armors - Iron | OBJ-000561, OBJ-000721 | quest, unique/equipment | Quest constraints, armor-member, recipe, and checklist details remain deferred. |
+| OBJ-000531 | Alternative Armors - Leather | OBJ-000562, OBJ-000722 | quest, unique/equipment | Quest constraints, armor-member, recipe, and checklist details remain deferred. |
+| OBJ-000532 | Alternative Armors - Orcish Plate | OBJ-000563, OBJ-000723 | quest, unique/equipment | Quest constraints, armor-member, recipe, and checklist details remain deferred. |
+| OBJ-000533 | Alternative Armors - Orcish Scaled | OBJ-000564, OBJ-000724 | quest, unique/equipment | Quest constraints, armor-member, recipe, and checklist details remain deferred. |
+| OBJ-000534 | Alternative Armors - Silver | OBJ-000565, OBJ-000725 | quest, unique/equipment | Quest constraints, armor-member, recipe, and checklist details remain deferred. |
+| OBJ-000535 | Bittercup | OBJ-000572, OBJ-000573, OBJ-000574, OBJ-000755 | quest, unique/equipment | Outcome, branch/choice, reward, and route details remain deferred. |
+| OBJ-000536 | Bloodchill Manor | OBJ-000575, OBJ-000659 | quest, property | Acquisition, safe-storage, display, family-use, and route details remain deferred. |
+| OBJ-000537 | Bow of Shadows | OBJ-000577, OBJ-000752 | quest, unique/equipment | Quest constraints, NPC dependency, acquisition, and preservation details remain deferred. |
+| OBJ-000538 | Farming | OBJ-000587, OBJ-000588, OBJ-000662 | quest, property | Farm staffing, upgrades, income, material, and route details remain deferred. |
+| OBJ-000539 | Fearsome Fists | OBJ-000710 | crafting/equipment | Gauntlet variants, recipes, checklist, and route details remain deferred. |
+| OBJ-000540 | Fishing | OBJ-000589, OBJ-000590, OBJ-000591, OBJ-000592, OBJ-000593, OBJ-000594, OBJ-000595, OBJ-000596, OBJ-000597, OBJ-000598, OBJ-000599, OBJ-000600, OBJ-000601, OBJ-000602, OBJ-000603, OBJ-000604, OBJ-000605, OBJ-000606, OBJ-000607, OBJ-000608, OBJ-000609, OBJ-000610, OBJ-000700 | quest, system/item | Quest, item, fish/ingredient, checklist, and representative-boundary details remain deferred. |
+| OBJ-000541 | Gallows Hall | OBJ-000614, OBJ-000661, OBJ-000711 | quest, property, crafting/equipment | Acquisition, safe-storage, crafting-station, and route details remain deferred. |
+| OBJ-000542 | Ghosts of the Tribunal | OBJ-000615, OBJ-000616, OBJ-000617, OBJ-000618, OBJ-000619, OBJ-000620, OBJ-000740 | quest, unique/equipment | Quest, faction/outcome, item-member, and preservation details remain deferred. |
+| OBJ-000543 | Goldbrand | OBJ-000622, OBJ-000753 | quest, unique/equipment | Quest constraints, acquisition timing, and preservation details remain deferred. |
+| OBJ-000544 | Headman's Cleaver | OBJ-000623, OBJ-000754 | quest, unique/equipment | Quest trigger, acquisition timing, and preservation details remain deferred. |
+| OBJ-000545 | Horse Armor - Elven | OBJ-000690 | pet/mount | Active-mount, compatibility, storage, and checklist details remain deferred. |
+| OBJ-000546 | Horse Armor - Steel | OBJ-000691 | pet/mount | Active-mount, compatibility, storage, and checklist details remain deferred. |
+| OBJ-000547 | Nchuanthumz: Dwarven Home | OBJ-000627, OBJ-000666 | quest, property | Acquisition, safe-storage, display, furnishing, and route details remain deferred. |
+| OBJ-000548 | Necromantic Grimoire | OBJ-000694 | spell/power | Spell, apparel, vendor/drop, checklist, and route details remain deferred. |
+| OBJ-000549 | Redguard Elite Armaments | OBJ-000633, OBJ-000733 | quest, unique/equipment | Quest constraints, equipment-member, and preservation details remain deferred. |
+| OBJ-000550 | Staves | OBJ-000696 | crafting/equipment | Staff member, crafting-station, checklist, and route details remain deferred. |
+| OBJ-000551 | The Cause | OBJ-000651, OBJ-000652, OBJ-000750 | quest, unique/equipment | Level-gate, quest, difficulty, item-member, and route details remain deferred. |
+| OBJ-000552 | The Contest | OBJ-000653, OBJ-000751 | quest, unique/equipment | Quest constraints, reward, item-member, and preservation details remain deferred. |
+
 ## Parent Package Rows
 
 | Objective ID | Creation | UESP package categories | Package-level start/acquisition hint | Follow-up focus |

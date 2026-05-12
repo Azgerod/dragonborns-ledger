@@ -19,6 +19,7 @@ This log records user-resolved project decisions that shape the guide. `docs/gui
 | Main-route Paarthurnax choice | Preserve him. |
 | Daedric default | Choose artifact-maximizing outcomes by default, with branch handling where meaningful. |
 | Books scope | Skill books, spell tomes, Black Books, quest/AE books, and checklist-tracked unique books only. |
+| Book series and duplicate copies | For any in-scope book series, track each individual member title and all source-listed acquisition/location candidates. The route should require one copy of each in-scope title, not every duplicate copy. |
 | Radiants scope | Required radiants plus one representative completion of each meaningful radiant type. |
 | Unique items | Preserve unique items; do not disenchant unique items merely to learn enchantments. |
 | Power curve | Preserve a gradually increasing difficulty curve rather than rushing overpowered gear. |
