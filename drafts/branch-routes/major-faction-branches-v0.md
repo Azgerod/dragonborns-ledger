@@ -1,6 +1,6 @@
 # Major Faction Branch Prototypes v0
 
-Status: TB-032 warning overlay integrated after TB-029 completion.
+Status: TB-033 validated after TB-029 completion and TB-032 warning integration.
 
 Scope: compact branch prototypes for the major faction and faction-adjacent choices resolved by TB-028. These are not final guide prose. Each branch records the hard save, alternate-only objective coverage, reload point, and later warning/checklist handoffs.
 
@@ -10,8 +10,8 @@ Scope: compact branch prototypes for the major faction and faction-adjacent choi
 | --- | --- |
 | Branch order | Create the named hard save, play the alternate branch first, verify branch-exclusive content, reload, then continue canonical main continuity. |
 | Duplication boundary | Do not repeat objectives that belong to the canonical main route unless the alternate state changes availability, reward, trophy meaning, or warning placement. |
-| Placement boundary | TB-029 does not decide exact route-block insertion. TB-032 records warning and hard-save trigger placement; TB-033 validates branch safety; TB-034 places final step order. |
-| Branch verification | TB-033 should verify objective completion, branch-exclusive reward/state capture, trophy behavior where relevant, reload point, and restoration of canonical continuity. |
+| Placement boundary | TB-029 does not decide exact route-block insertion. TB-032 records warning and hard-save trigger placement; TB-033 validated branch safety at prototype level; TB-034 places final step order. |
+| Branch verification | TB-033 validated the hard-save/reload/canonical-continuity structure. TB-034/TB-037 still verify step-level objective completion, branch-exclusive reward/state capture, and trophy behavior where relevant. |
 | Canonical continuity | Imperial, Dawnguard, Dark Brotherhood join, and Paarthurnax preserved. |
 
 ## Branch Prototype Index

@@ -64,7 +64,7 @@ The database is complete for source-list coverage and TB-031G route-validation m
 
 | Deferred question | Downstream task |
 | --- | --- |
-| PS4 Delver and Explorer trophy behavior | Counter and location mechanics complete in TB-031F/TB-031G; final route-state validation remains TB-033. |
+| PS4 Delver and Explorer trophy behavior | Counter and location mechanics complete in TB-031F/TB-031G; TB-033 validated prototype handling; final route-state validation remains TB-034/TB-037. |
 | Exact clear triggers, primary-location links, and inherited clear-state handling | TB-031G complete at mechanics/exception level; TB-032 records warnings and TB-034 writes final steps. |
 | Bug, missability, and cell-entry risks | TB-013 and TB-017 |
 | Quest, faction, and world-state access timing | TB-014 and route prototype passes |

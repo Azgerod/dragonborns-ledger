@@ -45,7 +45,7 @@ TB-031J later pulled the remaining source-readiness queue forward before TB-032.
 | Investments | Complete available merchant investments after Speech 70 and Investor, during safe regional merchant sweeps. | Do not reset Speech before investments and major selling/Fence work are complete. |
 | Crafting systems | Use representative outputs: Atronach Forge Fire Salts, Staff Enchanter Staff of Flames, Imbuing Chamber Mind Control Spider, early Artificer/Hard Worker actions, and staged Hearthfire/material work. | Do not use material-recovery exploits, Staff Enchanter abnormal-XP behavior, or early max-crafting loops as baseline. |
 | Training | Use selected trainers as smoothing blocks after sleep/level checks. Preserve trainer access until their skill no longer needs planned training. | Do not use follower-trainer free training or trainer-gold pickpocket recovery as baseline. |
-| Oghma Infinium | Acquire through the controlled Septimus path, but read/use late as a gap closer. Hard-save first. If final route needs a fixed default, use Magic unless TB-033 final skill math says otherwise. | Do not read it early, do not use it on skills already at 100, and do not ignore the incomplete-reward bug note. |
+| Oghma Infinium | Acquire through the controlled Septimus path, but read/use late as a gap closer. Hard-save first. If final route needs a fixed default, use Magic unless TB-034/TB-037 final skill math says otherwise. | Do not read it early, do not use it on skills already at 100, and do not ignore the incomplete-reward bug note. |
 
 ## Reset Distribution
 
@@ -56,7 +56,7 @@ TB-031J later pulled the remaining source-readiness queue forward before TB-032.
 | Combat/defense emergency pool | Archery, One-handed, Two-handed, Destruction, Block, Heavy Armor, Light Armor | Avoid repeated resets; use only with a separate offense/defense plan. |
 | Excluded repeated baseline | Lockpicking, Speech | No repeated baseline reset. Lockpicking XP is finite; Speech controls investments, selling, and Fence/Merchant support. |
 
-Exact reset counts are not invented here. They depend on final route order, natural skill gain, training purchases, skill-book timing, Oghma timing, crafting batches, and checklist cleanup, so TB-033 must validate the final numeric table.
+Exact reset counts are not invented here. They depend on final route order, natural skill gain, training purchases, skill-book timing, Oghma timing, crafting batches, and checklist cleanup, so TB-034/TB-037 must validate the final numeric table after route order exists.
 
 ## Crafting Defaults
 
@@ -79,4 +79,4 @@ Exact reset counts are not invented here. They depend on final route order, natu
 | TB-031H | Complete: readiness metadata cleanup for older source notes/objective/support rows and generated labels is recorded in `docs/source-objective-readiness-audit.md`. |
 | TB-031J | Complete: remaining checklist source-readiness rows are resolved as source-backed main-route mappings, one BR-007 branch mapping, or explicit exclusions. |
 | TB-032 | Complete: concise warning triggers for progression risks chosen here are recorded in the main prototype warning overlay. |
-| TB-033 | Validate final skill state, exact reset counts, learned enchantments, alchemy effects, investments, crafting systems, and final all-perks/all-skills satisfaction. |
+| TB-033 | Complete: validated the progression policy at prototype level in `drafts/route-prototypes/validation-report-v0.md`. Final numerical skill state, exact reset counts, learned enchantments, alchemy effects, investments, crafting systems, and all-perks/all-skills satisfaction remain TB-034/TB-037 outputs because they depend on step order. |

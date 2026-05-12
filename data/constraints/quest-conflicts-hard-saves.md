@@ -1,12 +1,12 @@
 # Quest Conflicts and Hard Saves
 
-Status: TB-032 warning-layer placement added.
+Status: TB-032 warning-layer placement added; TB-033 prototype validation complete.
 
 Scope: this is a constraint table, not route prose. Use it to place hard saves, branch reloads, and warning-layer notes in later route drafts. Trophy timing, NPC protection, and bug mitigations still belong to the cited TB-015, TB-016, and TB-017 tables.
 
 TB-028 decision details live in `drafts/branch-routes/README.md`. The table below records the selected defaults and branch classifications without rewriting `data/objectives/objectives.csv` route-placement counts.
 
-TB-032 consumes this table into `drafts/route-prototypes/main-route-prototype-v0.md` as a concise warning overlay. Final step numbers, pathing, and checklist cues remain TB-034/TB-037 work; TB-033 validates that the warnings protect the sourced constraints.
+TB-032 consumes this table into `drafts/route-prototypes/main-route-prototype-v0.md` as a concise warning overlay. TB-033 validated that the warning layer protects the sourced constraints. Final step numbers, pathing, and checklist cues remain TB-034/TB-037 work.
 
 ## TB-032 Hard-Save Placement Register
 
@@ -28,10 +28,10 @@ TB-032 consumes this table into `drafts/route-prototypes/main-route-prototype-v0
 | `HS-DG-AETHERIUM-FORGE` | Forging the single Aetherial item. | Audit Staff and Shield, then reload and craft Crown. | Lost to the Ages trophy is separate from the kept reward. |
 | `HS-TG-ARTICULATION-REWARD` | Brynjolf's Guild Master reward conversation for the Amulet of Articulation. | Reload until the selected strongest version is awarded, or record an explicit final-route tradeoff if accepting a random version. | Random reward version, not a level or cell-entry lock. |
 | `HS-TROPHY-MASTER-CRIMINAL` | Deliberate all-holds bounty escalation. | Reload after trophy pop. | Use controlled nonessential crime escalation, avoid killing quest-critical NPCs, verify 1000 bounty in all nine holds and trophy pop. |
-| `HS-RIFT-FROST-LETRUSH` | Frost handoff/outcome. | Keep Frost on the main save. | Alternate Louis/Maven handling remains optional unless TB-033 finds a gap. |
-| `HS-DRAGONBORN-UNEARTHED-RALIS` | Ralis final outcome. | Spare Ralis on the main save. | Kill outcome remains optional unless TB-033 finds a gap. |
+| `HS-RIFT-FROST-LETRUSH` | Frost handoff/outcome. | Keep Frost on the main save. | Alternate Louis/Maven handling remains optional unless TB-034/TB-037 find a final coverage gap. |
+| `HS-DRAGONBORN-UNEARTHED-RALIS` | Ralis final outcome. | Spare Ralis on the main save. | Kill outcome remains optional unless TB-034/TB-037 find a final coverage gap. |
 | `HS-COLLEGE-VELEHK-SAIN` | Velehk Sain outcome. | Release Velehk for hidden treasure path. | Kill outcome remains optional note. |
-| `HS-AE-CIVIL-WAR-CHAMPIONS` | Battle of the Champions side/outcome if separated. | Keep Imperial-aligned handling. | TB-033 verifies both equipment-set availability before final checklist mapping. |
+| `HS-AE-CIVIL-WAR-CHAMPIONS` | Battle of the Champions side/outcome if separated. | Keep Imperial-aligned handling. | TB-033 validated prototype-level handling; TB-034/TB-037 verify both equipment-set availability before final checklist closure. |
 
 ## Full Branch Routes
 
@@ -59,7 +59,7 @@ TB-032 consumes this table into `drafts/route-prototypes/main-route-prototype-v0
 | `Promises to Keep` / Frost ownership | OBJ-001955, NPCOPT-000238 | Keep Frost on the main route. Prefer a save before meeting Louis with Frost. | Branch handing Frost to Louis or alternate Louis/Maven outcomes only if later checklist policy requires it. | HS-RIFT-FROST-LETRUSH | SN-000099 | TB-028 main-route resolved; optional outcome note. |
 | `Unearthed` Ralis outcome | OBJ-000465, NPCOPT-000164 | Spare Ralis to preserve follower availability; remove/collect Hoarfrost without killing him if route permits. | Kill Ralis only if later checklist policy requires the alternate outcome. | HS-DRAGONBORN-UNEARTHED-RALIS | SN-000099 | TB-028 main-route resolved; optional outcome note. |
 | `Forgotten Names` Velehk Sain outcome | OBJ-000764 | Release Velehk Sain for the hidden treasure map/reward path. | Branch the kill outcome only if final checklist treats corpse loot as required. | HS-COLLEGE-VELEHK-SAIN | SN-000099 | TB-028 main-route resolved; optional outcome note. |
-| `Battle of the Champions` side selection | OBJ-000579, OBJ-001350 | Use Imperial-aligned handling with the Civil War main route. Loot all equipment from the assigned chest and fallen champion. | Stormcloak-aligned staging belongs with the Stormcloak branch only if it materially differs after TB-029 review. | HS-AE-CIVIL-WAR-CHAMPIONS | SN-000099 | TB-028 main-route resolved; source-note dependent equipment coverage to verify in TB-031C/TB-033. |
+| `Battle of the Champions` side selection | OBJ-000579, OBJ-001350 | Use Imperial-aligned handling with the Civil War main route. Loot all equipment from the assigned chest and fallen champion. | Stormcloak-aligned staging belongs with the Stormcloak branch only if it materially differs after TB-029 review. | HS-AE-CIVIL-WAR-CHAMPIONS | SN-000099 | TB-028 main-route resolved; TB-033 kept the prototype-level assumption; TB-034/TB-037 verify final equipment coverage. |
 
 ## Option-List Decisions
 
@@ -76,7 +76,7 @@ TB-032 consumes this table into `drafts/route-prototypes/main-route-prototype-v0
 
 | Trophy or action | Affected objectives | Canonical route | Branch route | Hard-save name | Source notes | Status |
 | --- | --- | --- | --- | --- | --- | --- |
-| Master Criminal trophy | OBJ-002777 | Preserve a clean final continuity without permanent all-holds bounty disruption. | Stage controlled 1000-gold bounties in all nine holds on the trophy branch, avoid quest-critical NPC deaths, verify the trophy pop, then reload. Final step locations remain TB-034 route prose. | HS-TROPHY-MASTER-CRIMINAL | SN-000103 | TB-032 warning/action layer placed; TB-033 validates. |
+| Master Criminal trophy | OBJ-002777 | Preserve a clean final continuity without permanent all-holds bounty disruption. | Stage controlled 1000-gold bounties in all nine holds on the trophy branch, avoid quest-critical NPC deaths, verify the trophy pop, then reload. Final step locations remain TB-034 route prose. | HS-TROPHY-MASTER-CRIMINAL | SN-000103 | TB-032 warning/action layer placed; TB-033 validated prototype-level treatment. |
 
 ## Sequencing and Missability Warnings
 
@@ -103,9 +103,9 @@ TB-032 consumes this table into `drafts/route-prototypes/main-route-prototype-v0
 | --- | --- | --- |
 | Full/compact branches with resolved canonical defaults | Civil War, Dawnguard, Dark Brotherhood, compact Paarthurnax, Thirsk, Ghosts of the Tribunal, and Bittercup have TB-029 branch prototypes and TB-032 warning placement. | SN-000097, SN-000099 |
 | Reward branches with resolved defaults | Black Star, Clavicus, Hircine, Mehrunes, Namira, Vaermina, and Aetherium have compact reward-branch prototypes and TB-032 warning placement. | SN-000098, SN-000099 |
-| Main-route resolved outcome notes | Frost, Ralis, Velehk Sain, and Battle of the Champions have main-continuity defaults; TB-033 may still reject an assumption if checklist validation proves alternate-outcome coverage is missing. | SN-000099 |
+| Main-route resolved outcome notes | Frost, Ralis, Velehk Sain, and Battle of the Champions have main-continuity defaults; TB-033 found no prototype-level reason to reopen them. TB-034/TB-037 may still reject an assumption if final checklist validation proves alternate-outcome coverage is missing. | SN-000099 |
 | Isolated moral/preference choices | Keep as option-list defaults unless a later checklist/trophy/NPC pass upgrades them to branch routes. | SN-000099 |
-| Branch checklist escalation | TB-031C applied current checklist escalation decisions. Future escalation requires a new contradiction or TB-033 validation finding. | SN-000099 |
+| Branch checklist escalation | TB-031C applied current checklist escalation decisions and TB-033 validated the prototype-level result. Future escalation requires a new concrete contradiction or final-QA finding. | SN-000099 |
 | Radiant/bounty/work activity candidates | TB-018 and TB-031F set repetition boundaries and representative/counter handling; final placement remains TB-034. | SN-000011, SN-000013, SN-000089, SN-000127 |
 | Bug-only candidates | Keep the warning pointer here only when route order is affected; detailed mitigations are in `data/constraints/bug-prone-quests.md` and the TB-032 overlay. | SN-000100 |
 | NPC/property/family/service dependencies | Keep the branch/option classification here; TB-031D selected route defaults and TB-032 records warning triggers, while final step order remains TB-034. | SN-000067, SN-000100 |

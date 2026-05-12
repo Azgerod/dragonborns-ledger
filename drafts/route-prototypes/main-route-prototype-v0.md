@@ -24,7 +24,7 @@ This file does not independently introduce uncited gameplay research. Gameplay c
 | `data/locations/location-route-validation.md` | TB-031G route-validation layer for Delver/Explorer mechanics, clear-trigger class, duplicate/secondary markers, content-location treatment, no-marker exclusions, and coordinate exception use. |
 | `data/constraints/*.md` | Canonical route laws for AE starts, leveled rewards, cell locks, conflicts, trophies, NPC dependencies, bugs, radiants, Survival Mode, and progression. |
 | `drafts/branch-routes/*.md` | TB-029 branch prototype hard saves, branch-exclusive objective queues, reload rules, and branch-verification handoffs. |
-| `data/constraints/skill-perk-leveling-plan.md` | TB-027 block-level progression overlay for all-skills/all-perks, Legendary resets, training, crafting, investments, enchantment learning, alchemy effects, and underleveled fallbacks. TB-031E supplies source-selection defaults; exact reset counts and final skill-state validation remain TB-033. |
+| `data/constraints/skill-perk-leveling-plan.md` | TB-027 block-level progression overlay for all-skills/all-perks, Legendary resets, training, crafting, investments, enchantment learning, alchemy effects, and underleveled fallbacks. TB-031E supplies source-selection defaults, TB-033 validated prototype integration, and exact reset counts/final skill-state validation remain TB-034/TB-037. |
 | `data/checklist-mapping/counter-coverage-plan.md` | TB-031F counter/action overlay for trophy counters, Thieves Guild side jobs, Dawnguard Lost Relic fillers, Fishing, work actions, trophy-pop fallbacks, and counter-owned source-readiness rows. |
 | `data/checklist-mapping/source-readiness-resolutions.csv` | TB-031J source-readiness overlay: 75 checklist rows map to main-route handling, 1 maps to BR-007 branch coverage, and 2 are explicit exclusions. |
 
@@ -103,12 +103,12 @@ TB-031G adds location clear/discovery mechanics without choosing final path orde
 
 | Location family | Prototype treatment | Later validation |
 | --- | --- | --- |
-| Normal clearable locations | Route until the in-game `Cleared` tag appears; when a row is used for Delver, verify the `Dungeons Cleared` statistic unless the row is a documented exception. | TB-032 records concise warnings for quest/boss/report-back risks; TB-033 validates final counters. |
-| Angarvunde and Mistwatch | Route for dungeon, quest, word-wall, or checklist value, but do not count toward Delver. | TB-033 validates final Delver padding without these rows. |
-| Discoverable and duplicate markers | Source-listed discoverable markers can support `Explorer`; duplicate entrances are discovery candidates but share one parent clear. | TB-034 chooses entrance order; TB-033 validates `Locations Discovered`. |
+| Normal clearable locations | Route until the in-game `Cleared` tag appears; when a row is used for Delver, verify the `Dungeons Cleared` statistic unless the row is a documented exception. | TB-032 records concise warnings for quest/boss/report-back risks; TB-033 validated prototype handling; TB-034/TB-037 validate final counters. |
+| Angarvunde and Mistwatch | Route for dungeon, quest, word-wall, or checklist value, but do not count toward Delver. | TB-033 validated prototype handling; TB-034/TB-037 validate final Delver padding without these rows. |
+| Discoverable and duplicate markers | Source-listed discoverable markers can support `Explorer`; duplicate entrances are discovery candidates but share one parent clear. | TB-034 chooses entrance order; TB-037 validates `Locations Discovered`. |
 | Secondary cleared markers | Giant's Grove, Klimmek's House, Shalidor's Maze, and Sundered Towers are not independent clear objectives. | TB-034 may mention them only where the parent route naturally visits the area. |
 | AE content locations and no-marker rows | Follow parent quest, property, branch, or content-package timing; no-marker rows are not Explorer padding. | TB-032/TB-034 place warnings and steps from parent content, not corridor distance alone. |
-| Separate worldspaces | Skuldafn, Deadlands, Apocrypha, Soul Cairn, Forgotten Vale, and similar spaces need manual access/return/recovery planning. | TB-034 final route placement; TB-033 route-state validation. |
+| Separate worldspaces | Skuldafn, Deadlands, Apocrypha, Soul Cairn, Forgotten Vale, and similar spaces need manual access/return/recovery planning. | TB-034 final route placement; TB-037 route-state validation. |
 
 ## Route-Block Prototype
 
@@ -158,12 +158,12 @@ TB-031F adds counter/action checkpoints without choosing final step numbers. Use
 
 | Counter/action family | Prototype treatment | Later validation |
 | --- | --- | --- |
-| Side/misc/trophy counters | Track `Sideways`, `Hero of the People`, `Thief`, `Snake Tongue`, `Golden Touch`, `Dragon Hunter`, `Standing Stones`, and trophy-pop fallback saves as explicit checkpoints, not incidental expectations. | TB-032 records warnings and saves; TB-033 validates final counter totals and trophy pops. |
-| Location counters | Route enough clearable/discoverable locations for `Delver`, `Explorer`, and Solstheim Explorer, but mark completion only after observed clear/discovery increments. | TB-031G has validated clear/discovery mechanics; TB-033 validates final observed totals. |
-| Skill-book and progression counters | Reader follows TB-031E copy/read policy and all 90 skill-book objectives; trophy check occurs after 50 unique titles. | TB-033 validates Reader plus final all-skills/all-perks state. |
-| Radiant and faction counters | Thieves Guild restoration uses city tallies plus a separate 125-job total; Dawnguard `Lost Relic` records all filler radiants until all three relics are obtained. | TB-034 places loops; TB-033 verifies restoration, safe/display, relic, and filler records. |
+| Side/misc/trophy counters | Track `Sideways`, `Hero of the People`, `Thief`, `Snake Tongue`, `Golden Touch`, `Dragon Hunter`, `Standing Stones`, and trophy-pop fallback saves as explicit checkpoints, not incidental expectations. | TB-032 records warnings and saves; TB-033 validated prototype handling; TB-034/TB-037 validate final counter totals and trophy pops. |
+| Location counters | Route enough clearable/discoverable locations for `Delver`, `Explorer`, and Solstheim Explorer, but mark completion only after observed clear/discovery increments. | TB-031G has validated clear/discovery mechanics; TB-033 validated prototype handling; TB-037 validates final observed totals. |
+| Skill-book and progression counters | Reader follows TB-031E copy/read policy and all 90 skill-book objectives; trophy check occurs after 50 unique titles. | TB-033 validated prototype handling; TB-037 validates Reader plus final all-skills/all-perks state. |
+| Radiant and faction counters | Thieves Guild restoration uses city tallies plus a separate 125-job total; Dawnguard `Lost Relic` records all filler radiants until all three relics are obtained. | TB-034 places loops; TB-033 validated prototype handling; TB-037 verifies restoration, safe/display, relic, and filler records. |
 | Activity systems | Hard Worker, Artificer, Fishing, cutting lumber, and milling are route-planning actions tied to existing support blocks; lumber and milling remain support-only unless final checklist proof needs cues. | TB-034/TB-037 turn them into checklist cues only where needed. |
-| TB-031F/TB-031J source-readiness rows | `Rebuilding the Blades` and `Dragon Hunting` are branch-only Blades rows; `Archery Practice`, `Scare My Enemy`, `Firebrand Wine Case`, and `Map of Dragon Burials` now have source-backed main-route handling. TB-031J resolves the remaining queue: 75 main-route mappings, 1 BR-007 branch mapping for `Reclamation Priest's Journal (AE)`, and 2 explicit exclusions. | TB-033 validates branch/main continuity and final checklist coverage; no `source_readiness_required` checklist rows remain. |
+| TB-031F/TB-031J source-readiness rows | `Rebuilding the Blades` and `Dragon Hunting` are branch-only Blades rows; `Archery Practice`, `Scare My Enemy`, `Firebrand Wine Case`, and `Map of Dragon Burials` now have source-backed main-route handling. TB-031J resolves the remaining queue: 75 main-route mappings, 1 BR-007 branch mapping for `Reclamation Priest's Journal (AE)`, and 2 explicit exclusions. | TB-033 validated branch/main continuity at the prototype level; TB-034/TB-037 handle final step/checklist coverage. No `source_readiness_required` checklist rows remain. |
 
 ## Warning and Hard-Save Overlay
 
@@ -175,7 +175,7 @@ TB-032 adds warning placement at the route-block level without writing final iti
 | Use exact trigger verbs. | Prefer `first enter`, `read`, `start`, `accept reward`, `loot/claim`, `complete battle`, `assign role`, `consume item`, and `verify trophy` over broad wording. |
 | Keep warning text local. | Place the warning immediately before the action that can cross the gate, not at the beginning of a distant section. |
 | Separate warnings from final pathing. | TB-032 records trigger placement; TB-034 still decides road/entrance order, step numbers, restock stops, and checklist cues. |
-| Do not invent unsourced hazards. | If a row lacks a source-backed constraint, do not create a speculative warning. Mark it for TB-033 validation instead. |
+| Do not invent unsourced hazards. | If a row lacks a source-backed constraint, do not create a speculative warning. Open a named source or final-validation follow-up instead. |
 | Preserve clean continuity. | Branch and trophy saves must reload back to the canonical state before the main route continues. |
 
 ### Gate and Entry Warnings
@@ -222,10 +222,10 @@ TB-032 adds warning placement at the route-block level without writing final iti
 | `HS-DAEDRIC-VAERMINA-SKULL` | Before Erandur final choice. | Reload and take Skull of Corruption on main save. | `SN-000098`, `SN-000104`, `SN-000107` |
 | `HS-DG-AETHERIUM-FORGE` | Before forging the one Aetherial reward. | Audit Staff and Shield on branches, reload, craft Aetherial Crown on main save. | `SN-000099`, `SN-000105` |
 | `HS-TROPHY-MASTER-CRIMINAL` | Before deliberate all-holds bounty escalation. | Stage controlled 1000-gold bounties in all nine holds without killing quest-critical NPCs, verify trophy pop, reload clean continuity. | `SN-000103`, `SN-000127` |
-| `HS-RIFT-FROST-LETRUSH` | Before Frost handoff/outcome. | Keep Frost on main save; alternate handoff remains optional unless TB-033 finds a checklist gap. | `SN-000099`, `SN-000107` |
-| `HS-DRAGONBORN-UNEARTHED-RALIS` | Before Ralis final outcome. | Spare Ralis on main save; kill outcome remains optional unless TB-033 finds a checklist gap. | `SN-000099`, `SN-000107`, `SN-000111` |
+| `HS-RIFT-FROST-LETRUSH` | Before Frost handoff/outcome. | Keep Frost on main save; alternate handoff remains optional unless TB-034/TB-037 find a checklist gap. | `SN-000099`, `SN-000107` |
+| `HS-DRAGONBORN-UNEARTHED-RALIS` | Before Ralis final outcome. | Spare Ralis on main save; kill outcome remains optional unless TB-034/TB-037 find a checklist gap. | `SN-000099`, `SN-000107`, `SN-000111` |
 | `HS-COLLEGE-VELEHK-SAIN` | Before Velehk Sain outcome. | Release Velehk for hidden treasure path; kill outcome remains optional note. | `SN-000099` |
-| `HS-AE-CIVIL-WAR-CHAMPIONS` | Before Battle of the Champions side/outcome if final route separates it. | Keep Imperial-aligned handling with Civil War main route; TB-033 verifies equipment availability. | `SN-000099` |
+| `HS-AE-CIVIL-WAR-CHAMPIONS` | Before Battle of the Champions side/outcome if final route separates it. | Keep Imperial-aligned handling with Civil War main route; TB-034/TB-037 verify equipment availability. | `SN-000099` |
 
 ### Quest, NPC, Bug, and Counter Warnings
 
@@ -312,7 +312,7 @@ Use fallback blocks only when the player reaches a gate underleveled. Each fallb
 | Unique items | Acquire with the parent quest/location if no leveled, cell-entry, branch, NPC, or bug constraint blocks it. Preserve unique items unless the specification later creates an explicit exception. |
 | Crafting unlocks | Use the TB-027 block overlay and TB-031E source-selection defaults for shop/craft/disenchant/alchemy/Smithing/Enchanting/ingredient loops. Do not use a unique-item disenchant as the baseline; final route still validates physical source-item availability. |
 | Radiants | Insert required radiants only inside the relevant faction/window. Representative radiants should use source-approved boundaries and local targets, not random grind assumptions. |
-| Collectibles, stones, shouts, and powers | Insert opportunistically when the corridor is already safe. TB-031F supplies counter checkpoint rules and TB-031G supplies location validation mechanics; final route placement and checklist synchronization remain TB-033/TB-034/TB-037. |
+| Collectibles, stones, shouts, and powers | Insert opportunistically when the corridor is already safe. TB-031F supplies counter checkpoint rules and TB-031G supplies location validation mechanics; final route placement and checklist synchronization remain TB-034/TB-037. |
 | AE Creations | Respect `ae-creation-start-triggers.md`. Vendor/crafting/content-package rows can attach to support blocks; courier, high-level, prerequisite, bug-sensitive, or branch-sensitive rows wait for their gate. |
 
 ## Mandatory Holds
@@ -358,7 +358,7 @@ TB-027 is integrated at the block layer. Later passes should not treat that as f
 
 * TB-028/TB-029 have chosen branch defaults and branch prototypes; use those files for branch-sensitive artifact, transformation, faction-state, or alternate-reward windows.
 * TB-031E has chosen exact skill-book copies, spell-tome sources, disposable enchantment source families, alchemy source methods, investment circuit, crafting outputs, and progression cues.
-* TB-031F has chosen counter/action policy, and TB-031G has validated location clear/discovery mechanics, duplicate/secondary markers, content-location treatment, and coordinate exception rules. Final entrance/path order still belongs to TB-034, and final observed totals still belong to TB-033.
+* TB-031F has chosen counter/action policy, and TB-031G has validated location clear/discovery mechanics, duplicate/secondary markers, content-location treatment, and coordinate exception rules. TB-033 validated the prototype-level counter treatment; final entrance/path order and observed in-route totals still belong to TB-034/TB-037.
 * TB-031J has resolved the remaining checklist source-readiness rows; do not route from any historical `source_readiness_required` bucket.
-* TB-032 has added the warning and hard-save overlay above. TB-034 still turns those warning triggers into step-numbered route instructions.
-* TB-033 must validate the finished prototype against all constraints, including level gates, skill 100 recovery after Legendary resets, level 252+, all 251 perk ranks, investments, enchantment learning, alchemy effects, practical crafting systems, and Survival logistics.
+* TB-032 has added the warning and hard-save overlay above, and TB-033 has validated it in `validation-report-v0.md`. TB-034 still turns those warning triggers into step-numbered route instructions.
+* TB-034 must preserve the TB-033 intake rules, including level gates, skill 100 recovery after Legendary resets, level 252+, all 251 perk ranks, investments, enchantment learning, alchemy effects, practical crafting systems, and Survival logistics.

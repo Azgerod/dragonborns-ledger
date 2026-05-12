@@ -1,6 +1,6 @@
 # AE Item Member Reconciliation
 
-Status: TB-007G1 and TB-007G2 complete; covered by TB-007G4 aggregate reconciliation; downstream route and checklist validation pending.
+Status: TB-007G1 and TB-007G2 complete; covered by TB-007G4 aggregate reconciliation; downstream route and checklist validation is handled through the TB-031 through TB-033 overlays, with final step placement still pending.
 
 This file summarizes `data/items/ae-item-members.csv`. It is not route prose and does not make final route-order decisions.
 
@@ -67,7 +67,7 @@ The table records source-listed members from UESP item pages and keeps parent ob
 | Spell tomes | Cross-linked to existing spell-tome objective IDs. | Route placement chooses acquisition source and timing from `data/books/spell-tomes-locations.csv`. |
 | Ingredients and food | Source-listed members retained in item table. | TB-009/TB-020 handled source-list and policy setup; TB-031E must choose concrete alchemy/cooking/crafting sources and Survival food use where needed. |
 | Crafting systems and equipment | Members retained without final crafting timing. | Later progression and route passes decide when to craft, buy, loot, or ignore duplicates. |
-| Alternative Armor and named equipment | Source-listed members retained without final route timing or preservation policy. | TB-012/TB-020 provide gate and power-curve inputs; TB-031E/TB-033 must validate level gates, difficulty spikes, unique preservation, and power-curve timing before final route insertion. |
+| Alternative Armor and named equipment | Source-listed members retained without final route timing or preservation policy. | TB-012/TB-020 provide gate and power-curve inputs; TB-031E selected source/progression policy and TB-033 validated the prototype-level gates, unique preservation, and power-curve policy; TB-034/TB-037 validate final step placement and observed availability. |
 | Pets, mounts, and follower-carried gear | Pet/mount equipment and related source-listed rows retained here; relationship/pet/mount rows remain in the objective database. | Later route and checklist passes should decide what to buy/equip/preserve and how to handle follower-carried gear such as Gogh's carried items. |
 | Unobtainable/template rows | Retained with exclusion treatments. | TB-007G4 and checklist mapping should verify they remain excluded unless external checklist treatment requires a note. |
 | Books and notes on item pages | Not duplicated in this table. | Book/document tables own individual book/note location and checklist expansion, including one-copy-per-title acquisition planning. |

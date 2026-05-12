@@ -1,6 +1,6 @@
 # Branch Routes
 
-Status: TB-032 warning overlay integrated after TB-029 branch prototypes, TB-031C checklist escalation decisions, and TB-031J source-readiness resolutions.
+Status: TB-033 validated after TB-029 branch prototypes, TB-031C checklist escalation decisions, TB-031J source-readiness resolutions, and the TB-032 warning overlay.
 
 Selective alternate-branch route drafts belong here. Branch drafts should stay sharply scoped to branch-exclusive content and should not duplicate objectives intended for the canonical main route.
 
@@ -62,7 +62,7 @@ This file preserves the TB-028 branch decision matrix and indexes the TB-029 bra
 | Thirsk | Nord side and Nord-side favors are canonical main-route rows; Riekling side remains BR-006. |
 | Bittercup | Fortune remains canonical; `The Pit` is BR-008A Power branch; Nothing/Rulnik remains compact branch/option coverage. |
 | Daedric/Aetherial rewards | Ring of Hircine and Aetherial Crown are canonical main-route rows; alternate rewards remain compact reward branches. |
-| Velehk/Frost/Ralis/Battle of the Champions | No new full branch. Keep current main defaults and validate any source-note-dependent equipment availability during TB-033 final checklist coverage. |
+| Velehk/Frost/Ralis/Battle of the Champions | No new full branch. Keep current main defaults; TB-033 found no checklist-driven reason to promote them. Battle of the Champions equipment coverage remains a step-level TB-034/TB-037 check. |
 | Option-list defaults | No checklist-driven branch escalation for personal/default choices; TB-031D chooses route defaults and TB-035 presents options. |
 
 ## Decision Vocabulary
@@ -99,7 +99,7 @@ This file preserves the TB-028 branch decision matrix and indexes the TB-029 bra
 | BR-016 | `Forgotten Names` / Velehk Sain | Release Velehk for hidden treasure map/reward path. | Main-route resolved with optional outcome note. | `HS-COLLEGE-VELEHK-SAIN` | No full branch; TB-031C found no checklist evidence requiring kill-outcome corpse loot. | `SN-000099` | Keep the hard save because the reward sets differ, but treat the kill path as too small for a full branch by default. |
 | BR-017 | `Promises to Keep` / Frost | Keep Frost. | Main-route resolved with optional outcome note. | `HS-RIFT-FROST-LETRUSH` | No TB-029 full branch unless checklist mapping requires handing Frost to Louis or another alternate state. | `SN-000099`, `SN-000107` | Main continuity preserves the unique mount. |
 | BR-018 | `Unearthed` / Ralis | Spare Ralis. | Main-route resolved with optional outcome note. | `HS-DRAGONBORN-UNEARTHED-RALIS` | No TB-029 full branch unless checklist mapping requires the kill outcome. | `SN-000099`, `SN-000107`, `SN-000111` | Main continuity preserves follower availability; collect Hoarfrost without killing him if the final route validates that handling. |
-| BR-019 | `Battle of the Champions` side selection | Imperial-aligned handling. | Main-route resolved; branch placement piggybacks on Civil War branch if needed. | `HS-AE-CIVIL-WAR-CHAMPIONS` | Stormcloak-aligned staging only if TB-033 verifies branch-exclusive state not covered by Civil War branch. | `SN-000099` | TB-031C found no checklist evidence for a separate branch. Keep source-note dependent; TB-033 should verify both equipment-set availability before final checklist mapping. Do not create a separate full branch for side flavor alone. |
+| BR-019 | `Battle of the Champions` side selection | Imperial-aligned handling. | Main-route resolved; branch placement piggybacks on Civil War branch if needed. | `HS-AE-CIVIL-WAR-CHAMPIONS` | Stormcloak-aligned staging only if TB-034/TB-037 finds branch-exclusive equipment/state not covered by Civil War branch. | `SN-000099` | TB-031C and TB-033 found no checklist evidence for a separate branch. Keep source-note dependent; final step/checklist validation should verify both equipment-set availability before final guide release. Do not create a separate full branch for side flavor alone. |
 
 ## Option-List Matrix
 
@@ -107,7 +107,7 @@ This file preserves the TB-028 branch decision matrix and indexes the TB-029 bra
 | --- | --- | --- | --- | --- | --- |
 | OPT-001 | `In My Time Of Need` | Option list. | TB-035 route/default pass after checklist review. | `SN-000099` | Isolated moral/outcome choice. No full branch unless external checklist mapping escalates both endings. |
 | OPT-002 | `The Blessings of Nature` | Option list. | TB-035 route/default pass after NPC/checklist review. | `SN-000099` | Isolated city-state/NPC outcome choice. No full branch by default. |
-| OPT-003 | Black Book power choices | Option list / progression default. | TB-031D/TB-033. | `SN-000032`, `SN-000033` | TB-031C found no checklist-driven hard-save branch need; TB-031D chooses route defaults unless later validation proves an irreversible route-critical power selection. |
+| OPT-003 | Black Book power choices | Option list / progression default. | TB-031D/TB-035. | `SN-000032`, `SN-000033` | TB-031C and TB-033 found no checklist-driven hard-save branch need; TB-031D chooses route defaults unless later step-level validation proves an irreversible route-critical power selection. |
 | OPT-004 | Spouse, adopted children, stewards, household roles, followers, pets, mounts, farmhands, bards, and carriage services | Option list. | TB-031D checklist/default mapping. | `SN-000067`, `SN-000068`, `SN-000099`, `SN-000106`, `SN-000110` | Recommend defaults later. Do not branch personal preference assignments. |
 | OPT-005 | Unique-only enchantment exclusions | Appendix/exclusion, not branch. | TB-031E complete; TB-036 appendix audit. | `SN-000083` | TB-031C found no branch escalation. Preserve unique items; do not disenchant them merely to learn enchantments. |
 | OPT-006 | Optional child games/random events | Excluded/unbounded appendix only. | None unless checklist reopens. | `SN-000089`, `SN-000110` | Do not route arbitrary random/reactive child events. |
@@ -130,4 +130,4 @@ This file preserves the TB-028 branch decision matrix and indexes the TB-029 bra
 | TB-031C | Complete. `data/checklist-mapping/checklist-escalation-decisions.md` records no all-target radiant escalation, required Thieves Guild 125-job counter coverage, canonical/default promotions, and branch-only holds. |
 | TB-031J | Complete. `data/checklist-mapping/source-readiness-resolutions.csv` maps `Reclamation Priest's Journal (AE)` to BR-007 and leaves no unresolved source-readiness branch bucket. |
 | TB-032 | Complete. Warning and hard-save trigger placement is recorded in `drafts/route-prototypes/main-route-prototype-v0.md` and `data/constraints/quest-conflicts-hard-saves.md`. |
-| TB-033 | Validate objective completion, branch-exclusive reward/state capture, trophy pop where relevant, reload point, and restoration of canonical continuity without duplicating main-route objectives. |
+| TB-033 | Complete in `drafts/route-prototypes/validation-report-v0.md`: prototype-level branch save/reload and canonical-continuity validation passed. TB-034/TB-037 still verify step-level reward/state capture and trophy pops. |

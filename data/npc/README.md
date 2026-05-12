@@ -14,4 +14,4 @@ Use these conventions:
 * Use objective rows for routed completion units and this table for large option lists.
 * Treat `route_treatment=option_list` as non-default option-list coverage after TB-031D unless a later task explicitly reopens the default.
 * Treat `route_treatment=route_default` as a planning default, not proof that the role is already available in-game.
-* Keep exact route timing, NPC safety, prerequisite validation, and bug handling in the TB-032 warning overlay, TB-033 validation, TB-034/TB-035 route/option passes, and the relevant constraint tables rather than this table.
+* Keep exact route timing, NPC safety, prerequisite validation, and bug handling in the TB-032/TB-033 warning and validation layers, TB-034/TB-035 route/option passes, and the relevant constraint tables rather than this table.

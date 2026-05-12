@@ -140,7 +140,8 @@ Use these query surfaces by phase:
 | TB-028/TB-029 branches | `objective_constraints` filtered to `constraint_type = 'quest_conflict_or_branch'` | Build branch/default matrix from canonical conflict rows. |
 | TB-030/TB-031A-TB-031K checklist mapping and reconciliation | `route_objective_workbench` plus `data/checklist-mapping/coverage-matrix.csv` | Complete: stable prototype mappings, review buckets, location validation, source-note/generated-index readiness, checklist-driven defaults/escalations, all source-readiness rows, and downstream planning refresh were resolved before warning prose. |
 | TB-032 warning layer | `route_hard_constraint_queue` plus `drafts/route-prototypes/main-route-prototype-v0.md` | Complete: concise warning and hard-save triggers are recorded in the route prototype and conflict register. |
-| TB-033 validation | `route_hard_constraint_queue` plus source constraint tables | Validate the warning-layered route against source constraint tables. |
+| TB-033 validation | `route_hard_constraint_queue`, source constraint tables, and `drafts/route-prototypes/validation-report-v0.md` | Complete: warning-layered prototype validation passed after targeted Amulet, direct-count, and NPC/favor/action warning corrections. |
+| TB-034 minimal route prototype | `prototype-objective-block-map.csv`, `validation-report-v0.md`, and route-block prototype sections | Produce section headings, step numbers, objective names, gates, saves, checklist categories, and stop/return points only. |
 
 ## Useful SQL Queries
 

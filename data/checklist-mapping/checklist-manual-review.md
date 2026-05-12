@@ -45,9 +45,9 @@ This table records the TB-031B source-readiness buckets with current owner annot
 | `book_document` | 43 | Resolved by TB-031J: 41 main-route mappings, 1 BR-007 branch mapping, and 1 explicit regular-book exclusion. |
 | `unique_item` | 34 | Resolved by TB-031J as source-backed mappings to parent objectives, route blocks, or route-placement owners. |
 | `quest` | 4 | Resolved by TB-031F; any future checklist-only quest catch-all goes to TB-034/TB-037. |
-| `alchemy_effect` | 4 | Resolved by TB-031E; any future checklist-only alchemy catch-all goes to TB-033/TB-037. |
-| `collectible_item` | 2 | Resolved by TB-031F; any future checklist-only collectible catch-all goes to TB-033/TB-037. |
-| `enchantment` | 1 | Resolved by TB-031E; any future checklist-only enchantment catch-all goes to TB-033. |
+| `alchemy_effect` | 4 | Resolved by TB-031E; any future checklist-only alchemy catch-all goes to TB-034/TB-037. |
+| `collectible_item` | 2 | Resolved by TB-031F; any future checklist-only collectible catch-all goes to TB-034/TB-037. |
+| `enchantment` | 1 | Resolved by TB-031E; any future checklist-only enchantment catch-all goes to TB-034/TB-037. |
 | `location` | 1 | Resolved later in TB-031G as the `The Chill*` official-scope exclusion. |
 | `skill_book` | 1 | Resolved by TB-031J as an explicit source-backed skill-book misclassification exclusion. |
 
@@ -55,7 +55,7 @@ This table records the TB-031B source-readiness buckets with current owner annot
 
 Historically, `source_readiness_required` did not mean the item was route-ready, appendix-ready, or in final scope. It meant the raw checklist row was visible as a typed reconciliation input and the named task had to make a source-backed decision before final checklist synchronization.
 
-TB-031J has now made those source-backed decisions for every remaining source-readiness row. TB-032 preserved that state. Do not reintroduce source-readiness holds in TB-033 validation or final-guide drafting unless a new concrete checklist/source contradiction is discovered and assigned to a named task.
+TB-031J has now made those source-backed decisions for every remaining source-readiness row. TB-032 and TB-033 preserved that state. Do not reintroduce source-readiness holds in TB-034 route drafting, TB-037 validation, or final-guide drafting unless a new concrete checklist/source contradiction is discovered and assigned to a named task.
 
 Expected counts after TB-031B:
 

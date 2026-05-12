@@ -23,7 +23,7 @@ Generated TB-030 outputs:
 * `../../docs/deferred-work-audit.md` records the closed TB-031I final deferred-work scan before warning placement and TB-032's completed warning/hard-save trigger layer.
 * `source-readiness-resolutions.csv` records the TB-031J row-level source-readiness resolutions consumed by the coverage generator.
 * TB-031K refreshed downstream route/constraint/coordination artifacts so these resolved checklist decisions were current inputs to TB-032.
-* TB-032 records the warning/hard-save layer consumed by TB-033 validation.
+* TB-032 records the warning/hard-save layer consumed by the completed TB-033 validation pass and by TB-034 route drafting.
 
 Regenerate the matrix with:
 

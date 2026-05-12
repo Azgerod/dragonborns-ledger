@@ -1,6 +1,6 @@
 # Solstheim and AE Branch Prototypes v0
 
-Status: TB-032 warning overlay integrated after TB-029 completion.
+Status: TB-033 validated after TB-029 completion and TB-032 warning integration.
 
 Scope: compact branch prototypes for Dragonborn/Solstheim and Anniversary Edition choice branches resolved by TB-028. These are not final guide prose and do not choose checklist defaults beyond the TB-028 matrix.
 
@@ -10,8 +10,8 @@ Scope: compact branch prototypes for Dragonborn/Solstheim and Anniversary Editio
 | --- | --- |
 | Branch order | Create the named hard save, play each alternate branch first, verify branch-exclusive content, reload, then continue canonical main continuity. |
 | Duplication boundary | Do not duplicate canonical Solstheim or AE quest progression unless the alternate state changes rewards, followers, services, powers, or checklist meaning. |
-| Placement boundary | TB-029 records branch containers; TB-032 records warning and hard-save triggers; TB-033 validates branch safety; TB-034 places final step order. |
-| Branch verification | TB-033 should verify objective completion, branch-exclusive reward/state capture, reload point, and restoration of canonical continuity. |
+| Placement boundary | TB-029 records branch containers; TB-032 records warning and hard-save triggers; TB-033 validated branch safety at prototype level; TB-034 places final step order. |
+| Branch verification | TB-033 validated the hard-save/reload/canonical-continuity structure. TB-034/TB-037 still verify step-level objective completion, branch-exclusive reward/state capture, reload point, and restoration of canonical continuity. |
 
 ## Branch Prototype Index
 
@@ -76,14 +76,14 @@ Affected objective queue:
 | `OBJ-000619` | `Her Word Against Theirs` | Record branch-specific propaganda/Temple-state consequences if available. |
 | `OBJ-000620` | `Trueflame` | Record branch-specific access differences if affected by destroyed-heretic state. |
 | `OBJ-000740` | `Ghosts of the Tribunal Equipment Parent Set` | Record unavailable or altered equipment access, especially armory-key and Skullcrusher consequences. |
-| Checklist cue | `Reclamation Priest's Journal (AE)` | TB-031J maps this to BR-007 because the source ties it to giving propaganda to the Reclamation Priest and his later Ashfall's Tear attack state. Record it as branch-only checklist coverage unless TB-033 proves a main-continuity-safe acquisition. |
+| Checklist cue | `Reclamation Priest's Journal (AE)` | TB-031J maps this to BR-007 because the source ties it to giving propaganda to the Reclamation Priest and his later Ashfall's Tear attack state. TB-033 kept it as branch-only checklist coverage. |
 
 Warnings and handoffs:
 
 | Topic | TB-029 handling |
 | --- | --- |
 | Main default | Join/infiltrate remains canonical because it preserves armory access, crafting permissions, followers, companion tasks, and Skullcrusher access. |
-| Equipment and document coverage | TB-031C found no equipment evidence requiring a larger destroy-only or join-only branch. TB-031J resolves the Ghosts source-readiness document rows: ordinary Ashfall's Tear or carried journals map to main Ghosts handling, while `Reclamation Priest's Journal (AE)` maps to this branch. TB-033 verifies final branch/checklist coverage. |
+| Equipment and document coverage | TB-031C found no equipment evidence requiring a larger destroy-only or join-only branch. TB-031J resolves the Ghosts source-readiness document rows: ordinary Ashfall's Tear or carried journals map to main Ghosts handling, while `Reclamation Priest's Journal (AE)` maps to this branch. TB-033 validated the prototype-level branch/checklist split; final step cues remain TB-034/TB-037. |
 | Route granularity | This branch should be an alternate-state audit, not a second copy of every Ghosts quest step. |
 | Reload point | After destroy-heretics audit, reload `HS-AE-GHOSTS-TEMPLE` and continue join/infiltrate continuity. |
 

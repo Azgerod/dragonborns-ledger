@@ -48,6 +48,6 @@ The TB-008A rows are source-list inventory rows. TB-031G now settles route-plann
 | Non-clearable discoverable/map-marked locations | TB-008B |
 | Duplicate entrances, inherited cleared tags, and secondary map markers | Complete in TB-008C |
 | Exact boss/quest clear triggers per location | Clear mechanics and exception class complete in TB-031G; warning triggers complete in TB-032; final step placement remains TB-034. |
-| Delver/Explorer PS4 trophy behavior and count validation | Counter class complete in TB-031G; final route-state validation remains TB-033. |
+| Delver/Explorer PS4 trophy behavior and count validation | Counter class complete in TB-031G; TB-033 validated prototype handling; final route-state validation remains TB-034/TB-037. |
 | Survival Mode geography, shelter, cold, carry, rest, and route clustering | TB-019 and route prototype passes |
 | Checklist row mapping for location discovery and clearance | TB-031B/TB-031F/TB-031G |

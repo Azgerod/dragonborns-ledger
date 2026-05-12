@@ -1,6 +1,6 @@
 # Phase 2 Constraint Tables
 
-Status: TB-021 reviewed; TB-021B geography support added; TB-031G location route-validation, TB-031J checklist source-readiness, TB-031K downstream refresh, and TB-032 warning layers complete.
+Status: TB-021 reviewed; TB-021B geography support added; TB-031G location route-validation, TB-031J checklist source-readiness, TB-031K downstream refresh, TB-032 warning layers, and TB-033 prototype validation complete.
 
 This directory contains the source-backed routing laws for the guide. The tables are not route prose; they define what later route passes must obey when classifying objectives, building anchors, grouping geography, adding skill/crafting progression, placing warnings, and validating the prototype.
 
@@ -19,7 +19,7 @@ TB-021 reviewed the Phase 2 outputs from TB-011 through TB-020 for source-note s
 | Coordinate support layer | Pass | `data/locations/location-coordinates.csv` provides coordinate rows for every location catalog row, with multi-marker, proxy, no-marker, and separate-worldspace cases flagged. |
 | Hub/corridor geography layer | Pass | `data/locations/location-geography.csv` provides derived nearest services, corridor assignments, worldspace access models, cold risk, barrier flags, and confidence fields. Hold-equivalence routing is still prohibited. |
 | Checklist source-readiness layer | Pass | TB-031J added `source-readiness-resolutions.csv` and `SN-000129`; no generated checklist row remains in `source_readiness_required`. |
-| Warning/hard-save trigger layer | Pass | TB-032 added source-backed warning and save triggers to the main prototype and hard-save register without adding new gameplay research. |
+| Warning/hard-save trigger layer | Pass | TB-032 added source-backed warning and save triggers to the main prototype and hard-save register without adding new gameplay research; TB-033 validated and tightened coverage. |
 
 ## Constraint Inventory
 
@@ -27,14 +27,14 @@ TB-021 reviewed the Phase 2 outputs from TB-011 through TB-020 for source-note s
 | --- | --- | --- | --- |
 | TB-011 AE Creation starts | `ae-creation-start-triggers.md` | Package-level start triggers and hard/prerequisite gates are represented for all 74 AE bundle parents. Source support is present. | Child-level conflicts, bugs, item specifics, and route timing remain owned by later route/warning/validation passes; TB-031J closed the checklist source-readiness queue. |
 | TB-012 leveled unique items | `leveled-unique-items.md` | Leveled reward thresholds and acquisition/lock events are represented and sourced. | TB-022/TB-024 must classify level-gated rewards as fixed-late or windowed; Nightingale Blade source-tier versus tempering utility remains a deliberate route choice. |
-| TB-013 cell-entry locks | `cell-entry-locks.md` | Confirmed entry/spawn locks are separated from reward-time locks and no-confirmed-entry cases. | TB-032 has placed concise warning triggers; TB-033 validates coverage. |
+| TB-013 cell-entry locks | `cell-entry-locks.md` | Confirmed entry/spawn locks are separated from reward-time locks and no-confirmed-entry cases. TB-033 corrected the Amulet of Articulation random-reward objective reference. | TB-032 placed concise warning triggers; TB-033 validated coverage. |
 | TB-014 conflicts and hard saves | `quest-conflicts-hard-saves.md` | Full branches, artifact choices, option-list decisions, and sequencing warnings are separated cleanly. | TB-028/TB-029 decided branch defaults and prototypes; TB-032 placed concise warnings. |
 | TB-015 trophy dependencies | `trophy-dependencies.md` | PS4 setup rules, trophy counters, missable trophies, branch interactions, and level trophies are represented. | Route QA must verify counters and place hard saves before one-shot trophy actions. |
-| TB-016 NPC dependencies | `npc-dependencies.md` | Quest, trophy, property, role, service, investment, training, favor, and activity NPC surfaces are represented. | TB-031D/TB-031E selected route defaults and progression/investment policy; exact route steps and validation remain TB-034/TB-033. |
-| TB-017 bug-prone quests | `bug-prone-quests.md` | PS4/no-console mitigations, hard saves, platform-test rows, and excluded bug buckets are represented. | TB-032 placed concise warning triggers; TB-033 validates that they cover route-created risks. |
+| TB-016 NPC dependencies | `npc-dependencies.md` | Quest, trophy, property, role, service, investment, training, favor, and activity NPC surfaces are represented. | TB-031D/TB-031E selected route defaults and progression/investment policy; TB-033 added missing prototype warnings where needed; exact route steps remain TB-034. |
+| TB-017 bug-prone quests | `bug-prone-quests.md` | PS4/no-console mitigations, hard saves, platform-test rows, and excluded bug buckets are represented. | TB-032 placed concise warning triggers; TB-033 validated that they cover prototype-created risks. |
 | TB-018 radiant boundaries | `radiant-boundaries.md` | Required gates, finite chains, representative radiants, branch-only radiants, support-only locators, and excluded failure states are bounded. | TB-031C/TB-031F resolved 125-job, representative-radiant, conversion-depth, and Hired Muscle counter mechanics; final step placement and validation remain downstream. |
 | TB-019 Survival Mode | `survival-mode-constraints.md` | Hunger, fatigue, cold, sleep, travel services, storage, food, carry, and regional risk constraints are represented. | TB-022/TB-025 must use location hub/corridor data; hold membership alone is not adequate geography. |
-| TB-020 skill/perk/crafting | `skill-perk-leveling-plan.md`; `progression-source-selection.md`; `progression-source-selections.csv` | All-skills/all-perks, level 252, Legendary resets, training limits, crafting power curve, investments, enchantments, alchemy, exploit boundaries, and TB-031E source-selection defaults are represented. | Final numeric reset counts, exact final physical random/vendor source items, step placement, and final perk order remain TB-033/TB-034 validation and route-prototype work. |
+| TB-020 skill/perk/crafting | `skill-perk-leveling-plan.md`; `progression-source-selection.md`; `progression-source-selections.csv` | All-skills/all-perks, level 252, Legendary resets, training limits, crafting power curve, investments, enchantments, alchemy, exploit boundaries, and TB-031E source-selection defaults are represented. | TB-033 validated the policy layer; final numeric reset counts, exact physical random/vendor source items, step placement, and final perk order remain TB-034/TB-037 route-prototype and QA work once step order exists. |
 
 ## Review Decisions
 
@@ -73,11 +73,11 @@ These are not Phase 2 source-support blockers, but they must remain visible:
 | Use `data/locations/location-geography.csv` for geography-sensitive classification and later regional insertion; do not fall back to hold-equivalence routing. | TB-022/TB-025. |
 | Decide first safe storage, main base, property service timing, and travel infrastructure defaults. | Complete in TB-031D; warning triggers are recorded in TB-032; route steps remain TB-034. |
 | Select representative no-journal activity/favor targets for geography, thaneship, economy, and relationship overlap. | Complete in TB-031D; exact route steps remain TB-034. |
-| Choose enchantment source families, alchemy discovery source methods, representative crafting outputs, training blocks, and reset distribution without sacrificing preserved uniques or gradual power curve. | Complete in TB-031E; final physical source-item and numeric reset validation remain TB-033. |
-| Validate route counters for Sideways, Hero of the People, Delver, Explorer, Reader, Thief, Snake Tongue, and trophy pop fallbacks. | Counter policy complete in TB-031F; Delver/Explorer clear/discovery mechanics complete in TB-031G; final totals/trophy pops remain TB-033/final QA. |
-| Decide branch depth for Stormcloak, Volkihar, Daedric alternatives, Blades/Paarthurnax, and AE branch outcomes. | Complete in TB-028/TB-029; TB-032 placed hard-save warnings and TB-033 validates branch state. |
-| Place warnings for leveled rewards, cell-entry locks, NPC risks, trophy actions, and bug-prone quest steps. | Complete in TB-032; TB-033 validates coverage. |
+| Choose enchantment source families, alchemy discovery source methods, representative crafting outputs, training blocks, and reset distribution without sacrificing preserved uniques or gradual power curve. | Complete in TB-031E; TB-033 validated the policy layer; final physical source-item and numeric reset checks remain TB-034/TB-037. |
+| Validate route counters for Sideways, Hero of the People, Delver, Explorer, Reader, Thief, Snake Tongue, and trophy pop fallbacks. | Counter policy complete in TB-031F; Delver/Explorer clear/discovery mechanics complete in TB-031G; TB-033 validated prototype-level treatment; final totals/trophy pops remain TB-034/TB-037/final QA. |
+| Decide branch depth for Stormcloak, Volkihar, Daedric alternatives, Blades/Paarthurnax, and AE branch outcomes. | Complete in TB-028/TB-029; TB-032 placed hard-save warnings and TB-033 validated branch state at prototype level. |
+| Place warnings for leveled rewards, cell-entry locks, NPC risks, trophy actions, and bug-prone quest steps. | Complete in TB-032; TB-033 validated and tightened coverage. |
 
 ## Current Result
 
-Phase 2 constraint facts are source-supported and internally consistent. TB-021A added coordinate support, TB-021B added hub/corridor geography support, TB-031G added location route-validation mechanics, TB-031J closed the checklist source-readiness queue for later route placement, and TB-032 added the warning/hard-save trigger layer. Later passes should not reopen Phase 2 facts casually; they should only add narrower source notes when a specific route placement needs detail that the Phase 2 table intentionally deferred.
+Phase 2 constraint facts are source-supported and internally consistent. TB-021A added coordinate support, TB-021B added hub/corridor geography support, TB-031G added location route-validation mechanics, TB-031J closed the checklist source-readiness queue for later route placement, TB-032 added the warning/hard-save trigger layer, and TB-033 validated the warning-layered prototype. Later passes should not reopen Phase 2 facts casually; they should only add narrower source notes when a specific route placement needs detail that the Phase 2 table intentionally deferred.

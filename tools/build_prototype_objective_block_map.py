@@ -158,9 +158,9 @@ SUPPORT_LOCATION_BLOCK_HINTS = {
     "severin": "G12",
 }
 
-BRANCH_OWNER = "TB-029/TB-033"
-CHECKLIST_OWNER = "TB-031F/TB-033"
-PROGRESSION_OWNER = "TB-031E/TB-033"
+BRANCH_OWNER = "TB-034/TB-037"
+CHECKLIST_OWNER = "TB-034/TB-037"
+PROGRESSION_OWNER = "TB-034/TB-037"
 
 LEVELED_GATE_OVERRIDES = {
     "OBJ-000010": ("Level 46+", "first_enter_cell"),
@@ -442,7 +442,7 @@ def dependency_anchor_owner(row: dict[str, str]) -> str:
 def non_main_assignment(row: dict[str, str]) -> tuple[str, str, str, str]:
     placement = row["route_placement"]
     if placement == "branch_route":
-        return "", "held_branch_deferred", BRANCH_OWNER, "Branch-exclusive row; use the TB-029 branch prototype and validate reload/canonical restoration in TB-033."
+        return "", "held_branch_deferred", BRANCH_OWNER, "Branch-exclusive row; use the TB-029 branch prototype; TB-034 places branch steps and TB-037 validates reload/canonical restoration."
     if placement == "option_list":
         return "", "held_option_list", "TB-031D route-default-decisions.md; TB-035 option presentation", "Isolated default/option selection, not routed as a main step."
     if placement == "appendix":

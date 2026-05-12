@@ -10,13 +10,13 @@ Source support: SN-000127 plus the source notes named in each row below.
 
 | Area | TB-031F decision | Later owner |
 | --- | --- | --- |
-| Trophy counters | Track exact counter checkpoints for side quests, misc objectives, locks/pockets, speech checks, dungeon clears, map discoveries, skill books, dragon souls/rides, Black Books, Solstheim discoveries, and trophy pop saves. | TB-033 final validation. |
-| Thieves Guild side jobs | Route 20 restoration jobs with city tallies, then continue Delvin/Vex jobs to the 125-job display/safe boundary. | TB-034 route placement; TB-033 validation. |
-| Dawnguard `Lost Relic` | Complete all three relic versions; record every filler radiant used because filler count is semi-random. | TB-034 Dawnguard route; TB-033 validation. |
+| Trophy counters | Track exact counter checkpoints for side quests, misc objectives, locks/pockets, speech checks, dungeon clears, map discoveries, skill books, dragon souls/rides, Black Books, Solstheim discoveries, and trophy pop saves. | TB-033 prototype validation complete; TB-034/TB-037 final validation. |
+| Thieves Guild side jobs | Route 20 restoration jobs with city tallies, then continue Delvin/Vex jobs to the 125-job display/safe boundary. | TB-034 route placement; TB-037 validation. |
+| Dawnguard `Lost Relic` | Complete all three relic versions; record every filler radiant used because filler count is semi-random. | TB-034 Dawnguard route; TB-037 validation. |
 | Fishing | Treat Fishing as a structured quest/species/biome/rod/weather sweep, not incidental travel fishing. | TB-034 route placement; TB-037 checklist proof. |
 | Work activities | Pair Hard Worker station actions with representative activity defaults where possible. | TB-034 route placement. |
 | Cutting lumber and milling | Keep as support-only property/material actions, not standalone required counters. | TB-034/TB-037 if checklist proof needs a cue. |
-| Source-readiness rows | Promote/map six TB-031F-owned rows: Rebuilding the Blades, Dragon Hunting, Archery Practice, Scare My Enemy, Firebrand Wine Case, and Map of Dragon Burials. | TB-031H metadata audit complete; TB-033 validation. |
+| Source-readiness rows | Promote/map six TB-031F-owned rows: Rebuilding the Blades, Dragon Hunting, Archery Practice, Scare My Enemy, Firebrand Wine Case, and Map of Dragon Burials. | TB-031H metadata audit complete; TB-033 prototype validation complete; TB-034/TB-037 final step validation. |
 
 ## Counter Checkpoints
 
@@ -52,7 +52,7 @@ Source support: SN-000127 plus the source notes named in each row below.
 | Raven Rock handling | Reject or reload Raven Rock Bedlam. Do not count Raven Rock toward restoration because Solstheim has no reputation quest. |
 | Job-type coverage | Ensure at least one completion of each job type: Numbers, Fishing, Bedlam, Burglary, Shill, Sweep, and Heist. |
 | 125-job completionist boundary | After restoration, continue source-valid Delvin/Vex jobs to total 125. Track total jobs separately from restoration city tallies and stop at the 125-job safe/display boundary. |
-| Final validation | TB-033 verifies four special jobs, Under New Management access, display thresholds, and the 125-job safe. |
+| Final validation | TB-037 verifies four special jobs, Under New Management access, display thresholds, and the 125-job safe after TB-034 places the loop. |
 
 ## Lost Relic and Dawnguard Filler
 

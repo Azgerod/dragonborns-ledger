@@ -31,7 +31,7 @@ This file records source-backed location-entry, first-visit, or location-spawn c
 
 | Queue slice | TB-013 disposition | Follow-up |
 | --- | --- | --- |
-| TB-012 leveled reward queue | Confirmed entry/spawn rows are Riftweald Manor, Sky Haven Temple, Forbidden Legend linked dungeons, and Silent Moons Camp. Frostmere Crypt is not confirmed as a Pale Blade level-entry lock. | TB-020/TB-027 honor level gates; TB-032 has placed exact warning triggers; TB-033 validates coverage. |
+| TB-012 leveled reward queue | Confirmed entry/spawn rows are Riftweald Manor, Sky Haven Temple, Forbidden Legend linked dungeons, and Silent Moons Camp. Frostmere Crypt is not confirmed as a Pale Blade level-entry lock. | TB-020/TB-027 honor level gates; TB-032 placed exact warning triggers; TB-033 validated coverage. |
 | Radiant and favor rows | Confirmed examples are Amren/Ysolda first-visit risk and Kharjo's Amulet of the Moon nonrespawning-target bug. The other favor rows remain class-level caution because TB-013 did not confirm per-giver first-visit failure for each one. | TB-014/TB-017 should validate individual favor bugs, NPC dependencies, and conflicting radiant target states. |
 | Location catalog rows | No blanket source-backed rule says all clearable or discoverable locations are unsafe to enter early. Only the rows above get entry warnings from this pass. | Per-location clear triggers, Delver/Explorer behavior, and bug handling remain downstream validation work. |
 | AE item and AE content-location rows | Text search and supporting tables did not identify a broad AE cell-entry lock class in this pass. | AE child-level conflicts, bugs, and missables remain assigned to TB-014, TB-017, and checklist mapping. |

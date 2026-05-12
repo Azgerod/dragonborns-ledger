@@ -65,7 +65,7 @@ No new gameplay research was performed for this pass. Gameplay claims below are 
 | A18 | Dragonborn final and level-60 rewards | Delay Miraak finalization until maximum reward and soul/perk planning are ready. | Do not finish final Miraak battle before level 60 if preserving maximum Miraak equipment; coordinate Miraak soul-steal period, Bend Will, Black Books, Dragon Aspect, and Dragonrider. | `data/constraints/leveled-unique-items.md` (`SN-000092`); `data/constraints/trophy-dependencies.md` (`SN-000105`, `SN-000033`) | TB-024, TB-027 |
 | A19 | High-level AE and late reward queue | Place AE courier gates and high-level Creation quests around power curve and reward thresholds. | Plague/Bone Wolf/Hendraheim/Bloodchill/Ebony Plate/The Cause and other AE starts must respect their hard/prerequisite gates; exact child placement waits for level, geography, bug, and checklist passes. | `data/constraints/ae-creation-start-triggers.md` (`SN-000090`, `SN-000091`); `data/constraints/bug-prone-quests.md` (`SN-000091`) | TB-024, TB-025, TB-026 |
 | A20 | Late progression, Legendary Dragon, Ebony Warrior, all perks | Reserve final power and progression work for a late route block. | Level 78 for Legendary Dragon, level 80 for Ebony Warrior, level 252 for all perks, all skills restored to 100 after Legendary resets, and no exploit baseline unless user changes policy. | `data/constraints/trophy-dependencies.md` (`SN-000103`, `SN-000105`); `data/constraints/skill-perk-leveling-plan.md` (`SN-000119`, `SN-000120`, `SN-000121`) | TB-024, TB-027 |
-| A21 | Final cleanup and checklist reconciliation | End with explicit counters and no implied backtracking. | Locations, clearables, shouts, books, enchantments, alchemy effects, investments, property/family/service checks, and trophy counters must map to route steps, branches, appendices, option lists, or exclusions. | `docs/guide-specification.md`; `data/constraints/README.md`; `data/constraints/trophy-dependencies.md` (`SN-000103`) | TB-026, TB-031A-TB-031J, TB-033 |
+| A21 | Final cleanup and checklist reconciliation | End with explicit counters and no implied backtracking. | Locations, clearables, shouts, books, enchantments, alchemy effects, investments, property/family/service checks, and trophy counters must map to route steps, branches, appendices, option lists, or exclusions. | `docs/guide-specification.md`; `data/constraints/README.md`; `data/constraints/trophy-dependencies.md` (`SN-000103`) | TB-026, TB-031A-TB-031J, TB-033, TB-034/TB-037 |
 
 ## Level and Reward Gate Register
 
@@ -118,7 +118,7 @@ This table records branch anchors already named by the constraint tables and ref
 | `HS-RIFT-FROST-LETRUSH` | A21 | Keep Frost. | Optional outcome note only unless final checklist validation proves an uncovered alternate state. | `quest-conflicts-hard-saves.md` (`SN-000099`) |
 | `HS-DRAGONBORN-UNEARTHED-RALIS` | A17 | Spare Ralis. | Optional kill-outcome note only unless final checklist validation requires it. | `quest-conflicts-hard-saves.md` (`SN-000099`); `npc-dependencies.md` (`SN-000107`) |
 | `HS-COLLEGE-VELEHK-SAIN` | A11 | Release Velehk for hidden treasure. | Optional kill-outcome note only. | `quest-conflicts-hard-saves.md` (`SN-000099`) |
-| `HS-AE-CIVIL-WAR-CHAMPIONS` | A13/A19 | Imperial-aligned handling. | Piggyback on Civil War branch only if TB-033 verifies side-exclusive state not otherwise covered. | `quest-conflicts-hard-saves.md` (`SN-000099`) |
+| `HS-AE-CIVIL-WAR-CHAMPIONS` | A13/A19 | Imperial-aligned handling. | Piggyback on Civil War branch only if TB-034/TB-037 verify side-exclusive state not otherwise covered. | `quest-conflicts-hard-saves.md` (`SN-000099`) |
 
 ## Anchor Queues for Later Passes
 
@@ -127,7 +127,7 @@ This table records branch anchors already named by the constraint tables and ref
 | Fixed early | A00-A03 must establish trophy-safe setup, Survival baseline, basic infrastructure, and first Whiterun caution. | Exact food, storage, mount, craft, and activity targets. |
 | Fixed late | Level and reward locks become A11, A12, A18, A20, and the level-gate register. | Exact leveling route and whether any source-tier/practical-tier tradeoff is accepted, especially Nightingale Blade. |
 | Windowed | Faction, Daedric, property, Dragonborn, and Bards windows become structural anchors. | Exact route sequence inside each window and concise warning text. |
-| Branch-only | Named hard-save anchors are recorded with TB-028/TB-031C defaults. | TB-032 warning placement and TB-033 branch-state validation. |
+| Branch-only | Named hard-save anchors are recorded with TB-028/TB-031C defaults. | TB-032 warning placement and TB-033 branch-state validation are complete; TB-034/TB-037 still verify final step coverage. |
 | Region flexible | Not placed. | TB-025/TB-026 use corridor/geography data to insert nearby objectives. |
 | Dependency flexible | Not placed except where needed as infrastructure. | TB-026/TB-027 choose exact placement after level/geography skeletons exist. |
 | Option lists | TB-028/TB-031D choose defaults for spouse, children, stewards, role assignments, and isolated moral choices. | TB-035 presents non-default options without rerouting the main continuity. |

@@ -1,8 +1,8 @@
 # Reward and Trophy Branch Prototypes v0
 
-Status: TB-032 warning overlay integrated after TB-029 completion.
+Status: TB-033 validated after TB-029 completion and TB-032 warning integration.
 
-Scope: compact outcome branches for Daedric rewards, Aetherium Forge rewards, and the Master Criminal trophy branch. These are branch prototypes, not final black-box guide steps. TB-032 records warning and hard-save trigger placement; checklist validation remains TB-033.
+Scope: compact outcome branches for Daedric rewards, Aetherium Forge rewards, and the Master Criminal trophy branch. These are branch prototypes, not final black-box guide steps. TB-032 records warning and hard-save trigger placement; TB-033 validated the prototype-level structure; final step/checklist validation remains TB-034/TB-037.
 
 ## Operating Rules
 
@@ -12,7 +12,7 @@ Scope: compact outcome branches for Daedric rewards, Aetherium Forge rewards, an
 | Artifact policy | Canonical route keeps artifact-safe choices for Oblivion Walker unless TB-028 explicitly marks a different supported default. |
 | Exploit policy | Hircine dual-artifact acquisition remains appendix/audit only, not a baseline branch route. |
 | Trophy branch policy | Master Criminal uses a clean-save branch because permanent all-holds bounty state is not desired in final continuity. |
-| Branch verification | TB-033 should verify objective completion, alternate reward acquisition/state, trophy pop where relevant, reload point, and restoration of canonical continuity. |
+| Branch verification | TB-033 validated the hard-save/reload/canonical-continuity structure. TB-034/TB-037 still verify step-level objective completion, alternate reward acquisition/state, trophy pop where relevant, and restoration of canonical continuity. |
 
 ## Branch Prototype Index
 
@@ -104,6 +104,6 @@ These rows keep their TB-028 main-route defaults. TB-031C found no checklist evi
 | `Forgotten Names` / Velehk Sain | `HS-COLLEGE-VELEHK-SAIN` | Release Velehk for hidden treasure map/reward path. | Branch kill outcome only if final checklist treats corpse loot as required. | `SN-000099` |
 | `Promises to Keep` / Frost | `HS-RIFT-FROST-LETRUSH` | Keep Frost. | Branch handoff/alternate Louis/Maven outcomes only if checklist mapping requires them. | `SN-000099`, `SN-000107` |
 | `Unearthed` / Ralis | `HS-DRAGONBORN-UNEARTHED-RALIS` | Spare Ralis; preserve follower availability. | Branch kill outcome only if checklist mapping requires it. | `SN-000099`, `SN-000107`, `SN-000111` |
-| `Battle of the Champions` side selection | `HS-AE-CIVIL-WAR-CHAMPIONS` | Imperial-aligned handling with Civil War main route. | Piggyback Stormcloak staging on Civil War branch only if TB-033 verifies checklist-relevant side differences. | `SN-000099` |
+| `Battle of the Champions` side selection | `HS-AE-CIVIL-WAR-CHAMPIONS` | Imperial-aligned handling with Civil War main route. | Piggyback Stormcloak staging on Civil War branch only if TB-034/TB-037 verifies checklist-relevant side differences. | `SN-000099` |
 
-Handoff note: TB-031C did not create a separate `Battle of the Champions` branch. Equipment coverage remains source-note dependent until TB-033 verifies both equipment-set availability for final checklist mapping.
+Handoff note: TB-031C and TB-033 did not create a separate `Battle of the Champions` branch. Equipment coverage remains source-note dependent until TB-034/TB-037 verifies both equipment-set availability for final checklist mapping.

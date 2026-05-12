@@ -464,7 +464,7 @@ def main() -> int:
             route_timing="Collect selected copy when its route block is safe; read after Scholar's Insight and high-skill timing check.",
             prerequisites_or_inputs=chosen["quest_or_state_dependency"],
             avoid_until="Do not read before Scholar's Insight unless final route explicitly documents the tradeoff.",
-            validation_owner="TB-033/TB-034 final route and skill-state validation",
+            validation_owner="TB-034/TB-037 final route and skill-state validation",
             source_note_refs=chosen["citations"],
             notes="One title-level skill book objective needs one selected copy; duplicate copies remain non-required alternates.",
         )
@@ -489,7 +489,7 @@ def main() -> int:
             route_timing="Buy during the relevant College/service block if vendor-sourced; otherwise pair with parent quest/location.",
             prerequisites_or_inputs=chosen["quest_or_state_dependency"],
             avoid_until="Random loot is not baseline; do not require a source not selected in this table.",
-            validation_owner="TB-033 spell-source and final learned-spell validation",
+            validation_owner="TB-034/TB-037 spell-source and final learned-spell validation",
             source_note_refs=chosen["citations"],
             notes="College specialist vendors are preferred where source-listed; fixed/scripted sources are used where a vendor source is not the clean default.",
         )
@@ -512,7 +512,7 @@ def main() -> int:
             route_timing="Store source items as found; disenchant after source-item preservation checks and before final enchanting validation." if learnable else "Do not learn in main-route continuity.",
             prerequisites_or_inputs="Arcane enchanter access; source item not unique-preserved; unlearned effect." if learnable else row["learning_policy"],
             avoid_until="Do not disenchant unique-preservation exclusions; do not assume random stock before the item is verified.",
-            validation_owner="TB-033 enchantment-learning validation",
+            validation_owner="TB-034/TB-037 enchantment-learning validation",
             source_note_refs=row["citations"],
             notes="Exact physical item can be any source-listed nonunique member of the selected family; random/vendor availability must be verified in final route inventory.",
         )
@@ -536,7 +536,7 @@ def main() -> int:
             route_timing=timing,
             prerequisites_or_inputs="One ingredient copy; Alchemy 50 and Experimenter 3 for one-eat all-effects discovery policy.",
             avoid_until="Do not consume quest/one-time ingredients before parent quest and preservation checks are complete.",
-            validation_owner="TB-033 alchemy-effect validation",
+            validation_owner="TB-034/TB-037 alchemy-effect validation",
             source_note_refs=row["citations"],
             notes=row["source_note"] or row["notes"],
         )
@@ -556,10 +556,10 @@ def main() -> int:
             selected_source=row["store_name"],
             source_location=f"{row['town_or_route']} / {row['hold']}",
             source_detail=row["availability_notes"],
-            route_timing="Invest during the first safe regional merchant sweep after Speech 70 and Investor are active." if available else "Do not route as required investment unless TB-033 later validates official PS4 AE availability.",
+            route_timing="Invest during the first safe regional merchant sweep after Speech 70 and Investor are active." if available else "Do not route as required investment unless TB-037 later validates official PS4 AE availability.",
             prerequisites_or_inputs="Speech 70; Investor perk; merchant alive/accessible; no active hostile/faction state.",
             avoid_until="Complete before any Speech reset or role/default change that can affect merchant access.",
-            validation_owner="TB-033 investment validation",
+            validation_owner="TB-034/TB-037 investment validation",
             source_note_refs=row["citations"],
             notes=row["notes"],
         )
@@ -582,7 +582,7 @@ def main() -> int:
             route_timing="Perform where the selected station, materials, bed/rest support, storage, and Survival carry constraints are all satisfied.",
             prerequisites_or_inputs=inputs,
             avoid_until="Do not use material-recovery exploits or early max-crafting power spikes.",
-            validation_owner="TB-033 crafting-system validation",
+            validation_owner="TB-034/TB-037 crafting-system validation",
             source_note_refs=row["citations"],
             notes="TB-031E chooses a representative output/action where the source table intentionally left system use open.",
         )
@@ -606,7 +606,7 @@ def main() -> int:
             route_timing=timing,
             prerequisites_or_inputs="Use at most five paid sessions per character level; trainers cannot raise skills above 90.",
             avoid_until=avoid,
-            validation_owner="TB-033 final skill-state validation",
+            validation_owner="TB-034/TB-037 final skill-state validation",
             source_note_refs="SN-000120-training-and-skill-boost-constraints.md",
             notes="Training is a smoothing tool, not the sole route to skill 100.",
         )
@@ -630,7 +630,7 @@ def main() -> int:
             route_timing="G14 baseline; cautiously late G12/G13 only after combat alternatives, beds, storage, and recovery paths exist.",
             prerequisites_or_inputs="Skill at 100 before each Legendary reset; final route must restore every skill to 100 and allocate all 251 perk ranks.",
             avoid_until="Do not reset active offense/defense/support before hard content or before required service/investment work.",
-            validation_owner="TB-033 final skill-state validation",
+            validation_owner="TB-034/TB-037 final skill-state validation",
             source_note_refs="SN-000119-leveling-perk-points-and-legendary-reset-plan.md | SN-000120-training-and-skill-boost-constraints.md",
             notes=notes,
         )
@@ -658,7 +658,7 @@ def main() -> int:
             "Quest skill reward",
             "G14",
             "selected_late_gap_closer",
-            "Read/use late on the skill group with the largest remaining pre-100 gap; if the final route needs a fixed default, use Magic unless TB-033 final skill-state math chooses otherwise.",
+            "Read/use late on the skill group with the largest remaining pre-100 gap; if the final route needs a fixed default, use Magic unless TB-034/TB-037 final skill-state math chooses otherwise.",
             "Discerning the Transmundane / Oghma Infinium",
             "Acquire through the controlled Septimus window; do not use until progression math is known.",
             "Do not use to raise skills already at 100; hard-save before reading because the reward can fail to grant all points.",
@@ -696,7 +696,7 @@ def main() -> int:
             route_timing=timing,
             prerequisites_or_inputs="Route must satisfy parent quest/book power access first.",
             avoid_until=avoid,
-            validation_owner="TB-033 final skill-state validation",
+            validation_owner="TB-034/TB-037 final skill-state validation",
             source_note_refs=refs,
             notes="Manual TB-031E progression policy row.",
         )
