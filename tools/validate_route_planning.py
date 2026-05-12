@@ -41,6 +41,7 @@ CONTROLLED_PROTOTYPE_STATUSES = {
     "inserted_support_candidate",
     "manual_validation_required",
     "out_of_scope",
+    "progression_layer_integrated",
     "support_candidate_conditional",
 }
 CONTROLLED_PROTOTYPE_BLOCKS = {

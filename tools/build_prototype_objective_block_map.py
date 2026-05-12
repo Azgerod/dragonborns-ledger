@@ -37,8 +37,8 @@ FIXED_EARLY = {
     "OBJ-000705": (
         "G00",
         "inserted_setup_support",
-        "TB-027",
-        "System coverage only; actual camping-supply crafting waits for materials, forge/anvil access, carry capacity, and Survival need validation.",
+        "TB-030/TB-032",
+        "System coverage only; actual camping-supply crafting waits for material, station, carry, Survival, checklist, and warning validation.",
     ),
 }
 
@@ -133,7 +133,7 @@ SUPPORT_LOCATION_BLOCK_HINTS = {
 
 BRANCH_OWNER = "TB-028"
 CHECKLIST_OWNER = "TB-030"
-PROGRESSION_OWNER = "TB-027"
+PROGRESSION_OWNER = "TB-030/TB-033"
 
 LEVELED_GATE_OVERRIDES = {
     "OBJ-000010": ("Level 46+", "first_enter_cell"),
@@ -402,7 +402,7 @@ def main_assignment(row: dict[str, str], location_lookup: dict[str, str]) -> tup
 
     if category in {"skill_perk", "crafting_unlock"}:
         block = direct_block(row)
-        return block, "held_progression_layer", PROGRESSION_OWNER, "Progression/crafting timing belongs to TB-027."
+        return block, "progression_layer_integrated", PROGRESSION_OWNER, "TB-027 block policy is integrated; exact source, checklist, warning, and final validation work remains downstream."
 
     if rigidity == "fixed_late":
         block, deferred = fixed_late_block(row)
@@ -469,7 +469,7 @@ def disposition(row: dict[str, str], route_block: str, status: str, deferred_to:
         return "dependency_anchor"
     if status == "support_candidate_conditional":
         return "conditional_support"
-    if status in {"held_candidate_selection", "held_progression_layer"}:
+    if status in {"held_candidate_selection", "held_progression_layer", "progression_layer_integrated"}:
         return "later_pass"
     if status == "held_hard_gate" and deferred_to in {"TB-028/TB-032", "TB-028", "TB-032"}:
         return "later_pass"
@@ -545,7 +545,7 @@ def main() -> int:
     objective_names = {row["objective_id"]: row["objective_name"] for row in rows}
     header = output_header()
     with OUTPUT.open("w", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fieldnames=header)
+        writer = csv.DictWriter(handle, fieldnames=header, lineterminator="\n")
         writer.writeheader()
         for row in rows:
             writer.writerow(build_row(row, location_lookup, objective_names))

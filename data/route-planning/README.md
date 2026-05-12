@@ -106,7 +106,7 @@ Important `prototype-objective-block-map.csv` fields:
 | `route_block` | The TB-026 route block assigned to the objective. | This contains only `G00` through `G14` or blank; branch, appendix, excluded, and option-list state is kept out of the route-block field. |
 | `disposition` | Broad row bucket such as `route_block`, `later_pass`, `branch_deferred`, `appendix`, `excluded`, or `option_list`. | Use with `prototype_status` for filtering; it is not final route order. |
 | `source_corridor` | The original corridor from `objective-route-index.csv`, if one exists. | Gate-extracted rows can keep their source corridor while moving to a later control block such as G09 or G10. |
-| `prototype_status` | TB-026 disposition such as `inserted_direct_geography`, `held_hard_gate`, `held_candidate_selection`, or `held_progression_layer`. | This is an audit/status layer, not final route order. |
+| `prototype_status` | TB-026/TB-027 disposition such as `inserted_direct_geography`, `held_hard_gate`, `held_candidate_selection`, or `progression_layer_integrated`. | This is an audit/status layer, not final route order. |
 | `leveled_reward_threshold` / `threshold_trigger` | Source-backed maximum-tier gate and trigger where TB-012/TB-013 already identified one. | Empty means no leveled reward threshold was mapped for TB-026, not that no later warning can exist. |
 | `parent_objective_id` / `parent_objective_name` / `parent_route_block` | Known parent quest/location/block for non-geographic or reward rows. | Populated only where TB-026 can link it without new research. |
 | `deferred_to` | Later owner, gate, or block needed before final insertion. | Use this to avoid burying unresolved work in G14. |
