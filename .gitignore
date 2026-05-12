@@ -23,3 +23,7 @@ env/
 *.swp
 *.swo
 *~
+
+# Generated local data workbenches
+data/route-planning/*.sqlite
+data/route-planning/*.sqlite-journal

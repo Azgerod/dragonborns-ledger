@@ -17,6 +17,11 @@ Current tools:
 | `validate_items.py` | AE item-member table structural validation. |
 | `validate_properties.py` | Property detail table structural validation. |
 | `validate_locations.py` | Location catalog structural validation. |
+| `validate_location_coordinates.py` | Location coordinate support table structural validation. |
+| `validate_location_geography.py` | Hub/corridor geography support table structural validation. |
+| `build_route_planning_index.py` | Generates route-planning objective and constraint indexes from source CSVs and Markdown constraint tables. |
+| `build_route_planning_database.py` | Builds an ignored local SQLite workbench from the project CSVs. |
+| `validate_route_planning.py` | Route-planning index structural validation. |
 | `validate_skills.py` | Skill/perk and individual perk-rank support table structural validation. |
 | `validate_enchantments.py` | Enchantment-learning support table structural validation. |
 | `validate_alchemy.py` | Alchemy ingredient-effect support table structural validation. |
