@@ -28,10 +28,10 @@ No new gameplay research was performed for this pass. Gameplay claims and route 
 
 | Route-index slice | Rows | Prototype handling |
 | --- | ---: | --- |
-| Main-route objective rows | 2,685 | Eligible for this artifact unless fixed, windowed, branch-deferred, or later-pass owned. |
-| `dependency_flexible` main rows | 1,542 | Insert only after prerequisites and constraint rows permit. |
+| Main-route objective rows | 2,691 | Eligible for this artifact unless fixed, windowed, branch-deferred, or later-pass owned. |
+| `dependency_flexible` main rows | 1,546 | Insert only after prerequisites and constraint rows permit. |
 | `region_flexible` main rows | 842 | Insert when the route is naturally in the corridor and Survival support exists. |
-| `windowed` main rows | 206 | Keep as anchored windows; do not treat as ordinary flexible fill. |
+| `windowed` main rows | 208 | Keep as anchored windows; do not treat as ordinary flexible fill. |
 | `fixed_late` main rows | 72 | Keep behind their level, cell-entry, quest-state, reward, or progression gates. |
 | `fixed_early` main rows | 5 | Place in setup/opening only. |
 | `cleanup_safe` main rows | 18 | Keep for checklist reconciliation, not as early travel targets. |
@@ -49,7 +49,7 @@ No new gameplay research was performed for this pass. Gameplay claims and route 
 | `multiple_geography_points` | 4 | Assign to a block only after exact point validation; not final pathing. |
 | `single_support_candidate` | 830 | Attach to the matching hub, quest, property, support table, or parent objective when prerequisites are valid. |
 | `multiple_support_candidates` | 319 | Keep as a candidate-selection queue; later passes choose the local safe copy/source. |
-| `no_route_candidate_data` | 1,089 | Place by anchor, quest dependency, faction sequence, reward timing, or later checklist mapping. |
+| `no_route_candidate_data` | 1,095 | Place by anchor, quest dependency, faction sequence, reward timing, or later checklist mapping. |
 
 All 447 direct geography rows in this prototype are `location` objectives. They are corridor-ready, but not final step-ready: the geography table is straight-line support data and still requires road, pass, water, quest-state, enemy, weather, and exact entrance validation before prose.
 
@@ -164,7 +164,7 @@ Use fallback blocks only when the player reaches a gate underleveled. Each fallb
 | Single support candidates | 830 | Attach when the support row is already inside a safe route block. This covers many book/document titles, crafting unlock rows, skill/perk support rows, properties, merchant investments, and a few quest/unique/trophy support rows. |
 | Multiple support candidates | 319 | Do not choose a canonical copy/source here. TB-027/TB-031E/TB-032 should choose the local safest candidate after skill, checklist, and warning needs are known. |
 | No route candidate data | 1,089 | Keep dependency-driven. Quest chains, unique-item rewards, collectible sets, AE package parents, powers, radiants, trophy counters, pets/mounts, and relationships should move with their anchor or later checklist/default pass. |
-| Constraint-backed flexible rows | 887 | Do not treat flexibility as permission to route blindly. Inspect the linked constraint source before final insertion or warning text. |
+| Constraint-backed flexible rows | 891 | Do not treat flexibility as permission to route blindly. Inspect the linked constraint source before final insertion or warning text. |
 | Flexible rows without linked constraints | 1,497 | Eligible for local insertion only if prerequisites, geography, and Survival support are clear. |
 
 ## Support Objective Policy

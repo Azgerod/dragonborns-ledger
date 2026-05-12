@@ -4,7 +4,7 @@
 The TB-030 output is a prototype-level coverage map, not final guide step
 numbering. It maps each spreadsheet-tracked row to the best current route
 artifact: a route block, branch prototype, option-list/default pass, appendix,
-or a manual-review bucket.
+exclusion, or typed source-readiness hold.
 """
 
 from __future__ import annotations
@@ -82,6 +82,184 @@ COLUMNS = [
 ]
 
 STATUS_VALUES = {"Y", "N", "-", "*"}
+CHECKLIST_MANUAL_REVIEW_SOURCE_NOTE = "SN-000125-checklist-manual-review-reconciliation.md"
+
+
+PERK_NAME_ALIASES = {
+    ("pickpocket", "key master gozer"): "Keymaster",
+    ("heavy armor", "reflective blows"): "Reflect Blows",
+    ("two handed", "champion stance"): "Champion's Stance",
+    ("two handed", "great crit char"): "Great Critical Charge",
+    ("one handed", "paralysing strike"): "Paralyzing Strike",
+    ("destruction", "aug flames 1"): "Augmented Flames 1",
+    ("destruction", "aug flames 2"): "Augmented Flames 2",
+    ("destruction", "aug frost 1"): "Augmented Frost 1",
+    ("destruction", "aug frost 2"): "Augmented Frost 2",
+    ("destruction", "aug shock 1"): "Augmented Shock 1",
+    ("destruction", "aug shock 2"): "Augmented Shock 2",
+    ("alteration", "magic res 1"): "Magic Resistance 1",
+    ("alteration", "magic res 2"): "Magic Resistance 2",
+    ("alteration", "magic res 3"): "Magic Resistance 3",
+    ("enchanting", "insight enchanter"): "Insightful Enchanter",
+    ("illusion", "master mind"): "Master of the Mind",
+}
+
+QUEST_PERK_OBJECTIVES = {
+    "sinderion s serendipity": "OBJ-000810",
+    "sailor s repose": "OBJ-000809",
+    "prowler s profit": "OBJ-000808",
+    "agent of mara": "OBJ-000803",
+    "agent of dibella": "OBJ-000802",
+    "nightingale armor": "OBJ-001766",
+    "ancient knowledge": "OBJ-000804",
+    "dragon infusion": "OBJ-000805",
+    "turn of the seasons": "OBJ-000813",
+}
+
+TRANSFORMATION_PERK_OBJECTIVES = {
+    "vampire lord perks": "OBJ-000817",
+    "werewolf perks": "OBJ-000815",
+}
+
+QUEST_ENTRY_OVERRIDES = {
+    "visit the shrine of azura": "OBJ-000165",
+    "speak to the witchhunter": "OBJ-000174",
+    "investigate the boethiah cultist": "OBJ-000166",
+    "investigate the hall of the dead": "OBJ-000175",
+    "speak to lod": "OBJ-000167",
+    "darkness returns thieves guild": "OBJ-000046",
+    "find kesh at the peryite shrine": "OBJ-000176",
+    "drink with sam": "OBJ-000177",
+    "visit the museum in dawnstar": "OBJ-000171",
+    "investigate dervenin": "OBJ-000178",
+    "ask about balgruuf s strange children": "OBJ-000172",
+    "lair s retreat": "OBJ-002758",
+    "recover andurs amulet of arkay": "OBJ-000323",
+    "read eltrys note": "OBJ-001135",
+    "kolbjorn barrow misc objectives": "OBJ-000465",
+    "sell stalhrim equipment": "OBJ-000469",
+    "thirsk rumors": "OBJ-000455",
+    "nordic jewlery": "OBJ-000630",
+    "noric jewlery": "OBJ-000630",
+    "the bonds of matrimony": "OBJ-001945",
+    "dragon research": "OBJ-000805",
+}
+
+LITANY_OF_LARCENY_ENTRIES = {
+    "bust of the gray fox",
+    "dwemer puzzle cube",
+    "east empire shipping map",
+    "honningbrew decanter",
+    "left eye of the falmer",
+    "model ship",
+    "queen bee statue",
+}
+
+CITY_HOME_BY_GROUP = {
+    "windhelm": "OBJ-001923",
+    "solitude": "OBJ-001924",
+    "markarth": "OBJ-001922",
+    "riften": "OBJ-001921",
+    "whiterun": "OBJ-001920",
+}
+
+HEARTHFIRE_HOME_BY_GROUP = {
+    "falkreath": "OBJ-000395",
+    "morthal": "OBJ-000396",
+    "dawnstar": "OBJ-000397",
+}
+
+REPRESENTATIVE_ACTIVITY_OBJECTIVES = {
+    "chop wood": "OBJ-002762",
+    "gather wheat": "OBJ-002763",
+    "mine ore": "OBJ-002764",
+    "fight fight": "OBJ-002765",
+    "quest all beggars have": "OBJ-002766",
+    "quest all drunks have": "OBJ-002767",
+}
+
+BOOK_TITLE_OVERRIDES = {
+    "death blow of ebernanit": "OBJ-000836",
+    "captains journal": "OBJ-001374",
+    "everthra s journal": "OBJ-001392",
+    "guard dossier antonius": "OBJ-001411",
+    "guard dossier bjormund wind strider": "OBJ-001412",
+    "guard dossier yakhtu gra orkulg": "OBJ-001413",
+    "necromancer s journal plague of dead": "OBJ-001468",
+}
+
+UNIQUE_ITEM_OVERRIDES = {
+    "tumblerbane glove": "OBJ-001700",
+    "ancient nordic pickaxe": "OBJ-000425",
+}
+
+SPELL_OVERRIDES = {
+    "summon unbound dremora": "OBJ-000130",
+    "summon arniel s shade": "OBJ-000117",
+    "arniel s convection": "OBJ-000117",
+    "vision of the tenth eye": "OBJ-000132",
+}
+
+PET_TELEPORT_OBJECTIVES = {
+    "arachnia": "OBJ-000675",
+    "bone wolf": "OBJ-000671",
+    "demented elytra nymph": "OBJ-000677",
+    "hilda": "OBJ-000672",
+    "manic elytra nymph": "OBJ-000678",
+    "skritch": "OBJ-000676",
+    "sweet roll": "OBJ-000673",
+    "thistle": "OBJ-000674",
+}
+
+COLLECTIBLE_ENTRY_OVERRIDES: dict[str, str] = {}
+
+SOURCE_READINESS_BY_CATEGORY = {
+    "alchemy_effect": (
+        "TB-031E/TB-031H alchemy source-readiness review",
+        "checklist_alchemy_source_readiness",
+        "Checklist-only alchemy row; TB-031E/TB-031H must validate source scope before route inclusion.",
+    ),
+    "book_document": (
+        "TB-031H/TB-036 book/document source-readiness review",
+        "checklist_book_document_source_readiness",
+        "Checklist-only book/document row; TB-031H must validate source/objective-table readiness before final appendix or route inclusion.",
+    ),
+    "collectible_item": (
+        "TB-031F/TB-031H collectible source-readiness review",
+        "checklist_collectible_source_readiness",
+        "Checklist collectible row lacks a current source-backed objective match; TB-031F/TB-031H must validate or exclude it explicitly.",
+    ),
+    "enchantment": (
+        "TB-031E/TB-031H enchantment source-readiness review",
+        "checklist_enchantment_source_readiness",
+        "Checklist enchantment row lacks a current source-backed learning objective; TB-031E/TB-031H must validate route scope.",
+    ),
+    "location": (
+        "TB-031G/TB-031H location source-readiness review",
+        "checklist_location_source_readiness",
+        "Checklist location row lacks a current source-backed location-catalog objective; TB-031G/TB-031H must validate scope before route use.",
+    ),
+    "quest": (
+        "TB-031F/TB-031H quest source-readiness review",
+        "checklist_quest_source_readiness",
+        "Checklist quest/sub-objective row lacks a current source-backed objective match; TB-031F/TB-031H must promote, map, or exclude it after TB-031C escalation review.",
+    ),
+    "skill_book": (
+        "TB-031H/TB-036 skill-book source-readiness review",
+        "checklist_skill_book_source_readiness",
+        "Checklist skill-book row lacks a current title-table match; TB-031H must validate source spelling/scope before route inclusion.",
+    ),
+    "spell": (
+        "TB-031E/TB-031H spell source-readiness review",
+        "checklist_spell_source_readiness",
+        "Checklist spell row lacks a current source-backed spell or parent objective match; TB-031E/TB-031H must validate route scope.",
+    ),
+    "unique_item": (
+        "TB-031H/TB-036 unique-gear source-readiness review",
+        "checklist_unique_gear_source_readiness",
+        "Checklist unique-gear row lacks a current source-backed objective match; TB-031H must validate source/objective readiness before final inclusion.",
+    ),
+}
 
 
 @dataclass(frozen=True)
@@ -158,12 +336,14 @@ def normalize(text: str) -> str:
         text,
         flags=re.IGNORECASE,
     )
-    text = re.sub(
+    stripped_suffix = re.sub(
         r"\b(ae|cc|db|dg|hf|dawnguard|dragonborn|hearthfire|optional|two versions|dragonborn only)\b$",
         "",
         text,
         flags=re.IGNORECASE,
     ).strip()
+    if stripped_suffix:
+        text = stripped_suffix
     text = re.sub(r"^spell tome:\s*", "", text, flags=re.IGNORECASE)
     text = re.sub(r"^(artifact|unique item|leveled reward|skill book):\s*", "", text, flags=re.IGNORECASE)
     text = re.sub(r"^learn enchantment:\s*", "", text, flags=re.IGNORECASE)
@@ -596,13 +776,36 @@ def parse_workbook(path: Path) -> list[ChecklistEntry]:
 
 def choose_objective_id(entry: ChecklistEntry, indexes: dict[str, Any]) -> tuple[str, str]:
     normalized_entry = normalize(entry.entry)
+    normalized_entry_without_parens = normalize(re.sub(r"\s*\([^)]*\)", "", entry.entry))
     normalized_key = normalize(entry.key)
+    normalized_group = normalize(entry.group)
+
+    if entry.category == "quest":
+        for key in (normalized_entry, normalized_entry_without_parens):
+            if key in QUEST_ENTRY_OVERRIDES:
+                return QUEST_ENTRY_OVERRIDES[key], "checklist_manual_objective_alias"
+        if normalized_entry in LITANY_OF_LARCENY_ENTRIES:
+            return "OBJ-000143", "checklist_manual_objective_alias"
+        if normalized_entry == "house in the city" and normalized_group in CITY_HOME_BY_GROUP:
+            return CITY_HOME_BY_GROUP[normalized_group], "checklist_manual_property_alias"
+        if normalized_entry == "develop land outside the city" and normalized_group in HEARTHFIRE_HOME_BY_GROUP:
+            return HEARTHFIRE_HOME_BY_GROUP[normalized_group], "checklist_manual_property_alias"
+        if normalized_entry in REPRESENTATIVE_ACTIVITY_OBJECTIVES:
+            return REPRESENTATIVE_ACTIVITY_OBJECTIVES[normalized_entry], "checklist_manual_representative_activity"
+        location_id = indexes["locations"].get(normalize(entry.detail), "")
+        if location_id:
+            return location_id, "checklist_detail_location_alias"
 
     if entry.category == "enchantment":
         objective_id = indexes["enchantments"].get(normalized_entry, "")
         return objective_id, "enchantment_catalog" if objective_id else ""
 
     if entry.category in {"spell", "spell_tome_book"}:
+        if normalized_entry in SPELL_OVERRIDES:
+            return SPELL_OVERRIDES[normalized_entry], "checklist_manual_spell_parent"
+        teleport_pet = re.sub(r"^teleport pet\s+", "", normalized_entry).strip()
+        if teleport_pet in PET_TELEPORT_OBJECTIVES:
+            return PET_TELEPORT_OBJECTIVES[teleport_pet], "checklist_manual_pet_spell_parent"
         spell_name = entry.entry.removeprefix("Spell Tome: ").strip()
         for candidate in (f"Spell Tome: {spell_name}", spell_name):
             ids = indexes["aliases"].get(normalize(candidate), [])
@@ -610,6 +813,9 @@ def choose_objective_id(entry: ChecklistEntry, indexes: dict[str, Any]) -> tuple
                 return ids[0], "spell_tome_objective"
 
     if entry.category in {"skill_book", "black_book", "book_document"}:
+        for key in (normalized_entry, normalized_entry_without_parens):
+            if key in BOOK_TITLE_OVERRIDES:
+                return BOOK_TITLE_OVERRIDES[key], "checklist_manual_book_alias"
         objective_id = indexes["book_titles"].get(normalized_entry, "")
         if objective_id:
             return objective_id, "book_location_table"
@@ -627,6 +833,18 @@ def choose_objective_id(entry: ChecklistEntry, indexes: dict[str, Any]) -> tuple
         return "", ""
 
     if entry.category == "collectible_item":
+        if normalized_entry in COLLECTIBLE_ENTRY_OVERRIDES:
+            return COLLECTIBLE_ENTRY_OVERRIDES[normalized_entry], "checklist_manual_collectible_parent"
+        quoted_quests = re.findall(r'"([^"]+)"', entry.detail)
+        for quest_name in quoted_quests:
+            ids = indexes["aliases"].get(normalize(quest_name), [])
+            quest_ids = [
+                objective_id
+                for objective_id in ids
+                if indexes["objective_rows"].get(objective_id, {}).get("category") in {"quest", "misc_objective", "radiant"}
+            ]
+            if quest_ids:
+                return quest_ids[0], "checklist_detail_quest_alias"
         objective_id = indexes["item_members"].get(normalized_entry, "")
         if objective_id:
             return objective_id, "item_member_table"
@@ -638,7 +856,17 @@ def choose_objective_id(entry: ChecklistEntry, indexes: dict[str, Any]) -> tuple
 
     if entry.category == "perk_rank":
         skill, _, perk = entry.key.partition("|")
-        objective_id = indexes["perks"].get((normalize(skill), normalize(perk)), "")
+        normalized_skill = normalize(skill)
+        normalized_perk = normalize(perk)
+        if normalized_skill in TRANSFORMATION_PERK_OBJECTIVES:
+            return TRANSFORMATION_PERK_OBJECTIVES[normalized_skill], "checklist_transformation_perk_parent"
+        if normalized_skill == "quest perks" and normalized_perk in QUEST_PERK_OBJECTIVES:
+            return QUEST_PERK_OBJECTIVES[normalized_perk], "checklist_quest_perk_parent"
+        objective_id = indexes["perks"].get((normalized_skill, normalized_perk), "")
+        if not objective_id:
+            alias = PERK_NAME_ALIASES.get((normalized_skill, normalized_perk), "")
+            if alias:
+                objective_id = indexes["perks"].get((normalized_skill, normalize(alias)), "")
         return objective_id, "perk_rank_catalog" if objective_id else ""
 
     if entry.category == "dragon_shout_word":
@@ -650,7 +878,10 @@ def choose_objective_id(entry: ChecklistEntry, indexes: dict[str, Any]) -> tuple
         if indexes["npc_options"].get(normalized_entry):
             return "", "npc_option_table"
 
-    for candidate in (entry.entry, entry.key):
+    if entry.category == "unique_item" and normalized_entry in UNIQUE_ITEM_OVERRIDES:
+        return UNIQUE_ITEM_OVERRIDES[normalized_entry], "checklist_manual_unique_item_alias"
+
+    for candidate in (entry.entry, re.sub(r"\s*\([^)]*\)", "", entry.entry), entry.key):
         ids = indexes["aliases"].get(normalize(candidate), [])
         if ids:
             # Prefer a unique-item row for unique gear and a quest row for quests
@@ -712,12 +943,12 @@ def classify(entry: ChecklistEntry, objective_id: str, match_source: str, indexe
         "deferred_to": deferred_to,
         "match_status": "matched" if objective_id else ("support_table_only" if match_source else "unmatched"),
         "match_source": match_source,
-        "mapping_type": "Manual review",
+        "mapping_type": "Source-readiness hold",
         "guide_location": "",
         "branch_name": "",
         "exclusion_reason": "",
         "source_note_refs": objective.get("citations", ""),
-        "status": "manual_review_required",
+        "status": "source_readiness_required",
         "notes": "",
     }
 
@@ -788,7 +1019,24 @@ def classify(entry: ChecklistEntry, objective_id: str, match_source: str, indexe
         row["notes"] = "Matched to relationship option table; final default/recruitment recommendation remains later work."
         return row
 
-    row["notes"] = "No reliable objective/support-table match found during TB-030 automated mapping; inspect manually before final guide."
+    if entry.category in SOURCE_READINESS_BY_CATEGORY:
+        guide_location, source, note = SOURCE_READINESS_BY_CATEGORY[entry.category]
+        row["mapping_type"] = "Source-readiness hold"
+        row["guide_location"] = guide_location
+        row["source_note_refs"] = CHECKLIST_MANUAL_REVIEW_SOURCE_NOTE
+        row["match_status"] = "support_table_only"
+        row["match_source"] = source
+        row["status"] = "source_readiness_required"
+        row["notes"] = note
+        return row
+
+    row["mapping_type"] = "Source-readiness hold"
+    row["guide_location"] = "TB-031H source-readiness review"
+    row["source_note_refs"] = CHECKLIST_MANUAL_REVIEW_SOURCE_NOTE
+    row["match_status"] = "support_table_only"
+    row["match_source"] = "checklist_other_source_readiness"
+    row["status"] = "source_readiness_required"
+    row["notes"] = "Checklist row lacks a current source-backed objective/support-table match; TB-031H must validate, promote, or exclude it explicitly."
     return row
 
 

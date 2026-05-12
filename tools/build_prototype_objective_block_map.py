@@ -132,7 +132,7 @@ SUPPORT_LOCATION_BLOCK_HINTS = {
 }
 
 BRANCH_OWNER = "TB-028"
-CHECKLIST_OWNER = "TB-031A-TB-031F"
+CHECKLIST_OWNER = "TB-031F/TB-033"
 PROGRESSION_OWNER = "TB-031E/TB-033"
 
 LEVELED_GATE_OVERRIDES = {
@@ -399,7 +399,7 @@ def dependency_anchor_owner(row: dict[str, str]) -> str:
     if category in {"npc_relationship", "pet_mount"}:
         return "TB-031D"
     if category == "radiant":
-        return "TB-031C/TB-031F"
+        return "TB-031F"
     if category == "unique_item":
         return "TB-031B/TB-031E/TB-034"
     if category in {"quest", "misc_objective", "ae_creation"}:
@@ -412,7 +412,7 @@ def non_main_assignment(row: dict[str, str]) -> tuple[str, str, str, str]:
     if placement == "branch_route":
         return "", "held_branch_deferred", BRANCH_OWNER, "Branch-exclusive or unresolved branch-default row."
     if placement == "option_list":
-        return "", "held_option_list", "TB-028/TB-031C/TB-031D", "Isolated default/option selection, not routed as a main step."
+        return "", "held_option_list", "TB-031D/TB-035", "Isolated default/option selection, not routed as a main step."
     if placement == "appendix":
         return "", "held_appendix", "TB-031A/TB-031B/TB-036", "Reference/checklist row, not a main-route insertion step."
     if placement == "excluded":

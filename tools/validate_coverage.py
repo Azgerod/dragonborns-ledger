@@ -2,8 +2,9 @@
 """Validate the generated checklist coverage matrix.
 
 This is a structural contract check for the TB-030/TB-031 checklist
-coverage matrix. It does not decide gameplay scope; rows that need human
-review must be explicit, typed, and carried forward by status.
+coverage matrix. It does not decide gameplay scope; rows that still need
+source/objective/support-table readiness work must be explicit, typed, and
+carried forward by status.
 """
 
 from __future__ import annotations
@@ -65,7 +66,7 @@ ALLOWED_MAPPING_TYPES = {
     "Option-list note",
     "Appendix-only checklist",
     "Explicit exclusion",
-    "Manual review",
+    "Source-readiness hold",
 }
 
 ALLOWED_STATUS_VALUES = {
@@ -74,7 +75,7 @@ ALLOWED_STATUS_VALUES = {
     "mapped_to_option_list",
     "mapped_to_appendix",
     "excluded_with_justification",
-    "manual_review_required",
+    "source_readiness_required",
 }
 
 EXPECTED_STATUS_BY_MAPPING_TYPE = {
@@ -83,7 +84,7 @@ EXPECTED_STATUS_BY_MAPPING_TYPE = {
     "Option-list note": {"mapped_to_option_list"},
     "Appendix-only checklist": {"mapped_to_appendix"},
     "Explicit exclusion": {"excluded_with_justification"},
-    "Manual review": {"manual_review_required"},
+    "Source-readiness hold": {"source_readiness_required"},
 }
 
 ALLOWED_MATCH_STATUSES = {"matched", "support_table_only", "unmatched"}
@@ -205,10 +206,7 @@ def validate_row(
             add_error(errors, line_number, checklist_id, f"source_note_ref has invalid format {source_ref!r}")
 
     guide_location = value(row, "guide_location")
-    if status == "manual_review_required":
-        if guide_location:
-            add_error(errors, line_number, checklist_id, "manual review rows must not have guide_location")
-    elif not guide_location:
+    if not guide_location:
         add_error(errors, line_number, checklist_id, f"{status} rows require guide_location")
 
     branch_name = value(row, "branch_name")
@@ -244,11 +242,18 @@ def validate_row(
         if not match_source:
             add_error(errors, line_number, checklist_id, "support_table_only rows require match_source")
     elif match_status == "unmatched":
-        if status != "manual_review_required":
-            add_error(errors, line_number, checklist_id, "only review rows may be unmatched")
+        add_error(errors, line_number, checklist_id, "unmatched rows are not allowed after TB-031B")
         for column in ["objective_id", "matched_objective_name", "source_note_refs", "match_source"]:
             if not is_blank(row, column):
                 add_error(errors, line_number, checklist_id, f"unmatched rows must not have {column}")
+
+    if status == "source_readiness_required":
+        if match_status != "support_table_only":
+            add_error(errors, line_number, checklist_id, "source-readiness rows must be support_table_only")
+        if not source_note_refs:
+            add_error(errors, line_number, checklist_id, "source-readiness rows require source_note_refs")
+        if not match_source:
+            add_error(errors, line_number, checklist_id, "source-readiness rows require match_source")
 
 
 def validate_matrix() -> list[str]:

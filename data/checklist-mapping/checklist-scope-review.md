@@ -34,12 +34,12 @@ Optional broader library-completion discussion may be added only if the project 
 
 This decision does not exclude or downgrade in-scope book/document rows. Skill books, spell tomes, Black Books, quest/AE documents, unique checklist-tracked documents, and unmatched book/document rows remain governed by their own rows and later tasks.
 
-TB-031B still needs to resolve the remaining book-related manual-review rows:
+TB-031B has resolved the remaining book-related manual-review rows:
 
 | Category | Rows | Owner |
 | --- | ---: | --- |
-| `book_document` | 49 | TB-031B |
-| `skill_book` | 2 | TB-031B |
+| `book_document` | 49 | TB-031B mapped 6 to existing source-backed rows and converted 43 checklist-only rows into `source_readiness_required` holds for TB-031H/TB-036. |
+| `skill_book` | 2 | TB-031B mapped 1 title-spelling variant to an existing skill-book row and converted 1 checklist-only row into a `source_readiness_required` hold for TB-031H/TB-036. |
 
 ## Audit Query
 

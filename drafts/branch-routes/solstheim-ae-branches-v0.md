@@ -53,7 +53,7 @@ Warnings and handoffs:
 | --- | --- |
 | Branch execution bug | Keep a save before hall assault. Let objective state settle before clearing too aggressively. |
 | Riekling follower state | Verify branch-only follower/occupant access before reload. |
-| Main-route duplicate risk | Do not complete Nord-side favors on the Riekling branch unless TB-031C checklist escalation later requires a separate branch note. |
+| Main-route duplicate risk | Do not complete Nord-side favors on the Riekling branch. TB-031C promoted Nord-side Thirsk and the Nord-side Elmus/Halbarn/Hilund favors to canonical main-route handling. |
 | Reload point | After Riekling branch audit, reload `HS-DRAGONBORN-THIRSK-CHOICE` and continue Nord-side Thirsk. |
 
 ## BR-007 - Ghosts Destroy-Heretics Branch
@@ -82,7 +82,7 @@ Warnings and handoffs:
 | Topic | TB-029 handling |
 | --- | --- |
 | Main default | Join/infiltrate remains canonical because it preserves armory access, crafting permissions, followers, companion tasks, and Skullcrusher access. |
-| Equipment coverage | TB-031C must decide whether any destroy-only or join-only equipment/member rows need explicit checklist mapping. |
+| Equipment coverage | TB-031C found no checklist evidence requiring a larger destroy-only or join-only equipment branch. TB-031H/TB-036 still validate Ghosts book/document source-readiness rows, and TB-033 verifies final branch/checklist coverage. |
 | Route granularity | This branch should be an alternate-state audit, not a second copy of every Ghosts quest step. |
 | Reload point | After destroy-heretics audit, reload `HS-AE-GHOSTS-TEMPLE` and continue join/infiltrate continuity. |
 
@@ -112,7 +112,7 @@ Warnings and handoffs:
 | --- | --- |
 | Main-route spell coverage | Do not keep Power on the canonical save because Fortune carries `Spell Tome: Master Transmute` coverage. |
 | Sequential branch handling | After Power audit, reload `HS-AE-BITTERCUP-ALTAR` before attempting Nothing or continuing Fortune. |
-| Checklist mapping | TB-031C maps which Bittercup item members require explicit branch checklist cues. |
+| Checklist mapping | TB-031C promoted `The Pit` to BR-008A branch handling and found no extra supported checklist item rows to promote from the Power path. |
 
 ## BR-008B - Bittercup Nothing Branch
 
@@ -132,8 +132,8 @@ Branch objective and reward queue:
 | `OBJ-000755` | `Bittercup Reward Parent Set` | Record Nothing-path reward members. |
 | `ITEM-001140` | `Rulnik's Dagger` | Nothing-path reward member. |
 | `ITEM-001141` | `Ironwood Soup` | Nothing-path food/support member. |
-| `ITEM-001142` | `Ironwood Soup` | Duplicate/source-listed soup member; TB-031C decides checklist treatment. |
-| `ITEM-001143` | `Hot Ironwood Soup` | Survival-relevant variant; TB-031C/TB-032 decide whether to cue. |
+| `ITEM-001142` | `Ironwood Soup` | Duplicate/source-listed soup member; TB-031C did not promote a separate checklist row. |
+| `ITEM-001143` | `Hot Ironwood Soup` | Survival-relevant variant; TB-031C did not promote a separate checklist row, but TB-032 may still cue it if Survival warnings need it. |
 | `NPCOPT-000058` | `Rulnik Wind-Strider` spouse candidate | Branch-only option surface. |
 | `NPCOPT-000130` | `Rulnik Wind-Strider` steward candidate | Branch-only option surface. |
 | `NPCOPT-000215` | `Rulnik Wind-Strider` follower candidate | Branch-only option surface. |
@@ -144,5 +144,5 @@ Warnings and handoffs:
 | --- | --- |
 | Main-route spell coverage | Do not keep Nothing on the canonical save because Fortune carries `Spell Tome: Master Transmute` coverage. |
 | Sequential branch handling | If Power branch was also audited, reload the same altar save before choosing Nothing. |
-| Checklist mapping | TB-031C decides whether Rulnik role options and Ironwood food variants need branch checklist rows or option-list notes. |
+| Checklist mapping | TB-031C left Rulnik role options in option-list handling and did not promote Ironwood food variants into separate checklist rows. TB-035 presents Rulnik options if needed. |
 | Reload point | After Nothing audit, reload `HS-AE-BITTERCUP-ALTAR` and continue Fortune. |

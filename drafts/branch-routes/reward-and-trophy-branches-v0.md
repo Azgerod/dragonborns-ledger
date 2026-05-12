@@ -2,7 +2,7 @@
 
 Status: TB-029 complete.
 
-Scope: compact outcome branches for Daedric rewards, Aetherium Forge rewards, and the Master Criminal trophy branch. These are branch prototypes, not final black-box guide steps. Exact warning placement remains TB-032; checklist mapping remains TB-031C/TB-033.
+Scope: compact outcome branches for Daedric rewards, Aetherium Forge rewards, and the Master Criminal trophy branch. These are branch prototypes, not final black-box guide steps. Exact warning placement remains TB-032; checklist validation remains TB-033.
 
 ## Operating Rules
 
@@ -97,13 +97,13 @@ Warnings and handoffs:
 
 ## Main-Route Resolved Outcome Notes
 
-These rows keep their TB-028 main-route defaults. TB-029 does not draft full branches unless TB-031C checklist escalation escalates them.
+These rows keep their TB-028 main-route defaults. TB-031C found no checklist evidence requiring new full branches.
 
 | Decision | Hard save | Main continuity | Branch escalation rule | Source support |
 | --- | --- | --- | --- | --- |
 | `Forgotten Names` / Velehk Sain | `HS-COLLEGE-VELEHK-SAIN` | Release Velehk for hidden treasure map/reward path. | Branch kill outcome only if final checklist treats corpse loot as required. | `SN-000099` |
 | `Promises to Keep` / Frost | `HS-RIFT-FROST-LETRUSH` | Keep Frost. | Branch handoff/alternate Louis/Maven outcomes only if checklist mapping requires them. | `SN-000099`, `SN-000107` |
 | `Unearthed` / Ralis | `HS-DRAGONBORN-UNEARTHED-RALIS` | Spare Ralis; preserve follower availability. | Branch kill outcome only if checklist mapping requires it. | `SN-000099`, `SN-000107`, `SN-000111` |
-| `Battle of the Champions` side selection | `HS-AE-CIVIL-WAR-CHAMPIONS` | Imperial-aligned handling with Civil War main route. | Piggyback Stormcloak staging on Civil War branch only if TB-031C/TB-033 finds checklist-relevant side differences. | `SN-000099` |
+| `Battle of the Champions` side selection | `HS-AE-CIVIL-WAR-CHAMPIONS` | Imperial-aligned handling with Civil War main route. | Piggyback Stormcloak staging on Civil War branch only if TB-033 verifies checklist-relevant side differences. | `SN-000099` |
 
-Handoff note: `Battle of the Champions` equipment coverage remains source-note dependent until TB-031C/TB-033 verifies both equipment-set availability for final checklist mapping.
+Handoff note: TB-031C did not create a separate `Battle of the Champions` branch. Equipment coverage remains source-note dependent until TB-033 verifies both equipment-set availability for final checklist mapping.

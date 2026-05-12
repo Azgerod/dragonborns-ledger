@@ -13,6 +13,8 @@ Generated TB-030 outputs:
 * `coverage-matrix.csv` maps spreadsheet rows to current route prototypes, branch prototypes, option lists, appendices, exclusions, or review buckets.
 * `checklist-coverage-summary.md` records row counts and remaining review buckets.
 * `checklist-scope-review.md` records the TB-031A scope decision for broad regular-book checklist rows.
+* `checklist-manual-review.md` records the TB-031B resolution of generic manual-review rows into source-backed mappings or typed source-readiness holds.
+* `checklist-escalation-decisions.md` records the TB-031C decisions for branch/default/radiant/counter escalation.
 
 Regenerate the matrix with:
 

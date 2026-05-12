@@ -24,15 +24,19 @@ TB-027 is complete. `data/constraints/skill-perk-leveling-plan.md` and `drafts/r
 
 TB-028 is complete. `drafts/branch-routes/README.md` now contains the branch decision matrix, branch/default vocabulary, full-branch/reward-branch/trophy-branch/option-list classification, and the TB-029 prototype queue. `data/constraints/quest-conflicts-hard-saves.md` is updated with TB-028 defaults and branch classifications. Route-planning indexes were regenerated so `objective-constraints.csv`, `objective-route-index.csv`, and `prototype-objective-block-map.csv` reflect the new branch/trophy constraints; objective row counts remain stable and `data/objectives/objectives.csv` was not changed.
 
-TB-029 is complete. `drafts/branch-routes/major-faction-branches-v0.md`, `drafts/branch-routes/solstheim-ae-branches-v0.md`, and `drafts/branch-routes/reward-and-trophy-branches-v0.md` now contain grouped branch prototypes with hard-save points, branch-exclusive objective/reward queues, reload points, and downstream warning/checklist/validation handoffs. The prototypes remain route-planning artifacts, not final guide prose. Follow-up cleanup added explicit TB-033 branch-verification expectations, Volkihar representative-radiant escalation language, and `The Gift` spouse-state coordination as a TB-031C/TB-032 dependency.
+TB-029 is complete. `drafts/branch-routes/major-faction-branches-v0.md`, `drafts/branch-routes/solstheim-ae-branches-v0.md`, and `drafts/branch-routes/reward-and-trophy-branches-v0.md` now contain grouped branch prototypes with hard-save points, branch-exclusive objective/reward queues, reload points, and downstream warning/checklist/validation handoffs. The prototypes remain route-planning artifacts, not final guide prose. Follow-up cleanup added explicit TB-033 branch-verification expectations, Volkihar representative-radiant escalation language, and `The Gift` spouse-state coordination as a TB-031D/TB-032 dependency.
 
-TB-030 is complete. `data/checklist-mapping/raw/Skyrim Checklist.xlsx` is the tracked raw checklist snapshot. `tools/build_checklist_coverage.py` generates `data/checklist-mapping/coverage-matrix.csv`, and `data/checklist-mapping/checklist-coverage-summary.md` records the intake counts and unresolved buckets. The matrix has 3,697 spreadsheet rows: 2,874 mapped to main-route prototype handling, 36 branch prototype rows, 74 option-list rows, 107 appendix rows, 319 explicit exclusions, and 287 manual-review rows.
+TB-030 is complete. `data/checklist-mapping/raw/Skyrim Checklist.xlsx` is the tracked raw checklist snapshot. `tools/build_checklist_coverage.py` generates `data/checklist-mapping/coverage-matrix.csv`, and `data/checklist-mapping/checklist-coverage-summary.md` records the intake counts and remaining explicit holds. After TB-031B, the matrix has 3,697 spreadsheet rows: 3,069 mapped to main-route prototype handling, 37 branch prototype rows, 75 option-list rows, 107 appendix rows, 319 explicit exclusions, and 90 typed source-readiness holds.
 
 TB-031 is complete. `tools/validate_coverage.py` now validates the real 24-column checklist coverage matrix, including unique checklist IDs, allowed mapping/status/match values, ID/source/block formats, status-specific blank-field rules, and required branch/exclusion/review fields. `tools/build_checklist_coverage.py` now marks non-investable merchant appendix rows with explicit `support_table_only` metadata instead of leaving them structurally unmatched.
 
 TB-031A is complete. `data/checklist-mapping/checklist-scope-review.md` records the scope decision: all 312 broad regular-book rows from the raw checklist are explicit exclusions from required route and appendix coverage, with `match_source=book_scope_review`. No `scope_review_required` rows remain.
 
-The current next task is TB-031B: resolve the 287 `manual_review_required` rows against source-backed objectives and support tables. TB-031C through TB-031I then resolve checklist-driven escalation, route defaults/logistics, progression source selection, counter mechanics, location validation, source/objective/support-table/generated-index readiness, and final deferral-audit closure before TB-032.
+TB-031B is complete. `data/checklist-mapping/checklist-manual-review.md` records the manual-review resolution. `coverage-matrix.csv` now has no `manual_review_required` or `unmatched` rows. 195 formerly manual rows map to existing source-backed objective/support handling, and 90 checklist-only rows are typed `source_readiness_required` holds with named owners.
+
+TB-031C is complete. `data/checklist-mapping/checklist-escalation-decisions.md` records no all-target radiant escalation, required Thieves Guild 125-job counter coverage, canonical/default promotions, and branch-only holds. `coverage-matrix.csv` now has 3,076 main-route prototype rows, 30 branch prototype rows, 75 option-list rows, 107 appendix rows, 319 explicit exclusions, and 90 typed source-readiness holds. TB-031C also promoted canonical Thirsk Nord-side rows, Aetherial Crown, and Ring of Hircine to main-route handling, and moved `The Pit` to the Bittercup Power branch.
+
+The current next task is TB-031D: resolve route defaults and Survival logistics choices. TB-031E through TB-031I then resolve progression source selection, counter mechanics, location validation, source/objective/support-table/generated-index readiness, and final deferral-audit closure before TB-032.
 
 ## Restart Checklist
 
@@ -47,34 +51,32 @@ At the start of the next session:
 7. Read `data/objectives/phase-2-research-inputs.md`.
 8. Read `data/constraints/README.md`, then `data/constraints/ae-creation-start-triggers.md`, `data/constraints/leveled-unique-items.md`, `data/constraints/cell-entry-locks.md`, `data/constraints/quest-conflicts-hard-saves.md`, `data/constraints/trophy-dependencies.md`, `data/constraints/npc-dependencies.md`, `data/constraints/bug-prone-quests.md`, `data/constraints/radiant-boundaries.md`, `data/constraints/survival-mode-constraints.md`, and `data/constraints/skill-perk-leveling-plan.md` for Phase 2 overlaps.
 9. Read `data/locations/location-catalog.csv`, `data/locations/location-coordinates.csv`, `data/locations/location-coordinate-reconciliation.md`, `data/locations/location-geography.csv`, and `data/locations/location-geography-reconciliation.md` before changing geography-sensitive tasks.
-10. Read `data/checklist-mapping/README.md`, `data/checklist-mapping/checklist-coverage-strategy.md`, `data/checklist-mapping/checklist-coverage-summary.md`, `data/checklist-mapping/checklist-scope-review.md`, `data/checklist-mapping/coverage-matrix.csv`, and `docs/deferred-work-audit.md` before TB-031B or later checklist/coverage work.
+10. Read `data/checklist-mapping/README.md`, `data/checklist-mapping/checklist-coverage-strategy.md`, `data/checklist-mapping/checklist-coverage-summary.md`, `data/checklist-mapping/checklist-scope-review.md`, `data/checklist-mapping/checklist-manual-review.md`, `data/checklist-mapping/checklist-escalation-decisions.md`, `data/checklist-mapping/coverage-matrix.csv`, and `docs/deferred-work-audit.md` before TB-031D or later checklist/coverage work.
 11. Read `data/objectives/route-rigidity-classification-notes.md`, `data/route-planning/README.md`, `data/route-planning/objective-route-index.csv`, `data/route-planning/objective-constraints.csv`, `data/route-planning/prototype-objective-block-map.csv`, `drafts/route-prototypes/route-anchors-v0.md`, `drafts/route-prototypes/level-gated-skeleton-v0.md`, `drafts/route-prototypes/survival-geography-pass-v0.md`, `drafts/route-prototypes/main-route-prototype-v0.md`, `drafts/branch-routes/README.md`, and the TB-029 branch prototype files before TB-032 or later route-placement work.
 12. Run `git status --short` and preserve unrelated existing changes.
 13. For UESP page fetches, prefer `python3 tools/fetch_uesp.py 'Skyrim:Page Title' --mode wikitext` or `--mode html`; direct raw `curl` may trigger Cloudflare without a browser User-Agent. For Gamemap marker refreshes, use `python3 tools/fetch_uesp_gamemap.py`, regenerate coordinates with `python3 tools/build_location_coordinates.py`, then regenerate geography with `python3 tools/build_location_geography.py`. For route-planning index refreshes, run `python3 tools/build_route_planning_index.py`, `python3 tools/build_prototype_objective_block_map.py`, and optionally `python3 tools/build_route_planning_database.py`.
 
 ## Next Task Details
 
-Start TB-031B by resolving all `manual_review_required` rows in `data/checklist-mapping/coverage-matrix.csv`. Use `data/checklist-mapping/checklist-coverage-summary.md`, `data/checklist-mapping/checklist-coverage-strategy.md`, `data/checklist-mapping/checklist-scope-review.md`, `docs/guide-specification.md`, `docs/decisions-log.md`, and source standards before deciding whether a row needs an objective/support-table/source-note correction or an explicit out-of-scope treatment.
+Start TB-031D by resolving route-affecting defaults and Survival logistics choices. Use `data/checklist-mapping/checklist-escalation-decisions.md`, `data/checklist-mapping/coverage-matrix.csv`, `data/checklist-mapping/checklist-coverage-summary.md`, `drafts/branch-routes/README.md`, `drafts/route-prototypes/survival-geography-pass-v0.md`, `drafts/route-prototypes/main-route-prototype-v0.md`, `data/constraints/survival-mode-constraints.md`, `data/constraints/npc-dependencies.md`, `data/constraints/bug-prone-quests.md`, `docs/guide-specification.md`, and `docs/decisions-log.md`.
 
 Primary output:
 
-* `data/checklist-mapping/checklist-manual-review.md`
-* updates to objective/support/source-note tables and `tools/build_checklist_coverage.py` only where source-backed reconciliation proves they are needed
+* `data/route-planning/route-default-decisions.md`
+* `docs/decisions-log.md` updates only for route-shaping defaults that should persist as resolved recommendations
 * regenerated `data/checklist-mapping/coverage-matrix.csv`
 * task-board and handoff status updates when complete
 
-TB-031B rules:
+TB-031D rules:
 
-* Resolve all 287 manual-review rows; do not leave generic manual buckets behind.
-* Do not add objective/support rows merely because the spreadsheet names something. Require source-backed in-scope justification.
-* Keep TB-031A's broad regular-book exclusions intact; only unresolved book/document rows still marked `manual_review_required` are in scope for TB-031B.
+* Choose route-affecting defaults before warning prose: first safe storage, main base/home, property service timing, travel infrastructure, spouse/children/stewards/farm steward, Black Book power defaults, final transformation state, and representative no-journal activity/favor targets.
+* Use TB-031C escalation decisions as fixed input; do not re-open branch/default promotion unless a source-readiness row proves a new conflict.
+* Keep TB-031A exclusions and TB-031B source-readiness holds intact unless the current task has source-standard evidence and the task board says this row belongs to TB-031D.
 * Add gameplay/source facts only with source notes that satisfy `docs/source-standards.md`.
 * Run `python3 tools/build_checklist_coverage.py`, `python3 tools/validate_all.py`, and `git diff --check`.
 
-After TB-031B, complete the remaining inserted Phase 10 reconciliation tasks before TB-032:
+After TB-031D, complete the remaining inserted Phase 10 reconciliation tasks before TB-032:
 
-* TB-031C resolves checklist-driven escalation decisions for representative radiants, branch-only rewards, option-list defaults, Thieves Guild 125 jobs, Volkihar `New Allegiances`, `The Gift`, Bittercup/Thirsk/Ghosts variants, Velehk/Frost/Ralis, and Battle of the Champions side coverage.
-* TB-031D resolves route-affecting defaults and Survival logistics choices before they can shape warning or final-route prose.
 * TB-031E resolves exact progression source selections, training/reset/grind distribution, crafting outputs, and allowed exploit conditions.
 * TB-031F resolves checklist/trophy counter mechanics and route actions for counters and activity systems.
 * TB-031G resolves location access, clear-trigger, discovery/clearance, duplicate-marker, separate-worldspace, and manual geography validation before route/warning prose depends on corridor data.
@@ -148,12 +150,12 @@ TB-021A/TB-021B/TB-021C support handoffs:
 * Rows marked `unmapped_no_marker` or `unmapped_worldspace` are not distance-comparable until a later plugin-data extraction or manual route validation supplies a defensible point.
 * TB-021B added `worldspace_access_model`, `transport_access_flags`, `cold_risk`, `barrier_flags`, and `geography_confidence`. These are route filters, not final pathfinding; road, pass, water, quest-state, enemy, and exact access validation still belongs to later route passes.
 * Companions Hired Muscle should be accepted if the early seed offers it, but the guide should not require a new-game restart solely to force that representative radiant type.
-* Thieves Guild 125 side jobs remain a source-backed completionist counter candidate pending checklist mapping.
-* TB-028/TB-029 set Volkihar representative radiants and `New Allegiances` to branch-prototype coverage only. TB-031C may escalate representative radiants or all three named `New Allegiances` conversions only if checklist mapping creates named-variant or all-variant requirements. `The Gift` also needs spouse-state coordination before final branch routing.
+* Thieves Guild 125 side jobs are required completionist counter coverage after TB-031C; TB-031F must choose the exact job mix, rejection policy, Raven Rock/Riften handling, and counter tracking.
+* TB-031C kept Volkihar representative radiants and `New Allegiances` at one branch instance/conversion. `The Gift` still needs spouse-state coordination before final branch routing.
 
 Earlier Phase 2 handoffs to keep in view:
 
-* Thieves Guild has a hard 20-job restoration gate and a source-backed 125-job Guild display/safe boundary; TB-031C should decide checklist treatment.
+* Thieves Guild has a hard 20-job restoration gate and a source-backed 125-job Guild display/safe boundary. TB-031C decided the 125-job boundary is required completionist counter coverage; TB-031F chooses exact job mix, rejection policy, Raven Rock/Riften handling, and counter tracking.
 * Dawnguard Lost Relic may require semi-random side-radiant fillers; route phases should track actual fillers while cycling for all three relics.
 * No-journal representative activity targets should be chosen with Survival Mode, thaneship, relationship, and economy overlap in mind.
 * TB-020 marked all exploit-adjacent leveling/crafting accelerators as excluded baseline or deferred decisions; TB-021 confirmed that this matches the specification and decisions log.
