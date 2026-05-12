@@ -30,7 +30,7 @@ Generated CSV rows are not used as prose sources for this audit, except through 
 
 | Finding | Evidence pattern | Explicit owner |
 | --- | --- | --- |
-| Location rows are corridor-ready but not route-step-ready. | TB-031G resolved clear/discovery mechanics, marker exceptions, content-location handling, and coordinate exception rules. Final path order and black-box step placement remain separate route drafting work. | TB-034, with warning triggers in TB-032, prototype validation in TB-033, and final observed-counter validation in TB-037 |
+| Location rows are corridor-ready but not final-guide-ready. | TB-031G resolved clear/discovery mechanics, marker exceptions, content-location handling, and coordinate exception rules. TB-034 placed route containers, but final path order and black-box guide instructions remain separate drafting and QA work. | TB-035, with warning triggers in TB-032, prototype validation in TB-033, minimal route placement in TB-034, and final observed-counter validation in TB-037 |
 | Source-note readiness is ambiguous. | TB-031H found 97 older source notes still marked `Status: needs review.` | Complete in TB-031H: `sources/source-notes/README.md` defines the status as historical/source-list input, not a hidden blocker or validation state. |
 | Generated indexes can preserve stale broad owners. | Route-planning and checklist generators still emitted TB-031H future-owner labels before the audit. | Complete in TB-031H: regenerated route/checklist/progression outputs no longer name TB-031H as a future owner. |
 | Objective/support-table readiness is also ambiguous. | `data/objectives/objectives.csv` and several support tables intentionally carry `needs_review`, `needs_validation`, `source_listed_candidate`, `option_list`, `safe_storage_status`, or other non-final readiness markers. | Complete in TB-031H and TB-033: `docs/source-objective-readiness-audit.md` assigns remaining use-time checks to TB-034, TB-035, TB-036, or TB-037 by use. |
@@ -42,7 +42,7 @@ Generated CSV rows are not used as prose sources for this audit, except through 
 | --- | --- |
 | TB-032 | Complete: exact warning and hard-save trigger prose for leveled rewards, cell-entry locks, NPC risks, trophy actions, bug-prone steps, and branch save/reload points now lives in `drafts/route-prototypes/main-route-prototype-v0.md` and `data/constraints/quest-conflicts-hard-saves.md`. |
 | TB-033 | Complete: prototype-level constraint validation, branch verification, trophy/reward safety, Survival support, and all-perks/all-skills policy checks live in `drafts/route-prototypes/validation-report-v0.md`. Final numerical skill-state checks remain TB-034/TB-037 because they depend on route order. |
-| TB-034 | Minimal route prototype after warnings and validation. |
+| TB-034 | Complete: minimal numbered route prototype after warnings and validation. |
 | TB-035 | Black-box guide expansion after route prototype validation. |
 | TB-036 | Appendices/reference tables after checklist/manual/scope/source-readiness review and guide drafting; no unresolved source-readiness bucket remains for appendices. |
 | TB-037 through TB-043 | Final coverage, order, trophy, Survival, branch, playtest, and unresolved-risk QA passes. |
@@ -58,7 +58,7 @@ TB-031I scanned current coordination docs, route prototypes, branch prototypes, 
 | Progression source selections | No TB-031H future-owner labels remain in route timing, validation owner, or notes fields. |
 | Branch/default/checklist wording | Older route-prototype language that still described branch defaults, flexible objective insertion, or checklist synchronization as unresolved was updated to point at TB-028/TB-029, TB-026, and TB-030 through TB-031I completions. |
 | Remaining warning and hard-save work | TB-032 complete at trigger/register level; final step numbers and path placement remain TB-034. |
-| Remaining route placement work | Explicitly assigned to TB-034 after TB-033 validation. |
+| Remaining route placement work | Minimal route placement complete in TB-034; final prose/path/checklist details remain TB-035/TB-037. |
 | Remaining checklist appendix work | Explicitly assigned to TB-036/TB-037. Source-readiness holds are complete after TB-031J; appendices still verify/reference coverage after final guide drafting. |
 | Historical source notes and task-board history | Left intact as history unless a future concrete row edit requires source-note maintenance. |
 
@@ -66,4 +66,4 @@ TB-031I scanned current coordination docs, route prototypes, branch prototypes, 
 
 After TB-031I, do not insert new generic handoffs such as `later`, `manual validation`, `source readiness`, or `needs review` into active planning artifacts unless the same row or sentence names a concrete owner task and reason.
 
-TB-032 and TB-033 are complete. TB-034 may now produce the minimal route prototype from the validated warning-layered route frame; it should not reopen the completed TB-031A through TB-031J checklist/default/progression/counter/location/readiness decisions unless it finds a concrete contradiction.
+TB-032, TB-033, and TB-034 are complete. TB-035 may now expand the MR-001 through MR-071 minimal route prototype into black-box guide prose; it should not reopen the completed TB-031A through TB-031J checklist/default/progression/counter/location/readiness decisions unless it finds a concrete contradiction.

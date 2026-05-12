@@ -1,8 +1,8 @@
 # Location Route Validation
 
-Status: TB-031G complete as a route-planning validation layer.
+Status: TB-031G complete as a route-planning validation layer; TB-034 has consumed it into the minimal route prototype.
 
-Scope: this file does not write final route prose or pathfinding. It records how location rows must be interpreted after TB-032 warnings and TB-033 validation, and before TB-034 route placement uses location counts.
+Scope: this file does not write final route prose or pathfinding. It records how location rows must be interpreted after TB-032 warnings and TB-033 validation. TB-034 used these rules for prototype placement; TB-035/TB-037 still own final guide prose and final counter validation.
 
 Source support: SN-000128 plus the source notes named below.
 
@@ -10,9 +10,9 @@ Source support: SN-000128 plus the source notes named below.
 
 | Area | TB-031G decision | Later owner |
 | --- | --- | --- |
-| Delver / clearable rows | Source-listed clearable rows count for `Delver` when they increment `Dungeons Cleared`; Angarvunde and Mistwatch remain atypical non-counting clears. | TB-033 validated prototype handling; TB-034/TB-037 validate final counter totals. |
-| Clear trigger wording | Normal clearables should be routed until the in-game `Cleared` tag appears, usually after boss defeat; active `Kill the Bandit Leader` targets may require report-back before the tag. | TB-032 warning placement; TB-034 final steps. |
-| Explorer / discovery rows | Source-listed discoverable rows are independent discovery/checklist rows. Duplicate markers can count for Explorer but not as extra Delver clears. | TB-033 validated prototype handling; TB-034 places route order; TB-037 validates `Locations Discovered`. |
+| Delver / clearable rows | Source-listed clearable rows count for `Delver` when they increment `Dungeons Cleared`; Angarvunde and Mistwatch remain atypical non-counting clears. | TB-033 validated prototype handling; TB-034 placed cleanup containers; TB-037 validates final counter totals. |
+| Clear trigger wording | Normal clearables should be routed until the in-game `Cleared` tag appears, usually after boss defeat; active `Kill the Bandit Leader` targets may require report-back before the tag. | TB-032 warning placement; TB-034 prototype placement; TB-035 final guide steps. |
+| Explorer / discovery rows | Source-listed discoverable rows are independent discovery/checklist rows. Duplicate markers can count for Explorer but not as extra Delver clears. | TB-033 validated prototype handling; TB-034 placed route containers; TB-037 validates `Locations Discovered`. |
 | Secondary cleared markers | Giant's Grove, Klimmek's House, Shalidor's Maze, and Sundered Towers are not independent Delver clears. | TB-034 may mention only where parent route naturally visits them. |
 | The Chill checklist row | Explicitly excluded from required route/discovery coverage because official Skyrim has no map marker; the marker is USKP-only. | TB-036/TB-037 audit exclusion. |
 | AE content locations | Remain parent-quest/property/content coverage, not independent Delver rows. Exact route use follows Creation, quest, branch, or property timing. | TB-032/TB-034/TB-037. |

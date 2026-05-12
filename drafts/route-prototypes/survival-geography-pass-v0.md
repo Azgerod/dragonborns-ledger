@@ -27,7 +27,7 @@ No new gameplay research was performed for this pass. Gameplay facts are carried
 | Straight-line support is not pathfinding. | Validate roads, passes, water, quest access, enemy pressure, weather, and exact entrances before route prose. |
 | Level gates still win. | Survival convenience cannot cross the TB-024 mandatory gates at levels 8, 25, 27, 32, 36, 40, 46, 60, 78, 80, or 252. |
 | Branch defaults are external to this geography pass. | Use TB-028 defaults, TB-029 branch prototypes, and TB-031C checklist escalation decisions rather than choosing branch policy here. |
-| Flexible objective insertion is complete at prototype level. | TB-026 inserted safe nearby objective queues into the corridor frame; TB-034 still chooses final step order. |
+| Flexible objective insertion is complete at prototype level. | TB-026 inserted safe nearby objective queues into the corridor frame; TB-034 placed the minimal numbered route, and TB-035 expands it into guide prose. |
 | Skill/perk/grind detail is block-level only. | TB-027 supplies progression blocks, underleveled fallbacks, and the Legendary reset baseline; TB-031E supplies exact source choices; TB-032 supplies warning triggers; checklist cues and final validation remain later work. |
 | Checklist synchronization is complete at prototype/audit level. | TB-030 mapped the raw checklist; TB-031A through TB-031J resolved review buckets, defaults, counters, location validation, source/index readiness, source-readiness rows, and route-affecting checklist decisions before TB-032 warning prose. |
 
