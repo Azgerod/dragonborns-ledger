@@ -17,6 +17,7 @@ NAMED_TABLES = {
     DATA_DIR / "objectives" / "objectives.csv": "objectives",
     DATA_DIR / "route-planning" / "objective-route-index.csv": "objective_route_index",
     DATA_DIR / "route-planning" / "objective-constraints.csv": "objective_constraints",
+    DATA_DIR / "route-planning" / "prototype-objective-block-map.csv": "prototype_objective_block_map",
 }
 
 
@@ -109,6 +110,12 @@ def create_views(conn: sqlite3.Connection) -> None:
         WHERE CAST(support_record_count AS INTEGER) > 1
            OR candidate_status = 'multiple_geography_points'
         """,
+        """
+        CREATE VIEW route_prototype_block_map AS
+        SELECT *
+        FROM prototype_objective_block_map
+        ORDER BY route_block, disposition, prototype_status, objective_id
+        """,
     ]
     for name in [
         "route_objective_workbench",
@@ -116,6 +123,7 @@ def create_views(conn: sqlite3.Connection) -> None:
         "route_hard_constraint_queue",
         "route_location_objectives_by_corridor",
         "route_candidate_selection_queue",
+        "route_prototype_block_map",
     ]:
         conn.execute(f"DROP VIEW IF EXISTS {name}")
     for statement in statements:
@@ -140,6 +148,7 @@ def main() -> int:
         conn.execute("CREATE INDEX idx_objectives_objective_id ON objectives(objective_id)")
         conn.execute("CREATE INDEX idx_route_index_objective_id ON objective_route_index(objective_id)")
         conn.execute("CREATE INDEX idx_constraints_objective_id ON objective_constraints(objective_id)")
+        conn.execute("CREATE INDEX idx_prototype_block_map_objective_id ON prototype_objective_block_map(objective_id)")
     print(f"Wrote {OUTPUT.relative_to(REPO_ROOT)}.")
     return 0
 

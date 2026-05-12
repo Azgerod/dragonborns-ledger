@@ -18,7 +18,7 @@ TB-024 is complete. `drafts/route-prototypes/level-gated-skeleton-v0.md` now ass
 
 TB-025 is complete. `drafts/route-prototypes/survival-geography-pass-v0.md` now reshapes the level skeleton around Survival Mode corridor planning, prepared sweeps, rest/food/carry/storage/transport support, route-block containers `G00` through `G14`, and a TB-026 handoff.
 
-TB-026 is complete. `drafts/route-prototypes/main-route-prototype-v0.md` now places flexible objective queues into route blocks `G00` through `G14`, records direct geography counts, non-geographic queue handling, support-objective policy, mandatory holds, and a TB-027 handoff. No `data/objectives/objectives.csv` changes were needed.
+TB-026 is complete. `drafts/route-prototypes/main-route-prototype-v0.md` now places flexible objective queues into route blocks `G00` through `G14`, records direct geography counts, non-geographic queue handling, support-objective policy, mandatory holds, and a TB-027 handoff. `data/route-planning/prototype-objective-block-map.csv` records a one-row-per-objective route-block/disposition/status/threshold/parent/defer assignment for all 2,784 objectives. No `data/objectives/objectives.csv` changes were needed.
 
 The current next task is TB-027: integrate crafting, skills, perks, and grind blocks.
 
@@ -35,13 +35,13 @@ At the start of the next session:
 7. Read `data/objectives/phase-2-research-inputs.md`.
 8. Read `data/constraints/README.md`, then `data/constraints/ae-creation-start-triggers.md`, `data/constraints/leveled-unique-items.md`, `data/constraints/cell-entry-locks.md`, `data/constraints/quest-conflicts-hard-saves.md`, `data/constraints/trophy-dependencies.md`, `data/constraints/npc-dependencies.md`, `data/constraints/bug-prone-quests.md`, `data/constraints/radiant-boundaries.md`, `data/constraints/survival-mode-constraints.md`, and `data/constraints/skill-perk-leveling-plan.md` for Phase 2 overlaps.
 9. Read `data/locations/location-catalog.csv`, `data/locations/location-coordinates.csv`, `data/locations/location-coordinate-reconciliation.md`, `data/locations/location-geography.csv`, and `data/locations/location-geography-reconciliation.md` before changing geography-sensitive tasks.
-10. Read `data/objectives/route-rigidity-classification-notes.md`, `data/route-planning/README.md`, `data/route-planning/objective-route-index.csv`, `data/route-planning/objective-constraints.csv`, `drafts/route-prototypes/route-anchors-v0.md`, `drafts/route-prototypes/level-gated-skeleton-v0.md`, `drafts/route-prototypes/survival-geography-pass-v0.md`, and `drafts/route-prototypes/main-route-prototype-v0.md` before TB-027 or later route-placement work.
+10. Read `data/objectives/route-rigidity-classification-notes.md`, `data/route-planning/README.md`, `data/route-planning/objective-route-index.csv`, `data/route-planning/objective-constraints.csv`, `data/route-planning/prototype-objective-block-map.csv`, `drafts/route-prototypes/route-anchors-v0.md`, `drafts/route-prototypes/level-gated-skeleton-v0.md`, `drafts/route-prototypes/survival-geography-pass-v0.md`, and `drafts/route-prototypes/main-route-prototype-v0.md` before TB-027 or later route-placement work.
 11. Run `git status --short` and preserve unrelated existing changes.
-12. For UESP page fetches, prefer `python3 tools/fetch_uesp.py 'Skyrim:Page Title' --mode wikitext` or `--mode html`; direct raw `curl` may trigger Cloudflare without a browser User-Agent. For Gamemap marker refreshes, use `python3 tools/fetch_uesp_gamemap.py`, regenerate coordinates with `python3 tools/build_location_coordinates.py`, then regenerate geography with `python3 tools/build_location_geography.py`. For route-planning index refreshes, run `python3 tools/build_route_planning_index.py` and optionally `python3 tools/build_route_planning_database.py`.
+12. For UESP page fetches, prefer `python3 tools/fetch_uesp.py 'Skyrim:Page Title' --mode wikitext` or `--mode html`; direct raw `curl` may trigger Cloudflare without a browser User-Agent. For Gamemap marker refreshes, use `python3 tools/fetch_uesp_gamemap.py`, regenerate coordinates with `python3 tools/build_location_coordinates.py`, then regenerate geography with `python3 tools/build_location_geography.py`. For route-planning index refreshes, run `python3 tools/build_route_planning_index.py`, `python3 tools/build_prototype_objective_block_map.py`, and optionally `python3 tools/build_route_planning_database.py`.
 
 ## Next Task Details
 
-Start TB-027 by integrating crafting, skills, perks, and grind blocks into the progression layer. Use `data/constraints/skill-perk-leveling-plan.md`, `drafts/route-prototypes/main-route-prototype-v0.md`, `drafts/route-prototypes/survival-geography-pass-v0.md`, `drafts/route-prototypes/level-gated-skeleton-v0.md`, `data/route-planning/objective-route-index.csv`, `data/route-planning/objective-constraints.csv`, and the relevant Phase 2 constraint tables.
+Start TB-027 by integrating crafting, skills, perks, and grind blocks into the progression layer. Use `data/constraints/skill-perk-leveling-plan.md`, `drafts/route-prototypes/main-route-prototype-v0.md`, `drafts/route-prototypes/survival-geography-pass-v0.md`, `drafts/route-prototypes/level-gated-skeleton-v0.md`, `data/route-planning/objective-route-index.csv`, `data/route-planning/objective-constraints.csv`, `data/route-planning/prototype-objective-block-map.csv`, and the relevant Phase 2 constraint tables.
 
 Primary output:
 
@@ -68,8 +68,9 @@ Research rules:
 TB-026 support handoffs:
 
 * `drafts/route-prototypes/main-route-prototype-v0.md` is complete and remains a flexible-objective insertion prototype, not final route prose.
+* `data/route-planning/prototype-objective-block-map.csv` is complete and remains the generated TB-026 audit layer. Regenerate it with `python3 tools/build_prototype_objective_block_map.py` after route-index-affecting changes.
 * It assigns 447 direct geography `location` rows into route blocks by corridor: G02 62, G03 59, G04 39, G05 38, G06 46, G07 68, G08 64, G11 15, G12 54, and G13 2.
-* It records non-geographic queue treatment for 830 single support candidates, 319 multiple support candidates, 1,089 rows with no route-candidate data, 887 constraint-backed flexible rows, and 1,497 flexible rows without linked constraints.
+* The Markdown records non-geographic queue treatment for 830 single support candidates, 319 multiple support candidates, 1,089 rows with no route-candidate data, 887 constraint-backed flexible rows, and 1,497 flexible rows without linked constraints; the CSV records individual route blocks, dispositions, statuses, thresholds, parent links, and defer reasons.
 * It keeps support candidates conditional: homes, bases, merchants, book copies, spell sources, and property nodes are not automatically available until acquisition/source/storage/prerequisite validation.
 * It preserves mandatory holds for Silent Moons/Lunar weapons, Mage's Circlet, The Pale Blade, Nightingale Armor, Forbidden Legend linked dungeons, Shield of Solitude, Chillrend, Dragonbane, Nightingale Blade/Bow, Miraak equipment, Legendary Dragon, Ebony Warrior, and all-perks completion.
 * TB-027 should add progression support to this frame without choosing branch defaults, source-copy defaults, warning text, or checklist completion.

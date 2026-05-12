@@ -19,9 +19,62 @@ ROUTE_INDEX = ROUTE_DIR / "objective-route-index.csv"
 ROUTE_INDEX_TEMPLATE = ROUTE_DIR / "objective-route-index.template.csv"
 CONSTRAINT_INDEX = ROUTE_DIR / "objective-constraints.csv"
 CONSTRAINT_INDEX_TEMPLATE = ROUTE_DIR / "objective-constraints.template.csv"
+PROTOTYPE_BLOCK_MAP = ROUTE_DIR / "prototype-objective-block-map.csv"
+PROTOTYPE_BLOCK_MAP_TEMPLATE = ROUTE_DIR / "prototype-objective-block-map.template.csv"
 SQLITE_WORKBENCH = ROUTE_DIR / "route-planning.sqlite"
 
 CONTROLLED_SEVERITIES = {"hard_gate", "branch_or_hard_save", "warning", "planning", "review"}
+CONTROLLED_PROTOTYPE_STATUSES = {
+    "anchored_window",
+    "dependency_anchor_pending",
+    "excluded_nonroute",
+    "held_appendix",
+    "held_branch_deferred",
+    "held_candidate_selection",
+    "held_checklist_mapping",
+    "held_hard_gate",
+    "held_option_list",
+    "held_progression_layer",
+    "inserted_direct_geography",
+    "inserted_fixed_early",
+    "inserted_setup_support",
+    "inserted_support_candidate",
+    "manual_validation_required",
+    "out_of_scope",
+    "support_candidate_conditional",
+}
+CONTROLLED_PROTOTYPE_BLOCKS = {
+    "",
+    "G00",
+    "G01",
+    "G02",
+    "G03",
+    "G04",
+    "G05",
+    "G06",
+    "G07",
+    "G08",
+    "G09",
+    "G10",
+    "G11",
+    "G12",
+    "G13",
+    "G14",
+}
+CONTROLLED_DISPOSITIONS = {
+    "anchored_window",
+    "appendix",
+    "branch_deferred",
+    "checklist_mapping",
+    "conditional_support",
+    "dependency_anchor",
+    "excluded",
+    "later_pass",
+    "manual_validation",
+    "option_list",
+    "route_block",
+    "unassigned",
+}
 
 
 def read_header(path: Path) -> list[str]:
@@ -53,6 +106,7 @@ def validate_sqlite_if_present(errors: list[str]) -> None:
                 "route_hard_constraint_queue",
                 "route_location_objectives_by_corridor",
                 "route_candidate_selection_queue",
+                "route_prototype_block_map",
             }
             rows = conn.execute("SELECT name FROM sqlite_master WHERE type = 'view'").fetchall()
             present = {row[0] for row in rows}
@@ -63,13 +117,90 @@ def validate_sqlite_if_present(errors: list[str]) -> None:
             index_count = conn.execute("SELECT COUNT(*) FROM objective_route_index").fetchone()[0]
             if objective_count != index_count:
                 errors.append(f"{SQLITE_WORKBENCH}: objectives/index row count mismatch {objective_count} != {index_count}")
+            prototype_count = conn.execute("SELECT COUNT(*) FROM prototype_objective_block_map").fetchone()[0]
+            if objective_count != prototype_count:
+                errors.append(f"{SQLITE_WORKBENCH}: objectives/prototype map row count mismatch {objective_count} != {prototype_count}")
+            prototype_view_count = conn.execute("SELECT COUNT(*) FROM route_prototype_block_map").fetchone()[0]
+            if prototype_count != prototype_view_count:
+                errors.append(
+                    f"{SQLITE_WORKBENCH}: prototype table/view row count mismatch {prototype_count} != {prototype_view_count}"
+                )
     except sqlite3.Error as error:
         errors.append(f"{SQLITE_WORKBENCH}: SQLite validation failed: {error}")
 
 
+def validate_prototype_block_map(
+    objectives: dict[str, dict[str, str]],
+    route_index: dict[str, dict[str, str]],
+    errors: list[str],
+) -> None:
+    if read_header(PROTOTYPE_BLOCK_MAP) != read_header(PROTOTYPE_BLOCK_MAP_TEMPLATE):
+        errors.append("prototype-objective-block-map.csv header does not match its template")
+        return
+
+    rows = read_csv(PROTOTYPE_BLOCK_MAP)
+    route_ids = [row["objective_id"] for row in rows]
+    if Counter(route_ids) != Counter(objectives.keys()):
+        errors.append("prototype-objective-block-map.csv must contain exactly one row for every objective")
+
+    for line_number, row in enumerate(rows, start=2):
+        objective_id = row["objective_id"]
+        if objective_id not in objectives:
+            errors.append(f"{PROTOTYPE_BLOCK_MAP}:{line_number}: unknown objective_id {objective_id}")
+            continue
+        objective = objectives[objective_id]
+        for column in ["objective_name", "category", "route_placement", "routing_rigidity"]:
+            if row[column] != objective[column]:
+                errors.append(f"{PROTOTYPE_BLOCK_MAP}:{line_number}: {column} does not match objectives.csv")
+        route_row = route_index.get(objective_id, {})
+        for column in [
+            "source_corridor",
+            "candidate_status",
+            "route_index_status",
+            "constraint_count",
+            "constraint_types",
+            "hard_level_gate",
+        ]:
+            route_column = "primary_route_corridor" if column == "source_corridor" else column
+            if row[column] != route_row.get(route_column, ""):
+                errors.append(f"{PROTOTYPE_BLOCK_MAP}:{line_number}: {column} does not match objective-route-index.csv")
+        if row["prototype_status"] not in CONTROLLED_PROTOTYPE_STATUSES:
+            errors.append(f"{PROTOTYPE_BLOCK_MAP}:{line_number}: invalid prototype_status {row['prototype_status']}")
+        if row["route_block"] not in CONTROLLED_PROTOTYPE_BLOCKS:
+            errors.append(f"{PROTOTYPE_BLOCK_MAP}:{line_number}: invalid route_block {row['route_block']}")
+        if row["disposition"] not in CONTROLLED_DISPOSITIONS:
+            errors.append(f"{PROTOTYPE_BLOCK_MAP}:{line_number}: invalid disposition {row['disposition']}")
+        if row["route_placement"] == "main_route" and not row["prototype_status"]:
+            errors.append(f"{PROTOTYPE_BLOCK_MAP}:{line_number}: main_route row has empty prototype_status")
+        if row["prototype_status"] == "inserted_direct_geography":
+            if not row["source_corridor"]:
+                errors.append(f"{PROTOTYPE_BLOCK_MAP}:{line_number}: direct geography insertion missing source_corridor")
+            if not re.fullmatch(r"G\d{2}", row["route_block"]):
+                errors.append(f"{PROTOTYPE_BLOCK_MAP}:{line_number}: direct geography insertion missing G-block")
+        if row["prototype_status"].startswith("held_") and not row["deferred_to"]:
+            errors.append(f"{PROTOTYPE_BLOCK_MAP}:{line_number}: held row missing deferred_to")
+        if row["route_block"] and not re.fullmatch(r"G\d{2}", row["route_block"]):
+            errors.append(f"{PROTOTYPE_BLOCK_MAP}:{line_number}: route_block is not a G-block")
+        if row["parent_objective_id"]:
+            if row["parent_objective_id"] not in objectives:
+                errors.append(f"{PROTOTYPE_BLOCK_MAP}:{line_number}: unknown parent_objective_id {row['parent_objective_id']}")
+            elif row["parent_objective_name"] != objectives[row["parent_objective_id"]]["objective_name"]:
+                errors.append(f"{PROTOTYPE_BLOCK_MAP}:{line_number}: parent_objective_name does not match objectives.csv")
+            if row["parent_route_block"] and row["parent_route_block"] not in CONTROLLED_PROTOTYPE_BLOCKS:
+                errors.append(f"{PROTOTYPE_BLOCK_MAP}:{line_number}: invalid parent_route_block {row['parent_route_block']}")
+
+
 def main() -> int:
     errors: list[str] = []
-    required = [ROUTE_DIR / "README.md", ROUTE_INDEX, ROUTE_INDEX_TEMPLATE, CONSTRAINT_INDEX, CONSTRAINT_INDEX_TEMPLATE]
+    required = [
+        ROUTE_DIR / "README.md",
+        ROUTE_INDEX,
+        ROUTE_INDEX_TEMPLATE,
+        CONSTRAINT_INDEX,
+        CONSTRAINT_INDEX_TEMPLATE,
+        PROTOTYPE_BLOCK_MAP,
+        PROTOTYPE_BLOCK_MAP_TEMPLATE,
+    ]
     for path in required:
         if not path.exists():
             errors.append(f"Missing route-planning file: {path}")
@@ -127,6 +258,7 @@ def main() -> int:
             if not re.fullmatch(r"\d+", row[column]):
                 errors.append(f"{ROUTE_INDEX}:{line_number}: {column} is not an integer")
 
+    validate_prototype_block_map(objectives, {row["objective_id"]: row for row in route_rows}, errors)
     validate_sqlite_if_present(errors)
 
     if errors:
