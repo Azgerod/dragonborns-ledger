@@ -12,7 +12,15 @@ Phase 2 constraint-table research is reviewed. TB-011 through TB-021 are complet
 
 TB-022 is complete. All 2,784 objective rows now have classified `routing_rigidity` and `route_placement` values, with no remaining `unclassified` values in those fields. Classification notes are in `data/objectives/route-rigidity-classification-notes.md`.
 
-The current next task is TB-023: build route anchors v0.
+TB-023 is complete. `drafts/route-prototypes/route-anchors-v0.md` now records structural anchors `A00` through `A21`, a level/reward gate register, a branch hard-save register, and explicit handoffs to later route passes.
+
+TB-024 is complete. `drafts/route-prototypes/level-gated-skeleton-v0.md` now assigns anchors to level bands `S00` through `S15`, records mandatory do-not-cross gates, branch-gate placement, progression handoffs, and the Survival Mode geography handoff.
+
+TB-025 is complete. `drafts/route-prototypes/survival-geography-pass-v0.md` now reshapes the level skeleton around Survival Mode corridor planning, prepared sweeps, rest/food/carry/storage/transport support, route-block containers `G00` through `G14`, and a TB-026 handoff.
+
+TB-026 is complete. `drafts/route-prototypes/main-route-prototype-v0.md` now places flexible objective queues into route blocks `G00` through `G14`, records direct geography counts, non-geographic queue handling, support-objective policy, mandatory holds, and a TB-027 handoff. No `data/objectives/objectives.csv` changes were needed.
+
+The current next task is TB-027: integrate crafting, skills, perks, and grind blocks.
 
 ## Restart Checklist
 
@@ -27,33 +35,77 @@ At the start of the next session:
 7. Read `data/objectives/phase-2-research-inputs.md`.
 8. Read `data/constraints/README.md`, then `data/constraints/ae-creation-start-triggers.md`, `data/constraints/leveled-unique-items.md`, `data/constraints/cell-entry-locks.md`, `data/constraints/quest-conflicts-hard-saves.md`, `data/constraints/trophy-dependencies.md`, `data/constraints/npc-dependencies.md`, `data/constraints/bug-prone-quests.md`, `data/constraints/radiant-boundaries.md`, `data/constraints/survival-mode-constraints.md`, and `data/constraints/skill-perk-leveling-plan.md` for Phase 2 overlaps.
 9. Read `data/locations/location-catalog.csv`, `data/locations/location-coordinates.csv`, `data/locations/location-coordinate-reconciliation.md`, `data/locations/location-geography.csv`, and `data/locations/location-geography-reconciliation.md` before changing geography-sensitive tasks.
-10. Read `data/objectives/route-rigidity-classification-notes.md`, `data/route-planning/README.md`, `data/route-planning/objective-route-index.csv`, and `data/route-planning/objective-constraints.csv` before TB-023 or later route-placement work.
+10. Read `data/objectives/route-rigidity-classification-notes.md`, `data/route-planning/README.md`, `data/route-planning/objective-route-index.csv`, `data/route-planning/objective-constraints.csv`, `drafts/route-prototypes/route-anchors-v0.md`, `drafts/route-prototypes/level-gated-skeleton-v0.md`, `drafts/route-prototypes/survival-geography-pass-v0.md`, and `drafts/route-prototypes/main-route-prototype-v0.md` before TB-027 or later route-placement work.
 11. Run `git status --short` and preserve unrelated existing changes.
 12. For UESP page fetches, prefer `python3 tools/fetch_uesp.py 'Skyrim:Page Title' --mode wikitext` or `--mode html`; direct raw `curl` may trigger Cloudflare without a browser User-Agent. For Gamemap marker refreshes, use `python3 tools/fetch_uesp_gamemap.py`, regenerate coordinates with `python3 tools/build_location_coordinates.py`, then regenerate geography with `python3 tools/build_location_geography.py`. For route-planning index refreshes, run `python3 tools/build_route_planning_index.py` and optionally `python3 tools/build_route_planning_database.py`.
 
 ## Next Task Details
 
-Start TB-023 by building `drafts/route-prototypes/route-anchors-v0.md` as an anchor-only planning artifact. Use `data/objectives/objectives.csv`, `data/objectives/route-rigidity-classification-notes.md`, `data/route-planning/objective-route-index.csv`, `data/route-planning/objective-constraints.csv`, and the Phase 2 constraint tables to identify route anchors from `fixed_early`, `fixed_late`, `windowed`, `branch_only`, and high-severity constraint-backed rows.
+Start TB-027 by integrating crafting, skills, perks, and grind blocks into the progression layer. Use `data/constraints/skill-perk-leveling-plan.md`, `drafts/route-prototypes/main-route-prototype-v0.md`, `drafts/route-prototypes/survival-geography-pass-v0.md`, `drafts/route-prototypes/level-gated-skeleton-v0.md`, `data/route-planning/objective-route-index.csv`, `data/route-planning/objective-constraints.csv`, and the relevant Phase 2 constraint tables.
 
 Primary output:
 
-* `drafts/route-prototypes/route-anchors-v0.md`
+* `drafts/route-prototypes/main-route-prototype-v0.md`
+* `data/constraints/skill-perk-leveling-plan.md`
+* `data/objectives/objectives.csv`, only if TB-027 needs source-backed canonical route-placement or rigidity refinements
 * task-board status updates when complete
 
 Research rules:
 
-* Use current online sources if new gameplay facts become necessary, but prefer existing source-backed constraint tables for this anchor pass.
+* Use current online sources if new gameplay facts become necessary, but prefer existing source-backed objective, constraint, route-planning, geography, and progression tables for this pass.
 * Do not rely on memory for cell-entry locking, leveled item thresholds, conflicts, bugs, trophy behavior, missability, radiant availability, Survival Mode mechanics, perk prerequisites, crafting unlocks, or skill-system behavior.
 * Mark unknowns explicitly instead of guessing.
-* Do not write detailed route steps.
+* Use route-block containers `G00` through `G14` as the placement frame for training, crafting, shopping, skill-reset, and grind blocks.
+* Include bounded fallback blocks for underleveled checkpoints before levels 8, 25, 27, 32, 36, 40, 46, 60, 78, 80, and 252.
+* Preserve the mandatory do-not-cross gates in `level-gated-skeleton-v0.md`.
+* Preserve Survival support for rest, food, carry, storage, transport, warmth, and recovery after skill resets.
+* Preserve unique-item ownership and the no-unique-disenchant baseline unless the specification explicitly changes.
+* Preserve the gradual difficulty curve; do not rush overpowered crafting, gear, or exploit-adjacent leveling as the baseline.
+* Preserve TB-023/TB-024/TB-025/TB-026 explicit deferrals for Hircine, Aetherial, Thirsk, Bittercup, Velehk Sain, Ghosts of the Tribunal, branch defaults, detailed warning prose, and checklist mapping.
+* Do not write detailed black-box route steps beyond prototype-level section/block placement.
 * Do not draft the final guide.
+
+TB-026 support handoffs:
+
+* `drafts/route-prototypes/main-route-prototype-v0.md` is complete and remains a flexible-objective insertion prototype, not final route prose.
+* It assigns 447 direct geography `location` rows into route blocks by corridor: G02 62, G03 59, G04 39, G05 38, G06 46, G07 68, G08 64, G11 15, G12 54, and G13 2.
+* It records non-geographic queue treatment for 830 single support candidates, 319 multiple support candidates, 1,089 rows with no route-candidate data, 887 constraint-backed flexible rows, and 1,497 flexible rows without linked constraints.
+* It keeps support candidates conditional: homes, bases, merchants, book copies, spell sources, and property nodes are not automatically available until acquisition/source/storage/prerequisite validation.
+* It preserves mandatory holds for Silent Moons/Lunar weapons, Mage's Circlet, The Pale Blade, Nightingale Armor, Forbidden Legend linked dungeons, Shield of Solitude, Chillrend, Dragonbane, Nightingale Blade/Bow, Miraak equipment, Legendary Dragon, Ebony Warrior, and all-perks completion.
+* TB-027 should add progression support to this frame without choosing branch defaults, source-copy defaults, warning text, or checklist completion.
+
+TB-025 support handoffs:
+
+* `drafts/route-prototypes/survival-geography-pass-v0.md` is complete and remains a geography planning layer, not route prose.
+* The file records terminology, a corridor support register, and prepared sweep requirements using `data/locations/location-geography.csv` and `data/constraints/survival-mode-constraints.md`.
+* Route-block containers `G00` through `G14` are the TB-026/TB-027 route frame.
+* Later route/progression passes should inspect `objective-route-index.csv`, `objective-constraints.csv`, and canonical objective/constraint rows before placing any objective into a block.
+* Candidate bases in the corridor table are possible future logistics nodes, not available storage/rest until acquisition, ownership, safety, and storage validation are confirmed.
+* Transport support in the corridor table is carriage/ferry/horse/road context, not automatic fast travel; inland corridors with no local ferry should not be treated as ferry-backed.
+* Later route/progression passes should not treat straight-line geography as pathfinding; road, pass, water, quest-state, enemy, weather, and exact entrance validation remain required before prose.
+
+TB-024 support handoffs:
+
+* `drafts/route-prototypes/level-gated-skeleton-v0.md` is complete and remains a broad skeleton, not route prose.
+* Skeleton bands are `S00` through `S15`.
+* TB-025 consumed the skeleton into `survival-geography-pass-v0.md`; TB-026 placed flexible queues within that frame; TB-027 may add progression blocks only when the mandatory gate checklist remains intact.
+* The skeleton keeps source-tier reward policy conservative until a later explicit decision accepts a documented tradeoff.
+* Branch defaults, detailed warning prose, skill-reset distribution, and checklist mapping remain assigned to later tasks.
+
+TB-023 support handoffs:
+
+* `drafts/route-prototypes/route-anchors-v0.md` is complete and remains anchor-only.
+* Structural anchors are numbered `A00` through `A21`.
+* The level/reward gate register is an input to TB-024, not a finished level skeleton.
+* The branch and hard-save register records constraint-table hard-save names but does not route branch content.
+* Flexible geography is now captured in TB-025; flexible objective insertion is now captured in TB-026; skill reset distribution, branch default selection, warning prose, and checklist mapping remain assigned to later tasks.
 
 TB-022 support handoffs:
 
 * `routing_rigidity` counts after TB-022: 1,558 `dependency_flexible`, 842 `region_flexible`, 211 `windowed`, 73 `fixed_late`, 41 `branch_only`, 29 `cleanup_safe`, 14 `excluded_unbounded`, 11 `option_list`, and 5 `fixed_early`.
 * `route_placement` counts after TB-022: 2,685 `main_route`, 47 `branch_route`, 27 `appendix`, 14 `excluded`, and 11 `option_list`.
 * `data/route-planning/objective-route-index.csv` now has no `needs_classification` rows.
-* Unresolved branch-default rows are intentionally handed to TB-028; TB-023 should not choose canonical Aetherial, Hircine, Thirsk, Bittercup, or similar defaults while building anchors.
+* Unresolved branch-default rows are intentionally handed to TB-028; TB-027 and later route work should not choose canonical Aetherial, Hircine, Thirsk, Bittercup, or similar defaults before the branch matrix pass.
 * TB-022 corrected `data/constraints/cell-entry-locks.md` cross-references so Nightingale Armor points to `OBJ-001766` through `OBJ-001769`, and Miraak's corpse-appearance lock includes `OBJ-001596` and `OBJ-001765` instead of Mage's Circlet.
 
 TB-021A/TB-021B/TB-021C support handoffs:
