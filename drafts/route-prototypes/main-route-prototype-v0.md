@@ -1,6 +1,6 @@
 # Main Route Prototype v0
 
-Status: TB-027 progression layer integrated, with machine-readable objective assignments in `data/route-planning/prototype-objective-block-map.csv`.
+Status: TB-027 complete as a block-level progression overlay, with machine-readable objective assignments in `data/route-planning/prototype-objective-block-map.csv`.
 
 This is a Phase 7 flexible-objective insertion prototype with the Phase 8 progression overlay. It is not final guide prose, not pathfinding, not a numbered itinerary, and not a checklist coverage matrix.
 
@@ -22,7 +22,7 @@ No new gameplay research was performed for this pass. Gameplay claims and route 
 | `data/route-planning/prototype-objective-block-map.csv` | Generated one-row-per-objective TB-026 audit map with route block, disposition, status, threshold, parent link, defer owner, and reason. |
 | `data/locations/location-geography.csv` | Hub/corridor geography, rest/transport/cold/candidate-base support, and confidence flags. |
 | `data/constraints/*.md` | Canonical route laws for AE starts, leveled rewards, cell locks, conflicts, trophies, NPC dependencies, bugs, radiants, Survival Mode, and progression. |
-| `data/constraints/skill-perk-leveling-plan.md` | TB-027 progression overlay for all-skills/all-perks, Legendary resets, training, crafting, investments, enchantment learning, alchemy effects, and underleveled fallbacks. |
+| `data/constraints/skill-perk-leveling-plan.md` | TB-027 block-level progression overlay for all-skills/all-perks, Legendary resets, training, crafting, investments, enchantment learning, alchemy effects, and underleveled fallbacks. Exact reset counts and final skill-state validation remain TB-030/TB-033. |
 
 ## Data Snapshot
 
