@@ -143,6 +143,7 @@ QUEST_ENTRY_OVERRIDES = {
     "noric jewlery": "OBJ-000630",
     "the bonds of matrimony": "OBJ-001945",
     "dragon research": "OBJ-000805",
+    "scare my enemy": "OBJ-000104",
 }
 
 LITANY_OF_LARCENY_ENTRIES = {
@@ -935,6 +936,8 @@ BRANCH_BY_OBJECTIVE = {
     "OBJ-000067": "BR-003 Destroy the Dark Brotherhood",
     "OBJ-000019": "BR-004 Paarthurnax / Blades",
     "OBJ-000317": "BR-004 Paarthurnax / Blades",
+    "OBJ-002785": "BR-004 Paarthurnax / Blades",
+    "OBJ-002786": "BR-004 Paarthurnax / Blades",
     "OBJ-000454": "BR-006 Thirsk Riekling",
     **{f"OBJ-{number:06d}": "BR-007 Ghosts destroy-heretics" for number in range(615, 621)},
     "OBJ-000740": "BR-007 Ghosts destroy-heretics",

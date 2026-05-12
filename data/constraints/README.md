@@ -14,7 +14,7 @@ TB-021 reviewed the Phase 2 outputs from TB-011 through TB-020 for source-note s
 | Constraint source-note references resolve | Pass | Every explicit `SN-*` reference in `data/constraints/*.md` maps to an existing source note. |
 | Source-note bibliography references resolve | Pass | Every `SRC-*` reference found in source notes maps to `sources/bibliography.md`. |
 | Constraint objective references resolve | Pass | Every explicit `OBJ-*` reference found in constraint tables maps to `data/objectives/objectives.csv`. |
-| Source-note sequence | Pass | Source notes currently run continuously from `SN-000001` through `SN-000126`. |
+| Source-note sequence | Pass | Source notes currently run continuously from `SN-000001` through `SN-000127`. |
 | Route drafting boundary | Pass | Constraint files still avoid writing a final guide or detailed route sequence. |
 | Coordinate support layer | Pass | `data/locations/location-coordinates.csv` provides coordinate rows for every location catalog row, with multi-marker, proxy, no-marker, and separate-worldspace cases flagged. |
 | Hub/corridor geography layer | Pass | `data/locations/location-geography.csv` provides derived nearest services, corridor assignments, worldspace access models, cold risk, barrier flags, and confidence fields. Hold-equivalence routing is still prohibited. |
@@ -72,7 +72,7 @@ These are not Phase 2 source-support blockers, but they must remain visible:
 | Decide first safe storage, main base, property service timing, and travel infrastructure defaults. | TB-031D. |
 | Select representative no-journal activity/favor targets for geography, thaneship, economy, and relationship overlap. | TB-031D. |
 | Choose enchantment source families, alchemy discovery source methods, representative crafting outputs, training blocks, and reset distribution without sacrificing preserved uniques or gradual power curve. | Complete in TB-031E; final physical source-item and numeric reset validation remain TB-033. |
-| Validate route counters for Sideways, Hero of the People, Delver, Explorer, Reader, Thief, Snake Tongue, and trophy pop fallbacks. | TB-031F/TB-033 and final QA. |
+| Validate route counters for Sideways, Hero of the People, Delver, Explorer, Reader, Thief, Snake Tongue, and trophy pop fallbacks. | Counter policy complete in TB-031F; exact clear/discovery triggers remain TB-031G, and final totals/trophy pops remain TB-033/final QA. |
 | Decide branch depth for Stormcloak, Volkihar, Daedric alternatives, Blades/Paarthurnax, and AE branch outcomes. | TB-028/TB-029. |
 | Place warnings for leveled rewards, cell-entry locks, NPC risks, trophy actions, and bug-prone quest steps. | TB-032. |
 

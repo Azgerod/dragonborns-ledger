@@ -81,6 +81,33 @@ GATE_OVERRIDES = {
     ),
 }
 
+COUNTER_MECHANIC_OVERRIDES = {
+    "OBJ-000104": (
+        "G02",
+        "anchored_window",
+        "TB-031F/TB-032/TB-034",
+        "Hired Muscle/Scare My Enemy is a Companions representative radiant; accept if the seed offers it, with exact target and warnings handled downstream.",
+    ),
+    "OBJ-002787": (
+        "G03",
+        "anchored_window",
+        "TB-031G/TB-034",
+        "Archery Practice belongs with Angi's Camp/southern route handling; exact access and progression timing remain downstream validation.",
+    ),
+    "OBJ-002788": (
+        "G07",
+        "anchored_window",
+        "TB-034/TB-037",
+        "Firebrand Wine Case follows the Scoundrel's Folly/Solitude quest-item cue, not generic late cleanup.",
+    ),
+    "OBJ-002789": (
+        "G02",
+        "anchored_window",
+        "TB-034/TB-037",
+        "Map of Dragon Burials follows the A Blade in the Dark/Riverwood quest-item cue, not generic late cleanup.",
+    ),
+}
+
 SUPPORT_LOCATION_BLOCK_HINTS = {
     "whiterun": "G02",
     "riverwood": "G02",
@@ -131,7 +158,7 @@ SUPPORT_LOCATION_BLOCK_HINTS = {
     "severin": "G12",
 }
 
-BRANCH_OWNER = "TB-028"
+BRANCH_OWNER = "TB-029/TB-033"
 CHECKLIST_OWNER = "TB-031F/TB-033"
 PROGRESSION_OWNER = "TB-031E/TB-033"
 
@@ -229,6 +256,9 @@ PARENT_OVERRIDES = {
     "OBJ-002148": ("OBJ-002148", "G02"),
     "OBJ-002354": ("OBJ-000010", "G10"),
     "OBJ-002524": ("OBJ-002148", "G02"),
+    "OBJ-002787": ("OBJ-002204", "G03"),
+    "OBJ-002788": ("OBJ-000040", "G07"),
+    "OBJ-002789": ("OBJ-000007", "G02"),
 }
 
 
@@ -410,7 +440,7 @@ def dependency_anchor_owner(row: dict[str, str]) -> str:
 def non_main_assignment(row: dict[str, str]) -> tuple[str, str, str, str]:
     placement = row["route_placement"]
     if placement == "branch_route":
-        return "", "held_branch_deferred", BRANCH_OWNER, "Branch-exclusive or unresolved branch-default row."
+        return "", "held_branch_deferred", BRANCH_OWNER, "Branch-exclusive row; use the TB-029 branch prototype and validate reload/canonical restoration in TB-033."
     if placement == "option_list":
         return "", "held_option_list", "TB-031D route-default-decisions.md; TB-035 option presentation", "Isolated default/option selection, not routed as a main step."
     if placement == "appendix":
@@ -426,6 +456,8 @@ def main_assignment(row: dict[str, str], location_lookup: dict[str, str]) -> tup
         return FIXED_EARLY[objective_id]
     if objective_id in GATE_OVERRIDES:
         return GATE_OVERRIDES[objective_id]
+    if objective_id in COUNTER_MECHANIC_OVERRIDES:
+        return COUNTER_MECHANIC_OVERRIDES[objective_id]
 
     category = row["category"]
     rigidity = row["routing_rigidity"]

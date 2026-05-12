@@ -17,6 +17,7 @@ Generated TB-030 outputs:
 * `checklist-escalation-decisions.md` records the TB-031C decisions for branch/default/radiant/counter escalation.
 * `../route-planning/route-default-decisions.md` records the TB-031D route defaults used by option-list and logistics follow-up rows.
 * `../constraints/progression-source-selection.md` and `../constraints/progression-source-selections.csv` record the TB-031E progression source-selection defaults and progression alias resolutions.
+* `counter-coverage-plan.md` records the TB-031F route-planning decisions for checklist/trophy counters, activity mechanics, and counter-owned source-readiness rows.
 
 Regenerate the matrix with:
 

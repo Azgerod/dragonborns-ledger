@@ -151,6 +151,8 @@ Branch-impact queue:
 | --- | --- | --- |
 | `OBJ-000019` | `Paarthurnax` | Complete kill outcome only on branch. |
 | `OBJ-000317` | `The Words of Power` | Record support-state impact only; do not move main-route word-wall/shout support into the branch unless it is proven Blades-exclusive. |
+| `OBJ-002785` | `Rebuilding the Blades` | Branch-only checklist/source-readiness promotion from TB-031F. Recruit three followers after Blades support is restored; do not carry follower reassignment into canonical continuity. |
+| `OBJ-002786` | `Dragon Hunting` | Branch-only representative Blades dragon hunt after `Rebuilding the Blades`; reload after branch audit. |
 
 Warnings and handoffs:
 
@@ -158,4 +160,5 @@ Warnings and handoffs:
 | --- | --- |
 | Branch size | Keep compact. This is not a second main-quest route. |
 | Main-route support | Preserve Greybeards support on the final save. |
+| Blades checklist rows | TB-031F validates `Rebuilding the Blades` and `Dragon Hunting` as branch-only checklist rows under this branch, not main-route objectives. |
 | Reload point | After branch-state audit, reload `HS-MQ-PAARTHURNAX` and continue with Paarthurnax alive. |
