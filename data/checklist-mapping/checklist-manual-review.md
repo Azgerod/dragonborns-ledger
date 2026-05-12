@@ -1,6 +1,6 @@
 # Checklist Manual Review Resolution
 
-Status: TB-031B complete.
+Status: TB-031B complete; TB-031J later resolved all source-readiness holds.
 
 Input: `data/checklist-mapping/coverage-matrix.csv`
 
@@ -13,7 +13,7 @@ This pass resolved every row that previously used the generic `manual_review_req
 | Result | Rows | Meaning |
 | --- | ---: | --- |
 | Newly mapped to existing objective/support handling | 195 | Checklist naming, spelling, abbreviation, parent-objective, or detail-location gaps now map to existing source-backed rows. |
-| Source-readiness hold | 90 | Checklist-only rows remain unpromoted until a named follow-up validates source scope, adds/promotes support rows, or excludes them. |
+| Source-readiness hold after TB-031B | 90 | Historical TB-031B bucket. TB-031E/F/G/J later validated source scope, mapped/promoted support, or excluded every row. |
 | Generic manual review | 0 | No row may remain in an untyped manual bucket after TB-031B. |
 
 Two additional rows (`Dawnguard` and `Dragonborn`) were fixed by tightening the checklist normalizer so standalone DLC quest titles are not stripped as empty content suffixes.
@@ -36,7 +36,7 @@ Two additional rows (`Dawnguard` and `Dragonborn`) were fixed by tightening the 
 
 ## Source-Readiness Holds
 
-These rows are no longer generic manual review. They are explicit `source_readiness_required` rows with `match_status=support_table_only`, `source_note_refs=SN-000125-checklist-manual-review-reconciliation.md`, and a named owner in `guide_location`.
+At the TB-031B checkpoint, these rows were no longer generic manual review. They were explicit `source_readiness_required` rows with `match_status=support_table_only`, `source_note_refs=SN-000125-checklist-manual-review-reconciliation.md`, and a named owner in `guide_location`.
 
 This table records the TB-031B source-readiness buckets with current owner annotations where later TB-031 tasks have completed. For current counts, use `checklist-coverage-summary.md`; by TB-031G, the single location row (`The Chill*`) had been resolved as an explicit official-scope exclusion, and TB-031J pulled the remaining book/document, unique-gear, and skill-book holds forward before TB-032.
 
@@ -64,3 +64,5 @@ Expected counts after TB-031B:
 | `manual_review_required` rows | 0 |
 | `unmatched` rows | 0 |
 | `source_readiness_required` rows | 90 |
+
+Current count after TB-031J: 0.

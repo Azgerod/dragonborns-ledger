@@ -1,6 +1,6 @@
 # Survival Geography Pass v0
 
-Status: TB-025 complete.
+Status: TB-025 complete; downstream route-default, checklist, location-validation, and source-readiness updates refreshed in TB-031K after TB-031J.
 
 This is a Phase 6 planning artifact. It reshapes the TB-024 level-gated skeleton around Survival Mode travel, cold, rest, food, carry, storage, and transport pressure. It is not route prose, not a final objective order, and not a flexible-objective insertion pass.
 
@@ -134,25 +134,25 @@ The TB-024 skeleton remains the level/reward law. This table adds Survival geogr
 
 ## Route Block Frame for TB-026
 
-TB-026 should use these blocks as insertion containers. A block can contain quests, locations, books, stones, word walls, favors, radiants, property work, and local AE objectives only after the relevant objective row and constraint rows have been checked.
+The route prototype uses these blocks as insertion containers. A block can contain quests, locations, books, stones, word walls, favors, radiants, property work, and local AE objectives only after the relevant objective row and constraint rows have been checked.
 
 | Block | Working role | Eligible corridors | Earliest skeleton pressure | Must attach before use | Do not use for |
 | --- | --- | --- | --- | --- | --- |
 | G00 | Setup and run rules. | None. | S00 | Official AE scope, Survival baseline, trophy-safe setup. | Gameplay objective insertion. |
 | G01 | Opening warm core. | `riverwood_helgen_road`, `whiterun_central_plains`. | S01 | Bed, food, sell-off, first storage candidate, first Whiterun protected-entry handling. | Cold sweeps, heavy collection, broad Daedric/AE routing. |
-| G02 | Central carry/storage loop. | `whiterun_central_plains`, `rorikstead_western_road`. | S02-S04 | Horse/carry plan, Goldenhills/Breezehome/Tundra-style base evaluation, food/restock loop. | Final property/default decisions before TB-031D. |
+| G02 | Central carry/storage loop. | `whiterun_central_plains`, `rorikstead_western_road`. | S02-S04 | TB-031D defaults: Whiterun Stable Horse, Breezehome as first-storage bridge, Tundra Homestead as main base, Goldenhills as food/income support after validation. | Using any candidate base before purchase/acquisition, ownership, safety, and storage validation. |
 | G03 | Southern warm expansion. | `falkreath_pine_forest`, `riverwood_helgen_road`, `ivarstead_rift_pass`. | S03-S06 | Inn endpoint, mountain/cold-interior screening, Lakeview/Helvard checks where relevant. | Level-locked reward dungeons or unvalidated Hircine/grotto branch state. |
-| G04 | Riften and southeast support. | `riften_rift`, `dayspring_canyon` when Dawnguard-ready. | S04-S11 | Riften bed/storage/sell-off plan, mountain-row screening, later Dawnguard branch readiness. | Dawnguard branch prose before TB-028/TB-029. |
+| G04 | Riften and southeast support. | `riften_rift`, `dayspring_canyon` when Dawnguard-ready. | S04-S11 | Riften bed/storage/sell-off plan, mountain-row screening, and later Dawnguard branch readiness. | Dawnguard or Aetherium branch content in main continuity; use TB-028/TB-029 branch prototypes. |
 | G05 | Western Reach and road-inn expeditions. | `markarth_reach`, `old_hroldan_reach_road`. | S04-S11 | Horse, food, bed endpoint, pass/path validation, carry emptying. | Sky Haven/Dragonbane before level 46. |
 | G06 | Eastmarch and Windhelm ferry hub. | `kynesgrove_eastmarch_road`, `windhelm_eastmarch`. | S04-S12 | Windhelm bed/ferry plan, cold kit for Windhelm-adjacent cold rows, sell-off/storage. | Solstheim broad cleanup before Raven Rock support exists. |
 | G07 | Solitude and northwest city/coast prep. | `solitude_haafingar`, `dragon_bridge_haafingar_road`, `morthal_marsh`. | S06-S11 | Solitude carriage/ferry access, inn endpoint, coastal cold kit, Bards and Civil War state checks. | Bards instrument pickup before assignment or 46-gated rewards. |
 | G08 | Pale/Winterhold prepared sweep. | `dawnstar_pale_coast`, `nightgate_pale_pass`, `winterhold_coast`. | S07-S12 | Hot soup ingredients, warm gear, daylight travel where possible, verified beds, return transport, cold-interior exit plan. | Pre-36 Saarthal/Forbidden Legend-linked placement or casual detours. |
 | G09 | Level-36 linked-dungeon loop. | Folgunthur/Saarthal/Geirmund/Reachwater corridors as validated by objective rows. | S09 | Level 36 reached, warm/carry/rest support, exact linked-dungeon access validation. | Any pre-36 linked-dungeon approach, read, loot, or entry state. |
 | G10 | Level-46 classic reward loop. | Riftweald/Riften, Sky Haven/Reach, late Thieves reward handoffs. | S11 | Level 46 reached, reward-source checks, hard saves where constraint rows require them. | Practical-tier tradeoffs not explicitly accepted by a later pass. |
-| G11 | Dawnguard expedition. | `dayspring_canyon`, `icewater_volkihar_ferry`, related separate interiors/worldspaces after validation. | S11-S12 | `Bloodline` hard save, ferry/cold kit, transformation/trophy planning, food/rest/carry plan. | Choosing Volkihar branch depth or Aetherial default before TB-028. |
+| G11 | Dawnguard expedition. | `dayspring_canyon`, `icewater_volkihar_ferry`, related separate interiors/worldspaces after validation. | S11-S12 | `Bloodline` hard save, ferry/cold kit, transformation/trophy planning, food/rest/carry plan, and TB-028/TB-029 branch/default handling. | Volkihar branch objectives in main continuity or Aetherium reward branches without the hard-save/reload structure. |
 | G12 | Solstheim/Raven Rock spine. | `raven_rock_west`, then `thirsk_central`, `skaal_north`, `tel_mithryn_east`. | S11-S12 | Raven Rock inn/restock, ferry return, Severin validation before storage, cold kit, camps as backup only. | Broad island cleanup before support is established or final Miraak before 60. |
 | G13 | Separate-worldspace and AE high-risk expeditions. | Manual/not-comparable rows, Black Books/Apocrypha, Skuldafn, Deadlands, and similar route-specific spaces after validation. | S11-S14 | Parent quest access, explicit exit/recovery path, inventory/carry plan, and source-row validation. | Automated placement from straight-line geography. |
-| G14 | Late cleanup by corridor. | All corridors, one supportable loop at a time. | S14-S15 | Checklist map, final storage/display policy, bed/food/carry endpoints, remaining objective validation. | Replacing TB-031A-TB-031J reconciliation or TB-033 constraint validation. |
+| G14 | Late cleanup by corridor. | All corridors, one supportable loop at a time. | S14-S15 | Checklist map, final storage/display policy, bed/food/carry endpoints, TB-031J source-readiness resolutions, and remaining objective validation. | Replacing TB-031A-TB-031J reconciliation, TB-032 warnings, or TB-033 constraint validation. |
 
 ## Prepared Sweep Requirements
 
@@ -185,7 +185,7 @@ Use this as a preflight checklist before TB-026 places objectives into a cold, c
 
 ## TB-026 Handoff
 
-TB-026 should now build `drafts/route-prototypes/main-route-prototype-v0.md` by inserting flexible objectives into the `G00` through `G14` route-block frame. For each inserted objective, TB-026 should:
+TB-026 has built `drafts/route-prototypes/main-route-prototype-v0.md` by inserting flexible objectives into the `G00` through `G14` route-block frame. For later route edits, continue to:
 
 * start from `data/route-planning/objective-route-index.csv` corridor, access, cold, candidate, and constraint summaries;
 * inspect `data/route-planning/objective-constraints.csv` and the canonical constraint source when `constraint_count` is nonzero;
@@ -193,4 +193,4 @@ TB-026 should now build `drafts/route-prototypes/main-route-prototype-v0.md` by 
 * keep level and reward gates from `level-gated-skeleton-v0.md` intact;
 * attach rest, food, carry, storage, and transport support to every remote/cold/coastal/mountain/Solstheim block;
 * treat candidate bases as unavailable until acquisition, ownership, safety, and storage validation are confirmed;
-* keep branch defaults, branch-route prose, warning copy, skill-reset distribution, and checklist synchronization in their assigned later tasks.
+* use the now-resolved TB-028/TB-029 branch defaults/prototypes, TB-031D route defaults, TB-031E skill/reset distribution, TB-031F counter mechanics, TB-031G location-validation rules, and TB-031J source-readiness resolutions; keep warning copy, final step order, and final validation in their assigned later tasks.

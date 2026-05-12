@@ -1,6 +1,6 @@
 # Progression Source Selection
 
-Status: TB-031E complete as a route-planning source-selection layer.
+Status: TB-031E complete as a route-planning source-selection layer; TB-031J completed the remaining checklist source-readiness queue.
 
 Scope: this is not final guide prose and does not assign final step numbers. It chooses the progression sources and policies that later tasks should use unless route validation finds a source-backed conflict.
 
@@ -32,7 +32,7 @@ TB-031E resolves five checklist rows that were source-readiness holds:
 | `Damage Stamina` enchantment row | Treat as alias for source-backed `Stamina Damage` enchantment objective `OBJ-002515`. | Coverage row now maps to the main-route prototype. |
 | Four `Kesh Fiber (AE)` alchemy rows | Treat as spelling alias for source-backed `Kresh Fiber` objective `OBJ-002678`. | Coverage rows now map to the main-route prototype. |
 
-After TB-031H, remaining `source_readiness_required` rows are explicit TB-036/TB-037 appendix or final checklist validation inputs rather than TB-031E progression work.
+TB-031J later pulled the remaining source-readiness queue forward before TB-032. No generated checklist row now uses `source_readiness_required`; source-readiness work is no longer a TB-036/TB-037 input bucket.
 
 ## Operating Decisions
 
@@ -77,5 +77,6 @@ Exact reset counts are not invented here. They depend on final route order, natu
 | TB-031F | Complete: counter/action mechanics for Reader, Hard Worker action tracking, Thief/Snake Tongue, Fishing, Lost Relic fillers, Sideways/Hero of the People/Delver/Explorer. |
 | TB-031G | Complete: route-access class validation for geography-sensitive source locations; final step placement remains TB-034. |
 | TB-031H | Complete: readiness metadata cleanup for older source notes/objective/support rows and generated labels is recorded in `docs/source-objective-readiness-audit.md`. |
+| TB-031J | Complete: remaining checklist source-readiness rows are resolved as source-backed main-route mappings, one BR-007 branch mapping, or explicit exclusions. |
 | TB-032 | Place concise warnings for the progression risks chosen here. |
 | TB-033 | Validate final skill state, exact reset counts, learned enchantments, alchemy effects, investments, crafting systems, and final all-perks/all-skills satisfaction. |

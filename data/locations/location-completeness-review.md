@@ -69,4 +69,4 @@ The database is complete for source-list coverage and TB-031G route-validation m
 | Bug, missability, and cell-entry risks | TB-013 and TB-017 |
 | Quest, faction, and world-state access timing | TB-014 and route prototype passes |
 | Survival Mode travel, cold, shelter, sleep, food, carry, and route grouping | TB-019 and route prototype passes |
-| Spreadsheet checklist mapping and checklist-only exceptions | TB-031B/TB-031G complete for location rows; TB-031H assigned any remaining checklist-only source-readiness validation to TB-036/TB-037. |
+| Spreadsheet checklist mapping and checklist-only exceptions | TB-031B/TB-031G complete for location rows; TB-031J later resolved all remaining checklist source-readiness rows before TB-032. |

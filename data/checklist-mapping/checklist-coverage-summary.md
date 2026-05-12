@@ -59,12 +59,12 @@ TB-031J pulled the remaining source-readiness rows forward from TB-036, added `d
 | Naming/detail aliases mapped to existing source-backed rows | 195 | Existing objective, property, activity, location, quest-detail, perk, transformation, pet, book, spell, and unique-item rows now cover these checklist rows. |
 | Source-readiness holds after TB-031B | 90 | Generic manual review was replaced by typed `source_readiness_required` rows with named owners and `source_note_refs=SN-000125-checklist-manual-review-reconciliation.md`. |
 | TB-031E-owned progression holds resolved | 5 | `Damage Stamina` now maps to `OBJ-002515` and the four `Kesh Fiber (AE)` rows now map to `OBJ-002678`, with alias support recorded in SN-000126. |
-| Source-readiness holds after TB-031E | 85 | At that checkpoint, remaining holds fed TB-031F, TB-031G, and the later readiness audit path that ultimately assigned residual rows to TB-036. |
+| Source-readiness holds after TB-031E | 85 | At that checkpoint, remaining holds fed TB-031F, TB-031G, and the readiness audit path; TB-031J later pulled the residual queue forward before warning work. |
 | TB-031F-owned counter/action holds resolved | 6 | `Rebuilding the Blades` and `Dragon Hunting` now map to the Paarthurnax/Blades branch prototype; `Archery Practice`, `Scare My Enemy`, `Firebrand Wine Case`, and `Map of Dragon Burials` now map to source-backed main-route objective handling. |
-| Source-readiness holds after TB-031F | 79 | At that checkpoint, remaining holds fed TB-031G and the later readiness audit path that ultimately assigned residual rows to TB-036. |
+| Source-readiness holds after TB-031F | 79 | At that checkpoint, remaining holds fed TB-031G and the readiness audit path; TB-031J later pulled the residual queue forward before warning work. |
 | TB-031G-owned location hold resolved | 1 | `The Chill*` is now an explicit exclusion under official PS4 AE scope because its map marker is USKP-only, not official Skyrim. |
 | Source-readiness holds after TB-031G | 78 | Remaining holds entered TB-031H readiness audit. |
-| TB-031H owner audit | 78 | TB-031H assigned the remaining checklist-only holds to TB-036 book/document, skill-book, or unique-gear source-readiness validation. No generated checklist row now names TB-031H as a future owner. |
+| TB-031H owner audit | 78 | TB-031H assigned the remaining checklist-only holds to a concrete owner instead of leaving TB-031H as a future label; TB-031J then resolved those rows before TB-032. |
 | TB-031J source-readiness rows pulled forward | 78 | TB-031J resolved the remaining holds before TB-032: 75 rows now map to main-route prototype handling, 1 row maps to BR-007 branch-prototype coverage, and 2 regular-book/scope rows are explicit exclusions. |
 | Generic manual review | 0 | `tools/validate_coverage.py` no longer allows unmatched/manual-review rows. |
 
@@ -84,7 +84,7 @@ TB-031J pulled the remaining source-readiness rows forward from TB-036, added `d
 | --- | --- |
 | TB-031 | Complete: `tools/validate_coverage.py` now validates row uniqueness, allowed mapping/status/match values, format checks, blank-field rules by status, and required review/exclusion/branch fields. |
 | TB-031A | Complete: all 312 `scope_review_required` broad regular-book rows are explicit exclusions with justification and `match_source=book_scope_review`; no `scope_review_required` rows remain. |
-| TB-031B | Complete: no `manual_review_required` or `unmatched` rows remain. 195 rows were mapped to existing source-backed handling; 90 checklist-only rows are explicit `source_readiness_required` holds for named later tasks. |
+| TB-031B | Complete: no `manual_review_required` or `unmatched` rows remain. 195 rows were mapped to existing source-backed handling; the 90 historical source-readiness holds have since been resolved by TB-031E/F/G/J. |
 | TB-031C | Complete: `checklist-escalation-decisions.md` records no all-target radiant escalation, required Thieves Guild 125-job counter coverage, canonical/default promotions, and branch-only holds. |
 | TB-031D | Complete: `data/route-planning/route-default-decisions.md` records route-affecting defaults for storage, bases, property services, travel, household roles, Black Book powers, final transformation state, and representative activity/favor targets. |
 | TB-031E | Complete: `data/constraints/progression-source-selection.md` and `data/constraints/progression-source-selections.csv` record selected book/tome sources, enchantment source families, alchemy source methods, investments, crafting outputs, training blocks, reset distribution, Oghma timing, and progression alias fixes. |
@@ -93,6 +93,7 @@ TB-031J pulled the remaining source-readiness rows forward from TB-036, added `d
 | TB-031H | Complete: `docs/source-objective-readiness-audit.md` records source-note, objective-row, support-table, generated-index readiness, stale owner label, unknown/audit-only support row, and broad `later`/`manual validation` ownership treatment after TB-031A through TB-031G. |
 | TB-031I | Complete: `docs/deferred-work-audit.md` is closed, and active generic deferrals have explicit downstream owners before warning-layer work starts. |
 | TB-031J | Complete: `source-readiness-resolutions.csv` and `SN-000129` resolve all remaining source-readiness rows before warning-layer work. |
-| TB-032 | Warning placement can now proceed using resolved checklist, default, progression, counter, branch, location, and source-readiness decisions. |
+| TB-031K | Complete: downstream planning and coordination artifacts now consume the resolved checklist, default, progression, counter, branch, location, and source-readiness decisions. |
+| TB-032 | Warning placement can now proceed using the refreshed downstream planning stack. |
 | TB-033 | Validate that branch/checklist mappings still preserve canonical continuity and trophy/reward constraints. |
-| TB-036/TB-037 | Verify appendix and final checklist coverage after TB-031A/B/C/E/F/G/H/I/J and final guide drafting; no source-readiness bucket remains for TB-036. |
+| TB-036/TB-037 | Verify appendix and final checklist coverage after TB-031A/B/C/E/F/G/H/I/J/K and final guide drafting; no source-readiness bucket remains for TB-036. |

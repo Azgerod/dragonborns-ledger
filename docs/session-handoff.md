@@ -12,13 +12,13 @@ Phase 2 constraint-table research is reviewed. TB-011 through TB-021 are complet
 
 TB-022 is complete. All current objective rows have classified `routing_rigidity` and `route_placement` values, with no remaining `unclassified` values in those fields. Classification notes are in `data/objectives/route-rigidity-classification-notes.md`; after TB-031F, generated route indexes cover 2,789 objectives.
 
-TB-023 is complete. `drafts/route-prototypes/route-anchors-v0.md` now records structural anchors `A00` through `A21`, a level/reward gate register, a branch hard-save register, and explicit handoffs to later route passes.
+TB-023 is complete. `drafts/route-prototypes/route-anchors-v0.md` now records structural anchors `A00` through `A21`, a level/reward gate register, a branch hard-save register, and explicit handoffs to later route passes. TB-031K refreshed this file so current objective/constraint counts and resolved branch defaults are visible.
 
-TB-024 is complete. `drafts/route-prototypes/level-gated-skeleton-v0.md` now assigns anchors to level bands `S00` through `S15`, records mandatory do-not-cross gates, branch-gate placement, progression handoffs, and the Survival Mode geography handoff.
+TB-024 is complete. `drafts/route-prototypes/level-gated-skeleton-v0.md` now assigns anchors to level bands `S00` through `S15`, records mandatory do-not-cross gates, branch-gate placement, progression handoffs, and the Survival Mode geography handoff. TB-031K refreshed stale future-owner language for resolved branch/default/progression/checklist-source decisions.
 
-TB-025 is complete. `drafts/route-prototypes/survival-geography-pass-v0.md` now reshapes the level skeleton around Survival Mode corridor planning, prepared sweeps, rest/food/carry/storage/transport support, route-block containers `G00` through `G14`, and a TB-026 handoff.
+TB-025 is complete. `drafts/route-prototypes/survival-geography-pass-v0.md` now reshapes the level skeleton around Survival Mode corridor planning, prepared sweeps, rest/food/carry/storage/transport support, route-block containers `G00` through `G14`, and a TB-026 handoff. TB-031K refreshed the route-block handoff language to use resolved TB-031D through TB-031J inputs.
 
-TB-026 is complete. `drafts/route-prototypes/main-route-prototype-v0.md` now places flexible objective queues into route blocks `G00` through `G14`, records direct geography counts, non-geographic queue handling, support-objective policy, and mandatory holds. `data/route-planning/prototype-objective-block-map.csv` records a one-row-per-objective route-block/disposition/status/threshold/parent/defer assignment for all 2,789 current objectives.
+TB-026 is complete. `drafts/route-prototypes/main-route-prototype-v0.md` now places flexible objective queues into route blocks `G00` through `G14`, records direct geography counts, non-geographic queue handling, support-objective policy, and mandatory holds. `data/route-planning/prototype-objective-block-map.csv` records a one-row-per-objective route-block/disposition/status/threshold/parent/defer assignment for all 2,789 current objectives. TB-031K refreshed the direct-geography counts and source-readiness/source-support handoffs.
 
 TB-027 is complete. `data/constraints/skill-perk-leveling-plan.md` and `drafts/route-prototypes/main-route-prototype-v0.md` now include the progression overlay: route-block skill/crafting slots, bounded underleveled fallbacks before levels 8, 25, 27, 32, 36, 40, 46, 60, 78, 80, and 252, and a conservative Legendary reset baseline. No new gameplay research or objective CSV changes were needed.
 
@@ -44,11 +44,13 @@ TB-031F is complete. `data/checklist-mapping/counter-coverage-plan.md` and `SN-0
 
 TB-031G is complete. `data/locations/location-route-validation.md` and `SN-000128-location-route-validation.md` record Delver/Explorer mechanics, normal clear-trigger policy, Angarvunde/Mistwatch exceptions, duplicate and secondary marker treatment, AE content-location handling, coordinate exception rules, separate-worldspace/manual geography handling, and the `The Chill*` official-scope exclusion. TB-031G updated location/objective support rows, regenerated route/checklist indexes, and reduced source-readiness holds to 78 at that checkpoint.
 
-TB-031H is complete. `docs/source-objective-readiness-audit.md` records the source/objective/support-table/generated-index readiness audit. `sources/source-notes/README.md` defines source-note status semantics, generated route/checklist/progression outputs no longer name TB-031H as a future owner, and the then-remaining 78 `source_readiness_required` rows were assigned to TB-036 before TB-031J pulled them forward.
+TB-031H is complete. `docs/source-objective-readiness-audit.md` records the source/objective/support-table/generated-index readiness audit. `sources/source-notes/README.md` defines source-note status semantics, generated route/checklist/progression outputs no longer name TB-031H as a future owner, and the then-remaining 78 `source_readiness_required` rows were assigned to a concrete owner before TB-031J pulled them forward.
 
 TB-031I is complete. `docs/deferred-work-audit.md` is closed; active generic deferrals are either completed, assigned to named downstream owners, or documented as QA risk. Stale branch/default/checklist wording in route prototypes was cleaned up before warning placement.
 
-TB-031J is complete. `data/checklist-mapping/source-readiness-resolutions.csv` and `SN-000129-checklist-source-readiness-forward-review.md` pull the 78 former TB-036 source-readiness rows forward before TB-032. The generated coverage matrix now has no `source_readiness_required` rows: 75 rows map to main-route prototype handling, 1 row maps to BR-007 branch coverage for `Reclamation Priest's Journal (AE)`, and 2 rows are explicit exclusions for regular-book/scope mismatches.
+TB-031J is complete. `data/checklist-mapping/source-readiness-resolutions.csv` and `SN-000129-checklist-source-readiness-forward-review.md` pull the 78 remaining source-readiness rows forward before TB-032. The generated coverage matrix now has no `source_readiness_required` rows: 75 rows map to main-route prototype handling, 1 row maps to BR-007 branch coverage for `Reclamation Priest's Journal (AE)`, and 2 rows are explicit exclusions for regular-book/scope mismatches.
+
+TB-031K is complete. Downstream route-planning artifacts and coordination docs have been refreshed after TB-031J: route anchors, level skeleton, Survival geography pass, main-route prototype, branch index, constraint handoffs, checklist summaries, task board, and handoff text now treat TB-031A through TB-031J decisions as current inputs rather than future work.
 
 The current next task is TB-032: add the warning and hard-save layer.
 
@@ -72,7 +74,7 @@ At the start of the next session:
 
 ## Next Task Details
 
-Start TB-032 by adding the warning and hard-save layer. Use `drafts/route-prototypes/main-route-prototype-v0.md`, `data/constraints/quest-conflicts-hard-saves.md`, `data/constraints/leveled-unique-items.md`, `data/constraints/cell-entry-locks.md`, `data/constraints/trophy-dependencies.md`, `data/constraints/npc-dependencies.md`, `data/constraints/bug-prone-quests.md`, `data/constraints/radiant-boundaries.md`, `data/constraints/survival-mode-constraints.md`, `data/checklist-mapping/counter-coverage-plan.md`, `data/locations/location-route-validation.md`, `drafts/branch-routes/README.md`, the TB-029 branch prototype files, `docs/deferred-work-audit.md`, and `docs/source-standards.md`.
+Start TB-032 by adding the warning and hard-save layer. Use the TB-031K-refreshed `drafts/route-prototypes/main-route-prototype-v0.md`, `data/constraints/quest-conflicts-hard-saves.md`, `data/constraints/leveled-unique-items.md`, `data/constraints/cell-entry-locks.md`, `data/constraints/trophy-dependencies.md`, `data/constraints/npc-dependencies.md`, `data/constraints/bug-prone-quests.md`, `data/constraints/radiant-boundaries.md`, `data/constraints/survival-mode-constraints.md`, `data/checklist-mapping/counter-coverage-plan.md`, `data/checklist-mapping/source-readiness-resolutions.csv`, `data/locations/location-route-validation.md`, `drafts/branch-routes/README.md`, the TB-029 branch prototype files, `docs/deferred-work-audit.md`, and `docs/source-standards.md`.
 
 Primary output:
 
@@ -84,7 +86,7 @@ Primary output:
 TB-032 rules:
 
 * Keep warnings concise and placed exactly where needed: hard saves, do-not-enter gates, do-not-turn-in gates, do-not-sell/disenchant notes, branch save/reload points, NPC dependency warnings, trophy-pop saves, and bug mitigations.
-* Do not resolve Phase 10 checklist/default/progression/counter/location/readiness decisions inside the warning layer.
+* Do not resolve Phase 10 checklist/default/progression/counter/location/readiness decisions inside the warning layer; TB-031K refreshed downstream documents so those decisions are already current.
 * Do not write final black-box route prose or reorder the whole route; preserve the prototype layer.
 * Use source-backed constraint rows for gameplay warnings, and cite or preserve the relevant source-note references.
 * Do not do broad gameplay research. If a concrete row needs a gameplay correction, source-check only that row and cite it under `docs/source-standards.md`.
@@ -102,11 +104,11 @@ TB-026 support handoffs:
 
 * `drafts/route-prototypes/main-route-prototype-v0.md` is complete and remains a flexible-objective insertion prototype, not final route prose.
 * `data/route-planning/prototype-objective-block-map.csv` is complete and remains the generated TB-026 audit layer. Regenerate it with `python3 tools/build_prototype_objective_block_map.py` after route-index-affecting changes.
-* It assigns 447 direct geography `location` rows into route blocks by corridor: G02 62, G03 59, G04 39, G05 38, G06 46, G07 68, G08 64, G11 15, G12 54, and G13 2.
+* It assigns 447 direct geography `location` rows into route blocks by corridor after TB-031K refresh: G02 62, G03 58, G04 39, G05 36, G06 46, G07 67, G08 63, G09 4, G10 1, G11 15, G12 54, and G13 2.
 * The Markdown records non-geographic queue treatment for 830 single support candidates, 319 multiple support candidates, 1,098 rows with no route-candidate data, 1,082 constraint-backed flexible rows, and 1,534 flexible rows without linked constraints; the CSV records individual route blocks, dispositions, statuses, thresholds, parent links, and defer reasons.
 * It keeps support candidates conditional: homes, bases, merchants, book copies, spell sources, and property nodes are not automatically available until acquisition/source/storage/prerequisite validation.
 * It preserves mandatory holds for Silent Moons/Lunar weapons, Mage's Circlet, The Pale Blade, Nightingale Armor, Forbidden Legend linked dungeons, Shield of Solitude, Chillrend, Dragonbane, Nightingale Blade/Bow, Miraak equipment, Legendary Dragon, Ebony Warrior, and all-perks completion.
-* TB-027 added progression support to this frame before branch defaults were chosen. TB-028 has since resolved branch defaults in `drafts/branch-routes/README.md`, TB-031E has resolved progression source-copy/source-family defaults, TB-031F has resolved counter mechanics, and TB-031G has resolved location route-validation mechanics. Warning text, final path placement, and final checklist completion remain later work.
+* TB-027 added progression support to this frame before branch defaults were chosen. TB-028 has since resolved branch defaults in `drafts/branch-routes/README.md`, TB-031E has resolved progression source-copy/source-family defaults, TB-031F has resolved counter mechanics, TB-031G has resolved location route-validation mechanics, TB-031J has resolved checklist source-readiness rows, and TB-031K has refreshed downstream planning text. Warning text, final path placement, and final checklist completion remain later work.
 
 TB-025 support handoffs:
 

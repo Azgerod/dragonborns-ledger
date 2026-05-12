@@ -1,6 +1,6 @@
 # Source and Objective Readiness Audit
 
-Status: TB-031H complete; TB-031J source-readiness rows pulled forward.
+Status: TB-031H complete; TB-031J source-readiness rows pulled forward; TB-031K downstream refresh complete.
 
 This is a coordination audit only. It does not add gameplay facts or replace `docs/source-standards.md`; any future row-level gameplay correction still needs a source check and citation in the row's source note.
 
@@ -28,7 +28,7 @@ No broad gameplay research was performed.
 | Source notes | 97 notes still say `Status: needs review.`; 30 use `researched` variants; 1 is `complete.` | Do not mass-rename old notes. `sources/source-notes/README.md` now defines `needs review` as historical/source-list input, not a hidden blocker or validation state. Future tasks source-check concrete rows before changing route facts. |
 | Objective rows | All 2,789 rows still have `research_status=needs_review`; validation is `not_started` for 2,769 and `needs_review` for 20. | Leave unchanged. These are database-wide inventory/QA labels, not final-route blockers. TB-033 remains the final validation owner; TB-034/TB-035 consume objective rows only after inspecting citations and constraints. |
 | Generated prototype map | Pre-audit rows still named TB-031H as an owner for dependency/support placement. | `tools/build_prototype_objective_block_map.py` now assigns unresolved dependency/support rows to named downstream owners such as TB-034, TB-035, TB-033, or existing TB-031E/TB-031F buckets. Regenerated CSV has 0 `TB-031H` `deferred_to` values. |
-| Checklist coverage matrix | 78 `source_readiness_required` rows remained after TB-031G. | TB-031H assigned ownership to TB-036. TB-031J then pulled that work forward before TB-032: 75 rows map to main-route prototype handling, 1 row maps to BR-007 branch coverage, 2 rows are explicit exclusions, and no `source_readiness_required` rows remain. |
+| Checklist coverage matrix | 78 `source_readiness_required` rows remained after TB-031G. | TB-031H assigned concrete ownership. TB-031J then pulled that work forward before TB-032: 75 rows map to main-route prototype handling, 1 row maps to BR-007 branch coverage, 2 rows are explicit exclusions, and no `source_readiness_required` rows remain. |
 | Progression source-selection rows | Investment rows for bugged or unknown merchants still mentioned TB-031H/TB-033. | Generator now assigns those rows to TB-033 investment validation only. |
 | Property support rows | 52 rows retain `safe_storage_status=needs_validation_later`; 7 Goldenhills notes named TB-031H/TB-035. | Goldenhills notes now say TB-031H audited ownership and TB-035 owns option/final-guide validation. Other property rows remain specific TB-032/TB-034/TB-035/TB-033 work depending on warning, placement, option, or validation use. |
 | Book and spell support rows | Many rows remain `source_listed_candidate` because they are candidate sources, not chosen route steps. | Leave as candidate data. TB-031E chose progression source policy; TB-031J resolved checklist-only book source-readiness rows; TB-034/TB-036/TB-037 will consume the tables for route placement, appendices, and final checklist verification. |
@@ -72,4 +72,4 @@ No broad gameplay research was performed.
 
 ## Residual Risk
 
-No unresolved TB-031H blocker remains, and TB-031J removed the checklist source-readiness queue before TB-032. The remaining risk is ordinary downstream validation risk: TB-033 may reject a progression, branch, investment, reward, or checklist-coverage assumption, and TB-034/TB-035 may need to adjust placement or option presentation after warnings and validation are available.
+No unresolved TB-031H blocker remains, TB-031J removed the checklist source-readiness queue before TB-032, and TB-031K refreshed downstream planning artifacts so those decisions are no longer buried as future work. The remaining risk is ordinary downstream validation risk: TB-033 may reject a progression, branch, investment, reward, or checklist-coverage assumption, and TB-034/TB-035 may need to adjust placement or option presentation after warnings and validation are available.

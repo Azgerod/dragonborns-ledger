@@ -22,6 +22,7 @@ Generated TB-030 outputs:
 * `../../docs/source-objective-readiness-audit.md` records the TB-031H readiness audit for source notes, objective rows, support tables, and generated owner labels.
 * `../../docs/deferred-work-audit.md` records the closed TB-031I final deferred-work scan before warning placement.
 * `source-readiness-resolutions.csv` records the TB-031J row-level source-readiness resolutions consumed by the coverage generator.
+* TB-031K refreshed downstream route/constraint/coordination artifacts so these resolved checklist decisions are current inputs to TB-032.
 
 Regenerate the matrix with:
 

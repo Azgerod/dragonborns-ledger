@@ -1,6 +1,6 @@
 # Route Anchors v0
 
-Status: TB-023 complete.
+Status: TB-023 complete; downstream defaults and checklist-source readiness refreshed in TB-031K after TB-031J.
 
 This is an anchor-only Phase 4 planning artifact. It is not route prose, not a final route order, and not a detailed itinerary. It identifies the structural points the next route passes must preserve before flexible objectives are inserted.
 
@@ -19,15 +19,15 @@ No new gameplay research was performed for this pass. Gameplay claims below are 
 
 | Snapshot | Value |
 | --- | ---: |
-| Objective rows | 2,784 |
-| `fixed_early` objectives | 5 |
+| Objective rows | 2,789 |
+| `fixed_early` objectives | 6 |
 | `fixed_late` objectives | 73 |
 | `windowed` objectives | 211 |
-| `branch_only` objectives | 41 |
-| Objective-to-constraint links | 1,845 |
+| `branch_only` objectives | 39 |
+| Objective-to-constraint links | 1,847 |
 | Generated hard-gate links | 1,166 |
-| Generated branch/hard-save links | 284 |
-| Generated warning links | 122 |
+| Generated branch/hard-save links | 287 |
+| Generated warning links | 121 |
 
 ## Boundary Rules
 
@@ -61,7 +61,7 @@ No new gameplay research was performed for this pass. Gameplay claims below are 
 | A14 | Dawnguard faction and Aetherium branch | Place Dawnguard/Volkihar branch gate and Dawnguard finite chains. | Hard save at `Bloodline`; canonical route refuses Harkon's gift; Volkihar branch holds branch-only radiants/rewards; complete Dawnguard finite chains; use TB-028/TB-029 Aetherium Forge default and reward branches. | `data/constraints/quest-conflicts-hard-saves.md` (`SN-000097`, `SN-000099`); `data/constraints/radiant-boundaries.md` (`SN-000114`); `data/constraints/trophy-dependencies.md` (`SN-000105`) | TB-024, TB-028, TB-029 |
 | A15 | Dawnguard transformation and Auriel's Bow checks | Preserve Dawnguard trophies and transformation perk trees. | Werewolf Mastered and Vampire Mastered require deliberate access windows; shoot the sun with Auriel's Bow before risky storage/sale/post-finale delay. | `data/constraints/trophy-dependencies.md` (`SN-000105`); `data/constraints/skill-perk-leveling-plan.md` (`SN-000105`) | TB-027, TB-032 |
 | A16 | Solstheim opening and Raven Rock logistics | Open Solstheim only when Survival logistics can support it. | Use Raven Rock as initial support; do not treat Solstheim as ordinary Skyrim geography; verify Severin Manor before storage; avoid broad island cleanup before cold/travel support exists. | `data/constraints/trophy-dependencies.md` (`SN-000105`); `data/constraints/survival-mode-constraints.md` (`SN-000117`, `SN-000118`); `data/constraints/bug-prone-quests.md` (`SN-000111`) | TB-024, TB-025 |
-| A17 | Skaal, Thirsk, and Kolbjorn windows | Preserve Dragonborn missables, branch choices, and phase checks. | Let Deor/Fanari start `A New Source of Stalhrim` after `The Fate of the Skaal`; do not resolve Thirsk before TB-028 default; treat `Unearthed` as phase-gated and preserve Ralis outcome save. | `data/constraints/bug-prone-quests.md` (`SN-000111`); `data/constraints/npc-dependencies.md` (`SN-000107`); `data/constraints/quest-conflicts-hard-saves.md` (`SN-000034`, `SN-000099`) | TB-024, TB-028, TB-032 |
+| A17 | Skaal, Thirsk, and Kolbjorn windows | Preserve Dragonborn missables, branch choices, and phase checks. | Let Deor/Fanari start `A New Source of Stalhrim` after `The Fate of the Skaal`; use the TB-028/TB-031C Nord-side Thirsk default with the Riekling side on a branch save; treat `Unearthed` as phase-gated and preserve the spare-Ralis main outcome save. | `data/constraints/bug-prone-quests.md` (`SN-000111`); `data/constraints/npc-dependencies.md` (`SN-000107`); `data/constraints/quest-conflicts-hard-saves.md` (`SN-000034`, `SN-000099`) | TB-024, TB-028, TB-032 |
 | A18 | Dragonborn final and level-60 rewards | Delay Miraak finalization until maximum reward and soul/perk planning are ready. | Do not finish final Miraak battle before level 60 if preserving maximum Miraak equipment; coordinate Miraak soul-steal period, Bend Will, Black Books, Dragon Aspect, and Dragonrider. | `data/constraints/leveled-unique-items.md` (`SN-000092`); `data/constraints/trophy-dependencies.md` (`SN-000105`, `SN-000033`) | TB-024, TB-027 |
 | A19 | High-level AE and late reward queue | Place AE courier gates and high-level Creation quests around power curve and reward thresholds. | Plague/Bone Wolf/Hendraheim/Bloodchill/Ebony Plate/The Cause and other AE starts must respect their hard/prerequisite gates; exact child placement waits for level, geography, bug, and checklist passes. | `data/constraints/ae-creation-start-triggers.md` (`SN-000090`, `SN-000091`); `data/constraints/bug-prone-quests.md` (`SN-000091`) | TB-024, TB-025, TB-026 |
 | A20 | Late progression, Legendary Dragon, Ebony Warrior, all perks | Reserve final power and progression work for a late route block. | Level 78 for Legendary Dragon, level 80 for Ebony Warrior, level 252 for all perks, all skills restored to 100 after Legendary resets, and no exploit baseline unless user changes policy. | `data/constraints/trophy-dependencies.md` (`SN-000103`, `SN-000105`); `data/constraints/skill-perk-leveling-plan.md` (`SN-000119`, `SN-000120`, `SN-000121`) | TB-024, TB-027 |
@@ -97,7 +97,7 @@ These gates are anchor inputs for TB-024. They are not a complete level skeleton
 
 ## Branch and Hard-Save Anchor Register
 
-This table records branch anchors already named by the constraint tables. It does not place the branch content yet.
+This table records branch anchors already named by the constraint tables and refreshed with TB-028/TB-031C defaults. It still does not contain branch-route steps.
 
 | Hard save | Anchor area | Main continuity | Branch or deferred handling | Source support |
 | --- | --- | --- | --- | --- |
@@ -105,20 +105,20 @@ This table records branch anchors already named by the constraint tables. It doe
 | `HS-DG-BLOODLINE` | A14 | Dawnguard; refuse Harkon's gift. | Volkihar branch later. | `quest-conflicts-hard-saves.md` (`SN-000097`) |
 | `HS-DB-ABANDONED-SHACK` | A07/A10 | Join Dark Brotherhood. | Destroy the Dark Brotherhood branch later. | `quest-conflicts-hard-saves.md` (`SN-000097`, `SN-000100`) |
 | `HS-MQ-PAARTHURNAX` | A12/A13 | Preserve Paarthurnax. | Blades/Paarthurnax branch later. | `quest-conflicts-hard-saves.md` (`SN-000097`) |
-| `HS-DRAGONBORN-THIRSK-CHOICE` | A17 | Default not selected. | TB-028 chooses canonical Thirsk side and branch depth. | `quest-conflicts-hard-saves.md` (`SN-000034`, `SN-000099`) |
-| `HS-AE-GHOSTS-TEMPLE` | A19 | Provisional join/infiltrate default only. | TB-028 confirms or changes default. | `quest-conflicts-hard-saves.md` (`SN-000099`) |
-| `HS-AE-BITTERCUP-ALTAR` | A19 | Default not selected. | TB-028 chooses Fortune, Power, or Nothing default. | `quest-conflicts-hard-saves.md` (`SN-000099`) |
-| `HS-DAEDRIC-BLACK-STAR` | A10 | Provisional Black Star utility default only. | TB-028/trophy review may alter handling. | `quest-conflicts-hard-saves.md` (`SN-000098`) |
+| `HS-DRAGONBORN-THIRSK-CHOICE` | A17 | Nord-side `Retaking Thirsk` main continuity. | Riekling-side branch prototype in BR-006. | `quest-conflicts-hard-saves.md` (`SN-000034`, `SN-000099`) |
+| `HS-AE-GHOSTS-TEMPLE` | A19 | Join/infiltrate heretic path. | Destroy-heretics branch prototype in BR-007; TB-031J maps `Reclamation Priest's Journal (AE)` there. | `quest-conflicts-hard-saves.md` (`SN-000099`); `SN-000129` |
+| `HS-AE-BITTERCUP-ALTAR` | A19 | Fortune path. | Power and Nothing compact branch prototypes in BR-008A/BR-008B. | `quest-conflicts-hard-saves.md` (`SN-000099`) |
+| `HS-DAEDRIC-BLACK-STAR` | A10 | The Black Star. | Azura's Star reward branch. | `quest-conflicts-hard-saves.md` (`SN-000098`) |
 | `HS-DAEDRIC-CLAVICUS` | A10 | Masque of Clavicus Vile. | Rueful Axe branch only. | `quest-conflicts-hard-saves.md` (`SN-000098`) |
-| `HS-DAEDRIC-HIRCINE-GROTTO` | A10 | Default not selected. | TB-028 decides Hircine artifact policy; Bloated Man's Grotto state also matters. | `quest-conflicts-hard-saves.md` (`SN-000095`, `SN-000098`); `cell-entry-locks.md` (`SN-000095`) |
+| `HS-DAEDRIC-HIRCINE-GROTTO` | A10 | Ring of Hircine single-artifact outcome. | Savior's Hide reward branch; dual-artifact path appendix/audit only. Bloated Man's Grotto/Bolar state still needs warning placement. | `quest-conflicts-hard-saves.md` (`SN-000095`, `SN-000098`); `cell-entry-locks.md` (`SN-000095`) |
 | `HS-DAEDRIC-MEHRUNES-SHRINE` | A10 | Reforge Mehrunes' Razor. | Spare Silus branch only. | `quest-conflicts-hard-saves.md` (`SN-000098`) |
 | `HS-DAEDRIC-NAMIRA-FEAST` | A10 | Ring of Namira outcome. | Non-artifact moral outcomes branch only. | `quest-conflicts-hard-saves.md` (`SN-000098`) |
 | `HS-DAEDRIC-VAERMINA-SKULL` | A10 | Skull of Corruption artifact outcome. | Erandur follower outcome branch only unless TB-028 changes policy. | `quest-conflicts-hard-saves.md` (`SN-000098`) |
-| `HS-DG-AETHERIUM-FORGE` | A14 | Default Aetherial item not selected. | TB-028 chooses Crown, Shield, or Staff default and branch treatment. | `quest-conflicts-hard-saves.md` (`SN-000099`); `trophy-dependencies.md` (`SN-000105`) |
-| `HS-RIFT-FROST-LETRUSH` | A21 | Provisional keep-Frost outcome. | TB-028/checklist mapping confirms branch need. | `quest-conflicts-hard-saves.md` (`SN-000099`) |
-| `HS-DRAGONBORN-UNEARTHED-RALIS` | A17 | Provisional spare-Ralis outcome. | Kill outcome branch only if branch matrix keeps it. | `quest-conflicts-hard-saves.md` (`SN-000099`); `npc-dependencies.md` (`SN-000107`) |
-| `HS-COLLEGE-VELEHK-SAIN` | A11 | Default not selected. | TB-028 decides hidden treasure versus kill outcome treatment. | `quest-conflicts-hard-saves.md` (`SN-000099`) |
-| `HS-AE-CIVIL-WAR-CHAMPIONS` | A13/A19 | Likely align with Imperial main route, not final. | TB-028 decides pre-Civil-War versus branch placement. | `quest-conflicts-hard-saves.md` (`SN-000099`) |
+| `HS-DG-AETHERIUM-FORGE` | A14 | Aetherial Crown. | Aetherial Staff and Aetherial Shield reward branches. | `quest-conflicts-hard-saves.md` (`SN-000099`); `trophy-dependencies.md` (`SN-000105`) |
+| `HS-RIFT-FROST-LETRUSH` | A21 | Keep Frost. | Optional outcome note only unless final checklist validation proves an uncovered alternate state. | `quest-conflicts-hard-saves.md` (`SN-000099`) |
+| `HS-DRAGONBORN-UNEARTHED-RALIS` | A17 | Spare Ralis. | Optional kill-outcome note only unless final checklist validation requires it. | `quest-conflicts-hard-saves.md` (`SN-000099`); `npc-dependencies.md` (`SN-000107`) |
+| `HS-COLLEGE-VELEHK-SAIN` | A11 | Release Velehk for hidden treasure. | Optional kill-outcome note only. | `quest-conflicts-hard-saves.md` (`SN-000099`) |
+| `HS-AE-CIVIL-WAR-CHAMPIONS` | A13/A19 | Imperial-aligned handling. | Piggyback on Civil War branch only if TB-033 verifies side-exclusive state not otherwise covered. | `quest-conflicts-hard-saves.md` (`SN-000099`) |
 
 ## Anchor Queues for Later Passes
 
@@ -127,15 +127,15 @@ This table records branch anchors already named by the constraint tables. It doe
 | Fixed early | A00-A03 must establish trophy-safe setup, Survival baseline, basic infrastructure, and first Whiterun caution. | Exact food, storage, mount, craft, and activity targets. |
 | Fixed late | Level and reward locks become A11, A12, A18, A20, and the level-gate register. | Exact leveling route and whether any source-tier/practical-tier tradeoff is accepted, especially Nightingale Blade. |
 | Windowed | Faction, Daedric, property, Dragonborn, and Bards windows become structural anchors. | Exact route sequence inside each window and concise warning text. |
-| Branch-only | Named hard-save anchors are recorded. | Branch decision matrix and branch-route prototypes. |
+| Branch-only | Named hard-save anchors are recorded with TB-028/TB-031C defaults. | TB-032 warning placement and TB-033 branch-state validation. |
 | Region flexible | Not placed. | TB-025/TB-026 use corridor/geography data to insert nearby objectives. |
 | Dependency flexible | Not placed except where needed as infrastructure. | TB-026/TB-027 choose exact placement after level/geography skeletons exist. |
-| Option lists | Not placed. | TB-028/TB-031D choose defaults for spouse, children, stewards, role assignments, and isolated moral choices. |
+| Option lists | TB-028/TB-031D choose defaults for spouse, children, stewards, role assignments, and isolated moral choices. | TB-035 presents non-default options without rerouting the main continuity. |
 | Cleanup safe | Only A21 exists as an end anchor. | Checklist mapping and final counter validation decide exact cleanup contents. |
 
 ## Handoff to TB-024
 
-TB-024 should turn this into `drafts/route-prototypes/level-gated-skeleton-v0.md` by assigning anchors to level bands. It should:
+TB-024 has turned this into `drafts/route-prototypes/level-gated-skeleton-v0.md` by assigning anchors to level bands. Later route edits should continue to:
 
 * keep A00-A03 before broad objective routing;
 * keep A11 before Saarthal/Forgotten Legend-linked dungeon placement;
@@ -144,4 +144,4 @@ TB-024 should turn this into `drafts/route-prototypes/level-gated-skeleton-v0.md
 * keep A14-A15 as Dawnguard anchors without writing branch prose;
 * keep A16-A18 as Solstheim/Dragonborn anchors that respect Survival support and level-60 Miraak rewards;
 * keep A20 late enough for level 78, level 80, and level 252 progression;
-* continue deferring flexible geography, branch defaults, skill reset distribution, checklist mapping, and warning prose to their assigned tasks.
+* continue deferring final step order and warning prose to their assigned tasks; branch defaults, skill/reset source policy, and prototype-level checklist mapping are now resolved by TB-028 through TB-031J.

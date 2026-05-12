@@ -1,6 +1,6 @@
 # Deferred Work Audit
 
-Status: TB-031J source-readiness pull-forward complete; Phase 10 deferred-work audit closed.
+Status: TB-031J source-readiness pull-forward complete; TB-031K downstream refresh complete; Phase 10 deferred-work audit closed.
 
 This file exists so deferred route-planning work is not hidden in prose handoffs. It is a coordination artifact only; it does not add gameplay requirements beyond `docs/guide-specification.md`, `docs/decisions-log.md`, and source-backed data files.
 
@@ -21,9 +21,10 @@ Generated CSV rows are not used as prose sources for this audit, except through 
 | TB-031E | After TB-031D | Complete: `data/constraints/progression-source-selection.md` and `data/constraints/progression-source-selections.csv` choose progression source selections and grind distribution: skill-book copies/read timing, spell-tome sources, enchantment source families, alchemy source methods, merchant investment circuit rules, crafting outputs/materials, training blocks, Legendary reset distribution, Oghma timing, and allowed exploit conditions. | Progression choices now have explicit inputs for level gates, carry/storage planning, shopping loops, material routing, warnings, and final validation. |
 | TB-031F | After checklist/progression reconciliation | Complete: `data/checklist-mapping/counter-coverage-plan.md` resolves checklist counters and route mechanics: Sideways, Hero of the People, Delver, Explorer, Reader, Thief, Snake Tongue, Lost Relic fillers, Fishing, cutting lumber, milling, trophy-pop fallbacks, and the six TB-031F source-readiness rows. | Counter mechanics now have source-backed route-planning rules consumed by TB-031G and continuing into TB-032, TB-033, and TB-034 instead of hidden assumptions. |
 | TB-031G | After checklist/manual/counter reconciliation | Complete: `data/locations/location-route-validation.md` resolves Delver/Explorer mechanics, normal clear-trigger class, Angarvunde/Mistwatch exceptions, duplicate/secondary marker links, AE content-location handling, coordinate exception rules, separate-worldspace/manual geography rules, and the `The Chill*` checklist exclusion. | Location clear/discovery rows now have source-backed route-validation rules before warnings, validation, or final placement use them. |
-| TB-031H | After TB-031A through TB-031G | Complete: `docs/source-objective-readiness-audit.md` audits source, objective, support-table, and generated-index readiness; defines source-note status semantics; removes TB-031H from generated future-owner labels; assigns remaining checklist-only source-readiness rows to TB-036. | Future tasks now have explicit owners for source-note, objective-row, support-row, generated-index, and checklist source-readiness metadata instead of rediscovering them ad hoc. |
+| TB-031H | After TB-031A through TB-031G | Complete: `docs/source-objective-readiness-audit.md` audits source, objective, support-table, and generated-index readiness; defines source-note status semantics; removes TB-031H from generated future-owner labels; initially assigns concrete ownership for remaining checklist-only source-readiness rows. | Future tasks now have explicit owners for source-note, objective-row, support-row, and generated-index metadata; TB-031J then pulled the checklist source-readiness queue forward before warning work. |
 | TB-031I | After TB-031A through TB-031H | Complete: final scan confirmed active generic deferrals are either completed, explicitly assigned to TB-032 or later, or recorded in reviewable audit/status artifacts. | Warning prose can now start without inheriting hidden checklist/default/progression/location/source-readiness work. |
-| TB-031J | Before TB-032 warning placement | Complete: `data/checklist-mapping/source-readiness-resolutions.csv` and `SN-000129` pull the 78 TB-036 source-readiness rows forward; 75 map to main-route handling, 1 maps to BR-007 branch coverage, and 2 are explicit exclusions. | Warning, validation, appendix, and route work no longer carry an unresolved checklist source-readiness bucket that could force rework later. |
+| TB-031J | Before TB-032 warning placement | Complete: `data/checklist-mapping/source-readiness-resolutions.csv` and `SN-000129` pull the 78 remaining source-readiness rows forward; 75 map to main-route handling, 1 maps to BR-007 branch coverage, and 2 are explicit exclusions. | Warning, validation, appendix, and route work no longer carry an unresolved checklist source-readiness bucket that could force rework later. |
+| TB-031K | After TB-031J | Complete: downstream constraint, anchor, skeleton, geography, main-prototype, branch, checklist, task-board, and handoff artifacts were refreshed to use completed TB-031 decisions. | TB-032 can now consume the current planning stack without first reconciling stale future-work language. |
 
 ## Second-Pass Findings
 
@@ -43,7 +44,7 @@ Generated CSV rows are not used as prose sources for this audit, except through 
 | TB-033 | Constraint validation, branch verification, final skill-state validation, trophy/reward safety, Survival support, and all-perks/all-skills satisfaction checks. |
 | TB-034 | Minimal route prototype after warnings and validation. |
 | TB-035 | Black-box guide expansion after route prototype validation. |
-| TB-036 | Appendices/reference tables after checklist/manual/scope/source-readiness review and guide drafting. |
+| TB-036 | Appendices/reference tables after checklist/manual/scope/source-readiness review and guide drafting; no unresolved source-readiness bucket remains for appendices. |
 | TB-037 through TB-043 | Final coverage, order, trophy, Survival, branch, playtest, and unresolved-risk QA passes. |
 
 ## Final Scan Results

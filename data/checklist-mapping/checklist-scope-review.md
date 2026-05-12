@@ -38,8 +38,8 @@ TB-031B has resolved the remaining book-related manual-review rows:
 
 | Category | Rows | Owner |
 | --- | ---: | --- |
-| `book_document` | 49 | TB-031B mapped 6 to existing source-backed rows and converted 43 checklist-only rows into `source_readiness_required` holds; TB-031H assigned the remaining holds to TB-036. |
-| `skill_book` | 2 | TB-031B mapped 1 title-spelling variant to an existing skill-book row and converted 1 checklist-only row into a `source_readiness_required` hold; TB-031H assigned the remaining hold to TB-036. |
+| `book_document` | 49 | TB-031B mapped 6 to existing source-backed rows and converted 43 checklist-only rows into `source_readiness_required` holds; TB-031H assigned ownership, and TB-031J resolved the remaining holds before TB-032. |
+| `skill_book` | 2 | TB-031B mapped 1 title-spelling variant to an existing skill-book row and converted 1 checklist-only row into a `source_readiness_required` hold; TB-031H assigned ownership, and TB-031J excluded the remaining hold as a regular-book/scope mismatch. |
 
 ## Audit Query
 

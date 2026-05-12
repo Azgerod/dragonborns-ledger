@@ -1,6 +1,6 @@
 # Branch Routes
 
-Status: TB-029 complete; TB-031C checklist escalation decisions integrated.
+Status: TB-029 complete; TB-031C checklist escalation decisions and TB-031J source-readiness resolutions integrated by TB-031K refresh.
 
 Selective alternate-branch route drafts belong here. Branch drafts should stay sharply scoped to branch-exclusive content and should not duplicate objectives intended for the canonical main route.
 
@@ -44,11 +44,11 @@ This file preserves the TB-028 branch decision matrix and indexes the TB-029 bra
 
 | Slice | Rows | TB-028 interpretation |
 | --- | ---: | --- |
-| `branch_route` objectives | 41 | Alternate faction routes, branch-only radiants/rewards, mutually exclusive item outcomes, and Master Criminal trophy branch after TB-031C canonical-default promotions. |
+| `branch_route` objectives | 43 | Alternate faction routes, branch-only radiants/rewards, mutually exclusive item outcomes, Master Criminal trophy branch, and TB-031F/TB-031J branch-source-readiness promotions after TB-031C canonical-default promotions. |
 | `option_list` objectives | 11 | Household, spouse, child, steward, follower, pet, mount, and similar defaults. |
-| `branch_only` objectives | 37 | Rows that should not enter the canonical main route unless a later reclassification explicitly promotes a chosen default. |
+| `branch_only` objectives | 39 | Rows that should not enter the canonical main route unless a later reclassification explicitly promotes a chosen default. |
 | `windowed` branch reward rows | 3 | Remaining Aetherial and Hircine alternate reward rows held for branch handling. |
-| `held_branch_deferred` map rows | 41 | Expected generated status for branch-only or branch-default rows after TB-031C promotions. |
+| `held_branch_deferred` map rows | 43 | Expected generated status for branch-only or branch-default rows after TB-031C, TB-031F, and TB-031J promotions. |
 | `held_option_list` map rows | 11 | Expected TB-026 status for option-list rows before default recommendation and checklist mapping. |
 
 ## TB-031C Escalation Results
@@ -87,7 +87,7 @@ This file preserves the TB-028 branch decision matrix and indexes the TB-029 bra
 | BR-004 | Paarthurnax / Blades conflict | Preserve Paarthurnax. | Compact branch route. | `HS-MQ-PAARTHURNAX` | Kill-Paarthurnax outcome and Blades support state only; reload to preserve Greybeards support. | `SN-000097` | Do not move main-route shout/word-wall support into the branch unless it is Blades-exclusive. |
 | BR-005 | Master Criminal trophy | Clean final continuity, no permanent all-holds bounty state. | Trophy branch. | `HS-TROPHY-MASTER-CRIMINAL` | TB-029 drafts a compact trophy branch with placeholder crime method: controlled 1000-gold bounty in all nine holds, trophy verification, then reload. | `SN-000103` | This is not mutually exclusive story content, but it is branch-routed because the final-state disruption is large. TB-032 finalizes exact warnings and crime actions. |
 | BR-006 | Thirsk Mead Hall control | Retaking Thirsk / Nord side. | Full branch route. | `HS-DRAGONBORN-THIRSK-CHOICE` | Riekling-side `The Chief of Thirsk Hall`, Riekling occupant/follower state, and Riekling-only post-state checks. | `SN-000034`, `SN-000099`, `SN-000107`, `SN-000111` | TB-031C promoted Nord-side Thirsk rows to main-route handling because the canonical default preserves the source-listed Thirsk favor/service/spouse-candidate surface around Halbarn, Hilund, and Elmus. |
-| BR-007 | Ghosts of the Tribunal heretics | Join/infiltrate heretic path. | Full branch route. | `HS-AE-GHOSTS-TEMPLE` | Destroy-heretics outcome and alternate Temple state. | `SN-000099` | Main default preserves armory access, crafting permissions, followers, companion tasks, and Skullcrusher access. |
+| BR-007 | Ghosts of the Tribunal heretics | Join/infiltrate heretic path. | Full branch route. | `HS-AE-GHOSTS-TEMPLE` | Destroy-heretics outcome and alternate Temple state, including TB-031J branch coverage for `Reclamation Priest's Journal (AE)`. | `SN-000099`, `SN-000129` | Main default preserves armory access, crafting permissions, followers, companion tasks, and Skullcrusher access. |
 | BR-008 | Bittercup altar path | Fortune path. | Two compact alternate branches. | `HS-AE-BITTERCUP-ALTAR` | From the altar save, route Power -> `The Pit`, Grand Champion's Sword, and Grand Champion's Helm; then Nothing -> Rulnik, Rulnik's Dagger, and Ironwood Soup support. Reload after each branch and continue Fortune on the main save. | `SN-000099` | TB-031C made `The Pit` branch-only in the objective map. Fortune remains the main default because the sourced reward table makes Master Transmute path-specific, and spell/permanent-spell coverage is main-route scope. |
 | BR-009 | `The Black Star` reward | The Black Star. | Reward branch. | `HS-DAEDRIC-BLACK-STAR` | Azura's Star and Aranea outcome only. | `SN-000098`, `SN-000104` | Both star outcomes are qualifying artifacts. The Black Star remains the utility default; Azura's Star is branch-exclusive. |
 | BR-010 | `A Daedra's Best Friend` reward | Masque of Clavicus Vile. | Reward branch. | `HS-DAEDRIC-CLAVICUS` | Rueful Axe outcome only. | `SN-000098`, `SN-000104`, `SN-000107` | Main route must not use Rueful Axe for Oblivion Walker. |
@@ -128,5 +128,6 @@ This file preserves the TB-028 branch decision matrix and indexes the TB-029 bra
 | --- | --- |
 | TB-029 | Complete. Prototype files listed above include branch-exclusive objectives only, plus explicit reload/resume points. |
 | TB-031C | Complete. `data/checklist-mapping/checklist-escalation-decisions.md` records no all-target radiant escalation, required Thieves Guild 125-job counter coverage, canonical/default promotions, and branch-only holds. |
+| TB-031J | Complete. `data/checklist-mapping/source-readiness-resolutions.csv` maps `Reclamation Priest's Journal (AE)` to BR-007 and leaves no unresolved source-readiness branch bucket. |
 | TB-032 | Place concise hard-save and warning text at the exact main-route steps. |
 | TB-033 | Validate objective completion, branch-exclusive reward/state capture, trophy pop where relevant, reload point, and restoration of canonical continuity without duplicating main-route objectives. |
