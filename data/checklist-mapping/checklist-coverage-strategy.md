@@ -1,6 +1,6 @@
 # Checklist Coverage Strategy
 
-Status: TB-031F counter-mechanics reconciliation complete.
+Status: TB-031I final deferred-work scan complete.
 
 Use this file to document how spreadsheet-tracked objectives will be mapped to the guide.
 
@@ -21,6 +21,6 @@ Rows marked `manual_review_required` are not allowed to persist past TB-031B. TB
 
 Rows marked `source_readiness_required` are not route-ready. They are explicit checklist-source reconciliation inputs whose `guide_location` names the earliest follow-up task that must validate, promote, or exclude the row before final checklist synchronization.
 
-TB-031C resolved checklist-driven branch/radiant/counter escalation decisions. TB-031D resolved route-affecting defaults in `data/route-planning/route-default-decisions.md`. TB-031E resolved progression source selection in `data/constraints/progression-source-selection.md` and `data/constraints/progression-source-selections.csv`, including the TB-031E-owned source-readiness aliases. TB-031F resolved counter mechanics in `data/checklist-mapping/counter-coverage-plan.md`, including the TB-031F-owned source-readiness rows. TB-031G through TB-031I remain the explicit follow-up tasks for location route validation, source/objective/support-table/generated-index readiness, and final deferral-audit closure. Do not defer these reviews into final QA unless the task board is updated with a narrower unresolved-risk entry.
+TB-031C resolved checklist-driven branch/radiant/counter escalation decisions. TB-031D resolved route-affecting defaults in `data/route-planning/route-default-decisions.md`. TB-031E resolved progression source selection in `data/constraints/progression-source-selection.md` and `data/constraints/progression-source-selections.csv`, including the TB-031E-owned source-readiness aliases. TB-031F resolved counter mechanics in `data/checklist-mapping/counter-coverage-plan.md`, including the TB-031F-owned source-readiness rows. TB-031G resolved location route validation in `data/locations/location-route-validation.md`, including the remaining location source-readiness row. TB-031H resolved source/objective/support-table/generated-index readiness ownership and assigned the remaining 78 checklist-only source-readiness rows to TB-036. TB-031I closed the deferred-work audit before warning prose.
 
 No checklist objective should remain unmapped in the final guide unless explicitly excluded and justified.

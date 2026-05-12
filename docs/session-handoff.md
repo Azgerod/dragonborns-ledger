@@ -6,7 +6,7 @@ This file exists to make a session switch cheap. It is a coordination note only;
 
 ## Current Project State
 
-Phase 1 source-list objective setup is closed. The objective database currently has 2,789 rows, and source notes currently run through `SN-000127-checklist-counter-route-mechanics.md`.
+Phase 1 source-list objective setup is closed. The objective database currently has 2,789 rows, and source notes currently run through `SN-000128-location-route-validation.md`.
 
 Phase 2 constraint-table research is reviewed. TB-011 through TB-021 are complete. TB-021A added the first computation-ready coordinate support layer for the location catalog, TB-021B added the hub/corridor geography support layer, and TB-021C added the route-planning index layer.
 
@@ -26,7 +26,7 @@ TB-028 is complete. `drafts/branch-routes/README.md` now contains the branch dec
 
 TB-029 is complete. `drafts/branch-routes/major-faction-branches-v0.md`, `drafts/branch-routes/solstheim-ae-branches-v0.md`, and `drafts/branch-routes/reward-and-trophy-branches-v0.md` now contain grouped branch prototypes with hard-save points, branch-exclusive objective/reward queues, reload points, and downstream warning/checklist/validation handoffs. The prototypes remain route-planning artifacts, not final guide prose. Follow-up cleanup added explicit TB-033 branch-verification expectations, Volkihar representative-radiant escalation language, and `The Gift` spouse-state coordination as a TB-031D/TB-032 dependency.
 
-TB-030 is complete. `data/checklist-mapping/raw/Skyrim Checklist.xlsx` is the tracked raw checklist snapshot. `tools/build_checklist_coverage.py` generates `data/checklist-mapping/coverage-matrix.csv`, and `data/checklist-mapping/checklist-coverage-summary.md` records the intake counts and remaining explicit holds. After TB-031F, the matrix has 3,697 spreadsheet rows: 3,085 mapped to main-route prototype handling, 32 branch prototype rows, 75 option-list rows, 107 appendix rows, 319 explicit exclusions, and 79 typed source-readiness holds.
+TB-030 is complete. `data/checklist-mapping/raw/Skyrim Checklist.xlsx` is the tracked raw checklist snapshot. `tools/build_checklist_coverage.py` generates `data/checklist-mapping/coverage-matrix.csv`, and `data/checklist-mapping/checklist-coverage-summary.md` records the intake counts and remaining explicit holds. After TB-031G, the matrix has 3,697 spreadsheet rows: 3,085 mapped to main-route prototype handling, 32 branch prototype rows, 75 option-list rows, 107 appendix rows, 320 explicit exclusions, and 78 typed source-readiness holds.
 
 TB-031 is complete. `tools/validate_coverage.py` now validates the real 24-column checklist coverage matrix, including unique checklist IDs, allowed mapping/status/match values, ID/source/block formats, status-specific blank-field rules, and required branch/exclusion/review fields. `tools/build_checklist_coverage.py` now marks non-investable merchant appendix rows with explicit `support_table_only` metadata instead of leaving them structurally unmatched.
 
@@ -42,7 +42,11 @@ TB-031E is complete. `data/constraints/progression-source-selection.md` and gene
 
 TB-031F is complete. `data/checklist-mapping/counter-coverage-plan.md` and `SN-000127-checklist-counter-route-mechanics.md` record counter/action rules for trophy counters, Thieves Guild side jobs, Dawnguard `Lost Relic`, Fishing, work actions, support-only lumber/milling treatment, and trophy-pop fallbacks. TB-031F also added `OBJ-002785` through `OBJ-002789`, mapped `Scare My Enemy` to Hired Muscle, updated the Paarthurnax/Blades branch prototype, and regenerated route/checklist indexes.
 
-The current next task is TB-031G: resolve location access, clear-trigger, and geography validation. TB-031H and TB-031I then resolve source/objective/support-table/generated-index readiness and final deferral-audit closure before TB-032.
+TB-031G is complete. `data/locations/location-route-validation.md` and `SN-000128-location-route-validation.md` record Delver/Explorer mechanics, normal clear-trigger policy, Angarvunde/Mistwatch exceptions, duplicate and secondary marker treatment, AE content-location handling, coordinate exception rules, separate-worldspace/manual geography handling, and the `The Chill*` official-scope exclusion. TB-031G updated location/objective support rows, regenerated route/checklist indexes, and reduced source-readiness holds to 78.
+
+TB-031H is complete. `docs/source-objective-readiness-audit.md` records the source/objective/support-table/generated-index readiness audit. `sources/source-notes/README.md` now defines source-note status semantics, generated route/checklist/progression outputs no longer name TB-031H as a future owner, and the remaining 78 `source_readiness_required` rows are assigned to TB-036.
+
+The current next task is TB-031I: close the final Phase 10 deferred-work audit before TB-032 starts.
 
 ## Restart Checklist
 
@@ -56,39 +60,30 @@ At the start of the next session:
 6. Read `docs/task-board.md`.
 7. Read `data/objectives/phase-2-research-inputs.md`.
 8. Read `data/constraints/README.md`, then `data/constraints/ae-creation-start-triggers.md`, `data/constraints/leveled-unique-items.md`, `data/constraints/cell-entry-locks.md`, `data/constraints/quest-conflicts-hard-saves.md`, `data/constraints/trophy-dependencies.md`, `data/constraints/npc-dependencies.md`, `data/constraints/bug-prone-quests.md`, `data/constraints/radiant-boundaries.md`, `data/constraints/survival-mode-constraints.md`, and `data/constraints/skill-perk-leveling-plan.md` for Phase 2 overlaps.
-9. Read `data/locations/location-catalog.csv`, `data/locations/location-coordinates.csv`, `data/locations/location-coordinate-reconciliation.md`, `data/locations/location-geography.csv`, and `data/locations/location-geography-reconciliation.md` before changing geography-sensitive tasks.
-10. Read `data/checklist-mapping/README.md`, `data/checklist-mapping/checklist-coverage-strategy.md`, `data/checklist-mapping/checklist-coverage-summary.md`, `data/checklist-mapping/checklist-scope-review.md`, `data/checklist-mapping/checklist-manual-review.md`, `data/checklist-mapping/checklist-escalation-decisions.md`, `data/checklist-mapping/counter-coverage-plan.md`, `data/route-planning/route-default-decisions.md`, `data/constraints/progression-source-selection.md`, `data/constraints/progression-source-selections.csv`, `data/checklist-mapping/coverage-matrix.csv`, and `docs/deferred-work-audit.md` before TB-031G or later checklist/coverage work.
+9. Read `data/locations/location-catalog.csv`, `data/locations/location-coordinates.csv`, `data/locations/location-coordinate-reconciliation.md`, `data/locations/location-geography.csv`, `data/locations/location-geography-reconciliation.md`, and `data/locations/location-route-validation.md` before changing geography-sensitive tasks.
+10. Read `data/checklist-mapping/README.md`, `data/checklist-mapping/checklist-coverage-strategy.md`, `data/checklist-mapping/checklist-coverage-summary.md`, `data/checklist-mapping/checklist-scope-review.md`, `data/checklist-mapping/checklist-manual-review.md`, `data/checklist-mapping/checklist-escalation-decisions.md`, `data/checklist-mapping/counter-coverage-plan.md`, `data/route-planning/route-default-decisions.md`, `data/constraints/progression-source-selection.md`, `data/constraints/progression-source-selections.csv`, `data/checklist-mapping/coverage-matrix.csv`, `docs/source-objective-readiness-audit.md`, and `docs/deferred-work-audit.md` before TB-031I or later checklist/coverage work.
 11. Read `data/objectives/route-rigidity-classification-notes.md`, `data/route-planning/README.md`, `data/route-planning/objective-route-index.csv`, `data/route-planning/objective-constraints.csv`, `data/route-planning/prototype-objective-block-map.csv`, `drafts/route-prototypes/route-anchors-v0.md`, `drafts/route-prototypes/level-gated-skeleton-v0.md`, `drafts/route-prototypes/survival-geography-pass-v0.md`, `drafts/route-prototypes/main-route-prototype-v0.md`, `drafts/branch-routes/README.md`, and the TB-029 branch prototype files before TB-032 or later route-placement work.
 12. Run `git status --short` and preserve unrelated existing changes.
 13. For UESP page fetches, prefer `python3 tools/fetch_uesp.py 'Skyrim:Page Title' --mode wikitext` or `--mode html`; direct raw `curl` may trigger Cloudflare without a browser User-Agent. For Gamemap marker refreshes, use `python3 tools/fetch_uesp_gamemap.py`, regenerate coordinates with `python3 tools/build_location_coordinates.py`, then regenerate geography with `python3 tools/build_location_geography.py`. For route-planning index refreshes, run `python3 tools/build_route_planning_index.py`, `python3 tools/build_prototype_objective_block_map.py`, and optionally `python3 tools/build_route_planning_database.py`.
 
 ## Next Task Details
 
-Start TB-031G by resolving location access, clear-trigger, and geography validation. Use `data/locations/location-route-validation.md` if present, `data/locations/location-catalog.csv`, `data/locations/location-coordinates.csv`, `data/locations/location-geography.csv`, `data/route-planning/objective-route-index.csv`, `data/route-planning/prototype-objective-block-map.csv`, `drafts/route-prototypes/main-route-prototype-v0.md`, `data/checklist-mapping/counter-coverage-plan.md`, `data/checklist-mapping/coverage-matrix.csv`, `data/constraints/bug-prone-quests.md`, `data/constraints/trophy-dependencies.md`, `sources/source-notes/SN-000077-clearable-location-catalog.md`, `sources/source-notes/SN-000078-location-discovery-and-explorer.md`, `sources/source-notes/SN-000124-hub-corridor-geography-support.md`, `docs/guide-specification.md`, and `docs/source-standards.md`.
+Start TB-031I by re-scanning deferral language and closing the Phase 10 deferred-work audit before TB-032 warning placement starts. Use `docs/deferred-work-audit.md`, `docs/source-objective-readiness-audit.md`, `docs/task-board.md`, `docs/session-handoff.md`, `data/checklist-mapping/checklist-coverage-summary.md`, `data/checklist-mapping/checklist-coverage-strategy.md`, `data/checklist-mapping/coverage-matrix.csv`, `data/route-planning/README.md`, `data/route-planning/prototype-objective-block-map.csv`, current route prototypes, current branch prototypes, and `docs/source-standards.md`.
 
 Primary output:
 
-* `data/locations/location-route-validation.md`
-* updates to `data/locations/location-catalog.csv` where clear/access/status fields need correction
-* regenerated `data/route-planning/objective-route-index.csv`
-* regenerated `data/route-planning/prototype-objective-block-map.csv`
-* regenerated `data/checklist-mapping/coverage-matrix.csv`
-* `drafts/route-prototypes/main-route-prototype-v0.md` updates where validated location mechanics affect route-block placeholders
+* final updates to `docs/deferred-work-audit.md`
+* targeted wording cleanup where active prose still hides a route-affecting deferral behind generic `later`, `manual validation`, `needs review`, `source readiness`, or stale task-owner language
 * task-board and handoff status updates when complete
+* regenerated route/checklist indexes only if canonical metadata changes require it
 
-TB-031G rules:
+TB-031I rules:
 
-* Keep TB-031F counter decisions fixed. Do not re-open counter scope; validate the location mechanics those counters rely on.
-* Resolve exact clear triggers, discovery/clearance mechanics, primary-location links, duplicate/secondary marker handling, road/access/entrance validation, and separate-worldspace/manual geography cases.
-* Review location catalog rows marked `needs_research`, inherited clear state, duplicate marker, proxy marker, no-marker, unmapped worldspace, or manual validation before route/warning prose depends on them.
-* Keep the output at route-planning level. Do not write final guide prose, but do make location validation specific enough that TB-032, TB-033, and TB-034 do not infer clear/discovery mechanics from corridor counts.
-* Add gameplay/source facts only with source notes that satisfy `docs/source-standards.md`.
-* Run relevant location/route generators, then `python3 tools/build_checklist_coverage.py`, `python3 tools/validate_all.py`, and `git diff --check`.
-
-After TB-031G, complete the remaining inserted Phase 10 reconciliation tasks before TB-032:
-
-* TB-031H audits source notes still marked `Status: needs review`, objective/support-table readiness fields, stale owner references in older notes/rows, generated owner labels, unknown/audit-only support rows, and broad `later`/`manual validation` ownership text after TB-031A through TB-031G have touched checklist/source rows; TB-031A through TB-031G still need to source-check the rows they change.
-* TB-031I re-scans deferral language and closes `docs/deferred-work-audit.md` before TB-032 starts.
+* Treat TB-031A through TB-031H as complete unless the scan finds a concrete inconsistency.
+* For each active deferral phrase, confirm it is completed, assigned to a specific later task with a reason, or recorded as an unresolved risk.
+* Distinguish historical task-board/session-handoff history from current unresolved work.
+* Do not do broad gameplay research. If a concrete row needs a gameplay correction, source-check only that row and cite it under `docs/source-standards.md`.
+* Run `python3 tools/build_checklist_coverage.py`, `python3 tools/validate_all.py`, and `git diff --check`; run route/progression generators first only if metadata changes affect generated labels.
 
 TB-032 should wait until TB-031I is complete. When starting TB-032, use the warning-layer rules from the task board and do not re-open already resolved checklist/default/progression/location/readiness buckets inside warning prose.
 
@@ -108,7 +103,7 @@ TB-026 support handoffs:
 * The Markdown records non-geographic queue treatment for 830 single support candidates, 319 multiple support candidates, 1,098 rows with no route-candidate data, 1,082 constraint-backed flexible rows, and 1,534 flexible rows without linked constraints; the CSV records individual route blocks, dispositions, statuses, thresholds, parent links, and defer reasons.
 * It keeps support candidates conditional: homes, bases, merchants, book copies, spell sources, and property nodes are not automatically available until acquisition/source/storage/prerequisite validation.
 * It preserves mandatory holds for Silent Moons/Lunar weapons, Mage's Circlet, The Pale Blade, Nightingale Armor, Forbidden Legend linked dungeons, Shield of Solitude, Chillrend, Dragonbane, Nightingale Blade/Bow, Miraak equipment, Legendary Dragon, Ebony Warrior, and all-perks completion.
-* TB-027 added progression support to this frame before branch defaults were chosen. TB-028 has since resolved branch defaults in `drafts/branch-routes/README.md`, TB-031E has resolved progression source-copy/source-family defaults, and TB-031F has resolved counter mechanics. Warning text, location validation, and final checklist completion remain later work.
+* TB-027 added progression support to this frame before branch defaults were chosen. TB-028 has since resolved branch defaults in `drafts/branch-routes/README.md`, TB-031E has resolved progression source-copy/source-family defaults, TB-031F has resolved counter mechanics, and TB-031G has resolved location route-validation mechanics. Warning text, final path placement, and final checklist completion remain later work.
 
 TB-025 support handoffs:
 
@@ -126,7 +121,7 @@ TB-024 support handoffs:
 * Skeleton bands are `S00` through `S15`.
 * TB-025 consumed the skeleton into `survival-geography-pass-v0.md`; TB-026 placed flexible queues within that frame; TB-027 added progression blocks while preserving the mandatory gate checklist.
 * The skeleton keeps source-tier reward policy conservative until a later explicit decision accepts a documented tradeoff.
-* Branch defaults and branch prototypes are now captured in TB-028/TB-029, progression source/reset distribution is captured in TB-031E, and counter mechanics are captured in TB-031F; detailed warning prose, location validation, and final checklist mapping remain assigned to later tasks.
+* Branch defaults and branch prototypes are now captured in TB-028/TB-029, progression source/reset distribution is captured in TB-031E, counter mechanics are captured in TB-031F, and location route-validation mechanics are captured in TB-031G; detailed warning prose, final route placement, and final checklist mapping remain assigned to later tasks.
 
 TB-023 support handoffs:
 
@@ -134,7 +129,7 @@ TB-023 support handoffs:
 * Structural anchors are numbered `A00` through `A21`.
 * The level/reward gate register is an input to TB-024, not a finished level skeleton.
 * The branch and hard-save register records constraint-table hard-save names but does not route branch content.
-* Flexible geography is now captured in TB-025; flexible objective insertion is now captured in TB-026; progression/reset distribution is now captured in TB-027/TB-031E. Branch default selection and branch prototypes are now captured in TB-028/TB-029, and counter mechanics are captured in TB-031F; warning prose, location validation, and final checklist mapping remain assigned to later tasks.
+* Flexible geography is now captured in TB-025; flexible objective insertion is now captured in TB-026; progression/reset distribution is now captured in TB-027/TB-031E. Branch default selection and branch prototypes are now captured in TB-028/TB-029, counter mechanics are captured in TB-031F, and location route-validation mechanics are captured in TB-031G; warning prose, final route placement, and final checklist mapping remain assigned to later tasks.
 
 TB-022 support handoffs:
 

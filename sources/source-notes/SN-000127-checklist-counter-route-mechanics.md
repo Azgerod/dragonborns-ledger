@@ -65,7 +65,7 @@ Confidence is high for the counter boundaries, Blades branch classification, Ang
 
 Remaining work is route-placement and final validation, not source readiness:
 
-* TB-031G validates exact location access and clear/discovery triggers before `Delver`, `Explorer`, and Solstheim Explorer counters are turned into route prose.
+* TB-031G has validated exact location access classes, clear/discovery mechanics, duplicate and secondary markers, and separate-worldspace cases before `Delver`, `Explorer`, and Solstheim Explorer counters are turned into route prose.
 * TB-032 places warnings for trophy-pop saves, Blades/Paarthurnax branch setup, Hired Muscle target risk, and crime/counter actions.
 * TB-033 validates final counter totals and trophy pops against the finished route.
 * TB-034 chooses exact final step placement for the counter checkpoints recorded by TB-031F.

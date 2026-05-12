@@ -91,8 +91,8 @@ COUNTER_MECHANIC_OVERRIDES = {
     "OBJ-002787": (
         "G03",
         "anchored_window",
-        "TB-031G/TB-034",
-        "Archery Practice belongs with Angi's Camp/southern route handling; exact access and progression timing remain downstream validation.",
+        "TB-032/TB-034",
+        "Archery Practice belongs with Angi's Camp/southern route handling; TB-031G validates the route-access class, while exact warnings and step placement remain downstream.",
     ),
     "OBJ-002788": (
         "G07",
@@ -421,20 +421,22 @@ def unresolved_support_owner(row: dict[str, str]) -> str:
         return "TB-031E"
     if category in {"trophy", "collectible"}:
         return "TB-031F"
-    return "TB-031E/TB-031H/TB-034"
+    return "TB-031E/TB-034"
 
 
 def dependency_anchor_owner(row: dict[str, str]) -> str:
     category = row["category"]
     if category in {"npc_relationship", "pet_mount"}:
         return "TB-032/TB-034/TB-035"
+    if category == "property":
+        return "TB-034/TB-035"
     if category == "radiant":
         return "TB-031F"
     if category == "unique_item":
         return "TB-031B/TB-031E/TB-034"
     if category in {"quest", "misc_objective", "ae_creation"}:
-        return "TB-031H/TB-034"
-    return "TB-031H"
+        return "TB-034"
+    return "TB-034"
 
 
 def non_main_assignment(row: dict[str, str]) -> tuple[str, str, str, str]:
@@ -493,11 +495,11 @@ def main_assignment(row: dict[str, str], location_lookup: dict[str, str]) -> tup
     block = direct_block(row)
     if block:
         if block == "G13" or row["primary_geography_confidence"] == "none":
-            return block, "manual_validation_required", "TB-031G", "Separate/manual geography row; do not route from corridor data alone."
+            return block, "manual_validation_required", "TB-032/TB-034", "Separate/manual geography row; TB-031G validates the access class, but final warning and route-step placement remain downstream."
         return block, "inserted_direct_geography", "route_block", "Direct geography row assigned by primary corridor; still needs row-level validation before prose."
 
     if candidate_status == "multiple_geography_points":
-        return "", "held_candidate_selection", "TB-031G", "Multiple geography points require exact point selection."
+        return "", "held_candidate_selection", "TB-034", "Multiple geography points require exact point selection during final route placement."
 
     blocks = support_blocks(row, location_lookup)
     if candidate_status == "single_support_candidate":
@@ -519,7 +521,7 @@ def main_assignment(row: dict[str, str], location_lookup: dict[str, str]) -> tup
     if category in {"unique_item", "quest", "radiant", "ae_creation", "pet_mount", "npc_relationship", "misc_objective", "book_document"}:
         return "", "dependency_anchor_pending", dependency_anchor_owner(row), "No route candidate data; place with parent quest, dependency, support table, or later checklist/default pass."
 
-    return "", "dependency_anchor_pending", "TB-031H", "No route candidate data; review before placement."
+    return "", "dependency_anchor_pending", "TB-034", "No route candidate data; review before placement in the minimal route prototype."
 
 
 def disposition(row: dict[str, str], route_block: str, status: str, deferred_to: str) -> str:

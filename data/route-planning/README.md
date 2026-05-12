@@ -113,7 +113,7 @@ Important `prototype-objective-block-map.csv` fields:
 | `deferred_to` | Later owner, gate, or block needed before final insertion. | Use this to avoid burying unresolved work in G14. |
 | `reason` | Human-readable explanation for the prototype assignment. | Inspect source objective/constraint rows before converting it to guide prose. |
 
-After the Phase 10 deferred-work audits, broad generated labels such as `route_anchor_or_later_pass`, `source_selection`, `source_or_support_validation`, and `manual_route_validation` should not appear in `deferred_to`. The generator now points unresolved support, dependency, location-validation, source/objective/support-table readiness, and generated-index readiness rows at TB-031A through TB-031H or a named later route/validation phase.
+After the Phase 10 deferred-work audits, broad generated labels such as `route_anchor_or_later_pass`, `source_selection`, `source_or_support_validation`, and `manual_route_validation` should not appear in `deferred_to`. After TB-031H, the generator points unresolved support, dependency, location-validation, source/objective/support-table readiness, and generated-index readiness rows at named downstream route, warning, validation, appendix, or option-list phases rather than back to the readiness audit itself.
 
 Important `objective-constraints.csv` fields:
 

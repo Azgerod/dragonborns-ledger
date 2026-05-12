@@ -47,10 +47,10 @@ Confidence is high for the alias fixes, selected source-table counts, training l
 
 Remaining validation is intentionally narrower:
 
-* TB-031G/TB-033 may swap a selected skill-book copy only if route access, crime, or cell-state validation proves the selected copy unsafe.
+* TB-033/TB-034 may swap a selected skill-book copy only if final route access, crime, or cell-state validation proves the selected copy unsafe.
 * TB-033 must verify the final physical nonunique source item used for each learnable enchantment because vendor/random availability cannot be fabricated at this layer.
 * TB-033 must produce final numeric reset counts after route order, natural skill gain, training purchases, skill-book reading, Oghma use, and crafting batches are known.
-* TB-031H still owns source-note/readiness metadata cleanup for older `needs review` rows.
+* TB-031H records source-note/readiness metadata ownership in `docs/source-objective-readiness-audit.md`; remaining progression validation belongs to TB-033/TB-034.
 
 ## Linked Records
 

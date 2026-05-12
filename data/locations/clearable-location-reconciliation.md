@@ -1,6 +1,6 @@
 # Clearable Location Reconciliation
 
-Status: TB-008A complete; TB-008C marker reconciliation complete; TB-008D completeness review complete; downstream per-location validation pending.
+Status: TB-008A complete; TB-008C marker reconciliation complete; TB-008D completeness review complete; TB-031G route-validation layer complete.
 
 This file summarizes the first TB-008 location pass. It is a coordination artifact, not final guide prose.
 
@@ -23,7 +23,7 @@ This file summarizes the first TB-008 location pass. It is a coordination artifa
 | Clearable rows not separately source-listed as discoverable after TB-008C | 7 |
 | Reclassified secondary marker caveats | 3 |
 | Atypical non-counting Delver status from UESP Dungeons note | 2 |
-| Delver count still needing validation among independent clearable rows | 236 |
+| Delver-countable independent clearable rows after TB-031G | 236 |
 
 ## Rows Needing Discoverable/Map-Marker Reconciliation
 
@@ -39,7 +39,7 @@ Brittleshin Pass, Cold Rock Pass, and Skybound Watch Pass now have separate dupl
 
 `data/objectives/objectives.csv` remains authoritative for routed completion objectives. `data/locations/location-catalog.csv` preserves source-page categories, discoverable status, clearable status, Delver-count uncertainty, and route-validation notes.
 
-The TB-008A rows are source-list inventory rows. They are not final route instructions and do not settle exact clear triggers, duplicate marker behavior, trophy counting, bug risk, or Survival Mode timing.
+The TB-008A rows are source-list inventory rows. TB-031G now settles route-planning counter classes for normal clearables, Angarvunde, Mistwatch, duplicate markers, and secondary markers. They are still not final route instructions and do not settle final path order, bug warning placement, or Survival Mode timing.
 
 ## Deferred Follow-Up
 
@@ -47,7 +47,7 @@ The TB-008A rows are source-list inventory rows. They are not final route instru
 | --- | --- |
 | Non-clearable discoverable/map-marked locations | TB-008B |
 | Duplicate entrances, inherited cleared tags, and secondary map markers | Complete in TB-008C |
-| Exact boss/quest clear triggers per location | Downstream per-location validation; TB-017 where bug or warning handling is needed |
-| Delver/Explorer PS4 trophy behavior and count validation | TB-015 |
+| Exact boss/quest clear triggers per location | Clear mechanics and exception class complete in TB-031G; final warning/step placement remains TB-032/TB-034. |
+| Delver/Explorer PS4 trophy behavior and count validation | Counter class complete in TB-031G; final route-state validation remains TB-033. |
 | Survival Mode geography, shelter, cold, carry, rest, and route clustering | TB-019 and route prototype passes |
-| Checklist row mapping for location discovery and clearance | TB-031B/TB-031F |
+| Checklist row mapping for location discovery and clearance | TB-031B/TB-031F/TB-031G |

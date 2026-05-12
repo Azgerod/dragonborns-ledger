@@ -24,7 +24,7 @@ The TB-031B generator pass mapped naming, spelling, abbreviation, parent-objecti
 
 ## Confidence and Open Questions
 
-Confidence is high that the listed checklist rows exist in the workbook snapshot. Confidence is not asserted for gameplay availability, PS4 AE scope, route safety, or final completion value of any `source_readiness_required` row. Those questions remain assigned to TB-031C through TB-031H as recorded in the coverage matrix.
+Confidence is high that the listed checklist rows exist in the workbook snapshot. Confidence is not asserted for gameplay availability, PS4 AE scope, route safety, or final completion value of any `source_readiness_required` row. TB-031H audited ownership for the remaining rows; unresolved book/document, skill-book, and unique-gear source-readiness holds are now assigned to TB-036 in the coverage matrix.
 
 ## Linked Records
 

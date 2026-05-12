@@ -28,7 +28,7 @@ The Bolar's Oathblade and Ill Met By Moonlight pages describe the recovery path 
 
 ## Confidence and Open Questions
 
-Confidence is high that the route needs a pre-Ill-Met warning for Bloated Man's Grotto if Bolar's Oathblade, the non-quest clear marker, or a Sinding-preserving outcome matters. TB-028/TB-029 now own the branch treatment; TB-031G must validate the location-clear/access implications, and TB-032 must place the final cell-state and Survival fatigue warnings if the quest route enters the grotto at night.
+Confidence is high that the route needs a pre-Ill-Met warning for Bloated Man's Grotto if Bolar's Oathblade, the non-quest clear marker, or a Sinding-preserving outcome matters. TB-028/TB-029 now own the branch treatment; TB-031G validates the general location-clear/access mechanics, and TB-032 must place the final cell-state and Survival fatigue warnings if the quest route enters the grotto at night.
 
 ## Linked Records
 

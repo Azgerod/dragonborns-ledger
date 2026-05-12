@@ -18,6 +18,9 @@ Generated TB-030 outputs:
 * `../route-planning/route-default-decisions.md` records the TB-031D route defaults used by option-list and logistics follow-up rows.
 * `../constraints/progression-source-selection.md` and `../constraints/progression-source-selections.csv` record the TB-031E progression source-selection defaults and progression alias resolutions.
 * `counter-coverage-plan.md` records the TB-031F route-planning decisions for checklist/trophy counters, activity mechanics, and counter-owned source-readiness rows.
+* `../locations/location-route-validation.md` records the TB-031G location route-validation decisions for Delver/Explorer mechanics, marker exceptions, content-location treatment, and the remaining location source-readiness row.
+* `../../docs/source-objective-readiness-audit.md` records the TB-031H readiness audit for source notes, objective rows, support tables, and generated owner labels.
+* `../../docs/deferred-work-audit.md` records the closed TB-031I final deferred-work scan before warning placement.
 
 Regenerate the matrix with:
 

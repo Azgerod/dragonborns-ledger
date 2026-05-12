@@ -109,7 +109,7 @@ This file preserves the TB-028 branch decision matrix and indexes the TB-029 bra
 | OPT-002 | `The Blessings of Nature` | Option list. | TB-035 route/default pass after NPC/checklist review. | `SN-000099` | Isolated city-state/NPC outcome choice. No full branch by default. |
 | OPT-003 | Black Book power choices | Option list / progression default. | TB-031D/TB-033. | `SN-000032`, `SN-000033` | TB-031C found no checklist-driven hard-save branch need; TB-031D chooses route defaults unless later validation proves an irreversible route-critical power selection. |
 | OPT-004 | Spouse, adopted children, stewards, household roles, followers, pets, mounts, farmhands, bards, and carriage services | Option list. | TB-031D checklist/default mapping. | `SN-000067`, `SN-000068`, `SN-000099`, `SN-000106`, `SN-000110` | Recommend defaults later. Do not branch personal preference assignments. |
-| OPT-005 | Unique-only enchantment exclusions | Appendix/exclusion, not branch. | TB-031E/TB-031H. | `SN-000083` | TB-031C found no branch escalation. Preserve unique items; do not disenchant them merely to learn enchantments. |
+| OPT-005 | Unique-only enchantment exclusions | Appendix/exclusion, not branch. | TB-031E complete; TB-036 appendix audit. | `SN-000083` | TB-031C found no branch escalation. Preserve unique items; do not disenchant them merely to learn enchantments. |
 | OPT-006 | Optional child games/random events | Excluded/unbounded appendix only. | None unless checklist reopens. | `SN-000089`, `SN-000110` | Do not route arbitrary random/reactive child events. |
 
 ## TB-029 Branch Prototype Queue

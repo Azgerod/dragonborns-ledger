@@ -13,7 +13,7 @@ Inputs: TB-031C escalation decisions, Survival Mode constraints, property/NPC su
 | Option lists | Route defaults below are canonical recommendations for the main route; they do not remove non-default candidates from option lists. | SN-000067; SN-000068; SN-000106 |
 | Safety before use | A home, steward, spouse, child, pet, mount, or service is route-usable only after acquisition, role assignment, storage, and movement state are verified. | SN-000106; SN-000110; SN-000117 |
 | Branch setup | Branch-exclusive requirements that depend on a default, especially Volkihar `The Gift`, must be satisfied before the branch hard save or explicitly marked conditional. | SN-000067; SN-000110 |
-| Later exact routing | TB-031D chooses defaults. TB-031E still chooses progression sources/materials, TB-031F chooses exact counter mechanics, TB-031G validates location access, TB-032 places warnings, and TB-035 presents non-default options. | docs/task-board.md |
+| Later exact routing | TB-031D chooses defaults. TB-031E chooses progression sources/materials, TB-031F chooses exact counter mechanics, TB-031G validates location access classes, TB-032 places warnings, and TB-035 presents non-default options. | docs/task-board.md |
 
 ## Storage, Bases, and Property Services
 
@@ -35,7 +35,7 @@ Inputs: TB-031C escalation decisions, Survival Mode constraints, property/NPC su
 | Unique mounts | Keep Frost, Shadowmere, and Arvak on the main route when their parent quest windows unlock; do not use them to replace the early bought-horse plan. | They are completion-relevant named mounts but arrive later and are tied to quest state. | TB-032 warnings for Frost handoff; TB-034/TB-035 route/options. |
 | Hearthfire carriages | Hire all three homestead carriage drivers after steward/Main Hall prerequisites are verified. | Homestead carriages add Survival-critical travel service to minor settlements and inns after the hire cost. | TB-032 service warnings; TB-034 route timing. |
 | Ferries and boats | Treat coastal/Solstheim ferries as planned travel legs with arrival food, rest, and warmth checks, not as fast travel. | Survival Mode preserves boats/carriages but can leave the player hungry, cold, and tired; Solstheim has no carriage network. | TB-034 route prose. |
-| Dead Man's Dread map | Use only after the ship is claimed, storage/travel state is verified, and destinations are discovered. Do not rely on it for early logistics. | It is one-way travel and acquisition-dependent. | TB-031G/TB-034 validation. |
+| Dead Man's Dread map | Use only after the ship is claimed, storage/travel state is verified, and destinations are discovered. Do not rely on it for early logistics. | It is one-way travel and acquisition-dependent. | TB-034 route validation. |
 
 ## Household, Steward, and Farm Defaults
 
@@ -48,7 +48,7 @@ Inputs: TB-031C escalation decisions, Survival Mode constraints, property/NPC su
 | Hearthfire stewards | Use local housecarls as defaults: Rayya for Lakeview Manor, Valdimar for Windstad Manor, and Gregor for Heljarchen Hall, if their thaneship/housecarl states are unlocked and verified. | This avoids relocating broader follower, trainer, spouse, or service candidates and keeps steward assignments tied to the property/thane arc. | TB-032 steward warnings; TB-034 route timing. |
 | Goldenhills steward | Use Faendal as the default farm steward after `A Lovely Letter` is resolved in his favor and after any desired early Archery training/use is complete. | He is early, central, source-listed as follower/steward candidate, and does not consume a Hearthfire housecarl assignment. | TB-031E training check; TB-032 assignment warning. |
 | Goldenhills farmhands | Use the generic steward-hired Goldenhills farmhands rather than relocating named beggar/drunk/favor candidates. | This avoids consuming representative favor NPCs or option-list candidates while still satisfying farm staffing. | TB-031F farm income/counter handling; TB-035 option list. |
-| Boethiah sacrifice | Do not assign a named route default yet. The route must pick a nonessential, non-spouse, non-steward, non-trainer/service-critical follower only after TB-031E/TB-031H confirm follower/training/source readiness. | This is an irreversible death, not a preference default. Naming it before progression/source readiness could force later rework. | TB-031H confirms candidate readiness; TB-032 hard-save warning. |
+| Boethiah sacrifice | Do not assign a named route default yet. The route must pick a nonessential, non-spouse, non-steward, non-trainer/service-critical follower during final placement after warning policy is available. | This is an irreversible death, not a preference default. Naming it before final route placement could force later rework. | TB-032 hard-save warning; TB-034 candidate selection. |
 
 ## Black Book Power Defaults
 
@@ -87,6 +87,6 @@ These are representative defaults, not all-target requirements. TB-031F still ch
 | --- | --- | --- |
 | Exact progression source items, training purchases, craft outputs, crop mix, and exploit conditions | TB-031E | Defaults above do not settle leveling, material, or exploit policy. |
 | Exact counter route actions, repeat bounds, and trophy fallback mechanics | TB-031F | Representative targets are selected, but counter mechanics are still separate. |
-| Exact access/path/clear validation for locations and homes | TB-031G | Defaults do not prove pathing, discovery, or clear triggers. |
-| Source/objective/support-table readiness cleanup, including stale `needs_review` labels | TB-031H | TB-031D resolves defaults; it does not close every metadata readiness row. |
+| Final access/path/clear placement for locations and homes | TB-032/TB-034 | TB-031G validates route-planning mechanics; defaults still do not prove final pathing, warning placement, or step order. |
+| Source/objective/support-table readiness cleanup, including stale `needs_review` labels | Complete in TB-031H; remaining specific owners are recorded in `docs/source-objective-readiness-audit.md`. | TB-031D resolves defaults; TB-031H closes the metadata audit without replacing later warning, route-placement, validation, or appendix tasks. |
 | Option-list presentation for non-default spouse/children/stewards/followers/pets/mounts | TB-035 | Non-default options remain useful appendices/options, not route branches. |

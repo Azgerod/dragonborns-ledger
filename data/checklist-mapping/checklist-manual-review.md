@@ -38,16 +38,18 @@ Two additional rows (`Dawnguard` and `Dragonborn`) were fixed by tightening the 
 
 These rows are no longer generic manual review. They are explicit `source_readiness_required` rows with `match_status=support_table_only`, `source_note_refs=SN-000125-checklist-manual-review-reconciliation.md`, and a named owner in `guide_location`.
 
+This table records the TB-031B source-readiness buckets with current owner annotations where later TB-031 tasks have completed. For current counts, use `checklist-coverage-summary.md`; by TB-031G, the single location row (`The Chill*`) has been resolved as an explicit official-scope exclusion, and by TB-031H the remaining book/document, unique-gear, and skill-book holds are assigned to TB-036.
+
 | Category | Rows | Owner |
 | --- | ---: | --- |
-| `book_document` | 43 | TB-031H/TB-036 book/document source-readiness review. |
-| `unique_item` | 34 | TB-031H/TB-036 unique-gear source-readiness review. |
-| `quest` | 4 | TB-031F/TB-031H quest source-readiness review after TB-031C found no immediate promotion without source validation. |
-| `alchemy_effect` | 4 | TB-031E/TB-031H alchemy source-readiness review. |
-| `collectible_item` | 2 | TB-031F/TB-031H collectible source-readiness review. |
-| `enchantment` | 1 | TB-031E/TB-031H enchantment source-readiness review. |
-| `location` | 1 | TB-031G/TB-031H location source-readiness review. |
-| `skill_book` | 1 | TB-031H/TB-036 skill-book source-readiness review. |
+| `book_document` | 43 | TB-036 book/document appendix source-readiness review after TB-031H ownership audit. |
+| `unique_item` | 34 | TB-036 unique-gear appendix source-readiness review after TB-031H ownership audit. |
+| `quest` | 4 | Resolved by TB-031F; any future checklist-only quest catch-all goes to TB-034/TB-037. |
+| `alchemy_effect` | 4 | Resolved by TB-031E; any future checklist-only alchemy catch-all goes to TB-033/TB-037. |
+| `collectible_item` | 2 | Resolved by TB-031F; any future checklist-only collectible catch-all goes to TB-033/TB-037. |
+| `enchantment` | 1 | Resolved by TB-031E; any future checklist-only enchantment catch-all goes to TB-033. |
+| `location` | 1 | Resolved later in TB-031G as the `The Chill*` official-scope exclusion. |
+| `skill_book` | 1 | TB-036 skill-book appendix source-readiness review after TB-031H ownership audit. |
 
 ## Boundary
 

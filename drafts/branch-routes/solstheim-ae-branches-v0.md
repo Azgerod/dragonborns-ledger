@@ -82,7 +82,7 @@ Warnings and handoffs:
 | Topic | TB-029 handling |
 | --- | --- |
 | Main default | Join/infiltrate remains canonical because it preserves armory access, crafting permissions, followers, companion tasks, and Skullcrusher access. |
-| Equipment coverage | TB-031C found no checklist evidence requiring a larger destroy-only or join-only equipment branch. TB-031H/TB-036 still validate Ghosts book/document source-readiness rows, and TB-033 verifies final branch/checklist coverage. |
+| Equipment coverage | TB-031C found no checklist evidence requiring a larger destroy-only or join-only equipment branch. TB-031H audited readiness ownership; TB-036 still validates Ghosts book/document source-readiness rows, and TB-033 verifies final branch/checklist coverage. |
 | Route granularity | This branch should be an alternate-state audit, not a second copy of every Ghosts quest step. |
 | Reload point | After destroy-heretics audit, reload `HS-AE-GHOSTS-TEMPLE` and continue join/infiltrate continuity. |
 

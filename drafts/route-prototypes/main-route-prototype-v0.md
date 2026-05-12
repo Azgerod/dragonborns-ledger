@@ -1,12 +1,12 @@
 # Main Route Prototype v0
 
-Status: TB-031F complete as a block-level progression and counter-mechanics overlay, with machine-readable objective assignments in `data/route-planning/prototype-objective-block-map.csv`.
+Status: TB-031G complete as a block-level progression, counter-mechanics, and location route-validation overlay, with machine-readable objective assignments in `data/route-planning/prototype-objective-block-map.csv`.
 
-This is a Phase 7 flexible-objective insertion prototype with the Phase 8 progression overlay and Phase 10 counter-mechanics overlay. It is not final guide prose, not pathfinding, not a numbered itinerary, and not a checklist coverage matrix.
+This is a Phase 7 flexible-objective insertion prototype with the Phase 8 progression overlay and Phase 10 counter/location-validation overlays. It is not final guide prose, not pathfinding, not a numbered itinerary, and not a checklist coverage matrix.
 
-The purpose of this pass is narrower: place safe objective queues into the Survival Mode route-block frame from `drafts/route-prototypes/survival-geography-pass-v0.md`, add block-level skill, perk, training, crafting, and grind pressure, and record counter/action checkpoints while preserving the hard level/reward gates, branch deferrals, and later checklist/warning passes.
+The purpose of this pass is narrower: place safe objective queues into the Survival Mode route-block frame from `drafts/route-prototypes/survival-geography-pass-v0.md`, add block-level skill, perk, training, crafting, and grind pressure, record counter/action checkpoints, and capture location clear/discovery mechanics while preserving the hard level/reward gates, branch deferrals, and later checklist/warning passes.
 
-This file does not independently introduce uncited gameplay research. Gameplay claims and route limits are carried from the source-backed objective database, the generated route-planning index, `data/locations/location-geography.csv`, the Phase 2 constraint tables, and `data/checklist-mapping/counter-coverage-plan.md`.
+This file does not independently introduce uncited gameplay research. Gameplay claims and route limits are carried from the source-backed objective database, the generated route-planning index, `data/locations/location-geography.csv`, `data/locations/location-route-validation.md`, the Phase 2 constraint tables, and `data/checklist-mapping/counter-coverage-plan.md`.
 
 ## Inputs
 
@@ -21,6 +21,7 @@ This file does not independently introduce uncited gameplay research. Gameplay c
 | `data/route-planning/objective-constraints.csv` | Generated objective-to-constraint links; inspect source tables before final route prose. |
 | `data/route-planning/prototype-objective-block-map.csv` | Generated one-row-per-objective TB-026 audit map with route block, disposition, status, threshold, parent link, defer owner, and reason. |
 | `data/locations/location-geography.csv` | Hub/corridor geography, rest/transport/cold/candidate-base support, and confidence flags. |
+| `data/locations/location-route-validation.md` | TB-031G route-validation layer for Delver/Explorer mechanics, clear-trigger class, duplicate/secondary markers, content-location treatment, no-marker exclusions, and coordinate exception use. |
 | `data/constraints/*.md` | Canonical route laws for AE starts, leveled rewards, cell locks, conflicts, trophies, NPC dependencies, bugs, radiants, Survival Mode, and progression. |
 | `data/constraints/skill-perk-leveling-plan.md` | TB-027 block-level progression overlay for all-skills/all-perks, Legendary resets, training, crafting, investments, enchantment learning, alchemy effects, and underleveled fallbacks. TB-031E supplies source-selection defaults; exact reset counts and final skill-state validation remain TB-033. |
 | `data/checklist-mapping/counter-coverage-plan.md` | TB-031F counter/action overlay for trophy counters, Thieves Guild side jobs, Dawnguard Lost Relic fillers, Fishing, work actions, trophy-pop fallbacks, and counter-owned source-readiness rows. |
@@ -58,6 +59,8 @@ The direct geography counts below reflect source corridor membership. Gate-extra
 
 Rows with blank `route_block` in `prototype-objective-block-map.csv` are intentionally deferred through `disposition`, `prototype_status`, `deferred_to`, and `reason`; blank does not mean unprocessed. G14 checklist rows are temporary checklist-reconciliation holds, and TB-031A through TB-031I must remap individual collectibles, counters, checklist-only rows, location-validation rows, and readiness-audit rows into corridor, quest, branch, appendix, or final cleanup placements where appropriate.
 
+TB-031G validates the location counter classes behind this direct-geography layer: 236 independent clearable rows are Delver-countable planning rows, Angarvunde and Mistwatch are atypical clearable-but-non-counting exceptions, 10 duplicate marker rows are discovery/Explorer candidates tied to primary clearable locations, 4 secondary markers are inherited clear-state caveats, 16 AE content locations follow parent quest/property/content timing rather than Delver handling, and the checklist-only `The Chill*` row is explicitly excluded from official PS4 AE discovery/clear coverage.
+
 ## Insertion Rules
 
 | Rule | Effect |
@@ -89,6 +92,19 @@ This table assigns direct `location` rows to their primary route-block container
 | G12 Solstheim/Raven Rock spine | 54 | `raven_rock_west` 20; `thirsk_central` 16; `skaal_north` 14; `tel_mithryn_east` 4 | 49 Solstheim cold region; 5 source-listed cold interior | Use after Raven Rock support is established. Treat Severin as storage only after acquisition/storage validation, keep Thirsk and Ralis outcomes deferred, and do not finish final Miraak before level 60. |
 | G13 Separate-worldspace/AE high-risk | 2 | `manual_validation_required` 2 | 2 not comparable | Do not auto-route from corridor data. Use manual validation for Skuldafn, Deadlands, Apocrypha, Soul Cairn, Forgotten Vale, and similar spaces before any final prose. |
 
+## Location Route Validation Overlay
+
+TB-031G adds location clear/discovery mechanics without choosing final path order. Use `data/locations/location-route-validation.md` as the controlling route-planning artifact for these rows.
+
+| Location family | Prototype treatment | Later validation |
+| --- | --- | --- |
+| Normal clearable locations | Route until the in-game `Cleared` tag appears; when a row is used for Delver, verify the `Dungeons Cleared` statistic unless the row is a documented exception. | TB-032 places concise warnings for quest/boss/report-back risks; TB-033 validates final counters. |
+| Angarvunde and Mistwatch | Route for dungeon, quest, word-wall, or checklist value, but do not count toward Delver. | TB-033 validates final Delver padding without these rows. |
+| Discoverable and duplicate markers | Source-listed discoverable markers can support `Explorer`; duplicate entrances are discovery candidates but share one parent clear. | TB-034 chooses entrance order; TB-033 validates `Locations Discovered`. |
+| Secondary cleared markers | Giant's Grove, Klimmek's House, Shalidor's Maze, and Sundered Towers are not independent clear objectives. | TB-034 may mention them only where the parent route naturally visits the area. |
+| AE content locations and no-marker rows | Follow parent quest, property, branch, or content-package timing; no-marker rows are not Explorer padding. | TB-032/TB-034 place warnings and steps from parent content, not corridor distance alone. |
+| Separate worldspaces | Skuldafn, Deadlands, Apocrypha, Soul Cairn, Forgotten Vale, and similar spaces need manual access/return/recovery planning. | TB-034 final route placement; TB-033 route-state validation. |
+
 ## Route-Block Prototype
 
 | Block | Prototype placement | Flexible insertions allowed here | Held out of this block |
@@ -107,7 +123,7 @@ This table assigns direct `location` rows to their primary route-block container
 | G11 Dawnguard expedition | Dawnguard main-route chain, Fort Dawnguard support, Volkihar branch save, coastal/castle loops. | The 15 Dawnguard/coastal direct location rows; finite Dawnguard chains; representative/required Dawnguard radiants only within source boundaries; Fort Dawnguard service/support objectives. | Volkihar branch content in main continuity, vampire perk timing without TB-027, and Aetherial reward default before TB-028. |
 | G12 Solstheim/Raven Rock spine | Raven Rock logistics, Solstheim progression, island sweeps, Black Books, Skaal/Tel Mithryn/Thirsk/Kolbjorn windows. | The 54 Solstheim direct rows; Raven Rock/Tel Mithryn/Skaal local objectives; Black Book and Dragonborn objectives as their prerequisite chain permits; island support rows after ferry and storage validation. | Final Miraak before 60, broad island cleanup before support, Thirsk default, Ralis outcome, and Severin storage before validation. |
 | G13 Separate-worldspace/AE high-risk expeditions | Manually validated separate-worldspace and high-risk AE blocks. | Apocrypha, Soul Cairn, Forgotten Vale, Skuldafn, Deadlands, and high-risk AE objective bundles only after manual access, return, rest, and reward checks. | Any automatic insertion based on Skyrim/Solstheim corridor proximity. |
-| G14 Late cleanup by corridor | Final corridor cleanup, counters, collection reconciliation, and late progression tail. | Remaining safe rows after TB-027, TB-028, TB-031A-TB-031I, and TB-032 clarify skills, branch defaults, checklist coverage, location validation, source readiness, and warnings. A row may enter G14 only with an explicit late-level, checklist-finalization, post-branch, post-progression, or unresolved source-selection reason. | Using cleanup as a substitute for missing route placement, underleveled gate recovery without a plan, or unsourced checklist assumptions. |
+| G14 Late cleanup by corridor | Final corridor cleanup, counters, collection reconciliation, and late progression tail. | Remaining safe rows after TB-027, TB-028, TB-031A-TB-031I, and TB-032 clarify skills, branch defaults, checklist coverage, source readiness, and warnings. A row may enter G14 only with an explicit late-level, checklist-finalization, post-branch, post-progression, or unresolved source-selection reason. | Using cleanup as a substitute for missing route placement, underleveled gate recovery without a plan, or unsourced checklist assumptions. |
 
 ## Progression Overlay
 
@@ -138,11 +154,11 @@ TB-031F adds counter/action checkpoints without choosing final step numbers. Use
 | Counter/action family | Prototype treatment | Later validation |
 | --- | --- | --- |
 | Side/misc/trophy counters | Track `Sideways`, `Hero of the People`, `Thief`, `Snake Tongue`, `Golden Touch`, `Dragon Hunter`, `Standing Stones`, and trophy-pop fallback saves as explicit checkpoints, not incidental expectations. | TB-032 places warnings and saves; TB-033 validates final counter totals and trophy pops. |
-| Location counters | Route enough clearable/discoverable locations for `Delver`, `Explorer`, and Solstheim Explorer, but mark completion only after observed clear/discovery increments. | TB-031G validates clear/discovery mechanics before final placement. |
+| Location counters | Route enough clearable/discoverable locations for `Delver`, `Explorer`, and Solstheim Explorer, but mark completion only after observed clear/discovery increments. | TB-031G has validated clear/discovery mechanics; TB-033 validates final observed totals. |
 | Skill-book and progression counters | Reader follows TB-031E copy/read policy and all 90 skill-book objectives; trophy check occurs after 50 unique titles. | TB-033 validates Reader plus final all-skills/all-perks state. |
 | Radiant and faction counters | Thieves Guild restoration uses city tallies plus a separate 125-job total; Dawnguard `Lost Relic` records all filler radiants until all three relics are obtained. | TB-034 places loops; TB-033 verifies restoration, safe/display, relic, and filler records. |
 | Activity systems | Hard Worker, Artificer, Fishing, cutting lumber, and milling are route-planning actions tied to existing support blocks; lumber and milling remain support-only unless final checklist proof needs cues. | TB-034/TB-037 turn them into checklist cues only where needed. |
-| TB-031F source-readiness rows | `Rebuilding the Blades` and `Dragon Hunting` are branch-only Blades rows; `Archery Practice`, `Scare My Enemy`, `Firebrand Wine Case`, and `Map of Dragon Burials` now have source-backed main-route handling. | TB-031H audits metadata; TB-033 validates branch/main continuity. |
+| TB-031F source-readiness rows | `Rebuilding the Blades` and `Dragon Hunting` are branch-only Blades rows; `Archery Practice`, `Scare My Enemy`, `Firebrand Wine Case`, and `Map of Dragon Burials` now have source-backed main-route handling. | TB-031H audited metadata; TB-033 validates branch/main continuity. |
 
 ## Underleveled Fallback Policy
 
@@ -193,7 +209,7 @@ Use fallback blocks only when the player reaches a gate underleveled. Each fallb
 | Unique items | Acquire with the parent quest/location if no leveled, cell-entry, branch, NPC, or bug constraint blocks it. Preserve unique items unless the specification later creates an explicit exception. |
 | Crafting unlocks | Use the TB-027 block overlay and TB-031E source-selection defaults for shop/craft/disenchant/alchemy/Smithing/Enchanting/ingredient loops. Do not use a unique-item disenchant as the baseline; final route still validates physical source-item availability. |
 | Radiants | Insert required radiants only inside the relevant faction/window. Representative radiants should use source-approved boundaries and local targets, not random grind assumptions. |
-| Collectibles, stones, shouts, and powers | Insert opportunistically when the corridor is already safe. TB-031F now supplies counter checkpoint rules; exact location validation and final checklist synchronization remain TB-031G/TB-033/TB-037. |
+| Collectibles, stones, shouts, and powers | Insert opportunistically when the corridor is already safe. TB-031F supplies counter checkpoint rules and TB-031G supplies location validation mechanics; final route placement and checklist synchronization remain TB-033/TB-034/TB-037. |
 | AE Creations | Respect `ae-creation-start-triggers.md`. Vendor/crafting/content-package rows can attach to support blocks; courier, high-level, prerequisite, bug-sensitive, or branch-sensitive rows wait for their gate. |
 
 ## Mandatory Holds
@@ -229,6 +245,7 @@ Use fallback blocks only when the player reaches a gate underleveled. Each fallb
 | Radiant quest boundaries | `data/constraints/radiant-boundaries.md` (`SN-000112` through `SN-000114`) |
 | Skill, perk, leveling, crafting, and all-perks planning | `data/constraints/skill-perk-leveling-plan.md` (`SN-000119` through `SN-000122`) |
 | Checklist/trophy counter mechanics and route actions | `data/checklist-mapping/counter-coverage-plan.md`; `sources/source-notes/SN-000127-checklist-counter-route-mechanics.md` |
+| Location route validation and Delver/Explorer mechanics | `data/locations/location-route-validation.md`; `sources/source-notes/SN-000128-location-route-validation.md` |
 
 ## Handoff to Later Passes
 
@@ -236,6 +253,6 @@ TB-027 is integrated at the block layer. Later passes should not treat that as f
 
 * TB-028/TB-029 have chosen branch defaults and branch prototypes; use those files for branch-sensitive artifact, transformation, faction-state, or alternate-reward windows.
 * TB-031E has chosen exact skill-book copies, spell-tome sources, disposable enchantment source families, alchemy source methods, investment circuit, crafting outputs, and progression cues.
-* TB-031F has chosen counter/action policy; TB-031G must now validate exact location access, clear triggers, discovery markers, duplicate markers, and separate-worldspace geography before counter rows become final route steps.
+* TB-031F has chosen counter/action policy, and TB-031G has validated location clear/discovery mechanics, duplicate/secondary markers, content-location treatment, and coordinate exception rules. Final entrance/path order still belongs to TB-034, and final observed totals still belong to TB-033.
 * TB-032 must turn gate, reset, crafting, unique-item, and Survival risks into concise warnings at the exact route steps.
 * TB-033 must validate the finished prototype against all constraints, including level gates, skill 100 recovery after Legendary resets, level 252+, all 251 perk ranks, investments, enchantment learning, alchemy effects, practical crafting systems, and Survival logistics.

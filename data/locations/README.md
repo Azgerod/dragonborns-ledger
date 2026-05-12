@@ -1,6 +1,6 @@
 # Location Data
 
-Status: source-list coverage review complete; downstream validation pending.
+Status: TB-031G route-validation layer complete; final route placement pending.
 
 Location discovery and clearance tables live here when the objective database needs one row per routed completion unit but the source details need more room than `objectives.csv` should carry.
 
@@ -28,6 +28,7 @@ Map-marker discovery and location clearing are related but not identical:
 * `location-geography.template.csv` defines the generated hub/corridor geography table header.
 * `location-geography.csv` records derived nearest service candidates, corridor assignments, worldspace access models, cold risk, and barrier flags for coordinate rows.
 * `location-geography-reconciliation.md` summarizes the hub/corridor model, seed-node counts, coverage, and distance-use limits.
+* `location-route-validation.md` records TB-031G rules for Delver, Explorer, duplicate markers, secondary cleared markers, content-location handling, no-marker rows, and separate-worldspace route use.
 * `clearable-location-reconciliation.md` summarizes current clearable-location source-list coverage and downstream reconciliation boundaries.
 * `discoverable-location-reconciliation.md` summarizes current discoverable non-clearable location coverage and downstream reconciliation boundaries.
 * `location-reconciliation.md` summarizes duplicate marker, secondary marker, and AE location-gap reconciliation.

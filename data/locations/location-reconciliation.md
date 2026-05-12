@@ -1,6 +1,6 @@
 # Location Reconciliation
 
-Status: TB-008C complete; TB-008D completeness review complete; downstream route/checklist validation pending.
+Status: TB-008C complete; TB-008D completeness review complete; TB-031G route-validation layer complete.
 
 This file summarizes the TB-008C reconciliation pass. It is a coordination artifact, not final guide prose.
 
@@ -10,7 +10,7 @@ This file summarizes the TB-008C reconciliation pass. It is a coordination artif
 | --- | ---: | --- | --- |
 | Secondary cleared-marker rows | 4 | `SN-000079` | Giant's Grove, Shalidor's Maze, Sundered Towers, and Klimmek's House are treated as secondary marker caveats, not independent Delver clear objectives. |
 | Duplicate map-marker rows | 10 | `SN-000079` | North/South Brittleshin Pass, North/South Cold Rock Pass, North/South Shriekwind Bastion, North/South Skybound Watch, Lower Steepfall Burrow, and Reachcliff Secret Entrance are discovery markers tied to primary clearable locations. |
-| AE Creation place-page gaps | 16 | `SN-000079` | Added appendix-stage content-location rows for AE place pages that were in UESP's Creation Club places category but absent from the clearable/discoverable catalog union. |
+| AE Creation place-page gaps | 16 | `SN-000079`; `SN-000128` | Added content-location rows for AE place pages absent from the clearable/discoverable catalog union; TB-031G validates them as parent-content route rows, not independent Delver rows. |
 | Clearable rows without separate discoverable category membership | 7 | `SN-000079` | Retained as clearable/access objectives and marked not separately source-listed as discoverable at this stage. |
 
 ## Current Location Catalog Shape
@@ -21,7 +21,7 @@ This file summarizes the TB-008C reconciliation pass. It is a coordination artif
 | `discoverable_non_clearable` | 199 | Source-listed discoverable map markers that are not independent clearable rows and are not duplicate marker rows. |
 | `map_marker_duplicate` | 10 | Source-listed duplicate map markers that count as discovery markers but inherit clear state from a primary clearable location. |
 | `secondary_marker` | 4 | Places with inherited cleared-marker behavior that should not be routed as independent clear objectives. |
-| `content_location` | 16 | Official AE Creation place pages needing later route/checklist validation. |
+| `content_location` | 16 | Official AE Creation place pages tied to parent quest, property, or content handling, not independent Delver rows. |
 
 Total location catalog rows: 467.
 
@@ -33,11 +33,11 @@ Detailed review notes live in `data/locations/location-completeness-review.md`; 
 
 ## Remaining Location Review Questions
 
-TB-008D closes the source-list completeness review. The following are intentionally left for later constraint/checklist passes:
+TB-008D closes the source-list completeness review, and TB-031G closes the route-planning mechanics for location counters and known marker exceptions. The following are intentionally left for later route/checklist passes:
 
-* PS4 Delver and Explorer trophy validation;
-* exact per-location clear triggers and primary-location linkage;
+* final Delver, Explorer, and Solstheim Explorer route-state validation in TB-033;
+* final entrance/path order and black-box step placement in TB-034;
 * bug and missability review;
 * quest/faction access timing for isolated or state-dependent markers;
 * Survival Mode route grouping;
-* checklist-row mapping.
+* final checklist proof.

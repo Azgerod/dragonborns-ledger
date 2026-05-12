@@ -464,7 +464,7 @@ def main() -> int:
             route_timing="Collect selected copy when its route block is safe; read after Scholar's Insight and high-skill timing check.",
             prerequisites_or_inputs=chosen["quest_or_state_dependency"],
             avoid_until="Do not read before Scholar's Insight unless final route explicitly documents the tradeoff.",
-            validation_owner="TB-031G/TB-033 route-access and final skill-state validation",
+            validation_owner="TB-033/TB-034 final route and skill-state validation",
             source_note_refs=chosen["citations"],
             notes="One title-level skill book objective needs one selected copy; duplicate copies remain non-required alternates.",
         )
@@ -556,7 +556,7 @@ def main() -> int:
             selected_source=row["store_name"],
             source_location=f"{row['town_or_route']} / {row['hold']}",
             source_detail=row["availability_notes"],
-            route_timing="Invest during the first safe regional merchant sweep after Speech 70 and Investor are active." if available else "Do not route as required investment unless TB-031H/TB-033 later validates official PS4 AE availability.",
+            route_timing="Invest during the first safe regional merchant sweep after Speech 70 and Investor are active." if available else "Do not route as required investment unless TB-033 later validates official PS4 AE availability.",
             prerequisites_or_inputs="Speech 70; Investor perk; merchant alive/accessible; no active hostile/faction state.",
             avoid_until="Complete before any Speech reset or role/default change that can affect merchant access.",
             validation_owner="TB-033 investment validation",

@@ -32,7 +32,7 @@ TB-031E resolves five checklist rows that were source-readiness holds:
 | `Damage Stamina` enchantment row | Treat as alias for source-backed `Stamina Damage` enchantment objective `OBJ-002515`. | Coverage row now maps to the main-route prototype. |
 | Four `Kesh Fiber (AE)` alchemy rows | Treat as spelling alias for source-backed `Kresh Fiber` objective `OBJ-002678`. | Coverage rows now map to the main-route prototype. |
 
-After regeneration, `coverage-matrix.csv` has 85 `source_readiness_required` rows. The remaining rows are owned by TB-031F, TB-031G, TB-031H, or TB-036 rather than TB-031E.
+After TB-031H, remaining `source_readiness_required` rows are explicit TB-036/TB-037 appendix or final checklist validation inputs rather than TB-031E progression work.
 
 ## Operating Decisions
 
@@ -74,8 +74,8 @@ Exact reset counts are not invented here. They depend on final route order, natu
 
 | Owner | Remaining work |
 | --- | --- |
-| TB-031F | Counter/action mechanics: Reader, Hard Worker action tracking, Thief/Snake Tongue, Fishing, Lost Relic fillers, Sideways/Hero of the People/Delver/Explorer. |
-| TB-031G | Route-access validation for selected skill-book copies and geography-sensitive source locations. |
-| TB-031H | Readiness metadata cleanup for older source notes/objective/support rows and remaining source-readiness holds. |
+| TB-031F | Complete: counter/action mechanics for Reader, Hard Worker action tracking, Thief/Snake Tongue, Fishing, Lost Relic fillers, Sideways/Hero of the People/Delver/Explorer. |
+| TB-031G | Complete: route-access class validation for geography-sensitive source locations; final step placement remains TB-034. |
+| TB-031H | Complete: readiness metadata cleanup for older source notes/objective/support rows and generated labels is recorded in `docs/source-objective-readiness-audit.md`. |
 | TB-032 | Place concise warnings for the progression risks chosen here. |
 | TB-033 | Validate final skill state, exact reset counts, learned enchantments, alchemy effects, investments, crafting systems, and final all-perks/all-skills satisfaction. |

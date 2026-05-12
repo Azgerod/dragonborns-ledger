@@ -224,51 +224,58 @@ PET_TELEPORT_OBJECTIVES = {
 
 COLLECTIBLE_ENTRY_OVERRIDES: dict[str, str] = {}
 
+LOCATION_EXCLUSIONS = {
+    "the chill": (
+        "TB-031G excludes The Chill from required location coverage because UESP identifies it as unmarked in official Skyrim; "
+        "the map marker is an Unofficial Skyrim Patch addition outside the official PS4 AE route scope."
+    ),
+}
+
 SOURCE_READINESS_BY_CATEGORY = {
     "alchemy_effect": (
-        "TB-031E/TB-031H alchemy source-readiness review",
+        "TB-033/TB-037 alchemy checklist validation",
         "checklist_alchemy_source_readiness",
-        "Checklist-only alchemy row; TB-031E/TB-031H must validate source scope before route inclusion.",
+        "Checklist-only alchemy row; TB-031H audited readiness ownership and assigns any remaining source-scope validation to TB-033/TB-037.",
     ),
     "book_document": (
-        "TB-031H/TB-036 book/document source-readiness review",
+        "TB-036 book/document appendix source-readiness review",
         "checklist_book_document_source_readiness",
-        "Checklist-only book/document row; TB-031H must validate source/objective-table readiness before final appendix or route inclusion.",
+        "Checklist-only book/document row; TB-031H audited readiness ownership and assigns source/objective-table validation to TB-036 before final appendix or route inclusion.",
     ),
     "collectible_item": (
-        "TB-031F/TB-031H collectible source-readiness review",
+        "TB-033/TB-037 collectible checklist validation",
         "checklist_collectible_source_readiness",
-        "Checklist collectible row lacks a current source-backed objective match; TB-031F/TB-031H must validate or exclude it explicitly.",
+        "Checklist collectible row lacks a current source-backed objective match; TB-031H audited readiness ownership and assigns any remaining validation or exclusion to TB-033/TB-037.",
     ),
     "enchantment": (
-        "TB-031E/TB-031H enchantment source-readiness review",
+        "TB-033 enchantment source validation",
         "checklist_enchantment_source_readiness",
-        "Checklist enchantment row lacks a current source-backed learning objective; TB-031E/TB-031H must validate route scope.",
+        "Checklist enchantment row lacks a current source-backed learning objective; TB-031H audited readiness ownership and assigns final source validation to TB-033.",
     ),
     "location": (
-        "TB-031G/TB-031H location source-readiness review",
+        "TB-036/TB-037 location appendix/checklist validation",
         "checklist_location_source_readiness",
-        "Checklist location row lacks a current source-backed location-catalog objective; TB-031G/TB-031H must validate scope before route use.",
+        "Checklist location row lacks a current source-backed location-catalog objective; TB-031H audited readiness ownership and assigns remaining scope validation to TB-036/TB-037.",
     ),
     "quest": (
-        "TB-031F/TB-031H quest source-readiness review",
+        "TB-034/TB-037 quest checklist placement validation",
         "checklist_quest_source_readiness",
-        "Checklist quest/sub-objective row lacks a current source-backed objective match; TB-031F/TB-031H must promote, map, or exclude it after TB-031C escalation review.",
+        "Checklist quest/sub-objective row lacks a current source-backed objective match; TB-031H audited readiness ownership and assigns remaining promotion, mapping, or exclusion to TB-034/TB-037.",
     ),
     "skill_book": (
-        "TB-031H/TB-036 skill-book source-readiness review",
+        "TB-036 skill-book appendix source-readiness review",
         "checklist_skill_book_source_readiness",
-        "Checklist skill-book row lacks a current title-table match; TB-031H must validate source spelling/scope before route inclusion.",
+        "Checklist skill-book row lacks a current title-table match; TB-031H audited readiness ownership and assigns source spelling/scope validation to TB-036.",
     ),
     "spell": (
-        "TB-031E/TB-031H spell source-readiness review",
+        "TB-033/TB-037 spell-source checklist validation",
         "checklist_spell_source_readiness",
-        "Checklist spell row lacks a current source-backed spell or parent objective match; TB-031E/TB-031H must validate route scope.",
+        "Checklist spell row lacks a current source-backed spell or parent objective match; TB-031H audited readiness ownership and assigns remaining route-scope validation to TB-033/TB-037.",
     ),
     "unique_item": (
-        "TB-031H/TB-036 unique-gear source-readiness review",
+        "TB-036 unique-gear appendix source-readiness review",
         "checklist_unique_gear_source_readiness",
-        "Checklist unique-gear row lacks a current source-backed objective match; TB-031H must validate source/objective readiness before final inclusion.",
+        "Checklist unique-gear row lacks a current source-backed objective match; TB-031H audited readiness ownership and assigns source/objective readiness validation to TB-036 before final inclusion.",
     ),
 }
 
@@ -1026,6 +1033,17 @@ def classify(entry: ChecklistEntry, objective_id: str, match_source: str, indexe
         )
         return row
 
+    if entry.category == "location" and normalize(entry.entry) in LOCATION_EXCLUSIONS:
+        row["mapping_type"] = "Explicit exclusion"
+        row["guide_location"] = "excluded"
+        row["exclusion_reason"] = LOCATION_EXCLUSIONS[normalize(entry.entry)]
+        row["source_note_refs"] = "SN-000128-location-route-validation.md"
+        row["match_status"] = "support_table_only"
+        row["match_source"] = "location_route_validation_exclusion"
+        row["status"] = "excluded_with_justification"
+        row["notes"] = "TB-031G reviewed this checklist-only location row and excluded it from required official map-marker/discovery coverage."
+        return row
+
     if entry.category == "merchant_reference":
         row["mapping_type"] = "Appendix-only checklist"
         row["guide_location"] = "TB-031B/TB-036 merchant appendix"
@@ -1062,12 +1080,12 @@ def classify(entry: ChecklistEntry, objective_id: str, match_source: str, indexe
         return row
 
     row["mapping_type"] = "Source-readiness hold"
-    row["guide_location"] = "TB-031H source-readiness review"
+    row["guide_location"] = "TB-037 final checklist source-readiness review"
     row["source_note_refs"] = CHECKLIST_MANUAL_REVIEW_SOURCE_NOTE
     row["match_status"] = "support_table_only"
     row["match_source"] = "checklist_other_source_readiness"
     row["status"] = "source_readiness_required"
-    row["notes"] = "Checklist row lacks a current source-backed objective/support-table match; TB-031H must validate, promote, or exclude it explicitly."
+    row["notes"] = "Checklist row lacks a current source-backed objective/support-table match; TB-031H audited readiness ownership and assigns any future catch-all validation, promotion, or exclusion to TB-037."
     return row
 
 

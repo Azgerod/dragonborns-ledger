@@ -16,7 +16,7 @@ Source support: SN-000127 plus the source notes named in each row below.
 | Fishing | Treat Fishing as a structured quest/species/biome/rod/weather sweep, not incidental travel fishing. | TB-034 route placement; TB-037 checklist proof. |
 | Work activities | Pair Hard Worker station actions with representative activity defaults where possible. | TB-034 route placement. |
 | Cutting lumber and milling | Keep as support-only property/material actions, not standalone required counters. | TB-034/TB-037 if checklist proof needs a cue. |
-| Source-readiness rows | Promote/map six TB-031F-owned rows: Rebuilding the Blades, Dragon Hunting, Archery Practice, Scare My Enemy, Firebrand Wine Case, and Map of Dragon Burials. | TB-031H metadata audit; TB-033 validation. |
+| Source-readiness rows | Promote/map six TB-031F-owned rows: Rebuilding the Blades, Dragon Hunting, Archery Practice, Scare My Enemy, Firebrand Wine Case, and Map of Dragon Burials. | TB-031H metadata audit complete; TB-033 validation. |
 
 ## Counter Checkpoints
 
@@ -24,8 +24,8 @@ Source support: SN-000127 plus the source notes named in each row below.
 | --- | --- | --- | --- |
 | `Sideways` | Use only source-qualified side quests. | Mark a trophy checkpoint when 10 qualifying side quests have completed; do not count `Blood on the Ice`, Black Book side quests, or `Lost to the Ages` for this trophy. Continue maximalist side-quest routing afterward. | SN-000020; SN-000103; SN-000127 |
 | `Hero of the People` | Count distinct finite miscellaneous objectives, not arbitrary repeats. | Maintain a running misc-objective count and check the trophy at 50. Do not rely on drunk favors or repeated no-journal activities for the count. | SN-000022; SN-000103; SN-000113; SN-000127 |
-| `Delver` | Count observed clear-state completions only. | Route more than 50 source-listed clearable locations, but mark the trophy checkpoint only after 50 clear messages/counter increments are observed. TB-031G validates exact clear triggers. | SN-000077; SN-000103; SN-000127 |
-| `Explorer` | Count observed map-marker discoveries only. | Route at least 100 source-listed discoverable/clearable markers and verify the counter at 100. Duplicate/secondary markers and separate-worldspace cases wait for TB-031G. | SN-000078; SN-000103; SN-000127 |
+| `Delver` | Count observed clear-state completions only. | Route more than 50 source-listed clearable locations, but mark the trophy checkpoint only after 50 clear messages/counter increments are observed. TB-031G validates the clear-trigger class and exceptions. | SN-000077; SN-000103; SN-000127; SN-000128 |
+| `Explorer` | Count observed map-marker discoveries only. | Route at least 100 source-listed discoverable/clearable markers and verify the counter at 100. TB-031G validates duplicate markers, secondary markers, no-marker rows, and separate-worldspace treatment. | SN-000078; SN-000103; SN-000127; SN-000128 |
 | `Reader` | Read title-level skill books, not duplicate copies. | TB-031E selects copies. Read after Scholar's Insight unless a documented tradeoff is chosen; check trophy after 50 different titles and continue to all 90 skill-book objectives. | SN-000051; SN-000103; SN-000126; SN-000127 |
 | `Thief` | Track lock and pocket halves separately. | Maintain `locks_picked` and `pockets_picked` counters. Natural lockpicking can carry the lock half; schedule controlled G04/G14 pickpocket actions for the pocket half instead of assuming 50 pockets happen naturally. | SN-000103; SN-000119; SN-000127 |
 | `Snake Tongue` | Reserve one successful persuade, one bribe, and one intimidate action. | Do not leave this to incidental dialogue. Final route must label three Speech-check slots, save before each if failure matters, and record the trophy only after all three action types succeed. | SN-000103; SN-000127 |
@@ -37,7 +37,7 @@ Source support: SN-000127 plus the source notes named in each row below.
 | `Dragon Aspect` | Learn all three source words. | Check the trophy only after all three Dragon Aspect words are learned, even though all-shouts scope continues beyond this trophy. | SN-000105; SN-000127 |
 | `Hidden Knowledge` | Use Black Book completions. | Project scope routes all seven Black Books; check trophy after the fifth completed/rewarded Black Book. | SN-000105; SN-000127 |
 | `Dragonrider` | Use completed Bend Will on rideable dragons only. | After all three Bend Will words, route five successful dragon mounts with saves and post-dismount camera/state checks. | SN-000105; SN-000111; SN-000127 |
-| `Solstheim Explorer` | Count Solstheim map discoveries. | Track 30 Solstheim location discoveries during island sweeps; TB-031G validates exact marker/discovery cases. | SN-000105; SN-000127 |
+| `Solstheim Explorer` | Count Solstheim map discoveries. | Track 30 Solstheim location discoveries during island sweeps; TB-031G validates marker/discovery case handling. | SN-000105; SN-000127; SN-000128 |
 | `Standing Stones` | Track each stone discovery separately from final power choice. | Route all 13 Standing Stones; final power default remains a separate route/default decision. | SN-000103; SN-000127 |
 | `Master Criminal` | Keep as trophy branch. | Use `HS-TROPHY-MASTER-CRIMINAL`, stage 1000-gold bounty in all nine holds, verify trophy pop, and reload. TB-032 finalizes exact warning/action text. | SN-000103; SN-000127 |
 | Trophy-pop fallback | Use manual saves before one-shot or long-counter completions. | If a trophy does not pop after a sourced completion action, reload the latest pre-action save and repeat the verified action rather than continuing silently. | SN-000101; SN-000103; SN-000105; SN-000127 |
@@ -84,14 +84,14 @@ Source support: SN-000127 plus the source notes named in each row below.
 | `Firebrand Wine Case` | Promoted to `OBJ-002788` parent-quest quest-item checklist cue. | Cue acquisition/use during `Scoundrel's Folly`; final QA verifies retention or turn-in state. |
 | `Map of Dragon Burials` | Promoted to `OBJ-002789` parent-quest quest-item checklist cue. | Cue inspection/acquisition during `A Blade in the Dark`; final QA verifies retention or quest-use state. |
 
-After regeneration, no TB-031F-owned `source_readiness_required` row should remain. Non-TB-031F source-readiness rows stay assigned to TB-031G, TB-031H, or TB-036.
+After regeneration, no TB-031F-owned `source_readiness_required` row should remain. After TB-031H, non-TB-031F source-readiness rows are assigned to TB-036/TB-037 rather than back to TB-031F.
 
 ## Handoffs
 
 | Owner | Remaining work |
 | --- | --- |
-| TB-031G | Validate exact clear/discovery triggers, duplicate markers, location access, and separate-worldspace cases before counter rows become final route steps. |
-| TB-031H | Audit metadata/readiness labels after TB-031F promotions and ensure no stale TB-031F owner labels remain. |
+| TB-031G | Complete: validates clear/discovery mechanics, duplicate and secondary markers, location access classes, no-marker rows, and separate-worldspace cases before counter rows become final route steps. |
+| TB-031H | Complete: audit metadata/readiness labels after TB-031F promotions and assign remaining source-readiness rows to downstream owners. |
 | TB-032 | Place concise warnings for trophy-pop saves, crime branches, Hired Muscle target bugs, Blades/Paarthurnax branch setup, and one-shot counter actions. |
 | TB-033 | Validate final trophy pops, counter totals, branch reload state, and checklist proof against the finished route. |
 | TB-034/TB-037 | Convert these checkpoint policies into final route instructions and checklist cues. |
