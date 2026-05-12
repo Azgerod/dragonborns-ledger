@@ -1,6 +1,6 @@
 # Survival Geography Pass v0
 
-Status: TB-025 complete; downstream route-default, checklist, location-validation, and source-readiness updates refreshed in TB-031K after TB-031J.
+Status: TB-025 complete; downstream route-default, checklist, location-validation, source-readiness, and warning-layer updates refreshed through TB-032.
 
 This is a Phase 6 planning artifact. It reshapes the TB-024 level-gated skeleton around Survival Mode travel, cold, rest, food, carry, storage, and transport pressure. It is not route prose, not a final objective order, and not a flexible-objective insertion pass.
 
@@ -28,8 +28,8 @@ No new gameplay research was performed for this pass. Gameplay facts are carried
 | Level gates still win. | Survival convenience cannot cross the TB-024 mandatory gates at levels 8, 25, 27, 32, 36, 40, 46, 60, 78, 80, or 252. |
 | Branch defaults are external to this geography pass. | Use TB-028 defaults, TB-029 branch prototypes, and TB-031C checklist escalation decisions rather than choosing branch policy here. |
 | Flexible objective insertion is complete at prototype level. | TB-026 inserted safe nearby objective queues into the corridor frame; TB-034 still chooses final step order. |
-| Skill/perk/grind detail is block-level only. | TB-027 supplies progression blocks, underleveled fallbacks, and the Legendary reset baseline; exact source choices, checklist cues, warning prose, and final validation remain later work. |
-| Checklist synchronization is complete at prototype/audit level. | TB-030 mapped the raw checklist; TB-031A through TB-031J resolved review buckets, defaults, counters, location validation, source/index readiness, source-readiness rows, and route-affecting checklist decisions before warning prose. |
+| Skill/perk/grind detail is block-level only. | TB-027 supplies progression blocks, underleveled fallbacks, and the Legendary reset baseline; TB-031E supplies exact source choices; TB-032 supplies warning triggers; checklist cues and final validation remain later work. |
+| Checklist synchronization is complete at prototype/audit level. | TB-030 mapped the raw checklist; TB-031A through TB-031J resolved review buckets, defaults, counters, location validation, source/index readiness, source-readiness rows, and route-affecting checklist decisions before TB-032 warning prose. |
 
 ## Terms
 

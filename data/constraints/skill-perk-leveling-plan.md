@@ -80,7 +80,7 @@ These are planning checkpoints for the later route. They are not final route sec
 
 ## Route-Block Progression Overlay
 
-These rows are TB-027 placement pressure for route blocks `G00` through `G14`. They do not replace objective placement, checklist mapping, branch routing, or final warning prose.
+These rows are TB-027 placement pressure for route blocks `G00` through `G14`. They do not replace objective placement, checklist mapping, branch routing, or the TB-032 warning overlay.
 
 | Block | Progression role | Training, crafting, and economy work | Reset/grind policy | Fallback use |
 | --- | --- | --- | --- | --- |
@@ -187,5 +187,5 @@ Later passes should:
 
 * TB-028/TB-029: choose branch defaults before placing branch-sensitive transformation, artifact, and faction-state grind windows;
 * TB-031E: complete; use `progression-source-selection.md` and `progression-source-selections.csv` for selected skill-book copies, spell-tome sources, enchantment source families, alchemy ingredient methods, investment circuit rules, crafting outputs, trainer blocks, Oghma timing, and reset distribution;
-* TB-032: convert gate and reset risks into concise warning prose at the exact route steps;
+* TB-032: complete; gate and reset risks are recorded as concise warning triggers in the main prototype overlay;
 * TB-033: validate that every gate, Survival support point, perk rank, skill recovery, investment, crafting system, enchantment, alchemy effect, and final all-skills/all-perks condition is satisfied. Expected validation output should include a final skill-state table with fields such as `skill`, `final_level`, `legendary_resets`, `perks_allocated`, and `verification_status`.

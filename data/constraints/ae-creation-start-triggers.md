@@ -12,7 +12,7 @@ Source handling note: UESP direct raw fetches should use `tools/fetch_uesp.py`, 
 | --- | --- |
 | 74 AE package parent rows (`OBJ-000479` through `OBJ-000552`) | Reduced to one start-trigger constraint row per package below. |
 | AE child objective rows from `data/objectives/phase-2-research-inputs.md` | Governed by the package row unless a later constraint pass creates a more specific child-level rule. |
-| Exact conflicts, bugs, cell-entry locks, NPC dependencies, Survival Mode logistics, skill/crafting timing, location validation, source readiness, and checklist mappings | Constraint facts were split across TB-012 through TB-020. TB-031A through TB-031J resolved checklist review buckets, route defaults, progression source selection, counter mechanics, location route validation, readiness ownership, and all remaining checklist source-readiness rows before warning placement. |
+| Exact conflicts, bugs, cell-entry locks, NPC dependencies, Survival Mode logistics, skill/crafting timing, location validation, source readiness, and checklist mappings | Constraint facts were split across TB-012 through TB-020. TB-031A through TB-031J resolved checklist review buckets, route defaults, progression source selection, counter mechanics, location route validation, readiness ownership, and all remaining checklist source-readiness rows before TB-032 warning placement. |
 
 ## Constraint Table
 

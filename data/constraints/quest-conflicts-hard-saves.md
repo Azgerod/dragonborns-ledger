@@ -1,10 +1,37 @@
 # Quest Conflicts and Hard Saves
 
-Status: TB-028 reviewed.
+Status: TB-032 warning-layer placement added.
 
-Scope: this is a constraint table, not route prose. Use it to place hard saves, branch reloads, and warning-layer notes in later route drafts. Trophy timing, NPC protection, and bug mitigations still belong to TB-015, TB-016, and TB-017.
+Scope: this is a constraint table, not route prose. Use it to place hard saves, branch reloads, and warning-layer notes in later route drafts. Trophy timing, NPC protection, and bug mitigations still belong to the cited TB-015, TB-016, and TB-017 tables.
 
 TB-028 decision details live in `drafts/branch-routes/README.md`. The table below records the selected defaults and branch classifications without rewriting `data/objectives/objectives.csv` route-placement counts.
+
+TB-032 consumes this table into `drafts/route-prototypes/main-route-prototype-v0.md` as a concise warning overlay. Final step numbers, pathing, and checklist cues remain TB-034/TB-037 work; TB-033 validates that the warnings protect the sourced constraints.
+
+## TB-032 Hard-Save Placement Register
+
+| Hard-save name | Place immediately before | Main continuity after branch/audit | Warning-layer note |
+| --- | --- | --- | --- |
+| `HS-CW-BEFORE-FACTION-OATH` | Civil War faction oath/commitment. | Reload and join Imperial. | Keep separate hard saves before Season Unending or any hold handoff that could skip War Hero. |
+| `HS-DG-BLOODLINE` | Lord Harkon's faction choice in `Bloodline`. | Reload and refuse the gift for Dawnguard. | Volkihar branch must verify spouse state for `The Gift` or mark it conditional. |
+| `HS-DB-ABANDONED-SHACK` | Abandoned Shack commitment. | Reload and join the Dark Brotherhood. | Complete or intentionally skip `Delayed Burial` before commitment. |
+| `HS-MQ-PAARTHURNAX` | Killing Paarthurnax. | Reload with Paarthurnax alive. | Blades rebuilding and dragon hunt are branch-only checklist rows. |
+| `HS-DRAGONBORN-THIRSK-CHOICE` | Thirsk Mead Hall side choice. | Reload and complete Nord-side `Retaking Thirsk`. | Save again before hall assault and let objective state settle. |
+| `HS-AE-GHOSTS-TEMPLE` | Ghosts heretic join/infiltrate versus destruction commitment. | Reload and keep join/infiltrate continuity. | Destroy branch records altered Temple state and `Reclamation Priest's Journal (AE)`. |
+| `HS-AE-BITTERCUP-ALTAR` | Bittercup altar path choice. | Reload after Power and Nothing audits; continue Fortune. | Main route keeps Fortune for Master Transmute coverage. |
+| `HS-DAEDRIC-BLACK-STAR` | Final Black Star reward choice. | Reload and keep The Black Star. | Azura's Star/Aranea is reward-branch coverage. |
+| `HS-DAEDRIC-CLAVICUS` | Final Barbas choice. | Reload, spare Barbas, and take Masque. | Rueful Axe does not carry Oblivion Walker-safe main continuity. |
+| `HS-DAEDRIC-HIRCINE-GROTTO` | Hircine outcome after Bolar/grotto state is protected if needed. | Reload and keep Ring of Hircine. | Savior's Hide is reward branch; dual-artifact path is appendix/audit only. |
+| `HS-DAEDRIC-MEHRUNES-SHRINE` | Silus shrine decision. | Reload and kill Silus/reforge Mehrunes' Razor. | Spare-Silus outcome is non-artifact branch coverage only. |
+| `HS-DAEDRIC-NAMIRA-FEAST` | Verulus/Namira feast outcome. | Reload and complete Ring of Namira path. | Save-Verulus/kill-Eola outcomes are branch-only. |
+| `HS-DAEDRIC-VAERMINA-SKULL` | Erandur final choice. | Reload and take Skull of Corruption. | Erandur follower outcome is branch-only. |
+| `HS-DG-AETHERIUM-FORGE` | Forging the single Aetherial item. | Audit Staff and Shield, then reload and craft Crown. | Lost to the Ages trophy is separate from the kept reward. |
+| `HS-TG-ARTICULATION-REWARD` | Brynjolf's Guild Master reward conversation for the Amulet of Articulation. | Reload until the selected strongest version is awarded, or record an explicit final-route tradeoff if accepting a random version. | Random reward version, not a level or cell-entry lock. |
+| `HS-TROPHY-MASTER-CRIMINAL` | Deliberate all-holds bounty escalation. | Reload after trophy pop. | Use controlled nonessential crime escalation, avoid killing quest-critical NPCs, verify 1000 bounty in all nine holds and trophy pop. |
+| `HS-RIFT-FROST-LETRUSH` | Frost handoff/outcome. | Keep Frost on the main save. | Alternate Louis/Maven handling remains optional unless TB-033 finds a gap. |
+| `HS-DRAGONBORN-UNEARTHED-RALIS` | Ralis final outcome. | Spare Ralis on the main save. | Kill outcome remains optional unless TB-033 finds a gap. |
+| `HS-COLLEGE-VELEHK-SAIN` | Velehk Sain outcome. | Release Velehk for hidden treasure path. | Kill outcome remains optional note. |
+| `HS-AE-CIVIL-WAR-CHAMPIONS` | Battle of the Champions side/outcome if separated. | Keep Imperial-aligned handling. | TB-033 verifies both equipment-set availability before final checklist mapping. |
 
 ## Full Branch Routes
 
@@ -49,7 +76,7 @@ TB-028 decision details live in `drafts/branch-routes/README.md`. The table belo
 
 | Trophy or action | Affected objectives | Canonical route | Branch route | Hard-save name | Source notes | Status |
 | --- | --- | --- | --- | --- | --- | --- |
-| Master Criminal trophy | OBJ-002777 | Preserve a clean final continuity without permanent all-holds bounty disruption. | TB-029 drafts a compact trophy branch with placeholder crime method: stage a controlled 1000-gold bounty in all nine holds, verify the trophy pop, then reload. | HS-TROPHY-MASTER-CRIMINAL | SN-000103 | TB-028 trophy branch; TB-032 finalizes exact warnings and crime actions. |
+| Master Criminal trophy | OBJ-002777 | Preserve a clean final continuity without permanent all-holds bounty disruption. | Stage controlled 1000-gold bounties in all nine holds on the trophy branch, avoid quest-critical NPC deaths, verify the trophy pop, then reload. Final step locations remain TB-034 route prose. | HS-TROPHY-MASTER-CRIMINAL | SN-000103 | TB-032 warning/action layer placed; TB-033 validates. |
 
 ## Sequencing and Missability Warnings
 
@@ -74,12 +101,12 @@ TB-028 decision details live in `drafts/branch-routes/README.md`. The table belo
 
 | Candidate group | Disposition | Source notes |
 | --- | --- | --- |
-| Full/compact branches with resolved canonical defaults | Civil War, Dawnguard, Dark Brotherhood, compact Paarthurnax, Thirsk, Ghosts of the Tribunal, and Bittercup are ready for TB-029 branch-route construction. | SN-000097, SN-000099 |
-| Reward branches with resolved defaults | Black Star, Clavicus, Hircine, Mehrunes, Namira, Vaermina, and Aetherium are ready for compact reward-branch prototypes. | SN-000098, SN-000099 |
-| Main-route resolved outcome notes | Frost, Ralis, Velehk Sain, and Battle of the Champions have main-continuity defaults; only escalate to branch prototypes if TB-031C checklist escalation requires alternate-outcome coverage. | SN-000099 |
+| Full/compact branches with resolved canonical defaults | Civil War, Dawnguard, Dark Brotherhood, compact Paarthurnax, Thirsk, Ghosts of the Tribunal, and Bittercup have TB-029 branch prototypes and TB-032 warning placement. | SN-000097, SN-000099 |
+| Reward branches with resolved defaults | Black Star, Clavicus, Hircine, Mehrunes, Namira, Vaermina, and Aetherium have compact reward-branch prototypes and TB-032 warning placement. | SN-000098, SN-000099 |
+| Main-route resolved outcome notes | Frost, Ralis, Velehk Sain, and Battle of the Champions have main-continuity defaults; TB-033 may still reject an assumption if checklist validation proves alternate-outcome coverage is missing. | SN-000099 |
 | Isolated moral/preference choices | Keep as option-list defaults unless a later checklist/trophy/NPC pass upgrades them to branch routes. | SN-000099 |
-| Branch checklist escalation | TB-031C may promote an optional outcome if checklist mapping finds unique items, followers, services, powers, spells, locations, or persistent states not otherwise represented. | SN-000099 |
-| Radiant/bounty/work activity candidates | Defer repetition boundaries and representative selection to TB-018. | SN-000011, SN-000013, SN-000089 |
-| Bug-only candidates | Keep the warning pointer here only when route order is affected; detailed mitigation belongs to TB-017. | SN-000100 |
-| NPC/property/family/service dependencies | Keep the branch/option classification here; exact NPC survival and service defaults belong to TB-016. | SN-000067, SN-000100 |
+| Branch checklist escalation | TB-031C applied current checklist escalation decisions. Future escalation requires a new contradiction or TB-033 validation finding. | SN-000099 |
+| Radiant/bounty/work activity candidates | TB-018 and TB-031F set repetition boundaries and representative/counter handling; final placement remains TB-034. | SN-000011, SN-000013, SN-000089, SN-000127 |
+| Bug-only candidates | Keep the warning pointer here only when route order is affected; detailed mitigations are in `data/constraints/bug-prone-quests.md` and the TB-032 overlay. | SN-000100 |
+| NPC/property/family/service dependencies | Keep the branch/option classification here; TB-031D selected route defaults and TB-032 records warning triggers, while final step order remains TB-034. | SN-000067, SN-000100 |
 | Duplicate or excluded rows | No hard-save row needed for duplicate cross-references, unique-only enchantment exclusions, or unbounded child/random events unless later checklist mapping reopens them. | SN-000083, SN-000089 |

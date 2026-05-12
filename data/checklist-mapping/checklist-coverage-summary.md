@@ -76,7 +76,7 @@ TB-031J pulled the remaining source-readiness rows forward from TB-036, added `d
 | AE book/document rows | 41 | Mapped to existing main-route AE quest/package handling. |
 | Ghosts branch document row | 1 | `Reclamation Priest's Journal (AE)` maps to BR-007 because the source ties it to the Reclamation Priest attack-state branch. |
 | Regular/scope book rows | 2 | `A Kiss, Sweet Mother` and `Pension of the Ancestor Moth` are explicit exclusions after source checking. |
-| Remaining `source_readiness_required` rows | 0 | No checklist source-readiness holds remain before TB-032. |
+| Remaining `source_readiness_required` rows | 0 | No checklist source-readiness holds remained before TB-032, and none were reintroduced by TB-032. |
 
 ## Handoffs
 
@@ -94,6 +94,6 @@ TB-031J pulled the remaining source-readiness rows forward from TB-036, added `d
 | TB-031I | Complete: `docs/deferred-work-audit.md` is closed, and active generic deferrals have explicit downstream owners before warning-layer work starts. |
 | TB-031J | Complete: `source-readiness-resolutions.csv` and `SN-000129` resolve all remaining source-readiness rows before warning-layer work. |
 | TB-031K | Complete: downstream planning and coordination artifacts now consume the resolved checklist, default, progression, counter, branch, location, and source-readiness decisions. |
-| TB-032 | Warning placement can now proceed using the refreshed downstream planning stack. |
+| TB-032 | Complete: warning and hard-save trigger placement now exists in the main prototype and conflict register. |
 | TB-033 | Validate that branch/checklist mappings still preserve canonical continuity and trophy/reward constraints. |
 | TB-036/TB-037 | Verify appendix and final checklist coverage after TB-031A/B/C/E/F/G/H/I/J/K and final guide drafting; no source-readiness bucket remains for TB-036. |

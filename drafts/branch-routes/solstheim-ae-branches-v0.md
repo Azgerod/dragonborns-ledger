@@ -1,6 +1,6 @@
 # Solstheim and AE Branch Prototypes v0
 
-Status: TB-029 complete.
+Status: TB-032 warning overlay integrated after TB-029 completion.
 
 Scope: compact branch prototypes for Dragonborn/Solstheim and Anniversary Edition choice branches resolved by TB-028. These are not final guide prose and do not choose checklist defaults beyond the TB-028 matrix.
 
@@ -10,7 +10,7 @@ Scope: compact branch prototypes for Dragonborn/Solstheim and Anniversary Editio
 | --- | --- |
 | Branch order | Create the named hard save, play each alternate branch first, verify branch-exclusive content, reload, then continue canonical main continuity. |
 | Duplication boundary | Do not duplicate canonical Solstheim or AE quest progression unless the alternate state changes rewards, followers, services, powers, or checklist meaning. |
-| Placement boundary | TB-029 records branch containers; exact route-block placement and warning prose remain TB-032/TB-033 work. |
+| Placement boundary | TB-029 records branch containers; TB-032 records warning and hard-save triggers; TB-033 validates branch safety; TB-034 places final step order. |
 | Branch verification | TB-033 should verify objective completion, branch-exclusive reward/state capture, reload point, and restoration of canonical continuity. |
 
 ## Branch Prototype Index
@@ -134,7 +134,7 @@ Branch objective and reward queue:
 | `ITEM-001140` | `Rulnik's Dagger` | Nothing-path reward member. |
 | `ITEM-001141` | `Ironwood Soup` | Nothing-path food/support member. |
 | `ITEM-001142` | `Ironwood Soup` | Duplicate/source-listed soup member; TB-031C did not promote a separate checklist row. |
-| `ITEM-001143` | `Hot Ironwood Soup` | Survival-relevant variant; TB-031C did not promote a separate checklist row, but TB-032 may still cue it if Survival warnings need it. |
+| `ITEM-001143` | `Hot Ironwood Soup` | Survival-relevant variant; TB-031C did not promote a separate checklist row, and TB-032 does not add a separate checklist cue for it. TB-034 may use it only as branch-local food support. |
 | `NPCOPT-000058` | `Rulnik Wind-Strider` spouse candidate | Branch-only option surface. |
 | `NPCOPT-000130` | `Rulnik Wind-Strider` steward candidate | Branch-only option surface. |
 | `NPCOPT-000215` | `Rulnik Wind-Strider` follower candidate | Branch-only option surface. |

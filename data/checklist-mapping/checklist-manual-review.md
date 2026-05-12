@@ -38,7 +38,7 @@ Two additional rows (`Dawnguard` and `Dragonborn`) were fixed by tightening the 
 
 At the TB-031B checkpoint, these rows were no longer generic manual review. They were explicit `source_readiness_required` rows with `match_status=support_table_only`, `source_note_refs=SN-000125-checklist-manual-review-reconciliation.md`, and a named owner in `guide_location`.
 
-This table records the TB-031B source-readiness buckets with current owner annotations where later TB-031 tasks have completed. For current counts, use `checklist-coverage-summary.md`; by TB-031G, the single location row (`The Chill*`) had been resolved as an explicit official-scope exclusion, and TB-031J pulled the remaining book/document, unique-gear, and skill-book holds forward before TB-032.
+This table records the TB-031B source-readiness buckets with current owner annotations where later TB-031 tasks have completed. For current counts, use `checklist-coverage-summary.md`; by TB-031G, the single location row (`The Chill*`) had been resolved as an explicit official-scope exclusion, TB-031J pulled the remaining book/document, unique-gear, and skill-book holds forward before TB-032, and TB-032 did not reintroduce source-readiness holds.
 
 | Category | Rows | Owner |
 | --- | ---: | --- |
@@ -55,7 +55,7 @@ This table records the TB-031B source-readiness buckets with current owner annot
 
 Historically, `source_readiness_required` did not mean the item was route-ready, appendix-ready, or in final scope. It meant the raw checklist row was visible as a typed reconciliation input and the named task had to make a source-backed decision before final checklist synchronization.
 
-TB-031J has now made those source-backed decisions for every remaining source-readiness row. Do not reintroduce source-readiness holds in TB-032 warning prose, TB-033 validation, or final-guide drafting unless a new concrete checklist/source contradiction is discovered and assigned to a named task.
+TB-031J has now made those source-backed decisions for every remaining source-readiness row. TB-032 preserved that state. Do not reintroduce source-readiness holds in TB-033 validation or final-guide drafting unless a new concrete checklist/source contradiction is discovered and assigned to a named task.
 
 Expected counts after TB-031B:
 

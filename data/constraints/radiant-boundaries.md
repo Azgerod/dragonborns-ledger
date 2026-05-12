@@ -71,7 +71,7 @@ Scope: this is a constraint table, not route prose. It distinguishes required ra
 
 | Topic | Follow-up |
 | --- | --- |
-| Companions Hired Muscle | TB-031F maps checklist `Scare My Enemy` to Hired Muscle. Accept and route it if the early seed offers it, but do not require a new-game restart solely for this representative radiant type; TB-032/TB-034 handle exact target warnings and placement. |
+| Companions Hired Muscle | TB-031F maps checklist `Scare My Enemy` to Hired Muscle. Accept and route it if the early seed offers it, but do not require a new-game restart solely for this representative radiant type; TB-032 records the target warning and TB-034 handles placement. |
 | Thieves Guild 125 side jobs | TB-031F records city-tally, rejection/reload, Raven Rock/Riften, job-type, and total-counter policy for the required completionist 125-job boundary through `OBJ-000048`. |
 | Dawnguard Lost Relic filler | TB-031F records all-three-relic treatment and requires route phases to record actual side-radiant fillers while cycling for all three relics. |
 | New Allegiances | TB-031C/TB-029 keep one Volkihar branch conversion as the prototype scope unless later checklist proof escalates named variants. |

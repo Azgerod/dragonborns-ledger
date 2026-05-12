@@ -138,8 +138,9 @@ Use these query surfaces by phase:
 | TB-026 flexible insertion | `route_candidate_selection_queue`, corridor views, and `prototype-objective-block-map.csv` | Pick safe nearby objectives only after constraints and candidate rows are checked; keep per-objective assignments auditable. |
 | TB-027 skill/perk/crafting | `route_objective_workbench` filtered by `category IN ('skill_perk','crafting_unlock')` and progression constraints | Use skill support tables and TB-020 notes for actual progression choices. |
 | TB-028/TB-029 branches | `objective_constraints` filtered to `constraint_type = 'quest_conflict_or_branch'` | Build branch/default matrix from canonical conflict rows. |
-| TB-030/TB-031A-TB-031K checklist mapping and reconciliation | `route_objective_workbench` plus `data/checklist-mapping/coverage-matrix.csv` | Complete: stable prototype mappings, review buckets, location validation, source-note/generated-index readiness, checklist-driven defaults/escalations, all source-readiness rows, and downstream planning refresh are resolved before warning prose. |
-| TB-032/TB-033 warning/validation | `route_hard_constraint_queue` | Place concise warnings, then validate route against source constraint tables. |
+| TB-030/TB-031A-TB-031K checklist mapping and reconciliation | `route_objective_workbench` plus `data/checklist-mapping/coverage-matrix.csv` | Complete: stable prototype mappings, review buckets, location validation, source-note/generated-index readiness, checklist-driven defaults/escalations, all source-readiness rows, and downstream planning refresh were resolved before warning prose. |
+| TB-032 warning layer | `route_hard_constraint_queue` plus `drafts/route-prototypes/main-route-prototype-v0.md` | Complete: concise warning and hard-save triggers are recorded in the route prototype and conflict register. |
+| TB-033 validation | `route_hard_constraint_queue` plus source constraint tables | Validate the warning-layered route against source constraint tables. |
 
 ## Useful SQL Queries
 

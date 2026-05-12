@@ -78,5 +78,5 @@ Exact reset counts are not invented here. They depend on final route order, natu
 | TB-031G | Complete: route-access class validation for geography-sensitive source locations; final step placement remains TB-034. |
 | TB-031H | Complete: readiness metadata cleanup for older source notes/objective/support rows and generated labels is recorded in `docs/source-objective-readiness-audit.md`. |
 | TB-031J | Complete: remaining checklist source-readiness rows are resolved as source-backed main-route mappings, one BR-007 branch mapping, or explicit exclusions. |
-| TB-032 | Place concise warnings for the progression risks chosen here. |
+| TB-032 | Complete: concise warning triggers for progression risks chosen here are recorded in the main prototype warning overlay. |
 | TB-033 | Validate final skill state, exact reset counts, learned enchantments, alchemy effects, investments, crafting systems, and final all-perks/all-skills satisfaction. |

@@ -20,9 +20,10 @@ Generated TB-030 outputs:
 * `counter-coverage-plan.md` records the TB-031F route-planning decisions for checklist/trophy counters, activity mechanics, and counter-owned source-readiness rows.
 * `../locations/location-route-validation.md` records the TB-031G location route-validation decisions for Delver/Explorer mechanics, marker exceptions, content-location treatment, and the former location source-readiness row.
 * `../../docs/source-objective-readiness-audit.md` records the TB-031H readiness audit for source notes, objective rows, support tables, and generated owner labels.
-* `../../docs/deferred-work-audit.md` records the closed TB-031I final deferred-work scan before warning placement.
+* `../../docs/deferred-work-audit.md` records the closed TB-031I final deferred-work scan before warning placement and TB-032's completed warning/hard-save trigger layer.
 * `source-readiness-resolutions.csv` records the TB-031J row-level source-readiness resolutions consumed by the coverage generator.
-* TB-031K refreshed downstream route/constraint/coordination artifacts so these resolved checklist decisions are current inputs to TB-032.
+* TB-031K refreshed downstream route/constraint/coordination artifacts so these resolved checklist decisions were current inputs to TB-032.
+* TB-032 records the warning/hard-save layer consumed by TB-033 validation.
 
 Regenerate the matrix with:
 

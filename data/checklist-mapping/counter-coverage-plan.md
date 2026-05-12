@@ -39,7 +39,7 @@ Source support: SN-000127 plus the source notes named in each row below.
 | `Dragonrider` | Use completed Bend Will on rideable dragons only. | After all three Bend Will words, route five successful dragon mounts with saves and post-dismount camera/state checks. | SN-000105; SN-000111; SN-000127 |
 | `Solstheim Explorer` | Count Solstheim map discoveries. | Track 30 Solstheim location discoveries during island sweeps; TB-031G validates marker/discovery case handling. | SN-000105; SN-000127; SN-000128 |
 | `Standing Stones` | Track each stone discovery separately from final power choice. | Route all 13 Standing Stones; final power default remains a separate route/default decision. | SN-000103; SN-000127 |
-| `Master Criminal` | Keep as trophy branch. | Use `HS-TROPHY-MASTER-CRIMINAL`, stage 1000-gold bounty in all nine holds, verify trophy pop, and reload. TB-032 finalizes exact warning/action text. | SN-000103; SN-000127 |
+| `Master Criminal` | Keep as trophy branch. | Use `HS-TROPHY-MASTER-CRIMINAL`, stage controlled 1000-gold bounties in all nine holds, avoid quest-critical NPC deaths, verify trophy pop, and reload. TB-034 chooses final step locations. | SN-000103; SN-000127 |
 | Trophy-pop fallback | Use manual saves before one-shot or long-counter completions. | If a trophy does not pop after a sourced completion action, reload the latest pre-action save and repeat the verified action rather than continuing silently. | SN-000101; SN-000103; SN-000105; SN-000127 |
 
 ## Thieves Guild 125-Job Plan
@@ -92,6 +92,6 @@ After regeneration, no TB-031F-owned `source_readiness_required` row should rema
 | --- | --- |
 | TB-031G | Complete: validates clear/discovery mechanics, duplicate and secondary markers, location access classes, no-marker rows, and separate-worldspace cases before counter rows become final route steps. |
 | TB-031H/TB-031J | Complete: audit metadata/readiness labels after TB-031F promotions, then resolve remaining source-readiness rows before warning placement. |
-| TB-032 | Place concise warnings for trophy-pop saves, crime branches, Hired Muscle target bugs, Blades/Paarthurnax branch setup, and one-shot counter actions. |
+| TB-032 | Complete: warning triggers for trophy-pop saves, crime branches, Hired Muscle target bugs, Blades/Paarthurnax branch setup, and one-shot counter actions are recorded in the main prototype warning overlay. |
 | TB-033 | Validate final trophy pops, counter totals, branch reload state, and checklist proof against the finished route. |
 | TB-034/TB-037 | Convert these checkpoint policies into final route instructions and checklist cues. |

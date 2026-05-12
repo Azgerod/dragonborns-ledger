@@ -1,8 +1,8 @@
 # Reward and Trophy Branch Prototypes v0
 
-Status: TB-029 complete.
+Status: TB-032 warning overlay integrated after TB-029 completion.
 
-Scope: compact outcome branches for Daedric rewards, Aetherium Forge rewards, and the Master Criminal trophy branch. These are branch prototypes, not final black-box guide steps. Exact warning placement remains TB-032; checklist validation remains TB-033.
+Scope: compact outcome branches for Daedric rewards, Aetherium Forge rewards, and the Master Criminal trophy branch. These are branch prototypes, not final black-box guide steps. TB-032 records warning and hard-save trigger placement; checklist validation remains TB-033.
 
 ## Operating Rules
 
@@ -43,8 +43,8 @@ Daedric warnings and handoffs:
 | Topic | TB-029 handling |
 | --- | --- |
 | Oblivion Walker | Canonical route must use artifact-awarding outcomes and must not rely on the Hircine dual-artifact route. |
-| Hircine cell state | Preserve the Bloated Man's Grotto / Bolar's Oathblade warning for TB-032 before final Hircine route prose. |
-| NPC dependencies | Silus, Eola/Verulus, Sinding, Erandur, Lod/Barbas, and other branch NPC warnings remain in TB-016/TB-032. |
+| Hircine cell state | TB-032 records the Bloated Man's Grotto / Bolar's Oathblade warning before final Hircine route prose. |
+| NPC dependencies | Silus, Eola/Verulus, Sinding, Erandur, Lod/Barbas, and other branch NPC warnings are recorded in TB-016/TB-032 source-backed tables. |
 | Reload point | After each alternate reward audit, reload the named hard save and execute the canonical artifact-safe choice. |
 
 ## BR-015 - Aetherium Forge Reward Branches
@@ -91,8 +91,8 @@ Warnings and handoffs:
 
 | Topic | TB-029 handling |
 | --- | --- |
-| Exact crime actions | Deferred to TB-032 warning/final route layer. Do not fabricate a crime method here. |
-| Trophy-pop fallback | Keep recent manual save; if trophy does not pop, reload and repeat according to TB-032 final method. |
+| Exact crime actions | TB-032 records the action limits: controlled 1000-gold bounties in all nine holds, avoid quest-critical NPC deaths, verify trophy, reload. TB-034 chooses final step locations. |
+| Trophy-pop fallback | Keep recent manual save; if trophy does not pop, reload and repeat the verified action according to the TB-032 warning layer. |
 | Final state | Reload after trophy verification; do not carry all-holds bounty into final continuity. |
 
 ## Main-Route Resolved Outcome Notes

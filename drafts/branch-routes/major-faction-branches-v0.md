@@ -1,6 +1,6 @@
 # Major Faction Branch Prototypes v0
 
-Status: TB-029 complete.
+Status: TB-032 warning overlay integrated after TB-029 completion.
 
 Scope: compact branch prototypes for the major faction and faction-adjacent choices resolved by TB-028. These are not final guide prose. Each branch records the hard save, alternate-only objective coverage, reload point, and later warning/checklist handoffs.
 
@@ -10,7 +10,7 @@ Scope: compact branch prototypes for the major faction and faction-adjacent choi
 | --- | --- |
 | Branch order | Create the named hard save, play the alternate branch first, verify branch-exclusive content, reload, then continue canonical main continuity. |
 | Duplication boundary | Do not repeat objectives that belong to the canonical main route unless the alternate state changes availability, reward, trophy meaning, or warning placement. |
-| Placement boundary | TB-029 does not decide exact route-block insertion. TB-032 places warnings and hard-save text; TB-033 validates branch safety. |
+| Placement boundary | TB-029 does not decide exact route-block insertion. TB-032 records warning and hard-save trigger placement; TB-033 validates branch safety; TB-034 places final step order. |
 | Branch verification | TB-033 should verify objective completion, branch-exclusive reward/state capture, trophy behavior where relevant, reload point, and restoration of canonical continuity. |
 | Canonical continuity | Imperial, Dawnguard, Dark Brotherhood join, and Paarthurnax preserved. |
 
@@ -56,7 +56,7 @@ Warnings and handoffs:
 
 | Topic | TB-029 handling |
 | --- | --- |
-| War Hero | Preserve the warning that Season Unending or hold handoffs must not skip the eligible fort battle. TB-032 places the exact warning. |
+| War Hero | Preserve the warning that Season Unending or hold handoffs must not skip the eligible fort battle. TB-032 records the warning trigger. |
 | Captain Aldis | Complete Aldis-linked favor work before the Stormcloak branch reaches Solitude if final route keeps that favor. |
 | Main-route duplicate risk | Do not include Imperial-side objectives in this branch prototype. |
 | Reload point | After branch-exclusive Stormcloak campaign audit, reload `HS-CW-BEFORE-FACTION-OATH` and continue Imperial. |
@@ -102,7 +102,7 @@ Warnings and handoffs:
 | --- | --- |
 | Conversion depth | Prototype one successful `New Allegiances` conversion; TB-031C found no checklist evidence requiring all three named conversions. |
 | Representative radiants | `Culling the Beast`, `Deceiving the Herd`, `The Hunt`, and `Protecting the Bloodline` stay at one representative branch instance. |
-| Spouse-state dependency | `The Gift` requires spouse-state coordination. TB-031D/TB-032 must ensure the branch save has a valid spouse setup or explicitly mark the quest conditional. |
+| Spouse-state dependency | `The Gift` requires spouse-state coordination. TB-031D supplies the Ysolda default, and TB-032 marks `HS-DG-BLOODLINE` as requiring a valid spouse setup or a conditional quest label. |
 | Transformation planning | Vampire Lord perk-tree work is a wider progression/transformation issue and must not be silently solved inside this branch file. |
 | Dawnguard final continuity | Never route `Destroying the Dawnguard` on the canonical Dawnguard save. |
 | Reload point | After Volkihar branch-exclusive audit, reload `HS-DG-BLOODLINE` and continue Dawnguard. |
@@ -132,7 +132,7 @@ Warnings and handoffs:
 
 | Topic | TB-029 handling |
 | --- | --- |
-| `Delayed Burial` | Complete or intentionally skip according to the main route before either Dark Brotherhood commitment. TB-032 places exact warning text. |
+| `Delayed Burial` | Complete or intentionally skip according to the main route before either Dark Brotherhood commitment. TB-032 records the warning trigger. |
 | Falkreath/property risk | Do not let the branch prototype replace the broader Helvard/Lakeview property warning layer. |
 | Reload point | After destroy-route audit, reload `HS-DB-ABANDONED-SHACK` and continue the join route. |
 

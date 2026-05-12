@@ -1,6 +1,6 @@
 # Branch Routes
 
-Status: TB-029 complete; TB-031C checklist escalation decisions and TB-031J source-readiness resolutions integrated by TB-031K refresh.
+Status: TB-032 warning overlay integrated after TB-029 branch prototypes, TB-031C checklist escalation decisions, and TB-031J source-readiness resolutions.
 
 Selective alternate-branch route drafts belong here. Branch drafts should stay sharply scoped to branch-exclusive content and should not duplicate objectives intended for the canonical main route.
 
@@ -58,7 +58,7 @@ This file preserves the TB-028 branch decision matrix and indexes the TB-029 bra
 | Representative radiants | Do not escalate checklist variants into all-target coverage. Keep representative-type coverage; TB-031F chooses exact route actions. |
 | Thieves Guild 125 jobs | Required completionist counter coverage through `OBJ-000048`; TB-031F handles job mix and counter mechanics. |
 | Volkihar radiants and `New Allegiances` | Keep one representative branch instance and one successful `New Allegiances` conversion; no all-target escalation from checklist evidence. |
-| `The Gift` | Branch-only and spouse-state conditional; TB-031D/TB-032 must coordinate spouse setup or mark it conditional. |
+| `The Gift` | Branch-only and spouse-state conditional; TB-031D recommends the Ysolda spouse default, and TB-032 marks the `HS-DG-BLOODLINE` branch save as needing spouse-state verification or a conditional label. |
 | Thirsk | Nord side and Nord-side favors are canonical main-route rows; Riekling side remains BR-006. |
 | Bittercup | Fortune remains canonical; `The Pit` is BR-008A Power branch; Nothing/Rulnik remains compact branch/option coverage. |
 | Daedric/Aetherial rewards | Ring of Hircine and Aetherial Crown are canonical main-route rows; alternate rewards remain compact reward branches. |
@@ -85,7 +85,7 @@ This file preserves the TB-028 branch decision matrix and indexes the TB-029 bra
 | BR-002 | Dawnguard versus Volkihar at `Bloodline` | Dawnguard; refuse Harkon's gift. | Full branch route. | `HS-DG-BLOODLINE` | Volkihar quest/radiant/reward rows `OBJ-000356`, `OBJ-000357`, `OBJ-000374` through `OBJ-000383`, plus branch-only amulets/rings. | `SN-000097`, `SN-000105`, `SN-000114` | `New Allegiances` baseline is one successful conversion. TB-031C found no checklist evidence requiring all three named conversions. |
 | BR-003 | Dark Brotherhood join versus destroy | Join the Dark Brotherhood. | Full branch route. | `HS-DB-ABANDONED-SHACK` | `Destroy the Dark Brotherhood!` branch-exclusive outcome and unavailable join-route comparison; reload before join route. | `SN-000097`, `SN-000100`, `SN-000102` | Complete or intentionally skip `Delayed Burial` before either commitment according to the main route. |
 | BR-004 | Paarthurnax / Blades conflict | Preserve Paarthurnax. | Compact branch route. | `HS-MQ-PAARTHURNAX` | Kill-Paarthurnax outcome and Blades support state only; reload to preserve Greybeards support. | `SN-000097` | Do not move main-route shout/word-wall support into the branch unless it is Blades-exclusive. |
-| BR-005 | Master Criminal trophy | Clean final continuity, no permanent all-holds bounty state. | Trophy branch. | `HS-TROPHY-MASTER-CRIMINAL` | TB-029 drafts a compact trophy branch with placeholder crime method: controlled 1000-gold bounty in all nine holds, trophy verification, then reload. | `SN-000103` | This is not mutually exclusive story content, but it is branch-routed because the final-state disruption is large. TB-032 finalizes exact warnings and crime actions. |
+| BR-005 | Master Criminal trophy | Clean final continuity, no permanent all-holds bounty state. | Trophy branch. | `HS-TROPHY-MASTER-CRIMINAL` | TB-029 drafts a compact trophy branch: controlled 1000-gold bounty in all nine holds, trophy verification, then reload. | `SN-000103` | This is not mutually exclusive story content, but it is branch-routed because the final-state disruption is large. TB-032 now records warning/action limits; TB-034 places final step locations. |
 | BR-006 | Thirsk Mead Hall control | Retaking Thirsk / Nord side. | Full branch route. | `HS-DRAGONBORN-THIRSK-CHOICE` | Riekling-side `The Chief of Thirsk Hall`, Riekling occupant/follower state, and Riekling-only post-state checks. | `SN-000034`, `SN-000099`, `SN-000107`, `SN-000111` | TB-031C promoted Nord-side Thirsk rows to main-route handling because the canonical default preserves the source-listed Thirsk favor/service/spouse-candidate surface around Halbarn, Hilund, and Elmus. |
 | BR-007 | Ghosts of the Tribunal heretics | Join/infiltrate heretic path. | Full branch route. | `HS-AE-GHOSTS-TEMPLE` | Destroy-heretics outcome and alternate Temple state, including TB-031J branch coverage for `Reclamation Priest's Journal (AE)`. | `SN-000099`, `SN-000129` | Main default preserves armory access, crafting permissions, followers, companion tasks, and Skullcrusher access. |
 | BR-008 | Bittercup altar path | Fortune path. | Two compact alternate branches. | `HS-AE-BITTERCUP-ALTAR` | From the altar save, route Power -> `The Pit`, Grand Champion's Sword, and Grand Champion's Helm; then Nothing -> Rulnik, Rulnik's Dagger, and Ironwood Soup support. Reload after each branch and continue Fortune on the main save. | `SN-000099` | TB-031C made `The Pit` branch-only in the objective map. Fortune remains the main default because the sourced reward table makes Master Transmute path-specific, and spell/permanent-spell coverage is main-route scope. |
@@ -119,7 +119,7 @@ This file preserves the TB-028 branch decision matrix and indexes the TB-029 bra
 | 1 | Major faction branches | Civil War Stormcloak, Volkihar, Destroy the Dark Brotherhood, compact Paarthurnax/Blades. |
 | 2 | Solstheim and AE branches | Thirsk Riekling branch, Ghosts destroy-heretics branch, Bittercup Power and Nothing branches. |
 | 3 | Reward branches | Daedric outcome branches and Aetherium Forge reward branches. |
-| 4 | Trophy branch | Master Criminal compact trophy branch with placeholder crime method; TB-032 finalizes exact warnings/actions. |
+| 4 | Trophy branch | Master Criminal compact trophy branch; TB-032 records warning/action limits and TB-034 places final step locations. |
 | 5 | Optional outcome notes | Velehk, Frost, Ralis, Battle of the Champions side staging, and isolated moral choices only if checklist mapping escalates them. |
 
 ## Handoffs
@@ -129,5 +129,5 @@ This file preserves the TB-028 branch decision matrix and indexes the TB-029 bra
 | TB-029 | Complete. Prototype files listed above include branch-exclusive objectives only, plus explicit reload/resume points. |
 | TB-031C | Complete. `data/checklist-mapping/checklist-escalation-decisions.md` records no all-target radiant escalation, required Thieves Guild 125-job counter coverage, canonical/default promotions, and branch-only holds. |
 | TB-031J | Complete. `data/checklist-mapping/source-readiness-resolutions.csv` maps `Reclamation Priest's Journal (AE)` to BR-007 and leaves no unresolved source-readiness branch bucket. |
-| TB-032 | Place concise hard-save and warning text at the exact main-route steps. |
+| TB-032 | Complete. Warning and hard-save trigger placement is recorded in `drafts/route-prototypes/main-route-prototype-v0.md` and `data/constraints/quest-conflicts-hard-saves.md`. |
 | TB-033 | Validate objective completion, branch-exclusive reward/state capture, trophy pop where relevant, reload point, and restoration of canonical continuity without duplicating main-route objectives. |
