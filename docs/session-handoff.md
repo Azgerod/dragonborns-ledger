@@ -6,11 +6,11 @@ This file exists to make a session switch cheap. It is a coordination note only;
 
 ## Current Project State
 
-Phase 1 source-list objective setup is closed. The objective database currently has 2,772 rows, and source notes currently run through `SN-000089-activity-favor-boundary-reconciliation.md`.
+Phase 1 source-list objective setup is closed. The objective database currently has 2,772 rows, and source notes currently run through `SN-000100-sequencing-missability-and-property-warnings.md`.
 
-Phase 2 constraint-table research is ready to begin. Route construction remains blocked until the Phase 2 consistency review task, TB-021, confirms the constraint tables.
+Phase 2 constraint-table research is in progress. TB-011 through TB-014 are complete; route construction remains blocked until the Phase 2 consistency review task, TB-021, confirms the constraint tables.
 
-The current next task is TB-011: research AE Creation start triggers and level gates.
+The current next task is TB-015: research PS4 trophy dependencies and risks.
 
 ## Restart Checklist
 
@@ -23,15 +23,17 @@ At the start of the next session:
 5. Read `docs/decisions-log.md`.
 6. Read `docs/task-board.md`.
 7. Read `data/objectives/phase-2-research-inputs.md`.
-8. Run `git status --short` and preserve unrelated existing changes.
+8. Read `data/constraints/quest-conflicts-hard-saves.md`, `data/constraints/cell-entry-locks.md`, and `data/constraints/leveled-unique-items.md` for TB-015 overlaps.
+9. Run `git status --short` and preserve unrelated existing changes.
+10. For UESP fetches, prefer `python3 tools/fetch_uesp.py 'Skyrim:Page Title' --mode wikitext` or `--mode html`; direct raw `curl` may trigger Cloudflare without a browser User-Agent.
 
 ## Next Task Details
 
-Start TB-011 from the TB-011 section of `data/objectives/phase-2-research-inputs.md`.
+Start TB-015 from the TB-015 section of `data/objectives/phase-2-research-inputs.md`. Use the TB-014 hard-save rows where branch, Daedric artifact, or AE outcome choices overlap trophy safety, and use TB-012/TB-013 timing constraints where trophy work depends on leveled rewards or entry-state locks.
 
 Primary output:
 
-* `data/constraints/ae-creation-start-triggers.md`
+* `data/constraints/trophy-dependencies.md`
 * new or updated source notes under `sources/source-notes/`
 * any needed source inventory rows in `sources/bibliography.md`
 * task-board status updates when complete
@@ -39,7 +41,7 @@ Primary output:
 Research rules:
 
 * Use current online sources.
-* Do not rely on memory for AE Creation start triggers, level gates, conflicts, bugs, trophy behavior, cell-entry locking, or missability.
+* Do not rely on memory for cell-entry locking, leveled item thresholds, conflicts, bugs, trophy behavior, or missability.
 * Mark unknowns explicitly instead of guessing.
 * Do not create route content.
 * Do not draft the final guide.

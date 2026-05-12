@@ -22,3 +22,4 @@ Current tools:
 | `validate_alchemy.py` | Alchemy ingredient-effect support table structural validation. |
 | `validate_merchants.py` | Merchant investment support table structural validation. |
 | `validate_crafting_systems.py` | Practical crafting-system support table structural validation. |
+| `fetch_uesp.py` | Fetches UESP pages through the MediaWiki API with a browser User-Agent for source-note research. |
