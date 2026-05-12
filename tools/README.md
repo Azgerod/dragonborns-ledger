@@ -17,4 +17,8 @@ Current tools:
 | `validate_items.py` | AE item-member table structural validation. |
 | `validate_properties.py` | Property detail table structural validation. |
 | `validate_locations.py` | Location catalog structural validation. |
-| `validate_skills.py` | Skill/perk support table structural validation. |
+| `validate_skills.py` | Skill/perk and individual perk-rank support table structural validation. |
+| `validate_enchantments.py` | Enchantment-learning support table structural validation. |
+| `validate_alchemy.py` | Alchemy ingredient-effect support table structural validation. |
+| `validate_merchants.py` | Merchant investment support table structural validation. |
+| `validate_crafting_systems.py` | Practical crafting-system support table structural validation. |

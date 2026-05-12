@@ -16,6 +16,23 @@ Use the other project documents as supporting documents:
 * `docs/source-standards.md` records the sourcing rules for gameplay research.
 * `docs/decisions-log.md` records resolved user decisions and should stay consistent with the specification.
 * `docs/task-board.md`, if present, tracks current coordination notes and next work.
+* `docs/session-handoff.md`, if present, records the current restart point for a new session.
+
+## Session Restart Workflow
+
+At the start of a new session, read:
+
+1. `AGENTS.md`;
+2. `docs/guide-specification.md`;
+3. `docs/development-plan.md`;
+4. `docs/source-standards.md`;
+5. `docs/decisions-log.md`;
+6. `docs/task-board.md`;
+7. `docs/session-handoff.md`, if present.
+
+Then run `git status --short` before editing. This repository may contain many uncommitted files from the current staged buildout; do not revert or clean them unless the user explicitly asks.
+
+Use the `docs/task-board.md` Current Next Step as the default continuation point unless the user gives a newer instruction. If a handoff document and the task board disagree, inspect both and update the stale document before proceeding.
 
 ## Task Prompt Handling
 

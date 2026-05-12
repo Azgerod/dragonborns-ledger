@@ -1,8 +1,8 @@
 # Aggregate Row Reconciliation
 
-Status: TB-007G4 complete; downstream validation pending.
+Status: TB-007G4 through TB-009F aggregate reconciliation current; downstream validation pending.
 
-This audit closes the TB-007G aggregate/member-expansion phase. It does not introduce new gameplay claims. It classifies broad objective rows that might otherwise look like unfinished placeholders and states whether they are expanded, linked to a support table, intentionally parent-only, or explicitly delegated to a downstream task.
+This audit closes the TB-007G aggregate/member-expansion phase and records the TB-009 skill/crafting reconciliation update. It does not introduce new gameplay claims. It classifies broad objective rows that might otherwise look like unfinished placeholders and states whether they are expanded, linked to a support table, intentionally parent-only, or explicitly delegated to a downstream task.
 
 ## Audit Rule
 
@@ -34,7 +34,8 @@ Counts below are bucket counts, not a unique-row total, because a few rows legit
 | Spell/power choice and pool rows outside AE item expansion | 12 | Parent-only choice/pool rows are intentional for dragon-soul economy, Standing Stone choices, Black Book choices, Paarthurnax meditation, Nightingale Agent powers, and werewolf totems. | Default recommendations, changeability, route timing, and checklist cues remain in power/route/constraint passes. |
 | Civil War phase parent rows | 2 | Imperial and Stormcloak phase parent rows have child quest rows. The parent rows track phase structure and Season Unending variability. | Civil War, War Hero, Season Unending, branch, and Jarl-state handling remain in TB-014/TB-015 and branch-route passes. |
 | AE/system rows that are not finite member lists | 2 | Plague of the Dead zombie-system and Goldenhills farm-system rows are covered by existing child/item/property data and downstream constraint tasks. | Survival, bug, start-trigger, repeatability, and route-boundary validation remain downstream. |
-| Location and skill/perk/crafting areas not yet represented | 0 current aggregate rows | These are not TB-007G leftovers; they are separate planned database passes. | TB-008 covers locations/clearable states. TB-009 covers skills, perks, enchantments, alchemy effects, merchant investments, and broader crafting systems. |
+| Location coverage | 0 current aggregate rows open | TB-008A through TB-008D added source-list location catalog coverage for clearable, discoverable, and AE Creation place rows. | Checklist-only location exceptions remain deferred until external checklist mapping. |
+| Skill/perk, enchantment, alchemy, merchant, and practical crafting coverage | 0 current aggregate rows open | TB-009A through TB-009F added support-table coverage and a closeout review for skill trees, individual perk ranks, enchantment learning, alchemy effect discovery, merchant investments, and practical crafting systems. | Recipe selection, perk allocation, source-item selection, work/activity radiant classification, and crafting power-curve timing remain TB-018/TB-020/downstream work. |
 
 ## Explicit Parent-Only Rows
 
@@ -58,4 +59,4 @@ After this reconciliation, no known finite aggregate row is being carried forwar
 * intentionally parent-only with a reason;
 * explicitly delegated to a named downstream task.
 
-The remaining objective-database gaps before TB-010 are not hidden TB-007G leftovers. They are the planned TB-008 location pass and TB-009 skill/perk/enchantment/alchemy/crafting pass.
+The remaining objective-database work before TB-010 is not a hidden aggregate/member gap. TB-010 can now run the broader objective database review.

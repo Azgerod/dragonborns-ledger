@@ -12,3 +12,4 @@ Read `guide-specification.md` before any project work. Keep durable process deci
 | `source-standards.md` | Source priority and citation rules. |
 | `decisions-log.md` | User-resolved decisions and unresolved defaults. |
 | `task-board.md` | Coordination and consistency notes. |
+| `session-handoff.md` | Current restart point for a new session. |

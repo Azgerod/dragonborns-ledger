@@ -19,6 +19,10 @@ VALIDATORS = [
     "tools/validate_properties.py",
     "tools/validate_locations.py",
     "tools/validate_skills.py",
+    "tools/validate_enchantments.py",
+    "tools/validate_alchemy.py",
+    "tools/validate_merchants.py",
+    "tools/validate_crafting_systems.py",
 ]
 
 

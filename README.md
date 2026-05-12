@@ -8,5 +8,7 @@ Start with:
 2. `docs/guide-specification.md` for the canonical project specification.
 3. `docs/development-plan.md` for the extracted development plan.
 4. `docs/decisions-log.md` for resolved choices.
+5. `docs/task-board.md` for staged task status and the current next step.
+6. `docs/session-handoff.md` for the latest session restart notes, if present.
 
 Build the project in reviewable layers: objective database, constraint tables, route skeletons, checklist mapping, warnings, and only then the final black-box guide.

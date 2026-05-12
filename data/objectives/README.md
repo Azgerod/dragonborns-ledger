@@ -12,3 +12,6 @@ Current reconciliation files:
 * `unique-item-reconciliation.md` records artifact, unique-item, and leveled-reward boundary decisions.
 * `tb-007-reconciliation.md` summarizes collectible, book, reward, property, relationship, and aggregate-member coverage.
 * `aggregate-reconciliation.md` closes remaining broad parent/set-row handling before the location and skill-system passes.
+* `objective-database-completeness-review.md` records the TB-010 Phase 1 completeness review and the remaining pre-Phase-2 cleanup gates.
+* `activity-favor-reconciliation.md` closes the TB-010A no-journal activity/favor boundary before Phase 2.
+* `phase-2-research-inputs.md` closes the TB-010B handoff by mapping Phase 2 constraint tasks to objective queues and support tables.
