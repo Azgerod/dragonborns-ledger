@@ -1,5 +1,110 @@
-# drafts/branch-routes
+# Branch Routes
 
-Selective alternate-branch route drafts belong here.
+Status: TB-028 complete.
 
-Branch drafts should stay sharply scoped to branch-exclusive content and should not duplicate objectives intended for the canonical main route.
+Selective alternate-branch route drafts belong here. Branch drafts should stay sharply scoped to branch-exclusive content and should not duplicate objectives intended for the canonical main route.
+
+This file is the TB-028 branch decision matrix. It decides branch treatment and canonical defaults where the existing source-backed tables provide enough support. It is not branch-route prose; TB-029 drafts the actual branch prototypes.
+
+## Boundaries
+
+| Rule | TB-028 handling |
+| --- | --- |
+| Branch policy | Named hard save, play alternate branch first, reload, then continue canonical main route. |
+| Scope | Classify branch treatment and defaults only. Do not write step-by-step branch routes. |
+| Gameplay facts | Use existing objective, conflict, trophy, NPC, radiant, bug, and route-planning tables. New facts are limited to the Bittercup reward detail added to `SN-000099`. |
+| Objective CSV | Leave current `route_placement` counts stable for this pass. TB-029/TB-030 may promote chosen defaults or checklist rows after branch prototypes and checklist mapping are ready. |
+| Branch depth | Include branch-exclusive content only. Do not repeat main-route objectives inside a branch unless the branch-only state changes their availability or reward. |
+| Checklist escalation | If TB-030 determines that an alternate outcome contains checklist-relevant unique items, followers, services, powers, spells, locations, or persistent states not otherwise represented, it may promote that outcome from optional note to reward branch or full branch. |
+
+## Inputs
+
+| Input | Use |
+| --- | --- |
+| `docs/guide-specification.md` | Branch-save policy, main continuity defaults, completion scope, and option-list boundary. |
+| `docs/decisions-log.md` | Resolved defaults: Imperial, Dawnguard, Dark Brotherhood join, Paarthurnax preserved, artifact-maximizing Daedric policy where supported. |
+| `data/constraints/quest-conflicts-hard-saves.md` | Primary branch and hard-save register. |
+| `data/constraints/trophy-dependencies.md` | Trophy-safe setup, Civil War/War Hero, Dawnguard, Oblivion Walker, Master Criminal, and counter risks. |
+| `data/constraints/radiant-boundaries.md` | Branch-only Volkihar radiants and conversion-depth boundary. |
+| `data/constraints/npc-dependencies.md` | NPC/follower/service consequences for Thirsk, Ralis, Frost, Daedric choices, and option lists. |
+| `data/constraints/bug-prone-quests.md` | Branch execution warnings, especially Thirsk, Unearthed, family/service, and trophy branch saves. |
+| `data/route-planning/objective-route-index.csv` | Current branch, option-list, and candidate-support counts. |
+| `data/route-planning/prototype-objective-block-map.csv` | TB-026 per-objective dispositions and current branch deferrals. |
+| `drafts/route-prototypes/main-route-prototype-v0.md` | Route-block frame `G00` through `G14` and branch-deferred handoffs. |
+
+## Data Snapshot
+
+| Slice | Rows | TB-028 interpretation |
+| --- | ---: | --- |
+| `branch_route` objectives | 47 | Alternate faction routes, branch-only radiants/rewards, mutually exclusive item outcomes, and Master Criminal trophy branch. |
+| `option_list` objectives | 11 | Household, spouse, child, steward, follower, pet, mount, and similar defaults. |
+| `branch_only` objectives | 41 | Rows that should not enter the canonical main route unless a later reclassification explicitly promotes a chosen default. |
+| `windowed` branch reward rows | 5 | Aetherial and Hircine reward rows held for outcome/default decisions. |
+| `held_branch_deferred` map rows | 47 | Expected TB-026 status for branch-only or branch-default rows before this matrix. |
+| `held_option_list` map rows | 11 | Expected TB-026 status for option-list rows before default recommendation and checklist mapping. |
+
+## Decision Vocabulary
+
+| Treatment | Meaning |
+| --- | --- |
+| Full branch route | TB-029 should draft a branch prototype with branch-exclusive objectives and reload instruction. |
+| Compact branch route | TB-029 should draft a short branch prototype for a substantial but narrow alternate state. |
+| Reward branch | TB-029 should draft a compact save/reward branch at a single outcome point. |
+| Trophy branch | Route a controlled trophy action on a hard save, then reload to preserve the clean final continuity. |
+| Option list | No full branch. Later route/default pass recommends one choice and lists notable alternatives. |
+| Main-route resolved | Main continuity choice is settled; no branch prototype unless checklist mapping later escalates it. |
+| Appendix/audit only | Keep as a documented alternate or excluded/unsupported note, not route content. |
+
+## Branch Decision Matrix
+
+| ID | Decision point | Canonical main continuity | Treatment | Hard save | TB-029 branch-exclusive scope | Source support | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| BR-001 | Civil War faction commitment | Imperial. | Full branch route. | `HS-CW-BEFORE-FACTION-OATH` | Stormcloak-only sequence `OBJ-000087` through `OBJ-000101`; protect War Hero logic and Solitude/Captain Aldis warnings. | `SN-000097`, `SN-000100`, `SN-000102` | Do not duplicate Imperial objectives. The Stormcloak branch should be played first from the oath save, then reload for Imperial. |
+| BR-002 | Dawnguard versus Volkihar at `Bloodline` | Dawnguard; refuse Harkon's gift. | Full branch route. | `HS-DG-BLOODLINE` | Volkihar quest/radiant/reward rows `OBJ-000356`, `OBJ-000357`, `OBJ-000374` through `OBJ-000383`, plus branch-only amulets/rings. | `SN-000097`, `SN-000105`, `SN-000114` | `New Allegiances` baseline is one successful conversion. Route all three named conversions only if TB-030 checklist mapping creates member-level requirements. |
+| BR-003 | Dark Brotherhood join versus destroy | Join the Dark Brotherhood. | Full branch route. | `HS-DB-ABANDONED-SHACK` | `Destroy the Dark Brotherhood!` branch-exclusive outcome and unavailable join-route comparison; reload before join route. | `SN-000097`, `SN-000100`, `SN-000102` | Complete or intentionally skip `Delayed Burial` before either commitment according to the main route. |
+| BR-004 | Paarthurnax / Blades conflict | Preserve Paarthurnax. | Compact branch route. | `HS-MQ-PAARTHURNAX` | Kill-Paarthurnax outcome and Blades support state only; reload to preserve Greybeards support. | `SN-000097` | Do not move main-route shout/word-wall support into the branch unless it is Blades-exclusive. |
+| BR-005 | Master Criminal trophy | Clean final continuity, no permanent all-holds bounty state. | Trophy branch. | `HS-TROPHY-MASTER-CRIMINAL` | TB-029 drafts a compact trophy branch with placeholder crime method: controlled 1000-gold bounty in all nine holds, trophy verification, then reload. | `SN-000103` | This is not mutually exclusive story content, but it is branch-routed because the final-state disruption is large. TB-032 finalizes exact warnings and crime actions. |
+| BR-006 | Thirsk Mead Hall control | Retaking Thirsk / Nord side. | Full branch route. | `HS-DRAGONBORN-THIRSK-CHOICE` | Riekling-side `The Chief of Thirsk Hall`, Riekling occupant/follower state, and Riekling-only post-state checks. | `SN-000034`, `SN-000099`, `SN-000107`, `SN-000111` | Nord side is the main default because it preserves the source-listed Thirsk favor/service/spouse-candidate surface around Halbarn, Hilund, and Elmus. |
+| BR-007 | Ghosts of the Tribunal heretics | Join/infiltrate heretic path. | Full branch route. | `HS-AE-GHOSTS-TEMPLE` | Destroy-heretics outcome and alternate Temple state. | `SN-000099` | Main default preserves armory access, crafting permissions, followers, companion tasks, and Skullcrusher access. |
+| BR-008 | Bittercup altar path | Fortune path. | Two compact alternate branches. | `HS-AE-BITTERCUP-ALTAR` | From the altar save, TB-029 drafts Power -> `The Pit`, Grand Champion's Sword, and Grand Champion's Helm; then Nothing -> Rulnik, Rulnik's Dagger, and Ironwood Soup support. Reload after each branch and continue Fortune on the main save. | `SN-000099` | Fortune is the main default because the sourced reward table makes Master Transmute path-specific, and spell/permanent-spell coverage is main-route scope. |
+| BR-009 | `The Black Star` reward | The Black Star. | Reward branch. | `HS-DAEDRIC-BLACK-STAR` | Azura's Star and Aranea outcome only. | `SN-000098`, `SN-000104` | Both star outcomes are qualifying artifacts. The Black Star remains the utility default; Azura's Star is branch-exclusive. |
+| BR-010 | `A Daedra's Best Friend` reward | Masque of Clavicus Vile. | Reward branch. | `HS-DAEDRIC-CLAVICUS` | Rueful Axe outcome only. | `SN-000098`, `SN-000104`, `SN-000107` | Main route must not use Rueful Axe for Oblivion Walker. |
+| BR-011 | `Ill Met By Moonlight` outcome | Ring of Hircine single-artifact outcome. | Reward branch plus appendix-only exploit note. | `HS-DAEDRIC-HIRCINE-GROTTO` | Savior's Hide single-artifact outcome. Document dual-artifact route only as appendix/audit, not baseline. | `SN-000095`, `SN-000098`, `SN-000104`, `SN-000107` | Do not rely on the dual-artifact outcome for Oblivion Walker. Preserve Bolar's Oathblade and the non-quest grotto clear state before the quest if the route keeps Sinding alive on the main save. |
+| BR-012 | `Pieces of the Past` final choice | Kill Silus and reforge Mehrunes' Razor. | Reward branch. | `HS-DAEDRIC-MEHRUNES-SHRINE` | Spare-Silus gold/non-artifact outcome only. | `SN-000098`, `SN-000104`, `SN-000107` | Main route is artifact-safe. |
+| BR-013 | `The Taste of Death` final outcome | Namira feast outcome and Ring of Namira. | Reward branch. | `HS-DAEDRIC-NAMIRA-FEAST` | Save Verulus / kill Eola alternate outcome only. | `SN-000098`, `SN-000104`, `SN-000107` | Main route is artifact-safe. |
+| BR-014 | `Waking Nightmare` final choice | Kill Erandur and take Skull of Corruption. | Reward branch. | `HS-DAEDRIC-VAERMINA-SKULL` | Spare Erandur follower outcome only. | `SN-000098`, `SN-000104`, `SN-000107` | Main route is artifact-safe; Erandur follower access is branch-only. |
+| BR-015 | `Lost to the Ages` Aetherial reward | Aetherial Crown. | Reward branch. | `HS-DG-AETHERIUM-FORGE` | Aetherial Staff and Aetherial Shield forge outcomes. | `SN-000099`, `SN-000105` | Trophy only requires quest completion, but unique reward branches are substantial enough to route from the forge save. |
+| BR-016 | `Forgotten Names` / Velehk Sain | Release Velehk for hidden treasure map/reward path. | Main-route resolved with optional outcome note. | `HS-COLLEGE-VELEHK-SAIN` | No TB-029 full branch unless TB-030 checklist mapping requires kill-outcome corpse loot. | `SN-000099` | Keep the hard save because the reward sets differ, but treat the kill path as too small for a full branch by default. |
+| BR-017 | `Promises to Keep` / Frost | Keep Frost. | Main-route resolved with optional outcome note. | `HS-RIFT-FROST-LETRUSH` | No TB-029 full branch unless checklist mapping requires handing Frost to Louis or another alternate state. | `SN-000099`, `SN-000107` | Main continuity preserves the unique mount. |
+| BR-018 | `Unearthed` / Ralis | Spare Ralis. | Main-route resolved with optional outcome note. | `HS-DRAGONBORN-UNEARTHED-RALIS` | No TB-029 full branch unless checklist mapping requires the kill outcome. | `SN-000099`, `SN-000107`, `SN-000111` | Main continuity preserves follower availability; collect Hoarfrost without killing him if the final route validates that handling. |
+| BR-019 | `Battle of the Champions` side selection | Imperial-aligned handling. | Main-route resolved; branch placement piggybacks on Civil War branch if needed. | `HS-AE-CIVIL-WAR-CHAMPIONS` | Stormcloak-aligned staging only if TB-029 finds branch-exclusive state not covered by Civil War branch. | `SN-000099` | Keep source-note dependent; TB-030/TB-033 should verify both equipment-set availability before final checklist mapping. Do not create a separate full branch for side flavor alone. |
+
+## Option-List Matrix
+
+| ID | Option point | Treatment | Default owner | Source support | Notes |
+| --- | --- | --- | --- | --- | --- |
+| OPT-001 | `In My Time Of Need` | Option list. | TB-035 route/default pass after checklist review. | `SN-000099` | Isolated moral/outcome choice. No full branch unless external checklist mapping escalates both endings. |
+| OPT-002 | `The Blessings of Nature` | Option list. | TB-035 route/default pass after NPC/checklist review. | `SN-000099` | Isolated city-state/NPC outcome choice. No full branch by default. |
+| OPT-003 | Black Book power choices | Option list / progression default. | TB-030/TB-033. | `SN-000032`, `SN-000033` | No hard-save branch unless a later pass proves an irreversible route-critical power selection. |
+| OPT-004 | Spouse, adopted children, stewards, household roles, followers, pets, mounts, farmhands, bards, and carriage services | Option list. | TB-030 checklist/default mapping. | `SN-000067`, `SN-000068`, `SN-000099`, `SN-000106`, `SN-000110` | Recommend defaults later. Do not branch personal preference assignments. |
+| OPT-005 | Unique-only enchantment exclusions | Appendix/exclusion, not branch. | TB-030 checklist mapping. | `SN-000083` | Preserve unique items; do not disenchant them merely to learn enchantments. |
+| OPT-006 | Optional child games/random events | Excluded/unbounded appendix only. | None unless checklist reopens. | `SN-000089`, `SN-000110` | Do not route arbitrary random/reactive child events. |
+
+## TB-029 Branch Prototype Queue
+
+| Priority | Prototype bundle | Includes |
+| --- | --- | --- |
+| 1 | Major faction branches | Civil War Stormcloak, Volkihar, Destroy the Dark Brotherhood, compact Paarthurnax/Blades. |
+| 2 | Solstheim and AE branches | Thirsk Riekling branch, Ghosts destroy-heretics branch, Bittercup Power and Nothing branches. |
+| 3 | Reward branches | Daedric outcome branches and Aetherium Forge reward branches. |
+| 4 | Trophy branch | Master Criminal compact trophy branch with placeholder crime method; TB-032 finalizes exact warnings/actions. |
+| 5 | Optional outcome notes | Velehk, Frost, Ralis, Battle of the Champions side staging, and isolated moral choices only if checklist mapping escalates them. |
+
+## Handoffs
+
+| Owner | Handoff |
+| --- | --- |
+| TB-029 | Draft branch prototypes using this matrix. Include branch-exclusive objectives only, plus explicit reload/resume points. |
+| TB-030 | Decide checklist treatment for branch-only rewards, Volkihar `New Allegiances` conversion depth, Bittercup alternate-path rewards, option-list defaults, source-note-dependent Battle of the Champions equipment coverage, and any promoted branch/audit rows. |
+| TB-032 | Place concise hard-save and warning text at the exact main-route steps. |
+| TB-033 | Validate that branches do not duplicate main-route objectives, that trophy branches pop correctly before reload, and that final continuity still matches canonical defaults. |
