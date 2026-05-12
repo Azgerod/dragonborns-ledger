@@ -1,6 +1,6 @@
 # Property Detail Reconciliation
 
-Status: in progress.
+Status: TB-007G3 complete; downstream route and checklist validation pending.
 
 This file summarizes the TB-007G3 property-detail expansion. It is a coordination artifact, not final guide prose.
 

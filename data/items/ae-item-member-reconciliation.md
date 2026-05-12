@@ -1,6 +1,6 @@
 # AE Item Member Reconciliation
 
-Status: TB-007G1 and TB-007G2 complete; downstream route and checklist validation pending.
+Status: TB-007G1 and TB-007G2 complete; covered by TB-007G4 aggregate reconciliation; downstream route and checklist validation pending.
 
 This file summarizes `data/items/ae-item-members.csv`. It is not route prose and does not make final route-order decisions.
 
@@ -74,4 +74,4 @@ The table records source-listed members from UESP item pages and keeps parent ob
 
 ## Result
 
-TB-007G1 and TB-007G2 close member-level coverage for `OBJ-000693` through `OBJ-000759`. The next slice is TB-007G3: expand property, home-upgrade, furnishing, and service detail tables.
+TB-007G1 and TB-007G2 close member-level coverage for `OBJ-000693` through `OBJ-000759`. TB-007G4 reconciles the remaining broad parent/set rows in `data/objectives/aggregate-reconciliation.md`; acquisition choices, exclusions, route timing, and checklist mapping remain downstream validation work.

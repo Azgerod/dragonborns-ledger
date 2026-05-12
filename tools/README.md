@@ -16,3 +16,5 @@ Current tools:
 | `validate_npc_options.py` | Relationship, household role, follower, pet, and mount option table structural validation. |
 | `validate_items.py` | AE item-member table structural validation. |
 | `validate_properties.py` | Property detail table structural validation. |
+| `validate_locations.py` | Location catalog structural validation. |
+| `validate_skills.py` | Skill/perk support table structural validation. |
