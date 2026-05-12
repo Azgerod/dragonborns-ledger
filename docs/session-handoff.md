@@ -6,7 +6,7 @@ This file exists to make a session switch cheap. It is a coordination note only;
 
 ## Current Project State
 
-Phase 1 source-list objective setup is closed. The objective database currently has 2,784 rows, and source notes currently run through `SN-000124-hub-corridor-geography-support.md`.
+Phase 1 source-list objective setup is closed. The objective database currently has 2,784 rows, and source notes currently run through `SN-000126-progression-source-selection-and-grind-policy.md`.
 
 Phase 2 constraint-table research is reviewed. TB-011 through TB-021 are complete. TB-021A added the first computation-ready coordinate support layer for the location catalog, TB-021B added the hub/corridor geography support layer, and TB-021C added the route-planning index layer.
 
@@ -36,9 +36,11 @@ TB-031B is complete. `data/checklist-mapping/checklist-manual-review.md` records
 
 TB-031C is complete. `data/checklist-mapping/checklist-escalation-decisions.md` records no all-target radiant escalation, required Thieves Guild 125-job counter coverage, canonical/default promotions, and branch-only holds. `coverage-matrix.csv` now has 3,076 main-route prototype rows, 30 branch prototype rows, 75 option-list rows, 107 appendix rows, 319 explicit exclusions, and 90 typed source-readiness holds. TB-031C also promoted canonical Thirsk Nord-side rows, Aetherial Crown, and Ring of Hircine to main-route handling, and moved `The Pit` to the Bittercup Power branch.
 
-TB-031D is complete. `data/route-planning/route-default-decisions.md` records route-shaping defaults for first safe storage, main base/home, property service timing, transport infrastructure, spouse/children/stewards/farm steward, Black Book powers, final transformation state, and representative no-journal activity/favor targets. Default-sensitive source notes, constraints, support rows, generated owner labels, and checklist coverage were updated; `coverage-matrix.csv` still has 3,076 main-route prototype rows, 30 branch prototype rows, 75 option-list rows, 107 appendix rows, 319 explicit exclusions, and 90 typed source-readiness holds.
+TB-031D is complete. `data/route-planning/route-default-decisions.md` records route-shaping defaults for first safe storage, main base/home, property service timing, transport infrastructure, spouse/children/stewards/farm steward, Black Book powers, final transformation state, and representative no-journal activity/favor targets. Default-sensitive source notes, constraints, support rows, generated owner labels, and checklist coverage were updated.
 
-The current next task is TB-031E: resolve progression source selection and grind distribution. TB-031F through TB-031I then resolve counter mechanics, location validation, source/objective/support-table/generated-index readiness, and final deferral-audit closure before TB-032.
+TB-031E is complete. `data/constraints/progression-source-selection.md` and generated `data/constraints/progression-source-selections.csv` record selected skill-book copies/read policy, spell-tome source defaults, enchantment source families, alchemy source methods, merchant investment circuit rules, crafting outputs/material staging, training blocks, Legendary reset distribution, Oghma timing, and exploit exclusions. `tools/build_checklist_coverage.py` now maps the TB-031E-owned `Damage Stamina` and `Kesh Fiber (AE)` aliases to source-backed objectives. `coverage-matrix.csv` now has 3,081 main-route prototype rows, 30 branch prototype rows, 75 option-list rows, 107 appendix rows, 319 explicit exclusions, and 85 typed source-readiness holds.
+
+The current next task is TB-031F: resolve checklist/trophy counter mechanics and route actions. TB-031G through TB-031I then resolve location validation, source/objective/support-table/generated-index readiness, and final deferral-audit closure before TB-032.
 
 ## Restart Checklist
 
@@ -53,34 +55,33 @@ At the start of the next session:
 7. Read `data/objectives/phase-2-research-inputs.md`.
 8. Read `data/constraints/README.md`, then `data/constraints/ae-creation-start-triggers.md`, `data/constraints/leveled-unique-items.md`, `data/constraints/cell-entry-locks.md`, `data/constraints/quest-conflicts-hard-saves.md`, `data/constraints/trophy-dependencies.md`, `data/constraints/npc-dependencies.md`, `data/constraints/bug-prone-quests.md`, `data/constraints/radiant-boundaries.md`, `data/constraints/survival-mode-constraints.md`, and `data/constraints/skill-perk-leveling-plan.md` for Phase 2 overlaps.
 9. Read `data/locations/location-catalog.csv`, `data/locations/location-coordinates.csv`, `data/locations/location-coordinate-reconciliation.md`, `data/locations/location-geography.csv`, and `data/locations/location-geography-reconciliation.md` before changing geography-sensitive tasks.
-10. Read `data/checklist-mapping/README.md`, `data/checklist-mapping/checklist-coverage-strategy.md`, `data/checklist-mapping/checklist-coverage-summary.md`, `data/checklist-mapping/checklist-scope-review.md`, `data/checklist-mapping/checklist-manual-review.md`, `data/checklist-mapping/checklist-escalation-decisions.md`, `data/route-planning/route-default-decisions.md`, `data/checklist-mapping/coverage-matrix.csv`, and `docs/deferred-work-audit.md` before TB-031E or later checklist/coverage work.
+10. Read `data/checklist-mapping/README.md`, `data/checklist-mapping/checklist-coverage-strategy.md`, `data/checklist-mapping/checklist-coverage-summary.md`, `data/checklist-mapping/checklist-scope-review.md`, `data/checklist-mapping/checklist-manual-review.md`, `data/checklist-mapping/checklist-escalation-decisions.md`, `data/route-planning/route-default-decisions.md`, `data/constraints/progression-source-selection.md`, `data/constraints/progression-source-selections.csv`, `data/checklist-mapping/coverage-matrix.csv`, and `docs/deferred-work-audit.md` before TB-031F or later checklist/coverage work.
 11. Read `data/objectives/route-rigidity-classification-notes.md`, `data/route-planning/README.md`, `data/route-planning/objective-route-index.csv`, `data/route-planning/objective-constraints.csv`, `data/route-planning/prototype-objective-block-map.csv`, `drafts/route-prototypes/route-anchors-v0.md`, `drafts/route-prototypes/level-gated-skeleton-v0.md`, `drafts/route-prototypes/survival-geography-pass-v0.md`, `drafts/route-prototypes/main-route-prototype-v0.md`, `drafts/branch-routes/README.md`, and the TB-029 branch prototype files before TB-032 or later route-placement work.
 12. Run `git status --short` and preserve unrelated existing changes.
 13. For UESP page fetches, prefer `python3 tools/fetch_uesp.py 'Skyrim:Page Title' --mode wikitext` or `--mode html`; direct raw `curl` may trigger Cloudflare without a browser User-Agent. For Gamemap marker refreshes, use `python3 tools/fetch_uesp_gamemap.py`, regenerate coordinates with `python3 tools/build_location_coordinates.py`, then regenerate geography with `python3 tools/build_location_geography.py`. For route-planning index refreshes, run `python3 tools/build_route_planning_index.py`, `python3 tools/build_prototype_objective_block_map.py`, and optionally `python3 tools/build_route_planning_database.py`.
 
 ## Next Task Details
 
-Start TB-031E by resolving progression source selection and grind distribution. Use `data/constraints/skill-perk-leveling-plan.md`, `data/route-planning/route-default-decisions.md`, `data/checklist-mapping/coverage-matrix.csv`, `data/checklist-mapping/checklist-coverage-summary.md`, `data/books/skill-books-locations.csv`, `data/books/spell-tomes-locations.csv`, `data/skills/skill-perk-catalog.csv`, `data/skills/perk-rank-catalog.csv`, `data/skills/enchantment-learning-catalog.csv`, `data/skills/alchemy-effect-catalog.csv`, `data/skills/merchant-investment-catalog.csv`, `data/skills/practical-crafting-system-catalog.csv`, `drafts/route-prototypes/main-route-prototype-v0.md`, `sources/source-notes/SN-000051-skill-books-and-reader.md`, `sources/source-notes/SN-000083-enchantment-learning-scope.md`, `sources/source-notes/SN-000084-alchemy-ingredient-effect-discovery.md`, `sources/source-notes/SN-000085-merchant-investment-scope.md`, `sources/source-notes/SN-000086-practical-crafting-system-reconciliation.md`, `sources/source-notes/SN-000119-leveling-perk-points-and-legendary-reset-plan.md`, `sources/source-notes/SN-000120-training-and-skill-boost-constraints.md`, `sources/source-notes/SN-000121-crafting-power-curve-and-system-milestones.md`, `sources/source-notes/SN-000122-completionist-crafting-scope-and-investment-plan.md`, `docs/guide-specification.md`, and `docs/decisions-log.md`.
+Start TB-031F by resolving checklist/trophy counter mechanics and route actions. Use `data/checklist-mapping/coverage-matrix.csv`, `data/checklist-mapping/checklist-coverage-summary.md`, `data/checklist-mapping/checklist-escalation-decisions.md`, `data/constraints/trophy-dependencies.md`, `data/constraints/radiant-boundaries.md`, `data/constraints/progression-source-selection.md`, `data/route-planning/route-default-decisions.md`, `drafts/route-prototypes/main-route-prototype-v0.md`, `drafts/branch-routes/major-faction-branches-v0.md`, `drafts/branch-routes/reward-and-trophy-branches-v0.md`, `sources/source-notes/SN-000103-base-game-counter-and-system-trophies.md`, `sources/source-notes/SN-000105-dlc-and-legendary-trophies.md`, `sources/source-notes/SN-000112-base-game-faction-radiant-boundaries.md`, `sources/source-notes/SN-000113-misc-favor-bounty-and-activity-boundaries.md`, `sources/source-notes/SN-000114-dlc-radiant-boundaries.md`, `docs/guide-specification.md`, and `docs/decisions-log.md`.
 
 Primary output:
 
-* `data/constraints/progression-source-selection.md`
-* `data/constraints/skill-perk-leveling-plan.md` updates where the TB-027 overlay needs concrete source-selection decisions
+* `data/checklist-mapping/counter-coverage-plan.md`
 * regenerated `data/checklist-mapping/coverage-matrix.csv`
+* `drafts/route-prototypes/main-route-prototype-v0.md` updates where counter mechanics need prototype-level placeholders
 * task-board and handoff status updates when complete
 
-TB-031E rules:
+TB-031F rules:
 
-* Use TB-031D route defaults as fixed input unless a source-backed progression conflict proves a default cannot work.
-* Choose exact progression support decisions that would otherwise force later rework: skill-book copies and read timing, spell-tome sources, disposable enchantment source items, alchemy recipes and ingredient copies, merchant investment circuit, crafting outputs/material staging, training blocks, Legendary reset distribution, all-perks grind plan, and allowed exploit conditions.
-* Keep the plan at route-planning level. Do not write final step-by-step guide prose, but do make each chosen source/checkpoint specific enough that TB-031F, TB-032, and TB-034 do not have to infer progression mechanics.
-* Keep TB-031A exclusions and TB-031B source-readiness holds intact unless the current task has source-standard evidence and the task board says this row belongs to TB-031E.
+* Use TB-031C escalation decisions, TB-031D route defaults, and TB-031E progression choices as fixed inputs unless a source-backed counter conflict proves a default cannot work.
+* Resolve route treatment for Sideways, Hero of the People, Delver, Explorer, Reader, Thief, Snake Tongue, Lost Relic fillers, Fishing, cutting lumber, milling, and trophy-pop fallback checks.
+* Keep the plan at route-planning level. Do not write final step-by-step guide prose, but do make each counter/action checkpoint specific enough that TB-032, TB-033, and TB-034 do not infer mechanics.
+* Keep TB-031A exclusions and non-TB-031F source-readiness holds intact unless the current task has source-standard evidence and the task board says this row belongs to TB-031F.
 * Add gameplay/source facts only with source notes that satisfy `docs/source-standards.md`.
 * Run `python3 tools/build_checklist_coverage.py`, `python3 tools/validate_all.py`, and `git diff --check`.
 
-After TB-031E, complete the remaining inserted Phase 10 reconciliation tasks before TB-032:
+After TB-031F, complete the remaining inserted Phase 10 reconciliation tasks before TB-032:
 
-* TB-031F resolves checklist/trophy counter mechanics and route actions for counters and activity systems.
 * TB-031G resolves location access, clear-trigger, discovery/clearance, duplicate-marker, separate-worldspace, and manual geography validation before route/warning prose depends on corridor data.
 * TB-031H audits source notes still marked `Status: needs review`, objective/support-table readiness fields, stale owner references in older notes/rows, generated owner labels, unknown/audit-only support rows, and broad `later`/`manual validation` ownership text after TB-031A through TB-031G have touched checklist/source rows; TB-031A through TB-031G still need to source-check the rows they change.
 * TB-031I re-scans deferral language and closes `docs/deferred-work-audit.md` before TB-032 starts.
@@ -89,11 +90,11 @@ TB-032 should wait until TB-031I is complete. When starting TB-032, use the warn
 
 TB-027 support handoffs:
 
-* `data/constraints/skill-perk-leveling-plan.md` is complete for TB-027 and now records operating rules, route-block progression overlay, underleveled fallback register, and Legendary reset baseline.
+* `data/constraints/skill-perk-leveling-plan.md` is complete for TB-027 and now records operating rules, route-block progression overlay, underleveled fallback register, Legendary reset baseline, and the TB-031E source-selection overlay.
 * `drafts/route-prototypes/main-route-prototype-v0.md` now includes the same progression layer inside the route-block prototype.
-* Progression support uses route blocks `G00` through `G14` but does not pick exact trainers, skill-book copies, spell-tome vendors, enchantment source items, alchemy recipes, investment circuit, or checklist cues.
+* `data/constraints/progression-source-selection.md` and `data/constraints/progression-source-selections.csv` pick trainer blocks, skill-book copy defaults, spell-tome sources, enchantment source families, alchemy source methods, investment circuit rules, crafting outputs, Oghma timing, and reset distribution.
 * Preferred repeated Legendary reset pool is Alchemy, Smithing, Enchanting, Alteration, Conjuration, and Illusion; Restoration, Sneak, and Pickpocket are conditional; combat/armor skills are emergency-only; repeated Lockpicking and Speech resets are not baseline.
-* Final route validation must still confirm all skills 100 after resets, level 252+, all 251 normal perk ranks, investments, enchantment learning, alchemy effects, practical crafting systems, and Survival bed/storage/carry support.
+* Final route validation must still confirm exact numeric reset counts, all skills 100 after resets, level 252+, all 251 normal perk ranks, investments, enchantment learning, alchemy effects, practical crafting systems, and Survival bed/storage/carry support.
 
 TB-026 support handoffs:
 
@@ -103,7 +104,7 @@ TB-026 support handoffs:
 * The Markdown records non-geographic queue treatment for 830 single support candidates, 319 multiple support candidates, 1,089 rows with no route-candidate data, 887 constraint-backed flexible rows, and 1,497 flexible rows without linked constraints; the CSV records individual route blocks, dispositions, statuses, thresholds, parent links, and defer reasons.
 * It keeps support candidates conditional: homes, bases, merchants, book copies, spell sources, and property nodes are not automatically available until acquisition/source/storage/prerequisite validation.
 * It preserves mandatory holds for Silent Moons/Lunar weapons, Mage's Circlet, The Pale Blade, Nightingale Armor, Forbidden Legend linked dungeons, Shield of Solitude, Chillrend, Dragonbane, Nightingale Blade/Bow, Miraak equipment, Legendary Dragon, Ebony Warrior, and all-perks completion.
-* TB-027 added progression support to this frame before branch defaults were chosen. TB-028 has since resolved branch defaults in `drafts/branch-routes/README.md`; source-copy defaults, warning text, and checklist completion remain later work.
+* TB-027 added progression support to this frame before branch defaults were chosen. TB-028 has since resolved branch defaults in `drafts/branch-routes/README.md`, and TB-031E has resolved progression source-copy/source-family defaults. Warning text, counter mechanics, location validation, and final checklist completion remain later work.
 
 TB-025 support handoffs:
 
@@ -121,7 +122,7 @@ TB-024 support handoffs:
 * Skeleton bands are `S00` through `S15`.
 * TB-025 consumed the skeleton into `survival-geography-pass-v0.md`; TB-026 placed flexible queues within that frame; TB-027 added progression blocks while preserving the mandatory gate checklist.
 * The skeleton keeps source-tier reward policy conservative until a later explicit decision accepts a documented tradeoff.
-* Branch defaults and branch prototypes are now captured in TB-028/TB-029; detailed warning prose, skill-reset distribution, and checklist mapping remain assigned to later tasks.
+* Branch defaults and branch prototypes are now captured in TB-028/TB-029, and progression source/reset distribution is captured in TB-031E; detailed warning prose, counter mechanics, and final checklist mapping remain assigned to later tasks.
 
 TB-023 support handoffs:
 
@@ -129,7 +130,7 @@ TB-023 support handoffs:
 * Structural anchors are numbered `A00` through `A21`.
 * The level/reward gate register is an input to TB-024, not a finished level skeleton.
 * The branch and hard-save register records constraint-table hard-save names but does not route branch content.
-* Flexible geography is now captured in TB-025; flexible objective insertion is now captured in TB-026; skill reset distribution is now captured at prototype level in TB-027. Branch default selection and branch prototypes are now captured in TB-028/TB-029; warning prose and checklist mapping remain assigned to later tasks.
+* Flexible geography is now captured in TB-025; flexible objective insertion is now captured in TB-026; progression/reset distribution is now captured in TB-027/TB-031E. Branch default selection and branch prototypes are now captured in TB-028/TB-029; warning prose, counter mechanics, and final checklist mapping remain assigned to later tasks.
 
 TB-022 support handoffs:
 

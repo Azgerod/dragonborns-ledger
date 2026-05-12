@@ -200,6 +200,16 @@ SPELL_OVERRIDES = {
     "vision of the tenth eye": "OBJ-000132",
 }
 
+ENCHANTMENT_ENTRY_ALIASES = {
+    # Raw checklist wording reverses the source-listed Enchanting Effects name.
+    "damage stamina": "stamina damage",
+}
+
+ALCHEMY_INGREDIENT_ALIASES = {
+    # Raw checklist spelling; UESP and the source catalog use Kresh Fiber.
+    "kesh fiber": "kresh fiber",
+}
+
 PET_TELEPORT_OBJECTIVES = {
     "arachnia": "OBJ-000675",
     "bone wolf": "OBJ-000671",
@@ -798,6 +808,12 @@ def choose_objective_id(entry: ChecklistEntry, indexes: dict[str, Any]) -> tuple
 
     if entry.category == "enchantment":
         objective_id = indexes["enchantments"].get(normalized_entry, "")
+        if not objective_id:
+            alias = ENCHANTMENT_ENTRY_ALIASES.get(normalized_entry, "")
+            if alias:
+                objective_id = indexes["enchantments"].get(alias, "")
+                if objective_id:
+                    return objective_id, "checklist_manual_enchantment_alias"
         return objective_id, "enchantment_catalog" if objective_id else ""
 
     if entry.category in {"spell", "spell_tome_book"}:
@@ -851,7 +867,14 @@ def choose_objective_id(entry: ChecklistEntry, indexes: dict[str, Any]) -> tuple
 
     if entry.category == "alchemy_effect":
         ingredient, _, effect = entry.key.partition("|")
-        objective_id = indexes["alchemy"].get((normalize(ingredient), normalize(effect)), "")
+        normalized_ingredient = normalize(ingredient)
+        normalized_effect = normalize(effect)
+        ingredient_alias = ALCHEMY_INGREDIENT_ALIASES.get(normalized_ingredient, normalized_ingredient)
+        objective_id = indexes["alchemy"].get((normalized_ingredient, normalized_effect), "")
+        if not objective_id:
+            objective_id = indexes["alchemy"].get((ingredient_alias, normalized_effect), "")
+            if objective_id:
+                return objective_id, "checklist_manual_alchemy_alias"
         return objective_id, "alchemy_effect_catalog" if objective_id else ""
 
     if entry.category == "perk_rank":
@@ -951,6 +974,11 @@ def classify(entry: ChecklistEntry, objective_id: str, match_source: str, indexe
         "status": "source_readiness_required",
         "notes": "",
     }
+    if match_source in {"checklist_manual_enchantment_alias", "checklist_manual_alchemy_alias"}:
+        refs = [part.strip() for part in row["source_note_refs"].split("|") if part.strip()]
+        if "SN-000126-progression-source-selection-and-grind-policy.md" not in refs:
+            refs.append("SN-000126-progression-source-selection-and-grind-policy.md")
+        row["source_note_refs"] = " | ".join(refs)
 
     if objective_id:
         if route_placement == "branch_route":

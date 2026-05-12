@@ -16,6 +16,7 @@ Generated TB-030 outputs:
 * `checklist-manual-review.md` records the TB-031B resolution of generic manual-review rows into source-backed mappings or typed source-readiness holds.
 * `checklist-escalation-decisions.md` records the TB-031C decisions for branch/default/radiant/counter escalation.
 * `../route-planning/route-default-decisions.md` records the TB-031D route defaults used by option-list and logistics follow-up rows.
+* `../constraints/progression-source-selection.md` and `../constraints/progression-source-selections.csv` record the TB-031E progression source-selection defaults and progression alias resolutions.
 
 Regenerate the matrix with:
 
