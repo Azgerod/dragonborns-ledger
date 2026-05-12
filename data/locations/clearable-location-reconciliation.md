@@ -50,4 +50,4 @@ The TB-008A rows are source-list inventory rows. They are not final route instru
 | Exact boss/quest clear triggers per location | Downstream per-location validation; TB-017 where bug or warning handling is needed |
 | Delver/Explorer PS4 trophy behavior and count validation | TB-015 |
 | Survival Mode geography, shelter, cold, carry, rest, and route clustering | TB-019 and route prototype passes |
-| Checklist row mapping for location discovery and clearance | TB-030 |
+| Checklist row mapping for location discovery and clearance | TB-031B/TB-031F |

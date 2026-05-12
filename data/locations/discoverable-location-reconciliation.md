@@ -42,4 +42,4 @@ The TB-008B rows are source-list inventory rows. They do not settle exact route 
 | Explorer and Delver PS4 trophy behavior | TB-015 |
 | Location bugs, marker state issues, and quest/faction access caveats | TB-017 |
 | Survival Mode geography, shelter, cold, carry, rest, and route clustering | TB-019 and route prototype passes |
-| Checklist row mapping for location discovery and clearance | TB-030 |
+| Checklist row mapping for location discovery and clearance | TB-031B/TB-031F |

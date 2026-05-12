@@ -22,8 +22,8 @@ Current objective database state: 1,957 objective rows, ending at `OBJ-001957`.
 
 | Specification requirement area | Current disposition | Remaining action |
 | --- | --- | --- |
-| Full unique item checklist | Partially covered at source-list/member-table level. Base-game, Dawnguard, and Dragonborn unique items are represented as objective rows; AE equipment parent rows now have member coverage in `data/items/ae-item-members.csv` through TB-007G2. Aggregate status is reconciled in `data/objectives/aggregate-reconciliation.md`. | Validate leveled thresholds, route timing, preservation policy, and checklist mapping in TB-012, TB-020, and TB-030. |
-| Full collectible checklist | Major finite sets have objective coverage at this stage. | Synchronize with location/clearable data in TB-008 and checklist rows in TB-030. |
+| Full unique item checklist | Partially covered at source-list/member-table level. Base-game, Dawnguard, and Dragonborn unique items are represented as objective rows; AE equipment parent rows now have member coverage in `data/items/ae-item-members.csv` through TB-007G2. Aggregate status is reconciled in `data/objectives/aggregate-reconciliation.md`. | Validate leveled thresholds, route timing, preservation policy, and checklist mapping in TB-012, TB-020, TB-031B, and TB-031C. |
+| Full collectible checklist | Major finite sets have objective coverage at this stage. | Synchronize with location/clearable data in TB-008 and checklist rows in TB-031B/TB-031F. |
 | Full spell, power, enchantment, and alchemy checklist | Powers, shouts, Black Book power systems, transformations, and spell tomes have source-list coverage. AE spell/staff, item, ingredient, and crafting parent sets have member-table coverage through TB-007G2; enchantments, alchemy effects, and system decisions remain open. | Handle skill/perk/enchantment/alchemy/crafting systems in TB-009 and TB-020. |
 | Full property, home, and upgrade checklist | City homes, Severin Manor, Hearthfire land/home rows, AE homes, and Goldenhills ownership/system rows exist; supporting detail coverage now lives in `data/properties/property-details.csv`. | Validate exact route timing, safe-storage recommendations, display/checklist selections, family defaults, bug mitigations, and material/economy planning in later constraint and route passes. |
 | Full follower, pet, mount, housecarl, steward, and spouse list | Main unlock rows and option/candidate table coverage exist. | Validate defaults, NPC safety, route timing, and checklist synchronization in later recommendation and constraint passes. |
@@ -40,7 +40,7 @@ The following work remains necessary, but it is intentionally downstream of TB-0
 | AE Creation start triggers and level gates | TB-011 |
 | Leveled unique item thresholds, maximum-tier timing, and cell-entry or pickup locking | TB-012 and TB-013 |
 | Quest conflicts, missables, trophy dependencies, NPC dependencies, bugs, radiants, and Survival Mode constraints | TB-014 through TB-019 |
-| Spreadsheet checklist row mapping and coverage validation | TB-030 and TB-031 |
+| Spreadsheet checklist row mapping and coverage validation | TB-030 through TB-031G |
 
 ## TB-007G Input List
 

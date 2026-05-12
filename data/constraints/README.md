@@ -32,7 +32,7 @@ TB-021 reviewed the Phase 2 outputs from TB-011 through TB-020 for source-note s
 | TB-017 bug-prone quests | `bug-prone-quests.md` | PS4/no-console mitigations, hard saves, platform-test rows, and excluded bug buckets are represented. | Warning layer must stay concise and placed exactly where the route creates the risk. |
 | TB-018 radiant boundaries | `radiant-boundaries.md` | Required gates, finite chains, representative radiants, branch-only radiants, support-only locators, and excluded failure states are bounded. | Thieves Guild 125-job treatment and Volkihar conversion depth remain checklist/branch decisions; Hired Muscle does not require restart forcing. |
 | TB-019 Survival Mode | `survival-mode-constraints.md` | Hunger, fatigue, cold, sleep, travel services, storage, food, carry, and regional risk constraints are represented. | TB-022/TB-025 must use location hub/corridor data; hold membership alone is not adequate geography. |
-| TB-020 skill/perk/crafting | `skill-perk-leveling-plan.md` | All-skills/all-perks, level 252, Legendary resets, training limits, crafting power curve, investments, enchantments, alchemy, and exploit boundaries are represented. | Exact reset distribution, recipes, source items, material quantities, and final perk order remain TB-027/TB-030 work. |
+| TB-020 skill/perk/crafting | `skill-perk-leveling-plan.md` | All-skills/all-perks, level 252, Legendary resets, training limits, crafting power curve, investments, enchantments, alchemy, and exploit boundaries are represented. | Exact reset distribution, recipes, source items, material quantities, and final perk order remain TB-031E work before validation. |
 
 ## Review Decisions
 
@@ -69,11 +69,11 @@ These are not Phase 2 source-support blockers, but they must remain visible:
 | Item | Owner |
 | --- | --- |
 | Use `data/locations/location-geography.csv` for geography-sensitive classification and later regional insertion; do not fall back to hold-equivalence routing. | TB-022/TB-025. |
-| Decide first safe storage, main base, property service timing, and travel infrastructure defaults. | TB-025/TB-030. |
-| Select representative no-journal activity/favor targets for geography, thaneship, economy, and relationship overlap. | TB-025/TB-030. |
-| Choose exact enchantment source items and alchemy discovery recipes without sacrificing preserved uniques. | TB-027/TB-030. |
-| Choose exact Legendary reset distribution, training blocks, and all-perks grind strategy. | TB-027. |
-| Validate route counters for Sideways, Hero of the People, Delver, Explorer, Reader, Thief, Snake Tongue, and trophy pop fallbacks. | TB-030/TB-033 and final QA. |
+| Decide first safe storage, main base, property service timing, and travel infrastructure defaults. | TB-031D. |
+| Select representative no-journal activity/favor targets for geography, thaneship, economy, and relationship overlap. | TB-031D. |
+| Choose exact enchantment source items and alchemy discovery recipes without sacrificing preserved uniques. | TB-031E. |
+| Choose exact Legendary reset distribution, training blocks, and all-perks grind strategy. | TB-031E. |
+| Validate route counters for Sideways, Hero of the People, Delver, Explorer, Reader, Thief, Snake Tongue, and trophy pop fallbacks. | TB-031F/TB-033 and final QA. |
 | Decide branch depth for Stormcloak, Volkihar, Daedric alternatives, Blades/Paarthurnax, and AE branch outcomes. | TB-028/TB-029. |
 | Place warnings for leveled rewards, cell-entry locks, NPC risks, trophy actions, and bug-prone quest steps. | TB-032. |
 

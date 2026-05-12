@@ -83,7 +83,7 @@ Alternate-only objective queue:
 | `OBJ-000378` | `Destroying the Dawnguard` | Branch-only finite quest after Volkihar-side finale state. |
 | `OBJ-000379` | `The Gift` | Branch-only Volkihar quest. |
 | `OBJ-000380` | `The Hunt` | One representative branch instance. |
-| `OBJ-000381` | `New Allegiances` | Baseline one successful conversion; TB-030 may escalate to all three named conversions. |
+| `OBJ-000381` | `New Allegiances` | Baseline one successful conversion; TB-031C may escalate to all three named conversions. |
 | `OBJ-000382` | `Protecting the Bloodline` | One representative branch instance. |
 | `OBJ-000383` | `Rings of Blood Magic` | Complete once to retrieve both rings. |
 
@@ -100,9 +100,9 @@ Warnings and handoffs:
 
 | Topic | TB-029 handling |
 | --- | --- |
-| Conversion depth | Prototype one successful `New Allegiances` conversion; mark all-three conversion coverage as TB-030 checklist escalation only. |
-| Representative radiants | `Culling the Beast`, `Deceiving the Herd`, `The Hunt`, and `Protecting the Bloodline` stay at one representative branch instance unless TB-030 checklist mapping creates named-variant or all-variant requirements. |
-| Spouse-state dependency | `The Gift` requires spouse-state coordination. TB-030/TB-032 must ensure the branch save has a valid spouse setup or explicitly mark the quest conditional. |
+| Conversion depth | Prototype one successful `New Allegiances` conversion; mark all-three conversion coverage as TB-031C checklist escalation only. |
+| Representative radiants | `Culling the Beast`, `Deceiving the Herd`, `The Hunt`, and `Protecting the Bloodline` stay at one representative branch instance unless TB-031C checklist escalation creates named-variant or all-variant requirements. |
+| Spouse-state dependency | `The Gift` requires spouse-state coordination. TB-031C/TB-032 must ensure the branch save has a valid spouse setup or explicitly mark the quest conditional. |
 | Transformation planning | Vampire Lord perk-tree work is a wider progression/transformation issue and must not be silently solved inside this branch file. |
 | Dawnguard final continuity | Never route `Destroying the Dawnguard` on the canonical Dawnguard save. |
 | Reload point | After Volkihar branch-exclusive audit, reload `HS-DG-BLOODLINE` and continue Dawnguard. |

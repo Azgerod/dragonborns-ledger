@@ -67,21 +67,21 @@ This snapshot reflects the TB-010 audit state before TB-010A appended activity/f
 | Main quest | Main and optional main-quest rows | Covered | TB-014/TB-015 handle Season Unending, Paarthurnax, and trophy interactions. |
 | Civil War | Imperial main route and Stormcloak branch rows | Covered | TB-014/TB-015/TB-028 handle branch and War Hero risks. |
 | Major factions | Companions, College, Thieves Guild, Dark Brotherhood rows plus radiants/contracts | Covered | TB-018 handles radiant boundaries; TB-014/TB-017 handle conflicts/bugs. |
-| Bards College | Quest and instrument rows | Covered | TB-017/TB-030 handle bugs/checklist. |
+| Bards College | Quest and instrument rows | Covered | TB-017/TB-031B handle bugs/checklist. |
 | Daedric quests | Quest rows, trophy tracker, artifact handling | Covered | TB-014/TB-015/TB-017/TB-028 handle choices, bugs, and branches. |
 | Official DLC | Dawnguard, Hearthfire, Dragonborn quest/property/system rows | Covered | TB-014 through TB-020 handle constraints. |
 | Official AE Creation bundle | Package manifest, quest rows, property/pet/mount/item/member support data | Covered | TB-011 validates triggers/gates; TB-014/TB-017 handle choices/bugs. |
-| Named side quests | Base/DLC side quest source-list rows | Covered | TB-014/TB-017/TB-030 handle conflicts, bugs, and checklist. |
+| Named side quests | Base/DLC side quest source-list rows | Covered | TB-014/TB-017/TB-031B handle conflicts, bugs, and checklist. |
 | Miscellaneous objectives and favors | Objective-bearing misc/favor rows covered | Follow-up needed | TB-010A must reconcile no-journal activity/favor rows before Phase 2. |
 | Bounded radiants | Source-listed radiant placeholders and representative rows | Covered enough for Phase 1 | TB-018 must classify boundaries. |
-| Shouts and word walls | Shout rows and word-wall-related rows | Covered | TB-015/TB-018/TB-019/TB-030 handle trophy/radiant/geography/checklist. |
-| Locations | Clearable/discoverable/AE place support table | Covered | TB-013/TB-015/TB-017/TB-019 handle locks, trophies, bugs, Survival Mode. |
-| Collectibles | Major finite set/member rows | Covered | TB-030 maps checklist; route passes synchronize locations. |
-| Unique items and leveled rewards | Base/DLC unique rows, AE member support data, leveled parent rows | Covered for Phase 1 | TB-012/TB-013/TB-014/TB-017 handle thresholds, locks, conflicts, bugs. |
-| Properties and homes | Objective rows plus property detail support table | Covered | TB-016/TB-019/TB-020/TB-030 handle NPCs, storage, materials, and checklist. |
-| Pets, mounts, followers, and role options | Unlock rows plus relationship option support table | Covered | TB-016 and recommendation passes handle defaults, NPC safety, and route value. |
-| Spells, powers, abilities, transformations | Spell tome, shout, power, ability, transformation rows | Covered | TB-020/TB-030 handle default choices and checklist. |
-| Skills, perks, alchemy, enchantments, merchant investments, crafting systems | Skill/crafting support tables and closeout review | Covered | TB-015/TB-016/TB-020/TB-030 handle trophies, NPCs, planning, checklist. |
+| Shouts and word walls | Shout rows and word-wall-related rows | Covered | TB-015/TB-018/TB-019/TB-031F handle trophy/radiant/geography/checklist. |
+| Locations | Clearable/discoverable/AE place support table | Covered | TB-013/TB-015/TB-017/TB-019 provide lock, trophy, bug, and Survival inputs; TB-031G validates clear/access mechanics before route prose. |
+| Collectibles | Major finite set/member rows | Covered | TB-031B/TB-031F reconcile checklist and route-counter treatment; route passes synchronize locations. |
+| Unique items and leveled rewards | Base/DLC unique rows, AE member support data, leveled parent rows | Covered for Phase 1 | TB-012/TB-013/TB-014/TB-017 provide threshold, lock, conflict, and bug inputs; TB-031B/TB-031E/TB-032/TB-033 consume them for checklist, source, warning, and validation work. |
+| Properties and homes | Objective rows plus property detail support table | Covered | TB-016/TB-019/TB-020 provide NPC, storage, material, and Survival inputs; TB-031D/TB-031E choose route defaults and material/storage use. |
+| Pets, mounts, followers, and role options | Unlock rows plus relationship option support table | Covered | TB-031D handles defaults, route value, and role recommendations using TB-016 NPC-safety inputs. |
+| Spells, powers, abilities, transformations | Spell tome, shout, power, ability, transformation rows | Covered | TB-031D/TB-031E handle default choices and checklist. |
+| Skills, perks, alchemy, enchantments, merchant investments, crafting systems | Skill/crafting support tables and closeout review | Covered | TB-015/TB-016/TB-020 provide trophy, NPC, and planning inputs; TB-031E chooses concrete sources and route execution. |
 
 ## Structural Audit Results
 

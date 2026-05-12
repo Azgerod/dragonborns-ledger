@@ -112,6 +112,8 @@ Important `prototype-objective-block-map.csv` fields:
 | `deferred_to` | Later owner, gate, or block needed before final insertion. | Use this to avoid burying unresolved work in G14. |
 | `reason` | Human-readable explanation for the prototype assignment. | Inspect source objective/constraint rows before converting it to guide prose. |
 
+After the Phase 10 deferred-work audits, broad generated labels such as `route_anchor_or_later_pass`, `source_selection`, `source_or_support_validation`, and `manual_route_validation` should not appear in `deferred_to`. The generator now points unresolved support, dependency, location-validation, source/objective/support-table readiness, and generated-index readiness rows at TB-031A through TB-031H or a named later route/validation phase.
+
 Important `objective-constraints.csv` fields:
 
 | Field | Meaning | Caution |
@@ -134,7 +136,7 @@ Use these query surfaces by phase:
 | TB-026 flexible insertion | `route_candidate_selection_queue`, corridor views, and `prototype-objective-block-map.csv` | Pick safe nearby objectives only after constraints and candidate rows are checked; keep per-objective assignments auditable. |
 | TB-027 skill/perk/crafting | `route_objective_workbench` filtered by `category IN ('skill_perk','crafting_unlock')` and progression constraints | Use skill support tables and TB-020 notes for actual progression choices. |
 | TB-028/TB-029 branches | `objective_constraints` filtered to `constraint_type = 'quest_conflict_or_branch'` | Build branch/default matrix from canonical conflict rows. |
-| TB-030 checklist mapping | `route_objective_workbench` plus `data/checklist-mapping/coverage-matrix.csv` | Map stable route placements; checklist input is still required. |
+| TB-030/TB-031A-TB-031I checklist mapping and reconciliation | `route_objective_workbench` plus `data/checklist-mapping/coverage-matrix.csv` | Map stable route placements, resolve review buckets, location validation, source-note/generated-index readiness, and checklist-driven defaults/escalations before warning prose. |
 | TB-032/TB-033 warning/validation | `route_hard_constraint_queue` | Place concise warnings, then validate route against source constraint tables. |
 
 ## Useful SQL Queries

@@ -102,7 +102,7 @@ CONSTRAINT_TYPES = {
     "leveled-unique-items.md": ("leveled_reward", "TB-022/TB-024/TB-032"),
     "cell-entry-locks.md": ("cell_entry_lock", "TB-022/TB-024/TB-032"),
     "quest-conflicts-hard-saves.md": ("quest_conflict_or_branch", "TB-028/TB-032"),
-    "trophy-dependencies.md": ("trophy_dependency", "TB-030/TB-033"),
+    "trophy-dependencies.md": ("trophy_dependency", "TB-031F/TB-033"),
     "npc-dependencies.md": ("npc_dependency", "TB-022/TB-025/TB-032"),
     "bug-prone-quests.md": ("bug_mitigation", "TB-032/TB-033"),
     "radiant-boundaries.md": ("radiant_boundary", "TB-022/TB-026"),

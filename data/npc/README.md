@@ -10,5 +10,5 @@ Use these conventions:
 
 * Keep one row per source-listed candidate or service option.
 * Use objective rows for routed completion units and this table for large option lists.
-* Treat `route_treatment=option_list` as unresolved until a later writer-recommendation pass chooses defaults.
-* Keep exact route timing, NPC safety, prerequisite validation, and bug handling in constraint tables rather than this table.
+* Treat `route_treatment=option_list` as unresolved until TB-031D chooses defaults or records an explicit option-list handoff.
+* Keep exact route timing, NPC safety, prerequisite validation, and bug handling in TB-031D, TB-032, TB-033, and the relevant constraint tables rather than this table.

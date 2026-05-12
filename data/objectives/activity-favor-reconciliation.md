@@ -66,7 +66,7 @@ It does not choose exact route targets, resolve radiant boundaries, validate tro
 | TB-017 | Validate bugs, especially brawl crime conversion and child-game caveats. |
 | TB-018 | Classify each representative no-journal activity/favor row as required, representative, finite, or excluded. |
 | TB-019 | Account for Survival Mode travel, carry weight, food, cold, and rest implications when selecting exact activity/favor targets. |
-| TB-030 | Reopen excluded/support-only activity decisions only if the external checklist explicitly tracks them. |
+| TB-031F | Reopen excluded/support-only activity decisions only if the checklist explicitly tracks them. |
 
 ## Source Support
 

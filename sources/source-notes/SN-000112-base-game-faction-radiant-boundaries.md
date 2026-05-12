@@ -39,7 +39,7 @@ The Thieves Guild page states that Delvin/Vex jobs are repeatable, that five job
 
 ## Confidence and Open Questions
 
-Confidence is high for the fixed counts and exclusion rules. The Hired Muscle row is seed-sensitive because UESP says the first Companions radiant is seed-fixed; TB-021 policy is to accept it if offered early, but not force a new-game restart solely for that one representative type. The 125 Thieves Guild side-job counter is source-backed as an unlock boundary, but TB-030 should decide whether those display objects become explicit checklist rows or a clearly labeled completionist grind.
+Confidence is high for the fixed counts and exclusion rules. The Hired Muscle row is seed-sensitive because UESP says the first Companions radiant is seed-fixed; TB-021 policy is to accept it if offered early, but not force a new-game restart solely for that one representative type. The 125 Thieves Guild side-job counter is source-backed as an unlock boundary; TB-031C/TB-031F must decide whether those display objects become explicit checklist rows or a clearly labeled completionist grind.
 
 ## Linked Records
 

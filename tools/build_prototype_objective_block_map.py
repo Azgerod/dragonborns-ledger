@@ -37,7 +37,7 @@ FIXED_EARLY = {
     "OBJ-000705": (
         "G00",
         "inserted_setup_support",
-        "TB-030/TB-032",
+        "TB-031D/TB-031E/TB-032",
         "System coverage only; actual camping-supply crafting waits for material, station, carry, Survival, checklist, and warning validation.",
     ),
 }
@@ -132,8 +132,8 @@ SUPPORT_LOCATION_BLOCK_HINTS = {
 }
 
 BRANCH_OWNER = "TB-028"
-CHECKLIST_OWNER = "TB-030"
-PROGRESSION_OWNER = "TB-030/TB-033"
+CHECKLIST_OWNER = "TB-031A-TB-031F"
+PROGRESSION_OWNER = "TB-031E/TB-033"
 
 LEVELED_GATE_OVERRIDES = {
     "OBJ-000010": ("Level 46+", "first_enter_cell"),
@@ -370,14 +370,51 @@ def fixed_late_block(row: dict[str, str]) -> tuple[str, str]:
     return direct_block(row), "fixed_late_anchor"
 
 
+def support_selection_owner(row: dict[str, str]) -> str:
+    category = row["category"]
+    if category == "property":
+        return "TB-031D"
+    if category in {"trophy", "collectible"}:
+        return "TB-031F"
+    if category in {"book_document", "spell_power", "crafting_unlock"}:
+        return "TB-031E"
+    if category in {"unique_item", "ae_creation"}:
+        return "TB-031B/TB-031E"
+    return "TB-031B"
+
+
+def unresolved_support_owner(row: dict[str, str]) -> str:
+    category = row["category"]
+    if category == "property":
+        return "TB-031D"
+    if category in {"book_document", "spell_power", "crafting_unlock"}:
+        return "TB-031E"
+    if category in {"trophy", "collectible"}:
+        return "TB-031F"
+    return "TB-031B/TB-031D/TB-031E"
+
+
+def dependency_anchor_owner(row: dict[str, str]) -> str:
+    category = row["category"]
+    if category in {"npc_relationship", "pet_mount"}:
+        return "TB-031D"
+    if category == "radiant":
+        return "TB-031C/TB-031F"
+    if category == "unique_item":
+        return "TB-031B/TB-031E/TB-034"
+    if category in {"quest", "misc_objective", "ae_creation"}:
+        return "TB-031H/TB-034"
+    return "TB-031H"
+
+
 def non_main_assignment(row: dict[str, str]) -> tuple[str, str, str, str]:
     placement = row["route_placement"]
     if placement == "branch_route":
         return "", "held_branch_deferred", BRANCH_OWNER, "Branch-exclusive or unresolved branch-default row."
     if placement == "option_list":
-        return "", "held_option_list", "TB-028/TB-030", "Isolated default/option selection, not routed as a main step."
+        return "", "held_option_list", "TB-028/TB-031C/TB-031D", "Isolated default/option selection, not routed as a main step."
     if placement == "appendix":
-        return "", "held_appendix", "TB-030/TB-036", "Reference/checklist row, not a main-route insertion step."
+        return "", "held_appendix", "TB-031A/TB-031B/TB-036", "Reference/checklist row, not a main-route insertion step."
     if placement == "excluded":
         return "", "excluded_nonroute", "none", "Excluded audit or failure/random/unbounded row."
     return "", "out_of_scope", "review", "Non-main route placement not handled by TB-026."
@@ -424,33 +461,33 @@ def main_assignment(row: dict[str, str], location_lookup: dict[str, str]) -> tup
     block = direct_block(row)
     if block:
         if block == "G13" or row["primary_geography_confidence"] == "none":
-            return block, "manual_validation_required", "manual_route_validation", "Separate/manual geography row; do not route from corridor data alone."
+            return block, "manual_validation_required", "TB-031G", "Separate/manual geography row; do not route from corridor data alone."
         return block, "inserted_direct_geography", "route_block", "Direct geography row assigned by primary corridor; still needs row-level validation before prose."
 
     if candidate_status == "multiple_geography_points":
-        return "", "held_candidate_selection", "manual_route_validation", "Multiple geography points require exact point selection."
+        return "", "held_candidate_selection", "TB-031G", "Multiple geography points require exact point selection."
 
     blocks = support_blocks(row, location_lookup)
     if candidate_status == "single_support_candidate":
         if len(blocks) == 1:
             if category == "property":
-                return blocks[0], "support_candidate_conditional", "acquisition_storage_validation", "Property/home candidate assigned to a regional block, but acquisition, ownership, safe storage, and support use remain conditional."
+                return blocks[0], "support_candidate_conditional", "TB-031D", "Property/home candidate assigned to a regional block, but acquisition, ownership, safe storage, and support use remain conditional."
             return blocks[0], "inserted_support_candidate", "route_block", "Single support candidate assigned to the matching route block; availability remains conditional."
-        return "", "support_candidate_conditional", "source_or_support_validation", "Single support candidate lacks a resolved route block; inspect support row before placement."
+        return "", "support_candidate_conditional", unresolved_support_owner(row), "Single support candidate lacks a resolved route block; inspect support row before placement."
 
     if candidate_status == "multiple_support_candidates":
         if len(blocks) == 1:
-            return blocks[0], "held_candidate_selection", "source_selection", "Multiple support candidates exist; one candidate block is visible but source selection remains open."
-        return "", "held_candidate_selection", "source_selection", "Multiple support candidates require later source/copy/default selection."
+            return blocks[0], "held_candidate_selection", support_selection_owner(row), "Multiple support candidates exist; one candidate block is visible but source selection remains open."
+        return "", "held_candidate_selection", support_selection_owner(row), "Multiple support candidates require later source/copy/default selection."
 
     if category in {"trophy", "collectible"}:
         return "G14", "held_checklist_mapping", CHECKLIST_OWNER, "Counter/set coverage waits for checklist synchronization."
     if category in {"spell_power"}:
         return "", "held_progression_layer", PROGRESSION_OWNER, "Power/spell timing depends on progression, perk, or transformation planning."
     if category in {"unique_item", "quest", "radiant", "ae_creation", "pet_mount", "npc_relationship", "misc_objective", "book_document"}:
-        return "", "dependency_anchor_pending", "route_anchor_or_later_pass", "No route candidate data; place with parent quest, dependency, support table, or later checklist/default pass."
+        return "", "dependency_anchor_pending", dependency_anchor_owner(row), "No route candidate data; place with parent quest, dependency, support table, or later checklist/default pass."
 
-    return "", "dependency_anchor_pending", "review", "No route candidate data; review before placement."
+    return "", "dependency_anchor_pending", "TB-031H", "No route candidate data; review before placement."
 
 
 def disposition(row: dict[str, str], route_block: str, status: str, deferred_to: str) -> str:

@@ -10,12 +10,12 @@ It does not choose perk allocation order, recipe sequences, ingredient sources, 
 
 | Area | Artifact | Coverage result | Remaining action |
 | --- | --- | --- | --- |
-| Skill trees and skill-100 objectives | `skill-perk-catalog.csv` | Complete for the 18 source-listed skill trees. | TB-020 must decide training, natural leveling, Legendary reset, and fallback strategy. |
-| Individual perk ranks | `perk-rank-catalog.csv` | Complete for 180 perk nodes and 251 perk ranks. | TB-020 may add a derived prerequisite/allocation graph if route planning needs machine-readable logic. |
-| Enchantment learning | `enchantment-learning-catalog.csv` | Complete at source-list level for learnable effects, with unique-preservation and unobtainable exclusions visible. | TB-020/TB-030 must select source items and checklist mapping without destroying preserved uniques. |
-| Alchemy ingredient effects | `alchemy-effect-catalog.csv` | Complete at source-list level for 190 ingredient records. | TB-020/TB-030 must choose acquisition copies, discovery recipes, and quest-ingredient policy. |
-| Merchant investments | `merchant-investment-catalog.csv` | Complete at source-list audit level: available rows have objectives; bugged or unknown rows remain visible but unrouted. | TB-016/TB-020 must handle NPC survival, replacement merchants, gold staging, and route timing. |
-| Practical crafting systems | `practical-crafting-system-catalog.csv` | Complete for source-listed crafting systems from the Activities page. | TB-020/TB-030 must choose representative recipes, outputs, and checklist-specific recipe knowledge. |
+| Skill trees and skill-100 objectives | `skill-perk-catalog.csv` | Complete for the 18 source-listed skill trees. | TB-027 set the block-level policy; TB-031E must choose exact training, natural leveling, Legendary reset distribution, and fallback execution. |
+| Individual perk ranks | `perk-rank-catalog.csv` | Complete for 180 perk nodes and 251 perk ranks. | TB-031E/TB-033 must use this table for final allocation and validation; a derived prerequisite graph is optional only if final route tooling needs it. |
+| Enchantment learning | `enchantment-learning-catalog.csv` | Complete at source-list level for learnable effects, with unique-preservation and unobtainable exclusions visible. | TB-031E must select source items and checklist mapping without destroying preserved uniques. |
+| Alchemy ingredient effects | `alchemy-effect-catalog.csv` | Complete at source-list level for 190 ingredient records. | TB-031E must choose acquisition copies, discovery recipes, and quest-ingredient policy. |
+| Merchant investments | `merchant-investment-catalog.csv` | Complete at source-list audit level: available rows have objectives; bugged or unknown rows remain visible but unrouted. | TB-031D/TB-031E must choose route timing, gold staging, and investment circuit; TB-033 validates NPC survival and replacement-merchant assumptions. |
+| Practical crafting systems | `practical-crafting-system-catalog.csv` | Complete for source-listed crafting systems from the Activities page. | TB-031E must choose representative recipes, outputs, and checklist-specific recipe knowledge. |
 
 ## Counts
 
@@ -45,20 +45,20 @@ Some related activity entries are deliberately not represented as new skill/craf
 | Chop Wood | Covered for Hard Worker trophy action; work-radiant classification remains separate. | TB-018 should classify representative work/activity radiants. |
 | Mine Ore | Covered for Hard Worker trophy action and mining system row; work-radiant classification remains separate. | TB-018 should classify representative work/activity radiants. |
 | Gather Wheat | Not a crafting-system objective by itself. | TB-018 should classify whether work/activity radiants need representative route treatment. |
-| Cutting Lumber | Hearthfire construction/material support exists in property data; not a separate finite completion objective unless checklist mapping requires it. | TB-020/TB-030 should decide if a route action or checklist cue is needed. |
-| Milling | Material/food-processing action only at this stage; not a separate finite completion objective unless checklist mapping requires it. | TB-020/TB-030 should decide if a route action or checklist cue is needed. |
+| Cutting Lumber | Hearthfire construction/material support exists in property data; not a separate finite completion objective unless checklist mapping requires it. | TB-031F should decide if a route action or checklist cue is needed. |
+| Milling | Material/food-processing action only at this stage; not a separate finite completion objective unless checklist mapping requires it. | TB-031F should decide if a route action or checklist cue is needed. |
 | Fishing | Already represented through AE package, quest, item, ingredient, and fishing-species data. | Fishing route mechanics remain downstream route/checklist work. |
 
 ## Downstream Dependencies
 
 The following open questions are not TB-009F gaps:
 
-* PS4 trophy behavior for Skill Master, Artificer, Hard Worker, and crafting-adjacent trophies belongs to TB-015.
-* NPC survival and investment access belongs to TB-016.
+* PS4 trophy behavior for Skill Master, Artificer, Hard Worker, and crafting-adjacent trophies was researched in TB-015 and remains a TB-033 validation input.
+* NPC survival and investment access was researched in TB-016 and remains a TB-031D/TB-031E route decision plus TB-033 validation input.
 * Work/activity radiant boundaries belong to TB-018.
-* Survival Mode material, food, warmth, carry, and travel implications belong to TB-019.
-* Perk allocation, Legendary reset policy, ingredient/source-item selection, recipe choice, and crafting power curve belong to TB-020.
-* Checklist-specific recipe knowledge and external spreadsheet mapping belong to TB-030.
+* Survival Mode material, food, warmth, carry, and travel implications were researched in TB-019 and remain TB-031D/TB-031E route-decision inputs.
+* Perk allocation, Legendary reset policy, ingredient/source-item selection, recipe choice, and crafting power curve were planned in TB-020/TB-027 and must be concretely selected in TB-031E.
+* Checklist-specific recipe knowledge and external spreadsheet mapping belong to TB-031E/TB-031F.
 
 ## Source Support
 

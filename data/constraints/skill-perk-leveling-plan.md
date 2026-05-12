@@ -2,9 +2,9 @@
 
 Status: TB-027 complete as a block-level progression overlay.
 
-Scope: this is a constraint and progression-integration plan, not final route prose. It records hard requirements, risk boundaries, and writer recommendations for all-skills/all-perks, training, Legendary resets, crafting milestones, investments, material staging, and TB-027 route-block placement pressure. Checklist recipe/source-item mapping remains TB-030.
+Scope: this is a constraint and progression-integration plan, not final route prose. It records hard requirements, risk boundaries, and writer recommendations for all-skills/all-perks, training, Legendary resets, crafting milestones, investments, material staging, and TB-027 route-block placement pressure. Checklist recipe/source-item mapping is now assigned to TB-031E.
 
-Exact trainer choices, skill-book copies, enchantment source items, alchemy recipes, investment circuit, crafting outputs, reset counts, and final verification are intentionally deferred to TB-030/TB-033.
+Exact trainer choices, skill-book copies, enchantment source items, alchemy recipes, investment circuit, crafting outputs, reset counts, and final verification are intentionally deferred to TB-031E/TB-033.
 
 ## TB-027 Completion Criteria
 
@@ -16,7 +16,7 @@ Exact trainer choices, skill-book copies, enchantment source items, alchemy reci
 | Add crafting/economy progression policy. | Complete. |
 | Preserve unique-item and no-unique-disenchant policy. | Complete. |
 | Preserve excluded/deferred exploit policy. | Complete. |
-| Defer exact skill-book copies, recipes, source items, investment circuit, and checklist cues to TB-030. | Intentional. |
+| Defer exact skill-book copies, recipes, source items, investment circuit, and checklist cues to TB-031E. | Intentional. |
 | Defer final route/progression validation to TB-033. | Intentional. |
 
 ## Queue Disposition
@@ -40,7 +40,7 @@ No new gameplay research was performed for TB-027. This section integrates the s
 | Training is a limited per-level budget. | Use training to smooth slow skills and pre-gate underleveling, but do not depend on training for 90-100 completion or assume unused training carries forward. | SN-000120 |
 | Crafting blocks need rest, storage, stations, and merchants. | Place Smithing, Enchanting, Alchemy, construction, and sales loops near safe storage, bed access, stations, and non-exploit restock patterns. | SN-000117; SN-000121; SN-000122 |
 | Unique items are not enchantment fodder. | Enchantment learning must use disposable nonunique source items; unique-only or unobtainable effects stay excluded/audit-visible unless the specification changes. | SN-000083; SN-000121; SN-000122 |
-| Skill books are progression tools and checklist rows. | Do not casually read every found skill book if it would waste high-skill value; TB-030 should choose exact copies and read timing by skill gap, route locality, and checklist coverage. | SN-000051; SN-000103; SN-000120 |
+| Skill books are progression tools and checklist rows. | Do not casually read every found skill book if it would waste high-skill value; TB-031E should choose exact copies and read timing by skill gap, route locality, and checklist coverage. | SN-000051; SN-000103; SN-000120 |
 | Legendary resets are late infrastructure, not early pacing. | Repeated resets begin only after combat alternatives, beds, storage, materials, gold, and final recovery paths exist. The final state must restore every skill to 100. | SN-000119; SN-000120 |
 | Transformation perk trees are separate. | Werewolf and Vampire Lord perk grinds are placed with faction/state windows and are not counted as the 251 normal skill perk ranks. | SN-000105 |
 | Exploit-adjacent accelerators remain non-baseline. | Fortify Restoration loops, trainer-gold recovery, follower-trainer free training, save/attack/reload restocks, and repeated Lockpicking/Speech reset strategies are excluded baseline or deferred decisions. | SN-000120; SN-000121; SN-000122 |
@@ -56,14 +56,14 @@ No new gameplay research was performed for TB-027. This section integrates the s
 | Survival sleep-gated level-ups | Progression support | In Survival Mode, level-ups require sleeping in a bed. | Perk allocation and attribute checkpoints must be placed near bed access; route should not assume on-the-road level-up menus. | SN-000115; SN-000119 | integrated_policy |
 | Fatigue-sensitive crafting | Crafting support | Fatigue can reduce beneficial potion effectiveness. | Any potion-supported Smithing or Enchanting block should start after sleep/rest checks. | SN-000115; SN-000118; SN-000121 | integrated_policy |
 | Training limits | Skill support | Training is limited to five purchased skill levels per character level; unused opportunities do not carry over; trainers cannot raise a skill past 90. | Use training deliberately after level-ups, with hard saves before expensive blocks; do not rely on training for final 90-100 gaps. | SN-000120 | integrated_policy |
-| Skill books and quest skill rewards | `OBJ-000819` through `OBJ-000909`; quest support rows | One title/read or one quest reward should be counted deliberately; duplicate copies are not separate skill-book completion objectives. | Defer exact book copy and quest-reward timing to route placement, but reserve them as useful high-skill finishers. | SN-000103; SN-000119; SN-000120 | deferred_to_TB030_source_selection |
+| Skill books and quest skill rewards | `OBJ-000819` through `OBJ-000909`; quest support rows | One title/read or one quest reward should be counted deliberately; duplicate copies are not separate skill-book completion objectives. | Defer exact book copy and quest-reward timing to route placement, but reserve them as useful high-skill finishers. | SN-000103; SN-000119; SN-000120 | deferred_to_TB031E_source_selection |
 | Skill Master trophy | `OBJ-002465` | First skill reaching 100 satisfies the trophy, but project scope exceeds it. | Check trophy when the first planned skill hits 100; continue all-skills plan. | SN-000103; SN-000081; SN-000119 | deferred_to_TB033_validation |
 | Transformation perk trees | `OBJ-000815` through `OBJ-000818` | Werewolf Mastered and Vampire Mastered require their separate 11-perk transformation trees and are not part of the 251 skill-perk count. | Complete transformation grind before permanent cures or faction/state changes that remove access. | SN-000105 | integrated_constraint |
 | Late level gates | `OBJ-002784`; `OBJ-000464`; leveled reward rows | Legendary Dragons begin at level 78, The Ebony Warrior requires level 80, and several unique rewards have maximum tiers at specific lower thresholds. | Leveling plan must coordinate reward delays and late combat readiness; all-perks level 252 is a final completion target, not a reason to rush early overleveling. | SN-000032; SN-000092; SN-000103; SN-000105 | integrated_constraint |
-| Enchantment learning | `OBJ-002466` through enchantment rows | Learn all non-destructively learnable enchantments; preserve unique items rather than disenchanting them. | Source-item selection must prefer disposable, nonunique items and mark unique-only/unobtainable effects as excluded audit rows. | SN-000083; SN-000121; SN-000122 | deferred_to_TB030_source_selection |
-| Alchemy effect discovery | Alchemy effect rows | Discover all source-listed ingredient effects across base game, DLC, and AE Creation ingredients. | TB-030 must select exact ingredient copies and recipe/eating sequence; AE ingredient coverage cannot rely on older base-game-only recipe lists. | SN-000084; SN-000121; SN-000122 | deferred_to_TB030_source_selection |
-| Merchant investments | `OBJ-002717` through `OBJ-002750` | Source-listed available investments require Speech progression and the Investor perk; bugged/unknown rows remain audit-only until resolved. | Protect merchant NPCs and replacements, acquire Investor before sweeps, and avoid Speech resets that remove Merchant/Fence support during selling blocks. | SN-000085; SN-000108; SN-000120; SN-000122 | deferred_to_TB030_source_selection |
-| Practical crafting systems | `OBJ-002751` through `OBJ-002755`; support rows | Route must explicitly perform Artificer/Hard Worker actions and representative practical systems such as Atronach Forge, Staff Enchanter, and Imbuing Chamber. | Use low-risk early trophy crafts; save complex recipes, Staff Enchanter, Imbuing Chamber, and checklist-specific outputs for later system placement. | SN-000086; SN-000103; SN-000121; SN-000122 | deferred_to_TB030_source_selection |
+| Enchantment learning | `OBJ-002466` through enchantment rows | Learn all non-destructively learnable enchantments; preserve unique items rather than disenchanting them. | Source-item selection must prefer disposable, nonunique items and mark unique-only/unobtainable effects as excluded audit rows. | SN-000083; SN-000121; SN-000122 | deferred_to_TB031E_source_selection |
+| Alchemy effect discovery | Alchemy effect rows | Discover all source-listed ingredient effects across base game, DLC, and AE Creation ingredients. | TB-031E must select exact ingredient copies and recipe/eating sequence; AE ingredient coverage cannot rely on older base-game-only recipe lists. | SN-000084; SN-000121; SN-000122 | deferred_to_TB031E_source_selection |
+| Merchant investments | `OBJ-002717` through `OBJ-002750` | Source-listed available investments require Speech progression and the Investor perk; bugged/unknown rows remain audit-only until resolved. | Protect merchant NPCs and replacements, acquire Investor before sweeps, and avoid Speech resets that remove Merchant/Fence support during selling blocks. | SN-000085; SN-000108; SN-000120; SN-000122 | deferred_to_TB031E_source_selection |
+| Practical crafting systems | `OBJ-002751` through `OBJ-002755`; support rows | Route must explicitly perform Artificer/Hard Worker actions and representative practical systems such as Atronach Forge, Staff Enchanter, and Imbuing Chamber. | Use low-risk early trophy crafts; save complex recipes, Staff Enchanter, Imbuing Chamber, and checklist-specific outputs for later system placement. | SN-000086; SN-000103; SN-000121; SN-000122 | deferred_to_TB031E_source_selection |
 
 ## Checkpoints
 
@@ -143,7 +143,7 @@ These are bounded fallback blocks for route writers. They are not permission to 
 
 ## Legendary Reset Baseline
 
-This is the TB-027 reset policy for the prototype. Exact reset counts cannot be finalized before TB-030/TB-033 because they depend on final objective ordering, natural skill gains, training purchases, skill-book timing, Oghma timing, crafting source selection, checklist cleanup, and final validation.
+This is the TB-027 reset policy for the prototype. Exact reset counts cannot be finalized before TB-031E/TB-033 because they depend on final objective ordering, natural skill gains, training purchases, skill-book timing, Oghma timing, crafting source selection, checklist cleanup, and final validation.
 
 | Reset category | Skills | Baseline use | Safety condition |
 | --- | --- | --- | --- |
@@ -156,15 +156,15 @@ This is the TB-027 reset policy for the prototype. Exact reset counts cannot be 
 
 | Area | Hard scope | Recommended timing | Source notes | Status |
 | --- | --- | --- | --- | --- |
-| Enchantment learning | 54 main-route learnable effects; four unique-preservation exclusions; one unobtainable exclusion. | Accumulate disposable source items gradually; perform final disenchanting check before unique-item cleanup. | SN-000083; SN-000122 | deferred_to_TB030_source_selection |
-| Alchemy effect discovery | 190 source-listed ingredient records across base game, DLC, and AE Creation content. | Use eating, recipes, Experimenter, gardens/greenhouses/farms, and source-specific ingredients; exact route recipes deferred. | SN-000084; SN-000121; SN-000122 | deferred_to_TB030_source_selection |
-| Merchant investments | 33 available investment rows; bugged/unknown rows remain audit-visible. | Do after Speech 70 and Investor, before any Speech reset, and while relevant merchants/replacements are alive and accessible; TB-030 maps the exact merchant circuit. | SN-000085; SN-000108; SN-000122 | deferred_to_TB030_source_selection |
+| Enchantment learning | 54 main-route learnable effects; four unique-preservation exclusions; one unobtainable exclusion. | Accumulate disposable source items gradually; perform final disenchanting check before unique-item cleanup. | SN-000083; SN-000122 | deferred_to_TB031E_source_selection |
+| Alchemy effect discovery | 190 source-listed ingredient records across base game, DLC, and AE Creation content. | Use eating, recipes, Experimenter, gardens/greenhouses/farms, and source-specific ingredients; exact route recipes deferred. | SN-000084; SN-000121; SN-000122 | deferred_to_TB031E_source_selection |
+| Merchant investments | 33 available investment rows; bugged/unknown rows remain audit-visible. | Do after Speech 70 and Investor, before any Speech reset, and while relevant merchants/replacements are alive and accessible; TB-031E maps the exact merchant circuit. | SN-000085; SN-000108; SN-000122 | deferred_to_TB031E_source_selection |
 | Artificer | Make one smithed item, one enchanted item, and one potion. | Do early with low-risk materials, then continue broader crafting plan later. | SN-000103; SN-000121 | integrated_policy |
 | Hard Worker | Chop wood, mine ore, and cook food. | Do early in a controlled settlement or mine visit; Survival food planning makes cooking naturally useful. | SN-000103; SN-000113; SN-000121 | integrated_policy |
-| Hearthfire construction | Build all three Hearthfire houses and all wings for Master Architect; material plan needed. | Stage materials through safe storage and transport infrastructure rather than carrying everything at once. | SN-000030; SN-000105; SN-000117; SN-000121 | deferred_to_TB030_source_selection |
-| Atronach Forge | Practical system objective exists. | Use a representative recipe after access is safe; exact recipe/output deferred to checklist mapping. | SN-000086; SN-000121 | deferred_to_TB030_source_selection |
-| Staff Enchanter | Practical system objective exists. | Use after Solstheim/Tel Mithryn or other safe access; do not rely on patched Myrwatch XP bug. | SN-000086; SN-000121 | deferred_to_TB030_source_selection |
-| Imbuing Chamber | Practical system objective exists. | Use during Dragonborn/White Ridge Barrow or cleanup when ingredients and access align. | SN-000086; SN-000121 | deferred_to_TB030_source_selection |
+| Hearthfire construction | Build all three Hearthfire houses and all wings for Master Architect; material plan needed. | Stage materials through safe storage and transport infrastructure rather than carrying everything at once. | SN-000030; SN-000105; SN-000117; SN-000121 | deferred_to_TB031E_source_selection |
+| Atronach Forge | Practical system objective exists. | Use a representative recipe after access is safe; exact recipe/output deferred to checklist mapping. | SN-000086; SN-000121 | deferred_to_TB031E_source_selection |
+| Staff Enchanter | Practical system objective exists. | Use after Solstheim/Tel Mithryn or other safe access; do not rely on patched Myrwatch XP bug. | SN-000086; SN-000121 | deferred_to_TB031E_source_selection |
+| Imbuing Chamber | Practical system objective exists. | Use during Dragonborn/White Ridge Barrow or cleanup when ingredients and access align. | SN-000086; SN-000121 | deferred_to_TB031E_source_selection |
 | Smelting, tanning, mining, cooking, baking, and support actions | Represented as route actions or system coverage rather than fake finite completion rows. | Place where materials are naturally needed; checklist may add specific outputs later. | SN-000086; SN-000113; SN-000121; SN-000122 | integrated_policy |
 
 ## Exploit and Grind Policy
@@ -186,6 +186,6 @@ TB-027 integrates progression at the route-block layer. It does not create final
 Later passes should:
 
 * TB-028/TB-029: choose branch defaults before placing branch-sensitive transformation, artifact, and faction-state grind windows;
-* TB-030: choose exact skill-book copies, spell-tome sources, disposable enchantment source items, alchemy recipes/ingredient copies, investment circuit, crafting outputs, and checklist cues;
+* TB-031E: choose exact skill-book copies, spell-tome sources, disposable enchantment source items, alchemy recipes/ingredient copies, investment circuit, crafting outputs, and checklist cues;
 * TB-032: convert gate and reset risks into concise warning prose at the exact route steps;
 * TB-033: validate that every gate, Survival support point, perk rank, skill recovery, investment, crafting system, enchantment, alchemy effect, and final all-skills/all-perks condition is satisfied. Expected validation output should include a final skill-state table with fields such as `skill`, `final_level`, `legendary_resets`, `perks_allocated`, and `verification_status`.

@@ -22,7 +22,7 @@ No new gameplay research was performed for this pass. Gameplay claims and route 
 | `data/route-planning/prototype-objective-block-map.csv` | Generated one-row-per-objective TB-026 audit map with route block, disposition, status, threshold, parent link, defer owner, and reason. |
 | `data/locations/location-geography.csv` | Hub/corridor geography, rest/transport/cold/candidate-base support, and confidence flags. |
 | `data/constraints/*.md` | Canonical route laws for AE starts, leveled rewards, cell locks, conflicts, trophies, NPC dependencies, bugs, radiants, Survival Mode, and progression. |
-| `data/constraints/skill-perk-leveling-plan.md` | TB-027 block-level progression overlay for all-skills/all-perks, Legendary resets, training, crafting, investments, enchantment learning, alchemy effects, and underleveled fallbacks. Exact reset counts and final skill-state validation remain TB-030/TB-033. |
+| `data/constraints/skill-perk-leveling-plan.md` | TB-027 block-level progression overlay for all-skills/all-perks, Legendary resets, training, crafting, investments, enchantment learning, alchemy effects, and underleveled fallbacks. Exact reset counts and final skill-state validation remain TB-031E/TB-033. |
 
 ## Data Snapshot
 
@@ -39,8 +39,8 @@ No new gameplay research was performed for this pass. Gameplay claims and route 
 | Progression queue | Rows | TB-027 handling |
 | --- | ---: | --- |
 | `skill_perk` objective rows | 40 | Integrated at route-block level. Final route must reach all skills 100, level 252+, and all 251 normal perk ranks assigned, with post-reset recovery. |
-| `crafting_unlock` objective rows | 301 | Integrated as staged crafting, enchantment, alchemy, investment, and practical-system pressure. Exact source items, recipes, outputs, and checklist cues wait for TB-030. |
-| Skill book objective rows | 90 | Preserved as title-level progression/checklist rows. Exact copies and read timing wait for TB-030 unless a parent quest/location fixes the pickup. |
+| `crafting_unlock` objective rows | 301 | Integrated as staged crafting, enchantment, alchemy, investment, and practical-system pressure. Exact source items, recipes, outputs, and checklist cues wait for TB-031E. |
+| Skill book objective rows | 90 | Preserved as title-level progression/checklist rows. Exact copies and read timing wait for TB-031E unless a parent quest/location fixes the pickup. |
 | Transformation perk objectives | 4 | Remain faction/state-window work. They are separate from the 251 normal skill perk ranks. |
 
 | Candidate status | Main rows | Prototype handling |
@@ -55,7 +55,7 @@ All 447 direct geography rows in this prototype are `location` objectives. They 
 
 The direct geography counts below reflect source corridor membership. Gate-extracted rows such as Forbidden Legend-linked locations, Silent Moons Camp, and Sky Haven Temple remain visible in their source corridor counts, but their controlling prototype assignment is recorded separately in `prototype-objective-block-map.csv`.
 
-Rows with blank `route_block` in `prototype-objective-block-map.csv` are intentionally deferred through `disposition`, `prototype_status`, `deferred_to`, and `reason`; blank does not mean unprocessed. G14 checklist rows are temporary checklist-reconciliation holds, and TB-030 must remap individual collectibles, counters, and checklist-only rows into corridor, quest, branch, appendix, or final cleanup placements where appropriate.
+Rows with blank `route_block` in `prototype-objective-block-map.csv` are intentionally deferred through `disposition`, `prototype_status`, `deferred_to`, and `reason`; blank does not mean unprocessed. G14 checklist rows are temporary checklist-reconciliation holds, and TB-031A through TB-031I must remap individual collectibles, counters, checklist-only rows, location-validation rows, and readiness-audit rows into corridor, quest, branch, appendix, or final cleanup placements where appropriate.
 
 ## Insertion Rules
 
@@ -69,7 +69,7 @@ Rows with blank `route_block` in `prototype-objective-block-map.csv` are intenti
 | Books/documents use title-level coverage. | Single-copy or quest-tied titles can follow their parent block; multi-copy titles wait for candidate selection unless a quest/location already fixes the source. |
 | Unique items are preserved. | Do not disenchant unique items for effects; do not grab leveled, cell-locked, or branch-sensitive unique rewards before their gate. |
 | Radiants use source boundaries. | Required or representative radiants insert only where the Phase 2 radiant table allows, and exact target selection stays reviewable. |
-| Skill, perk, crafting, and grind work follows the TB-027 overlay. | Route blocks now include progression slots, reset policy, and underleveled fallbacks. Exact trainers, source items, recipes, skill-book copies, and checklist cues wait for TB-030/TB-032. |
+| Skill, perk, crafting, and grind work follows the TB-027 overlay. | Route blocks now include progression slots, reset policy, and underleveled fallbacks. Exact trainers, source items, recipes, skill-book copies, and checklist cues wait for TB-031E/TB-032. |
 
 ## Direct Geography Insertion Map
 
@@ -106,7 +106,7 @@ This table assigns direct `location` rows to their primary route-block container
 | G11 Dawnguard expedition | Dawnguard main-route chain, Fort Dawnguard support, Volkihar branch save, coastal/castle loops. | The 15 Dawnguard/coastal direct location rows; finite Dawnguard chains; representative/required Dawnguard radiants only within source boundaries; Fort Dawnguard service/support objectives. | Volkihar branch content in main continuity, vampire perk timing without TB-027, and Aetherial reward default before TB-028. |
 | G12 Solstheim/Raven Rock spine | Raven Rock logistics, Solstheim progression, island sweeps, Black Books, Skaal/Tel Mithryn/Thirsk/Kolbjorn windows. | The 54 Solstheim direct rows; Raven Rock/Tel Mithryn/Skaal local objectives; Black Book and Dragonborn objectives as their prerequisite chain permits; island support rows after ferry and storage validation. | Final Miraak before 60, broad island cleanup before support, Thirsk default, Ralis outcome, and Severin storage before validation. |
 | G13 Separate-worldspace/AE high-risk expeditions | Manually validated separate-worldspace and high-risk AE blocks. | Apocrypha, Soul Cairn, Forgotten Vale, Skuldafn, Deadlands, and high-risk AE objective bundles only after manual access, return, rest, and reward checks. | Any automatic insertion based on Skyrim/Solstheim corridor proximity. |
-| G14 Late cleanup by corridor | Final corridor cleanup, counters, collection reconciliation, and late progression tail. | Remaining safe rows after TB-027, TB-028, TB-030, and TB-032 clarify skills, branch defaults, checklist coverage, and warnings. A row may enter G14 only with an explicit late-level, checklist-finalization, post-branch, post-progression, or unresolved source-selection reason. | Using cleanup as a substitute for missing route placement, underleveled gate recovery without a plan, or unsourced checklist assumptions. |
+| G14 Late cleanup by corridor | Final corridor cleanup, counters, collection reconciliation, and late progression tail. | Remaining safe rows after TB-027, TB-028, TB-031A-TB-031I, and TB-032 clarify skills, branch defaults, checklist coverage, location validation, source readiness, and warnings. A row may enter G14 only with an explicit late-level, checklist-finalization, post-branch, post-progression, or unresolved source-selection reason. | Using cleanup as a substitute for missing route placement, underleveled gate recovery without a plan, or unsourced checklist assumptions. |
 
 ## Progression Overlay
 
@@ -162,7 +162,7 @@ Use fallback blocks only when the player reaches a gate underleveled. Each fallb
 | Queue | Rows | TB-026 disposition |
 | --- | ---: | --- |
 | Single support candidates | 830 | Attach when the support row is already inside a safe route block. This covers many book/document titles, crafting unlock rows, skill/perk support rows, properties, merchant investments, and a few quest/unique/trophy support rows. |
-| Multiple support candidates | 319 | Do not choose a canonical copy/source here. TB-027/TB-030/TB-032 should choose the local safest candidate after skill, checklist, and warning needs are known. |
+| Multiple support candidates | 319 | Do not choose a canonical copy/source here. TB-027/TB-031E/TB-032 should choose the local safest candidate after skill, checklist, and warning needs are known. |
 | No route candidate data | 1,089 | Keep dependency-driven. Quest chains, unique-item rewards, collectible sets, AE package parents, powers, radiants, trophy counters, pets/mounts, and relationships should move with their anchor or later checklist/default pass. |
 | Constraint-backed flexible rows | 887 | Do not treat flexibility as permission to route blindly. Inspect the linked constraint source before final insertion or warning text. |
 | Flexible rows without linked constraints | 1,497 | Eligible for local insertion only if prerequisites, geography, and Survival support are clear. |
@@ -172,14 +172,14 @@ Use fallback blocks only when the player reaches a gate underleveled. Each fallb
 | Objective class | Prototype policy |
 | --- | --- |
 | Properties and bases | Place acquisition opportunities in their regional block, but do not use a candidate base as rest/storage until acquisition, ownership, safety, and storage behavior are validated. |
-| Merchant investments and services | Attach to the relevant city/hub block if the merchant/service remains available and the economy route supports it; TB-027 places them after Speech 70/Investor and before any Speech reset, while TB-030 chooses the exact merchant circuit. |
+| Merchant investments and services | Attach to the relevant city/hub block if the merchant/service remains available and the economy route supports it; TB-027 places them after Speech 70/Investor and before any Speech reset, while TB-031E chooses the exact merchant circuit. |
 | Skill books | Choose one copy per title later. If a skill book is fixed by a quest/location already in a block, mark it as a local pickup candidate; otherwise keep it in the candidate-selection queue. |
-| Spell tomes | Vendor/multiple-source tomes wait for TB-030 shopping/source choices inside the TB-027 skill plan; fixed-copy tomes can follow their validated location block. |
+| Spell tomes | Vendor/multiple-source tomes wait for TB-031E shopping/source choices inside the TB-027 skill plan; fixed-copy tomes can follow their validated location block. |
 | Quest and AE documents | Single-source quest documents follow the parent quest or location; multi-source titles wait for source selection. Oghma Infinium acquisition and read/use timing remain separated. |
 | Unique items | Acquire with the parent quest/location if no leveled, cell-entry, branch, NPC, or bug constraint blocks it. Preserve unique items unless the specification later creates an explicit exception. |
-| Crafting unlocks | Use the TB-027 block overlay for shop/craft/disenchant/alchemy/Smithing/Enchanting/ingredient loops. Do not use a unique-item disenchant as the baseline; exact source items and recipes wait for TB-030. |
+| Crafting unlocks | Use the TB-027 block overlay for shop/craft/disenchant/alchemy/Smithing/Enchanting/ingredient loops. Do not use a unique-item disenchant as the baseline; exact source items and recipes wait for TB-031E. |
 | Radiants | Insert required radiants only inside the relevant faction/window. Representative radiants should use source-approved boundaries and local targets, not random grind assumptions. |
-| Collectibles, stones, shouts, and powers | Insert opportunistically when the corridor is already safe, but checklist coverage and exact counter synchronization wait for TB-030. |
+| Collectibles, stones, shouts, and powers | Insert opportunistically when the corridor is already safe, but checklist coverage and exact counter synchronization wait for TB-031B/TB-031F. |
 | AE Creations | Respect `ae-creation-start-triggers.md`. Vendor/crafting/content-package rows can attach to support blocks; courier, high-level, prerequisite, bug-sensitive, or branch-sensitive rows wait for their gate. |
 
 ## Mandatory Holds
@@ -197,7 +197,7 @@ Use fallback blocks only when the player reaches a gate underleveled. Each fallb
 | Miraak equipment | Final Miraak battle/corpse appearance too early. | Level 60+. |
 | Legendary Dragon | Legendary Dragon hunt too early. | Level 78+ and combat-ready block. |
 | Ebony Warrior | Ebony Warrior objective too early. | Level 80+ and combat-ready block. |
-| All perks | Treating cleanup as final perk completion. | Level 252 plan and post-Legendary skill recovery from TB-027/TB-030. |
+| All perks | Treating cleanup as final perk completion. | Level 252 plan and post-Legendary skill recovery from TB-027/TB-031E. |
 
 ## Source Support
 
@@ -220,6 +220,6 @@ Use fallback blocks only when the player reaches a gate underleveled. Each fallb
 TB-027 is integrated at the block layer. Later passes should not treat that as final route prose.
 
 * TB-028/TB-029 must choose branch defaults before branch-sensitive artifact, transformation, faction-state, or alternate-reward grind windows become final.
-* TB-030 must choose exact skill-book copies, spell-tome sources, disposable enchantment source items, alchemy recipes/ingredient copies, investment circuit, crafting outputs, and checklist cues.
+* TB-031E must choose exact skill-book copies, spell-tome sources, disposable enchantment source items, alchemy recipes/ingredient copies, investment circuit, crafting outputs, and checklist cues.
 * TB-032 must turn gate, reset, crafting, unique-item, and Survival risks into concise warnings at the exact route steps.
 * TB-033 must validate the finished prototype against all constraints, including level gates, skill 100 recovery after Legendary resets, level 252+, all 251 perk ranks, investments, enchantment learning, alchemy effects, practical crafting systems, and Survival logistics.

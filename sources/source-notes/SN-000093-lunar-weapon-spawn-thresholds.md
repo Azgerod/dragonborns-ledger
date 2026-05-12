@@ -32,7 +32,7 @@ The same location page also warns that the enchanted weapons may be missing if t
 
 ## Confidence and Open Questions
 
-Confidence is high for the level 8 route-safe collection rule. TB-013 should decide whether to express this as a strict first-entry warning for Silent Moons Camp or as a softer "avoid until 8, otherwise wait for respawn" warning. TB-030/checklist mapping must later decide whether the route needs one Lunar weapon, all six named Lunar weapon forms, or only the enchantment source under the final checklist.
+Confidence is high for the level 8 route-safe collection rule. TB-013 recorded the cell-entry warning candidate; TB-032 must express the final avoid/enter/respawn warning at the route step. TB-031B/TB-031E must decide whether the checklist route needs one Lunar weapon, all six named Lunar weapon forms, or only a safe enchantment source.
 
 ## Linked Records
 

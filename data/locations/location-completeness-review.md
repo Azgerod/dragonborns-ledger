@@ -45,7 +45,7 @@ The union of those category inputs is 466 pages. `Klimmek's House` is retained a
 | Duplicate markers | Duplicate entrance markers are `map_marker_duplicate` and use `clearable_status=inherited_from_primary`. |
 | Secondary markers | Secondary cleared-marker caveats are `secondary_marker` and use `delver_count_status=does_not_count`. |
 | AE content locations | AE place-page gaps are `content_location` rows with discovery and clearability still marked `needs_research`. |
-| Checklist-only cases | No checklist-only location rows are added yet because the external checklist is not available. TB-030 must add, map, or explicitly exclude any checklist location rows not covered by this source-list catalog. |
+| Checklist-only cases | Checklist-only location rows are now handled by TB-031B manual review after TB-030 ingestion. TB-031B must add, map, or explicitly exclude any checklist location rows not covered by this source-list catalog. |
 
 ## Local Crosswalk Checks
 
@@ -68,4 +68,4 @@ The database is complete for source-list coverage, but it is not route-ready. Th
 | Bug, missability, and cell-entry risks | TB-013 and TB-017 |
 | Quest, faction, and world-state access timing | TB-014 and route prototype passes |
 | Survival Mode travel, cold, shelter, sleep, food, carry, and route grouping | TB-019 and route prototype passes |
-| Spreadsheet checklist mapping and checklist-only exceptions | TB-030 |
+| Spreadsheet checklist mapping and checklist-only exceptions | TB-031B |
