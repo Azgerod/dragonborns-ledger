@@ -41,13 +41,13 @@ Use both the compiled project data and the relevant wiki/source pages. A normal 
 2. `data/route-planning/objective-constraints.csv` for every nearby objective that might be moved earlier or held back.
 3. Domain support tables under `data/books/`, `data/items/`, `data/locations/`, `data/properties/`, `data/npc/`, and `data/skills/` for same-place candidates not obvious from the route index.
 4. `data/checklist-mapping/coverage-matrix.csv` for place-specific checklist rows that share a generic objective parent, such as individual crop-sale, firewood-sale, ore-sale, and other representative activity variants.
-5. The cited source notes and primary wiki pages when route timing depends on exact quest stage, cell state, reward state, ownership, bugs, or placed-object details.
+5. The cited source notes and primary wiki pages when route timing depends on exact quest stage, cell state, reward state, ownership, bug-sensitive route order, or placed-object details.
 
 The default answer should be "route it now" when an objective is safe, sourced, efficient, and naturally colocated. Hold it only for a concrete reason such as a level gate, cell-entry or clear-state risk, branch state, quest conflict, NPC dependency, trophy/counter boundary, skill-book read timing, ownership/theft risk, Survival/logistics issue, or missing source validation.
 
 Do not preserve stale lower-level gates after the route has already passed a higher threshold. If the player has already been held for level 40, a later level-25 or level-36 checkpoint should either be removed from player-facing prose or the sequence should be reordered so the lower gate appears before the higher one. Once a threshold is safely exceeded, write the reward or quest handoff as a normal routed acquisition and record the gate satisfaction internally.
 
-When a first-entry, actor-state, or start-window bug can close off a quest or service, route the minimum stabilizing action before optional same-city work. After the fragile state is protected, resume the normal nearby-objective audit for safe colocated objectives.
+When a first-entry, actor-state, or start-window issue can close off a quest or service, use it as an internal route-order reason: route the minimum stabilizing action before optional same-city work. Do not write player-facing "if the script fails" recovery instructions; assume normal game behavior once the route has chosen the safer order.
 
 Before accepting an assassination contract, hostile-faction contract, or any quest that will turn an NPC into a target, audit that target's normal services, favor dialogue, work-action rows, relationship options, merchant state, and quest dependencies. If any safe required row depends on the target's normal dialogue or alive state, route that row before accepting or advancing the hostile objective.
 
@@ -81,7 +81,9 @@ For quests whose start, progress, and completion happen in different places, cho
 * Make exceptions for fragile first-visit starts, branch setup, missable dialogue, leveled reward gates, radiant target control, or objectives that must remain active for later route control.
 * Revisit these decisions as later route sections are expanded. A quest start that looked good in an early pass may need to move earlier or later once the next progress point is known.
 
-Do not ask the player to manipulate RNG or reroll ordinary radiant assignments as part of normal guide execution. If a target is randomized, respect the target the save actually gives and write a conditional route branch. Reserve save/reload language for explicit branch saves, trophy-pop fallback, bug recovery, or source-backed reward/state protection.
+Do not ask the player to manipulate RNG or reroll ordinary radiant assignments as part of normal guide execution. If a target is randomized, respect the target the save actually gives and write a concise conditional route branch for each possible outcome. Reserve save/reload language for explicit branch saves, route-choice correction, or source-backed reward/state protection.
+
+When a random assignment creates a temporary route divergence, isolate it from the main route. Tell the player to complete the assigned job, retrieval, delivery, or target directly, handle only objectives at the assignment site itself, return to the starting hub or named route point, and then continue the main route. Do not build the surrounding itinerary around one preferred random outcome, and do not detour for nearby objectives just because the assignment temporarily sends the player through an area.
 
 If a required collectible or unique item depends on an uncontrolled random encounter, name the natural acquisition window in the guide, route the action to take if the encounter appears, and record a `NEEDS ROUTE RESOLUTION` row in the internal coverage tracker until a deterministic or explicitly approved random-encounter policy exists. Do not hide the row under generic cleanup language and do not ask the player to roam or reload purely to force the encounter.
 
@@ -114,7 +116,7 @@ Keep local warnings rare and concrete. Use them only for:
 
 * leveled reward or cell-entry gates;
 * branch decisions and irreversible choices;
-* bug-prone actions;
+* source-backed actions whose route order prevents fragile state;
 * trophy/counter boundaries;
 * dialogue options adjacent to a routed dialogue when a misclick would matter;
 * skill books or quest-starting documents only when the route sends the player to interact with that exact object, shelf, table, container, or room.
@@ -141,7 +143,9 @@ The player-facing guide should not use routine bracket checklist cues. The globa
 
 Do not write bracketed checklist callouts or phrases such as "mark the row" or "record the spell tome cue" for obvious acquisitions and completions. If the player would plainly know from normal play that the named thing happened, route the action in prose and let the global policy handle checklist logging.
 
-Use explicit route bookkeeping only for non-obvious state: counter totals, branch-experienced rows, randomized radiant results, trophy boundary timing, option-list/default handling, hidden prerequisites, and conditional availability that the game does not cleanly expose. Counters should state the target and current count, for example: `Record the Sideways counter at 1 of 10 qualifying side quests.`
+Use explicit route bookkeeping only for non-obvious state: counter totals, branch-experienced rows, randomized radiant results, option-list/default handling, hidden prerequisites, and conditional availability that the game does not cleanly expose. Counters should state the target and current count, for example: `Record the Sideways counter at 1 of 10 qualifying side quests.`
+
+Do not add player-facing trophy-pop fallbacks, autosave fallbacks, crash workarounds, console-style recovery notes, "if the quest does not start" instructions, or similar technical contingency prose. The guide assumes the game functions properly throughout. Source notes and coverage trackers may record bug-sensitive route reasons, but the route body should present the intended normal path.
 
 Ordinary state checks such as "carry weight is controlled," "food is stocked," "Survival Mode is still on," and "a rotating manual save has been made" belong in route prose, not checklist callouts.
 

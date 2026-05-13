@@ -4,7 +4,7 @@ Status: route-writing source note for TB-035-MR-031.
 
 ## Scope
 
-This note supports the v1 guide section `Dawnstar, Vaermina, And Cold-Weather Setup`. The pass converts the old northern-preflight scaffold into an executable Dawnstar pass: Survival hot food, Camping Supplies, Rustleif, Captain Wayfinder, conditional Frida target recording, Silus's museum start, `Waking Nightmare`, Nightcaller Temple, the Skull of Corruption branch policy, and Skald's giant-bounty target. It also records the concrete reasons for the remaining Dawnstar/Pale holds.
+This note supports the v1 guide section `Dawnstar, Vaermina, And Cold-Weather Setup`. The pass converts the old northern-preflight scaffold into an executable Dawnstar pass: Survival hot food, Camping Supplies, Rustleif, Silus's museum start, `Waking Nightmare`, Nightcaller Temple, the Skull of Corruption branch policy, and Skald's giant-bounty target. It also records the concrete reasons for the remaining Dawnstar/Pale holds.
 
 ## Sources
 
@@ -38,9 +38,7 @@ The retrospective nearby-objective audit rejects "Dawnstar/Pale bundle later" as
 
 Rustleif's `Rare Gifts` is routed now because the main route already collected a Volunruud `Night Falls on Sentinel` copy unread. The guide gives that copy to Rustleif and explicitly does not count the skill-book title as read; the skill-book checklist row remains open for a separate selected read under the skill-book policy.
 
-`Salty Sea-Dogs` is started now because Captain Wayfinder is in Dawnstar and the source records a finite target pool. The guide records the actual target and does not reroll. Completion remains target-dependent because the Fine-Cut Void Salts must be recovered from whichever cave the save assigns.
-
-Frida's Ring of Pure Mixtures retrieval is conditional because UESP's cave-retrieval page records that only one similar retrieval quest can be assigned at a time. If Korir, Runil, or another cave-retrieval favor is already active, the guide leaves Frida staged; otherwise it starts the quest and records the actual Forsaken Cave, Hillgrund's Tomb, or Shrouded Grove target. The Ring of Pure Mixtures itself remains unclaimed until the assigned target route and post-turn-in preservation plan.
+`Salty Sea-Dogs` and Frida's Ring of Pure Mixtures are now left unstarted in this pass. The user-level random-assignment convention was tightened after the original Dawnstar draft: the guide should not start a random cave retrieval merely because one possible target overlaps a nearby route. These jobs remain staged until the guide can route the actual assigned cave as an isolated assignment and return to the main route without building the itinerary around one preferred result.
 
 `Pieces of the Past` is started now because the player is level 20+ and already in Dawnstar at Silus's museum. The guide handles the museum objective and `The Keepers of the Razor` now, but the Razor pieces remain with their actual locations and the final Mehrunes' Razor hard-save policy remains later. This is quest-chain integrity, not a thematic Dawnstar hold.
 
@@ -54,8 +52,8 @@ The section does not rely on Dawnstar Sanctuary as long-term artifact storage. P
 
 ## Coverage Notes
 
-This pass directly places `Survival Mode Food and Warmth Consumable Set`, `Camping Supplies Crafting System`, Rustleif's `Rare Gifts`, `Salty Sea-Dogs` start/target recording, conditional Frida start/target recording, `Visit the museum in Dawnstar`, `The Keepers of the Razor`, `Waking Nightmare`, Nightcaller Temple discovery, `The Dreamstride`, Vaermina Robes, Skull of Corruption, Erandur's branch follower outcome, and Skald's giant-bounty target recording.
+This pass directly places `Survival Mode Food and Warmth Consumable Set`, `Camping Supplies Crafting System`, Rustleif's `Rare Gifts`, `Visit the museum in Dawnstar`, `The Keepers of the Razor`, `Waking Nightmare`, Nightcaller Temple discovery, `The Dreamstride`, Vaermina Robes, Skull of Corruption, Erandur's branch follower outcome, and Skald's giant-bounty target recording.
 
-Rows that remain staged have concrete non-theme reasons: Balimund's `Stoking the Flames` needs ten spare Fire Salts; Frida may be blocked by one-active cave-retrieval state; Salty/Frida/Skald completions are target-dependent; Pale property and thaneship require the giant bounty, funding, and property-state sequence; Merchant investments require the Investor perk; `Mannimarco, King of Worms` remains closed for the skill-book reading window; `Night Falls on Sentinel` remains unread even though one copy is consumed by Rustleif.
+Rows that remain staged have concrete non-theme reasons: Balimund's `Stoking the Flames` needs ten spare Fire Salts; Wayfinder and Frida require later isolated random-assignment handling; Skald completion is target-dependent; Pale property and thaneship require the giant bounty, funding, and property-state sequence; Merchant investments require the Investor perk; `Mannimarco, King of Worms` remains closed for the skill-book reading window; `Night Falls on Sentinel` remains unread even though one copy is consumed by Rustleif.
 
 No `NEEDS ROUTE RESOLUTION` rows are introduced by this pass.

@@ -4,7 +4,7 @@ Status: route-writing source note for TB-035-MR-026.
 
 ## Scope
 
-This note supports the v1 guide section `Bards College, Lost Library, And Instrument Roads`. The section routes `Investigate the Bards College`, `Tending the Flames`, Dead Men's Respite, Ruby Dragon Claw, King Olaf's Verse, Whirlwind Sprint Wuld, Bards College membership, selected Bards College checklist books, all three Bards instrument jobs, Stony Creek Cave, Ruin's Edge, Treasure Map X, Bliss Bug in a Jar, White Spotted Wild Horse, Hob's Fall Cave, `The Lost Library`, the Arcane Accessories spell tome chest, Halldir's Cairn, Halldir's Staff, Raise Zombie, and target-aware handling for Korir's Helm of Winterhold and Runil's Journal.
+This note supports the v1 guide section `Bards College, Lost Library, And Instrument Roads`. The section routes `Investigate the Bards College`, `Tending the Flames`, Dead Men's Respite, Ruby Dragon Claw, King Olaf's Verse, Whirlwind Sprint Wuld, Bards College membership, selected Bards College checklist books, all three Bards instrument jobs, Stony Creek Cave, Ruin's Edge, Treasure Map X, Bliss Bug in a Jar, White Spotted Wild Horse, Hob's Fall Cave, `The Lost Library`, the Arcane Accessories spell tome chest, Halldir's Cairn, Halldir's Staff, and Raise Zombie. Korir's Helm of Winterhold and Runil's Journal are now left for later isolated random-assignment handling.
 
 ## Sources
 
@@ -35,7 +35,7 @@ This note supports the v1 guide section `Bards College, Lost Library, And Instru
 
 The route starts `Investigate the Bards College` before joining because the project Bards notes record that the investigation pointer can fail or become redundant if the player first joins the college or collects King Olaf's Verse out of order. It deliberately does not start Bards College during earlier Solitude errands, including Adonato's Book delivery, because that would leave `Tending the Flames` open across many unrelated route blocks while Dead Men's Respite, King Olaf's Verse, and the later instrument assignments are still being held for bug-safe ordered pickup. The player speaks to a bard, then Viarmo, then immediately begins `Tending the Flames`.
 
-Dead Men's Respite is routed only after `Tending the Flames` is active. The Bards notes and UESP both support avoiding early collection of King Olaf's Verse, so the guide makes a save after assignment, collects Ruby Dragon Claw and King Olaf's Verse in order, uses the Wolf - Hawk - Wolf claw solution, learns Whirlwind Sprint Wuld, and clears the dungeon in the same pass. The Svaknir/verse reload note is included because the source page records stalling and missing-verse bugs.
+Dead Men's Respite is routed only after `Tending the Flames` is active. The Bards notes and UESP both support avoiding early collection of King Olaf's Verse, so the guide makes a save after assignment, collects Ruby Dragon Claw and King Olaf's Verse in order, uses the Wolf - Hawk - Wolf claw solution, learns Whirlwind Sprint Wuld, and clears the dungeon in the same pass.
 
 The guide completes `Tending the Flames` before starting the three instrument jobs. This keeps the festival in a clean Solitude window before Dark Brotherhood wedding state, Season Unending treaty state, or Civil War city changes can disturb Blue Palace or festival actors. It also unlocks legitimate Bards College access before the guide routes the selected non-skill checklist books in the college.
 
@@ -47,17 +47,17 @@ Stony Creek Cave is bundled with Finn's Lute because the source page places Finn
 
 Hob's Fall Cave is bundled with Pantea's Flute, its Stone of Barenziah, and `The Lost Library`. UESP places the Ancient Tome Chest inside the Hob's Fall library area, and the Lost Library source records the chest as the quest completion source for the Arcane Accessories spell tome set. The route learns the sixteen spells now because the chest is safe, finite, and colocated with a required Bards instrument dungeon. `The Exodus`, `Enchanter's Primer`, and `Boethiah's Proving` remain closed for skill-book timing or named quest timing.
 
-Korir's Helm of Winterhold is handled target-aware before Hob's Fall because UESP lists Hob's Fall Cave as a possible target and also records Yngol Barrow and Civil War/Korir state risks. The guide asks Korir once, records the real target, completes it only if the assigned target is Hob's Fall, preserves a later recorded target if another safe cave is chosen, and reloads only if Yngol Barrow is assigned because that is a bug-avoidance boundary rather than ordinary RNG manipulation.
+Korir's Helm of Winterhold is now left unstarted before Hob's Fall. UESP lists Hob's Fall Cave as a possible target, but the updated random-assignment convention rejects asking for a random job only to route around one preferred overlap. Korir's request should be handled later as an isolated assignment or in a controlled block that can route the actual assigned cave.
 
-Halldir's Cairn is bundled with Rjorn's Drum, Halldir's Staff, and Raise Zombie. The final-fight save is required because UESP records a Special Edition bug where Halldir can disappear without leaving the staff or allowing normal exit completion. Runil is asked before the Halldir leg because Halldir's Cairn is in his target pool; if that is the real target, Runil's Journal is retrieved and turned in now, otherwise the target is recorded for the later named section. The guide does not reload for a better Runil target.
+Halldir's Cairn is bundled with Rjorn's Drum, Halldir's Staff, and Raise Zombie. Runil is now left unstarted before the Halldir leg for the same random-assignment reason as Korir: Halldir's Cairn is only one possible target, so the guide should not build the section around that preferred outcome.
 
 Treasure Map X is completed after Halldir's Cairn because the map is acquired in Stony Creek and the chest is near The Lady Stone, which the guide already discovered in an earlier pass. This closes the map member in the same broad instrument-road chapter without sending the player to an unrelated cleanup list.
 
 ## Coverage Notes
 
-This pass directly places the Bards investigation, `Tending the Flames`, King Olaf's Verse, Ruby Dragon Claw, Dead Men's Respite, Whirlwind Sprint Wuld, three Bards College checklist books, all three Bards instrument quests, Stony Creek Cave, Ruin's Edge, Treasure Map X map and cache, Bliss Bug in a Jar, White Spotted Wild Horse, Hob's Fall Cave, `The Lost Library`, all sixteen Arcane Accessories spell-tome rows from the Ancient Tome Chest, Halldir's Cairn, Halldir's Staff, Raise Zombie, and conditional completion paths for Korir's Helm and Runil's Journal.
+This pass directly places the Bards investigation, `Tending the Flames`, King Olaf's Verse, Ruby Dragon Claw, Dead Men's Respite, Whirlwind Sprint Wuld, three Bards College checklist books, all three Bards instrument quests, Stony Creek Cave, Ruin's Edge, Treasure Map X map and cache, Bliss Bug in a Jar, White Spotted Wild Horse, Hob's Fall Cave, `The Lost Library`, all sixteen Arcane Accessories spell-tome rows from the Ancient Tome Chest, Halldir's Cairn, Halldir's Staff, and Raise Zombie.
 
-Held rows are mapped in coverage rather than exposed as long player-facing warnings: Bards College skill-book copies, Stony Creek/Hob's Fall skill-book copies, quest-starting library books tied to later Daedric/Red Eagle/Aetherium routes, non-Hob's Korir targets, non-Halldir Runil targets, and late Whirlwind Sprint Kest.
+Held rows are mapped in coverage rather than exposed as long player-facing warnings: Bards College skill-book copies, Stony Creek/Hob's Fall skill-book copies, quest-starting library books tied to later Daedric/Red Eagle/Aetherium routes, Korir's Helm of Winterhold, Runil's Journal, and late Whirlwind Sprint Kest.
 
 No TB-035-MR-026 `NEEDS ROUTE RESOLUTION` notes remain.
 
