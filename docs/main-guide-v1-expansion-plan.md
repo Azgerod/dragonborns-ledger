@@ -112,8 +112,8 @@ The task board should surface the next active pass, but this table is the minimu
 | Subtask | Section | Starting source | Required expansion focus | Status |
 | --- | --- | --- | --- | --- |
 | TB-035P | Prep and standards | Repo docs | Record this plan, reopen TB-035, harden instructions, and point the next task at MR-001. | Done |
-| TB-035-MR-001 | MR-001 - Setup And Save Baseline | G00 setup | AE entitlement, mod/Creation restrictions, Legendary/Survival setup, trophy-safe baseline, save policy, explicit exclusions created by setup scope. | Ready |
-| TB-035-MR-002 | MR-002 - Helgen, Riverwood, And First Survival Loop | G01 opening | `Unbound`, `Before the Storm`, Riverwood survival support, first bed/food/sell-off, opening objective and checklist cues. | Pending |
+| TB-035-MR-001 | MR-001 - Setup And Save Baseline | G00 setup | AE entitlement, mod/Creation restrictions, Legendary/Survival setup, trophy-safe baseline, save policy, explicit exclusions created by setup scope. | Done |
+| TB-035-MR-002 | MR-002 - Helgen, Riverwood, And First Survival Loop | G01 opening | `Unbound`, `Before the Storm`, Riverwood survival support, first bed/food/sell-off, opening objective and checklist cues. | Ready |
 | TB-035-MR-003 | MR-003 - First Whiterun Visit | G01 Whiterun first-entry | Whiterun entry, Amren/Ysolda/Brenuin/Uthgerd, early favor/work/action counters, relationship/default handling. | Pending |
 | TB-035-MR-004 | MR-004 - Bleak Falls Barrow And Dragon Rising | G01-G02 main quest opener | `Bleak Falls Barrow`, `Dragon Rising`, first dragon/shout/trophy rows, dragon-world activation warnings. | Pending |
 | TB-035-MR-005 | MR-005 - First Storage, Horse, And Central Base Setup | G02 central support | Whiterun horse, Breezehome, Tundra Homestead, storage verification, property rows and support services. | Pending |

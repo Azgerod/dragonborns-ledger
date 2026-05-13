@@ -62,7 +62,9 @@ TB-035 is reopened. `drafts/final-guide/main-guide-v0.md` expands MR-001 through
 
 TB-035P is complete. `docs/main-guide-v1-expansion-plan.md` records the v1 standard, one subtask per MR section, cross-cutting coverage audits, placeholder phrase policy, and validation expectations.
 
-The current next task is TB-035-MR-001: create `drafts/final-guide/main-guide-v1.md` from the v0 scaffold and expand MR-001 only.
+TB-035-MR-001 is complete. `drafts/final-guide/main-guide-v1.md` now exists, copied from the v0 scaffold, with MR-001 expanded as the first v1 model section. MR-001 explicitly represents setup-scope objective rows `OBJ-000479` through `OBJ-000552`, `OBJ-000702`, and `OBJ-000705`, including the official AE package installation audit, Survival Mode, hot-food member list, Camping Supplies staged recipe, trophy-safe setup exclusions, save policy, and an MR-001 coverage ledger.
+
+The current next task is TB-035-MR-002: expand MR-002 only.
 
 ## Restart Checklist
 
@@ -84,13 +86,13 @@ At the start of the next session:
 
 ## Next Task Details
 
-Start TB-035-MR-001 by creating `drafts/final-guide/main-guide-v1.md` from `drafts/final-guide/main-guide-v0.md`, then expand MR-001 only. Use `docs/main-guide-v1-expansion-plan.md` as the work breakdown and standard.
+Start TB-035-MR-002 by expanding only MR-002 in `drafts/final-guide/main-guide-v1.md`. Use MR-001 as the model for objective IDs, checklist cues, concrete instructions, and the section coverage ledger.
 
 Primary output:
 
-* new or updated `drafts/final-guide/main-guide-v1.md` with MR-001 expanded to objective-level setup instructions
-* MR-001 checklist/objective cues for setup-scope rows, trophy-safe content setup, Survival/Legendary baseline, save policy, and explicit setup-scope exclusions
-* task-board and handoff status updates when the MR-001 pass is complete
+* updated `drafts/final-guide/main-guide-v1.md` with MR-002 expanded to objective-level opening instructions
+* MR-002 checklist/objective cues for `Unbound`, `Before the Storm`, first Survival Mode activation, Riverwood bed/food/cooking/sell-off support, early inventory policy, and any objective/checklist rows assigned to the G01 opening block
+* task-board and handoff status updates when the MR-002 pass is complete
 * no edits to `main-guide-v0.md` except if the user explicitly asks to revise the scaffold snapshot
 
 TB-035 v1 rules:
@@ -103,7 +105,7 @@ TB-035 v1 rules:
 * Use `NEEDS ROUTE RESOLUTION:` only for genuine data gaps after checking the relevant objective, checklist, route-planning, constraint, and support rows.
 * Do not use placeholder phrases such as `route local`, `collect local`, `finish remaining`, `as needed`, `selected sources`, `support rows`, `route locations`, or `spell sources` unless immediately followed by a full objective-level list and concrete actions.
 * Do not do broad gameplay research. If validation exposes a concrete gameplay contradiction, source-check that row only and cite it under `docs/source-standards.md`.
-* Run affected route/checklist generators if metadata changes require it, then `python3 tools/build_checklist_coverage.py`, `python3 tools/validate_all.py`, `python3 tools/check_main_guide_placeholders.py drafts/final-guide/main-guide-v1.md` once v1 exists, and `git diff --check`.
+* Run affected route/checklist generators if metadata changes require it, then `python3 tools/build_checklist_coverage.py`, `python3 tools/validate_all.py`, `python3 tools/check_main_guide_placeholders.py drafts/final-guide/main-guide-v1.md --section MR-002`, and `git diff --check`.
 
 TB-027 support handoffs:
 
