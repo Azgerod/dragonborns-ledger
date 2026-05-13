@@ -47,7 +47,7 @@ TB-031D chooses representative targets for route-default planning:
 
 | Representative row | Target default | Source-backed basis |
 | --- | --- | --- |
-| Chop Wood | Hod at Riverwood. | `Chop Wood` lists Hod as a Whiterun Hold/Riverwood quest giver, says the activity is repeatable, notes thane-help disposition credit, and specifically calls Riverwood the easiest early two-block woodcutting location. |
+| Chop Wood | Hulda at the Bannered Mare. | TB-035 revised the default from Hod to Hulda after the geographic-route audit: `Chop Wood` lists Hulda as a Whiterun buyer, and the first Whiterun city loop can pair Hulda's firewood turn-in with crime-safe `Argonian Ale Extraction`. SN-000132 records the later source-backed route correction. |
 | Gather Wheat / crop sale | Alfhild Battle-Born at Battle-Born Farm. | `Gather Wheat` lists Alfhild Battle-Born at Battle-Born Farm in Whiterun Hold as a crop buyer and says these crop-sale favors count toward hold help. |
 | Mine Ore | Grogmar gro-Burzag at Redbelly Mine. | `Mine Ore` lists Grogmar at Redbelly Mine, says the activity is repeatable and counts toward hold help, and notes Redbelly Mine completion raises favor enough to make the player blood-kin to the Orcs. |
 | Fight! Fight! | Uthgerd the Unbroken in Whiterun. | `Fight! Fight!` lists Uthgerd in Whiterun and records follower, marriage, Blades, and Hearthfire steward option value; the page also records brawl assault risks that need controlled execution. |

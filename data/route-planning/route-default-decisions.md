@@ -74,7 +74,7 @@ These are representative defaults, not all-target requirements. TB-031F still ch
 
 | Representative row | Target default | Route reason | Source notes |
 | --- | --- | --- | --- |
-| Chop Wood | Hod at Riverwood. | Early warm-core target; Riverwood has immediate route access and the source page explicitly calls Riverwood the easiest early two-block woodcutting location. | SN-000089 |
+| Chop Wood | Hulda at the Bannered Mare. | Revised during TB-035: the first Whiterun city loop can pair Hulda's firewood turn-in with crime-safe `Argonian Ale Extraction`, while Alvor's Hadvar-route support supplies the early woodcutter's axe. | SN-000089; SN-000132 |
 | Gather Wheat / crop sale | Alfhild Battle-Born at Battle-Born Farm. | Whiterun hold target near the central base corridor; crop sale raises disposition and supports thane-help overlap without sending the route north or west early. | SN-000089 |
 | Mine Ore | Grogmar gro-Burzag at Redbelly Mine. | Ore sale both satisfies the representative mining row and has a source-listed Blood-Kin side benefit, making it more completion-useful than a pure gold sale. | SN-000089 |
 | Brawl | Uthgerd the Unbroken in Whiterun. | Central, early, source-listed brawl target with follower/steward/marriage option value; use a controlled no-follower brawl window. | SN-000089; SN-000067; SN-000068 |

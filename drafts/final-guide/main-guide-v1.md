@@ -2,7 +2,7 @@
 
 This is a self-contained route guide. It tells you what to do, when to do it, what to save before, and what to mark as complete. You should not need to consult the objective spreadsheet while playing; the spreadsheet is used behind the scenes to verify coverage.
 
-Draft note: The first three route sections are player-facing v1 text. Sections marked `Scaffold only - not yet v1-expanded` are still placeholders from the previous scaffold and are not ready for play.
+Draft note: The first five route sections are player-facing v1 text. Sections marked `Scaffold only - not yet v1-expanded` are still placeholders from the previous scaffold and are not ready for play.
 
 ## Guide Conventions
 
@@ -29,7 +29,7 @@ Draft note: The first three route sections are player-facing v1 text. Sections m
 3. Confirm the official AE bundle includes Creation content such as Survival Mode, Fishing, Camping, Rare Curios, Saints & Seducers, Farming, Tundra Homestead, Myrwatch, The Cause, Ghosts of the Tribunal, Bittercup, and the other official AE creations. This is only an installation check; the guide routes each Creation when it is safe.
 4. Set the difficulty to Legendary before normal play begins, and leave it there unless this guide explicitly records a later exception. [CHECKLIST: Legendary difficulty set]
 5. Survival Mode is mandatory for the main route. The game offers the Survival Mode prompt after leaving Helgen; turn it on immediately after the escape.
-6. Create a rotating manual save set as soon as manual saving is available. Keep at least three rotating manual saves. When this guide names a hard save, create a separate save with the exact `HS-...` label and keep it until that branch, reward, or bug-risk window is finished. [CHECKLIST: Save rotation started]
+6. Once manual saving is available, begin a rotating manual save set. Keep at least three rotating manual saves. When this guide names a hard save, create a separate save with the exact `HS-...` label and keep it until that branch, reward, or bug-risk window is finished.
 7. Start saving Fire Salts when practical. They are the key ingredient for hot food in Survival Mode, and hot food is how this route prepares for cold travel. Do not hoard every food ingredient if carry weight is tight; prioritize Fire Salts and common vegetables.
 
 Useful early Survival recipes:
@@ -43,26 +43,28 @@ Useful early Survival recipes:
 | Hot Beef Stew | Fire Salts, Raw Beef, Carrot, Garlic |
 
 8. Camping is available through the AE bundle, but do not depend on camps as your main survival plan. Inns and owned beds are safer for the route because they support planned rest and level-up timing. Later, when the guide tells you to craft Camping Supplies, use a forge or anvil with three firewood and one leather. Until then, keep those materials only when carry weight allows.
-9. Before leaving setup, confirm the baseline: official AE bundle installed, no non-AE content installed, trophies preserved, Legendary difficulty selected, rotating saves started, Survival Mode will be enabled at the post-Helgen prompt, and Route Discipline is understood. [CHECKLIST: Setup - baseline complete]
+9. Before leaving setup, confirm the baseline: official AE bundle installed, no non-AE content installed, trophies preserved, Legendary difficulty selected, rotating-save policy understood, Survival Mode will be enabled at the post-Helgen prompt, and Route Discipline is understood. [CHECKLIST: Setup - baseline complete]
 
 ## Early Warm-Core Stabilization
 
 ### Helgen, Riverwood, And First Survival Loop
 
-1. Start the game normally. During `Unbound`, follow Hadvar as the route default. Take one usable weapon setup, one armor setup, lockpicks, gold, potions, arrows if you will use a bow, and light food. Do not haul duplicate armor and weapons just because they are free; Survival Mode will cut your carry capacity after the opening.
+1. Start the game normally. During `Unbound`, follow Hadvar as the route default. Leave Helgen with one usable weapon setup, one armor setup, lockpicks, gold, potions, and light food.
 2. Finish the Helgen escape and leave the cave. Confirm the quest completes, then mark [CHECKLIST: Quest - Unbound] and [CHECKLIST: Trophy - Unbound]. If the trophy does not pop, reload the nearest usable manual save or autosave before continuing.
-3. Before walking away from the Helgen area, open the map and confirm Helgen is recorded as discovered. If it is not discovered, walk close enough to the Helgen map marker until it appears before continuing. Mark [CHECKLIST: Location - Helgen discovered].
+3. Discover Helgen before leaving the area, then mark [CHECKLIST: Location - Helgen discovered].
 4. After leaving Helgen, when the game offers the Survival Mode prompt, turn Survival Mode on immediately and mark [CHECKLIST: Survival - Survival Mode enabled].
-5. Make a rotating manual save outside Helgen.
-6. Stay on the road toward Riverwood with Hadvar. Pass by Embershard Mine, Anise's Cabin, Bleak Falls Barrow, and the unmarked bandit camp south of The Guardian Stones without entering them. Leave Treasure Map I alone. Do not open or pick up the `Night Falls on Sentinel` skill-book copy near that camp yet; opening it would consume the skill increase before the planned skill-book reading window.
-7. Stop at The Guardian Stones. Confirm the location discovery before activating a stone, then mark [CHECKLIST: Location - The Guardian Stones discovered]. Activate the Warrior Stone as the opening default, then mark [CHECKLIST: Standing Stone - Warrior Stone activated] and [CHECKLIST: Trophy - Blessed]. This is an early leveling aid, not the final standing-stone decision; do not change stones again until a later section names a specific stone.
-8. Continue to Riverwood. Do not leave until the Riverwood map marker appears, then mark [CHECKLIST: Location - Riverwood discovered].
-9. Speak to Alvor for the `Before the Storm` Riverwood step. Accept only the intended supplies and information. Do not start Alvor's Blacksmithing Tutorial. Leave `Before the Storm` parked at the Whiterun/Jarl objective; do not mark `Before the Storm` complete yet.
-10. Use Riverwood only as a survival support stop for now. Sell duplicate Helgen loot at the Riverwood Trader if Lucan is open, but use barter only. Do not ask Lucan or Camilla about the stolen claw yet (`The Golden Claw`).
-11. At the Sleeping Giant Inn, leave Riverwood with at least two food items for the walk to Whiterun. Prefer cooked food. Use raw food only as backup. Rent a room if Fatigue is already active, if a level-up is waiting, or if Survival penalties are starting to interfere with travel. Use an indoor bed for any level-up. Do not ask Orgnar for the Alchemy Tutorial, give Embry a drink, or discuss the Faendal/Sven/Camilla love triangle yet.
-12. Treat Riverwood's cooking pot, forge, wood chopping block, Riverwood Trader, Alvor, and Sleeping Giant Inn as useful services for later. For now, finish only the routed survival stop and leave for Whiterun.
-13. Before leaving Riverwood, check your inventory. Keep gold, lockpicks, healing, food, one armor set, one main weapon setup, arrows only if you need them, and any unique or quest items. Sell or drop duplicate ordinary weapons and armor. Do not store irreplaceable items in random barrels, sacks, chests, or furniture.
-14. Make another rotating manual save before starting the road to Whiterun.
+5. Make your first rotating manual save outside Helgen, then mark [CHECKLIST: Save rotation started].
+6. Follow the road to The Guardian Stones. Discover the location and mark [CHECKLIST: Location - The Guardian Stones discovered]. Activate the Warrior Stone as the opening default, then mark [CHECKLIST: Standing Stone - Warrior Stone activated] and [CHECKLIST: Trophy - Blessed].
+7. Continue into Riverwood. Discover Riverwood and mark [CHECKLIST: Location - Riverwood discovered].
+8. Speak to Alvor for the `Before the Storm` Riverwood step. Accept his starter support, take the woodcutter's axe from the woodpile in Alvor's cellar if you do not already have one, and leave `Before the Storm` parked at the Whiterun/Jarl objective; do not mark `Before the Storm` complete yet.
+9. Go to the Sleeping Giant Inn. Buy one inexpensive alcoholic drink from Orgnar if you do not already have one, give it to Embry, and mark [CHECKLIST: Favor - Embry drink favor].
+10. Speak to Sven about Camilla and accept his forged letter. Mark [CHECKLIST: Book - Sven's Fake Letter from Faendal acquired].
+11. Find Faendal near the mill or around Riverwood. Show him Sven's letter, accept Faendal's counter-forged letter, and mark [CHECKLIST: Book - Faendal's Fake Letter from Sven acquired].
+12. Go to the Riverwood Trader. Speak to Lucan or Camilla about the stolen claw and start `The Golden Claw`. Then speak to Camilla about the love triangle, give her Faendal's letter, and return to Faendal. Complete `A Lovely Letter`, then mark [CHECKLIST: Quest - A Lovely Letter], [CHECKLIST: Follower - Faendal available], and [CHECKLIST: Steward candidate - Faendal available]. Record Hero of the People at 1 of 50 finite miscellaneous objectives.
+13. While at the Riverwood Trader, sell ordinary Helgen loot if you need food, arrows, lockpicks, or carry space.
+14. Use the inn as the first Survival support stop: leave Riverwood with food for the Whiterun road, and rent a room first if Fatigue or a waiting level-up needs an indoor bed.
+15. Check your inventory before leaving Riverwood. Keep gold, lockpicks, healing, food, one armor set, one main weapon setup, ammunition if you use it, unique items, quest items, and the woodcutter's axe for the first Whiterun inn loop.
+16. Make another rotating manual save before starting the road to Whiterun.
 
 End state before First Whiterun Visit:
 
@@ -70,66 +72,126 @@ End state before First Whiterun Visit:
 * You have food for the road to Whiterun.
 * Carry weight is under control.
 * `Before the Storm` is parked at the Whiterun/Jarl objective.
-* You have not intentionally started extra Riverwood side content, tutorials, inn favors, stolen-claw dialogue, nearby dungeon/cabin content, Treasure Map I, or `Night Falls on Sentinel`.
+* `The Golden Claw` is active and ready for the Bleak Falls Barrow trip.
+* `A Lovely Letter` is complete in Faendal's favor; Faendal is available as a follower and future steward candidate.
+* Embry's drink favor is complete.
+* Hero of the People tracking is at 1 of 50 finite miscellaneous objectives.
 * A rotating manual save has been made.
 
-### First Whiterun Visit
+### First Day In Whiterun
 
-1. Walk from Riverwood to Whiterun on the main road. Keep food available, eat before Hunger penalties interfere with travel, and do not stop for farm work, crop sales, caves, towers, forts, giant camps, bandit camps, or roadside distractions.
-2. Approach Whiterun Stables before going up to the city gate. Confirm the Whiterun Stables map marker appears; if it does not, walk close enough to the stable yard until it appears. Mark [CHECKLIST: Location - Whiterun Stables discovered]. This is a discovery stop only; purchases and carriage travel wait for later.
-3. Walk up to the main gate. Confirm the Whiterun map marker appears; if it does not, move around the gate approach until it appears. Mark [CHECKLIST: Location - Whiterun discovered].
-4. At the gate, use the Helgen/Riverwood dragon-warning dialogue to enter the city. Keep the first entry clean: no crimes, sightseeing, or errands before Dragonsreach.
-5. Go straight to Dragonsreach and speak to Jarl Balgruuf. Report the Helgen dragon attack, complete `Before the Storm`, and mark [CHECKLIST: Quest - Before the Storm]. Accept the next main-quest handoff to Farengar for `Bleak Falls Barrow`, but do not leave for Bleak Falls Barrow yet.
-6. Speak to Farengar only far enough to receive the Dragonstone objective. Leave the `The Aetherium Wars` copy in Farengar's study closed and untouched. Do not ask Farengar for optional delivery work yet.
-7. If you speak to Proventus Avenicci during the Dragonsreach handoff, do not ask him for property, bounties, special work, or unusual assignments yet.
-8. Before leaving Whiterun on this first visit, secure the two first-visit favor starts that can be fragile if ignored. Find Amren in the streets, market, or his house, ask about his family sword, and accept `Dungeon Delving (Amren's Family Sword)`. Completion waits for the assigned hideout later. Find Ysolda in the market or near her house, ask about the Mammoth Tusk, and accept `Rare Gifts`. Completion waits for a routed Mammoth Tusk source later.
-9. Give Brenuin one gold for his beggar favor and confirm `Gift of Charity` appears. Mark [CHECKLIST: Favor - Brenuin beggar gift]. Do not take Argonian Ale from The Bannered Mare for him yet (`Argonian Ale Extraction`).
-10. Make a rotating manual save before the brawl. If you have less than 100 gold, sell ordinary duplicate loot first, then return to this step. Enter The Bannered Mare without a follower, pet, or summoned creature. Challenge Uthgerd the Unbroken to a brawl, wager 100 gold, and fight barehanded only: no follower help, weapon, spell, poison, shout, or summon. Stop when the brawl ends, then speak to Uthgerd after she yields. Mark [CHECKLIST: Favor - Uthgerd brawl] and [CHECKLIST: Follower - Uthgerd the Unbroken available]. Do not recruit her yet. Heal and eat afterward if needed before leaving Whiterun.
-11. Since the route brings you into The Bannered Mare, ignore loose notices and diaries there, and do not ask Hulda for rumors yet. Those hooks are routed later.
-12. Keep this first Whiterun visit narrow: Dragonsreach, Amren, Ysolda, Brenuin, Uthgerd, basic selling, then leave. Side buildings, private homes, notes, books, property, faction starts, rumors, bounties, special merchant purchases, and AE hooks wait until the guide routes them.
-13. If carry weight is tight, sell ordinary duplicate gear to Belethor, Adrianne, Ulfberth, or Hulda during business hours. Use barter only, and buy only ordinary food, arrows, lockpicks, or basic supplies you immediately need.
-14. Before leaving Whiterun, make a rotating manual save.
+1. Walk from Riverwood to Whiterun on the main road.
+2. Approach Whiterun Stables before going up to the city gate. Discover Whiterun Stables and mark [CHECKLIST: Location - Whiterun Stables discovered].
+3. Walk up to the main gate. Discover Whiterun and mark [CHECKLIST: Location - Whiterun discovered].
+4. At the gate, use the Helgen/Riverwood dragon-warning dialogue to enter the city.
+5. If you reach Whiterun after shops and daytime NPC schedules are over, rent a room at the Bannered Mare and start the city loop in the morning.
+6. Speak to Adrianne Avenicci outside Warmaiden's and accept the delivery of Balgruuf's Greatsword to Proventus.
+7. Go to Dragonsreach. Discover Dragonsreach and mark [CHECKLIST: Location - Dragonsreach discovered].
+8. Speak to Jarl Balgruuf. Report the Helgen dragon attack, complete `Before the Storm`, and mark [CHECKLIST: Quest - Before the Storm]. Accept the next main-quest handoff to Farengar for `Bleak Falls Barrow`.
+9. Find Proventus Avenicci in Dragonsreach and give him Balgruuf's Greatsword. Complete `Greatsword for a Great Man` and mark [CHECKLIST: Quest - Greatsword for a Great Man].
+10. Speak to Farengar and receive the Dragonstone objective. Before leaving, ask whether he is the only wizard in Whiterun, accept Farengar's Frost Salts for Arcadia, and leave Dragonsreach.
+11. Go to Arcadia's Cauldron during business hours and give Arcadia the frost salts. Complete `Salt for Arcadia` and mark [CHECKLIST: Quest - Salt for Arcadia].
+12. In the market district, speak to Carlotta Valentia and ask whether someone is giving her trouble. Accept her request to deal with Mikael.
+13. Find Ysolda in the market or near her house, ask about the Mammoth Tusk, and accept `Rare Gifts`. Completion waits for a routed Mammoth Tusk source later.
+14. Find Amren in the streets, market, or his house, ask about his family sword, and accept `Dungeon Delving (Amren's Family Sword)`. Completion waits for the assigned hideout later.
+15. Give Brenuin one gold for his beggar favor and confirm `Gift of Charity` appears. Mark [CHECKLIST: Favor - Brenuin beggar gift]. Then ask Brenuin whether he is always drunk and accept `Argonian Ale Extraction`.
+16. Find Lars Battle-Born between 8am and 8pm, agree to help with Braith, speak to Braith, then return to Lars. Complete `Bullying Braith` and mark [CHECKLIST: Quest - Bullying Braith].
+17. Go to the Hall of the Dead. If you are carrying any ordinary Amulets of Arkay, drop them on the Hall of the Dead floor before speaking to Andurs; pick them back up after the quest turn-in. Speak to Andurs, enter Whiterun Catacombs, take Andurs' Amulet of Arkay from the table, and take the Unusual Gem from the alcove near the lower stairs. Leave the `Death Blow of Abernanit` skill book closed. Return the amulet to Andurs, then mark [CHECKLIST: Quest - Andurs' Arkay Amulet] and [CHECKLIST: Collectible - Stone of Barenziah: Whiterun Hall of the Dead acquired].
+18. Go to the Bannered Mare. Tell Mikael to leave Carlotta alone. Try the Persuade option first; if it succeeds, record Snake Tongue progress as Persuade 1 of 3. If it fails or the conversation becomes a brawl, fight barehanded with no follower, pet, summon, weapon, spell, poison, or shout. Return to Carlotta and complete `A Few Words with You`, then mark [CHECKLIST: Quest - A Few Words with You: Carlotta].
+19. Use the wood chopping block behind the Bannered Mare. Chop at least one batch of firewood, then sell firewood to Hulda. Record Hard Worker progress as wood chopped 1 of 3 and mark [CHECKLIST: Activity - Chop Wood for Hulda].
+20. In the Bannered Mare kitchen, take the Argonian Ale only when the prompt says `Take`. If it still says `Steal`, sell another batch of firewood to Hulda and check again. Give the Argonian Ale to Brenuin, complete `Argonian Ale Extraction`, and mark [CHECKLIST: Quest - Argonian Ale Extraction].
+21. Make a rotating manual save before the brawl with Uthgerd. If you have less than 100 gold, sell ordinary duplicate loot first. Challenge Uthgerd the Unbroken, wager 100 gold, and fight barehanded with no follower, pet, summon, weapon, spell, poison, or shout. Speak to Uthgerd after she yields, then mark [CHECKLIST: Favor - Uthgerd brawl] and [CHECKLIST: Follower - Uthgerd the Unbroken available]. Leave her available in Whiterun for now.
+22. Record Hero of the People at 7 of 50 finite miscellaneous objectives: `A Lovely Letter`, `Greatsword for a Great Man`, `Salt for Arcadia`, `A Few Words with You`, `Bullying Braith`, `Andurs' Arkay Amulet`, and `Argonian Ale Extraction`.
+23. If carry weight is tight, sell ordinary duplicate gear during business hours. Buy only food, arrows, lockpicks, or basic supplies you immediately need.
+24. Before leaving Whiterun, make a rotating manual save.
 
-End state before Bleak Falls Barrow And Dragon Rising:
+End state before Bleak Falls Barrow And First Dragon:
 
-* Whiterun Stables and Whiterun are discovered.
+* Whiterun Stables, Whiterun, and Dragonsreach are discovered.
 * `Before the Storm` is complete.
 * `Bleak Falls Barrow` is active only as the next main-quest objective.
+* `Greatsword for a Great Man`, `Salt for Arcadia`, `A Few Words with You`, `Bullying Braith`, `Andurs' Arkay Amulet`, and `Argonian Ale Extraction` are complete.
 * Amren's sword favor and Ysolda's Mammoth Tusk favor are accepted, but neither is completed.
 * Brenuin's beggar gift is complete and `Gift of Charity` was received.
+* The Whiterun Hall of the Dead Stone of Barenziah is acquired; `Death Blow of Abernanit` remains unopened.
+* Hard Worker tracking has wood chopped 1 of 3.
+* Hero of the People tracking is at 7 of 50 finite miscellaneous objectives.
 * Uthgerd's brawl is complete, and Uthgerd is available as a follower option but has not been recruited.
-* You have not intentionally started extra Whiterun side quests, faction starts, property purchases, AE hooks, rumors, bounties, skill-book reads, or private-building errands.
 * Carry weight is under control, Survival Mode is still on, and a rotating manual save has been made.
 
-### Bleak Falls Barrow And Dragon Rising
+### Bleak Falls Barrow And First Dragon
+
+1. Before leaving Whiterun, carry food, healing, lockpicks, enough empty carry space, and a ranged option for the first dragon fight. Make a rotating manual save.
+2. Return to Riverwood as the final warm stop before the dungeon. Use the inn or trader if you need food, rest, arrows, lockpicks, or carry space, then make a rotating manual save before climbing toward the barrow.
+3. Take the northwestern trail from Riverwood to Bleak Falls Barrow. Discover Bleak Falls Barrow and mark [CHECKLIST: Location - Bleak Falls Barrow discovered]. Clear the exterior bandits, then enter Bleak Falls Temple.
+4. In the first pillar puzzle room, set the pillars to Snake, Snake, Whale, then pull the lever and pass through the gate.
+5. Leave the Pickpocket skill book `Thief` closed; this copy is reserved for the planned Scholar's Insight reading window.
+6. Continue to the webbed chamber. Kill the wounded frostbite spider, speak to Arvel, cut him down, and recover the Golden Claw and Arvel's Journal from him when he dies. Read Arvel's Journal once for the door clue, then keep it until approved storage is available. Mark [CHECKLIST: Collectible - Golden Claw acquired] and [CHECKLIST: Book - Arvel's Journal].
+7. Continue through the draugr catacombs to the waterfall cavern. If Thomas's body is present on the ledge, loot `Note to Thomas` and mark [CHECKLIST: Book - Note to Thomas]. If the body is not present, continue; the guide will handle the note later if needed.
+8. Enter Bleak Falls Sanctum. For the claw door, set the rings from outer to inner as Bear, Moth, Owl, then activate the keyhole with the Golden Claw.
+9. Before approaching the word wall, make a rotating manual save. Let the guardian fully emerge before killing it. Learn the first word of Unrelenting Force from the wall and mark [CHECKLIST: Dragon Shout - Unrelenting Force: Fus learned]. Loot the Dragonstone from the guardian. If the body cannot be searched, reload the save from before the word wall and repeat the fight with the guardian fully awake before it dies.
+10. After the guardian is dead and the Dragonstone is in your inventory, mark [CHECKLIST: Location - Bleak Falls Barrow cleared]. Use the exit handle and leave by the mountain shortcut.
+11. Return to Riverwood before Whiterun. Give the Golden Claw back to Lucan at the Riverwood Trader, complete `The Golden Claw`, and mark [CHECKLIST: Quest - The Golden Claw]. Record the Sideways counter at 1 of 10 qualifying side quests; do not mark the trophy complete until the guide reaches the tenth qualifying side quest. Leave the Golden Claw on display until the final claw/display policy tells you otherwise. Camilla is now a non-default marriage option, but the route still uses Ysolda as the default spouse later.
+12. Travel back to Whiterun and go straight to Dragonsreach. Make a rotating manual save before handing over the Dragonstone. Give the Dragonstone to Farengar, complete `Bleak Falls Barrow`, and mark [CHECKLIST: Quest - Bleak Falls Barrow] and [CHECKLIST: Trophy - Bleak Falls Barrow]. If the trophy does not pop, reload the nearest usable manual save or autosave before continuing.
+13. Stay in Dragonsreach for the dragon report scene. Follow the Jarl's instructions for `Dragon Rising`. Breezehome is purchasable after this main-quest gate, but the route will not buy a house until the gold exists without grinding or exploits. If you later see the Alik'r warriors arguing with Whiterun guards at the gate, let the scene pass and stay with this route; their quest is handled in the next Whiterun block.
+14. Before leaving the city with Irileth, confirm you have food, healing, and a ranged option. Make a rotating manual save. Follow Irileth and the guards west to the Western Watchtower. Discover Western Watchtower and mark [CHECKLIST: Location - Western Watchtower discovered].
+15. Defeat Mirmulnir and stay near the body until the soul absorption finishes. Mark [CHECKLIST: Trophy - Dragon Soul]. Start the Dragon Hunter counter at 1 of 20 absorbed dragon souls. Record absorbed souls, not dragon kills.
+16. Equip Unrelenting Force after the soul is absorbed. If the optional objective to use the shout is still active, aim away from guards and civilians, use the shout once, then stop.
+17. Return to Dragonsreach and report to Jarl Balgruuf. Complete `Dragon Rising` and mark [CHECKLIST: Quest - Dragon Rising]. Accept the Whiterun thaneship, the Axe of Whiterun, and Lydia's housecarl assignment; mark [CHECKLIST: Thaneship - Thane of Whiterun], [CHECKLIST: Housecarl - Lydia available], and [CHECKLIST: Honorary Weapon - Axe of Whiterun received]. Leave Lydia available in Dragonsreach for now.
+18. Make a rotating manual save before leaving Dragonsreach.
+
+End state before Saadia, First Horse, And Western Road Support:
+
+* `The Golden Claw` is complete, the Golden Claw was acquired, used, and returned to Lucan, and Sideways tracking starts at 1 of 10 qualifying side quests.
+* Bleak Falls Barrow is discovered and cleared.
+* Arvel's Journal is collected; `Thief` remains unopened; `Note to Thomas` is collected only if Thomas's body appeared, otherwise it remains for later handling.
+* `Bleak Falls Barrow` is complete, the Dragonstone is delivered, and the Bleak Falls Barrow trophy has been checked.
+* Unrelenting Force: Fus is learned and unlocked.
+* Western Watchtower is discovered.
+* `Dragon Rising` is complete, Dragon Soul has been checked, and Dragon Hunter tracking starts at 1 of 20 absorbed souls.
+* Whiterun thaneship is granted, the Axe of Whiterun is received, and Lydia is available but not recruited.
+* `The Way of the Voice` is active, but High Hrothgar travel waits for the later main-quest section.
+* `In My Time Of Need` is now available from the Alik'r gate scene, but its start, route-default choice, and Swindler's Den trip stay together in the next Whiterun block.
+* Breezehome purchase permission is available, but house purchase waits for the 5,000-gold economy target.
+* Carry weight is controlled, Survival Mode is still on, and a rotating manual save has been made.
+
+### Saadia, First Horse, And Western Road Support
+
+1. Start in Whiterun after reporting `Dragon Rising`. Sell ordinary duplicate loot, especially heavy dragon bones or scales if you need the money and carry space. Keep unique items, quest items, skill books, claws, stones, journals, and named rewards. Your immediate cash target is 1,500 gold for the first horse and one horse-armor purchase; house money comes later.
+2. Leave Whiterun through the main gate. When the Alik'r warriors argue with the guards, let the scene finish, then speak to one of the warriors and agree to look for the Redguard woman.
+3. Go to the Bannered Mare. Speak to Saadia, tell her the Alik'r are looking for her, and follow her upstairs. Hear her out and take her side as the route default.
+4. Go to Dragonsreach Dungeon. Speak to the jailed Alik'r prisoner once, then pay his 100-gold fine to a Whiterun guard. Return to the prisoner only after the fine is paid, ask for Kematu's location, and receive the Swindler's Den objective.
+5. Make a rotating manual save, then go to Whiterun Stables. Buy the Whiterun stable horse from Skulvar Sable-Hilt or Jervar for 1,000 gold and mark [CHECKLIST: Mount - Whiterun Stable Horse purchased]. Ask the hostler to apply Elven Horse Armor for 500 gold and mark [CHECKLIST: Mount Equipment - Elven Horse Armor applied]. Steel Horse Armor waits until a later storage-supported stable visit; switching armor before storage would put a heavy armor item into your inventory.
+6. Ride west to Swindler's Den. Discover Swindler's Den at the cave entrance and mark [CHECKLIST: Location - Swindler's Den discovered].
+7. Enter Swindler's Den and fight through the bandits toward Kematu's chamber. Leave the `Thief` skill book closed when you pass its bedroll room; this copy is still reserved for the Scholar's Insight reading window.
+8. Use the cooking pot in the bandit camp chamber to cook one food item from the ingredients available in the cave, then mark [CHECKLIST: Activity - Cook food in Swindler's Den]. Hard Worker tracking is now wood chopped and food cooked; mining waits for the first routed pickaxe and ore vein.
+9. When Kematu stops you behind the waterfall, keep Saadia's side. End the conversation on the hostile path, kill Kematu and the Alik'r warriors directly, and use the cave shortcut back to the entrance.
+10. Return to the Bannered Mare and tell Saadia that Kematu is dead. Complete `In My Time Of Need`, mark [CHECKLIST: Quest - In My Time Of Need], and record the Sideways counter at 2 of 10 qualifying side quests.
+11. Sell ordinary Swindler's Den loot if you need food, arrows, lockpicks, or carry room. Keep the remaining gold liquid for the next section's Breezehome fund. Breezehome costs 5,000 gold before upgrades; Tundra Homestead costs 7,500 gold. Do not grind, exploit, or assume either house is available yet.
+12. Make a rotating manual save before leaving Whiterun again.
+
+End state before Early Local Economy And Riverwood Loop:
+
+* `In My Time Of Need` is complete on the Saadia-default route.
+* Sideways tracking is at 2 of 10 qualifying side quests.
+* The Whiterun stable horse is owned, and Elven Horse Armor is applied.
+* Steel Horse Armor is still unpurchased and waits for a later storage-supported stable visit.
+* Swindler's Den is discovered and swept for Saadia's quest. Do not mark it as a cleared dungeon or count it for Delver yet; its `Cleared` tag can be unreliable, and the later location-counter pass will handle it.
+* Hard Worker tracking has wood chopped and food cooked; mining remains.
+* Breezehome is unlocked but not purchased; the route is saving toward the 5,000-gold first-storage target.
+* Tundra Homestead is not purchased; it remains the later 7,500-gold main-base target.
+* Carry weight is controlled, Survival Mode is still on, and a rotating manual save has been made.
+
+### Early Local Economy And Riverwood Loop
 
 Scaffold only - not yet v1-expanded.
 
-1. Confirm you have food, healing, basic warmth, and carry space.
-2. Complete `Bleak Falls Barrow`. Collect quest items, the word wall, and any routed in-scope books or unique items encountered naturally. [CHECKLIST: Quest, Shout, Location, Book]
-3. Return through Whiterun and complete `Dragon Rising`. [CHECKLIST: Quest, Trophy]
-4. Record the first dragon soul and the dragon system becoming active. From here forward, dragon souls are a routed resource for shouts, Dragon Hunter, Bend Will, and late Waking Dreams reset windows.
-5. If any early trophy does not pop when expected, reload the nearest pre-action save and repeat the verified completion action before continuing.
-
-### First Storage, Horse, And Central Base Setup
-
-Scaffold only - not yet v1-expanded.
-
-1. Buy the Whiterun Stable Horse as soon as early funds allow. [CHECKLIST: Mount, Survival]
-2. Acquire Breezehome only when purchase/furnishing state is legal. Verify sleep/storage behavior before placing unique items or long-term materials inside. [CHECKLIST: Property, Storage]
-3. Treat Breezehome as the first approved storage bridge, not the final main base.
-4. Purchase Tundra Homestead when funds and route state permit. Verify ownership, storage, crafting, garden/apiary, and family movement state before using it as the main central base. [CHECKLIST: AE Creation, Property, Storage]
-5. Do not use unverified barrels, sacks, faction containers, or Creation displays for irreplaceable gear.
-
-### Early Work Actions And Local Economy
-
-Scaffold only - not yet v1-expanded.
-
-1. Complete the explicit Hard Worker actions in a controlled settlement loop: chop wood, mine ore, and cook one food item. Recommended defaults are Hod for wood, Grogmar at Redbelly Mine for ore when that route window opens, and any safe cooking station for food. [CHECKLIST: Trophy, Misc, Crafting]
-2. Complete the representative crop-sale favor with Alfhild Battle-Born when the Whiterun farm loop is safe. [CHECKLIST: Favor, Misc]
-3. Complete one smithed item, one enchanted disposable item, and one potion for Artificer once materials and stations are available. [CHECKLIST: Trophy, Crafting]
-4. Start storing one-copy alchemy ingredients, disposable enchantment source items, soul gems, smithing materials, and selected skill-book copies. Do not consume or disenchant before the guide tells you to.
-5. Use local Whiterun/Riverwood objectives as safe filler if you are short of level 8, but do not cross the Silent Moons gate early.
+1. Route the first Guardian Stones/Riverwood local cleanup loop after settlement support is stable: clear the unmarked bandit camp south of The Guardian Stones, take `Treasure Map I`, leave the `Night Falls on Sentinel` skill-book copy closed for the Scholar's Insight window, then loot Treasure Chest I from the fallen tree near Riverwood. [CHECKLIST: Collectible]
+2. Complete the remaining explicit Hard Worker action in a controlled settlement loop: acquire a pickaxe, mine ore, and verify the trophy after the earlier Hulda wood chopping and Swindler's Den cooking actions. [CHECKLIST: Trophy, Misc, Crafting]
+3. Complete the representative crop-sale favor with Alfhild Battle-Born when the Whiterun farm loop is safe. [CHECKLIST: Favor, Misc]
+4. Complete one smithed item, one enchanted disposable item, and one potion for Artificer once materials and stations are available. [CHECKLIST: Trophy, Crafting]
+5. Start storing one-copy alchemy ingredients, disposable enchantment source items, soul gems, smithing materials, and selected skill-book copies. Do not consume or disenchant before the guide tells you to.
+6. Use remaining Whiterun/Riverwood objectives as safe filler if you are short of level 8, but do not cross the Silent Moons gate early.
 
 ### Level 8 Silent Moons Gate
 

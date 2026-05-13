@@ -42,6 +42,7 @@ TB-031D resolves route-shaping defaults for the main continuity. Non-default can
 | Area | Resolved recommendation |
 | --- | --- |
 | First safe storage | Breezehome after legal purchase/furnishing/storage verification; inns and short sell-off loops before then. |
+| Early property economy | Do not assume Breezehome or AE-home money before the route has generated it through normal rewards, looting, and selling. Do not use grinding or purchase exploits as a hidden bridge. |
 | Main base/home | Tundra Homestead after purchase and storage/family verification. |
 | Food/income base | Goldenhills Plantation as food, pantry, income, crop, and Rorikstead-area support after setup; not the primary unique-display base until validation. |
 | Solstheim base | Severin Manor only after `Served Cold` and ownership/container verification. |
@@ -56,7 +57,7 @@ TB-031D resolves route-shaping defaults for the main continuity. Non-default can
 | Goldenhills steward and farmhands | Faendal as default Goldenhills steward after early follower/training needs are resolved; generic steward-hired farmhands by default. |
 | Black Book powers | Waking Dreams reset service reserved for late controlled windows; Dragonborn Force, Secret of Arcana, Mora's Boon, Seeker of Sorcery standing default with temporary crafting switches, Secret Servant, and Scholar's Insight until skill-book completion then Companion's Insight. |
 | Final transformation state | End mortal after werewolf and Vampire Lord perk/power windows are complete. |
-| Representative no-journal targets | Hod for Chop Wood, Alfhild Battle-Born for crop sale, Grogmar gro-Burzag for Mine Ore, Uthgerd for brawl, Brenuin for beggar favor, and Embry for drunk favor. |
+| Representative no-journal targets | Hulda for Chop Wood, Alfhild Battle-Born for crop sale, Grogmar gro-Burzag for Mine Ore, Uthgerd for brawl, Brenuin for beggar favor, and Embry for drunk favor. TB-035 moved Chop Wood from Hod to Hulda because the first Whiterun city loop can pair Hulda's firewood turn-in with a crime-safe `Argonian Ale Extraction`. |
 
 ## Remaining Writer-Recommended Defaults
 

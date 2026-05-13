@@ -55,6 +55,8 @@ Do not put objective IDs, coverage ledgers, row counts, coverage-matrix language
 
 The MR identifiers are internal coordination labels, not player-facing chapter names. Player-facing guide headings should use route titles. The sequence and jurisdiction of these internal sections may be adjusted during expansion when objective-level routing shows that the broad scaffold would split or delay content poorly. When a section boundary changes, update the guide text, the coverage tracker, and this plan/task-board handoff rather than forcing objectives into the stale scaffold.
 
+Follow `docs/main-guide-writing-conventions.md` for player-facing prose. The current convention is positive route instructions first: use global Route Discipline for broad prohibitions, audit all nearby safe objectives across every objective type, route safe same-location objectives while the player is already there, respect opening Survival stabilization before optional combat detours, time multi-location quest starts relative to the next routed progress point, keep related objectives together as coherent bundles where possible, keep local warnings rare and route-critical, avoid ordinary combat/loot micromanagement, and keep objective IDs/coverage mechanics in the internal tracker.
+
 The guide must not use category placeholders as route instructions. Banned or suspect phrases include:
 
 * `route local`
@@ -99,27 +101,28 @@ For each pass:
 
 1. Create or update `drafts/final-guide/main-guide-v1.md` from the current v1 draft state. Do not edit `main-guide-v0.md`; keep it as the scaffold/reference snapshot.
 2. Identify all rows assigned to the section from `main-guide-v0.md`, `main-route-prototype-v0.md`, `prototype-objective-block-map.csv`, `objective-route-index.csv`, `coverage-matrix.csv`, and relevant support tables.
-3. Expand the section with explicit instructions for each objective/checklist row. Name the quest, location, NPC, item, book, spell, shout, collectible, counter action, branch outcome, option/default, exclusion, or system output.
-4. Preserve all hard gates, hard saves, branch reloads, Survival Mode logistics, and unique-item preservation rules.
-5. Add checklist cues at the point of completion/acquisition/verification.
-6. Add `NEEDS ROUTE RESOLUTION` notes only for genuinely unresolved rows.
-7. Record the rows processed by the pass in `data/guide-coverage/main-guide-v1-coverage.csv` or another clearly internal coverage artifact.
-8. Search the edited section for placeholder phrases before moving on.
+3. Run a nearby-objective audit for the section's locations, road corridors, hubs, service stops, dungeons, and support tables. Include all objective types: quests, quest progress, locations, collectibles, books/documents, spell tomes, properties, services, mounts, pets, favors, radiants, counters, crafting, investments, and relationship/default rows.
+4. Expand the section with explicit instructions for each objective/checklist row. Name the quest, location, NPC, item, book, spell, shout, collectible, counter action, branch outcome, option/default, exclusion, or system output.
+5. Preserve all hard gates, hard saves, branch reloads, Survival Mode logistics, and unique-item preservation rules.
+6. Add checklist cues at the point of completion/acquisition/verification.
+7. Add `NEEDS ROUTE RESOLUTION` notes only for genuinely unresolved rows.
+8. Record the rows processed by the pass in `data/guide-coverage/main-guide-v1-coverage.csv` or another clearly internal coverage artifact, including source-backed reasons for nearby objectives held for later.
+9. Search the edited section for placeholder phrases before moving on.
 
-## Per-MR Subtasks
+## Route-Block Subtasks
 
-The task board should surface the next active pass, but this table is the minimum required work breakdown. No MR section is allowed to be treated as "covered" until objective-level expansion for that section is complete.
+The task board should surface the next active pass, but this table is the minimum required work breakdown. Internal MR labels remain useful handles from the prototype, but the actual route-block jurisdiction must follow geography, quest state, and objective-level constraints. No route block is allowed to be treated as "covered" until objective-level expansion for that block is complete and any moved work has been removed from stale later buckets.
 
 | Subtask | Section | Starting source | Required expansion focus | Status |
 | --- | --- | --- | --- | --- |
 | TB-035P | Prep and standards | Repo docs | Record this plan, reopen TB-035, harden instructions, and point the next task at MR-001. | Done |
 | TB-035-MR-001 | MR-001 - Setup And Save Baseline | G00 setup | AE entitlement, mod/Creation restrictions, Legendary/Survival setup, trophy-safe baseline, save policy, explicit exclusions created by setup scope. | Done |
 | TB-035-MR-001R | Revise MR-001 player-facing/internal split | MR-001 correction | Remove audit/report prose from the guide, move objective IDs and coverage status to `data/guide-coverage/main-guide-v1-coverage.csv`, and keep MR-001 readable as player instructions. | Done |
-| TB-035-MR-002 | MR-002 - Helgen, Riverwood, And First Survival Loop | G01 opening | `Unbound`, `Before the Storm`, Riverwood survival support, first bed/food/sell-off, opening objective and checklist cues. | Done |
-| TB-035-MR-003 | MR-003 - First Whiterun Visit | G01 Whiterun first-entry | Whiterun entry, Amren/Ysolda/Brenuin/Uthgerd, first-visit protection, explicit Whiterun AE/property/book/side-objective deferrals, relationship/default handling. | Done; pending user review |
-| TB-035-MR-004 | MR-004 - Bleak Falls Barrow And Dragon Rising | G01-G02 main quest opener | `Bleak Falls Barrow`, `Dragon Rising`, first dragon/shout/trophy rows, dragon-world activation warnings. | Pending |
-| TB-035-MR-005 | MR-005 - First Storage, Horse, And Central Base Setup | G02 central support | Whiterun horse, Breezehome, Tundra Homestead, storage verification, property rows and support services. | Pending |
-| TB-035-MR-006 | MR-006 - Early Work Actions And Local Economy | G02 central activities | Chop wood, crop sale, brawl, beggar/drunk favors, crafting tutorials, early economy and trophy-counter rows. | Pending |
+| TB-035-MR-002 | Internal MR-002 - Helgen, Riverwood, And First Survival Loop | G01 opening | `Unbound`, `Before the Storm`, Guardian Stones, Riverwood survival support, Alvor support and woodcutter's axe, first bed/food/sell-off, `The Golden Claw` start, `A Lovely Letter` in Faendal's favor, both forged letters, Faendal follower/steward staging, Embry drunk-favor default, Hero of the People 1/50, opening objective and checklist cues. Holds Treasure Map I for the early economy/Riverwood loop after settlement support stabilizes. | Done; revised for geographic routing and opening stabilization |
+| TB-035-MR-003 | Internal MR-003 - First Day In Whiterun | G01 Whiterun first-entry | Whiterun Stables/Whiterun/Dragonsreach discovery, `Before the Storm`, Farengar Dragonstone objective, Adrianne/Proventus greatsword, Farengar/Arcadia frost salts, Carlotta/Mikael, Ysolda and Amren starts, Brenuin beggar and Argonian Ale, Lars/Braith, Andurs/Hall of the Dead Stone, Hulda chop wood, Uthgerd brawl, Hero of the People 7/50, Hard Worker wood 1/3, conditional Snake Tongue Persuade slot, and relationship/default handling. | Done; revised for geographic routing |
+| TB-035-MR-004 | Internal MR-004 - Bleak Falls Barrow And Dragon Rising | G01-G02 main quest opener | `Bleak Falls Barrow`, `The Golden Claw` completion after Riverwood start, `Dragon Rising`, first dragon/shout/trophy rows, dragon-world activation warnings, and `In My Time Of Need` availability handoff to the next coherent Whiterun block. | Done; pending user review |
+| TB-035-MR-005 | Internal MR-005 - Saadia, First Horse, And Western Road Support | G02 central support | Post-`Dragon Rising` `In My Time Of Need` start and Saadia-default completion, Swindler's Den quest sweep/discovery, first Whiterun horse, Elven Horse Armor, Swindler's Den cooking for Hard Worker 2/3, and economy-supported staging for Breezehome/Tundra instead of assuming early house money. | Done; pending user review |
+| TB-035-MR-006 | Internal MR-006 - Early Local Economy And Riverwood Loop | G02 central activities | Build the Breezehome fund without exploits, route Treasure Map I camp and Riverwood chest after support stabilizes, acquire a pickaxe and mine ore for Hard Worker completion, crop sale, Embershard/local bundles if safe, Artificer setup, early economy, and any Whiterun/Riverwood support rows not already absorbed by MR-002/MR-005. | Pending |
 | TB-035-MR-007 | MR-007 - Level 8 Silent Moons Gate | G02 level 8 gate | Silent Moons/Lunar weapon handling, level 8 gate, central Whiterun/Rorikstead locations and linked enchantment/item rows. | Pending |
 | TB-035-MR-008 | MR-008 - Goldenhills Plantation | G02 Goldenhills | `The Unquiet Dead`, Goldenhills ownership, farm operations, staffing, crop/food/income rows, storage caveats. | Pending |
 | TB-035-MR-009 | MR-009 - Companions Entry | G02-G03 Companions start | Companions opening quests, required early radiant gates, representative radiant rules, faction checklist cues. | Pending |
