@@ -61,13 +61,13 @@ The 125-job counter is completed after `Under New Management` rather than before
 
 Shadowfoot Sanctum is bought after the 125-job block because the counter work provides enough ordinary gold to cover the 7,500-gold purchase without assuming early-property money or exploits. The guide enters the home to complete its quest and ownership rows, but leaves display placement and family moves for the later homes/display section.
 
-`Onmund's Request` remains staged even though the Amulet of Articulation is now available. It is not colocated with the Ragged Flagon restoration block; the next natural College/Winterhold return can use the amulet to avoid the random staff-retrieval path.
+`Onmund's Request` remains outside this Ragged Flagon restoration block because it is not colocated with the Thieves Guild work. The follow-up Whiterun/College audit insertion now uses the newly acquired Amulet of Articulation to avoid the random staff-retrieval path.
 
 ## Coverage Summary
 
 This pass places `Toying With The Dead`, `Possible Rivals`, Markarth/Whiterun/Windhelm city restoration counts, Fishing Job, Bedlam Job, `Silver Lining`, Endon fence unlock, `Imitation Amnesty`, the Dragonsreach Stone of Barenziah, `Letter from Solitude`, `Thieves Guild Caravan Fence Quest`, Atahbah/Ma'jhad/Zaynabi fence unlock, Uttering Hills Cave clear, `Summerset Shadows`, `First Letter from Linwe`, `Second Letter from Linwe`, Linwe's Armor set, Niranye fence unlock, restored Flagon merchant/recruit availability, `Under New Management`, Tribute Chest Key, Amulet of Articulation, Guild Master's Armor set, the 125-job display/safe boundary, and Shadowfoot Sanctum purchase/ownership.
 
-Rows intentionally staged with concrete reasons: `Mace Etiquette` remains with the selected post-Scholar's Insight skill-book source; Shadowfoot display placement and family moves remain with the later homes/display route; Onmund's Request waits for the next natural College/Winterhold return using the newly acquired amulet.
+Rows intentionally staged with concrete reasons: `Mace Etiquette` remains with the selected post-Scholar's Insight skill-book source; Shadowfoot display placement and family moves remain with the later homes/display route. `Onmund's Request` is no longer a long-term hold after this section; it is routed in the immediate Whiterun/College return created by the TB-035 routing audit.
 
 No TB-035-MR-040 unresolved route rows are introduced by this pass.
 

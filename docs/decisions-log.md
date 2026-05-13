@@ -10,7 +10,7 @@ This log records user-resolved project decisions that shape the guide. `docs/gui
 | Game content | Base game, official Dawnguard, Hearthfire, Dragonborn, and official Anniversary Edition / Anniversary Upgrade Creation Club bundle content only. |
 | Excluded content | Non-AE mods, modern Creations outside the AE bundle, third-party Creations, trophy-disabling content, cut content, console-command-only content, PC-only mods, and exploit-only objectives unless clearly optional. |
 | Difficulty | Legendary. |
-| Survival Mode | On for the main route. |
+| Survival Mode | On for the main route, with only narrow source-backed user-approved temporary exceptions that immediately re-enable Survival Mode after the named action. |
 | Trophy preservation | Mandatory. |
 | Completion scope | Maximalist "true 100%" scope, including all perks. |
 | Main-route Civil War side | Imperial. |

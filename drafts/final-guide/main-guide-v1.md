@@ -1,12 +1,13 @@
 # Main Guide v1
 
-This is a self-contained route guide. It tells you what to do, when to do it, what to save before, and which completion rows change as you play. You should not need to consult the objective spreadsheet while playing; the spreadsheet is used behind the scenes to verify coverage.
+This is a self-contained route guide. It tells you what to do, when to do it, what to save before, and which important completion states change as you play. You should not need to consult the objective spreadsheet while playing; the spreadsheet is used behind the scenes to verify completeness.
 
-Draft note: The route sections through `Guild Restoration And Amulet Of Articulation` are player-facing v1 text. Sections marked `Scaffold only - not yet v1-expanded` are still placeholders from the previous scaffold and are not ready for play.
+Draft note: The route sections through `Vahlok's Tomb, Riekling Roads, And Thirsk` are player-facing v1 text. Sections marked `Scaffold only - not yet v1-expanded` are still placeholders from the previous scaffold and are not ready for play.
 
 ## Guide Conventions
 
 * Keep Survival Mode on unless this guide explicitly records a user-approved exception.
+* When the guide names a Survival Mode exception, do only the named action while Survival Mode is off, then turn Survival Mode back on immediately before travel, combat, sleep, crafting, or unrelated interaction.
 * Keep Legendary difficulty on.
 * Keep rotating manual saves throughout the run.
 * Named saves are written as `HARD SAVE: HS-NAME`.
@@ -135,6 +136,15 @@ Useful early Survival recipes:
 14. Return to the Bannered Mare and tell Saadia that Kematu is dead. Complete `In My Time Of Need`, and record the Sideways counter at 2 of 10 qualifying side quests.
 15. Sell ordinary Swindler's Den loot if you need food, arrows, lockpicks, or carry room. Keep the remaining gold liquid for the next section's Breezehome fund. Breezehome costs 5,000 gold before upgrades; Tundra Homestead costs 7,500 gold. Do not grind, exploit, or assume either house is available yet.
 16. Make a rotating manual save before leaving Whiterun again.
+
+### Rising Dead Early Activation
+
+1. Run this section as soon as the courier gives you `Anonymous Letter` after level 5. If you already have the letter after the Saadia and Falkreath support loop, do this now before the Guardian Stones cache loop. If the letter has not arrived yet, skip to the next section and return here immediately when it does; do not enter Silent Moons Camp until this section is complete.
+2. Read `Anonymous Letter`. Stock food, healing, and warm travel supplies from Whiterun or Falkreath, use an indoor bed if a level-up is waiting, and make a rotating manual save.
+3. Ride toward Helgen, then to the ritual site in the mountains north of Southfringe Sanctum. Use this trip for the ritual site only; Southfringe Sanctum itself is a separate dungeon route. Make a rotating manual save before approaching the ritual circle.
+4. Defeat the zombies at the ritual site. Loot at least one Mort Flesh and keep it for the later alchemy pass. Loot the marked necromancer for `Necromancer's Journal` and the leveled zombie spell tome.
+5. Read `Necromancer's Journal` to complete `The Rising Dead` and activate Plague zombie horde world interactions. Before leaving the ritual site, find and read the zombie spell tomes there: `Spell Tome: Conjure Zombie`, `Spell Tome: Conjure Foul Zombie`, `Spell Tome: Conjure Putrid Zombie`, and `Spell Tome: Conjure Malignant Zombie`. If any one of those tomes is not present or cannot be found cleanly, leave only that missing tome for the later College/vendor spell pass.
+6. Return to Whiterun, sell ordinary loot if needed, keep one Mort Flesh stored in your carried ingredients for now, and make a rotating manual save before the Guardian Stones cache loop.
 
 ### Guardian Stones Cache And Whiterun Farm Loop
 
@@ -558,7 +568,7 @@ Useful early Survival recipes:
 30. Continue to Soljund's Sinkhole, discover it.
 31. Speak to Perth outside the mine and accept the draugr-clearing job. Clear Soljund's Sinkhole while leaving `Jornibret's Last Dance` closed. If `Boethiah's Proving` appears in the mine because you are level 24 or higher, leave that closed too. Return to Perth, complete `Soljund's Sinkhole`. The location does not need a cleared-map tag for this route; the quest turn-in is the completion marker. Perth is now a non-default spouse option.
 32. After Perth is back at work, mine or carry one moonstone ore and sell it to him for the mining-work activity.
-33. Continue to Old Hroldan Inn, discover it.
+33. Continue to Old Hroldan Inn, discover it. Before entering the inn, harvest one sample of Juniper Berries from the bushes around Old Hroldan and keep it for Elmus at Thirsk.
 34. Deliver Rogatus's Letter to Leontius Salvius, complete `Rogatus's Letter`.
 35. Rent Tiber Septim's room from Eydis, sleep in that room, speak to the Ghost of Old Hroldan, then speak to Eydis. Record the exact Hjalti's Sword target that appears in your quest log. The target will be one of Broken Tower Redoubt, Bruca's Leap Redoubt, Deepwood Redoubt, Dragon Bridge Overlook, Druadach Redoubt, Hag Rock Redoubt, Red Eagle Redoubt, or Serpent's Bluff Redoubt. Do not pursue the sword until a later section names your actual target. Skuli at the inn remains a later non-default adoption option.
 36. Return to Markarth. Use the Silver-Blood Inn and city merchants for rest, food, and selling, then make a rotating manual save before the next Markarth section.
@@ -688,50 +698,51 @@ Useful early Survival recipes:
 4. Climb the 7,000 Steps. At the top, place Klimmek's Supplies in the offering chest outside High Hrothgar, discover High Hrothgar.
 5. Enter High Hrothgar and speak to Arngeir. Complete the full Greybeard training sequence: demonstrate Unrelenting Force, learn Ro, shout at all three targets, follow Borri to the courtyard, learn Whirlwind Sprint: Nah, and use Whirlwind Sprint through the gate. Do not leave High Hrothgar in the middle of this training.
 6. Accept `The Horn of Jurgen Windcaller` from Arngeir. Make a rotating manual save before leaving High Hrothgar.
-7. Return to Ivarstead, speak to Klimmek, complete `Climb the Steps`. Add Klimmek's delivery to Hero of the People tracking.
-8. Return to Riften, take the carriage to Morthal, discover Morthal. Rest at Moorside Inn, refresh food, and travel northeast to Ustengrav.
-9. Discover Ustengrav. Enter for `The Horn of Jurgen Windcaller`. In Ustengrav Depths, go down to the waterfall area, learn Become Ethereal: Gron from the word wall. Leave `Mystery of Talara, v2` closed.
-10. Continue through Ustengrav to the horn pedestal. Take and read Delphine's `Mysterious Note`, loot the final treasure room, and leave Ustengrav.
-11. Return to Morthal. At Highmoon Hall, speak to Jarl Idgrod Ravencrone about the burned house and agree to investigate. Visit the burned house beside Highmoon Hall, speak to Helgi's ghost, and agree to find her after dark.
-12. After dark, go to Helgi's grave behind the burned house. Kill Laelette, activate Helgi's spirit, then speak to Thonnir when he arrives.
-13. After the quest sends you to Alva's House, enter the house, go to the basement coffin, take and read `Alva's Journal`. Return the journal to Jarl Idgrod.
-14. When the Jarl sends you to Movarth's Lair, make a rotating manual save before the final approach. At the lair, speak to the gathered townspeople and send Thonnir home if the dialogue allows it. Enter Movarth's Lair, kill Movarth Piquine and the hostile vampires, leave `2920, Sun's Dawn, v2` closed, and do not attack Alva if she is present and non-hostile. Take Movarth's Boots from the bedroom area after Movarth is dead.
-15. Return to Jarl Idgrod, complete `Laid to Rest`. Add `Laid to Rest` to Sideways tracking.
-16. Ask Jarl Idgrod about becoming Thane of Hjaalmarch. Find Benor in or near the Morthal guardhouse, challenge him to a brawl, fight barehanded with no follower, pet, summon, weapon, poison, spell, or shout, then speak to him after winning. Benor is now a non-default follower and spouse option.
-17. At the Morthal wood chopping block, chop one batch of Firewood and sell it to Jorgen.
-18. Find Gorm while he is away from the Jarl, often at Moorside Inn around dinner, and accept Gorm's Letter for Captain Aldis. In Highmoon Hall, speak to Idgrod the Younger about Joric, accept Idgrod's Note, and record the active delivery target. Make Idgrod's delivery as an isolated errand: travel to the named recipient, hand over the note, add the delivery to Hero of the People tracking, then return to Morthal before continuing the Hjaalmarch route.
-19. Around 1am, wait outside Falion's House and follow Falion to the summoning circle northwest of town. Speak to him at the circle, then report his nighttime activity to Jarl Idgrod. Complete `Falion's Secret`, and add Falion's objective to Hero of the People tracking.
-20. Travel east from Morthal to Myrwatch. Discover Myrwatch, kill the chaurus outside, try the locked front door, then loot and read `Hans's Journal` from Hans's body. If you do not know a fire-damage spell, read the Flames spell tome from Hans now. Cast Flames or another fire-damage spell at the eye-shaped seal, follow the spectral hare to the brazier, and enter the tower.
-21. Inside Myrwatch, take and read `Anora's Journal` from the main chamber table. Leave the Myrwatch skill-book copies of `Catalogue of Weapon Enchantments` and `Chimarvamidium` closed. Use Myrwatch as an owned rest and crafting stop. Do not put preserved artifacts, masks, bugs in jars, or unique weapons into Myrwatch display furniture yet.
-22. Continue east to Stonehills. Discover Stonehills. In Rockwallow Mine, leave `Orsinium and the Orcs` closed on the mine scaffolding, mine Iron Ore, and sell it to Gestur Rockbreaker.
-23. In Stonehills, speak to Pactur in Sorli's House about the mine and accept his message for Bryling. Return to Morthal, speak to Jarl Idgrod after Benor, Jorgen, and Gestur are helped, gain the title of Thane of Hjaalmarch. Valdimar is the later Windstad steward default, but do not assign him as steward yet.
-24. Speak to Aslfur in Highmoon Hall and buy the Windstad Manor plot for 5,000 gold. If this is your first Hearthfire land purchase because Lakeview Manor was parked earlier, record Land Baron tracking at 1 of 3 Hearthfire plots purchased. If Lakeview Manor was already purchased, record Land Baron tracking at 2 of 3 Hearthfire plots purchased.
-25. Travel north to Windstad Manor. Discover the property. Use the drafting table to choose `Small House Layout`; use the site chest materials and quarry stone from the manor grounds to build the foundation at the carpenter's workbench. Leave Windstad wings, furnishings, steward services, bard service, carriage driver, horse, fish hatchery, and household setup for the later Hearthfire construction route.
-26. Ride or walk south from Hjaalmarch to Whiterun. Sell ordinary loot at Warmaiden's or Belethor's, rent an inn bed if a level-up is waiting, then continue the main route.
-27. Follow the road south to Riverwood. At the Sleeping Giant Inn, ask Delphine for the attic room. Follow her to the secret room, receive the Horn of Jurgen Windcaller, and continue the private conversation until `A Blade in the Dark` starts.
-28. In Delphine's secret room, inspect and take the Map of Dragon Burials.
-29. Before following Delphine to Kynesgrove, return to High Hrothgar with the horn. Give it to Arngeir, stand through the Greybeards' recognition ceremony, learn Unrelenting Force: Dah from Wulfgar.
-30. Return down to Ivarstead, follow the road back to Riften, take the carriage to Windhelm, then follow the road south to Kynesgrove. Discover Kynesgrove.
-31. Meet Delphine at the dragon burial mound outside Kynesgrove. Let Alduin finish raising Sahloknir before attacking. Kill Sahloknir, absorb the dragon soul, speak to Delphine, complete `A Blade in the Dark`.
-32. Go to Braidwood Inn in Kynesgrove. Speak to Iddra about Roggi Knot-Beard, speak to Roggi, and resolve the debt by Persuade, Bribe, or a barehanded brawl. If it becomes a brawl, use no follower, pet, summon, weapon, poison, spell, or shout. Return to Iddra, complete `A Few Words with You`, and add Iddra's favor to Hero of the People tracking. The Braidwood Inn beds are now free after helping Iddra.
-33. Return to Riverwood and speak to Delphine in the Sleeping Giant Inn secret room. Start `Diplomatic Immunity`.
-34. Travel through Whiterun Stables and take the carriage to Solitude. Before meeting Malborn, go to Castle Dour, deliver Gorm's Letter to Captain Aldis, complete `For the Good of Morthal`. Add Gorm's delivery to Hero of the People tracking. Then find Bryling in the Blue Palace or at her house, deliver Pactur's message, complete `Payment Delivery`. Add Pactur's delivery to Hero of the People tracking.
-35. Go to the Winking Skeever and speak to Malborn. Give him the gear you want inside the Thalmor Embassy: one reliable weapon setup, armor or clothing for your build, healing, lockpicks, and any compact tools you need for a hostile interior. Keep only what you are willing to surrender temporarily to Delphine.
-36. Meet Delphine at Solitude Stables. Change into the party outfit, receive the invitation. Let Delphine take the rest of your equipment and board the embassy carriage.
-37. At the embassy gate, present the invitation, enter the party, discover the Thalmor Embassy.
-38. Speak to Malborn at the party. Use Razelan as the distraction: get Cyrodilic Brandy from Malborn, give it to Razelan, ask Razelan to make a scene, then slip through the kitchen with Malborn and retrieve your smuggled gear from the chest.
-39. In Elenwen's Solar, take the Interrogation Chamber Key, `Thalmor Dossier: Delphine`, `Thalmor Dossier: Ulfric Stormcloak`, and `Dragon Investigation: Current Status` from the office chest. Read the documents.
-40. In the embassy dungeon, make a rotating manual save before advancing the prisoner evidence. Free and speak to Etienne Rarnis, take and read `Thalmor Dossier: Esbern` from the dungeon chest, then kill the two Thalmor soldiers threatening Malborn before they can execute him. Keep Malborn alive for his later Windhelm objective. Take the Trap Door Key.
-41. Escape through Reeking Cave. Deal with the frost troll, then take the Stone of Barenziah near the dead conjurer. Leave `Before the Ages of Man` closed.
-42. Return to the Sleeping Giant Inn. Retrieve all stored gear from Delphine's chest before leaving the secret room. Report to Delphine, complete `Diplomatic Immunity`.
-43. Travel through Whiterun Stables and take the carriage to Riften. Go to the Ragged Flagon through the Thieves Guild route already opened earlier. Speak to Vekel the Man about the old man in the Ratway even if your quest marker already points toward Esbern; this is the clean route for exposing Gissur before you enter the Warrens.
-44. If Gissur is present in the Ragged Flagon after Vekel identifies him, kill him before he can complicate the Ratway route, loot `Gissur's Note`. If Shavari attacks during the Riften/Ratway movement, kill her, loot `Shavari's Note`.
-45. Go to Esbern's door in the Ratway Warrens. Use Delphine's phrase, "Where were you on the 30th of Frostfall?", or identify yourself as Dragonborn to get him to open the door.
-46. Inside Esbern's room, take and read `The Wolf Queen, v6`. Leave `Fire and Darkness` and `Lost Legends` closed.
-47. Speak with Esbern until he agrees to leave. Complete `A Cornered Rat`, start `Alduin's Wall`.
-48. Escort Esbern back to the Sleeping Giant Inn in Riverwood. Let Delphine and Esbern finish their reunion in the secret room, then let Esbern explain Sky Haven Temple until the active objective is to gain entrance to Sky Haven Temple.
-49. In Delphine's secret room after Esbern's arrival, take and read `Annals of the Dragonguard`.
-50. Stop here. Do not travel to Karthspire, enter Sky Haven Temple, use the blood seal, complete `Alduin's Wall`, take Dragonbane, take Blades armor, or begin Blades rebuilding work before the level-46 Sky Haven section. Make a rotating manual save.
+7. Return to Ivarstead. When the cultists confront you after the Greybeard training, defeat them, search one body for `Cultists' Orders`, read it, and keep it. The note points you toward the Windhelm docks; do not sail for Solstheim until this guide sends you there.
+8. Speak to Klimmek, complete `Climb the Steps`. Add Klimmek's delivery to Hero of the People tracking.
+9. Return to Riften, take the carriage to Morthal, discover Morthal. Rest at Moorside Inn, refresh food, and travel northeast to Ustengrav.
+10. Discover Ustengrav. Enter for `The Horn of Jurgen Windcaller`. In Ustengrav Depths, go down to the waterfall area, learn Become Ethereal: Gron from the word wall. Leave `Mystery of Talara, v2` closed.
+11. Continue through Ustengrav to the horn pedestal. Take and read Delphine's `Mysterious Note`, loot the final treasure room, and leave Ustengrav.
+12. Return to Morthal. At Highmoon Hall, speak to Jarl Idgrod Ravencrone about the burned house and agree to investigate. Visit the burned house beside Highmoon Hall, speak to Helgi's ghost, and agree to find her after dark.
+13. After dark, go to Helgi's grave behind the burned house. Kill Laelette, activate Helgi's spirit, then speak to Thonnir when he arrives.
+14. After the quest sends you to Alva's House, enter the house, go to the basement coffin, take and read `Alva's Journal`. Return the journal to Jarl Idgrod.
+15. When the Jarl sends you to Movarth's Lair, make a rotating manual save before the final approach. At the lair, speak to the gathered townspeople and send Thonnir home if the dialogue allows it. Enter Movarth's Lair, kill Movarth Piquine and the hostile vampires, leave `2920, Sun's Dawn, v2` closed, and do not attack Alva if she is present and non-hostile. Take Movarth's Boots from the bedroom area after Movarth is dead.
+16. Return to Jarl Idgrod, complete `Laid to Rest`. Add `Laid to Rest` to Sideways tracking.
+17. Ask Jarl Idgrod about becoming Thane of Hjaalmarch. Find Benor in or near the Morthal guardhouse, challenge him to a brawl, fight barehanded with no follower, pet, summon, weapon, poison, spell, or shout, then speak to him after winning. Benor is now a non-default follower and spouse option.
+18. At the Morthal wood chopping block, chop one batch of Firewood and sell it to Jorgen.
+19. Find Gorm while he is away from the Jarl, often at Moorside Inn around dinner, and accept Gorm's Letter for Captain Aldis. In Highmoon Hall, speak to Idgrod the Younger about Joric, accept Idgrod's Note, and record the active delivery target. Make Idgrod's delivery as an isolated errand: travel to the named recipient, hand over the note, add the delivery to Hero of the People tracking, then return to Morthal before continuing the Hjaalmarch route.
+20. Around 1am, wait outside Falion's House and follow Falion to the summoning circle northwest of town. Speak to him at the circle, then report his nighttime activity to Jarl Idgrod. Complete `Falion's Secret`, and add Falion's objective to Hero of the People tracking.
+21. Travel east from Morthal to Myrwatch. Discover Myrwatch, kill the chaurus outside, try the locked front door, then loot and read `Hans's Journal` from Hans's body. If you do not know a fire-damage spell, read the Flames spell tome from Hans now. Cast Flames or another fire-damage spell at the eye-shaped seal, follow the spectral hare to the brazier, and enter the tower.
+22. Inside Myrwatch, take and read `Anora's Journal` from the main chamber table. Leave the Myrwatch skill-book copies of `Catalogue of Weapon Enchantments` and `Chimarvamidium` closed. Use Myrwatch as an owned rest and crafting stop. Do not put preserved artifacts, masks, bugs in jars, or unique weapons into Myrwatch display furniture yet.
+23. Continue east to Stonehills. Discover Stonehills. In Rockwallow Mine, leave `Orsinium and the Orcs` closed on the mine scaffolding, mine Iron Ore, and sell it to Gestur Rockbreaker.
+24. In Stonehills, speak to Pactur in Sorli's House about the mine and accept his message for Bryling. Return to Morthal, speak to Jarl Idgrod after Benor, Jorgen, and Gestur are helped, gain the title of Thane of Hjaalmarch. Valdimar is the later Windstad steward default, but do not assign him as steward yet.
+25. Speak to Aslfur in Highmoon Hall and buy the Windstad Manor plot for 5,000 gold. If this is your first Hearthfire land purchase because Lakeview Manor was parked earlier, record Land Baron tracking at 1 of 3 Hearthfire plots purchased. If Lakeview Manor was already purchased, record Land Baron tracking at 2 of 3 Hearthfire plots purchased.
+26. Travel north to Windstad Manor. Discover the property. Use the drafting table to choose `Small House Layout`; use the site chest materials and quarry stone from the manor grounds to build the foundation at the carpenter's workbench. Leave Windstad wings, furnishings, steward services, bard service, carriage driver, horse, fish hatchery, and household setup for the later Hearthfire construction route.
+27. Ride or walk south from Hjaalmarch to Whiterun. Sell ordinary loot at Warmaiden's or Belethor's, rent an inn bed if a level-up is waiting, then continue the main route.
+28. Follow the road south to Riverwood. At the Sleeping Giant Inn, ask Delphine for the attic room. Follow her to the secret room, receive the Horn of Jurgen Windcaller, and continue the private conversation until `A Blade in the Dark` starts.
+29. In Delphine's secret room, inspect and take the Map of Dragon Burials.
+30. Before following Delphine to Kynesgrove, return to High Hrothgar with the horn. Give it to Arngeir, stand through the Greybeards' recognition ceremony, learn Unrelenting Force: Dah from Wulfgar.
+31. Return down to Ivarstead, follow the road back to Riften, take the carriage to Windhelm, then follow the road south to Kynesgrove. Discover Kynesgrove.
+32. Meet Delphine at the dragon burial mound outside Kynesgrove. Let Alduin finish raising Sahloknir before attacking. Kill Sahloknir, absorb the dragon soul, speak to Delphine, complete `A Blade in the Dark`.
+33. Go to Braidwood Inn in Kynesgrove. Speak to Iddra about Roggi Knot-Beard, speak to Roggi, and resolve the debt by Persuade, Bribe, or a barehanded brawl. If it becomes a brawl, use no follower, pet, summon, weapon, poison, spell, or shout. Return to Iddra, complete `A Few Words with You`, and add Iddra's favor to Hero of the People tracking. The Braidwood Inn beds are now free after helping Iddra.
+34. Return to Riverwood and speak to Delphine in the Sleeping Giant Inn secret room. Start `Diplomatic Immunity`.
+35. Travel through Whiterun Stables and take the carriage to Solitude. Before meeting Malborn, go to Castle Dour, deliver Gorm's Letter to Captain Aldis, complete `For the Good of Morthal`. Add Gorm's delivery to Hero of the People tracking. Then find Bryling in the Blue Palace or at her house, deliver Pactur's message, complete `Payment Delivery`. Add Pactur's delivery to Hero of the People tracking.
+36. Go to the Winking Skeever and speak to Malborn. Give him the gear you want inside the Thalmor Embassy: one reliable weapon setup, armor or clothing for your build, healing, lockpicks, and any compact tools you need for a hostile interior. Keep only what you are willing to surrender temporarily to Delphine.
+37. Meet Delphine at Solitude Stables. Change into the party outfit, receive the invitation. Let Delphine take the rest of your equipment and board the embassy carriage.
+38. At the embassy gate, present the invitation, enter the party, discover the Thalmor Embassy.
+39. Speak to Malborn at the party. Use Razelan as the distraction: get Cyrodilic Brandy from Malborn, give it to Razelan, ask Razelan to make a scene, then slip through the kitchen with Malborn and retrieve your smuggled gear from the chest.
+40. In Elenwen's Solar, take the Interrogation Chamber Key, `Thalmor Dossier: Delphine`, `Thalmor Dossier: Ulfric Stormcloak`, and `Dragon Investigation: Current Status` from the office chest. Read the documents.
+41. In the embassy dungeon, make a rotating manual save before advancing the prisoner evidence. Free and speak to Etienne Rarnis, take and read `Thalmor Dossier: Esbern` from the dungeon chest, then kill the two Thalmor soldiers threatening Malborn before they can execute him. Keep Malborn alive for his later Windhelm objective. Take the Trap Door Key.
+42. Escape through Reeking Cave. Deal with the frost troll, then take the Stone of Barenziah near the dead conjurer. Leave `Before the Ages of Man` closed.
+43. Return to the Sleeping Giant Inn. Retrieve all stored gear from Delphine's chest before leaving the secret room. Report to Delphine, complete `Diplomatic Immunity`.
+44. Travel through Whiterun Stables and take the carriage to Riften. Go to the Ragged Flagon through the Thieves Guild route already opened earlier. Speak to Vekel the Man about the old man in the Ratway even if your quest marker already points toward Esbern; this is the clean route for exposing Gissur before you enter the Warrens.
+45. If Gissur is present in the Ragged Flagon after Vekel identifies him, kill him before he can complicate the Ratway route, loot `Gissur's Note`. If Shavari attacks during the Riften/Ratway movement, kill her, loot `Shavari's Note`.
+46. Go to Esbern's door in the Ratway Warrens. Use Delphine's phrase, "Where were you on the 30th of Frostfall?", or identify yourself as Dragonborn to get him to open the door.
+47. Inside Esbern's room, take and read `The Wolf Queen, v6`. Leave `Fire and Darkness` and `Lost Legends` closed.
+48. Speak with Esbern until he agrees to leave. Complete `A Cornered Rat`, start `Alduin's Wall`.
+49. Escort Esbern back to the Sleeping Giant Inn in Riverwood. Let Delphine and Esbern finish their reunion in the secret room, then let Esbern explain Sky Haven Temple until the active objective is to gain entrance to Sky Haven Temple.
+50. In Delphine's secret room after Esbern's arrival, take and read `Annals of the Dragonguard`.
+51. Stop here. Do not travel to Karthspire, enter Sky Haven Temple, use the blood seal, complete `Alduin's Wall`, take Dragonbane, take Blades armor, or begin Blades rebuilding work before the level-46 Sky Haven section. Make a rotating manual save.
 
 ### Windhelm Follow-Up And Eastmarch Roads
 
@@ -1345,128 +1356,468 @@ Useful early Survival recipes:
 15. After the ceremony, make `HARD SAVE: HS-TG-ARTICULATION-REWARD` before Brynjolf's reward conversation. Speak to Brynjolf and receive the Tribute Chest Key and the Amulet of Articulation. Keep the reward only when the amulet is the strongest version: 8 armor, Speechcraft 35% better, and Articulation 25 points. Reload the hard save and repeat the Brynjolf reward conversation until that version is awarded.
 16. Speak to Tonilia and receive the Guild Master's Armor, Guild Master's Boots, Guild Master's Gloves, and Guild Master's Hood. Complete `Under New Management`, preserve the Guild Master set, the Tribute Chest Key, and the Amulet of Articulation, then make a rotating manual save.
 17. Continue Delvin/Vex side jobs until the total side-job counter reaches 125 of 125. Use the job table above, keep rejecting Raven Rock assignments, and do not route unrelated objectives around temporary job targets. Record the remaining display milestones as the total reaches 25 jobs for the Golden Ship Model, 35 jobs for the Golden Urn, 45 jobs for the Jeweled Goblet, 55 jobs for the Jeweled Pitcher, 75 jobs for the Jeweled Flagon, and 125 jobs for the safe beside the Guild Master's shelves.
-18. After the 125th side-job turn-in, sell ordinary stolen goods through the available fences until you have at least 7,500 gold free. Speak to Vekel the Man and buy Shadowfoot Sanctum. Use the key to enter the home from the Ratway entrance across from the Ragged Flagon, complete `Shadowfoot Sanctum`, and register the home as owned. Leave Shadowfoot displays and family moves for the later homes/display section.
-19. Use the Ragged Flagon, Shadowfoot Sanctum, Honeyside, or another owned support point to sleep, unload, sort inventory, and make a rotating manual save before the Civil War branch hard save.
+18. After the 125th side-job turn-in, sell ordinary stolen goods through the available fences until you have at least 7,500 gold free. Speak to Vekel the Man and buy Shadowfoot Sanctum. Use the key to enter the home from the Ratway entrance across from the Ragged Flagon, complete `Shadowfoot Sanctum`, and register the home as owned. Leave Shadowfoot displays, spouse placement, and child placement for the later homes/display section.
+19. Use the Ragged Flagon, Shadowfoot Sanctum, Honeyside, or another owned support point to sleep, unload, sort inventory, and make a rotating manual save before the Whiterun and College return.
+
+### Whiterun Property, Western Caves, Gray-Mane Rescue, And Onmund
+
+1. Start after `Under New Management`, the 125 Delvin/Vex side-job total, and Shadowfoot Sanctum ownership. Use the restored fences and owned storage to unload, sell ordinary stolen goods, and prepare at least 14,300 gold for this section's Whiterun property purchases before you leave Riften.
+2. Travel to Whiterun and go to Dragonsreach during steward business hours. Speak to Proventus Avenicci and buy Breezehome for 5,000 gold.
+3. Buy Breezehome's available furnishing packages now. Choose the Alchemy Laboratory rather than the Child's Bedroom; the household default is Tundra Homestead, and the later household section will handle spouse and child moves.
+4. Enter Breezehome once after the purchase and furnishings. Use it as an owned Whiterun bed and storage point, but leave display placement for the later homes/display section.
+5. Return to Proventus and buy Tundra Homestead for 7,500 gold. Ride east from Whiterun, discover Tundra Homestead, enter it, and treat it as the main central owned home from this point onward. Leave the skill books beside the alchemy and enchanting stations closed until the Scholar's Insight reading window.
+6. If `Smith 'N Slash` was already completed because Siddgeir's Falkreath bandit target was Embershard Mine, skip to the next step. Otherwise, enter the Whiterun Guard Barracks just inside the city gate, read and take `Guard's Dossier: Yakhtu gra-Orkulg`, and start `Smith 'N Slash`.
+7. Travel to Embershard Mine from Whiterun or Riverwood. Discover and clear the mine, kill Yakhtu gra-Orkulg, take and read `Yakhtu's Journal`, and take the enchanted Orcish Plate armor pieces from the quest target. Leave the `Light Armor Forging` skill-book copy closed.
+8. Return to Whiterun's western road. Go to the unmarked smuggler camp west of Dragonsreach and clear the camp. Read and take `Smuggler's Trade Notes` to start `The Staff of Hasedoki`. If you open the nearby chest, defeat the ambush it triggers before leaving the camp.
+9. Ride to Modig Gilgar's cart near the Western Watchtower. Defeat Modig, take and read `Smuggler's Ledger`, and take `To Raise the Living` from the cart.
+10. Travel to South Brittleshin Pass and enter through the south entrance. Discover South Brittleshin Pass and clear through the cave toward the north exit. Leave `The Warrior's Charge` skill-book copy closed at the altar.
+11. In Brittleshin Pass, defeat Lushak gra-Ragdam and Ivara of Olenveld. Take Arkay the Enemy, The Light and the Dark, Ivara's Notes, Souls, Black and White, and the Staff of Hasedoki from the necromancers. Preserve the staff. Exit through North Brittleshin Pass and reveal the north marker before returning to Whiterun.
+12. In Whiterun, speak to Fralia Gray-Mane and agree to hear her out. Meet her in House Gray-Mane, speak to Avulstein, and agree to find proof about Thorald.
+13. Make a rotating manual save. Pickpocket `Letter from Olfina` from Jon Battle-Born, then speak to Jon about Thorald and use the letter to force him to help. Meet Jon at the Talos statue and take the Imperial Missive from him.
+14. Bring the Imperial Missive to Avulstein. Tell him to stay in Whiterun and let you handle Northwatch Keep alone.
+15. Travel prepared for cold to Northwatch Keep. Discover the keep, clear the exterior Thalmor, enter the keep, and fight through to Thorald. Leave `2920, Morning Star, v1` and `The Legendary Sancre Tor` closed if you pass their rooms.
+16. Kill the Northwatch Interrogator, release Thorald, and lead him out through the keep exit. Speak to Thorald outside once he is safe, then return to Whiterun and give Fralia his message. Complete `Missing In Action`.
+17. Travel to the College of Winterhold with the Amulet of Articulation equipped or ready. Speak to Onmund in the Hall of Attainment and agree to recover his heirloom amulet.
+18. Speak to Enthir about Onmund's amulet. Use the Amulet of Articulation-supported persuasion route so Enthir returns Onmund's amulet without sending you for the random Grand Staff of Charming target.
+19. Return Onmund's amulet to Onmund. Complete `Onmund's Request`; Onmund is now available as a follower, spouse, steward, and Blades candidate if a later option list needs him.
+20. Return to an owned support point, unload the Staff of Hasedoki, Orcish Plate armor, documents, and other preserved items, and make a rotating manual save before the Civil War branch hard save.
 
 ### Civil War Stormcloak Branch
 
-Scaffold only - not yet v1-expanded.
-
-1. Make `HARD SAVE: HS-CW-BEFORE-FACTION-OATH` before irreversible Civil War faction commitment.
-2. BRANCH ROUTE: join the Stormcloaks and complete the Stormcloak-only Civil War route through `Battle for Solitude`. Protect War Hero logic on the branch and record branch-only objectives.
-3. Do not duplicate Imperial objectives on the Stormcloak branch.
-4. RETURN: reload `HS-CW-BEFORE-FACTION-OATH`.
-5. MAIN ROUTE: join the Imperial Legion on the canonical save.
+1. Travel to Windhelm with cold-weather supplies, enter the Palace of the Kings, and make `HARD SAVE: HS-CW-BEFORE-FACTION-OATH` before speaking to Ulfric or Galmar about joining the war. Everything in this section is branch continuity. After the Solitude victory, reload this save and continue the canonical route with the Imperial Legion.
+2. Use this branch as a straight Stormcloak Civil War run. Record Stormcloak quest completions, the branch War Hero fort, the branch Solitude victory, and General Tullius' Armor as branch-experienced. Permanent Korvanjund collectibles, military-camp discoveries, fort location records, books, shouts, and similar durable progress stay on the main Imperial continuity after the reload.
+3. Speak to Ulfric Stormcloak, then Galmar Stone-Fist, and accept the Stormcloak test. Travel to Serpentstone Isle, kill the ice wraith, return to Galmar, and take the oath. Complete `Joining the Stormcloaks` and receive the Stormcloak gear and Unblooded title.
+4. Speak to Galmar again and start `The Jagged Crown`. Meet Galmar and Ralof outside Korvanjund, follow the Stormcloak party through the ruin, use the Ebony Claw door combination fox, moth, dragon, and open the hidden-gate handle when the passage stalls. Take the Jagged Crown from the draugr and return it to Ulfric in Windhelm. Complete the Stormcloak version of `The Jagged Crown`.
+5. Accept Ulfric's `Message to Whiterun`. Take his war axe to Jarl Balgruuf in Dragonsreach, wait through Balgruuf's decision, take the returned axe, and bring it back to Ulfric. Complete the Stormcloak version of `Message to Whiterun`.
+6. Speak to Galmar for the Whiterun assault orders. Travel to the Whiterun Military Camp, listen to Galmar's speech, join the attack, break through the barricades, lower the drawbridge, fight into Dragonsreach, and force Balgruuf's surrender. Return to Ulfric, complete the Stormcloak version of `Battle for Whiterun`, and receive the Ice-Veins title.
+7. After reporting Whiterun's fall, start `Liberation of Skyrim`. This clean no-treaty branch should run Falkreath, the Reach, Hjaalmarch, and Haafingar. The Pale, Winterhold, and Rift Stormcloak variants - `The Battle for Fort Dunstad`, `The Battle for Fort Kastav`, and `The Battle for Fort Greenwall` - are treaty-state variants and are not part of this branch.
+8. For Falkreath, report to Ulfric, then to Galmar at the Falkreath Stormcloak Camp. Meet Ralof and the scouts near Fort Neugrad, enter through the lake-side prison route, free the prisoners, take the fort with the Stormcloak soldiers, report to Ralof, then return to Ulfric. Complete `Rescue from Fort Neugrad` and receive the Bone-Breaker title.
+9. For the Reach, report to Ulfric, then to Galmar at the Reach Stormcloak Camp. Start `Compelling Tribute`, go to Understone Keep in Markarth, take Raerek's inscribed Amulet of Talos from his quarters, confront Raerek, and bring the wagon information back to Galmar.
+10. Meet Ralof and the Stormcloak scouts for the silver-and-weapons ambush, attack the Imperial shipment, take control of the caravan, report to Ralof, then report back to Galmar. Complete the Stormcloak version of `Compelling Tribute`.
+11. Join the Stormcloak soldiers outside Fort Sungard and take the fort. When the defenders are defeated, complete `The Battle for Fort Sungard`. This is the branch's War Hero fort on the no-treaty Stormcloak route. Return to Ulfric and receive the Snow-Hammer title.
+12. For Hjaalmarch, report to Ulfric, then to Galmar at the Hjaalmarch Stormcloak Camp. Start `A False Front`. Check the courier lead at Frostfruit Inn in Rorikstead, Four Shields Tavern in Dragon Bridge, and the road between them until you intercept the Imperial courier. Take the Imperial documents from the courier and return them to Galmar.
+13. Take Galmar's forged documents to Legate Taurinus Duilis in Highmoon Hall at Morthal, deliver them as ordered, then return to Galmar. Complete the Stormcloak version of `A False Front`.
+14. Join the Stormcloak soldiers outside Fort Snowhawk and take the fort. When the defenders are defeated, complete `The Battle for Fort Snowhawk`, return to Ulfric, and receive the Stormblade title plus the Stormcloak Officer Armor set as branch-only rewards.
+15. For Haafingar, report to Ulfric, then to Galmar at the Haafingar Stormcloak Camp. Join the Stormcloak soldiers outside Fort Hraggstad and take the fort. When the defenders are defeated, complete `The Battle for Fort Hraggstad` and report back to Galmar.
+16. Start `Battle for Solitude`, travel to the Solitude gates, and join Ulfric and Galmar for the final assault. Fight through the city to Castle Dour, defeat Legate Rikke, accept Ulfric's offer to execute General Tullius yourself, kill Tullius, and take General Tullius' Armor from him. Record the armor as branch-experienced because it will not remain on the canonical save.
+17. Finish the Castle Dour scene, follow Ulfric outside for his victory speech, and complete `Battle for Solitude` and `Liberation of Skyrim` on the branch. Record the branch Hero of Skyrim state, then reload `HS-CW-BEFORE-FACTION-OATH`.
+18. After the reload, you are back before any Civil War faction oath. Continue with the Imperial Civil War section on the canonical save.
 
 ### Imperial Civil War
 
-Scaffold only - not yet v1-expanded.
+1. After reloading `HS-CW-BEFORE-FACTION-OATH`, use an owned bed, unload branch-route carryover, and keep at least 22,250 gold free for Windhelm property and furnishings after the war. If you are short, sell ordinary stolen goods through the restored Thieves Guild fences before leaving Riften.
+2. Travel to Whiterun and make `HARD SAVE: HS-AE-CIVIL-WAR-CHAMPIONS` before reading the Civil War Champions note. Enter The Drunken Huntsman, read and take `Battle of Champions`, then travel to Castle Dour.
+3. In Castle Dour, equip the Amulet of Articulation before speaking to Legate Adventus Caesennius. Choose the Legion champion path, pass the persuasion check, take the Imperial Armory Key, open the Imperial champion chest, and take every item inside: Imperial Dragon Armor, Imperial Dragon Boots, Imperial Dragon Gauntlets, Imperial Dragon Helmet, Imperial Dragon Shield, Akatosh's Talon, Dragon's Oath, and the Map of Battle Location.
+4. Go to the marked battlefield west of Shimmermist Cave. Speak to the Stormcloak champion, defeat the Stormcloak side, and loot the fallen champion for Storm-Bear Armor, Storm-Bear Boots, Storm-Bear Gauntlets, Storm-Bear Helmet, Storm-Bear Shield, Storm-Bear Sword, and Tsun's Judgement. Complete `Battle of the Champions`, preserve both champion equipment sets, and return to Castle Dour.
+5. In Castle Dour, go to the room north of General Tullius's map room. Crouch until hidden, read and take `Letter to General Tullius`, then travel to the Alik'r camp southeast of Fort Greymoor. Defeat Majid the Mad and the two Alik'r mercenaries. Loot the Key to Alik'r Mercenary Chest from Majid and take every unique Redguard Clothes and Redguard Hood item from the mercenaries. Open the camp chest, take the cursed Lord's Mail, and read and take `Majid - Please Read`. Do not equip the cursed armor. Return to Solitude and stand outside the Temple of the Divines. Make a rotating manual save. This is the guide's approved Survival Mode exception: turn Survival Mode off outside the temple, enter, activate the Shrine of Kynareth to cleanse the armor and complete `Gift of Kynareth`, then turn Survival Mode back on immediately before doing anything else. Preserve the cleansed Lord's Mail and the Redguard clothing.
+6. Speak to General Tullius, then Legate Rikke, and accept the Imperial Legion test. Travel to Fort Hraggstad, clear the courtyard, the prison, and the main interior including the bandit chief, then return to Castle Dour.
+7. Report to Rikke and take the Imperial oath from Tullius. Complete `Joining the Legion`, receive the Auxiliary rank, then go to Beirand at Solitude's forge. Choose the Heavy Imperial Armor outfit as the route default and complete `Get Outfitted`.
+8. Return to Castle Dour and start `The Jagged Crown`. Meet Rikke, Hadvar, and the Imperial soldiers west of Korvanjund, enter the ruin with them, use the Ebony Claw door combination fox, moth, dragon, and open the hidden-gate handle when the large gate blocks the route.
+9. In Korvanjund Crypt, kill the crowned draugr, take the Jagged Crown, learn the Slow Time word behind the throne, and leave through the temple exit. Return the crown to General Tullius in Castle Dour, not to Ulfric.
+10. Accept `Message to Whiterun`. Take Tullius's message to Jarl Balgruuf in Dragonsreach, wait through Balgruuf's council scene, carry Balgruuf's axe to Ulfric in the Palace of the Kings, and bring Ulfric's refusal back to Balgruuf. Speak to Balgruuf before any other Whiterun defense dialogue, then report to Legate Quentin Cipius.
+11. Defend Whiterun for the Legion. When the attackers are broken, speak to Balgruuf after his victory speech to complete the Whiterun report objective, then return to Castle Dour and report to Tullius. `Reunification of Skyrim` begins here.
+12. For the rest of the Civil War, move one hold at a time. After each fort or hold quest, report to the person the journal sends you to before approaching the next Imperial camp. The clean route does not use `Season Unending`, so the main Imperial path is The Pale, The Rift, Winterhold, and Eastmarch.
+13. Go to the Pale Imperial Camp and report to Rikke. Start `A False Front`, then use Nightgate Inn as the first courier lead. Ask Hadring about the Stormcloak courier, follow the marker to the courier, take the Stormcloak Documents, and return them to Rikke. Carry Rikke's forged documents to Frorkmar Banner-Torn in The White Hall at Dawnstar, deliver them, then return to Rikke and complete `A False Front`.
+14. Take Rikke's Fort Dunstad orders, join the Imperial soldiers southeast of Fort Dunstad, and take the fort. After `The Battle for Fort Dunstad` clears, return to General Tullius at Castle Dour for the next hold assignment.
+15. Go to the Rift Imperial Camp and report to Rikke. Start `Compelling Tribute`, enter Mistveil Keep, take Anuriel's incriminating letter from the dresser in her room, confront Anuriel, and return the wagon information to Rikke.
+16. Meet Hadvar and the Imperial scouts at the marked ambush point between Riften and Windhelm. Take over the Stormcloak caravan, report to Hadvar, then return to Rikke at the Rift Imperial Camp.
+17. Take Rikke's Fort Greenwall orders, join the Imperial soldiers southeast of Fort Greenwall, and take the fort. `The Battle for Fort Greenwall` is the main-route War Hero fort. Return to General Tullius at Castle Dour for the next hold assignment.
+18. Go to the Winterhold Imperial Camp and report to Rikke. Start `Rescue from Fort Kastav`, meet Hadvar and the scouts near the fort, enter through the grate route, free all four Imperial prisoners, take Fort Kastav, report to Hadvar, then return to General Tullius at Castle Dour.
+19. Because this route has not used `Season Unending`, the Imperial versions of `The Battle for Fort Snowhawk`, `The Battle for Fort Neugrad`, and `The Battle for Fort Sungard` should not appear on the main route. Fort Greenwall has already supplied the War Hero capture, and the next clean assignment is Eastmarch.
+20. Go to the Eastmarch Imperial Camp and report to Rikke. Take the Fort Amol orders, join the Imperial soldiers near Fort Amol, and take the fort. Return to Rikke, receive the Windhelm assault order, and start `Battle for Windhelm`.
+21. Meet General Tullius outside Windhelm, listen to the assault speech, and follow the Legion into the city. From the main gate, go left to the market, north through the cemetery and Valunstrad, break through the barricades, and enter the Palace of the Kings.
+22. In the Palace, fight Galmar and force Ulfric to yield. Accept Tullius's offer to execute Ulfric yourself, kill Ulfric, take Tullius's leveled sword reward, then follow Tullius and Rikke outside for the victory speech. Complete `Battle for Windhelm` and `Reunification of Skyrim`; the main route has now secured Hero of Skyrim under Imperial continuity.
+23. After the speech, re-enter the Palace of the Kings and speak to Jarl Brunwulf Free-Winter about becoming Thane of Eastmarch. The earlier route has already completed more than five Eastmarch help objectives, including Windhelm farm sales, Adonato's Book, Angrenor's beggar favor, Scouts-Many-Marshes, Iddra, Dravynea, Sondas, The White Phial, and Innocence Lost.
+24. Speak to Jorleif in the Palace and buy Hjerim. Buy `Clean up that murderer's mess` first, before any other upgrade. Then buy every remaining Hjerim furnishing option: bedroom, kitchen, living room, alchemy laboratory, enchanting laboratory, armory, child's bedroom, and any available housecarl quarters.
+25. Enter Hjerim once after Jorleif has sold the blood-removal service and every furnishing package. Treat it as an owned home with safe storage and crafting support, but leave display placement, spouse moves, and child moves for the later homes/display section.
+26. Return to Brunwulf and complete `Thane of Eastmarch`. Receive the Axe of Eastmarch, unlock Calder as housecarl and follower, and visit Hjerim once to meet Calder.
+27. Make a rotating manual save before leaving Windhelm. `Season Unending` should now be skipped when the main quest reaches the peace-council slot, because the Civil War is already complete on the canonical save.
 
-1. Complete the Imperial Civil War route, including War Hero-safe fort handling and Hero of Skyrim endpoint.
-2. If `Battle of the Champions` side state needs separation, make `HARD SAVE: HS-AE-CIVIL-WAR-CHAMPIONS` before resolving the Creation's faction-aligned choice.
-3. MAIN ROUTE: keep Imperial-aligned handling unless final QA proves a checklist-relevant gap.
-4. Verify both equipment-set availability before final checklist closure.
-5. Completing the Civil War before late main-quest peace council pressure is the preferred War Hero-safe path.
+### Gildergreen Renewal After The War
 
-### Late Main Quest Coordination
+1. Start after the Imperial Civil War is complete and Whiterun is stable on the canonical save. Travel to Whiterun, rest if needed, bring food, healing, and cold-weather supplies for one direct Eastmarch trip, and make a rotating manual save.
+2. Go to the Temple of Kynareth or the Gildergreen courtyard. Speak to Danica Pure-Spring about the Gildergreen and accept `The Blessings of Nature`.
+3. Travel to Orphan Rock from Whiterun, Riverwood, Helgen, or another warm support point. Discover Orphan Rock, clear the witches and hagraven, and take Nettlebane from the hagraven.
+4. Return Nettlebane to Danica in Whiterun. When Maurice Jondrelle asks to come to Eldergleam Sanctuary, accept him for the route default.
+5. Travel directly with Maurice to Eldergleam Sanctuary. Do not use this escort leg for unrelated road objectives; keep Maurice alive and go straight to the sanctuary.
+6. Discover Eldergleam Sanctuary and enter. Leave the `Mystery of Talara, v2` skill-book copy by the backpack closed.
+7. Use Nettlebane only to cut the roots that block the path. At the Eldergleam, hear Maurice out and accept his peaceful sapling solution as the route default. Take the Eldergleam Sapling.
+8. Return to Whiterun and give the sapling to Danica. Complete `The Blessings of Nature`; Danica becomes available for Restoration training.
+9. Return to an owned support point, store Nettlebane as a preserved unique dagger, and make a rotating manual save.
 
-Scaffold only - not yet v1-expanded.
+### Blades Research, Blackreach, And The Fallen
 
-1. Continue the main quest through `The Throat of the World`, `Elder Knowledge`, `Alduin's Bane`, and `The Fallen`.
-2. If the Imperial Civil War section completed the Civil War, `Season Unending` should be skipped.
-3. If the Civil War was not completed, stop and use the War Hero/hold-handoff save policy before any treaty outcome. Do not let a treaty skip the relevant fort battle without a validated trophy-safe path.
-4. Keep the Elder Scroll (Dragon) until all main quest and Dawnguard uses are complete.
+1. Travel to Sky Haven Temple and make `HARD SAVE: HS-BLADES-RECRUITS` before permanently assigning any follower to the Blades.
+2. Bring Lydia to Delphine and confirm her Blades oath. Take back any gear you do not want moved with her before the oath.
+3. Return to Whiterun, recruit Uthgerd the Unbroken at the Bannered Mare, bring her to Delphine, and confirm her Blades oath.
+4. Return to Hjerim, recruit Calder, bring him to Delphine, and confirm his Blades oath.
+5. After the third recruit is accepted, speak to Esbern at Sky Haven Temple and ask about dragon lairs. This completes `Rebuilding the Blades` and starts one Blades `Dragon Hunting` assignment.
+6. Record Esbern's assigned dragon lair in your route notes. Treat this as an isolated random assignment: go directly to the assigned lair, meet the Blades there, kill the dragon, learn the lair's word wall if that word is still unlearned, take one dragon bone and one dragon scale, and return directly to Sky Haven Temple.
+
+Possible Blades dragon-hunt assignments:
+
+| Assignment | Direct handling |
+| --- | --- |
+| Ancient's Ascent | Go directly to Ancient's Ascent, complete the Blades hunt there, learn the word wall if still needed, and return to Sky Haven Temple. |
+| Autumnwatch Tower | Go directly to Autumnwatch Tower, complete the Blades hunt there, learn the word wall if still needed, and return to Sky Haven Temple. |
+| Bonestrewn Crest | Go directly to Bonestrewn Crest, complete the Blades hunt there, learn the word wall if still needed, and return to Sky Haven Temple. |
+| Dragontooth Crater | Go directly to Dragontooth Crater, complete the Blades hunt there, learn the word wall if still needed, and return to Sky Haven Temple. |
+| Eldersblood Peak | Go directly to Eldersblood Peak, complete the Blades hunt there, learn the word wall if still needed, and return to Sky Haven Temple. |
+| Lost Tongue Overlook | Go directly to Lost Tongue Overlook, complete the Blades hunt there, learn the word wall if still needed, and return to Sky Haven Temple. |
+| Mount Anthor | Go directly to Mount Anthor, complete the Blades hunt there, learn the word wall if still needed, and return to Sky Haven Temple. |
+| Northwind Summit | Go directly to Northwind Summit, complete the Blades hunt there, learn the word wall if still needed, and return to Sky Haven Temple. |
+| Saering's Watch | Sail to Solstheim if required, go directly to Saering's Watch, complete the Blades hunt there, learn the word wall if still needed, then return to Sky Haven Temple without starting a wider Solstheim loop. |
+| Shearpoint | Go directly to Shearpoint, complete the Blades hunt there, learn the word wall if still needed, and return to Sky Haven Temple. |
+| Skyborn Altar | Go directly to Skyborn Altar, complete the Blades hunt there, learn the word wall if still needed, and return to Sky Haven Temple. |
+
+7. Tell Esbern the assigned dragon is dead. Give him one dragon bone and one dragon scale, receive Esbern's Potion, drink it immediately, then speak with Esbern again to complete `Dragon Research` and gain Dragon Infusion.
+8. Leave Sky Haven Temple, dismiss any current follower if you want a clean mountain climb, and travel to High Hrothgar. Speak to Arngeir about Dragonrend.
+9. Follow Arngeir into the courtyard. Learn all three words of `Clear Skies`, then use `Clear Skies` to climb the path to the Throat of the World.
+10. Discover the Throat of the World and speak to Paarthurnax. Learn the `Fire Breath` word he teaches, use Fire Breath on him when he asks, then ask about Dragonrend and the Elder Scroll.
+11. Meditate with Paarthurnax and choose Fus, Force Without Effort, as the default meditation power for the main route.
+12. Travel north to Alftand with cold-weather supplies, food, healing, lockpicks, the Attunement Sphere, and the Blank Lexicon.
+13. Enter Alftand Glacial Ruins and continue through Alftand Animonculory to Alftand Cathedral. If you pass through the Animonculory treasure room, leave `The Locked Room` closed for the later Scholar's Insight skill-book pass.
+14. In Alftand Cathedral, let Sulla Trebatius and Umana's confrontation resolve, defeat the survivor, and take Targe of the Blooded from Umana.
+15. Take the Key to Alftand Lift from the centurion route, open the Cathedral lift to the surface, then return to the Cathedral mechanism. Activate the mechanism with the Attunement Sphere and enter Blackreach.
+16. Just inside Blackreach, collect the two Crimson Nirnroot samples in the Alftand Cathedral/pipe area and the two samples at the Great Lift at Alftand. Ride the Great Lift at Alftand to the surface, open its gate, and return to Blackreach.
+17. Cross to Sinderion's Field Laboratory. Read Sinderion's Field Journal, take the Crimson Nirnroot sample in the pot, and take the sample southwest of the lab near the Dwarven Centurion Master. Use the lab's bed, cooking pot, workbench, alchemy lab, enchanter, and safe storage for Blackreach rest, crafting, and storage during the sweep, but leave the duplicate Attunement Sphere in the laboratory.
+18. Follow the north river collection line and take the seven Crimson Nirnroot samples there: two before the waterfall, two below the waterfall, one under the two pipes, one under the large mushrooms, and one near the wooden bridge.
+19. Sweep the central city buildings for Crimson Nirnroot: one at the Silent City Catacombs entrance, one at the Debate Hall entrance, one outside the upper Hall of Rumination exit, two in and behind Silent Ruin, five around Reeking Tower, two at the Great Lift at Mzinchaleft, and one south of the Dwemer city at the riverside. Ride the Great Lift at Mzinchaleft to the surface, open its gate, and return to Blackreach.
+20. Sweep the southeastern Blackreach route before the tower: take the Raldbthar Deep Market sample west of the Falmer camp, the three samples south of War Quarters, and the three samples north of War Quarters. Ride the Great Lift at Raldbthar to the surface, open its gate, and return to Blackreach.
+21. Continue to Tower of Mzark. Take the four Crimson Nirnroot samples in the Tower of Mzark area: one under the northern bridge, one on the southern stairway, one west from the lower southern stairway between the falls, and one south near the Falmer camp. You should now have more than thirty Crimson Nirnroot; keep every extra sample for the later alchemy-effect pass after Avrusa takes the thirty quest samples.
+22. Enter Tower of Mzark. Leave `The Armorer's Challenge` closed in the first room for the later Scholar's Insight skill-book pass. Continue to the Oculory.
+23. Place the Blank Lexicon in the receptacle. Press the second button from the right four times, press the second button from the left twice, then press the far-left button once. Take the Runed Lexicon from the receptacle and take the Elder Scroll (Dragon). This completes `Elder Knowledge` and starts `Alduin's Bane`.
+24. Exit Tower of Mzark by the lift, open the surface gate, and keep the Elder Scroll (Dragon) in your inventory for the main quest and Dawnguard. Do not sell it to Urag.
+25. Return to Septimus Signus's Outpost. Give the Runed Lexicon to Septimus, receive the Essence Extractor, and speak to the Wretched Abyss on the way out.
+26. Return directly to Alftand through the surface lift you opened. Harvest Wood Elf blood from Endrast, Orc blood from Yag gra-Gortwog, High Elf blood from Valie, and Falmer blood from any Falmer corpse in Alftand.
+27. Travel to Drelas' Cottage south of Morthal. Enter, defeat Drelas, clear the cottage, and harvest Dark Elf blood from Drelas. Use only Drelas's corpse and the blood harvest for this route stop; leave the cottage books and owned household items alone.
+28. Return to Septimus Signus's Outpost. Make `HARD SAVE: HS-SEPTIMUS-OGHMA` before giving Septimus the harvested blood.
+29. Give the blood to Septimus, follow him to the opened lockbox, and take the Oghma Infinium. Complete `Discerning the Transmundane`, but do not read or use the Oghma Infinium; preserve it for the late skill and all-perks plan.
+30. Travel to Sarethi Farm between Riften and Ivarstead. Give Avrusa Sarethi thirty Crimson Nirnroot samples, receive The Nirnroot Missive, and gain Sinderion's Serendipity. Add `A Return To Your Roots` to Sideways tracking only if the Sideways trophy is still open. Keep any extra Crimson Nirnroot in storage for the alchemy-effect pass.
+31. Return to the Throat of the World. Stand at the Time-Wound and read the Elder Scroll (Dragon). Learn all three words of `Dragonrend` during the vision.
+32. When Alduin attacks, use Dragonrend to force him down and defeat him at the Throat of the World. Complete `Alduin's Bane`.
+33. Speak to Paarthurnax after Alduin flees and ask how to reach Alduin's hiding place. Do not use Esbern for this main-route handoff.
+34. Travel to Dragonsreach and speak to Jarl Balgruuf about trapping a dragon. Because the Imperial Civil War is complete, no peace council is routed here; `Season Unending` is bypassed.
+35. Return to Paarthurnax when the journal asks for Odahviing's name. Learn all three words of `Call Dragon`, then return to Dragonsreach.
+36. Tell Balgruuf you are ready to prepare the trap. Go to the Great Porch, use the full `Call Dragon` shout, use Dragonrend to draw Odahviing into the trap, and interrogate him. Complete `The Fallen`.
+37. Leave Odahviing trapped in Dragonsreach. Do not release him or fly to Skuldafn until the World-Eater's Eyrie finale section sends you there.
 
 ### Paarthurnax And Blades Branch
 
-Scaffold only - not yet v1-expanded.
-
-1. Make `HARD SAVE: HS-MQ-PAARTHURNAX` before killing Paarthurnax.
-2. BRANCH ROUTE: kill Paarthurnax, restore Blades support, complete `Rebuilding the Blades`, and complete one representative `Dragon Hunting` quest.
-3. Do not move ordinary word-wall or shout cleanup into the branch unless it is Blades-exclusive.
-4. RETURN: reload `HS-MQ-PAARTHURNAX`.
-5. MAIN ROUTE: preserve Paarthurnax and continue with Greybeards/Paarthurnax continuity intact.
+1. At Dragonsreach, before releasing Odahviing, make `HARD SAVE: HS-MQ-PAARTHURNAX`. This is the return point for the canonical route where Paarthurnax lives.
+2. BRANCH ROUTE: travel to the Throat of the World and kill Paarthurnax. Treat any dragon soul, bones, scales, or other loot from this kill as branch-only; it will disappear when you reload.
+3. Travel to Sky Haven Temple and tell Delphine that Paarthurnax is dead. Complete `Paarthurnax`.
+4. In your route notes, record the branch outcome: Blades dialogue and Blades support are restored on this temporary branch; Greybeards hospitality, Arngeir's word-wall guidance, and future Paarthurnax meditation changes are lost on this branch.
+5. Do not start another Blades dragon hunt on this branch. `Rebuilding the Blades`, the representative Blades `Dragon Hunting` assignment, `Dragon Research`, and Dragon Infusion were already completed on main continuity before the Paarthurnax lockout.
+6. Reload `HS-MQ-PAARTHURNAX`. MAIN ROUTE: Paarthurnax is alive, Greybeards and Paarthurnax support remain intact, and Odahviing is still trapped for the later Skuldafn departure.
+7. Make a rotating manual save after confirming you are back on main continuity, then continue toward the Dawnguard fork.
 
 ## Dawnguard, Aetherium, And Transformation Coverage
 
 ### Dawnguard Fork And Volkihar Branch
 
-Scaffold only - not yet v1-expanded.
+1. Complete the route-default marriage before opening the Dawnguard fork. In Riften, speak with Maramal at the Temple of Mara or the Bee and Barb, ask about marriage, and buy an Amulet of Mara from him. Equip the amulet, travel to Whiterun, speak to Ysolda, and ask her to marry you. Return to the Temple of Mara, arrange the wedding with Maramal, stay in Riften until the ceremony, and complete `The Bonds of Matrimony`. After the ceremony, tell Ysolda that you will live at her house for now.
+2. Store, sell, rest, and prepare for the Dawnguard opening trip. Keep the Elder Scroll (Dragon) in your inventory, keep Oghma Infinium unread, and leave Odahviing trapped in Dragonsreach. Make a rotating manual save.
+3. Clear any Rift bounty before entering Dayspring Canyon. From Riften, take the southeastern road to Dayspring Canyon, discover Fort Dawnguard, and enter the fort. If Durak gives you the crossbow and steel bolts outside, take them; otherwise Isran gives them after the first conversation.
+4. Speak with Isran, listen to the exchange with Vigilant Tolan, and accept the Dimhollow assignment. Complete `Dawnguard`; `Awakening` starts immediately.
+5. Dismiss any active follower before opening Serana's monolith later. Travel to Dimhollow Crypt, discover it, and clear the crypt as part of `Awakening`. In Dimhollow Cavern, after Adalvald dies, read and take `Notes on Dimhollow Crypt, Vol. 3`.
+6. In the monolith chamber, press the button and move each brazier to the endpoint where the purple flame stops. When the ring lights, open the monolith and speak to Serana. Serana joins you and carries Elder Scroll (Sun). Complete `Awakening`.
+7. Leave Dimhollow with Serana. On the exit route, take and learn `Spell Tome: Necromantic Healing` from the table near the chest before the final undead room, learn the first word of `Drain Vitality` from the word wall, and leave the crypt.
+8. Travel with Serana to Icewater Jetty and use the boat to Castle Volkihar. Discover Icewater Jetty and Castle Volkihar on main continuity. Let Serana lead at the gate.
+9. Inside Castle Volkihar, before approaching Harkon or letting his greeting take over, reach Ronthil on the left balcony from the dining table and buy `Spell Tome: Heal Undead`. Learn it immediately. Do not drop or stash items inside Castle Volkihar before speaking to Harkon.
+10. Approach Harkon and make `HARD SAVE: HS-DG-BLOODLINE` before answering his gift offer. Keep this hard save permanently; the later Volkihar finale branch continuation returns to the same fork.
+11. BRANCH ROUTE: accept Harkon's gift. Treat Vampire Lord, Volkihar membership, any lycanthropy cure, Volkihar services, and all vampire-side quest state as branch-only. Complete Harkon's tutorial enough to regain control and receive `The Bloodstone Chalice`.
+12. Speak to Garan Marethi, take the Bloodstone Chalice, and go directly to Redwater Den. Reach the Bloodspring, fill the chalice, let Stalf and Salonia turn hostile, kill them, add vampire blood to the chalice, and return to Garan. Complete `The Bloodstone Chalice`. Redwater Den progress on this branch is temporary; do not treat it as the main-route clear.
+13. CuSith and Garmr are branch-only death-hound follower options here; do not recruit either as the canonical follower.
+14. Speak to Harkon for `Prophet (Vampire)`. Travel to Dragon Bridge, follow the lead to the wrecked carriage south of town, take and read `Vampire's Note`, and enter Forebears' Holdout.
+15. In Forebears' Holdout, defeat the enemies, loot Malkus for the Weystone Focus, deactivate the barrier, defeat Dexion, use Vampire's Seduction and feed on him, then command him to go to Castle Volkihar. Return to the castle, report to Harkon, command Dexion to read the Elder Scroll, and complete `Prophet (Vampire)`. Treat the carriage, `Vampire's Note`, Forebears' Holdout, and Dexion's vampire-side state as branch-only until the reload.
+16. Before taking `Amulets of Night Power`, earn the three Vampire Lord perk points needed for `Summon Gargoyle`. Use the hostile enemies in `The Bloodstone Chalice`, `Prophet (Vampire)`, and the first Volkihar assignments for qualifying Vampiric Drain or power-bite kills. Take `Power of the Grave`, `Vampiric Grip`, and `Summon Gargoyle`, then stop; the full Vampire Lord perk tree remains for the later transformation route.
+17. Use this branch-work rule for Volkihar assignments: when a giver sends you to a random target, go directly to that target, do the assignment, handle only the objective and items required by that assignment, then return to Castle Volkihar. Leave unrelated nearby work for the canonical save.
+18. Complete Feran Sadri's finite branch work. For `Rings of Blood Magic`, retrieve Ring of The Beast and Ring of the Erudite from the two marked targets and return to Feran. For `Amulets of Night Power`, retrieve Amulet of Bats and Amulet of The Gargoyle from the two marked targets and return to Feran. For `Ancient Power`, retrieve the marked ancient vampire remains and return to Feran; repeat successful Ancient Power assignments until four body-part turn-ins have extended Blood of the Ancients to its maximum branch duration.
+19. Complete one representative Volkihar hunt/framing assignment of each type. For `Culling the Beast`, kill the boss vampire in the marked vampire lair and return. For `The Hunt`, kill the marked traveling bard, merchant, or pilgrim spy and return. For `Protecting the Bloodline`, kill the marked feral-blooded vampire at its bandit camp or warlock lair and return. For `Deceiving the Herd`, read the Incriminating Letter to identify the city, wear the Dawnguard armor, kill an outdoor city target, plant the letter, and return to Feran; if the assigned city is Whiterun, do not choose Ysolda.
+20. Complete Vingalmo's branch work. For `New Allegiances`, follow the actual target: Haran at The Frozen Hearth in Winterhold, Valindor in Riften or Valindor's House, or Cairine in the Warrens in Markarth. Use Vampire's Seduction and feed, or bite the target while asleep, then return to Vingalmo. One successful conversion is enough. After the branch side missions make `The Gift` available, take it from Vingalmo, go to Ysolda's House, use Vampire's Seduction on Ysolda, feed, and return to Vingalmo. Treat Ysolda's vampire state as branch-only.
+21. Stop the Volkihar branch here. `Destroying the Dawnguard` is not available until after a Volkihar-side `Kindred Judgment`; keep `HS-DG-BLOODLINE` for that later branch-continuation pass instead of trying to force it now.
+22. Reload `HS-DG-BLOODLINE`. MAIN ROUTE: refuse Harkon's gift. Harkon banishes you outside the castle. Return to Fort Dawnguard, defeat the vampire attack, report to Isran, complete `Bloodline` on the Dawnguard side, and accept `A New Order`. Stop before recruiting Gunmar or Sorine.
+23. Make a rotating manual save on canonical Dawnguard continuity. Paarthurnax is alive, Odahviing remains trapped, Ysolda is alive and mortal, and the Volkihar state exists only in the branch record.
 
-1. Start Dawnguard only when level-46 reward gates and branch readiness are settled.
-2. Before `Bloodline`, verify spouse state if the Volkihar branch will include `The Gift`; otherwise label `The Gift` conditional.
-3. Make `HARD SAVE: HS-DG-BLOODLINE`.
-4. BRANCH ROUTE: accept Harkon's offer and route Volkihar-only content: `The Bloodstone Chalice`, vampire-side `Prophet`, `Amulets of Night Power`, `Rings of Blood Magic`, one successful `New Allegiances`, representative branch radiants, and `Destroying the Dawnguard` where available.
-5. Record branch-only amulets/rings and Volkihar state, then reload. Do not carry Volkihar final state into the main save.
-6. MAIN ROUTE: refuse Harkon and continue Dawnguard.
+### Fort Dawnguard Recruits, Prophet, And Lost Relics
 
-### Dawnguard Main Route
+1. Continue on the canonical Dawnguard save after refusing Harkon. Keep `HARD SAVE: HS-DG-BLOODLINE` untouched for the later Volkihar finale branch.
+2. Travel to Sorine Jurard at her Dwemer convector south of Mor Khazgur. Speak to her, take a Dwemer gyro from her nearby satchel, give it to her, and send her to Fort Dawnguard.
+3. Before returning to Fort Dawnguard for the Moth Priest work, go up to Mor Khazgur. Discover Mor Khazgur, speak to Bagrak or the stronghold gate guard, and accept `The Forgemaster's Fingers`.
+4. Mor Khazgur sends `The Forgemaster's Fingers` to one Reach target: Broken Tower Redoubt, Bruca's Leap Redoubt, Deepwood Redoubt, Dragontooth Crater, Druadach Redoubt, Dustman's Cairn, Hag Rock Redoubt, Harmugstahl, Rebel's Cairn, or Red Eagle Redoubt. Go directly to the target your quest log names, retrieve the gauntlets, return to Mor Khazgur, and give them to Chief Larak. You are now Blood-Kin.
+5. While you have clean Mor Khazgur access, mine one orichalcum ore from Mor Khazgur Mine and sell it to Shuftharz. Then challenge Chief Larak to a brawl, fight barehanded, and speak to him after winning. Borgakh the Steel Heart is now visible as a follower, marriage, steward, and Blades-candidate option, but Ysolda remains the route spouse.
+6. Travel to Gunmar's actual quest marker. Speak to Gunmar before fighting the bear, kill the bear with him, and send him to Fort Dawnguard. If the marker is not visible because the target is on Solstheim, take the Windhelm ferry to Raven Rock, do only Gunmar's bear assignment, then return to Skyrim and Fort Dawnguard.
+7. Return to Fort Dawnguard. Watch Isran test Gunmar and Sorine with sunlight, then speak to Isran to complete `A New Order` and begin `Prophet`.
+8. Use Fort Dawnguard as a Dawnguard service hub now. Buy and learn `Spell Tome: Sun Fire` from Sorine. Bran and Sceolang are available armored husky follower options, and Gunmar can sell an armored troll or armored frost troll; do not replace the route follower plan unless you deliberately choose one of those options.
+9. Before advancing the Moth Priest route, run all six `Ancient Technology` assignments from Sorine. For each assignment, go straight to the marked bandit hideout or Dwarven ruin, open the boss chest, take the schematics, handle only objectives at that assignment site, and return to Sorine.
 
-Scaffold only - not yet v1-expanded.
+| `Ancient Technology` turn-in | Sorine's unlock |
+| --- | --- |
+| First schematics | Enhanced Crossbow |
+| Second schematics | Exploding Steel Bolts of Fire |
+| Third schematics | Exploding Steel Bolts of Ice |
+| Fourth schematics | Exploding Steel Bolts of Shock |
+| Fifth schematics | Dwarven Crossbow and Dwarven Bolts |
+| Sixth schematics | Enhanced Dwarven Crossbow |
 
-1. Complete the Dawnguard main questline on the canonical save.
-2. Route Fort Dawnguard support, finite side content, and representative Dawnguard radiants within source boundaries.
-3. Complete the first `Ancient Technology` before expecting `Lost Relic` to appear.
-4. Cycle required fillers and complete all three `Lost Relic` versions for the Rune Hammer, Rune Shield, and Rune Axe. Record filler titles and targets because the count is not deterministic.
-5. Avoid unbounded Dawnguard radiant grinding.
+10. During the `Ancient Technology` loop, if the assignment target is a bandit area and the boss chest contains `Dwarven Haul`, take and read it before returning to Sorine.
+11. After the sixth schematics turn-in, buy or craft one preserved sample of Sorine's Dawnguard technology set: Enhanced Crossbow, Dwarven Crossbow, Enhanced Dwarven Crossbow, Dwarven Bolts, Exploding Steel Bolts of Fire, Exploding Steel Bolts of Ice, and Exploding Steel Bolts of Shock.
+12. Continue `Prophet` at Fort Dawnguard. Speak to Isran, listen to the vampire-prisoner interrogation, and speak to Serana. Then travel to Dragon Bridge, go south to the wrecked carriage, take and read `Vampire's Note` from the dead vampire, and follow it to Forebears' Holdout. Discover Forebears' Holdout.
+13. In Forebears' Holdout, defeat Malkus and the vampire force, loot Malkus for the Weystone Focus, place the focus in the Weystone Source, and defeat Dexion Evicus after the barrier drops. Speak to Dexion and send him to Fort Dawnguard. Leave Dexion's Akaviri Sword for the later pickpocket/disarm window; this rescue is not the clean time to take it.
+14. Before asking Dexion to read the Elder Scroll, speak to Sorine at Fort Dawnguard and accept `Bolstering the Ranks`. Speak to Isran, then travel to Ruunvald Excavation. Discover Ruunvald.
+15. In Ruunvald Excavation, collect `Discovering Ruunvald, Vol. I` from the early excavation area, `Discovering Ruunvald, Vol. II` from the middle excavation chamber, `Discovering Ruunvald, Vol. III` from the later table area, and `Discovering Ruunvald, Vol. IV` from the barrel near the Ruunvald Temple entrance. Use a light Unrelenting Force pulse or a low-damage fire spell to knock Vol. IV loose from the barrel before taking it.
+16. Enter Ruunvald Temple, defeat Moric, Minorne, and the charmed Vigilants, take the Staff of Ruunvald and key from Minorne, unlock Florentius Baenius's cage, and send him to Fort Dawnguard. Complete `Bolstering the Ranks`.
+17. Return to Fort Dawnguard. Buy and learn `Spell Tome: Stendarr's Aura` and `Spell Tome: Vampire's Bane` from Florentius.
+18. Ask Dexion to read Elder Scroll (Sun). Complete Dawnguard-side `Prophet`; `Chasing Echoes`, `Seeking Disclosure`, and `Scroll Scouting` are now active for the Dawnguard worldspace route. Agmaer, Beleval, Celann, Durak, and Ingjard are now available as Dawnguard follower, steward, and Blades-candidate options; keep the current follower plan unless you deliberately choose one of them.
+19. Create a Dawnguard assignment log before taking Fort Dawnguard side work. For every randomized Dawnguard assignment, write down the quest title, giver, assigned target, and reward or relic. Go directly to the assigned target, complete only that assignment and any item or book at the assignment site itself, return to the Fort, and then continue the Fort loop. Do not add extra side trips around a random assignment.
+20. Complete all three `Lost Relic` versions from Florentius. Each time he offers `Lost Relic`, take it, go directly to the marked dungeon, retrieve the relic from the boss chest, return to Florentius, and preserve the artifact. The three required relics are Dawnguard Rune Hammer, Dawnguard Rune Shield, and Dawnguard Rune Axe.
+21. `Lost Relic` does not appear on demand. Between relic assignments, complete the Fort Dawnguard representative assignments below until every row in this table has been completed once and all three relics have been recovered. Stop taking Fort Dawnguard side jobs after those targets are complete.
+
+| Assignment | Giver | Direct handling |
+| --- | --- | --- |
+| `Cleansing Light` | Gunmar | Accept a vampire-lair target other than Movarth's Lair, kill the boss vampire at the marked lair, and return to Gunmar. |
+| `Hide and Seek` | Gunmar | Go to the marked settlement, identify the Traveling Bard, Pilgrim, or Visiting Advisor vampire, kill the target discreetly, and return to Gunmar. |
+| `Hunting the Monster` | Gunmar | Go to the named contact, obtain and read `Letter from the Vampire`, then go to the marked bandit camp or warlock lair, kill the vampire, and return to Gunmar. |
+| `Preemptive Strike` | Gunmar | Go to the marked bandit camp or warlock lair, kill the vampire before it turns the group, and return to Gunmar. |
+| `A Jarl's Justice` | Isran | Warn the assigned Jarl, take and read `Orders (DG)` from the Visiting Advisor, show the orders to the Jarl, kill the advisor, and return to Isran. |
+| `Rescue` | Florentius | Go to the marked bandit camp or warlock lair, free the hostage, kill the vampire, and return to Florentius. |
+
+22. When the assignment log contains Dawnguard Rune Hammer, Dawnguard Rune Shield, Dawnguard Rune Axe, one completed `Cleansing Light`, one completed `Hide and Seek`, one completed `Hunting the Monster`, one completed `Preemptive Strike`, one completed `A Jarl's Justice`, and one completed `Rescue`, stop Fort Dawnguard radiant work. Make a rotating manual save at Fort Dawnguard and leave `Chasing Echoes`, `Seeking Disclosure`, and `Scroll Scouting` active for the Soul Cairn and Forgotten Vale route.
 
 ### Dawnguard Worldspaces
 
-Scaffold only - not yet v1-expanded.
+1. Start at Fort Dawnguard with `Chasing Echoes`, `Seeking Disclosure`, and `Scroll Scouting` active. Sleep, sell ordinary duplicate loot, stock food and healing, keep the Elder Scroll (Dragon) in your inventory, reserve six dragon souls for Durnehviir and Soul Tear, and make a rotating manual save.
+2. If you have an ordinary follower or animal follower committed as your travel companion, dismiss that follower before the Castle Volkihar back entrance. Serana must accompany you for the Castle Volkihar and Soul Cairn route.
+3. Travel to the secret entrance behind Castle Volkihar and enter the courtyard with Serana. At the moondial, collect the Half Moon Crest from the pond in the northwest corner, the Full Moon Crest from behind the nightshade in Valerica's fenced garden, and the Crescent Moon Crest from the upper area by the Volkihar North Tower entrance. Place all three crests in the moondial to open the stairs into the ruins.
+4. Fight through Volkihar Ruins. In the room with the gargoyles and fireplace, open the hidden passage with the candlestick near the fireplace. Take the Vampire Royal Armor near the shelf to the right, then continue into Valerica's Study.
+5. In Valerica's Study, take and read `Valerica's Journal` from the central bookcase west of the entrance. Gather the Finely Ground Bone Meal from the table by the entrance beneath the mammoth skull, the Soul Gem Shards from the first wardrobe up the east stairs, and the Purified Void Salts from the shelf on the raised balcony above the entrance. Place the ingredients in the portal vessel and let Serana add her blood.
+6. Before entering the Soul Cairn, open the southern-corner door to Castle Volkihar Balcony so you have the short return path to the portal. Then choose Serana's partial soul trap option, not Vampire Lord transformation. Step through the portal. `Chasing Echoes` completes and `Beyond Death` begins.
+7. In the Soul Cairn, go straight to Valerica at the Boneyard entrance and speak with her. Follow the quest markers to kill the three Boneyard Keepers, then return to Valerica.
+8. Follow Valerica into the Boneyard. Defeat Durnehviir, take the Elder Scroll (Blood) from the southeast alcove, speak to Valerica, and leave the Boneyard by the southwest gate.
+9. Outside the Boneyard, wait for Durnehviir to land and speak. Speak to him in return, accept his pact, and learn `Summon Durnehviir`. Unlock all three words of `Summon Durnehviir` with dragon souls.
+10. Retrieve your Soul Essence Gem before leaving the Cairn. From the Boneyard exit, travel west-northwest to the fort-like structure, use the teleport well path to the roof chest under the Ideal Master crystal, and take the Soul Essence Gem to remove the Weakened Soul effect. Jiub's Opus, Page 9 is behind the same chest; take it now.
+11. Return to the portal and leave the Soul Cairn through Valerica's Study. `Beyond Death` completes with the Elder Scroll (Blood) secured.
+12. Go to an open outdoor area in Tamriel. Summon Durnehviir three times with enough ground space for the shout to land. Wait for his lesson after each summon, learn and unlock the Soul Tear words Rii, Vaaz, and Zol with dragon souls, and stop only after all three words are active. Soul Tear is then fully learned and the Soul Tear trophy condition is satisfied.
+13. Return through the Castle Volkihar Balcony shortcut and re-enter the Soul Cairn for the side sweep. Use this sweep to complete Jiub, Arvak, the Soul Cairn spell tomes, and the Reaper encounter before leaving the Cairn for good.
 
-1. Route Soul Cairn as a prepared expedition: food, carry space, healing, and exit plan. Acquire Arvak and required Soul Cairn books/rewards.
-2. Teach all three Soul Tear words through Durnehviir summon/listen cycles.
-3. Route Forgotten Vale with expedition support. Collect Unknown Books, Auriel's Bow, paragon content, and Dawnguard location/book queues.
-4. After Auriel's Bow, save and perform the sun-shot check before delaying the bow for long route spans.
-5. Treat duplicate or secondary markers by the location-validation rules; do not double-count Delver clears.
+| Soul Cairn objective | Route instruction |
+| --- | --- |
+| `Jiub's Opus`, Page 8 | From the portal stairs, enter the first black building on the right by shooting or casting at both glowing orbs to lower the bars; take Page 8 inside. |
+| `Jiub's Opus`, Page 6 | Continue north to the next right-side building; take Page 6 from the interior chest corner. |
+| `Jiub's Opus`, Page 1 | At the great dividing wall, use the stairs up the rear of the wall near the central gap; take Page 1 by the flagpoles. |
+| `Jiub's Opus`, Page 3 | Go through the wall gap, turn into the small courtyard building on the first half of the Cairn, and take Page 3 beside the chest on the upper structure. |
+| `Jiub's Opus`, Page 10 | Find Morven Stroud and his wagon on the far side of the wall; take Page 10 from the barrel beside the wagon. |
+| `Spell Tome: Conjure Wrathman` | In the southeast area near Reaper's Lair, take the tome from the shrine base under the four-pillar structure. |
+| Reaper Gem Fragment | Near Arvak's skull, enter the southwest structure and use its teleport well to reach the roof chest under the Ideal Master crystal; take the fragment. |
+| `Jiub's Opus`, Page 5 | North of Reaper's Lair, take Page 5 from the paved well area beside Jiub's camp. |
+| Jiub | Speak to Jiub at his camp and accept `Impatience of a Saint` if the quest has not already started from the pages. |
+| Arvak's Skull | Northeast of Jiub's area, take Arvak's Skull from the open-sided tower shrine. Speak to Arvak's owner when he appears nearby and learn `Summon Arvak`. |
+| `Spell Tome: Conjure Mistman` and `Jiub's Opus`, Page 7 | Northeast of Arvak's skull, use the tower path, then take the Mistman tome from its plinth and Page 7 from the base of the shrine. |
+| Reaper Gem Fragment | At the northeast floating-island Keeper complex, take the fragment from the roof chest in the large building west of the Keeper platform. |
+| `Jiub's Opus`, Page 4 | On the eastern-wall building southwest of that Keeper complex, take Page 4 beside the covered-passage chest. |
+| `Spell Tome: Conjure Boneman` | In the northwest area, take the tome from the plinth west of the large underpass building. |
+| Reaper Gem Fragment | At the Tabernacle of the Ideal Masters, open the gated area by shooting both control orbs and take the fragment from the chest under the Ideal Master crystal. |
+| `Jiub's Opus`, Page 2 | At the Black Folly west of the Boneyard entrance, take Page 2 beside the boss chest in front of the broken word-wall structure. |
+| Saint Jiub rewards | Return to Jiub with all ten pages and complete `Impatience of a Saint`. Receive `Saint Jiub's Opus` and the Locket of Saint Jiub. |
+| Reaper encounter | Enter Reaper's Lair, place all three Reaper Gem Fragments in the central receptacle, defeat the Reaper and the three bonemen, then leave the lair. |
 
-### Werewolf, Vampire Lord, And Final Mortal Setup
+14. Leave the Soul Cairn through Valerica's Study. Return to Fort Dawnguard with Elder Scroll (Dragon), Elder Scroll (Sun), and Elder Scroll (Blood) available for Dexion.
+15. Speak to Dexion at Fort Dawnguard. `Seeking Disclosure` completes when you bring him the Elder Scrolls, and `Scroll Scouting` is satisfied because the Dragon scroll is already in your inventory. Accept Dexion's instruction for `Unseen Visions`.
+16. Travel to Ancestor Glade northeast of Falkreath and discover the location. During this visit, harvest one Yellow Mountain Flower and one Ancestor Moth Wing for the final alchemy-effects pass.
+17. In Ancestor Glade, take the Draw Knife from the shrine, use it on a Canticle Tree to obtain Canticle Bark, attract seven Ancestor Moth swarms, stand in the light beam, and read Elder Scroll (Blood). Defeat the attackers after the vision. `Unseen Visions` completes and `Touching the Sky` begins.
+18. Travel to Darkfall Cave, south-southwest of Mor Khazgur, and discover the cave. Follow the cave route to the dead Breton camp, pull the chain behind the lean-to to open the concealed passage, and continue to Knight-Paladin Gelebor.
+19. Speak to Gelebor, accept the task to kill Vyrthur, and receive the Initiate's Ewer. Enter the Wayshrine of Illumination portal into Darkfall Passage.
+20. Route through Darkfall Passage. Take at least one Chaurus Hunter Antennae from a Chaurus Hunter, harvest one Gleamblossom, harvest one Poison Bloom, and keep at least twenty-one ordinary Elven Arrows by the end of the Forgotten Vale route so Gelebor and Serana can each make their special arrows later. Fill the ewer at the Wayshrine of Illumination and enter the Forgotten Vale.
+21. Discover Forgotten Vale. Follow the climb out of the entry cave to Prelate Athring and fill the ewer at the Wayshrine of Sight.
+22. Continue west through the narrow pass toward the river valley. Take `Unknown Book, Vol. I` from beside the skeleton and chest in the valley, then speak to Prelate Celegriath and fill the ewer at the Wayshrine of Learning.
+23. From the Learning area, go northwest to the river and paragon platform area. Kill the frost giant on the east shore near the waterfall and take the Amethyst Paragon. Cross toward the platform area, kill the second nearby frost giant, and take the Sapphire Paragon.
+24. Follow the path toward the frozen lake. Speak to Prelate Nirilor and fill the ewer at the Wayshrine of Resolution. On the frozen lake south of the wayshrine, defeat Naaslaarum and Voslaarum, then learn the Forgotten Vale word of `Drain Vitality` from the word wall.
+25. Continue through the Falmer canyon path beyond the Wayshrine of Resolution. Before Glacial Crevice, enter the fenced frost giant area and take the Emerald Paragon from the giant. In the mammoth-skull Falmer tent before the Glacial Crevice entrance, take `Unknown Book, Vol. III`.
+26. Route through Glacial Crevice and emerge into the southwest Forgotten Vale. Immediately take the left-hand mountain path, defeat the frost giant beyond the Falmer outpost, and take the Diamond Paragon. Continue through the Falmer settlements; in the large ornate tent before the tunnel to the Wayshrine of Radiance, take `Unknown Book, Vol. IV`.
+27. Speak to Prelate Edhelbor and fill the ewer at the Wayshrine of Radiance. Cross to the Inner Sanctum, pour the full ewer into the basin, and enter.
+28. Inside the Inner Sanctum, use the ewer doors and left-side passage before the final chapel to reach the frost giant holding the Ruby Paragon. Take the Ruby Paragon, then continue to Auriel's Chapel.
+29. Defeat Vyrthur and loot his body for Ancient Falmer Boots, Ancient Falmer Cuirass, and Ancient Falmer Gauntlets. Speak to Gelebor when the wayshrine appears. Ask him to bless one batch of ordinary Elven Arrows into Sunhallowed Elven Arrows, leaving at least one ordinary Elven Arrow unconverted. Take Auriel's Bow from the wayshrine.
+30. Speak to Serana and ask her to treat ordinary Elven Arrows with her blood. Keep the Bloodcursed Elven Arrows. Do not ask Serana about curing her vampirism; her vampire state is still needed for the next transformation section.
+31. During daylight in an isolated outdoor area, equip Auriel's Bow with a Sunhallowed Elven Arrow, aim at the sun, and fire once to use the bow's special power. Keep Auriel's Bow and the remaining special arrows.
+32. Before leaving the Vale, return by wayshrine portal to the Wayshrine of Learning and use the paragon platform. Insert each paragon, enter its portal, take the named objective or chest loot, then return to the platform for the next paragon.
 
-Scaffold only - not yet v1-expanded.
+| Paragon | Portal destination | Route instruction |
+| --- | --- | --- |
+| Amethyst Paragon | Darkfall Grotto ledge | Enter the portal and loot the otherwise inaccessible chest. |
+| Sapphire Paragon | Inner Sanctum room | Enter the portal and loot the hidden Inner Sanctum room. |
+| Emerald Paragon | Forgotten Vale Overlook | Enter the portal, take `Unknown Book, Vol. II` near the waterfall chest, and leave by the portal. |
+| Diamond Paragon | Glacial Crevice ledge | Enter the portal and loot the otherwise inaccessible chest. |
+| Ruby Paragon | Forgotten Vale Forest | Enter the portal, defeat the Falmer Warmonger, and take Auriel's Shield. |
 
-1. Complete Werewolf Mastered before permanently losing werewolf access.
-2. Complete Vampire Mastered in a validated vampire/Vampire Lord window.
-3. Record Beast Form, Vampire Lord, totem, and transformation power coverage before curing.
-4. Cure and return to the final mortal state only after both transformation systems are complete.
-5. Do not reset offense, armor, Restoration, or transformation-relevant support immediately before hard Dawnguard or transformation content.
+33. Leave the Forgotten Vale by using a wayshrine portal to Darkfall Cave and exiting back to Skyrim.
+34. Before returning to Isran, travel to the College of Winterhold and go to the Arcanaeum. Give Urag gro-Shub all four Unknown Books. Receive the translated copies `The Betrayed`, `Journal of Mirtil Angoth`, `Diary of Faire Agarwen`, and `Touching the Sky`, and complete the Forgotten Vale Books Quest.
+35. Return to Fort Dawnguard and speak to Isran to begin the Dawnguard assault for `Kindred Judgment`.
+36. Travel with the Dawnguard assault to Castle Volkihar. Fight through the exterior defenders and the keep, raise the portcullis with the chain, and enter Volkihar Cathedral.
+37. Confront Harkon with Auriel's Bow. Refuse to give him the bow, defeat him, and use Auriel's Bow to break his altar shield whenever he retreats to it. After Harkon dies, loot Harkon's Sword and Vampire Royal Armor from his remains. `Kindred Judgment` completes the canonical Dawnguard main questline.
+38. Leave Serana alive, uncured, and available. Her Vampire Lord service is routed next, then the route will return to the final mortal-state plan.
+
+### Volkihar Finale Branch Continuation
+
+1. On the canonical Dawnguard save after `Kindred Judgment`, make `HARD SAVE: HS-DG-MAIN-RETURN`. This is the return save for the branch continuation.
+2. Load `HARD SAVE: HS-DG-BLOODLINE`. BRANCH ROUTE: accept Harkon's gift, complete the Vampire Lord tutorial enough to regain control, and enter the Volkihar questline.
+3. Complete `The Bloodstone Chalice`: speak to Garan Marethi, take the chalice to Redwater Den, fill it at the Bloodspring, kill Stalf and Salonia when they attack, add vampire blood to the chalice, and return to Garan.
+4. Complete vampire-side `Prophet`: speak to Harkon, follow the Dragon Bridge carriage lead, take and read `Vampire's Note`, enter Forebears' Holdout, take the Weystone Focus from Malkus, lower Dexion's barrier, defeat Dexion, use Vampire's Seduction and feed on him, command him to Castle Volkihar, and have him read Elder Scroll (Sun).
+5. Continue the required vampire-side main quest spine through `Chasing Echoes`, `Beyond Death`, `Seeking Disclosure`, `Unseen Visions`, and `Touching the Sky`. Use the same Castle Volkihar, Soul Cairn, Ancestor Glade, Darkfall, and Forgotten Vale route already established on canonical continuity, but take only what the quests require. The long Soul Cairn side sweep, Forgotten Vale translated-book handoff, paragon-platform side work, alchemy ingredient staging, and Auriel's Bow sun-shot action were already completed on the canonical save.
+6. After receiving Auriel's Bow on this branch, return directly to Castle Volkihar. Go to Volkihar Cathedral with Serana, confront Harkon, refuse to hand over Auriel's Bow, defeat him, and use Auriel's Bow to break his altar shield whenever he retreats to it. Speak to Garan when he enters after the fight; this completes the Volkihar-side `Kindred Judgment` outcome.
+7. Speak to Garan Marethi in Volkihar Keep after the finale and accept the free courtyard repair if he offers it. This branch now records Castle Volkihar as the vampire-side home and faction outcome.
+8. Ask Garan Marethi or Fura Bloodmouth for post-finale work until you receive `Destroying the Dawnguard`. If one of them gives a different Volkihar assignment first, do that assignment directly and return to the castle without adding extra side trips:
+
+| Assignment | Direct branch handling |
+| --- | --- |
+| `Culling the Beast` | Kill the boss vampire at the marked vampire lair and return. |
+| `The Hunt` | Kill the marked traveling bard, merchant, or pilgrim spy and return. |
+| `Protecting the Bloodline` | Kill the feral-blooded vampire at the marked bandit camp or warlock lair and return. |
+| `Deceiving the Herd` | Wear Dawnguard armor, kill an outdoor city target, plant the Incriminating Letter, and return. |
+
+9. When `Destroying the Dawnguard` is active, travel to Dayspring Canyon and enter Fort Dawnguard. Kill the eight required Dawnguard members inside the fort: Agmaer, Beleval, Celann, Durak, Florentius Baenius, Gunmar, Isran, and Sorine Jurard. Bran, Sceolang, and exterior patrols are not part of the required kill list; fight them only if they block the assignment.
+10. Return to the quest giver at Castle Volkihar and complete `Destroying the Dawnguard`.
+11. Reload `HARD SAVE: HS-DG-MAIN-RETURN`. MAIN ROUTE: canonical Dawnguard-side `Kindred Judgment` is complete, Serana is alive and uncured, Fort Dawnguard remains intact, and the Volkihar finale plus Dawnguard-destruction state exists only in the branch record.
+
+### Companions Finale, Totems, And Beast-Blood Preservation
+
+1. Continue from the canonical Dawnguard save after the Volkihar branch reload. Leave Serana alive, uncured, and available, but do not ask her to make you a Vampire Lord yet. Keep Beast Blood active; the Solstheim route still needs werewolf access at Frostmoon Crag.
+2. Store extra loot, sleep if a level-up is waiting, carry hot food, healing, lockpicks, cold gear, and the five Glenmoril Witch Heads, dismiss Serana or any other follower, and make a rotating manual save.
+3. Go to Jorrvaskr. With `Purity of Revenge` active, speak to Vilkas and let him join you. Travel to Driftshade Refuge, discover it, and enter with Vilkas. Do not use Beast Form while Vilkas is with you.
+4. Clear Driftshade Refuge and Driftshade Cellar. In Driftshade Cellar, leave `The Rear Guard` closed. In the final room, take the Fragments of Wuuthrad, loot the boss chest, leave `2920, Morning Star, v1` and `Warrior` closed, and use the shortcut out.
+5. Return to Jorrvaskr. When Vilkas sends you to the Skyforge, `Purity of Revenge` completes and `Glory of the Dead` begins.
+6. Attend Kodlak's funeral at the Skyforge. Give the fragments to Eorlund Gray-Mane, go to Kodlak's room in Jorrvaskr Living Quarters, take the final Fragment of Wuuthrad from the end table, then return to Eorlund.
+7. Meet the Circle in the Underforge. Receive Wuuthrad from Eorlund, then travel to Ysgramor's Tomb with the Circle and discover the tomb.
+8. Inside Ysgramor's Tomb, place Wuuthrad on Ysgramor's statue to open the way, then activate the statue again and take Wuuthrad back. Preserve Wuuthrad.
+9. Clear Ysgramor's Tomb with Aela and Farkas as quest followers. In the room before the final chamber, leave `The Legendary Sancre Tor` closed.
+10. At the Flame of the Harbinger, speak to Kodlak, place exactly one Glenmoril Witch Head in the flame, defeat Kodlak's Wolf Spirit, and speak to Kodlak again. `Glory of the Dead` completes and you become Harbinger.
+11. Do not purify yourself. Keep Beast Blood active and keep the remaining Glenmoril Witch Heads.
+12. After Kodlak's spirit is released, climb the ramp in the final chamber and loot the boss chest for the Shield of Ysgramor. Use the exit chain and western passage to leave, then learn Animal Allegiance: Tah from the outside word wall.
+13. Return to Jorrvaskr. Go to Kodlak's room, which is now the Harbinger's room, and take the Stone of Barenziah from the bookshelf.
+14. Aela, Farkas, Vilkas, Athis, Njada Stonearm, Ria, and Torvar are now follower options. Keep your current follower plan unless you deliberately choose one; Aela must remain available for the totem work.
+15. Make a rotating manual save in Whiterun.
+16. Complete all three `Totems of Hircine` assignments with Aela while you are still a werewolf. For each assignment, ask Aela if there is any work to be done, record the assigned dungeon, travel directly there with Aela, retrieve the marked Totem of Hircine from the target site, clear that assigned site if it has a normal boss or clear objective, return to the Underforge, place the totem, pray at it once, then leave and re-enter the Underforge before taking the next totem assignment.
+17. After the third totem is placed, pray once at each available totem in the Underforge: Totem of Brotherhood, Totem of the Hunt, and Totem of Fear. Finish with Totem of the Hunt active as the route default unless you prefer a different active howl for combat.
+18. Continue building the werewolf perk tree whenever the route sends you through fresh hostile content with eligible corpses and no follower or quest-state conflict. Finish the fight in normal form if that is safer, transform with the Ring of Hircine before leaving, feed on every eligible corpse, open the werewolf perk tree while transformed, and buy every available perk. The full tree requires 165 total feedings; do not cure or replace Beast Blood until all 11 werewolf perks are purchased.
+19. Ask Farkas for his personal cure work first. Travel with him to Ysgramor's Tomb, activate the Flame of the Harbinger with one Glenmoril Witch Head, defeat Farkas's Wolf Spirit, speak to Farkas, and complete his `Purity`.
+20. Return to Jorrvaskr, ask Vilkas for his personal cure work, travel to Ysgramor's Tomb, activate the flame with one Glenmoril Witch Head, defeat Vilkas's Wolf Spirit, speak to Vilkas, and complete his `Purity`.
+21. Keep your own Beast Blood after the Companion cures. Leave `Dragon Seekers` until the guide routes a controlled dragon-lair radiant assignment. Serana's Vampire Lord conversion, Vampire Mastered, Falion's cure, and the final mortal-state setup wait until after the Solstheim Frostmoon Crag ring purchase.
 
 ## Solstheim And Dragonborn Spine
 
-### Solstheim Entry
+### Solstheim Entry, Raven Rock Core, And Frostmoon Rings
 
-Scaffold only - not yet v1-expanded.
+1. Start from Whiterun or the nearest carriage hub with `Cultists' Orders` read, Beast Blood still active, the Ring of Hircine available, Serana alive and uncured, hot food, lockpicks, carry space, and enough gold for ferry passage, Raven Rock services, and four expensive werewolf rings. Make a rotating manual save before leaving for Windhelm.
+2. Travel to Windhelm Docks. Speak to Gjalund Salt-Sage on the `Northern Maiden`; persuade, intimidate, or pay 500 gold to make him sail to Solstheim.
+3. On arrival, discover Raven Rock and accept Adril Arano's greeting. Ask him about Miraak and the Earth Stone lead, but keep the first Solstheim pass centered on Raven Rock support and the Frostmoon work that still requires Beast Blood.
+4. Before leaving the dock area, go below the Raven Rock dock where the `Northern Maiden` is moored and take the East Empire Company Pendant from the strongbox beside the pearl oyster.
+5. Treat Raven Rock as the active Solstheim hub. Use The Retching Netch, Fethis Alor, Glover Mallory, Milore Ienth, the forge, and the Bulwark as services. Reserve actual sleep on Solstheim for Fatigue or pending level-ups until the All-Maker Stones are cleansed.
+6. Enter Alor House during normal hours. Speak to Fethis Alor and agree to bring him East Empire Company Pendants. While hidden downstairs, take the East Empire Company Pendant from the strongbox in the southeast room.
+7. Speak to Glover Mallory at his smithy. Accept `An Axe to Find`. Ask him about the shadowmark and accept `Paid in Full`; leave the Castle Karstaag formula job active for the later north-island route.
+8. Speak to Milore Ienth and accept `Fetch the Netch`. The first two netch jelly samples come from Raven Rock Mine later in this section.
+9. Enter The Retching Netch. Rent a room or buy food if Survival penalties need it. Ask Geldis Sadri about Sadri's Sujamma and accept `It's All In The Taste`. Ask him about rumors of hunters at Frostmoon Crag. Leave the green-glowing note and Fork of Horripilation on the keg; the Staff of Sheogorath trial is routed later.
+10. While hidden in The Retching Netch, take the East Empire Company Pendant from the strongbox on the bottom shelf of Geldis's bar. Teldryn Sero is available here as a non-default follower option; keep the current follower plan unless you deliberately choose him.
+11. Distribute Sadri's Sujamma to nine Raven Rock recipients before the Severin conspiracy is resolved: Fethis Alor, Dreyla Alor, Glover Mallory, Milore Ienth, Garyn Ienth, Cindiri Arano, Lleril Morvayn, Mirri Severin, and Tilisu Severin. Keep the tenth sample for Aphia Velothi or Crescius Caerellius when the route enters Raven Rock Mine.
+12. Go to Raven Rock Temple. Speak to Elder Othreloth and accept `Clean Sweep`. Leave the Heretic Dossier in the Temple closed; the Ghosts of the Tribunal branch is routed later.
+13. Enter Temple Ancestral Tomb, clear the ash spawn, and take the East Empire Company Pendant from the strongbox in the northernmost alcove, sitting in the ash near the bones. Return to Elder Othreloth and complete `Clean Sweep`.
+14. Travel south from Raven Rock to Old Attius Farm. Help Captain Veleth kill the ash spawn, search the ash pile for `Declaration of War`, read it, and show it to Veleth.
+15. Go east to Fort Frostmoth. In the small storage room to the left as you enter the courtyard from the main entrance, take the East Empire Company Pendant from the bottom shelf with the Imperial equipment.
+16. Clear Fort Frostmoth, kill General Falx Carius, take and preserve Champion's Cudgel, then return to Captain Veleth in Raven Rock and complete `March of the Dead`.
+17. After `March of the Dead`, go to the Bulwark. While hidden in the back right room, take the East Empire Company Pendant from the strongbox in the northwest corner of the table. Speak to Captain Veleth, accept `Recipe for Distraction`, find the hidden Emberbrand Wine barrel between the ruined-house foundations southwest of the abandoned building, then return to Veleth and complete the favor.
+18. Enter Raven Rock Mine from Raven Rock. Give the saved Sadri's Sujamma sample to Aphia Velothi or Crescius Caerellius. Speak to Crescius, start `The Final Descent`, receive `Gratian's Letter` and the Raven Rock Mine Key, then ask him for Glover Mallory's ancient Nordic pickaxe and choose the dialogue that makes him hand it over.
+19. In the mine's first room, go up to the loft and take the East Empire Company Pendant from the strongbox under the table in the northwest corner.
+20. Break through the wooden slats deeper in the mine. In the room just past the boards, take the East Empire Company Pendant from the strongbox on the crate to the right of the locked gate.
+21. Continue through Raven Rock Mine. Take all four Potions of Waterwalking as you pass them: the basin between the draugr thrones, the shelf beside the alchemy lab, the floor beside the expert-locked enchanter chest, and the ledge behind the three pots at the top of the wooden spiral ramp. At the alchemy lab, take the two bowls of Netch Jelly for `Fetch the Netch`.
+22. Learn Ice Spike from the spell tome on the candlelit plinth, then continue to Gratian Caerellius's remains. Take and read `Gratian's Journal`, take the Bloodskal Blade, and use Bloodskal Blade power attacks to open the red-line door.
+23. Defeat Zahkriisos, take and preserve the Zahkriisos mask, and learn Dragon Aspect: Mul from the word wall.
+24. Read `Black Book: The Winds of Change` and enter Apocrypha. Work through the scryes and defeat the lurker. Leave `Words and Philosophy` closed when you first see it on the table near the fourth scrye.
+25. At the end of the Black Book realm, choose Scholar's Insight. Before leaving Apocrypha, return to the table near the fourth scrye and read `Words and Philosophy`, then exit through the Black Book.
+26. Continue out through Bloodskal Barrow. Clear the reavers, read a copy of `Deathbrand` near the beds in the northwest room, and leave the Deathbrand treasure circuit for the later north-island route. Exit to Solstheim.
+27. Return to Raven Rock. Speak to Crescius Caerellius and complete `The Final Descent`. Return the ancient Nordic pickaxe to Glover Mallory; he lets you keep it as the quest reward, so preserve it for Solstheim mining and stalhrim work.
+28. Enter Caerellius House and, while hidden if necessary, take the East Empire Company Pendant from the strongbox on the northwest wall ledge in the first room.
+29. Return to Geldis Sadri and complete `It's All In The Taste`. Sell the East Empire Company Pendants collected so far to Fethis Alor. Keep bringing him pendants whenever later Solstheim route sections name another strongbox.
+30. Make `HARD SAVE: HS-DRAGONBORN-SERVED-COLD` before accepting Raven Rock's conspiracy work. Speak to Captain Veleth, then Adril Arano, and start `Served Cold`.
+31. Follow Adril's instructions: speak to Geldis Sadri, stake out Ulen Ancestral Tomb, identify Tilisu Severin, report to Adril, and receive the Severin Manor Key.
+32. Enter Severin Manor only for the quest evidence. Recover and read `The Ulen Matter` from the safe, then report back to Adril. Do not use Severin Manor storage or displays before Councilor Morvayn awards the house.
+33. Travel to Ashfallow Citadel. Clear the Morag Tong outside and inside. Just inside the citadel, take the East Empire Company Pendant from the shelf directly west of the entrance, half buried in ash. In the interior, take and read `Ahzidal's Descent` from the cupboard shelf near the barrels.
+34. Kill Vendil Severin and end the threat to Councilor Morvayn. Before returning to Raven Rock, collect the two nearby Ashfallow pendant strongboxes: one at the unmarked reaver camp across the water west of the citadel, next to the sheltered bedroll west of the campfire; the other by following the stream west of the citadel north to the barred gate at Usha's End, where the strongbox sits on the right side of the wooden structure between a low table and a chest.
+35. Return to Adril Arano and follow him to Councilor Morvayn. Complete `Served Cold`, receive Severin Manor, and become Raven Rock's house owner.
+36. While inside Morvayn Manor Chambers, take the East Empire Company Pendant from the strongbox on the ledge to the left of the door straight ahead in the first room.
+37. Enter Severin Manor as owner. Use it as the Solstheim base for sleeping, crafting, sorted storage, and safe carry recovery. Store preserved unique items and finite collectibles only in normal containers, not in display furniture.
+38. Sell the new East Empire Company Pendants to Fethis Alor, resupply hot food, and make a rotating manual save in Raven Rock.
+39. Travel northwest to the Shrine of Zenithar near Frostmoon Crag. Take the East Empire Company Pendant from the strongbox on the ground beside the pickaxe at the shrine, then continue to Frostmoon Crag.
+40. Approach Frostmoon Crag while Beast Blood is still active. Let Rakel welcome you, speak to Majni, and buy Ring of Bloodlust, Ring of Instinct, Ring of the Hunt, and Ring of the Moon. Preserve all four rings.
+41. After the four rings are purchased, clear Frostmoon Crag. Continue using the Ring of Hircine feeding pattern until all 11 werewolf perks are purchased; do not replace Beast Blood with Vampire Lord until Werewolf Mastered is complete.
+42. Return to Raven Rock and make a rotating manual save at Severin Manor or The Retching Netch. Serana's Vampire Lord service is now unblocked by Frostmoon access; the next section handles the actual transformation and starts Vampire Lord mastery tracking.
 
-1. Take the Windhelm ferry to Raven Rock only with food, hot soup, rest, gold, carry space, and return planning.
-2. Establish Raven Rock services and use The Retching Netch as the initial rest spine.
-3. Do not use Severin Manor storage before ownership verification.
-4. Do not start broad island cleanup on first arrival.
+### Post-Frostmoon Vampire Lord Window
 
-### Raven Rock Core
+1. At Severin Manor, store the four Frostmoon werewolf rings with your preserved unique gear. Keep the Ring of Hircine on you until Beast Blood is replaced.
+2. Before speaking to Serana, transform with the Ring of Hircine somewhere private and open the werewolf perk tree. The werewolf tree is complete only when these 11 perks are purchased: Bestial Strength 1, Bestial Strength 2, Bestial Strength 3, Bestial Strength 4, Totem of Ice Brothers, Totem of the Moon, Totem of the Predator, Totem of Terror, Animal Vigor, Gorging, and Savage Feeding.
+3. If any werewolf perk is still missing, keep Beast Blood and continue the Ring of Hircine feeding pattern in fresh hostile content until the tree is complete. Return to this section only after all 11 werewolf perks are purchased. Once the tree is complete, stop using Beast Form and make a rotating manual save.
+4. Travel from Raven Rock to Windhelm by the Northern Maiden, then reach Fort Dawnguard by carriage and road. Bring hot food, healing, cold gear, and one filled Black Soul Gem if you already have one stored. Do not use The Black Star for Falion's later ritual.
+5. Speak to Serana at Fort Dawnguard and ask her to turn you into a vampire. Confirm the choice. This replaces Beast Blood, gives you Vampire Lord on the canonical Dawnguard save, and starts the final vampire-state window.
+6. After Serana turns you, dismiss her back to Fort Dawnguard before the perk work. Her vampire service is preserved, but her follower behavior interferes with the main Vampire Lord kill method.
+7. Track Vampire Lord mastery separately from normal skill perks. Start at 0 of 11 Vampire Lord perks purchased on main continuity. Progress comes from kills made with Vampire Lord Vampiric Drain or power-bite attacks; use hostile living enemies, draugr, and vampires. Do not count small animals, constructs, summoned creatures, or most other undead.
+8. Buy Vampire Lord perks as soon as points are available. The full tree is Power of the Grave, Detect All Creatures, Mist Form, Supernatural Reflexes, Blood Healing, Unearthly Will, Poison Talons, Night Cloak, Vampiric Grip, Summon Gargoyle, and Corpse Curse.
+9. Use Vampire Lord only in hostile areas and out of sight of towns, guards, and friendly hubs. Revert before looting, reading, talking, using city services, or traveling through settlements.
+10. Do not start `Rising at Dawn` yet, and do not ask Serana about curing herself yet. The guide will route Falion's cure and the final Serana cure-state choice after Vampire Mastered is complete.
+11. Return to Raven Rock with Vampire Lord active as the current transformation state. Use Severin Manor for storage, sleeping, crafting, and cold recovery, then continue the Solstheim route.
 
-Scaffold only - not yet v1-expanded.
+### Temple Of Miraak, Skaal, And Stalhrim
 
-1. Complete Dragonborn opening through `The Temple of Miraak`.
-2. Complete Raven Rock setup, `The Final Descent`, and Bloodskal/Raven Rock Mine coverage.
-3. Complete `Served Cold`, then verify Severin Manor ownership, beds, and containers before using it as the Solstheim base.
-4. Route local Raven Rock support rows, books, documents, spell sources, and merchant/service checks.
+1. Start from Severin Manor or The Retching Netch with hot food, cold gear, lockpicks, the Ancient Nordic Pickaxe, the saved Potions of Waterwalking from Raven Rock Mine, carry space for stalhrim and armor, and enough stored dragon souls to unlock Bend Will. Continue Vampire Lord mastery tracking from the current count, but use Vampire Lord only in hostile areas and revert before settlements, dialogue, books, looting, and All-Maker Stone fights involving freed NPCs.
+2. Travel to the Temple of Miraak. Approach the Tree Stone, then step away from the work site and speak to Frea. `Dragonborn` completes and `The Temple of Miraak` begins.
+3. Defeat the cultists with Frea and enter the Temple of Miraak. Clear the temple with her: pass the swinging-blade room, work through the draugr and cultist chambers, and learn Dragon Aspect: Qah from the word wall.
+4. Kill the Gatekeeper, take the Temple of Miraak Key, unlock the sarcophagus door behind his resting place, and continue through the dining room and kitchen. Pull the hidden kitchen handle to open the dining-room passage, use Frea's button/handle prompts to open the deeper route, and continue through the sanctum to the Black Book pedestal.
+5. Read `Black Book: Waking Dreams`. Let the Miraak scene play out. When you return to the sanctum, speak to Frea. `The Temple of Miraak` completes, `The Fate of the Skaal` begins, and `Black Book: Waking Dreams` is now part of your Black Book collection for the later Miraak finale and perk-reset system.
+6. Follow Frea to Skaal Village. Speak to Storn Crag-Strider, accept the Saering's Watch objective, and prepare for a cold northern dragon-lair trip.
+7. Travel to Saering's Watch. Clear the dragon lair, learn Bend Will: Gol from the word wall, and unlock it with a dragon soul before leaving.
+8. Return to the Wind Stone west of Skaal Village. Revert to normal form before approaching the enthralled villagers. Use Bend Will on the Wind Stone, let the Lurker fully emerge, kill it with controlled attacks away from the Skaal villagers, then activate the cleansed Wind Stone to gain North Wind.
+9. Before crossing back into Skaal Village, make `HARD SAVE: HS-SKAAL-STALHRIM-SCENE`. Return to Storn and complete `The Fate of the Skaal`; `Cleansing the Stones` and `The Path of Knowledge` begin. Frea is now available as a non-default follower option.
+10. When Deor Woodcutter and Fanari Strong-Voice begin discussing Baldor Iron-Shaper, stand back until their conversation finishes. Speak to Deor afterward and start `A New Source of Stalhrim`.
+11. While Skaal Village is active and safe, speak to Edla, then Nikulas, and convince Nikulas to stay in the village. Return to Edla to complete the favor.
+12. Speak to Wulf Wild-Blood and start `Filial Bonds`. From now until the Dragonborn finale, if Torkild appears during normal Solstheim travel, kill him, take `Torkild's Letter to Wulf`, and return it to Wulf at the next Skaal Village stop. Do not roam or reload to force the encounter.
+13. Travel southwest toward the Beast Stone. Use Bend Will on the stone, kill the Lurker, and activate the cleansed Beast Stone to gain Conjure Werebear.
+14. Continue to the camp south-southwest of Skaal Village, near the lake by Thirsk Mead Hall. Read `Skjol's Journal` at the dead Skaal villager's camp to start `Ancient Ice`.
+15. Travel to the Abandoned Lodge and make `HARD SAVE: HS-SKAAL-ABANDONED-LODGE` before entering the combat area. Kill the Thalmor outside, take the Key to Abandoned Lodge and `Hand-written Note` from the Thalmor soldier who carries them, enter the lodge, and free Baldor Iron-Shaper from the basement.
+16. Follow Baldor's lead to Northshore Landing. At the landing, take the East Empire Company Pendant from the expert-locked strongbox on the south-wall bookcase inside the ruined shack. Mine the ebony ore vein just south of the abandoned shack and keep the ore for Halbarn.
+17. Speak to the Thalmor guard and ask to discuss business with Ancarion. Equip the Amulet of Articulation before speaking to Ancarion, tell him you are there about the Stalhrim map, choose the Stalhrim-weapons deal, and persuade him to hand over the Stalhrim Source Map. This starts Ancarion's stalhrim sale objective; the actual sale waits until the later crafting pass creates a spare stalhrim item.
+18. Read the Stalhrim Source Map, then go to the Horker Iceberg northeast of Northshore Landing. Use one saved Potion of Waterwalking for the safer cold-water approach. Kill Skjol the Tongueless, take the full Stalhrim Fur set from the sarcophagus, and mine the two stalhrim deposits with the Ancient Nordic Pickaxe.
+19. Travel south to the Stalhrim Source. Discover the landmark and mine all ten stalhrim deposits with the Ancient Nordic Pickaxe.
+20. Swing southwest to the Water Stone. Use Bend Will on the stone, kill the Lurker, and activate the cleansed Water Stone to gain Waters of Life.
+21. Return to Skaal Village and give the Stalhrim Source Map to Baldor. `A New Source of Stalhrim` completes, stalhrim crafting knowledge is unlocked, and the Stalhrim Source marker is secured. Preserve the Stalhrim Fur set and the mined stalhrim; the Stalhrim Crafter trophy item and Ancarion sale wait for the later Smithing/crafting block.
+22. When Tharstan approaches after Baldor is rescued, accept `Lost Legacy`. The next central-island route takes Tharstan to Vahlok's Tomb and handles the Amethyst Claw halves, Battle Fury words, and Vahlok fight.
+23. Return to Raven Rock by way of the Earth Stone. Use Bend Will on the stone, kill the Lurker, and activate the cleansed Earth Stone to gain Bones of the Earth. Leave `Cleansing the Stones` active for the Sun Stone in the Tel Mithryn route and the Tree Stone in the Dragonborn finale.
+24. Back in Raven Rock, sell the Northshore East Empire Company Pendant to Fethis Alor, store the Stalhrim Fur set, stalhrim, and Northshore ebony ore at Severin Manor, buy food, clear active Fatigue with a Severin Manor bed, update the Vampire Lord perk count if this loop earned any perks, and make a rotating manual save.
 
-### Skaal And Stalhrim
+### Vahlok's Tomb, Riekling Roads, And Thirsk
 
-Scaffold only - not yet v1-expanded.
-
-1. Complete `The Fate of the Skaal`.
-2. Immediately start and secure `A New Source of Stalhrim`; save before Abandoned Lodge and verify Deor/Fanari state.
-3. Verify stalhrim crafting unlock before treating stalhrim gear or crafting rows as available.
-4. Keep Skaal and northern island loops prepared for cold exposure and limited return transport.
-
-### Thirsk Branch And Nord Continuity
-
-Scaffold only - not yet v1-expanded.
-
-1. Make `HARD SAVE: HS-DRAGONBORN-THIRSK-CHOICE` before resolving Mead Hall control.
-2. BRANCH ROUTE: complete the Riekling-side `The Chief of Thirsk Hall`, verify Riekling occupant/follower state, then reload.
-3. Do not complete Nord-side favors on the Riekling branch.
-4. MAIN ROUTE: complete Nord-side `Retaking Thirsk` and the Nord-side Elmus, Halbarn, and Hilund favors.
+1. Start from Severin Manor with the Ancient Nordic Pickaxe, hot food, cold gear, lockpicks, one meat item for Bilgemuck such as venison, leg of goat, rabbit, salmon, clam meat, dog meat, or pheasant breast, the saved Juniper Berries from Old Hroldan, the stored Northshore ebony ore, 10 stalhrim, and enough carry space for a long Riekling Spear count. Harvest or withdraw 10 Scathecraw around Raven Rock before leaving town.
+2. Enter the reopened Raven Rock Mine. Mine all nine ebony ore veins, then use the Raven Rock smelter with the Northshore ore to make 15 Ebony Ingots. Keep the 15 Ebony Ingots and 10 stalhrim together for Halbarn.
+3. Travel west-northwest to Ramshackle Trading Post. Discover the shack and take the East Empire Company Pendant from the strongbox on the crate outside the west wall.
+4. Continue through the central island toward the Altar of Thrond. Clear the hagraven cave, use its fire or braziers for warmth before leaving, and return to the road toward Vahlok's Tomb.
+5. Meet Tharstan at Vahlok's Tomb. Before entering, go to the Dunmeri camp just east of the tomb, take the East Empire Company Pendant from the tent strongbox, and collect the 18 loose Riekling Spears stuck in the tree and corpses. Keep a running count of Riekling Spears from here until Hilund's favor is complete.
+6. Enter Vahlok's Tomb with Tharstan. In the first chamber, let Tharstan translate the inscription, drag one dead draugr onto the grate over the firepit, and use the handle to open the north and south routes.
+7. Take the southern route first. In the impact-stone puzzle room, strike the three pillars by their matching methods: melee for the first pillar, archery for the second, and magic for the third. In the final room, loot the boss draugr for the Amethyst Claw, Left Half, learn the first Battle Fury word, and return to the main chamber through the opened sarcophagus passage.
+8. Take the northern route next. Cross the nine square stones without stepping on the same stone twice. In the final room, loot the boss draugr for the Amethyst Claw, Right Half, learn the second Battle Fury word, and use the shortcut back to the main chamber.
+9. Insert both Amethyst Claw halves into the cage locks and use the cage handle. Cross the timed magical platforms, then stay with Tharstan through the flooded bridge room and the Hall of Stories so he translates each inscription before you use the next handle or puzzle door.
+10. At the puzzle door, set the rings to Eagle, Wolf, Dragon from top to bottom. Defeat Vahlok the Jailor in the final chamber, learn the third Battle Fury word, loot the boss chest and Vahlok's remains, then speak to Tharstan to complete `Lost Legacy`. Keep both Amethyst Claw halves with preserved collectibles.
+11. Travel northwest to Snowclad Ruins. Clear the outdoor werebear ruin, then continue west toward Moesring Pass.
+12. Clear Moesring Pass. Take the East Empire Company Pendant from the strongbox on the end table north of the Strange Vessel, and collect every Riekling Spear dropped or thrown during the fight. Climb to the nearby Mount Moesring marker from the pass side, trigger the map marker, then return to the main path without lingering on the unstable summit.
+13. Travel north toward Hrothmund's Barrow, then continue northwest to Bristleback Cave before resolving Thirsk. Clear the exterior camp and the cave. Collect all 14 guaranteed loose Riekling Spears, every dropped or thrown spear from the Rieklings, and the East Empire Company Pendant from the expert-locked strongbox on the barrels in the lower east tunnel.
+14. Follow the shore southwest of Northshore Landing to the Riekling-painted chest between Northshore Landing and Bristleback Cave. Take the seven Riekling Spears sticking out of the chest, then continue southeast to Broken Tusk Mine.
+15. Clear Broken Tusk Mine. Take the East Empire Company Pendant from the strongbox on the crate beneath the upper exterior lookout platform, mine the two Heart Stone deposits inside, and collect every Riekling Spear dropped or thrown during the fight.
+16. Travel to Bujold's Retreat and discover the camp. Speak to Elmus before the Thirsk side choice, accept his Ashfire Mead favor, then go to Thirsk Mead Hall. Discover Thirsk Mead Hall, enter the hall under Riekling control, take one Ashfire Mead from the floor along the west side of the firepit, and return it to Elmus.
+17. At Bujold's Retreat, make `HARD SAVE: HS-DRAGONBORN-THIRSK-CHOICE`.
+18. Branch route from `HS-DRAGONBORN-THIRSK-CHOICE`: go to Thirsk Mead Hall and speak to the Riekling Chief. Feed Bilgemuck the meat item and bring him back to the pen, give the Chief 10 Scathecraw, then agree to attack the Nords. Follow the Rieklings to Bujold's Retreat, kill the Nords, defeat the Chief when he turns on you, and speak to a Riekling afterward so the Riekling follower outcome is experienced on the branch. Reload `HS-DRAGONBORN-THIRSK-CHOICE`.
+19. Main route after reload: speak to Bujold at Bujold's Retreat and agree to retake Thirsk for the Nords. Follow the Nords to the hall, let them arrive and the assault objective settle, then clear the exterior and interior Rieklings. Collect all Riekling Spears from the hall fight before speaking to Bujold afterward.
+20. Meet Bujold at Hrothmund's Barrow. Discover the barrow, enter with her, and listen to Hrothmund's judgment. Tell Bujold you will keep her secret so she returns to Thirsk and Kuvar remains friendly.
+21. Before returning to Thirsk, go southwest of Hrothmund's Barrow to Reaver's End. Kill the two Rieklings, take the East Empire Company Pendant from the expert-locked strongbox in front of the crate, and collect the three loose Riekling Spears from the corpse.
+22. Return to Thirsk Mead Hall. When Kuvar asks about the barrow, tell him it was an honor to stand with Bujold. `Retaking Thirsk` completes with Kuvar's Heavy Armor training service preserved.
+23. Speak to Elmus at Thirsk Mead Hall and give him the saved Juniper Berries. Speak to Halbarn and give him the 10 stalhrim and 15 Ebony Ingots. Halbarn is now available as a blacksmith merchant and non-default spouse option.
+24. Count your Riekling Spears before speaking to Hilund. The route has supplied the 18 spears at the Dunmeri camp, 14 in Bristleback Cave, seven at the Riekling-painted chest, three at Reaver's End, plus normal drops from Bristleback Cave, Broken Tusk Mine, Moesring Pass, and the Thirsk assault. Give Hilund 50 Riekling Spears. Hilund is now a non-default spouse option.
+25. Sell the Ramshackle, Vahlok, Bristleback, Broken Tusk, Moesring, and Hrothmund East Empire Company Pendants to Fethis Alor at Raven Rock. Store the Amethyst Claw halves, spare Heart Stones, and any preserved Solstheim gear at Severin Manor. Update the Vampire Lord perk count if this section earned any perks, then make a rotating manual save.
 
 ### Tel Mithryn And Black Books
 
@@ -1474,7 +1825,7 @@ Scaffold only - not yet v1-expanded.
 
 1. Route Tel Mithryn access with Raven Rock recovery and carry planning.
 2. Complete `Reluctant Steward`; save before asking Neloth about Varona and before leaving to find the body. Verify the body is reachable and staff-enchanter room/Black Book access opens afterward.
-3. Complete `Old Friends` and Tel Mithryn side content as routed.
+3. Complete `Old Friends` and Tel Mithryn side content in this section's explicit sequence.
 4. Acquire Black Books, staff/imbuing support, spell-tome sources, and local documents in their parent quest windows.
 5. Use the Staff Enchanter for the selected Staff of Flames output and the Imbuing Chamber for the selected Mind Control Spider output when materials/access align.
 
@@ -1502,9 +1853,9 @@ Scaffold only - not yet v1-expanded.
 Scaffold only - not yet v1-expanded.
 
 1. Make `HARD SAVE: HS-AE-GHOSTS-TEMPLE` before committing to the heretic path.
-2. BRANCH ROUTE: play the destroy-heretics outcome, record alternate Temple state, and record `Reclamation Priest's Journal (AE)` branch coverage.
+2. BRANCH ROUTE: play the destroy-heretics outcome, record alternate Temple state, and record `Reclamation Priest's Journal (AE)` as branch-only.
 3. RETURN: reload `HS-AE-GHOSTS-TEMPLE`.
-4. MAIN ROUTE: keep join/infiltrate continuity to preserve armory access, crafting permissions, companion tasks, follower access, and Skullcrusher coverage.
+4. MAIN ROUTE: keep join/infiltrate continuity to preserve armory access, crafting permissions, companion tasks, follower access, and Skullcrusher access.
 
 ### Bittercup Branches
 
@@ -1513,7 +1864,7 @@ Scaffold only - not yet v1-expanded.
 1. Make `HARD SAVE: HS-AE-BITTERCUP-ALTAR` before choosing a path.
 2. BRANCH ROUTE: choose Power, complete `The Pit`, record Grand Champion's Helm and Grand Champion's Sword, then reload.
 3. BRANCH ROUTE: choose Nothing, record Rulnik, Rulnik's Dagger, and Ironwood Soup support, then reload.
-4. MAIN ROUTE: choose Fortune and continue for Master Transmute coverage.
+4. MAIN ROUTE: choose Fortune and continue for Master Transmute acquisition.
 5. Do not keep Power or Nothing on canonical continuity.
 
 ### Level 60 Miraak Finale
@@ -1534,14 +1885,14 @@ Scaffold only - not yet v1-expanded.
 1. Prepare for Skuldafn as a separate-worldspace expedition: sleep, food, healing, carry space, and no unfinished local errands that depend on immediate return.
 2. Complete `The World-Eater's Eyrie`, Skuldafn, Sovngarde, and `Dragonslayer`.
 3. Record any unique items, shouts, and location/checklist entries available only in this sequence.
-4. Recover after return before starting high-risk AE or late cleanup.
+4. Recover after return before starting high-risk AE or late-route work.
 
 ### High-Risk AE And Separate Worldspaces
 
 Scaffold only - not yet v1-expanded.
 
 1. Route `The Cause` only after parent triggers, level/difficulty readiness, and exit/recovery plans are checked.
-2. Treat Deadlands, Mythic Dawn Camp, Rielle, Solitude Sewers, and other separate or quest-stage-gated Creation spaces as parent-quest content, not ordinary corridor cleanup.
+2. Treat Deadlands, Mythic Dawn Camp, Rielle, Solitude Sewers, and other separate or quest-stage-gated Creation spaces as parent-quest content, not ordinary corridor work.
 3. Do not auto-route high-risk AE content from Skyrim/Solstheim proximity alone.
 4. Carry only required items and plan recovery after each separate-worldspace or high-risk Creation segment.
 
@@ -1554,24 +1905,24 @@ Scaffold only - not yet v1-expanded.
 3. Keep Scholar's Insight until all planned skill-book reading is complete; then switch final default to Companion's Insight.
 4. Reserve Waking Dreams perk resets for controlled late progression and final validation windows. Do not casually spend dragon souls on tree resets.
 
-## Final Cleanup, Counters, Progression, And Reconciliation
+## Final Counters, Progression, And Reconciliation
 
-### Location Counter Cleanup
+### Location Counter Sweep
 
 Scaffold only - not yet v1-expanded.
 
-1. Finish corridor-by-corridor clear/discovery cleanup for Delver, Explorer, Solstheim Explorer, and remaining map/location rows.
+1. Work corridor by corridor through all outstanding clear/discovery entries for Delver, Explorer, Solstheim Explorer, and map/location rows.
 2. Verify `Cleared` tags and the `Dungeons Cleared` statistic for Delver candidates.
 3. Do not count Angarvunde or Mistwatch toward Delver.
 4. Treat duplicate markers as discovery candidates only when Explorer/checklist proof needs them; do not double-count clearable parents.
-5. Treat AE content locations as parent-quest/property/content coverage unless the appendix/QA layer proves a separate route instruction is needed.
+5. Treat AE content locations as parent-quest/property/content objectives unless the appendix/QA layer proves a separate route instruction is needed.
 
 ### Collectible Reconciliation
 
 Scaffold only - not yet v1-expanded.
 
-1. Reconcile opportunistic pickups already made during natural visits, then finish remaining finite sets.
-2. Finish Stones of Barenziah, dragon priest masks, claws, bugs in jars, paragons, treasure maps, fishing, pets, mounts, shouts, word walls, and remaining finite collectible sets.
+1. Reconcile opportunistic pickups already made during natural visits, then complete each finite set from its explicit item list.
+2. Complete Stones of Barenziah, dragon priest masks, claws, bugs in jars, paragons, treasure maps, fishing, pets, mounts, shouts, word walls, and finite collectible sets.
 3. Use the fishing route as a structured quest/species/biome/rod/weather sweep, not incidental fishing from one spot. Preserve ingredient fish needed for alchemy-effect discovery.
 4. Track Dragon Hunter at 20 absorbed souls, not merely dragons killed; avoid counting souls stolen during the Miraak window.
 5. Complete five successful Bend Will dragon rides after all three words are learned, with save and post-dismount state checks.
@@ -1581,7 +1932,7 @@ Scaffold only - not yet v1-expanded.
 Scaffold only - not yet v1-expanded.
 
 1. Finish selected skill-book copy collection and then read planned skill books under Scholar's Insight policy. Check Reader after 50 unique skill-book titles and continue to all 90 required skill-book objectives.
-2. Finish spell-tome learning from selected sources rather than random loot.
+2. Learn spell tomes from the preselected copies and vendors recorded by the route rather than from random loot.
 3. Finish quest/AE documents, Black Book checks, and final learned-spell verification.
 4. Read/use Oghma Infinium late as a gap closer; hard save first, and do not use it on skills already at 100.
 
@@ -1620,7 +1971,7 @@ Scaffold only - not yet v1-expanded.
 
 1. Verify every city home, Hearthfire homestead, AE home, Severin Manor, Goldenhills, and relevant upgrade/furnishing state.
 2. Verify Hearthfire wings/services: Lakeview Armory/Storage/Bedrooms, Windstad Kitchen/Alchemy/Greenhouse, Heljarchen Library/Trophy/Enchanter, one steward per homestead, all three carriage drivers, and bards after Main Hall readiness.
-3. Move spouse/children to Tundra Homestead only after family/child-room validation. Recommended defaults are Ysolda, Lucia, and Sofie.
+3. Move spouse/children to Tundra Homestead only after household and child-room validation. Recommended defaults are Ysolda, Lucia, and Sofie.
 4. Verify Goldenhills steward/farmhands, pets, mounts, Frost, Shadowmere, Arvak, and any AE pet/mount rows.
 5. Present non-default spouse, child, steward, follower, pet, mount, farmhand, bard, and carriage options as option-list material rather than branch routes.
 
@@ -1629,7 +1980,7 @@ Scaffold only - not yet v1-expanded.
 Scaffold only - not yet v1-expanded.
 
 1. Make `HARD SAVE: HS-TROPHY-MASTER-CRIMINAL`.
-2. BRANCH ROUTE: stage controlled 1000-gold bounties in all nine holds. Avoid quest-critical NPC deaths and do not combine this with unrelated crime or cleanup.
+2. BRANCH ROUTE: stage controlled 1000-gold bounties in all nine holds. Avoid quest-critical NPC deaths and do not combine this with unrelated crime or late-route work.
 3. Complete the Master Criminal hold-bounty branch.
 4. RETURN: reload `HS-TROPHY-MASTER-CRIMINAL` to restore clean final continuity.
 5. Reload the pre-branch save after the bounty-state branch is recorded.
