@@ -43,7 +43,7 @@ This section replaces the old scaffold that treated the Thieves chain as a narro
 | SRC-000641 | Skyrim:Katla's Farm | 2 - UESP | https://en.uesp.net/wiki/Skyrim:Katla%27s_Farm | 2026-05-13 | Katla's Farm location near Solitude carriage landing and stable/farm context. |
 | SRC-000642 | Skyrim:Windhelm Stables | 2 - UESP | https://en.uesp.net/wiki/Skyrim:Windhelm_Stables | 2026-05-13 | Windhelm Stables carriage landing and Snow Veil approach support. |
 | SRC-000643 | Skyrim:Wabbajack (book) | 2 - UESP | https://en.uesp.net/wiki/Skyrim:Wabbajack_(book) | 2026-05-13 | Wabbajack book locations outside Pelagius Wing for later book-row handling. |
-| SRC-000005 | Skyrim:Thieves Guild (faction) | 2 - UESP | https://en.uesp.net/wiki/Skyrim:Thieves_Guild_(faction) | 2026-05-11 | Delvin/Vex city job counts and Thieves Guild primary quest order. |
+| SRC-000005 | Skyrim:Thieves Guild (faction) | 2 - UESP | https://en.uesp.net/wiki/Skyrim:Thieves_Guild_(faction) | 2026-05-13 | Delvin/Vex city job counts, assignment controls, restoration caveats, pre-Nightingale improvement bug, and Thieves Guild primary quest order. |
 | SRC-000606 | Skyrim:Thieves Guild Armor | 2 - UESP | https://en.uesp.net/wiki/Skyrim:Thieves_Guild_Armor | 2026-05-13 | Tonilia's improved armor reward and chest-piece carry-weight benefit. |
 
 ## Evidence Summary
@@ -62,6 +62,8 @@ The Blue Palace page supports the Firebrand Wine Case placement, the Solitude St
 
 `The Litany of Larceny` records the larceny item locations and a completion-state caveat if items are held too long. The guide therefore turns in the Queen Bee Statue, Honningbrew Decanter, East Empire Shipping Map, and Model Ship promptly rather than stockpiling them.
 
+The Thieves Guild faction page supports both the restoration requirements and the decision not to thread Delvin/Vex jobs through these early city visits. The page records that Delvin and Vex each allow only one active job at a time, that jobs can be assigned to non-restoration cities and Raven Rock, that some job types have inventory or permanent-item caveats, and that too many miscellaneous jobs before becoming a Nightingale can block later guild improvement quests. This early Thieves section therefore keeps all Delvin/Vex job counts at zero. TB-035-MR-030B later makes a narrow exception for exactly five Solitude jobs so Erikur's `The Dainty Sload` can be completed before `Bound Until Death`; after that, targeted city restoration and 125-job counter work still remain a controlled late block.
+
 ## Nearby Objective Audit And Deferrals
 
 The Solitude first visit intentionally does not start Bards College, `Tending the Flames`, Bards instrument quests, `The Man Who Cried Wolf`, `Lights Out!`, Dead Man's Dread, Lord's Mail, Proudspire Manor, Solitude merchant investments, or the Solitude horse. Bards College has its own bug/order constraints and remote Dead Men's Respite/instrument dungeons; `The Man Who Cried Wolf` belongs with the Potema and Shield of Solitude route; Dead Man's Dread and Lord's Mail are AE quest-start documents that deserve coherent Creation routes; Proudspire and investments require later money/perk/state checks; and the Solitude horse is redundant while the route already owns the Whiterun horse.
@@ -70,11 +72,11 @@ Katla's Farm is routed because it is the carriage landing/stable farm marker for
 
 The skill-book copies in Goldenglow, Honningbrew, the Blue Palace, the East Empire Company Warehouse, Brinewater, and Snow Veil remain closed because the guide has not reached the Scholar's Insight reading window. The regular book `Wabbajack` is not in the Pelagius Wing; its source-listed locations are the Arcanaeum and Lost Knife Hideout, so that book-row handling remains for a later book route.
 
-Delvin/Vex side jobs are not accepted in this section. The job ledger is created here because the player has completed enough guild setup to understand the system, but city-targeted assignment blocks wait until the route is deliberately working Markarth, Solitude, Whiterun, and Windhelm restoration counts. The guide records the job types and city counts without forcing ordinary radiant rerolls in this chapter.
+Delvin/Vex side jobs are not accepted in this section. The job ledger is created here because the player has completed enough guild setup to understand the system, but city-targeted assignment blocks wait until the late Thieves route has passed the Nightingale-state risk. This avoids scattered pre-Nightingale job completion, failed-entry clutter from rejected assignments, and job-type-specific item caveats while still preserving the full restoration plan: five eligible jobs each in Markarth, Solitude, Whiterun, and Windhelm; the four matching reputation quests; one sample of each job type; and the 125-job display/safe boundary.
 
 ## Confidence and Open Questions
 
-Confidence is high for the early Thieves Guild quest order, larceny turn-ins, Solitude city-favor inclusions, Gulum-Ei branch handling, Snow Veil gate, and level-46 `Hard Answers` stop. No MR-015 `NEEDS ROUTE RESOLUTION` notes remain. Later route passes still need to place Bards College, Potema/Shield of Solitude, the Solitude exterior/coast bundle, Lord's Mail, Dead Man's Dread, Proudspire Manor, Solitude merchant investments, Solitude Thieves restoration jobs, and the `Wabbajack` book copy.
+Confidence is high for the early Thieves Guild quest order, larceny turn-ins, Solitude city-favor inclusions, Gulum-Ei branch handling, Snow Veil gate, level-46 `Hard Answers` stop, and this section's Delvin/Vex zero-job hold. No MR-015 `NEEDS ROUTE RESOLUTION` notes remain. Later route passes still need to place Lord's Mail, Dead Man's Dread, Proudspire Manor, Solitude merchant investments, the post-Nightingale Thieves restoration block after the early Solitude exception, and the `Wabbajack` book copy.
 
 ## Linked Records
 

@@ -18,7 +18,7 @@ This note prevents radiant rows from becoming infinite grind. It also flags wher
 | --- | --- | --- | --- | --- | --- |
 | SRC-000003 | Skyrim:Companions | 2 - UESP | https://en.uesp.net/wiki/Skyrim:Companions | 2026-05-12 | Required gates, radiant windows, finite post-quest counts, and Hired Muscle caveat. |
 | SRC-000004 | Skyrim:College of Winterhold (faction) | 2 - UESP | https://en.uesp.net/wiki/Skyrim:College_of_Winterhold_(faction) | 2026-05-12 | College repeatable quest inventory and Rejoining the College failure state. |
-| SRC-000005 | Skyrim:Thieves Guild (faction) | 2 - UESP | https://en.uesp.net/wiki/Skyrim:Thieves_Guild_(faction) | 2026-05-12 | Delvin/Vex jobs, restoration counts, side-job display thresholds, and Raven Rock caveats. |
+| SRC-000005 | Skyrim:Thieves Guild (faction) | 2 - UESP | https://en.uesp.net/wiki/Skyrim:Thieves_Guild_(faction) | 2026-05-13 | Delvin/Vex jobs, restoration counts, side-job display thresholds, Raven Rock caveats, and pre-Nightingale improvement bug. |
 | SRC-000006 | Skyrim:Dark Brotherhood | 2 - UESP | https://en.uesp.net/wiki/Skyrim:Dark_Brotherhood | 2026-05-12 | Dark Brotherhood radiant inventory context. |
 | SRC-000397 | Skyrim:Totems of Hircine | 2 - UESP | https://en.uesp.net/wiki/Skyrim:Totems_of_Hircine | 2026-05-12 | Three totems, werewolf prerequisite, and Aela radiant caveats. |
 | SRC-000398 | Skyrim:The Words of Power | 2 - UESP | https://en.uesp.net/wiki/Skyrim:The_Words_of_Power | 2026-05-12 | Arngeir word-wall radiant repeatability, target limits, Paarthurnax dependency, and Arcwind bug. |
@@ -33,13 +33,13 @@ The Companions page and Totems page bound the post-quest chains: `Totems of Hirc
 
 The College page lists repeatable College errands and identifies `Rejoining the College` as a repair state after harming a College member. The route should use one representative completion for normal College repeatables, but should not intentionally trigger the failure-state quest.
 
-The Thieves Guild page states that Delvin/Vex jobs are repeatable, that five jobs in each of Markarth, Solitude, Whiterun, and Windhelm are required before the corresponding special reputation quest, and that Riften jobs do not count toward restoration. It also records side-job display thresholds at 5, 15, 25, 35, 45, 55, and 75 jobs, plus a safe at 125 jobs. Raven Rock can be assigned for some jobs; Raven Rock Bedlam is bugged and Solstheim has no restoration quest.
+The Thieves Guild page states that Delvin/Vex jobs are repeatable, that five jobs in each of Markarth, Solitude, Whiterun, and Windhelm are required before the corresponding special reputation quest, and that Riften jobs do not count toward restoration. It also records side-job display thresholds at 5, 15, 25, 35, 45, 55, and 75 jobs, plus a safe at 125 jobs. Raven Rock can be assigned for some jobs; Raven Rock Bedlam is bugged and Solstheim has no restoration quest. The page also records a confirmed improvement-quest bug if too many miscellaneous jobs are completed before becoming a Nightingale, so the route should not scatter Delvin/Vex jobs through early city visits before the late Thieves/Nightingale state is secured. TB-035-MR-030B adds one controlled exception: five Solitude jobs are completed early only because Erikur's `The Dainty Sload` must be finished before Dark Brotherhood `Bound Until Death`.
 
 `The Dark Brotherhood Forever` is endless after the faction finale, so one representative completion is sufficient. `Honor Thy Family` is a membership repair after attacking a Dark Brotherhood member, so it should be excluded from the intentional route. `The Words of Power` is a repeatable word-wall locator; it should serve all-word-wall routing only and should not become an independent grind.
 
 ## Confidence and Open Questions
 
-Confidence is high for the fixed counts and exclusion rules. The Hired Muscle row is seed-sensitive because UESP says the first Companions radiant is seed-fixed; TB-021 policy is to accept it if offered early, but not force a new-game restart solely for that one representative type. The 125 Thieves Guild side-job counter is source-backed as an unlock boundary; TB-031C/TB-031F must decide whether those display objects become explicit checklist rows or a clearly labeled completionist grind.
+Confidence is high for the fixed counts and exclusion rules. The Hired Muscle row is seed-sensitive because UESP says the first Companions radiant is seed-fixed; TB-021 policy is to accept it if offered early, but not force a new-game restart solely for that one representative type. The 125 Thieves Guild side-job counter is source-backed as an unlock boundary; TB-031C/TB-031F decided it remains required counter coverage. After the early Solitude 5/5 exception needed for Erikur, the guide should route the remaining restoration and 125-job work after the late Thieves/Nightingale state rather than opportunistically during city visits.
 
 ## Linked Records
 

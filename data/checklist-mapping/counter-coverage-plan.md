@@ -11,7 +11,7 @@ Source support: SN-000127 plus the source notes named in each row below.
 | Area | TB-031F decision | Later owner |
 | --- | --- | --- |
 | Trophy counters | Track exact counter checkpoints for side quests, misc objectives, locks/pockets, speech checks, dungeon clears, map discoveries, skill books, dragon souls/rides, Black Books, Solstheim discoveries, and trophy pop saves. | TB-033 prototype validation complete; TB-034/TB-037 final validation. |
-| Thieves Guild side jobs | Route 20 restoration jobs with city tallies, then continue Delvin/Vex jobs to the 125-job display/safe boundary. | TB-034 route placement; TB-037 validation. |
+| Thieves Guild side jobs | Route exactly five Solitude jobs early only to unlock Erikur's `The Dainty Sload` before `Bound Until Death`; route the remaining restoration jobs after the late Thieves/Nightingale-state risk is cleared, then continue Delvin/Vex jobs to the 125-job display/safe boundary. | TB-034 route placement; TB-037 validation. |
 | Dawnguard `Lost Relic` | Complete all three relic versions; record every filler radiant used because filler count is semi-random. | TB-034 Dawnguard route; TB-037 validation. |
 | Fishing | Treat Fishing as a structured quest/species/biome/rod/weather sweep, not incidental travel fishing. | TB-034 route placement; TB-037 checklist proof. |
 | Work activities | Pair Hard Worker station actions with representative activity defaults where possible. | TB-034 route placement. |
@@ -46,11 +46,12 @@ Source support: SN-000127 plus the source notes named in each row below.
 
 | Layer | Decision |
 | --- | --- |
-| Restoration city tally | Track Markarth, Solitude, Whiterun, and Windhelm separately. Complete five Delvin/Vex jobs in each city, then complete that city's special reputation quest. |
+| Timing gate | Keep job counts at zero before the late Thieves/Nightingale-safe restoration block except for the forced Erikur-protection exception: complete exactly five Solitude jobs to unlock and finish `The Dainty Sload` before `Bound Until Death`. Do not opportunistically attach any other Delvin/Vex jobs to early city visits because UESP records a confirmed improvement-quest bug from too many pre-Nightingale miscellaneous jobs, plus assignment and job-type caveats. |
+| Restoration city tally | Track Markarth, Solitude, Whiterun, and Windhelm separately. Solitude reaches 5/5 early for `The Dainty Sload`; Markarth, Whiterun, and Windhelm remain at 0/5 until the late Thieves block. Complete each city's special reputation quest after its fifth city job. |
 | Assignment filtering | Make a save before requesting jobs. For restoration, accept only jobs in cities still below five; reload/re-roll rather than creating failed journal entries. |
 | Riften handling | Riften jobs do not help restoration. After all four reputation cities are restored, Riften jobs may count toward total Delvin/Vex side-job progress if the final route wants safer nearby repeats. |
 | Raven Rock handling | Reject or reload Raven Rock Bedlam. Do not count Raven Rock toward restoration because Solstheim has no reputation quest. |
-| Job-type coverage | Ensure at least one completion of each job type: Numbers, Fishing, Bedlam, Burglary, Shill, Sweep, and Heist. |
+| Job-type coverage | The early Solitude exception covers Numbers, Burglary, Sweep, Shill, and Heist. Ensure at least one later completion of Fishing and Bedlam, then continue the selected job pool toward 125. |
 | 125-job completionist boundary | After restoration, continue source-valid Delvin/Vex jobs to total 125. Track total jobs separately from restoration city tallies and stop at the 125-job safe/display boundary. |
 | Final validation | TB-037 verifies four special jobs, Under New Management access, display thresholds, and the 125-job safe after TB-034 places the loop. |
 

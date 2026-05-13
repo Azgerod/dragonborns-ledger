@@ -33,7 +33,7 @@ This note supports the v1 guide section `Bards College, Lost Library, And Instru
 
 ## Route Decisions
 
-The route starts `Investigate the Bards College` before joining because the project Bards notes record that the investigation pointer can fail or become redundant if the player first joins the college or collects King Olaf's Verse out of order. The player speaks to a bard, then Viarmo, then immediately begins `Tending the Flames`.
+The route starts `Investigate the Bards College` before joining because the project Bards notes record that the investigation pointer can fail or become redundant if the player first joins the college or collects King Olaf's Verse out of order. It deliberately does not start Bards College during earlier Solitude errands, including Adonato's Book delivery, because that would leave `Tending the Flames` open across many unrelated route blocks while Dead Men's Respite, King Olaf's Verse, and the later instrument assignments are still being held for bug-safe ordered pickup. The player speaks to a bard, then Viarmo, then immediately begins `Tending the Flames`.
 
 Dead Men's Respite is routed only after `Tending the Flames` is active. The Bards notes and UESP both support avoiding early collection of King Olaf's Verse, so the guide makes a save after assignment, collects Ruby Dragon Claw and King Olaf's Verse in order, uses the Wolf - Hawk - Wolf claw solution, learns Whirlwind Sprint Wuld, and clears the dungeon in the same pass. The Svaknir/verse reload note is included because the source page records stalling and missing-verse bugs.
 
@@ -60,3 +60,7 @@ This pass directly places the Bards investigation, `Tending the Flames`, King Ol
 Held rows are mapped in coverage rather than exposed as long player-facing warnings: Bards College skill-book copies, Stony Creek/Hob's Fall skill-book copies, quest-starting library books tied to later Daedric/Red Eagle/Aetherium routes, non-Hob's Korir targets, non-Halldir Runil targets, and late Whirlwind Sprint Kest.
 
 No TB-035-MR-026 `NEEDS ROUTE RESOLUTION` notes remain.
+
+## Retrospective Addendum
+
+TB-035-MR-032 moved Winterhold discovery, Haran's Ranmir debt favor, Ranmir's drink favor, `Drowned Sorrows`, and Isabelle's Letter into this Hob's Fall road. See `SN-000162-winterhold-college-opening-route.md` for the supporting sources and routing rationale. The player-facing guide now starts the Winterhold inn lead before Hob's Fall Cave so Isabelle Rolaine's body and letter are present during the Pantea's Flute clear, then returns the letter to Ranmir before leaving the Winterhold road.

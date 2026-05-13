@@ -12,7 +12,7 @@ The final main guide is a linear player route, not an audit report. It should re
 2. speak to this person;
 3. accept or complete this quest;
 4. collect this item/book/reward;
-5. mark this checklist cue;
+5. record non-obvious route bookkeeping only when needed;
 6. stop here or return later.
 
 Do not expose objective IDs, row counts, coverage ledgers, source-note mechanics, or database language in player-facing guide prose. Keep those details in `data/guide-coverage/main-guide-v1-coverage.csv` and source notes.
@@ -45,13 +45,17 @@ Use both the compiled project data and the relevant wiki/source pages. A normal 
 
 The default answer should be "route it now" when an objective is safe, sourced, efficient, and naturally colocated. Hold it only for a concrete reason such as a level gate, cell-entry or clear-state risk, branch state, quest conflict, NPC dependency, trophy/counter boundary, skill-book read timing, ownership/theft risk, Survival/logistics issue, or missing source validation.
 
+Do not preserve stale lower-level gates after the route has already passed a higher threshold. If the player has already been held for level 40, a later level-25 or level-36 checkpoint should either be removed from player-facing prose or the sequence should be reordered so the lower gate appears before the higher one. Once a threshold is safely exceeded, write the reward or quest handoff as a normal routed acquisition and record the gate satisfaction internally.
+
 When a first-entry, actor-state, or start-window bug can close off a quest or service, route the minimum stabilizing action before optional same-city work. After the fragile state is protected, resume the normal nearby-objective audit for safe colocated objectives.
+
+Before accepting an assassination contract, hostile-faction contract, or any quest that will turn an NPC into a target, audit that target's normal services, favor dialogue, work-action rows, relationship options, merchant state, and quest dependencies. If any safe required row depends on the target's normal dialogue or alive state, route that row before accepting or advancing the hostile objective.
 
 Not every nearby source-listed candidate is itself a required stop. For objectives satisfied by one selected source from several duplicates, such as most skill books and some spell tomes, audit the nearby candidate and route it only if it is the best coherent source or safely completes the actual objective now. Do not add an unmarked detour merely to carry an unread duplicate book or a fallback source for many sections; record the candidate decision in the source note or coverage tracker.
 
 When the guide chooses a different deterministic source than the current source-selection table, update `data/constraints/progression-source-selections.csv` in the same pass. Examples include switching a spell tome from a vendor stock plan to a fixed quest reward, or changing the selected copy of a skill-book title because the routed dungeon contains a safer container copy.
 
-When a checklist row names a specific local variant of a representative activity, treat that row as a real nearby objective even if the generic parent objective has already been represented elsewhere. If the player is already at that farm, sawmill, mine, inn, or service stop and the action is safe, route the specific variant and mark the specific checklist cue.
+When a checklist row names a specific local variant of a representative activity, treat that row as a real nearby objective even if the generic parent objective has already been represented elsewhere. If the player is already at that farm, sawmill, mine, inn, or service stop and the action is safe, route the specific variant in normal prose. Do not add a routine bracket cue for it.
 
 When a broad source inventory creates a book/document row whose individual page has no in-world location and the related quest/location walkthrough does not name it as an obtainable pickup, do not invent a player action. Record it as an explicit internal exclusion or data-reconciliation item in the coverage tracker/source note, and keep it out of the player-facing route unless a later source pass finds an executable location.
 
@@ -59,9 +63,13 @@ For the opening game and other fragile Survival segments, "safe and nearby" is n
 
 Do not assume early money that the route has not actually created. Property, mount, pet, armor, spell, crafting, training, and furnishing purchases should be routed at the first coherent point where normal routed loot, rewards, and selling can plausibly fund them. Do not use grinding, merchant exploits, free-purchase glitches, or "if you happen to have enough gold" as a hidden bridge unless the guide explicitly routes that economy plan and the user has approved the exploit/grind policy. For early homes in particular, unlocking purchase permission is not the same as buying and verifying storage.
 
-Keep related objectives together where possible. Prefer a coherent bundle such as "start quest, enter location, collect the local book, clear the location, turn in the reward" over a shallow early action such as "discover but do not clear" unless that partial action has an independent route reason. Discovery-only, pickup-only, or "start now, ignore until much later" steps should be deliberate exceptions, not the default output of the nearby-objective audit.
+Keep related objectives together where doing so helps the player's actual route, but do not treat "coherent bundle later" as a standalone deferral reason. The default remains: route safe nearby objectives now. A later bundle is justified only when it protects a concrete constraint or clearly improves execution, such as avoiding a shallow discovery-only pass, keeping a randomized target pool intact, preserving a level/reward gate, waiting for a branch save, preventing an NPC/service conflict, grouping a quest start with its next soon progress point, or avoiding Survival/economy strain. If none of those reasons apply, pull the objective forward.
 
-When a nearby objective is held for a later coherent bundle, it usually should be absent from the player-facing prose rather than written as "discover but do not clear" or "do not start this yet." Record the route judgment in the source note or internal coverage tracker instead. Add player-facing text only when the player is being sent to the exact trigger, item, room, or dialogue and the accidental action would matter.
+Distinguish quest-chain integrity from theme bucketing. It is good route design to keep a tightly linked quest or dungeon chain intact when splitting it would create artificial partial clears, odd return trips, or route-fragile states; for example, do not run most of a dungeon now and return much later just to take one gated quest item. It is bad route design to hold unrelated safe objectives merely because they share a hold, faction, theme, or later chapter label with another objective that is genuinely gated. If one Falkreath, Dawnstar, Whiterun, or faction objective must wait, audit the neighboring objectives independently and route the safe ones now.
+
+Prefer a complete same-place action such as "start quest, enter location, collect the local book, clear the location, turn in the reward" over a shallow early action such as "discover but do not clear" unless that partial action has an independent route reason. Discovery-only, pickup-only, or "start now, ignore until much later" steps should be deliberate exceptions, not the default output of the nearby-objective audit.
+
+When a nearby objective is held for later, the source note or coverage tracker must name the concrete route reason rather than merely saying that it belongs to a later bundle. It usually should be absent from the player-facing prose rather than written as "discover but do not clear" or "do not start this yet." Add player-facing text only when the player is being sent to the exact trigger, item, room, or dialogue and the accidental action would matter.
 
 When a quest or faction assignment forces a major-city or service-hub visit, audit that hub as if it were a normal route section, not merely a stop inside the quest theme. Pull forward safe same-visit favors, documents, collectibles, services, and quest starts/progress where their next step is local or soon. Then narrow or remove stale later "city prerequisite" buckets so the same work is not duplicated.
 
@@ -75,7 +83,15 @@ For quests whose start, progress, and completion happen in different places, cho
 
 Do not ask the player to manipulate RNG or reroll ordinary radiant assignments as part of normal guide execution. If a target is randomized, respect the target the save actually gives and write a conditional route branch. Reserve save/reload language for explicit branch saves, trophy-pop fallback, bug recovery, or source-backed reward/state protection.
 
+If a required collectible or unique item depends on an uncontrolled random encounter, name the natural acquisition window in the guide, route the action to take if the encounter appears, and record a `NEEDS ROUTE RESOLUTION` row in the internal coverage tracker until a deterministic or explicitly approved random-encounter policy exists. Do not hide the row under generic cleanup language and do not ask the player to roam or reload purely to force the encounter.
+
+For repeatable counter systems with random assignment, city targeting, or known pre-state bugs, do not opportunistically sprinkle jobs through city visits just because the player is nearby. First confirm the safe quest state, the assignment controls, the failure/rejection consequences, and the exact counter target. If scattering early jobs could create failed-entry clutter, permanent target items, inventory side effects, or blocked improvements, hold the system for a controlled block and document the route reason in the source note and coverage tracker.
+
+If two route constraints conflict, prefer a narrow controlled exception over weakening either constraint globally. Example: if a later assassination would threaten an NPC required for a repeatable-counter special job, route only the minimum required counter work to protect that NPC-dependent quest, then return the rest of the counter system to its normal controlled block.
+
 When several active objectives draw from overlapping randomized target pools, start every vulnerable objective before clearing any shared target location, then build the player's actual target list from the quest log. Route each unique target once, and tell the player to handle every active objective at that location before leaving. This is especially important when pre-clearing a location can block a later retrieval or when a single Forsworn camp/dungeon can satisfy a Daedric, miscellaneous, unique-item, location, and book objective together. Keep the player-facing branch concise, but record the full target-pool reasoning in the source note and coverage tracker.
+
+If a nearby location belongs to a randomized retrieval or favor target pool but the relevant quest giver cannot be safely started yet, do not pre-clear that location merely because the road passes it. Hold it for a target-aware block unless there is a stronger route reason to consume it now, and record the hold in coverage/source notes rather than in player-facing prose.
 
 Intentional quest failure is allowed only when it is source-backed and route-protective. When a failed objective is the intended route, write it as a clear player action in guide prose, cite the source behavior in the source note, and record the protected downstream state in the coverage tracker. Do not use failure as a shortcut unless it preserves a required NPC, item, reward, trophy, or clean continuity state better than normal completion.
 
@@ -107,7 +123,7 @@ Do not repeat generic book, note, dungeon, rumor, property, or Creation warnings
 
 ## Detail Level
 
-Be explicit about route-critical facts: NPC names, quest names, locations, puzzle solutions, item names, save points, branch reloads, gates, counters, and checklist cues.
+Be explicit about route-critical facts: NPC names, quest names, locations, puzzle solutions, item names, save points, branch reloads, gates, counters, and non-obvious route bookkeeping.
 
 Do not micromanage ordinary Skyrim play. Avoid routine combat advice, ordinary looting advice, and excessive carry-weight commentary unless it protects a route-critical objective or Survival Mode constraint.
 
@@ -119,13 +135,15 @@ Too much:
 
 `Loot only light valuables, use the wall for cover, attack only when the dragon is focused elsewhere, and avoid every nearby roadside marker.`
 
-## Checklist Cues
+## Checklist Logging
 
-Use `[CHECKLIST: ...]` only when an objective, reward, location, power, counter, branch outcome, or other checklist-relevant item is actually completed, acquired, discovered, or recorded.
+The player-facing guide should not use routine bracket checklist cues. The global guide conventions tell the player to update the matching checklist row whenever the route tells them to complete a quest, discover or clear a location, learn a spell or shout, read or take a tracked book, acquire a unique item or set, gain a power, unlock a follower, buy property, obtain a pet or mount, finish a favor, or perform another tracked completion action.
 
-Ordinary state checks such as "carry weight is controlled," "food is stocked," "Survival Mode is still on," and "a rotating manual save has been made" belong in route prose, not checklist cues.
+Do not write bracketed checklist callouts or phrases such as "mark the row" or "record the spell tome cue" for obvious acquisitions and completions. If the player would plainly know from normal play that the named thing happened, route the action in prose and let the global policy handle checklist logging.
 
-Counters should state the target and current count, for example: `Record the Sideways counter at 1 of 10 qualifying side quests.`
+Use explicit route bookkeeping only for non-obvious state: counter totals, branch-experienced rows, randomized radiant results, trophy boundary timing, option-list/default handling, hidden prerequisites, and conditional availability that the game does not cleanly expose. Counters should state the target and current count, for example: `Record the Sideways counter at 1 of 10 qualifying side quests.`
+
+Ordinary state checks such as "carry weight is controlled," "food is stocked," "Survival Mode is still on," and "a rotating manual save has been made" belong in route prose, not checklist callouts.
 
 ## Section Boundaries
 
@@ -142,9 +160,15 @@ The internal section list itself is allowed to change. When nearby-objective aud
 
 Apply new routing conventions retrospectively to already-expanded sections when they reveal a systemic issue. Do not wait for manual user audits to catch every missed same-location objective.
 
+## Branch Continuity
+
+Branch routes exist to record branch-exclusive quests, outcomes, trophies, and meaningful alternate content before returning to the canonical main save. Do not treat temporary branch loot as main-route checklist completion unless the branch itself is the only required record for that item or outcome.
+
+When a branch visits a location that the main route will also enter, keep main-continuity collectibles, books, shouts, and preserved gear on the main route after reload. This avoids duplicate player-facing instructions and prevents the guide from marking an item that disappears with the branch save.
+
 ## No Section-End State Lists
 
-Do not end guide chapters or sections with "End state before..." lists. They make the player-facing guide feel like a planning artifact and duplicate information already carried by route instructions, checklist cues, source notes, and the internal coverage tracker.
+Do not end guide chapters or sections with "End state before..." lists. They make the player-facing guide feel like a planning artifact and duplicate information already carried by route instructions, global checklist logging, source notes, and the internal coverage tracker.
 
 If continuity state matters for play, state it at the route point where it matters: for example, tell the player to keep a quest active before leaving town, preserve an item when it is acquired, or make a named hard save before the risky handoff. Keep broader state summaries in `data/guide-coverage/main-guide-v1-coverage.csv`, source notes, task-board notes, or handoff docs rather than in the player-facing route body.
 
