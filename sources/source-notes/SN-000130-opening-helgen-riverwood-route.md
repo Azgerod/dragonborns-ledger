@@ -6,7 +6,7 @@ Source note ID: SN-000130
 
 ## Claim
 
-The v1 MR-002 guide can safely choose Hadvar as the route default during `Unbound`, complete the Helgen escape, then follow the opening road through The Guardian Stones to Riverwood without optional combat detours before the first settlement support stop. The Guardian Stones bandit-camp objective bundle is valid and nearby, but it should wait for an early local cleanup loop after food, rest, carry, and save state are stabilized. In Riverwood, the Hadvar path naturally points the player to Alvor for the optional `Before the Storm` Riverwood step, after which the quest remains active until the player reports to Jarl Balgruuf in Whiterun. The first Riverwood stop can also start `The Golden Claw`, resolve `A Lovely Letter` in Faendal's favor with both forged letters handled, stage Faendal as the default Goldenhills steward/follower option, take a legal woodcutter's axe for the Whiterun Hulda loop, and complete the default Embry drunk-favor representative while the player is already using Riverwood services.
+The v1 MR-002 guide can safely choose Hadvar as the route default during `Unbound`, complete the Helgen escape, then follow the opening road through The Guardian Stones to Riverwood without optional combat detours before the first settlement support stop. The Guardian Stones bandit-camp objective bundle is valid and nearby, but it should wait for an early local cleanup loop after food, rest, carry, and save state are stabilized. In Riverwood, the Hadvar path naturally points the player to Alvor for the optional `Before the Storm` Riverwood step, after which the quest remains active until the player reports to Jarl Balgruuf in Whiterun. The first Riverwood stop can also complete `Blacksmithing Tutorial` with Alvor, start `The Golden Claw`, resolve `A Lovely Letter` in Faendal's favor with both forged letters handled, stage Faendal as the default Goldenhills steward/follower option, take a legal woodcutter's axe for the Whiterun Hulda loop, and complete the default Embry drunk-favor representative while the player is already using Riverwood services.
 
 ## Routing Relevance
 
@@ -28,6 +28,7 @@ MR-002 needs player-facing instructions, not just a main-quest title list. The r
 | SRC-000467 | Skyrim:Anise's Cabin | 2 - UESP | https://en.uesp.net/wiki/Skyrim:Anise%27s_Cabin | 2026-05-13 | Used for the nearby-cabin audit and the decision not to route a discovery-only cabin step before storage/ownership/skill-book handling is ready. |
 | SRC-000468 | Skyrim:A Lovely Letter | 2 - UESP | https://en.uesp.net/wiki/Skyrim:A_Lovely_Letter | 2026-05-13 | Used for the Sven/Faendal/Camilla route, both forged letters, Faendal follower availability, and Camilla marriage caveat. |
 | SRC-000479 | Skyrim:Alvor | 2 - UESP | https://en.uesp.net/wiki/Skyrim:Alvor | 2026-05-13 | Used for Hadvar-route friendship/support, low-value item access, and blacksmithing tutorial adjacency. |
+| SRC-000552 | Skyrim:Blacksmithing Tutorial | 2 - UESP | https://en.uesp.net/wiki/Skyrim:Blacksmithing_Tutorial | 2026-05-13 | Used for Alvor tutorial completion and the decision not to use Lod as the Falkreath giver on the no-mod route. |
 | SRC-000480 | Skyrim:Alvor and Sigrid's House | 2 - UESP | https://en.uesp.net/wiki/Skyrim:Alvor_and_Sigrid%27s_House | 2026-05-13 | Used for the woodcutter's axe in Alvor's cellar. |
 
 ## Evidence Summary
@@ -46,9 +47,9 @@ UESP's `The Golden Claw` page supports Lucan or Camilla as the normal Riverwood 
 
 UESP's `A Lovely Letter` page identifies Sven or Faendal as the giver, Camilla as the delivery target, the ability to show one forged letter to the other man and receive a counter-forged letter, and Faendal or Sven as the follower reward depending on the chosen outcome. Since TB-031D selects Faendal as the Goldenhills steward default, the guide starts with Sven at the Sleeping Giant Inn, shows Sven's forged letter to Faendal, delivers Faendal's letter to Camilla, and returns to Faendal. This gives the guide explicit coverage for `Sven's Fake Letter from Faendal`, `Faendal's Fake Letter from Sven`, `A Lovely Letter`, Faendal follower availability, and Faendal steward candidacy without stretching the quest across unrelated route sections.
 
-UESP's Alvor page records that the Hadvar path makes Alvor willing to help and allow most low-value items in his house, and the Alvor and Sigrid's House page places a woodcutter's axe on the woodpile in the cellar. The guide therefore takes that axe during the Alvor support step so the first Whiterun inn loop can complete Hulda's chop-wood/Argonian Ale bundle without relying on random merchant stock.
+UESP's Alvor page records that the Hadvar path makes Alvor willing to help and allow most low-value items in his house, and the Alvor and Sigrid's House page places a woodcutter's axe on the woodpile in the cellar. The Blacksmithing Tutorial page supports routing the tutorial with a valid smith and notes that Lod's Falkreath tutorial offer is bugged in the unpatched game. The guide therefore completes the smithing tutorial with Alvor and takes the axe during the same support step, so the first Whiterun inn loop can complete Hulda's chop-wood/Argonian Ale bundle without relying on random merchant stock.
 
-The existing activity/favor source note selects Embry in Riverwood as the default representative for the drunk-favor activity, making it natural to complete while the player is already using the Sleeping Giant Inn. Embry's drink favor is not counted toward Hero of the People under the counter plan; `A Lovely Letter` starts that finite miscellaneous objective counter at 1 of 50.
+The existing activity/favor source note selects Embry in Riverwood as the default representative for the drunk-favor activity, making it natural to complete while the player is already using the Sleeping Giant Inn. Embry's drink favor is not counted toward Hero of the People under the counter plan; `Blacksmithing Tutorial` and `A Lovely Letter` bring the finite miscellaneous objective counter to 2 of 50.
 
 ## Confidence and Open Questions
 
@@ -56,4 +57,4 @@ Confidence is high for MR-002's quest-order and route-state handling. The note d
 
 ## Linked Records
 
-OBJ-000001; OBJ-000002; OBJ-000206; OBJ-000318; OBJ-000220; OBJ-000877; OBJ-000868; OBJ-001137; OBJ-001272; OBJ-001814; OBJ-002031; OBJ-002205; OBJ-002762; OBJ-002767; NPCOPT-000104; NPCOPT-000195; MR-002 in `drafts/final-guide/main-guide-v1.md`; `data/guide-coverage/main-guide-v1-coverage.csv`.
+OBJ-000001; OBJ-000002; OBJ-000206; OBJ-000318; OBJ-000220; OBJ-000349; OBJ-000877; OBJ-000868; OBJ-001137; OBJ-001272; OBJ-001814; OBJ-002031; OBJ-002205; OBJ-002762; OBJ-002767; NPCOPT-000104; NPCOPT-000195; CHK-QUESTS-0257; MR-002 in `drafts/final-guide/main-guide-v1.md`; `data/guide-coverage/main-guide-v1-coverage.csv`.

@@ -41,6 +41,9 @@ PHRASE_EXCEPTIONS = {
     "family": [
         "amren's family sword",
         "family sword",
+        "family heirloom",
+        "family ring",
+        "meet the family",
     ],
 }
 

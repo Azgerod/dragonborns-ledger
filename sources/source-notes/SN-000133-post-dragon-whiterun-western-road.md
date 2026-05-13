@@ -1,4 +1,4 @@
-# Post-Dragon Whiterun, Saadia, And First Horse Route Detail
+# Post-Dragon Whiterun, Falkreath Mead, Saadia, And First Horse Route Detail
 
 Status: researched.
 
@@ -6,17 +6,20 @@ Source note ID: SN-000133
 
 ## Claim
 
-After `Dragon Rising`, the guide should route `In My Time Of Need` as a coherent Whiterun-to-Swindler's-Den bundle, buy the Whiterun stable horse as the first Survival travel mount, apply Elven Horse Armor if normal loot sales can fund it, and use Swindler's Den's cooking pot for the next Hard Worker action. Breezehome and Tundra Homestead should not be purchased in this section by assumption: Breezehome is only a 5,000-gold target after economy support, and Tundra Homestead is a later 7,500-gold main-base target.
+After `Dragon Rising`, the guide should complete Siddgeir's Black-Briar Mead favor before the Hearthfire level-9 letter can interfere, route `In My Time Of Need` as a coherent Whiterun-to-Swindler's-Den bundle, buy the Whiterun stable horse as the first Survival travel mount, apply Elven Horse Armor if normal loot sales can fund it, and use Swindler's Den's cooking pot for the next Hard Worker action. Breezehome and Tundra Homestead should not be purchased in this section by assumption: Breezehome is only a 5,000-gold target after economy support, and Tundra Homestead is a later 7,500-gold main-base target.
 
 ## Routing Relevance
 
-The previous scaffold placed Saadia, first-horse support, Breezehome, and Tundra Homestead in one post-dragon block. Detailed route writing showed that the quest and mount belong here, while the homes do not: the route has unlocked their purchase surfaces, but normal early funds cannot be assumed to cover even Breezehome, much less Tundra Homestead. This section therefore handles the safe colocated quest and mount work, adds one on-route cooking action, and moves actual property purchase to the next economy-supported route window.
+The previous scaffold placed Saadia, first-horse support, Breezehome, and Tundra Homestead in one post-dragon block. Detailed route writing showed that Siddgeir's mead favor, the Saadia quest, and the first mount belong here, while the homes do not: the route has unlocked their purchase surfaces, but normal early funds cannot be assumed to cover even Breezehome, much less Tundra Homestead. This section therefore handles the time-sensitive Falkreath mead stop, safe colocated quest and mount work, adds one on-route cooking action, and moves actual property purchase to the next economy-supported route window.
 
 ## Sources
 
 | source_id | Source | Priority | URL/reference | Accessed | Notes |
 | --- | --- | --- | --- | --- | --- |
 | SRC-000478 | Skyrim:In My Time Of Need | 2 - UESP | https://en.uesp.net/wiki/Skyrim:In_My_Time_Of_Need | 2026-05-13 | Used for post-Dragon Rising availability, Alik'r gate start, Saadia/Kematu choice structure, prisoner fine path, Swindler's Den objective, reward, and bugs. |
+| SRC-000353 | Skyrim:Rare Gifts | 2 - UESP | https://en.uesp.net/wiki/Skyrim:Rare_Gifts | 2026-05-12 | Used for Siddgeir's Black-Briar Mead favor, one-active Rare Gifts behavior, and Ysolda ordering. |
+| SRC-000535 | Skyrim:Kill the Bandit Leader (Jarl) | 2 - UESP | https://en.uesp.net/wiki/Skyrim:Kill_the_Bandit_Leader_(Jarl) | 2026-05-13 | Used for completing Siddgeir's mead favor before the level-9 Hearthfire letter and later land job. |
+| SRC-000548 | Skyrim:Build Your Own Home | 2 - UESP | https://en.uesp.net/wiki/Skyrim:Build_Your_Own_Home | 2026-05-13 | Used for Hearthfire letter behavior and the reason Lakeview purchase waits for funded land routing. |
 | SRC-000482 | Skyrim:Swindler's Den | 2 - UESP | https://en.uesp.net/wiki/Skyrim:Swindler%27s_Den | 2026-05-13 | Used for Swindler's Den layout, quest occupant swap, `Thief` skill-book placement, cooking pot, iron ore vein, shortcut, and clear-tag conflict. |
 | SRC-000249 | Skyrim:Horses | 2 - UESP | https://en.uesp.net/wiki/Skyrim:Horses | 2026-05-12 | Used for purchasable horse price, Whiterun stable hostler names, ownership behavior, and Survival travel value. |
 | SRC-000097 | Skyrim:Horse Armor - Elven | 2 - UESP | https://en.uesp.net/wiki/Skyrim:Horse_Armor_-_Elven | 2026-05-11 | Used for hostler acquisition, health boost, armor-removal inventory behavior, reapply cost, and 25-weight caveat. |
@@ -28,6 +31,8 @@ The previous scaffold placed Saadia, first-horse support, Breezehome, and Tundra
 | SRC-000483 | Skyrim:Cooking | 2 - UESP | https://en.uesp.net/wiki/Skyrim:Cooking | 2026-05-13 | Used for cooking station requirement, recipes, cooked-food system, and Hard Worker relation. |
 
 ## Evidence Summary
+
+UESP's Rare Gifts and Hearthfire land pages support the short Falkreath mead stop before Saadia's western-road cave. Siddgeir's Rare Gifts version wants Black-Briar Mead, which the opening route collected near the Helgen exit. The land/letter pages record that the Hearthfire level-9 courier letter can interact badly with an unfinished Rare Gifts state. The guide therefore gives Siddgeir the mead before another sleep could push the character to level 9, then leaves his bandit-leader job and Lakeview purchase for the later funded Falkreath pass.
 
 UESP's `In My Time Of Need` page lists `Dragon Rising` as the previous quest and describes the Alik'r gate scene after the Western Watchtower report. It identifies the Bannered Mare Saadia step, the Dragonsreach Dungeon prisoner path, the 100-gold fine, Swindler's Den, the Saadia/Kematu outcome choice, and the 500-gold reward. The page also flags bugs that matter to routing: talking to the prisoner a second time before paying the fine can block progress, entering Swindler's Den without resolving the prisoner objective can leave journal state behind, and non-direct methods of killing Kematu can stick the quest on the kill/talk objective. The guide therefore talks to the prisoner once, pays the fine, returns only after payment, and kills Kematu directly on the Saadia-default path.
 
@@ -43,10 +48,10 @@ A follow-up nearby-objective audit is recorded in SN-000134. It holds Gjukar's M
 
 ## Confidence and Open Questions
 
-Confidence is high for the `In My Time Of Need` order, Saadia-default routing, first-horse timing, Elven-first horse-armor choice, the western-road nearby-objective holds recorded in SN-000134, and the decision not to assume early house money.
+Confidence is high for the early Siddgeir mead stop, the `In My Time Of Need` order, Saadia-default routing, first-horse timing, Elven-first horse-armor choice, the western-road nearby-objective holds recorded in SN-000134, and the decision not to assume early house money.
 
 The remaining open question is Swindler's Den clear-state handling. Current source evidence conflicts between the harvested clearable-location catalog and the current place page's clear-tag bug note. The guide should not use Swindler's Den as a Delver count until TB-037 or a dedicated location-counter QA pass verifies the in-game `Cleared` tag and `Dungeons Cleared` behavior under the routed Saadia outcome.
 
 ## Linked Records
 
-OBJ-000199; OPT-001; OBJ-000219; OBJ-000690; OBJ-000691; OBJ-000841; OBJ-000844; OBJ-000853; OBJ-000866; OBJ-000877; OBJ-000880; OBJ-000883; OBJ-000899; OBJ-000935; OBJ-001919; OBJ-001920; OBJ-001954; OBJ-002154; OBJ-002169; OBJ-002245; OBJ-002255; OBJ-002385; OBJ-002752; OBJ-002764; OBJ-002775; NPCOPT-000232; MR-005 in `drafts/final-guide/main-guide-v1.md`; `sources/source-notes/SN-000134-guardian-stones-cache-riverwood-farm-loop.md`; `data/guide-coverage/main-guide-v1-coverage.csv`.
+OBJ-000199; OPT-001; OBJ-000219; OBJ-000243; OBJ-000690; OBJ-000691; OBJ-000841; OBJ-000844; OBJ-000853; OBJ-000866; OBJ-000877; OBJ-000880; OBJ-000883; OBJ-000899; OBJ-000935; OBJ-001919; OBJ-001920; OBJ-001954; OBJ-002154; OBJ-002169; OBJ-002236; OBJ-002245; OBJ-002255; OBJ-002385; OBJ-002752; OBJ-002764; OBJ-002775; NPCOPT-000232; MR-005 in `drafts/final-guide/main-guide-v1.md`; `sources/source-notes/SN-000134-guardian-stones-cache-riverwood-farm-loop.md`; `data/guide-coverage/main-guide-v1-coverage.csv`.
