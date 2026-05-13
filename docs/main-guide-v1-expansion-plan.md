@@ -46,13 +46,12 @@ Refresh these counts with the standard validators before drafting if any data fi
 
 `main-guide-v1.md` must be self-contained. The guide may have internal reference sections, but the reader must not need a separate appendix, spreadsheet, route map, or source note to execute the route.
 
-Every objective row and checklist-relevant row must be visibly represented by name and, where practical, by ID. Use concise auditable tags such as:
+The player-facing guide and the internal coverage tracker are separate layers:
 
-* `[OBJ-000123]`
-* `[CHECKLIST: Quest - OBJ-000123 - Objective Name]`
-* `[CHECKLIST: CL-... - Checklist Entry]` when a checklist row has no direct objective ID.
+* The player-facing guide should read like a polished Skyrim route, with concise route instructions and natural checklist cues such as `[CHECKLIST: Survival Mode enabled]`.
+* The internal coverage tracker records objective IDs, checklist IDs, row counts, coverage status, staged/completed status, and unresolved notes. Use `data/guide-coverage/main-guide-v1-coverage.csv` for this unless a later task creates a better internal artifact.
 
-The exact tag style may be refined during v1 drafting, but each row must be searchable by objective ID, checklist ID, objective name, or checklist entry.
+Do not put objective IDs, coverage ledgers, row counts, coverage-matrix language, or "represented here" implementation prose in normal player-facing guide text unless the project deliberately adopts a final checklist-ID display format. Each row still must be auditable through the internal coverage tracker.
 
 The guide must not use category placeholders as route instructions. Banned or suspect phrases include:
 
@@ -102,7 +101,7 @@ For each pass:
 4. Preserve all hard gates, hard saves, branch reloads, Survival Mode logistics, and unique-item preservation rules.
 5. Add checklist cues at the point of completion/acquisition/verification.
 6. Add `NEEDS ROUTE RESOLUTION` notes only for genuinely unresolved rows.
-7. Record the rows processed by the pass in the v1 coverage summary or coverage ledger.
+7. Record the rows processed by the pass in `data/guide-coverage/main-guide-v1-coverage.csv` or another clearly internal coverage artifact.
 8. Search the edited section for placeholder phrases before moving on.
 
 ## Per-MR Subtasks
@@ -113,7 +112,8 @@ The task board should surface the next active pass, but this table is the minimu
 | --- | --- | --- | --- | --- |
 | TB-035P | Prep and standards | Repo docs | Record this plan, reopen TB-035, harden instructions, and point the next task at MR-001. | Done |
 | TB-035-MR-001 | MR-001 - Setup And Save Baseline | G00 setup | AE entitlement, mod/Creation restrictions, Legendary/Survival setup, trophy-safe baseline, save policy, explicit exclusions created by setup scope. | Done |
-| TB-035-MR-002 | MR-002 - Helgen, Riverwood, And First Survival Loop | G01 opening | `Unbound`, `Before the Storm`, Riverwood survival support, first bed/food/sell-off, opening objective and checklist cues. | Ready |
+| TB-035-MR-001R | Revise MR-001 player-facing/internal split | MR-001 correction | Remove audit/report prose from the guide, move objective IDs and coverage status to `data/guide-coverage/main-guide-v1-coverage.csv`, and keep MR-001 readable as player instructions. | Done |
+| TB-035-MR-002 | MR-002 - Helgen, Riverwood, And First Survival Loop | G01 opening | `Unbound`, `Before the Storm`, Riverwood survival support, first bed/food/sell-off, opening objective and checklist cues. | Pending MR-001 review |
 | TB-035-MR-003 | MR-003 - First Whiterun Visit | G01 Whiterun first-entry | Whiterun entry, Amren/Ysolda/Brenuin/Uthgerd, early favor/work/action counters, relationship/default handling. | Pending |
 | TB-035-MR-004 | MR-004 - Bleak Falls Barrow And Dragon Rising | G01-G02 main quest opener | `Bleak Falls Barrow`, `Dragon Rising`, first dragon/shout/trophy rows, dragon-world activation warnings. | Pending |
 | TB-035-MR-005 | MR-005 - First Storage, Horse, And Central Base Setup | G02 central support | Whiterun horse, Breezehome, Tundra Homestead, storage verification, property rows and support services. | Pending |

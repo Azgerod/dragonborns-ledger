@@ -62,9 +62,11 @@ TB-035 is reopened. `drafts/final-guide/main-guide-v0.md` expands MR-001 through
 
 TB-035P is complete. `docs/main-guide-v1-expansion-plan.md` records the v1 standard, one subtask per MR section, cross-cutting coverage audits, placeholder phrase policy, and validation expectations.
 
-TB-035-MR-001 is complete. `drafts/final-guide/main-guide-v1.md` now exists, copied from the v0 scaffold, with MR-001 expanded as the first v1 model section. MR-001 explicitly represents setup-scope objective rows `OBJ-000479` through `OBJ-000552`, `OBJ-000702`, and `OBJ-000705`, including the official AE package installation audit, Survival Mode, hot-food member list, Camping Supplies staged recipe, trophy-safe setup exclusions, save policy, and an MR-001 coverage ledger.
+TB-035-MR-001 is complete. `drafts/final-guide/main-guide-v1.md` now exists, copied from the v0 scaffold, with MR-001 expanded as the first v1 section.
 
-The current next task is TB-035-MR-002: expand MR-002 only.
+TB-035-MR-001R is complete. User feedback clarified that the guide must not read like an internal coverage report. MR-001 now has player-facing guide prose only: official AE bundle setup, trophy-safe content restrictions, Legendary difficulty, Survival Mode activation policy, rotating saves, early Creation trigger discipline, Fire Salts/hot-food planning, and Camping Supplies staging. Objective IDs, row counts, staged/completed status, cue mapping, and unresolved-row tracking now live in `data/guide-coverage/main-guide-v1-coverage.csv`.
+
+The current next step is user review of the corrected MR-001 model. TB-035-MR-002 is blocked until the user approves this player-facing/internal coverage split.
 
 ## Restart Checklist
 
@@ -86,12 +88,13 @@ At the start of the next session:
 
 ## Next Task Details
 
-Start TB-035-MR-002 by expanding only MR-002 in `drafts/final-guide/main-guide-v1.md`. Use MR-001 as the model for objective IDs, checklist cues, concrete instructions, and the section coverage ledger.
+After user approval, start TB-035-MR-002 by expanding only MR-002 in `drafts/final-guide/main-guide-v1.md`. Use corrected MR-001 as the model: player-facing prose in the guide, natural checklist cues, and objective/checklist IDs plus coverage status in `data/guide-coverage/main-guide-v1-coverage.csv`.
 
 Primary output:
 
-* updated `drafts/final-guide/main-guide-v1.md` with MR-002 expanded to objective-level opening instructions
-* MR-002 checklist/objective cues for `Unbound`, `Before the Storm`, first Survival Mode activation, Riverwood bed/food/cooking/sell-off support, early inventory policy, and any objective/checklist rows assigned to the G01 opening block
+* updated `drafts/final-guide/main-guide-v1.md` with MR-002 expanded as polished player-facing opening instructions
+* natural MR-002 checklist cues for `Unbound`, `Before the Storm`, first Survival Mode activation, Riverwood bed/food/cooking/sell-off support, and early inventory policy
+* updated `data/guide-coverage/main-guide-v1-coverage.csv` with MR-002 objective/checklist IDs, coverage status, staged/completed status, and unresolved rows
 * task-board and handoff status updates when the MR-002 pass is complete
 * no edits to `main-guide-v0.md` except if the user explicitly asks to revise the scaffold snapshot
 
@@ -99,7 +102,7 @@ TB-035 v1 rules:
 
 * `main-guide-v1.md` must be self-contained; do not rely on external appendices for execution-critical information.
 * Expand at least one MR section per implementation pass and split heavy MR sections further when needed.
-* Represent every objective and mapped checklist row explicitly by name and, where practical, by ID.
+* Represent every objective and mapped checklist row in player-facing guide text by natural route instructions and checklist cues. Keep objective IDs and coverage mechanics in `data/guide-coverage/main-guide-v1-coverage.csv`, not in normal guide prose.
 * Preserve the corrected Thieves Guild sequencing and all TB-033/TB-034 route gates.
 * Treat TB-031A through TB-031K, TB-032, TB-033, and TB-034 as current inputs, not work to redo, unless a concrete inconsistency appears.
 * Use `NEEDS ROUTE RESOLUTION:` only for genuine data gaps after checking the relevant objective, checklist, route-planning, constraint, and support rows.

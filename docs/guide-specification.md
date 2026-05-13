@@ -157,7 +157,11 @@ No checklist objective should be left unmapped unless explicitly excluded and ju
 
 For the final main guide draft, mapping to appendices is not enough for execution-critical route content. The guide document itself must explicitly represent every objective row in `data/objectives/objectives.csv` and every checklist-relevant row already mapped by the project.
 
-A player following the guide should not need to consult the objective spreadsheet, route-planning CSVs, source notes, support tables, or external appendices to know what to do next. A reviewer with the spreadsheet should be able to find each row directly in the guide by objective/checklist ID, objective/checklist name, or an explicit exclusion/option/branch note.
+A player following the guide should not need to consult the objective spreadsheet, route-planning CSVs, source notes, support tables, or external appendices to know what to do next.
+
+The guide itself should remain player-facing prose. It should not read like a database export or project audit report. Objective IDs, coverage ledgers, row counts, staged/completed status, and coverage-matrix mechanics belong in an internal coverage artifact unless the project later adopts an explicit final checklist-ID display format.
+
+A reviewer with the spreadsheet should be able to verify each row through the combination of player-facing guide cues and the internal coverage tracker that maps those cues to objective/checklist IDs. The player-facing guide should use natural checklist cues such as `[CHECKLIST: Survival Mode enabled]`, not internal row labels, unless a row label is deliberately part of the final checklist format.
 
 The guide may include internal reference or verification sections, but core route instructions must be inline at the relevant route point. Category placeholders such as "route local objectives," "collect local books," "finish remaining checklist," "as needed," "selected sources," "support rows," "route locations," or "spell sources" are not acceptable unless immediately followed by the complete list of objective names and concrete actions covered.
 

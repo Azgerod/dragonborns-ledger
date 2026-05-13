@@ -1,10 +1,8 @@
 # Main Guide v1
 
-Status: TB-035 self-contained main-guide expansion in progress.
+This is a self-contained route guide. It tells you what to do, when to do it, what to save before, and what to mark as complete. You should not need to consult the objective spreadsheet while playing; the spreadsheet is used behind the scenes to verify coverage.
 
-This draft is being expanded one MR section at a time from `main-guide-v0.md`. MR-001 is expanded to the v1 objective-level standard. Later MR sections still contain scaffold prose until their own TB-035-MR passes expand them.
-
-Use this guide as a linear route. Do not treat it as a puzzle walkthrough, combat guide, story summary, or substitute objective spreadsheet. Sections marked as v1-expanded should name every objective row they handle. Sections not yet expanded are present only to preserve the overall route spine for review context.
+Draft note: MR-001 is player-facing v1 text. Sections marked `Scaffold only - not yet v1-expanded` are still placeholders from the previous scaffold and are not ready for play.
 
 ## Guide Conventions
 
@@ -24,131 +22,32 @@ Use this guide as a linear route. Do not treat it as a puzzle walkthrough, comba
 
 ### MR-001 - Setup And Save Baseline
 
-Status: v1 expanded for TB-035-MR-001.
+1. Confirm you are playing Skyrim Special Edition / Anniversary Edition on PS4 with the official Anniversary Upgrade entitlement installed. Install the base game, Dawnguard, Hearthfire, Dragonborn, and the bundled Anniversary Edition Creation Club content. [CHECKLIST: Official AE bundle verified]
+2. Do not install mods, non-AE Creations, Verified Creator Program content outside the AE bundle, third-party Creations, PC-only content, console-command-only content, or anything that disables PlayStation trophies. Do not add or remove content mid-run. [CHECKLIST: Trophy-safe content setup]
+3. Confirm the official AE bundle includes Creation content such as Survival Mode, Fishing, Camping, Rare Curios, Saints & Seducers, Farming, Tundra Homestead, Myrwatch, The Cause, Ghosts of the Tribunal, Bittercup, and the other official AE creations. This is only an installation check. Do not chase Creation quests, courier letters, special items, new homes, pets, mounts, fishing spots, or dungeons just because they appear early; the route will send you to each one when it is safe.
+4. Set the difficulty to Legendary before normal play begins, and leave it there unless this guide explicitly records a later exception. [CHECKLIST: Legendary difficulty set]
+5. Survival Mode is mandatory for the main route. If the setting is available before play, turn it on now and mark [CHECKLIST: Survival Mode enabled]. If the game offers the Survival Mode prompt after Helgen, turn it on immediately in MR-002 and mark the same checklist cue there.
+6. Create a rotating manual save set as soon as manual saving is available. Keep at least three ordinary rotating manual saves. When this guide names a hard save, create a separate save with the exact `HS-...` label and keep it until that branch, reward, or bug-risk window is finished. [CHECKLIST: Save rotation started]
+7. Start saving Fire Salts when practical. They are the key ingredient for hot food in Survival Mode, and hot food is how this route prepares for cold travel. Do not hoard every food ingredient if carry weight is tight; prioritize Fire Salts and common vegetables.
 
-Objective rows represented here: `OBJ-000479` through `OBJ-000552`, `OBJ-000702`, and `OBJ-000705`.
+Useful early Survival recipes:
 
-1. Before starting the character, confirm this is the PS4 version of Skyrim Special Edition / Anniversary Edition with the official Anniversary Upgrade entitlement installed. Install base game content, Dawnguard, Hearthfire, Dragonborn, and the official AE Creation Club bundle only.
-2. Do not install non-AE mods, Verified Creator Program content outside the AE bundle, third-party Creations, PC-only content, console-command-only content, or anything that disables PS4 trophies. This is a route-wide trophy-safety rule, not a preference setting. [CHECKLIST: Trophy Safety - official-content baseline]
-3. Set difficulty to Legendary before normal play begins. Leave the route on Legendary unless a future user-approved exception is explicitly written into this guide. [CHECKLIST: Setup - Legendary difficulty baseline]
-4. Enable Survival Mode when the game presents the setting, and keep it on for the main route. This handles `OBJ-000479` at the setup level. [CHECKLIST: AE Creation - `OBJ-000479` - Survival Mode]
-5. Create a rotating manual save set before leaving setup. Keep at least three ordinary rotating manual saves. When this guide names a hard save, create a separate save with the exact `HS-...` label and keep it until the branch, reward, or bug-risk window is finished.
-6. Treat courier letters, rumor dialogue, innkeeper rumors, found notes, purchased documents, unusual weapons, Creation homes, pets, mounts, fishing supplies, and Creation dungeons as locked route triggers unless this guide names them in the current MR section. Do not start AE content just because the game exposes it early.
-7. Use this AE package manifest as the setup installation audit. Mark each parent package row as installed at setup, then leave its child quests, items, homes, pets, mounts, spells, ingredients, recipes, locations, branches, and rewards unclaimed until later MR sections route them.
+| Recipe | Ingredients |
+| --- | --- |
+| Hot Cabbage Soup | Fire Salts, Cabbage |
+| Hot Potato Soup | Fire Salts, Potato |
+| Hot Cabbage Potato Soup | Fire Salts, Cabbage, Leek, Potato |
+| Hot Vegetable Soup | Fire Salts, Cabbage, Leek, Tomato, Potato |
+| Hot Beef Stew | Fire Salts, Raw Beef, Carrot, Garlic |
 
-| Objective | AE package | MR-001 setup action |
-| --- | --- | --- |
-| `OBJ-000479` | Survival Mode | Enable now and keep active for the whole main route. |
-| `OBJ-000480` | Arcane Accessories | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000481` | Arcane Archer Pack | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000482` | Chrysamere | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000483` | Divine Crusader | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000484` | Plague of the Dead | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000485` | Ruin's Edge | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000486` | Staff of Sheogorath | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000487` | Stendarr's Hammer | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000488` | Dwarven Armored Mudcrab | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000489` | Lord's Mail | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000490` | Adventurer's Backpack | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000491` | Camping | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000492` | Nix-Hound | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000493` | Shadowrend | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000494` | Tundra Homestead | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000495` | Myrwatch | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000496` | Nordic Jewelry | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000497` | Pets of Skyrim | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000498` | Rare Curios | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000499` | Bone Wolf | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000500` | Staff of Hasedoki | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000501` | Wild Horses | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000502` | Civil War Champions | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000503` | Elite Crossbows | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000504` | Forgotten Seasons | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000505` | Saturalia Holiday Pack | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000506` | Sunder & Wraithguard | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000507` | Vigil Enforcer Armor Set | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000508` | Arms of Chaos | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000509` | Shadowfoot Sanctum | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000510` | Spell Knight Armor | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000511` | Umbra | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000512` | Alternative Armors - Dwarven Mail | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000513` | Alternative Armors - Stalhrim Fur | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000514` | Dawnfang & Duskfang | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000515` | Expanded Crossbow Pack | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000516` | Netch Leather Armor | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000517` | Alternative Armors - Daedric Mail | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000518` | Alternative Armors - Dragonscale | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000519` | Alternative Armors - Elven Hunter | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000520` | Alternative Armors - Ebony Plate | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000521` | Alternative Armors - Steel Soldier | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000522` | Dead Man's Dread | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000523` | Goblins | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000524` | Saints & Seducers | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000525` | Hendraheim | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000526` | The Gray Cowl Returns! | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000527` | Alternative Armors - Daedric Plate | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000528` | Alternative Armors - Dragon Plate | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000529` | Alternative Armors - Dwarven Plate | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000530` | Alternative Armors - Iron | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000531` | Alternative Armors - Leather | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000532` | Alternative Armors - Orcish Plate | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000533` | Alternative Armors - Orcish Scaled | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000534` | Alternative Armors - Silver | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000535` | Bittercup | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000536` | Bloodchill Manor | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000537` | Bow of Shadows | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000538` | Farming | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000539` | Fearsome Fists | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000540` | Fishing | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000541` | Gallows Hall | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000542` | Ghosts of the Tribunal | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000543` | Goldbrand | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000544` | Headman's Cleaver | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000545` | Horse Armor - Elven | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000546` | Horse Armor - Steel | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000547` | Nchuanthumz: Dwarven Home | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000548` | Necromantic Grimoire | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000549` | Redguard Elite Armaments | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000550` | Staves | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000551` | The Cause | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-| `OBJ-000552` | The Contest | Confirm installed now. Do not start, read, buy, loot, or pursue this package content until a later MR step names it. |
-
-8. Handle Survival Mode food and warmth system coverage now as an explicit rule, not as a vague reminder. `OBJ-000702` is represented by the following hot-food member list. From MR-002 onward, keep Fire Salts when found or bought, keep ordinary cooking ingredients when carry weight allows, and cook hot food before planned cold travel. Do not mark every hot food as a required preserved collectible; the route requirement is to use the Survival food/warmth system and know the finite source-listed hot-food set. [CHECKLIST: AE Creation - `OBJ-000702` - Survival Mode Food and Warmth Consumable Set]
-
-| Member | Hot food | Ingredients to recognize |
-| --- | --- | --- |
-| `ITEM-000646` | Hot Apple Cabbage Stew | Fire Salts, Red Apple, Cabbage |
-| `ITEM-000647` | Hot Beef Stew | Fire Salts, Raw Beef, Carrot, Garlic |
-| `ITEM-000648` | Hot Cabbage Potato Soup | Fire Salts, Cabbage, Leek, Potato |
-| `ITEM-000649` | Hot Cabbage Soup | Fire Salts, Cabbage |
-| `ITEM-000650` | Hot Clam Chowder | Butter, Jug of Milk, Fire Salts, Clam Meat, Potato |
-| `ITEM-000651` | Hot Elsweyr Fondue | Ale, Fire Salts, Eidar Cheese Wheel, Moon Sugar |
-| `ITEM-000652` | Hot Horker and Ash Yam Stew | Ash Yam, Fire Salts, Horker Meat, Garlic |
-| `ITEM-000653` | Hot Horker Stew | Fire Salts, Horker Meat, Tomato, Garlic, Lavender |
-| `ITEM-000654` | Hot Potato Soup | Fire Salts, Potato |
-| `ITEM-000655` | Hot Tomato Soup | Fire Salts, Leek, Tomato, Garlic |
-| `ITEM-000656` | Hot Vegetable Soup | Fire Salts, Cabbage, Leek, Tomato, Potato |
-| `ITEM-000657` | Hot Venison Stew | Fire Salts, Leek, Potato, Venison |
-
-9. Handle Camping setup as a staged crafting instruction. `OBJ-000491` confirms the Camping package is installed now. `OBJ-000705` is completed when the route first tells you to craft Camping Supplies at a forge or anvil with three pieces of firewood and one piece of leather; until then, keep those materials when the carry-cost is reasonable and do not depend on camping for survival planning. [CHECKLIST: AE Creation/Crafting - `OBJ-000705` - Camping Supplies Crafting System]
-10. Before leaving setup, write down the active baseline: official AE bundle installed, no non-AE content installed, Legendary difficulty, Survival Mode on, rotating manual saves created, and AE triggers locked until named by this guide. [CHECKLIST: Setup - MR-001 complete]
-
-MR-001 coverage ledger:
-
-| Coverage bucket | Count | Rows |
-| --- | ---: | --- |
-| Objective rows represented | 76 | `OBJ-000479` through `OBJ-000552`, plus `OBJ-000702` and `OBJ-000705` |
-| Objective rows completed at setup | 75 | `OBJ-000479` through `OBJ-000552`, plus `OBJ-000702` as Survival food/warmth system coverage |
-| Objective rows staged with explicit return instruction | 1 | `OBJ-000705`, completed at the first routed Camping Supplies craft |
-| Branch rows handled | 0 | None in MR-001 |
-| Option/default rows handled | 0 | None in MR-001 |
-| Explicit exclusions handled | 0 objective rows | Scope exclusions for non-AE content, non-AE Creations, trophy-disabling content, cut content, console-command-only content, and PC-only content are setup rules, not current `objectives.csv` rows |
-| Direct coverage-matrix rows handled | 0 | These package/system objective rows currently have no direct checklist rows in `coverage-matrix.csv`; checklist rows tied to child quests, items, books, spells, locations, pets, mounts, and systems are handled in their routed MR sections |
-| `NEEDS ROUTE RESOLUTION` rows | 0 | No MR-001 setup row is unresolved |
+8. Camping is available through the AE bundle, but do not depend on camps as your main survival plan. Inns and owned beds are safer for the route because they support planned rest and level-up timing. Later, when the guide tells you to craft Camping Supplies, use a forge or anvil with three firewood and one leather. Until then, keep those materials only when carry weight allows.
+9. Before leaving setup, confirm the baseline: official AE bundle installed, no non-AE content installed, trophies preserved, Legendary difficulty selected, Survival Mode ready to enable or already enabled, rotating saves started, and early Creation triggers locked until named by the guide. [CHECKLIST: MR-001 setup complete]
 
 ## Early Warm-Core Stabilization
 
 ### MR-002 - Helgen, Riverwood, And First Survival Loop
+
+Scaffold only - not yet v1-expanded.
 
 1. Complete `Unbound`. Turn Survival Mode on when the game allows it and leave it on. [CHECKLIST: Quest, Survival]
 2. Travel to Riverwood and complete `Before the Storm` setup. [CHECKLIST: Quest]
@@ -157,6 +56,8 @@ MR-001 coverage ledger:
 5. If early inventory fills up, sell or drop ordinary loot. Do not hoard unique items or heavy materials before safe storage exists.
 
 ### MR-003 - First Whiterun Visit
+
+Scaffold only - not yet v1-expanded.
 
 1. Enter Whiterun deliberately and keep the first-visit NPC/favor window local.
 2. Handle or preserve the early Whiterun favor surface: Amren, Ysolda, Brenuin, Uthgerd, and the first representative work-action targets.
@@ -167,6 +68,8 @@ MR-001 coverage ledger:
 
 ### MR-004 - Bleak Falls Barrow And Dragon Rising
 
+Scaffold only - not yet v1-expanded.
+
 1. Confirm you have food, healing, basic warmth, and carry space.
 2. Complete `Bleak Falls Barrow`. Collect quest items, the word wall, and any routed in-scope books or unique items encountered naturally. [CHECKLIST: Quest, Shout, Location, Book]
 3. Return through Whiterun and complete `Dragon Rising`. [CHECKLIST: Quest, Trophy]
@@ -174,6 +77,8 @@ MR-001 coverage ledger:
 5. If any early trophy does not pop when expected, reload the nearest pre-action save and repeat the verified completion action before continuing.
 
 ### MR-005 - First Storage, Horse, And Central Base Setup
+
+Scaffold only - not yet v1-expanded.
 
 1. Buy the Whiterun Stable Horse as soon as early funds allow. [CHECKLIST: Mount, Survival]
 2. Acquire Breezehome only when purchase/furnishing state is legal. Verify sleep/storage behavior before placing unique items or long-term materials inside. [CHECKLIST: Property, Storage]
@@ -183,6 +88,8 @@ MR-001 coverage ledger:
 
 ### MR-006 - Early Work Actions And Local Economy
 
+Scaffold only - not yet v1-expanded.
+
 1. Complete the explicit Hard Worker actions in a controlled settlement loop: chop wood, mine ore, and cook one food item. Recommended defaults are Hod for wood, Grogmar at Redbelly Mine for ore when that route window opens, and any safe cooking station for food. [CHECKLIST: Trophy, Misc, Crafting]
 2. Complete the representative crop-sale favor with Alfhild Battle-Born when the Whiterun farm loop is safe. [CHECKLIST: Favor, Misc]
 3. Complete one smithed item, one enchanted disposable item, and one potion for Artificer once materials and stations are available. [CHECKLIST: Trophy, Crafting]
@@ -190,6 +97,8 @@ MR-001 coverage ledger:
 5. Use local Whiterun/Riverwood objectives as safe filler if you are short of level 8, but do not cross the Silent Moons gate early.
 
 ### MR-007 - Level 8 Silent Moons Gate
+
+Scaffold only - not yet v1-expanded.
 
 Checkpoint: Be level 8+ before entering or looting Silent Moons Camp.
 
@@ -201,6 +110,8 @@ Checkpoint: Be level 8+ before entering or looting Silent Moons Camp.
 
 ### MR-008 - Goldenhills Plantation
 
+Scaffold only - not yet v1-expanded.
+
 1. Start and complete `The Unquiet Dead` when the Rorikstead/central loop is stable. [CHECKLIST: AE Creation, Quest]
 2. Claim Goldenhills Plantation and verify ownership, bed/rest, pantry, crop, income, livestock, and steward/farmhand setup before relying on it. [CHECKLIST: Property, Food, Income]
 3. Assign Faendal as the default Goldenhills steward only after `A Lovely Letter` is resolved in his favor and any desired early Archery/follower use is complete.
@@ -211,12 +122,16 @@ Checkpoint: Be level 8+ before entering or looting Silent Moons Camp.
 
 ### MR-009 - Companions Entry
 
+Scaffold only - not yet v1-expanded.
+
 1. Start the Companions with `Take Up Arms`. [CHECKLIST: Quest, Faction]
 2. Complete `Proving Honor` and the required early radiant gates as offered. [CHECKLIST: Quest, Radiant]
 3. If `Hired Muscle` offers `Scare My Enemy`, accept it as representative coverage; do not restart the run merely to force that seed. [CHECKLIST: Radiant]
 4. Keep the Companions arc from consuming all early route time. Use it to build combat competence and faction access while the route continues to develop storage, food, and warm-region support.
 
 ### MR-010 - Companions Transformation Window
+
+Scaffold only - not yet v1-expanded.
 
 1. Continue the Companions through the werewolf path and preserve Beast Form access. [CHECKLIST: Quest, Spell/Power, Trophy]
 2. Complete Companions main progression without permanently curing or losing transformation access early.
@@ -226,6 +141,8 @@ Checkpoint: Be level 8+ before entering or looting Silent Moons Camp.
 
 ### MR-011 - Falkreath Favor And Lakeview Protection
 
+Scaffold only - not yet v1-expanded.
+
 1. Secure Falkreath Jarl/Siddgeir favor and land-purchase prerequisites before any Dark Brotherhood route state can pressure Helvard. [CHECKLIST: Property, Favor, NPC]
 2. Buy Lakeview Manor land as soon as the Falkreath state is safe and affordable. [CHECKLIST: Property]
 3. Use Lakeview as the first Hearthfire construction anchor. Recommended wings are Armory, Storage Room, and Bedrooms.
@@ -234,6 +151,8 @@ Checkpoint: Be level 8+ before entering or looting Silent Moons Camp.
 
 ### MR-012 - Southern Warm Corridor
 
+Scaffold only - not yet v1-expanded.
+
 1. Route Falkreath, Riverwood, Ivarstead, and nearby warm-region objectives in compact loops with known bed and sell-off endpoints. [CHECKLIST: Location, Book, Misc]
 2. Pick up in-scope quest books, AE documents, spell tomes, and selected skill-book copies as the route naturally passes them, but store skill books unread unless the guide says otherwise. [CHECKLIST: Book, Skill Book, Spell]
 3. Build Lakeview in stages rather than carrying all materials at once. Use steward/material services where safe and self-build checklist-sensitive rooms or displays.
@@ -241,6 +160,8 @@ Checkpoint: Be level 8+ before entering or looting Silent Moons Camp.
 5. Do not treat mountain objectives, cold interiors, or Dawnguard/DLC content as casual filler.
 
 ### MR-013 - Hircine And Bloated Man's Grotto
+
+Scaffold only - not yet v1-expanded.
 
 1. Before starting `Ill Met By Moonlight`, route Bloated Man's Grotto in its normal state and acquire Bolar's Oathblade if preserving that unique item. [CHECKLIST: Unique Item, Location]
 2. Make `HARD SAVE: HS-DAEDRIC-HIRCINE-GROTTO` before resolving the Hircine outcome.
@@ -252,12 +173,16 @@ Checkpoint: Be level 8+ before entering or looting Silent Moons Camp.
 
 ### MR-014 - Riften Access
 
+Scaffold only - not yet v1-expanded.
+
 1. Enter Riften when the route can support travel, food, sell-off, and crime/faction state management.
 2. Establish Riften services, Honeyside/Shadowfoot candidacy, merchant access, and local safe exits. [CHECKLIST: Property, Location]
 3. Start the Thieves Guild with `A Chance Arrangement` and complete `Taking Care of Business`. [CHECKLIST: Quest, Faction, Trophy]
 4. Do not push into Nightingale gates or late Thieves rewards here.
 
 ### MR-015 - Early Thieves Guild Chain
+
+Scaffold only - not yet v1-expanded.
 
 1. Complete `Loud and Clear`. [CHECKLIST: Quest]
 2. Complete `Dampened Spirits`. [CHECKLIST: Quest]
@@ -268,6 +193,8 @@ Checkpoint: Be level 8+ before entering or looting Silent Moons Camp.
 
 ### MR-016 - Riften And Rift Sweep
 
+Scaffold only - not yet v1-expanded.
+
 1. Route safe Riften/Rift local objectives, including property candidates, local books, support merchants, and corridor discoveries. [CHECKLIST: Location, Property, Book]
 2. Make `HARD SAVE: HS-RIFT-FROST-LETRUSH` before resolving `Promises to Keep`.
 3. MAIN ROUTE: keep Frost on the main save unless final QA proves a checklist gap. [CHECKLIST: Mount, Unique Item]
@@ -275,6 +202,8 @@ Checkpoint: Be level 8+ before entering or looting Silent Moons Camp.
 5. Keep Dawnguard and Aetherium branch content out of this Riften block.
 
 ### MR-017 - Level 32 Thieves Checkpoint
+
+Scaffold only - not yet v1-expanded.
 
 Checkpoint: Level 32+ is the Nightingale Armor readiness threshold only.
 
@@ -286,12 +215,16 @@ Checkpoint: Level 32+ is the Nightingale Armor readiness threshold only.
 
 ### MR-018 - Reach Setup
 
+Scaffold only - not yet v1-expanded.
+
 1. Establish Markarth and Old Hroldan support before deeper western loops. Use inns, carriage access, food, sell-off, and carry planning. [CHECKLIST: Location, Survival]
 2. Acquire Vlindrel Hall only after local purchase/thane prerequisites and storage validation are satisfied. [CHECKLIST: Property]
 3. Route safe Reach locations and books as corridor support, but do not enter Sky Haven Temple before level 46. [CHECKLIST: Location, Book]
 4. Treat Dwemer and Forsworn-heavy dungeons as expedition blocks: sleep first, carry food, and plan a sell-off after exit.
 
 ### MR-019 - Cidhna, Molag Bal, And Namira
+
+Scaffold only - not yet v1-expanded.
 
 1. Before `No One Escapes Cidhna Mine`, report any completed Thieves Guild special jobs and dismiss vulnerable animals or Creation pets. Save before the Shrine of Talos arrest. [CHECKLIST: Quest, Bug Warning]
 2. Complete the Cidhna Mine route with inventory/quest-state verification afterward. [CHECKLIST: Quest]
@@ -302,12 +235,16 @@ Checkpoint: Level 32+ is the Nightingale Armor readiness threshold only.
 
 ### MR-020 - Aetherium Setup
 
+Scaffold only - not yet v1-expanded.
+
 1. Start `Lost to the Ages` and collect Aetherium shards only when the associated locations are route-safe. [CHECKLIST: Quest, Location, Unique Item]
 2. Do not craft an Aetherial item yet.
 3. Keep all shard and forge progress cleanly documented so the later Dawnguard/Aetherium Forge branch can happen from a single known save.
 4. Hold the final forge decision for MR-047 and `HS-DG-AETHERIUM-FORGE`.
 
 ### MR-021 - Daedric Matrix
+
+Scaffold only - not yet v1-expanded.
 
 1. Route Daedric quests only after their level, NPC, artifact, and branch requirements are safe. [CHECKLIST: Daedric, Trophy]
 2. `A Daedra's Best Friend`: make `HARD SAVE: HS-DAEDRIC-CLAVICUS`; branch the Rueful Axe outcome first, reload, then keep Masque of Clavicus Vile on the main save. [CHECKLIST: Branch, Artifact]
@@ -321,12 +258,16 @@ Checkpoint: Level 32+ is the Nightingale Armor readiness threshold only.
 
 ### MR-022 - Windhelm State And Hjerim
 
+Scaffold only - not yet v1-expanded.
+
 1. Complete `Blood on the Ice` in one controlled Windhelm block before Civil War end-state, Dragonborn main start, or Dark Brotherhood fallout can complicate the city. [CHECKLIST: Quest, Bug Warning]
 2. Save before Hjerim entry, purchase, and furnishing.
 3. Buy and furnish Hjerim only after ownership state is valid. Verify storage and furnishings before using it. [CHECKLIST: Property]
 4. Do not treat Mistwatch as Delver padding later; route it for quest/location value if used, but do not count it toward Delver.
 
 ### MR-023 - Main Quest Staging Before Sky Haven
+
+Scaffold only - not yet v1-expanded.
 
 1. Complete `The Way of the Voice`. [CHECKLIST: Quest, Shout]
 2. Complete `The Horn of Jurgen Windcaller`. [CHECKLIST: Quest, Shout]
@@ -335,6 +276,8 @@ Checkpoint: Level 32+ is the Nightingale Armor readiness threshold only.
 5. HARD STOP: Do not advance to first entering Sky Haven Temple or completing `Alduin's Wall` before level 46.
 
 ### MR-024 - Eastmarch Support
+
+Scaffold only - not yet v1-expanded.
 
 1. Complete Malborn's follow-up after `Diplomatic Immunity` before losing the thread of that NPC state. [CHECKLIST: Quest, NPC]
 2. Route Eastmarch/Windhelm corridor discoveries, books, Gallows Hall, Hjerim support, and ferry preparation with food, hot soup ingredients, inn/rest, and carry checks. [CHECKLIST: Location, AE Creation, Property, Book]
@@ -345,12 +288,16 @@ Checkpoint: Level 32+ is the Nightingale Armor readiness threshold only.
 
 ### MR-025 - Solitude Prerequisites
 
+Scaffold only - not yet v1-expanded.
+
 1. Complete Solitude favors and dependencies before hostile Solitude states or `Bound Until Death`. [CHECKLIST: Favor, Quest, NPC]
 2. Complete `The Spiced Wine` and Captain Aldis-linked work before Civil War or Dark Brotherhood states can interfere. [CHECKLIST: Favor, Misc]
 3. Preserve Erikur until the Solitude Thieves restoration work involving `The Dainty Sload` is complete. [CHECKLIST: NPC, Trophy]
 4. Do not start a Solitude-hostile chain while Bards, Thieves, or Civil War state still depends on peaceful access.
 
 ### MR-026 - Bards College
+
+Scaffold only - not yet v1-expanded.
 
 1. Join the Bards College and start `Tending the Flames`. [CHECKLIST: Quest, Faction]
 2. Do not collect King Olaf's Verse before assignment.
@@ -360,6 +307,8 @@ Checkpoint: Level 32+ is the Nightingale Armor readiness threshold only.
 
 ### MR-027 - Shield Of Solitude Gate
 
+Scaffold only - not yet v1-expanded.
+
 Checkpoint: Be level 40+ before taking Falk's final `The Wolf Queen Awakened` reward.
 
 1. Route `The Wolf Queen` line as far as safe for Solitude state and combat power. [CHECKLIST: Quest]
@@ -367,6 +316,8 @@ Checkpoint: Be level 40+ before taking Falk's final `The Wolf Queen Awakened` re
 3. At level 40+, complete the final report to Falk and receive the maximum Shield of Solitude tier. [CHECKLIST: Quest, Unique Item]
 
 ### MR-028 - Northwest And Coast Prepared Sweep
+
+Scaffold only - not yet v1-expanded.
 
 1. Route Solitude, Dragon Bridge, Morthal, marsh, coastal, Windstad, Myrwatch, and local location/book queues with cold, carry, ferry, and inn planning. [CHECKLIST: Location, Property, Book]
 2. Buy Windstad Manor when Hjaalmarch property state is valid. Recommended wings are Kitchen, Alchemy Laboratory, and Greenhouse. [CHECKLIST: Property]
@@ -376,12 +327,16 @@ Checkpoint: Be level 40+ before taking Falk's final `The Wolf Queen Awakened` re
 
 ### MR-029 - Dark Brotherhood Fork
 
+Scaffold only - not yet v1-expanded.
+
 1. Confirm `Delayed Burial`, Lakeview/Helvard prerequisites, Solitude dependencies, and Erikur-sensitive work are settled.
 2. Make `HARD SAVE: HS-DB-ABANDONED-SHACK` before the Abandoned Shack commitment.
 3. BRANCH ROUTE: kill Astrid and complete `Destroy the Dark Brotherhood!` only on the branch save. Record the mutually exclusive outcome, then reload. [CHECKLIST: Branch, Quest]
 4. MAIN ROUTE: kill a captive to join the Dark Brotherhood. [CHECKLIST: Quest, Faction]
 
 ### MR-030 - Dark Brotherhood Main Route
+
+Scaffold only - not yet v1-expanded.
 
 1. On the main save, complete the Dark Brotherhood join-route questline from `With Friends Like These...` through `Hail Sithis!`. [CHECKLIST: Quest, Faction, Trophy]
 2. Complete associated contracts and sanctuary reward handling as routed. [CHECKLIST: Quest, Unique Item]
@@ -393,6 +348,8 @@ Checkpoint: Be level 40+ before taking Falk's final `The Wolf Queen Awakened` re
 
 ### MR-031 - Northern Preflight
 
+Scaffold only - not yet v1-expanded.
+
 1. Before northern travel, sleep indoors, carry cooked food and hot soup, verify warmth gear, clear carry weight, and plan the next inn/home endpoint. [CHECKLIST: Survival]
 2. Treat Pale, Winterhold, northern coast, mountain, and cold-interior travel as prepared sweeps.
 3. Keep cure disease, healing, torches, and emergency camping support available.
@@ -400,12 +357,16 @@ Checkpoint: Be level 40+ before taking Falk's final `The Wolf Queen Awakened` re
 
 ### MR-032 - College Opening
 
+Scaffold only - not yet v1-expanded.
+
 1. Enter the College and complete `First Lessons`. [CHECKLIST: Quest, Faction, Spell]
 2. Buy or collect route-selected spell tomes from safe College/vendor sources when available. [CHECKLIST: Spell, Book]
 3. HARD STOP: Hold `Under Saarthal` and all Forbidden Legend-linked state until level 36 under the current conservative constraint.
 4. Do not read `Lost Legends`, approach Folgunthur, approach Saarthal, enter Geirmund's Hall, or approach Reachwater Rock before level 36.
 
 ### MR-033 - Dawnstar, Pale Blade, And Vaermina
+
+Scaffold only - not yet v1-expanded.
 
 1. Route Dawnstar, Heljarchen, Frostmere, and Pale objectives only after cold preflight.
 2. Be level 27+ before resolving The Pale Blade claim. [CHECKLIST: Quest, Unique Item]
@@ -417,6 +378,8 @@ Checkpoint: Be level 40+ before taking Falk's final `The Wolf Queen Awakened` re
 
 ### MR-034 - Mage's Circlet Gate
 
+Scaffold only - not yet v1-expanded.
+
 Checkpoint: Be level 25+ before reporting `Good Intentions` for Mage's Circlet.
 
 1. Keep the Mage's Circlet hold active until the College route naturally reaches `Good Intentions`.
@@ -424,6 +387,8 @@ Checkpoint: Be level 25+ before reporting `Good Intentions` for Mage's Circlet.
 3. At level 25+, claim Mage's Circlet. [CHECKLIST: Quest, Unique Item]
 
 ### MR-035 - Level 36 Linked-Dungeon Loop
+
+Scaffold only - not yet v1-expanded.
 
 Checkpoint: Be level 36+ before this section.
 
@@ -435,12 +400,16 @@ Checkpoint: Be level 36+ before this section.
 
 ### MR-036 - College Completion
 
+Scaffold only - not yet v1-expanded.
+
 1. Continue the College chain through `Hitting the Books`, `Good Intentions`, `Revealing the Unseen`, `Containment`, `The Staff of Magnus`, and `The Eye of Magnus`. [CHECKLIST: Quest, Faction, Trophy]
 2. Keep Mage's Circlet and linked-dungeon gates satisfied before reward handoffs.
 3. Route Labyrinthian and related high-risk/cold segments as prepared expeditions. [CHECKLIST: Location, Spell/Power]
 4. Acquire College spell/power rewards and selected spell tomes without relying on random loot. [CHECKLIST: Spell, Book]
 
 ### MR-037 - College Side Content And Velehk
+
+Scaffold only - not yet v1-expanded.
 
 1. Route College side quests, master spell/ritual quests, and selected spell-tome purchases after the College state supports them. [CHECKLIST: Quest, Spell]
 2. Route `Forgotten Names` with `HARD SAVE: HS-COLLEGE-VELEHK-SAIN` before the final outcome.
@@ -452,6 +421,8 @@ Checkpoint: Be level 36+ before this section.
 
 ### MR-038 - Level 46 Sky Haven And Dragonbane
 
+Scaffold only - not yet v1-expanded.
+
 Checkpoint: Be level 46+ before first entering Sky Haven Temple.
 
 1. If below level 46, use post-40 city, faction, regional, and crafting support that keeps Riftweald, Sky Haven, and late Nightingale handoffs closed.
@@ -460,6 +431,8 @@ Checkpoint: Be level 46+ before first entering Sky Haven Temple.
 4. Record Sky Haven Temple discovery and any route-supported Blades state, but preserve Paarthurnax handling for MR-044.
 
 ### MR-039 - Level 46 Thieves Guild Rewards
+
+Scaffold only - not yet v1-expanded.
 
 Checkpoint: Be level 46+ before resuming the Thieves main chain.
 
@@ -471,6 +444,8 @@ Checkpoint: Be level 46+ before resuming the Thieves main chain.
 
 ### MR-040 - Guild Restoration And Amulet Of Articulation
 
+Scaffold only - not yet v1-expanded.
+
 1. Complete the four city restoration tracks: five eligible Delvin/Vex jobs each in Markarth, Solitude, Whiterun, and Windhelm, then the matching special reputation quest. [CHECKLIST: Quest, Radiant, Trophy]
 2. Use assignment saves. Reload/re-roll restoration jobs instead of accumulating failed journal entries.
 3. Ensure at least one completion of each job type: Numbers, Fishing, Bedlam, Burglary, Shill, Sweep, and Heist. [CHECKLIST: Radiant]
@@ -480,6 +455,8 @@ Checkpoint: Be level 46+ before resuming the Thieves main chain.
 
 ### MR-041 - Civil War Stormcloak Branch
 
+Scaffold only - not yet v1-expanded.
+
 1. Make `HARD SAVE: HS-CW-BEFORE-FACTION-OATH` before irreversible Civil War faction commitment.
 2. BRANCH ROUTE: join the Stormcloaks and complete the Stormcloak-only Civil War route through `Battle for Solitude`. Protect War Hero logic on the branch and record branch-only objectives. [CHECKLIST: Branch, Quest, Trophy]
 3. Do not duplicate Imperial objectives on the Stormcloak branch.
@@ -487,6 +464,8 @@ Checkpoint: Be level 46+ before resuming the Thieves main chain.
 5. MAIN ROUTE: join the Imperial Legion on the canonical save. [CHECKLIST: Quest, Faction]
 
 ### MR-042 - Imperial Civil War
+
+Scaffold only - not yet v1-expanded.
 
 1. Complete the Imperial Civil War route, including War Hero-safe fort handling and Hero of Skyrim endpoint. [CHECKLIST: Quest, Trophy]
 2. If `Battle of the Champions` side state needs separation, make `HARD SAVE: HS-AE-CIVIL-WAR-CHAMPIONS` before resolving the Creation's faction-aligned choice.
@@ -496,12 +475,16 @@ Checkpoint: Be level 46+ before resuming the Thieves main chain.
 
 ### MR-043 - Late Main Quest Coordination
 
+Scaffold only - not yet v1-expanded.
+
 1. Continue the main quest through `The Throat of the World`, `Elder Knowledge`, `Alduin's Bane`, and `The Fallen`. [CHECKLIST: Quest, Shout, Trophy]
 2. If MR-042 completed the Civil War, `Season Unending` should be skipped.
 3. If the Civil War was not completed, stop and use the War Hero/hold-handoff save policy before any treaty outcome. Do not let a treaty skip the relevant fort battle without a validated trophy-safe path.
 4. Keep the Elder Scroll (Dragon) until all main quest and Dawnguard uses are complete. [CHECKLIST: Book/Document]
 
 ### MR-044 - Paarthurnax And Blades Branch
+
+Scaffold only - not yet v1-expanded.
 
 1. Make `HARD SAVE: HS-MQ-PAARTHURNAX` before killing Paarthurnax.
 2. BRANCH ROUTE: kill Paarthurnax, restore Blades support, complete `Rebuilding the Blades`, and complete one representative `Dragon Hunting` quest. [CHECKLIST: Branch, Quest, Radiant]
@@ -513,6 +496,8 @@ Checkpoint: Be level 46+ before resuming the Thieves main chain.
 
 ### MR-045 - Dawnguard Fork And Volkihar Branch
 
+Scaffold only - not yet v1-expanded.
+
 1. Start Dawnguard only when level-46 reward gates and branch readiness are settled. [CHECKLIST: Quest, Faction]
 2. Before `Bloodline`, verify spouse state if the Volkihar branch will include `The Gift`; otherwise label `The Gift` conditional.
 3. Make `HARD SAVE: HS-DG-BLOODLINE`.
@@ -522,6 +507,8 @@ Checkpoint: Be level 46+ before resuming the Thieves main chain.
 
 ### MR-046 - Dawnguard Main Route
 
+Scaffold only - not yet v1-expanded.
+
 1. Complete the Dawnguard main questline on the canonical save. [CHECKLIST: Quest, Trophy]
 2. Route Fort Dawnguard support, finite side content, and representative Dawnguard radiants within source boundaries. [CHECKLIST: Quest, Radiant]
 3. Complete the first `Ancient Technology` before expecting `Lost Relic` to appear.
@@ -529,6 +516,8 @@ Checkpoint: Be level 46+ before resuming the Thieves main chain.
 5. Avoid unbounded Dawnguard radiant grinding.
 
 ### MR-047 - Aetherium Forge Branches
+
+Scaffold only - not yet v1-expanded.
 
 1. At the Aetherium Forge, make `HARD SAVE: HS-DG-AETHERIUM-FORGE`.
 2. BRANCH ROUTE: craft the Aetherial Staff, record it, then reload. [CHECKLIST: Branch, Artifact]
@@ -538,6 +527,8 @@ Checkpoint: Be level 46+ before resuming the Thieves main chain.
 
 ### MR-048 - Dawnguard Worldspaces
 
+Scaffold only - not yet v1-expanded.
+
 1. Route Soul Cairn as a prepared expedition: food, carry space, healing, and exit plan. Acquire Arvak and required Soul Cairn books/rewards. [CHECKLIST: Location, Book, Mount]
 2. Teach all three Soul Tear words through Durnehviir summon/listen cycles. [CHECKLIST: Shout, Trophy]
 3. Route Forgotten Vale with expedition support. Collect Unknown Books, Auriel's Bow, paragon content, and Dawnguard location/book queues. [CHECKLIST: Location, Book, Collectible, Unique Item]
@@ -545,6 +536,8 @@ Checkpoint: Be level 46+ before resuming the Thieves main chain.
 5. Treat duplicate or secondary markers by the location-validation rules; do not double-count Delver clears.
 
 ### MR-049 - Werewolf, Vampire Lord, And Final Mortal Setup
+
+Scaffold only - not yet v1-expanded.
 
 1. Complete Werewolf Mastered before permanently losing werewolf access. [CHECKLIST: Trophy, Transformation]
 2. Complete Vampire Mastered in a validated vampire/Vampire Lord window. [CHECKLIST: Trophy, Transformation]
@@ -556,12 +549,16 @@ Checkpoint: Be level 46+ before resuming the Thieves main chain.
 
 ### MR-050 - Solstheim Entry
 
+Scaffold only - not yet v1-expanded.
+
 1. Take the Windhelm ferry to Raven Rock only with food, hot soup, rest, gold, carry space, and return planning. [CHECKLIST: Survival, Location]
 2. Establish Raven Rock services and use The Retching Netch as the initial rest spine.
 3. Do not use Severin Manor storage before ownership verification.
 4. Do not start broad island cleanup on first arrival.
 
 ### MR-051 - Raven Rock Core
+
+Scaffold only - not yet v1-expanded.
 
 1. Complete Dragonborn opening through `The Temple of Miraak`. [CHECKLIST: Quest]
 2. Complete Raven Rock setup, `The Final Descent`, and Bloodskal/Raven Rock Mine coverage. [CHECKLIST: Quest, Unique Item, Location]
@@ -570,6 +567,8 @@ Checkpoint: Be level 46+ before resuming the Thieves main chain.
 
 ### MR-052 - Skaal And Stalhrim
 
+Scaffold only - not yet v1-expanded.
+
 1. Complete `The Fate of the Skaal`. [CHECKLIST: Quest]
 2. Immediately start and secure `A New Source of Stalhrim`; save before Abandoned Lodge and verify Deor/Fanari state. [CHECKLIST: Quest, NPC]
 3. Verify stalhrim crafting unlock before treating stalhrim gear or crafting rows as available. [CHECKLIST: Crafting]
@@ -577,12 +576,16 @@ Checkpoint: Be level 46+ before resuming the Thieves main chain.
 
 ### MR-053 - Thirsk Branch And Nord Continuity
 
+Scaffold only - not yet v1-expanded.
+
 1. Make `HARD SAVE: HS-DRAGONBORN-THIRSK-CHOICE` before resolving Mead Hall control.
 2. BRANCH ROUTE: complete the Riekling-side `The Chief of Thirsk Hall`, verify Riekling occupant/follower state, then reload. [CHECKLIST: Branch, Quest, Relationship]
 3. Do not complete Nord-side favors on the Riekling branch.
 4. MAIN ROUTE: complete Nord-side `Retaking Thirsk` and the Nord-side Elmus, Halbarn, and Hilund favors. [CHECKLIST: Quest, Favor, Relationship]
 
 ### MR-054 - Tel Mithryn And Black Books
+
+Scaffold only - not yet v1-expanded.
 
 1. Route Tel Mithryn access with Raven Rock recovery and carry planning.
 2. Complete `Reluctant Steward`; save before asking Neloth about Varona and before leaving to find the body. Verify the body is reachable and staff-enchanter room/Black Book access opens afterward. [CHECKLIST: Quest, Book, Crafting]
@@ -592,12 +595,16 @@ Checkpoint: Be level 46+ before resuming the Thieves main chain.
 
 ### MR-055 - Unearthed And Ralis
 
+Scaffold only - not yet v1-expanded.
+
 1. Route `Unearthed` by phase. Save before each payment and before each Kolbjorn re-entry. [CHECKLIST: Quest, Location]
 2. Before the final outcome, make `HARD SAVE: HS-DRAGONBORN-UNEARTHED-RALIS`.
 3. MAIN ROUTE: spare Ralis and preserve follower availability unless final QA proves a kill-outcome requirement. [CHECKLIST: Quest, Unique Item, Follower]
 4. Record the kill outcome as optional note material only.
 
 ### MR-056 - Solstheim Sweep
+
+Scaffold only - not yet v1-expanded.
 
 1. Route Deathbrand after its level gate and with island support. [CHECKLIST: Quest, Unique Item, Location]
 2. Route Karstaag, Black Books, Skaal/Thirsk/Tel Mithryn/Raven Rock locations, spell tomes, documents, and island collectibles in prepared loops. [CHECKLIST: Location, Book, Spell/Power, Collectible]
@@ -607,12 +614,16 @@ Checkpoint: Be level 46+ before resuming the Thieves main chain.
 
 ### MR-057 - Ghosts Of The Tribunal Branch
 
+Scaffold only - not yet v1-expanded.
+
 1. Make `HARD SAVE: HS-AE-GHOSTS-TEMPLE` before committing to the heretic path.
 2. BRANCH ROUTE: play the destroy-heretics outcome, record alternate Temple state, and record `Reclamation Priest's Journal (AE)` branch coverage. [CHECKLIST: Branch, AE Creation, Book]
 3. RETURN: reload `HS-AE-GHOSTS-TEMPLE`.
 4. MAIN ROUTE: keep join/infiltrate continuity to preserve armory access, crafting permissions, companion tasks, follower access, and Skullcrusher coverage. [CHECKLIST: AE Creation, Unique Item]
 
 ### MR-058 - Bittercup Branches
+
+Scaffold only - not yet v1-expanded.
 
 1. Make `HARD SAVE: HS-AE-BITTERCUP-ALTAR` before choosing a path.
 2. BRANCH ROUTE: choose Power, complete `The Pit`, record Grand Champion's Helm and Grand Champion's Sword, then reload. [CHECKLIST: Branch, AE Creation, Unique Item]
@@ -621,6 +632,8 @@ Checkpoint: Be level 46+ before resuming the Thieves main chain.
 5. Do not keep Power or Nothing on canonical continuity.
 
 ### MR-059 - Level 60 Miraak Finale
+
+Scaffold only - not yet v1-expanded.
 
 Checkpoint: Be level 60+ before making Miraak's corpse appear.
 
@@ -633,6 +646,8 @@ Checkpoint: Be level 60+ before making Miraak's corpse appear.
 
 ### MR-060 - World-Eater's Eyrie And Dragonslayer
 
+Scaffold only - not yet v1-expanded.
+
 1. Prepare for Skuldafn as a separate-worldspace expedition: sleep, food, healing, carry space, and no unfinished local errands that depend on immediate return.
 2. Complete `The World-Eater's Eyrie`, Skuldafn, Sovngarde, and `Dragonslayer`. [CHECKLIST: Quest, Location, Trophy]
 3. Record any unique items, shouts, and location/checklist entries available only in this sequence.
@@ -640,12 +655,16 @@ Checkpoint: Be level 60+ before making Miraak's corpse appear.
 
 ### MR-061 - High-Risk AE And Separate Worldspaces
 
+Scaffold only - not yet v1-expanded.
+
 1. Route `The Cause` only after parent triggers, level/difficulty readiness, and exit/recovery plans are checked. [CHECKLIST: AE Creation, Quest]
 2. Treat Deadlands, Mythic Dawn Camp, Rielle, Solitude Sewers, and other separate or quest-stage-gated Creation spaces as parent-quest content, not ordinary corridor cleanup. [CHECKLIST: Location, Unique Item]
 3. Do not auto-route high-risk AE content from Skyrim/Solstheim proximity alone.
 4. Carry only required items and plan recovery after each separate-worldspace or high-risk Creation segment.
 
 ### MR-062 - Black Book Defaults And Progression Switches
+
+Scaffold only - not yet v1-expanded.
 
 1. Confirm Black Book power defaults after the required Black Books and skill-book timing needs are satisfied. [CHECKLIST: Spell/Power, Book]
 2. Use Dragonborn Force, Secret of Arcana, Mora's Boon, Secret Servant, and the planned Sallow Regent switches unless later QA chooses a better local default.
@@ -656,6 +675,8 @@ Checkpoint: Be level 60+ before making Miraak's corpse appear.
 
 ### MR-063 - Location Counter Cleanup
 
+Scaffold only - not yet v1-expanded.
+
 1. Finish corridor-by-corridor clear/discovery cleanup for Delver, Explorer, Solstheim Explorer, and remaining map/location rows. [CHECKLIST: Location, Trophy]
 2. Verify `Cleared` tags and the `Dungeons Cleared` statistic for Delver candidates.
 3. Do not count Angarvunde or Mistwatch toward Delver.
@@ -663,6 +684,8 @@ Checkpoint: Be level 60+ before making Miraak's corpse appear.
 5. Treat AE content locations as parent-quest/property/content coverage unless the appendix/QA layer proves a separate cue is needed.
 
 ### MR-064 - Collectible Reconciliation
+
+Scaffold only - not yet v1-expanded.
 
 1. Reconcile opportunistic pickups already made during natural visits, then finish remaining finite sets. [CHECKLIST: Collectible]
 2. Finish Stones of Barenziah, dragon priest masks, claws, bugs in jars, paragons, treasure maps, fishing, pets, mounts, shouts, word walls, and remaining finite collectible sets. [CHECKLIST: Collectible, Pet/Mount, Shout]
@@ -672,12 +695,16 @@ Checkpoint: Be level 60+ before making Miraak's corpse appear.
 
 ### MR-065 - Books, Spells, And Documents
 
+Scaffold only - not yet v1-expanded.
+
 1. Finish selected skill-book copy collection and then read planned skill books under Scholar's Insight policy. Check Reader after 50 unique skill-book titles and continue to all 90 required skill-book objectives. [CHECKLIST: Skill Book, Trophy]
 2. Finish spell-tome learning from selected sources rather than random loot. [CHECKLIST: Spell]
 3. Finish quest/AE documents, Black Book checks, and final learned-spell verification. [CHECKLIST: Book, Spell/Power]
 4. Read/use Oghma Infinium late as a gap closer; hard save first, and do not use it on skills already at 100. [CHECKLIST: Book, Progression]
 
 ### MR-066 - Crafting, Enchanting, Alchemy, And Investments
+
+Scaffold only - not yet v1-expanded.
 
 1. Learn all non-destructively learnable enchantments from disposable sources. Do not disenchant unique-only preserved items. [CHECKLIST: Enchantment]
 2. Acquire/store one copy of required alchemy ingredients, then complete the Experimenter 3 discovery pass when Alchemy and ingredient preservation state are safe. [CHECKLIST: Alchemy]
@@ -687,11 +714,15 @@ Checkpoint: Be level 60+ before making Miraak's corpse appear.
 
 ### MR-067 - Level 78 And Level 80 Gates
 
+Scaffold only - not yet v1-expanded.
+
 1. At level 78+, route a combat-ready Legendary Dragon block and verify the Legend trophy. [CHECKLIST: Trophy, Combat]
 2. At level 80+, route `The Ebony Warrior` with a pre-fight manual save and final combat checks. [CHECKLIST: Quest, Trophy]
 3. Do not trigger or fight either target while active combat, armor, or defensive skills are hollowed out from Legendary resets.
 
 ### MR-068 - All-Perks Loop
+
+Scaffold only - not yet v1-expanded.
 
 1. Execute the late Legendary reset loop only after beds, storage, materials, gold, spell access, and combat alternatives exist.
 2. Use the preferred repeated reset pool first: Alchemy, Smithing, Enchanting, Alteration, Conjuration, and Illusion. [CHECKLIST: Skill/Perk, Progression]
@@ -702,6 +733,8 @@ Checkpoint: Be level 60+ before making Miraak's corpse appear.
 
 ### MR-069 - Homes, Household, Services, Pets, And Mounts
 
+Scaffold only - not yet v1-expanded.
+
 1. Verify every city home, Hearthfire homestead, AE home, Severin Manor, Goldenhills, and relevant upgrade/furnishing state. [CHECKLIST: Property]
 2. Verify Hearthfire wings/services: Lakeview Armory/Storage/Bedrooms, Windstad Kitchen/Alchemy/Greenhouse, Heljarchen Library/Trophy/Enchanter, one steward per homestead, all three carriage drivers, and bards after Main Hall readiness. [CHECKLIST: Property, Relationship]
 3. Move spouse/children to Tundra Homestead only after family/child-room validation. Recommended defaults are Ysolda, Lucia, and Sofie. [CHECKLIST: Relationship]
@@ -710,6 +743,8 @@ Checkpoint: Be level 60+ before making Miraak's corpse appear.
 
 ### MR-070 - Master Criminal Trophy Branch
 
+Scaffold only - not yet v1-expanded.
+
 1. Make `HARD SAVE: HS-TROPHY-MASTER-CRIMINAL`.
 2. BRANCH ROUTE: stage controlled 1000-gold bounties in all nine holds. Avoid quest-critical NPC deaths and do not combine this with unrelated crime or cleanup. [CHECKLIST: Branch, Trophy]
 3. Verify Master Criminal trophy pop.
@@ -717,6 +752,8 @@ Checkpoint: Be level 60+ before making Miraak's corpse appear.
 5. If the trophy does not pop, reload the pre-branch save and repeat only the verified bounty actions.
 
 ### MR-071 - Final Reconciliation
+
+Scaffold only - not yet v1-expanded.
 
 1. Run the final checklist synchronization: quests, trophies, locations, unique items, properties, spells/powers, books, skill books, enchantments, alchemy effects, crafting systems, investments, pets/mounts, followers/options, and branches. [CHECKLIST: Checklist]
 2. Confirm every branch hard save was reloaded and the canonical final continuity is Imperial, Dawnguard, Dark Brotherhood join, Paarthurnax preserved, Ring of Hircine, Aetherial Crown, Fortune Bittercup path, Nord-side Thirsk, join/infiltrate Ghosts path, spared Ralis, kept Frost, and mortal final character state.
