@@ -9,6 +9,7 @@ future writers should treat every hit as requiring review or replacement.
 from __future__ import annotations
 
 import argparse
+import re
 from pathlib import Path
 
 
@@ -36,6 +37,13 @@ PLACEHOLDER_PHRASES = [
     "support objectives",
 ]
 
+PHRASE_EXCEPTIONS = {
+    "family": [
+        "amren's family sword",
+        "family sword",
+    ],
+}
+
 
 def main() -> int:
     parser = argparse.ArgumentParser(
@@ -61,6 +69,8 @@ def main() -> int:
         lower = line.lower()
         for phrase in PLACEHOLDER_PHRASES:
             if phrase in lower:
+                if is_exception(phrase, lower):
+                    continue
                 hits.append((line_number, phrase, line.strip()))
 
     if not hits:
@@ -87,6 +97,9 @@ def extract_section(text: str, section: str) -> str:
             start_level = len(stripped) - len(stripped.lstrip("#"))
             break
 
+    if start_index is None:
+        start_index, start_level = extract_legacy_mr_section(lines, section)
+
     if start_index is None or start_level is None:
         raise SystemExit(f"Section not found: {section}")
 
@@ -102,6 +115,35 @@ def extract_section(text: str, section: str) -> str:
 
     prefix = "\n" * start_index
     return prefix + "\n".join(lines[start_index:end_index])
+
+
+def extract_legacy_mr_section(lines: list[str], section: str) -> tuple[int | None, int | None]:
+    """Map legacy MR-### section IDs to the corresponding player-facing route heading.
+
+    The guide no longer exposes MR codes in headings, but the audit workflow still
+    uses those stable internal identifiers. MR-001 maps to the first level-3 route
+    heading, MR-002 to the second, and so on.
+    """
+
+    match = re.fullmatch(r"MR-(\d{3})", section)
+    if not match:
+        return None, None
+
+    target_index = int(match.group(1))
+    seen = 0
+    for index, line in enumerate(lines):
+        stripped = line.lstrip()
+        if not stripped.startswith("### "):
+            continue
+        seen += 1
+        if seen == target_index:
+            return index, 3
+
+    return None, None
+
+
+def is_exception(phrase: str, lower_line: str) -> bool:
+    return any(exception in lower_line for exception in PHRASE_EXCEPTIONS.get(phrase, []))
 
 
 if __name__ == "__main__":

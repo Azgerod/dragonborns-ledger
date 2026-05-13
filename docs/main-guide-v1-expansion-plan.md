@@ -53,6 +53,8 @@ The player-facing guide and the internal coverage tracker are separate layers:
 
 Do not put objective IDs, coverage ledgers, row counts, coverage-matrix language, or "represented here" implementation prose in normal player-facing guide text unless the project deliberately adopts a final checklist-ID display format. Each row still must be auditable through the internal coverage tracker.
 
+The MR identifiers are internal coordination labels, not player-facing chapter names. Player-facing guide headings should use route titles. The sequence and jurisdiction of these internal sections may be adjusted during expansion when objective-level routing shows that the broad scaffold would split or delay content poorly. When a section boundary changes, update the guide text, the coverage tracker, and this plan/task-board handoff rather than forcing objectives into the stale scaffold.
+
 The guide must not use category placeholders as route instructions. Banned or suspect phrases include:
 
 * `route local`
@@ -113,8 +115,8 @@ The task board should surface the next active pass, but this table is the minimu
 | TB-035P | Prep and standards | Repo docs | Record this plan, reopen TB-035, harden instructions, and point the next task at MR-001. | Done |
 | TB-035-MR-001 | MR-001 - Setup And Save Baseline | G00 setup | AE entitlement, mod/Creation restrictions, Legendary/Survival setup, trophy-safe baseline, save policy, explicit exclusions created by setup scope. | Done |
 | TB-035-MR-001R | Revise MR-001 player-facing/internal split | MR-001 correction | Remove audit/report prose from the guide, move objective IDs and coverage status to `data/guide-coverage/main-guide-v1-coverage.csv`, and keep MR-001 readable as player instructions. | Done |
-| TB-035-MR-002 | MR-002 - Helgen, Riverwood, And First Survival Loop | G01 opening | `Unbound`, `Before the Storm`, Riverwood survival support, first bed/food/sell-off, opening objective and checklist cues. | Pending MR-001 review |
-| TB-035-MR-003 | MR-003 - First Whiterun Visit | G01 Whiterun first-entry | Whiterun entry, Amren/Ysolda/Brenuin/Uthgerd, early favor/work/action counters, relationship/default handling. | Pending |
+| TB-035-MR-002 | MR-002 - Helgen, Riverwood, And First Survival Loop | G01 opening | `Unbound`, `Before the Storm`, Riverwood survival support, first bed/food/sell-off, opening objective and checklist cues. | Done |
+| TB-035-MR-003 | MR-003 - First Whiterun Visit | G01 Whiterun first-entry | Whiterun entry, Amren/Ysolda/Brenuin/Uthgerd, first-visit protection, explicit Whiterun AE/property/book/side-objective deferrals, relationship/default handling. | Done; pending user review |
 | TB-035-MR-004 | MR-004 - Bleak Falls Barrow And Dragon Rising | G01-G02 main quest opener | `Bleak Falls Barrow`, `Dragon Rising`, first dragon/shout/trophy rows, dragon-world activation warnings. | Pending |
 | TB-035-MR-005 | MR-005 - First Storage, Horse, And Central Base Setup | G02 central support | Whiterun horse, Breezehome, Tundra Homestead, storage verification, property rows and support services. | Pending |
 | TB-035-MR-006 | MR-006 - Early Work Actions And Local Economy | G02 central activities | Chop wood, crop sale, brawl, beggar/drunk favors, crafting tutorials, early economy and trophy-counter rows. | Pending |

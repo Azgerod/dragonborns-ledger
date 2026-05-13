@@ -66,7 +66,13 @@ TB-035-MR-001 is complete. `drafts/final-guide/main-guide-v1.md` now exists, cop
 
 TB-035-MR-001R is complete. User feedback clarified that the guide must not read like an internal coverage report. MR-001 now has player-facing guide prose only: official AE bundle setup, trophy-safe content restrictions, Legendary difficulty, Survival Mode activation policy, rotating saves, early Creation trigger discipline, Fire Salts/hot-food planning, and Camping Supplies staging. Objective IDs, row counts, staged/completed status, cue mapping, and unresolved-row tracking now live in `data/guide-coverage/main-guide-v1-coverage.csv`.
 
-The current next step is user review of the corrected MR-001 model. TB-035-MR-002 is blocked until the user approves this player-facing/internal coverage split.
+TB-035-MR-002 is complete. MR-002 now uses the corrected two-layer model: player-facing prose in `drafts/final-guide/main-guide-v1.md`, internal objective/status mapping in `data/guide-coverage/main-guide-v1-coverage.csv`. The guide section routes the Helgen escape, post-Helgen Survival prompt, Helgen/Guardian Stones/Riverwood discovery cues, Warrior Stone/Blessed cue, Hadvar/Alvor opening default, Riverwood food/rest/sell-off support, staged `Before the Storm`, and explicit deferrals for nearby Riverwood and road objectives that must wait.
+
+TB-035-MR-003 is complete and pending user review. The player-facing guide no longer exposes MR codes in route headings. The first Whiterun section completes `Before the Storm`, discovers Whiterun Stables and Whiterun, stages Amren and Ysolda before leaving the city to satisfy the first-visit warning, completes Brenuin's beggar gift, completes Uthgerd's controlled brawl, and explicitly defers Whiterun AE triggers, books, side quests, properties, investments, Companions entry, and collectible/book rows that do not belong in the first city pass.
+
+The current next step is user review of the expanded first-Whiterun section. TB-035-MR-004 is blocked until the user approves or revises this MR-003 route style.
+
+Route section boundaries are adjustable during TB-035. If objective-level review shows that the old MR scaffold splits content poorly, move or split the route jurisdiction and update `main-guide-v1.md`, `data/guide-coverage/main-guide-v1-coverage.csv`, `docs/main-guide-v1-expansion-plan.md`, `docs/task-board.md`, and this handoff instead of forcing objectives into stale boundaries.
 
 ## Restart Checklist
 
@@ -88,14 +94,14 @@ At the start of the next session:
 
 ## Next Task Details
 
-After user approval, start TB-035-MR-002 by expanding only MR-002 in `drafts/final-guide/main-guide-v1.md`. Use corrected MR-001 as the model: player-facing prose in the guide, natural checklist cues, and objective/checklist IDs plus coverage status in `data/guide-coverage/main-guide-v1-coverage.csv`.
+After user approval, start TB-035-MR-004 by expanding only the Bleak Falls Barrow and Dragon Rising section in `drafts/final-guide/main-guide-v1.md`. Use corrected setup, Helgen/Riverwood, and First Whiterun sections as the model: player-facing prose in the guide, natural checklist cues, and objective/checklist IDs plus coverage status in `data/guide-coverage/main-guide-v1-coverage.csv`.
 
 Primary output:
 
-* updated `drafts/final-guide/main-guide-v1.md` with MR-002 expanded as polished player-facing opening instructions
-* natural MR-002 checklist cues for `Unbound`, `Before the Storm`, first Survival Mode activation, Riverwood bed/food/cooking/sell-off support, and early inventory policy
-* updated `data/guide-coverage/main-guide-v1-coverage.csv` with MR-002 objective/checklist IDs, coverage status, staged/completed status, and unresolved rows
-* task-board and handoff status updates when the MR-002 pass is complete
+* updated `drafts/final-guide/main-guide-v1.md` with the Bleak Falls Barrow and Dragon Rising section expanded as polished player-facing dungeon and first-dragon instructions
+* natural checklist cues for `Bleak Falls Barrow`, Dragonstone handoff, first word-wall/shout state, `Dragon Rising`, first dragon soul, first shout unlock/use, and any trophy/location rows handled there
+* updated `data/guide-coverage/main-guide-v1-coverage.csv` with TB-035-MR-004 objective/checklist IDs, coverage status, staged/completed status, and unresolved rows
+* task-board and handoff status updates when the TB-035-MR-004 pass is complete
 * no edits to `main-guide-v0.md` except if the user explicitly asks to revise the scaffold snapshot
 
 TB-035 v1 rules:
@@ -108,7 +114,7 @@ TB-035 v1 rules:
 * Use `NEEDS ROUTE RESOLUTION:` only for genuine data gaps after checking the relevant objective, checklist, route-planning, constraint, and support rows.
 * Do not use placeholder phrases such as `route local`, `collect local`, `finish remaining`, `as needed`, `selected sources`, `support rows`, `route locations`, or `spell sources` unless immediately followed by a full objective-level list and concrete actions.
 * Do not do broad gameplay research. If validation exposes a concrete gameplay contradiction, source-check that row only and cite it under `docs/source-standards.md`.
-* Run affected route/checklist generators if metadata changes require it, then `python3 tools/build_checklist_coverage.py`, `python3 tools/validate_all.py`, `python3 tools/check_main_guide_placeholders.py drafts/final-guide/main-guide-v1.md --section MR-002`, and `git diff --check`.
+* Run affected route/checklist generators if metadata changes require it, then `python3 tools/build_checklist_coverage.py`, `python3 tools/validate_all.py`, `python3 tools/check_main_guide_placeholders.py drafts/final-guide/main-guide-v1.md --section MR-003`, and `git diff --check`.
 
 TB-027 support handoffs:
 
