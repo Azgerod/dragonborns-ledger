@@ -52,7 +52,7 @@ The existing activity/favor source note selects Embry in Riverwood as the defaul
 
 ## Confidence and Open Questions
 
-Confidence is high for MR-002's quest-order and route-state handling. The note does not resolve final character build, exact loot quantities, merchant stock randomness, PS4-specific trophy-pop reliability beyond the existing trophy fallback policy, or later Riverwood objectives that need separate route decisions. Treasure Map I should be routed in the early local cleanup/economy block once settlement support is stable. Embershard Mine should be revisited in the later pass that can route `Smith 'N Slash`, Orcish Plate acquisition, `Spell Tome: Clairvoyance`, `Light Armor Forging`, and the clearable-location row together.
+Confidence is high for MR-002's quest-order and route-state handling. The note does not resolve final character build, exact loot quantities, merchant stock randomness, PS4-specific trophy-pop reliability beyond the existing trophy fallback policy, or later Riverwood objectives that need separate route decisions. Treasure Map I is now routed in MR-006 / SN-000134 after settlement support stabilizes. Embershard Mine still waits for the later pass that can route `Smith 'N Slash`, Orcish Plate acquisition, `Light Armor Forging`, and the clearable-location row together; MR-006 learns Clairvoyance from the Riverwood Trader instead.
 
 ## Linked Records
 

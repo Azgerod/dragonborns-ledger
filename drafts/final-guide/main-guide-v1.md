@@ -2,7 +2,7 @@
 
 This is a self-contained route guide. It tells you what to do, when to do it, what to save before, and what to mark as complete. You should not need to consult the objective spreadsheet while playing; the spreadsheet is used behind the scenes to verify coverage.
 
-Draft note: The first five route sections are player-facing v1 text. Sections marked `Scaffold only - not yet v1-expanded` are still placeholders from the previous scaffold and are not ready for play.
+Draft note: The first seven route sections are player-facing v1 text. Sections marked `Scaffold only - not yet v1-expanded` are still placeholders from the previous scaffold and are not ready for play.
 
 ## Guide Conventions
 
@@ -170,7 +170,7 @@ End state before Saadia, First Horse, And Western Road Support:
 11. Sell ordinary Swindler's Den loot if you need food, arrows, lockpicks, or carry room. Keep the remaining gold liquid for the next section's Breezehome fund. Breezehome costs 5,000 gold before upgrades; Tundra Homestead costs 7,500 gold. Do not grind, exploit, or assume either house is available yet.
 12. Make a rotating manual save before leaving Whiterun again.
 
-End state before Early Local Economy And Riverwood Loop:
+End state before Guardian Stones Cache And Whiterun Farm Loop:
 
 * `In My Time Of Need` is complete on the Saadia-default route.
 * Sideways tracking is at 2 of 10 qualifying side quests.
@@ -182,28 +182,72 @@ End state before Early Local Economy And Riverwood Loop:
 * Tundra Homestead is not purchased; it remains the later 7,500-gold main-base target.
 * Carry weight is controlled, Survival Mode is still on, and a rotating manual save has been made.
 
-### Early Local Economy And Riverwood Loop
+### Guardian Stones Cache And Whiterun Farm Loop
 
-Scaffold only - not yet v1-expanded.
+1. Start in Whiterun after the Saadia turn-in. Sell ordinary duplicate loot, keep unique items and quest items, stock food for one warm-road loop, and make a rotating manual save.
+2. Ride toward Riverwood, then go to the unmarked bandit camp just south of The Guardian Stones. Make a rotating manual save before the camp fight. Clear the camp and take `Treasure Map I`; mark [CHECKLIST: Treasure Map - Treasure Map I acquired].
+3. In the same camp, leave the `Night Falls on Sentinel` skill-book copy closed. This is the selected local warning because the route sends you directly into the camp containing the book; the reading window still waits for Scholar's Insight.
+4. Ride to Riverwood and find Treasure Chest I inside the trunk of the fallen tree near town. Loot the cache, then mark [CHECKLIST: Treasure Map - Treasure Map I cache looted]. Treasure Maps tracking is now 1 of 13 resolved map-and-cache entries.
+5. Go to the Riverwood Trader during business hours. Sell ordinary camp and cache loot, then buy `Spell Tome: Clairvoyance` from Lucan's standard stock. Read the tome immediately and mark [CHECKLIST: Spell - Clairvoyance learned].
+6. Use Riverwood as the warm support stop for this loop: buy food or rest at the inn before returning to Whiterun if Survival penalties would interfere with the ride back.
+7. Ride back toward Whiterun Stables and reveal Pelagia Farm south of the stables. Mark [CHECKLIST: Location - Pelagia Farm discovered]. If the Companions giant scene is active, let it finish and accept Aela's Jorrvaskr lead if she speaks to you; the Companions join route waits for its own section.
+8. Ride around Whiterun's eastern farm road and reveal Chillfurrow Farm. Mark [CHECKLIST: Location - Chillfurrow Farm discovered].
+9. Continue to Battle-Born Farm. Discover the farm and mark [CHECKLIST: Location - Battle-Born Farm discovered].
+10. Harvest the gourds in the Battle-Born fields. Speak to Alfhild Battle-Born and sell her the gourds through her crop-sale dialogue, then mark [CHECKLIST: Activity - Sell crops to Alfhild Battle-Born]. This completes the representative crop-sale activity without using a merchant barter screen.
+11. Return to Whiterun, sell ordinary loot from the loop, and keep the gold liquid for the Breezehome fund. Breezehome is still not bought here: the route has not yet created a reliable 5,000-gold house purchase without grinding.
+12. Make a rotating manual save before moving on to the level-8 gate work.
 
-1. Route the first Guardian Stones/Riverwood local cleanup loop after settlement support is stable: clear the unmarked bandit camp south of The Guardian Stones, take `Treasure Map I`, leave the `Night Falls on Sentinel` skill-book copy closed for the Scholar's Insight window, then loot Treasure Chest I from the fallen tree near Riverwood. [CHECKLIST: Collectible]
-2. Complete the remaining explicit Hard Worker action in a controlled settlement loop: acquire a pickaxe, mine ore, and verify the trophy after the earlier Hulda wood chopping and Swindler's Den cooking actions. [CHECKLIST: Trophy, Misc, Crafting]
-3. Complete the representative crop-sale favor with Alfhild Battle-Born when the Whiterun farm loop is safe. [CHECKLIST: Favor, Misc]
-4. Complete one smithed item, one enchanted disposable item, and one potion for Artificer once materials and stations are available. [CHECKLIST: Trophy, Crafting]
-5. Start storing one-copy alchemy ingredients, disposable enchantment source items, soul gems, smithing materials, and selected skill-book copies. Do not consume or disenchant before the guide tells you to.
-6. Use remaining Whiterun/Riverwood objectives as safe filler if you are short of level 8, but do not cross the Silent Moons gate early.
+End state before Halted Stream And Silent Moons Level Gate:
 
-### Level 8 Silent Moons Gate
+* Treasure Map I is acquired, Treasure Chest I is looted, and Treasure Maps tracking is at 1 of 13.
+* Clairvoyance is learned from the Riverwood Trader spell tome.
+* Pelagia Farm, Chillfurrow Farm, and Battle-Born Farm are discovered.
+* The Alfhild Battle-Born crop sale is complete as the representative crop-sale activity.
+* Hard Worker tracking is still wood chopped and food cooked; the mining action waits for a routed pickaxe-and-mine bundle.
+* Breezehome is still a 5,000-gold target, not a purchased home.
+* Carry weight is controlled, Survival Mode is still on, and a rotating manual save has been made.
 
-Scaffold only - not yet v1-expanded.
+### Halted Stream And Silent Moons Level Gate
 
-Checkpoint: Be level 8+ before entering or looting Silent Moons Camp.
+1. Start in Whiterun. Rest if a level-up is pending, sell ordinary duplicate loot, stock food for a north-of-Whiterun loop, and make a rotating manual save.
+2. Check the active marker for Amren's Family Sword. If it points to Halted Stream Camp, you will collect the sword during this section. If it points somewhere else, leave Amren's favor active for its assigned hideout later.
+3. Ride north-northeast from Whiterun and reveal Whitewatch Tower from the road or courtyard. Mark [CHECKLIST: Location - Whitewatch Tower discovered], then continue north.
+4. Ride to Halted Stream Camp. Discover the camp and mark [CHECKLIST: Location - Halted Stream Camp discovered].
+5. Clear the exterior bandits, enter the mine, and take the pickaxe from the crate near the first interior ore vein.
+6. Mine one ore vein with the pickaxe. This completes the third Hard Worker action after the earlier wood-chopping and cooking steps. Mark [CHECKLIST: Activity - Mine ore vein] and [CHECKLIST: Trophy - Hard Worker]. The paid ore-sale favor is a separate checklist item and waits for a routed ore buyer.
+7. Take one Mammoth Tusk from the cart or shelves inside Halted Stream Camp for Ysolda.
+8. Loot `Poacher's Axe` from the bandit carrying it inside the mine, then mark [CHECKLIST: Unique Item - Poacher's Axe acquired]. Keep it; do not use it as an enchantment source.
+9. In the boss chamber, read `Spell Tome: Transmute Mineral Ore` and mark [CHECKLIST: Spell - Transmute Mineral Ore learned].
+10. If Amren's Family Sword marker points to Halted Stream Camp, take Amren's Family Sword from the boss chest before leaving.
+11. Kill the bandit leader, finish the mine, and mark [CHECKLIST: Location - Halted Stream Camp cleared].
+12. Return to Whiterun. Give the Mammoth Tusk to Ysolda, complete her `Rare Gifts` favor, and mark [CHECKLIST: Quest - Rare Gifts: Ysolda] and [CHECKLIST: Relationship - Ysolda marriage prerequisite complete].
+13. If you recovered Amren's Family Sword from Halted Stream Camp, return it to Amren now and mark [CHECKLIST: Quest - Dungeon Delving: Amren's Family Sword] and [CHECKLIST: Unique Item - Amren's Family Sword handled]. If his marker pointed elsewhere, leave the quest open for that later route.
+14. Record Hero of the People at 8 of 50 finite miscellaneous objectives, or 9 of 50 if Amren's sword was completed here too.
+15. Check your character level. If you have reached at least level 5 and have not already recorded the trophy, mark [CHECKLIST: Trophy - Apprentice]. Silent Moons Camp is still locked until level 8.
+16. If you are below level 8, stop here, rest or train only as the guide later routes it, and do not approach Silent Moons Camp yet. Return to this subsection as soon as the route brings you back at level 8+.
+17. At level 8 or higher, start in Whiterun again. Rest if a level-up is pending, empty as much carry space as practical, stock food and lockpicks for the ride, and make a rotating manual save.
+18. Ride northwest to Silent Moons Camp. Discover the camp and mark [CHECKLIST: Location - Silent Moons Camp discovered].
+19. Clear the exterior bandits and work through the camp. At the Lunar Forge, leave the `Light Armor Forging` skill-book copy closed for the Scholar's Insight reading window.
+20. Take every weapon whose name begins `Lunar` from the camp: one on the Lunar Forge workbench, one on the grindstone, one from the shelves behind the locked interior double doors, and one from the upper tower table reached from the outer wall. Mark the checklist cue for each exact form you obtain: [CHECKLIST: Leveled Reward - Lunar Iron Mace acquired], [CHECKLIST: Leveled Reward - Lunar Iron Sword acquired], [CHECKLIST: Leveled Reward - Lunar Iron War Axe acquired], [CHECKLIST: Leveled Reward - Lunar Steel Mace acquired], [CHECKLIST: Leveled Reward - Lunar Steel Sword acquired], or [CHECKLIST: Leveled Reward - Lunar Steel War Axe acquired].
+21. Keep every Lunar weapon for now. Silent Moons Enchant is learned later, after the guide has set up storage and chosen the exact weapon to disenchant.
+22. Clear the camp, then mark [CHECKLIST: Location - Silent Moons Camp cleared].
+23. Return to Whiterun, sell ordinary loot, keep `Poacher's Axe` and all Lunar weapons, and make a rotating manual save.
 
-1. If you are below level 8, use G02 local Whiterun/Riverwood objectives, sleep-supported training, and low-risk crafting until you reach level 8.
-2. At level 8+, route Silent Moons Camp. Loot the Lunar weapon candidates and clear the location only in this safe window. [CHECKLIST: Location, Unique Item, Enchantment]
-3. Record the Lunar weapon coverage and preserve at least one source item for enchantment-learning policy unless final enchantment QA chooses a cleaner source.
-4. Continue central Whiterun/Rorikstead corridor discoveries and clearable locations only as far as food, sleep, warmth, and carry support remain stable. [CHECKLIST: Location]
-5. Verify Delver and Explorer counters only from observed clear/discovery increments; do not assume a map marker or duplicate entrance counts twice.
+End state before Goldenhills Plantation:
+
+* Whitewatch Tower is discovered.
+* Halted Stream Camp is discovered and cleared.
+* Hard Worker is complete: wood chopped, food cooked, and ore mined.
+* `Spell Tome: Transmute Mineral Ore` is read and learned.
+* `Poacher's Axe` is acquired and preserved.
+* Ysolda's Mammoth Tusk favor is complete, and Ysolda's marriage prerequisite is satisfied.
+* Amren's sword favor is complete only if the active marker sent you to Halted Stream Camp; otherwise it remains active for its assigned hideout.
+* Hero of the People tracking is at 8 of 50, or 9 of 50 if Amren was completed here.
+* Silent Moons Camp has only been entered and cleared at level 8+.
+* The Lunar weapon forms that spawned in your game are recorded individually, and all acquired Lunar weapons are preserved.
+* `Light Armor Forging` remains unopened.
+* Silent Moons Enchant is sourced but not learned yet.
+* Carry weight is controlled, Survival Mode is still on, and a rotating manual save has been made.
 
 ### Goldenhills Plantation
 
@@ -223,7 +267,7 @@ Scaffold only - not yet v1-expanded.
 
 1. Start the Companions with `Take Up Arms`. [CHECKLIST: Quest, Faction]
 2. Complete `Proving Honor` and the required early radiant gates as offered. [CHECKLIST: Quest, Radiant]
-3. If `Hired Muscle` offers `Scare My Enemy`, accept it as representative coverage; do not restart the run merely to force that seed. [CHECKLIST: Radiant]
+3. If `Hired Muscle` offers `Scare My Enemy`, accept it as representative coverage; do not restart the run merely to force that assignment. [CHECKLIST: Radiant]
 4. Keep the Companions arc from consuming all early route time. Use it to build combat competence and faction access while the route continues to develop storage, food, and warm-region support.
 
 ### Companions Transformation Window

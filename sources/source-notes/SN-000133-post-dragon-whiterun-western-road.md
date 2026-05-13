@@ -39,12 +39,14 @@ UESP's Elven and Steel Horse Armor Creation pages state that horse armor is obta
 
 UESP's Breezehome page says the house becomes purchasable after `Bleak Falls Barrow`, costs 5,000 gold, and costs 6,800 gold fully upgraded with the alchemy-lab option. It also records safe container behavior other than noted room-conversion caveats. UESP's Tundra Homestead page says the AE home is bought from the Whiterun steward for 7,500 gold and is fully furnished with broad storage, crafting, garden/apiary, and family support. The guide therefore treats both properties as unlocked targets after `Dragon Rising` but does not purchase them until the route has deliberately generated the gold and can verify storage; it explicitly rejects relying on early grinding or the Tundra free-purchase exploit.
 
+A follow-up nearby-objective audit is recorded in SN-000134. It holds Gjukar's Monument, Fort Greymoor, Sleeping Tree Camp, and their adjacent skill-book/spell support rows out of this Saadia pass because they are not direct Swindler's Den objectives and are better bundled with later `The Book of Love`, fort/Civil War, giant-camp, skill-book, or spell-source route work.
+
 ## Confidence and Open Questions
 
-Confidence is high for the `In My Time Of Need` order, Saadia-default routing, first-horse timing, Elven-first horse-armor choice, and the decision not to assume early house money.
+Confidence is high for the `In My Time Of Need` order, Saadia-default routing, first-horse timing, Elven-first horse-armor choice, the western-road nearby-objective holds recorded in SN-000134, and the decision not to assume early house money.
 
 The remaining open question is Swindler's Den clear-state handling. Current source evidence conflicts between the harvested clearable-location catalog and the current place page's clear-tag bug note. The guide should not use Swindler's Den as a Delver count until TB-037 or a dedicated location-counter QA pass verifies the in-game `Cleared` tag and `Dungeons Cleared` behavior under the routed Saadia outcome.
 
 ## Linked Records
 
-OBJ-000199; OPT-001; OBJ-000219; OBJ-000690; OBJ-000691; OBJ-000877; OBJ-000880; OBJ-000883; OBJ-001919; OBJ-001920; OBJ-001954; OBJ-002169; OBJ-002385; OBJ-002752; OBJ-002764; OBJ-002775; NPCOPT-000232; MR-005 in `drafts/final-guide/main-guide-v1.md`; `data/guide-coverage/main-guide-v1-coverage.csv`.
+OBJ-000199; OPT-001; OBJ-000219; OBJ-000690; OBJ-000691; OBJ-000841; OBJ-000844; OBJ-000853; OBJ-000866; OBJ-000877; OBJ-000880; OBJ-000883; OBJ-000899; OBJ-000935; OBJ-001919; OBJ-001920; OBJ-001954; OBJ-002154; OBJ-002169; OBJ-002245; OBJ-002255; OBJ-002385; OBJ-002752; OBJ-002764; OBJ-002775; NPCOPT-000232; MR-005 in `drafts/final-guide/main-guide-v1.md`; `sources/source-notes/SN-000134-guardian-stones-cache-riverwood-farm-loop.md`; `data/guide-coverage/main-guide-v1-coverage.csv`.

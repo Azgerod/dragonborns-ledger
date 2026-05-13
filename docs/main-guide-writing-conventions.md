@@ -50,13 +50,17 @@ Do not assume early money that the route has not actually created. Property, mou
 
 Keep related objectives together where possible. Prefer a coherent bundle such as "start quest, enter location, collect the local book, clear the location, turn in the reward" over a shallow early action such as "discover but do not clear" unless that partial action has an independent route reason. Discovery-only, pickup-only, or "start now, ignore until much later" steps should be deliberate exceptions, not the default output of the nearby-objective audit.
 
+When a nearby objective is held for a later coherent bundle, it usually should be absent from the player-facing prose rather than written as "discover but do not clear" or "do not start this yet." Record the route judgment in the source note or internal coverage tracker instead. Add player-facing text only when the player is being sent to the exact trigger, item, room, or dialogue and the accidental action would matter.
+
 For quests whose start, progress, and completion happen in different places, choose timing deliberately:
 
 * Do not wait until the completion location if the player was just at the quest-start location and the next stage is soon.
 * Do not start a quest at the earliest possible moment if it will sit untouched for a long time and there is a later efficient start-location visit before the next stage.
 * Prefer the most recent efficient visit to the quest-start location before the next routed progress or completion step.
-* Make exceptions for fragile first-visit starts, branch setup, missable dialogue, leveled reward gates, radiant seeding, or objectives that must remain active for later route control.
+* Make exceptions for fragile first-visit starts, branch setup, missable dialogue, leveled reward gates, radiant target control, or objectives that must remain active for later route control.
 * Revisit these decisions as later route sections are expanded. A quest start that looked good in an early pass may need to move earlier or later once the next progress point is known.
+
+Do not ask the player to manipulate RNG or reroll ordinary radiant assignments as part of normal guide execution. If a target is randomized, respect the target the save actually gives and write a conditional route branch. Reserve save/reload language for explicit branch saves, trophy-pop fallback, bug recovery, or source-backed reward/state protection.
 
 If the player-facing guide warns the player away from a nearby objective, the internal coverage tracker must say why that objective is not routed now. If no source-backed reason survives the audit, remove the warning and replace it with a positive route instruction.
 
@@ -132,3 +136,7 @@ The guide must remain internally auditable, but audit machinery belongs outside 
 Use `data/guide-coverage/main-guide-v1-coverage.csv` for objective IDs, staged/completed status, checklist cue mapping, option/default rows, exclusions, and unresolved status. If the guide moves an objective earlier or later, update the coverage tracker in the same pass.
 
 Use source notes for sourced gameplay facts that affect route order, gates, bugs, rewards, counters, or completion boundaries. Do not invent route facts to make a section read more cleanly.
+
+## User-Facing Handoff
+
+After each guide-expansion pass, the assistant response to the user should include a short routing-decision summary. Explain which nearby objectives were routed now, which were deliberately held, and why. Keep that explanation out of the player-facing guide body unless the player needs the information to execute the route safely.
