@@ -153,6 +153,16 @@ Before finalizing the actual route, the guide writer should map every checklist 
 
 No checklist objective should be left unmapped unless explicitly excluded and justified.
 
+4.4 Final Main Guide Self-Containment
+
+For the final main guide draft, mapping to appendices is not enough for execution-critical route content. The guide document itself must explicitly represent every objective row in `data/objectives/objectives.csv` and every checklist-relevant row already mapped by the project.
+
+A player following the guide should not need to consult the objective spreadsheet, route-planning CSVs, source notes, support tables, or external appendices to know what to do next. A reviewer with the spreadsheet should be able to find each row directly in the guide by objective/checklist ID, objective/checklist name, or an explicit exclusion/option/branch note.
+
+The guide may include internal reference or verification sections, but core route instructions must be inline at the relevant route point. Category placeholders such as "route local objectives," "collect local books," "finish remaining checklist," "as needed," "selected sources," "support rows," "route locations," or "spell sources" are not acceptable unless immediately followed by the complete list of objective names and concrete actions covered.
+
+If a row cannot be routed from existing project data, the guide should include a `NEEDS ROUTE RESOLUTION:` note that names the objective/checklist ID, the row name, the exact missing fact, and the inputs already checked.
+
 5. Core Form: Linear Black-Box Itinerary
 
 The guide should be a linear sequence of numbered instructions, divided into meaningful sections.

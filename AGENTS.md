@@ -75,6 +75,18 @@ Do not write the final guide prematurely. Build the guide in layers:
 9. warning layer;
 10. final black-box guide.
 
+## Main Guide Expansion Standard
+
+`drafts/final-guide/main-guide-v0.md` is a scaffold, not an acceptable final main-guide draft. Before treating TB-035 as complete, expand it into a self-contained `drafts/final-guide/main-guide-v1.md`.
+
+The v1 guide must explicitly represent every row in `data/objectives/objectives.csv` and every checklist-relevant row already mapped in `data/checklist-mapping/coverage-matrix.csv`. A reader must not need to consult the objective spreadsheet, route-planning CSVs, support tables, source notes, or an external appendix to know what objective to do, where to do it, when to stop, what to collect, what to save/reload, or what checklist row to mark.
+
+Do not use broad category placeholders as guide instructions. Phrases such as "route local objectives," "collect local books," "finish remaining checklist," "as needed," "selected sources," "support rows," "route locations," "spell sources," and similar shorthand must be replaced with explicit objective-level instructions or be immediately followed by the full list of objective names and actions covered.
+
+At minimum, break the v1 work into one implementation pass per `MR-###` section, and split any large MR section further by quest chain, location corridor, support table, or checklist category when needed. Follow `docs/main-guide-v1-expansion-plan.md` as the active work breakdown. Do not move on to TB-036 appendices/reference tables until the v1 self-contained guide expansion is complete or the user explicitly re-scopes the sequence.
+
+If existing project data is insufficient to route a row, write a specific `NEEDS ROUTE RESOLUTION:` note in the guide with the objective/checklist ID, objective name, exact missing fact, and inputs already checked. Do not hide unresolved rows under category language.
+
 ## Completion policy
 
 The high-level user-resolved scope is summarized below. If this summary and `docs/guide-specification.md` diverge, update the summary to match the specification rather than creating a second rule set.

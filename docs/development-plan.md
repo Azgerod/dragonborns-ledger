@@ -272,6 +272,19 @@ Expansion should add:
 
 Expansion should not add unnecessary walkthrough detail.
 
+For the self-contained main guide pass, this phase is not a light prose-polish step. The writer should break the work into small implementation passes, at minimum one pass for every `MR-###` section, and split large sections further when objective volume demands it.
+
+Each pass should:
+
+* Identify every objective and checklist row assigned to the section from the objective database, checklist coverage matrix, route-planning indexes, constraints, and support tables.
+* Insert explicit objective-level instructions rather than category placeholders.
+* Name individual quests, locations, books, skill books, spell tomes, documents, shouts, word walls, collectibles, unique items, properties, pets, mounts, crafting outputs, enchantments, alchemy effects, investments, radiants, counters, branches, options, and exclusions.
+* Keep hard gates, hard saves, branch reloads, Survival Mode requirements, and unique-item preservation warnings inline.
+* Use `NEEDS ROUTE RESOLUTION:` notes only for rows that genuinely cannot be routed from the existing data, with the exact row ID and missing fact.
+* Maintain an auditable coverage summary showing processed, main-guide placed, branch-handled, option/default-handled, excluded, and unresolved rows.
+
+External appendices may verify and summarize, but they must not be required to execute the route.
+
 ## Phase 15 - Final QA and Playtest Passes
 
 The final guide should receive multiple QA passes:

@@ -58,7 +58,11 @@ TB-033 is complete. `drafts/route-prototypes/validation-report-v0.md` validates 
 
 TB-034 is complete. `drafts/route-prototypes/main-route-prototype-v0.md` now contains the minimal numbered route prototype MR-001 through MR-071 plus a named-save placement check. The prototype covers setup, warm-core stabilization, faction arcs, branch saves, level gates, Dawnguard, Solstheim, high-risk AE/separate-worldspace content, late counters, all-perks cleanup, and final reconciliation without expanding into final guide prose. Frost's `HS-RIFT-FROST-LETRUSH` now has explicit prototype placement in the Riften/Rift block. A post-review correction keeps the Thieves Guild chain stopped before `Hard Answers` until the level-46 block; level 32 is only the Nightingale Armor readiness threshold because `Hard Answers` and the Nightingale Blade must precede `Trinity Restored`.
 
-The current next task is TB-035: expand the minimal route prototype into the first black-box guide draft.
+TB-035 is reopened. `drafts/final-guide/main-guide-v0.md` expands MR-001 through MR-071 into a useful scaffold, but it is not detailed enough for the intended self-contained final guide. Post-review standards now require `drafts/final-guide/main-guide-v1.md` to explicitly represent every objective row and every mapped checklist row inside the guide document itself, with objective-level route instructions, branch handling, option/default rows, exclusions, and unavoidable `NEEDS ROUTE RESOLUTION` notes only where genuinely necessary.
+
+TB-035P is complete. `docs/main-guide-v1-expansion-plan.md` records the v1 standard, one subtask per MR section, cross-cutting coverage audits, placeholder phrase policy, and validation expectations.
+
+The current next task is TB-035-MR-001: create `drafts/final-guide/main-guide-v1.md` from the v0 scaffold and expand MR-001 only.
 
 ## Restart Checklist
 
@@ -73,32 +77,33 @@ At the start of the next session:
 7. Read `data/objectives/phase-2-research-inputs.md`.
 8. Read `data/constraints/README.md`, then `data/constraints/ae-creation-start-triggers.md`, `data/constraints/leveled-unique-items.md`, `data/constraints/cell-entry-locks.md`, `data/constraints/quest-conflicts-hard-saves.md`, `data/constraints/trophy-dependencies.md`, `data/constraints/npc-dependencies.md`, `data/constraints/bug-prone-quests.md`, `data/constraints/radiant-boundaries.md`, `data/constraints/survival-mode-constraints.md`, and `data/constraints/skill-perk-leveling-plan.md` for Phase 2 overlaps.
 9. Read `data/locations/location-catalog.csv`, `data/locations/location-coordinates.csv`, `data/locations/location-coordinate-reconciliation.md`, `data/locations/location-geography.csv`, `data/locations/location-geography-reconciliation.md`, and `data/locations/location-route-validation.md` before changing geography-sensitive tasks.
-10. Read `data/checklist-mapping/README.md`, `data/checklist-mapping/checklist-coverage-strategy.md`, `data/checklist-mapping/checklist-coverage-summary.md`, `data/checklist-mapping/checklist-scope-review.md`, `data/checklist-mapping/checklist-manual-review.md`, `data/checklist-mapping/checklist-escalation-decisions.md`, `data/checklist-mapping/counter-coverage-plan.md`, `data/checklist-mapping/source-readiness-resolutions.csv`, `data/route-planning/route-default-decisions.md`, `data/constraints/progression-source-selection.md`, `data/constraints/progression-source-selections.csv`, `data/checklist-mapping/coverage-matrix.csv`, `docs/source-objective-readiness-audit.md`, and `docs/deferred-work-audit.md` before TB-035 or later checklist/coverage work.
-11. Read `data/objectives/route-rigidity-classification-notes.md`, `data/route-planning/README.md`, `data/route-planning/objective-route-index.csv`, `data/route-planning/objective-constraints.csv`, `data/route-planning/prototype-objective-block-map.csv`, `drafts/route-prototypes/route-anchors-v0.md`, `drafts/route-prototypes/level-gated-skeleton-v0.md`, `drafts/route-prototypes/survival-geography-pass-v0.md`, `drafts/route-prototypes/main-route-prototype-v0.md`, `drafts/route-prototypes/validation-report-v0.md`, `drafts/branch-routes/README.md`, and the TB-029 branch prototype files before TB-035 or later route-placement work.
+10. Read `data/checklist-mapping/README.md`, `data/checklist-mapping/checklist-coverage-strategy.md`, `data/checklist-mapping/checklist-coverage-summary.md`, `data/checklist-mapping/checklist-scope-review.md`, `data/checklist-mapping/checklist-manual-review.md`, `data/checklist-mapping/checklist-escalation-decisions.md`, `data/checklist-mapping/counter-coverage-plan.md`, `data/checklist-mapping/source-readiness-resolutions.csv`, `data/route-planning/route-default-decisions.md`, `data/constraints/progression-source-selection.md`, `data/constraints/progression-source-selections.csv`, `data/checklist-mapping/coverage-matrix.csv`, `docs/source-objective-readiness-audit.md`, `docs/deferred-work-audit.md`, and `docs/main-guide-v1-expansion-plan.md` before TB-035 v1 or later checklist/coverage work.
+11. Read `data/objectives/route-rigidity-classification-notes.md`, `data/route-planning/README.md`, `data/route-planning/objective-route-index.csv`, `data/route-planning/objective-constraints.csv`, `data/route-planning/prototype-objective-block-map.csv`, `drafts/route-prototypes/route-anchors-v0.md`, `drafts/route-prototypes/level-gated-skeleton-v0.md`, `drafts/route-prototypes/survival-geography-pass-v0.md`, `drafts/route-prototypes/main-route-prototype-v0.md`, `drafts/route-prototypes/validation-report-v0.md`, `drafts/final-guide/main-guide-v0.md`, `drafts/final-guide/README.md`, `drafts/branch-routes/README.md`, and the TB-029 branch prototype files before TB-035 v1 or later route/appendix work.
 12. Run `git status --short` and preserve unrelated existing changes.
 13. For UESP page fetches, prefer `python3 tools/fetch_uesp.py 'Skyrim:Page Title' --mode wikitext` or `--mode html`; direct raw `curl` may trigger Cloudflare without a browser User-Agent. For Gamemap marker refreshes, use `python3 tools/fetch_uesp_gamemap.py`, regenerate coordinates with `python3 tools/build_location_coordinates.py`, then regenerate geography with `python3 tools/build_location_geography.py`. For route-planning index refreshes, run `python3 tools/build_route_planning_index.py`, `python3 tools/build_prototype_objective_block_map.py`, and optionally `python3 tools/build_route_planning_database.py`.
 
 ## Next Task Details
 
-Start TB-035 by expanding the MR-001 through MR-071 minimal route prototype into `drafts/final-guide/main-guide-v0.md`. Use `drafts/route-prototypes/main-route-prototype-v0.md` as the controlling step order, with `drafts/route-prototypes/validation-report-v0.md`, `drafts/route-prototypes/level-gated-skeleton-v0.md`, `drafts/route-prototypes/survival-geography-pass-v0.md`, `data/route-planning/prototype-objective-block-map.csv`, `data/route-planning/objective-route-index.csv`, `data/route-planning/objective-constraints.csv`, `data/checklist-mapping/coverage-matrix.csv`, `data/checklist-mapping/counter-coverage-plan.md`, `data/locations/location-route-validation.md`, `data/route-planning/route-default-decisions.md`, `data/constraints/progression-source-selection.md`, `data/constraints/progression-source-selections.csv`, `data/constraints/quest-conflicts-hard-saves.md`, and the branch prototype files as supporting inputs.
+Start TB-035-MR-001 by creating `drafts/final-guide/main-guide-v1.md` from `drafts/final-guide/main-guide-v0.md`, then expand MR-001 only. Use `docs/main-guide-v1-expansion-plan.md` as the work breakdown and standard.
 
 Primary output:
 
-* new or updated `drafts/final-guide/main-guide-v0.md` with the first black-box guide draft
-* task-board and handoff status updates when complete
-* targeted prototype/constraint updates only where prose expansion exposes a concrete contradiction
-* regenerated route/checklist indexes only if metadata changes affect generated labels
+* new or updated `drafts/final-guide/main-guide-v1.md` with MR-001 expanded to objective-level setup instructions
+* MR-001 checklist/objective cues for setup-scope rows, trophy-safe content setup, Survival/Legendary baseline, save policy, and explicit setup-scope exclusions
+* task-board and handoff status updates when the MR-001 pass is complete
+* no edits to `main-guide-v0.md` except if the user explicitly asks to revise the scaffold snapshot
 
-TB-035 rules:
+TB-035 v1 rules:
 
-* Expand MR-001 through MR-071 into compact black-box instructions with start triggers, completion boundaries, warnings, checklist cues, restock/rest notes, route defaults, and branch instructions.
-* Preserve TB-034 order unless a concrete contradiction appears. If a contradiction appears, source-check the specific row and make a targeted correction rather than reopening broad planning.
-* Preserve the corrected Thieves Guild sequencing: MR-015 stops before `Hard Answers`, MR-017 is a readiness checkpoint only, and MR-039 completes `Hard Answers` through `Darkness Returns` after level 46.
-* Do not add puzzle walkthroughs, combat tactics, story summaries, or room-by-room directions unless needed to prevent a missable, bug, trophy failure, or permanently inferior reward.
-* Preserve TB-033 and TB-034 intake rules, especially the Amulet of Articulation reward save, branch reload rules, direct-location counts, warning triggers, Frost hard-save placement, and no-route-from-counts rule.
+* `main-guide-v1.md` must be self-contained; do not rely on external appendices for execution-critical information.
+* Expand at least one MR section per implementation pass and split heavy MR sections further when needed.
+* Represent every objective and mapped checklist row explicitly by name and, where practical, by ID.
+* Preserve the corrected Thieves Guild sequencing and all TB-033/TB-034 route gates.
 * Treat TB-031A through TB-031K, TB-032, TB-033, and TB-034 as current inputs, not work to redo, unless a concrete inconsistency appears.
+* Use `NEEDS ROUTE RESOLUTION:` only for genuine data gaps after checking the relevant objective, checklist, route-planning, constraint, and support rows.
+* Do not use placeholder phrases such as `route local`, `collect local`, `finish remaining`, `as needed`, `selected sources`, `support rows`, `route locations`, or `spell sources` unless immediately followed by a full objective-level list and concrete actions.
 * Do not do broad gameplay research. If validation exposes a concrete gameplay contradiction, source-check that row only and cite it under `docs/source-standards.md`.
-* Run affected route/checklist generators if metadata changes require it, then `python3 tools/build_checklist_coverage.py`, `python3 tools/validate_all.py`, and `git diff --check`.
+* Run affected route/checklist generators if metadata changes require it, then `python3 tools/build_checklist_coverage.py`, `python3 tools/validate_all.py`, `python3 tools/check_main_guide_placeholders.py drafts/final-guide/main-guide-v1.md` once v1 exists, and `git diff --check`.
 
 TB-027 support handoffs:
 
@@ -106,7 +111,7 @@ TB-027 support handoffs:
 * `drafts/route-prototypes/main-route-prototype-v0.md` now includes the same progression layer inside the route-block prototype.
 * `data/constraints/progression-source-selection.md` and `data/constraints/progression-source-selections.csv` pick trainer blocks, skill-book copy defaults, spell-tome sources, enchantment source families, alchemy source methods, investment circuit rules, crafting outputs, Oghma timing, and reset distribution.
 * Preferred repeated Legendary reset pool is Alchemy, Smithing, Enchanting, Alteration, Conjuration, and Illusion; Restoration, Sneak, and Pickpocket are conditional; combat/armor skills are emergency-only; repeated Lockpicking and Speech resets are not baseline.
-* TB-033 validated the progression policy at prototype level, and TB-034 placed progression in the minimal route. TB-037 must still confirm exact numeric reset counts, all skills 100 after resets, level 252+, all 251 normal perk ranks, investments, enchantment learning, alchemy effects, practical crafting systems, and Survival bed/storage/carry support once the guide draft exists.
+* TB-033 validated the progression policy at prototype level, TB-034 placed progression in the minimal route, and reopened TB-035 v1 must expand progression into explicit self-contained guide instructions. TB-037 must still confirm exact numeric reset counts, all skills 100 after resets, level 252+, all 251 normal perk ranks, investments, enchantment learning, alchemy effects, practical crafting systems, and Survival bed/storage/carry support once v1 coverage exists.
 
 TB-026 support handoffs:
 
@@ -116,7 +121,7 @@ TB-026 support handoffs:
 * The Markdown records non-geographic queue treatment for 830 single support candidates, 319 multiple support candidates, 1,098 rows with no route-candidate data, 1,082 constraint-backed flexible rows, and 1,534 flexible rows without linked constraints; the CSV records individual route blocks, dispositions, statuses, thresholds, parent links, and defer reasons.
 * It keeps support candidates conditional: homes, bases, merchants, book copies, spell sources, and property nodes are not automatically available until acquisition/source/storage/prerequisite validation.
 * It preserves mandatory holds for Silent Moons/Lunar weapons, Mage's Circlet, The Pale Blade, Nightingale Armor, Forbidden Legend linked dungeons, Shield of Solitude, Chillrend, Dragonbane, Nightingale Blade/Bow, Miraak equipment, Legendary Dragon, Ebony Warrior, and all-perks completion.
-* TB-027 added progression support to this frame before branch defaults were chosen. TB-028 has since resolved branch defaults in `drafts/branch-routes/README.md`, TB-031E has resolved progression source-copy/source-family defaults, TB-031F has resolved counter mechanics, TB-031G has resolved location route-validation mechanics, TB-031J has resolved checklist source-readiness rows, TB-031K has refreshed downstream planning text, TB-032 has added the warning/hard-save overlay, TB-033 has validated the prototype, and TB-034 has placed the minimal numbered route. Final prose expansion and final checklist validation remain TB-035/TB-037 work.
+* TB-027 added progression support to this frame before branch defaults were chosen. TB-028 has since resolved branch defaults in `drafts/branch-routes/README.md`, TB-031E has resolved progression source-copy/source-family defaults, TB-031F has resolved counter mechanics, TB-031G has resolved location route-validation mechanics, TB-031J has resolved checklist source-readiness rows, TB-031K has refreshed downstream planning text, TB-032 has added the warning/hard-save overlay, TB-033 has validated the prototype, and TB-034 has placed the minimal numbered route. Reopened TB-035 v1 must now expand the guide at objective level before TB-036/TB-037 work resumes.
 
 TB-025 support handoffs:
 
@@ -134,7 +139,7 @@ TB-024 support handoffs:
 * Skeleton bands are `S00` through `S15`.
 * TB-025 consumed the skeleton into `survival-geography-pass-v0.md`; TB-026 placed flexible queues within that frame; TB-027 added progression blocks while preserving the mandatory gate checklist.
 * The skeleton keeps source-tier reward policy conservative until a later explicit decision accepts a documented tradeoff.
-* Branch defaults and branch prototypes are now captured in TB-028/TB-029, progression source/reset distribution is captured in TB-031E, counter mechanics are captured in TB-031F, location route-validation mechanics are captured in TB-031G, warning triggers are captured in TB-032, and minimal route placement is captured in TB-034; final guide prose and final checklist mapping remain assigned to TB-035/TB-037.
+* Branch defaults and branch prototypes are now captured in TB-028/TB-029, progression source/reset distribution is captured in TB-031E, counter mechanics are captured in TB-031F, location route-validation mechanics are captured in TB-031G, warning triggers are captured in TB-032, and minimal route placement is captured in TB-034. Reopened TB-035 v1 owns self-contained main-guide expansion before appendices and final checklist mapping resume.
 
 TB-023 support handoffs:
 
@@ -142,7 +147,7 @@ TB-023 support handoffs:
 * Structural anchors are numbered `A00` through `A21`.
 * The level/reward gate register is an input to TB-024, not a finished level skeleton.
 * The branch and hard-save register records constraint-table hard-save names but does not route branch content.
-* Flexible geography is now captured in TB-025; flexible objective insertion is now captured in TB-026; progression/reset distribution is now captured in TB-027/TB-031E. Branch default selection and branch prototypes are now captured in TB-028/TB-029, counter mechanics are captured in TB-031F, location route-validation mechanics are captured in TB-031G, warning triggers are captured in TB-032, and minimal route placement is captured in TB-034; final guide prose and final checklist mapping remain assigned to TB-035/TB-037.
+* Flexible geography is now captured in TB-025; flexible objective insertion is now captured in TB-026; progression/reset distribution is now captured in TB-027/TB-031E. Branch default selection and branch prototypes are now captured in TB-028/TB-029, counter mechanics are captured in TB-031F, location route-validation mechanics are captured in TB-031G, warning triggers are captured in TB-032, and minimal route placement is captured in TB-034. Reopened TB-035 v1 owns self-contained main-guide expansion before appendices and final checklist mapping resume.
 
 TB-022 support handoffs:
 
