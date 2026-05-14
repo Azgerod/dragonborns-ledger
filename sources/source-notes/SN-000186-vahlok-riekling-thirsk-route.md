@@ -43,7 +43,7 @@ The canonical Nord-side ending supports the project's Thirsk default: preserving
 
 Horker Island is held even though it is north of Bujold's Retreat. It contains Horksbane and a pendant, but it also directly overlaps Deathbrand/Gyldenhul Barrow. Holding it keeps the island's unique item, Deathbrand/Gyldenhul access, Deathbrand map/gear circuit, and pendant together in the later Deathbrand route instead of creating a shallow partial island visit.
 
-Kagrumez is held because full completion requires resonance gems from later Nchardak/Fahlbtharz routing and awards Steadfast creature followers plus the Dwarven Black Bow of Fate. White Ridge Barrow is held because it contains `Black Book: The Sallow Regent`, a Cyclone word, Dukaan, and the imbuing chamber; it fits the Tel Mithryn/Black Book/imbuing pass rather than this Thirsk favor pass.
+Kagrumez is held because full completion requires the later Nchardak/Revus/Tel Mithryn resonance-gem route and awards Steadfast creature followers plus the Dwarven Black Bow of Fate. White Ridge Barrow is held because it contains `Black Book: The Sallow Regent`, a Cyclone word, Dukaan, and the imbuing chamber; it fits the Tel Mithryn/Black Book/imbuing pass rather than this Thirsk favor pass.
 
 Deathbrand, Horker Island, Kagrumez, White Ridge Barrow, Netch Leather, Sun Stone, Tree Stone, Morwen's Falkreath handoff, Skaal Amulet, and Torkild remain staged by their existing route reasons.
 

@@ -17,6 +17,8 @@ The final main guide is a linear player route, not an audit report. It should re
 
 Do not expose objective IDs, row counts, coverage ledgers, source-note mechanics, or database language in player-facing guide prose. Keep those details in `data/guide-coverage/main-guide-v1-coverage.csv` and source notes.
 
+Use title case for chapter and section headings: capitalize major words, but leave minor connector words such as "and," "or," "the," "of," "in," "at," and "to" lowercase unless they begin the heading.
+
 ## Positive Route First
 
 Write the guide around what the player should do. Do not build sections as lists of prohibited nearby content.
@@ -153,6 +155,8 @@ Do not write bracketed checklist callouts or phrases such as "mark the row" or "
 
 Use explicit route bookkeeping only for non-obvious state: counter totals, branch-experienced rows, randomized radiant results, option-list/default handling, hidden prerequisites, and conditional availability that the game does not cleanly expose. Counters should state the target and current count, for example: `Record the Sideways counter at 1 of 10 qualifying side quests.`
 
+For source-listed documents or rewards tied to conditional/random encounters, do not silently choose the cleaner quest ending if it makes the item unavailable. Route the encounter trigger when it is safe, keep the player instruction concise, and isolate the random wait from normal geography routing. If a source page has no deterministic pickup path, record the exact missing fact in source notes and coverage rather than pretending the row is handled.
+
 Do not add player-facing trophy-pop fallbacks, autosave fallbacks, crash workarounds, console-style recovery notes, "if the quest does not start" instructions, or similar technical contingency prose. The guide assumes the game functions properly throughout. Source notes and coverage trackers may record bug-sensitive route reasons, but the route body should present the intended normal path.
 
 Ordinary state checks such as "carry weight is controlled," "food is stocked," "Survival Mode is still on," and "a rotating manual save has been made" belong in route prose, not checklist callouts.
@@ -171,6 +175,8 @@ If detailed routing shows that a safe objective belongs earlier or later than th
 The internal section list itself is allowed to change. When nearby-objective audits move meaningful work earlier, remove that work from later theme buckets instead of leaving duplicate or stale instructions. When a newly unlocked quest is best handled in the next coherent geographic block, note that handoff and reshape the next block around the start/progress/completion bundle.
 
 Apply new routing conventions retrospectively to already-expanded sections when they reveal a systemic issue. Do not wait for manual user audits to catch every missed same-location objective.
+
+Do not let late reconciliation sections become dumping grounds for ordinary unfinished objectives. If a remaining location, quest, book, unique item, property, pet, mount, spell, crafting unlock, counter action, or other objective was safe earlier, retrospectively insert it into the earliest natural route point that can handle it coherently. Late cleanup sections are only for objectives that are genuinely gated until that point, unresolved random-encounter policy, final cross-checks, final crafting/reconciliation systems, or deliberately approved final grinds.
 
 ## Branch Continuity
 
