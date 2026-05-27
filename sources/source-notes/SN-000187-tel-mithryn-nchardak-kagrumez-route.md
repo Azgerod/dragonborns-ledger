@@ -46,7 +46,7 @@ This note supports the TB-035 expansion of `Tel Mithryn, Nchardak, And Kagrumez`
 
 - `From the Ashes` is placed immediately on the first Tel Mithryn visit because it is a local deterministic trigger and unlocks Talvas's follower option plus selected Tel Mithryn spell tomes.
 - `The Path of Knowledge` is placed before the broader Tel Mithryn side-quest loop because the Nchardak route supplies Epistolary Acumen, Bend Will: Hah, Conjure Seeker, three clustered skill books, and the Nchardak Kagrumez Resonance Gem.
-- `The Gardener of Men` is advanced only through the Apocrypha/Hah/Dragonborn Force stage and then parked at the Storn objective. This avoids activating `At the Summit of Apocrypha` while `Filial Bonds` remains unresolved.
+- `The Gardener of Men` is advanced only through the Apocrypha/Hah/Dragonborn Force stage and then parked at the Storn objective. This avoids activating `At the Summit of Apocrypha` before the later forced `Filial Bonds` search and Wulf turn-in.
 - `Reluctant Steward` is routed after Nchardak and protected with hard saves because Varona state controls Staff Enchanter access and `The Hidden Twilight`.
 - The local Tel Mithryn research jobs routed now are `Heart Stones`, `Telvanni Research`, and `Experimental Subject (A)`. `Briarheart Necropsy`, `Azra's Staffs`, `Experimental Subject (B)`, `Old Friends`, and `Wind and Sand` remain staged for controlled mainland/radiant handling.
 - `Healing a House` is routed now because Elynea is at Tel Mithryn and the Headwaters trip is a local Solstheim loop. `Hunting and Gathering` is routed using a prepared one-each rare-ingredient cache to handle all possible assignments without choosing a random default.
@@ -56,7 +56,7 @@ This note supports the TB-035 expansion of `Tel Mithryn, Nchardak, And Kagrumez`
 - `More Than You Can Chew` is routed now through the Solstheim/north-coast portion because its hunting party is near Sun Stone. The Fort Hraggstad shipment/Boots of Blinding Speed follow-up remains staged for the later mainland Fort Hraggstad route.
 - Kagrumez is routed now because Nchardak plus Revus plus the two Kagrumez leader gems provide the four gems needed to complete the full gauntlet. The fifth Fahlbtharz gem remains with Fahlbtharz.
 - `A New Debt` is deliberately left unpaid at the first Mogrul confrontation so Mogrul's thugs can appear and supply `Mogrul's Orders`. The debt should be settled at the next Raven Rock stop after that document is acquired.
-- White Ridge Barrow, `The Sallow Regent`, and the Imbuing Chamber remain staged because `Lost Knowledge` only begins after `The Gardener of Men`, and the route is deliberately parking `The Gardener of Men` before Storn until `Filial Bonds` is safe.
+- White Ridge Barrow, `The Sallow Regent`, and the Imbuing Chamber remain staged because `Lost Knowledge` only begins after `The Gardener of Men`, and the route is deliberately parking `The Gardener of Men` before Storn until the scheduled `Filial Bonds` closeout is safe.
 
 ## Open Questions
 

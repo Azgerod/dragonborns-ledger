@@ -66,6 +66,7 @@ This pass applies the current guide convention that nearby safe objectives shoul
 | SRC-000682 | Skyrim:Snapleg Cave | 2 - UESP | https://en.uesp.net/wiki/Skyrim:Snapleg_Cave | 2026-05-13 | Snapleg clear and Breathing Water placement. |
 | SRC-000683 | Skyrim:Pinepeak Cavern | 2 - UESP | https://en.uesp.net/wiki/Skyrim:Pinepeak_Cavern | 2026-05-13 | Pinepeak clear and Heavy Armor Forging placement. |
 | SRC-000684 | Skyrim:Honeystrand Cave | 2 - UESP | https://en.uesp.net/wiki/Skyrim:Honeystrand_Cave | 2026-05-13 | Honeystrand clear and The Locked Room placement. |
+| SRC-001469 | Skyrim:Grin and Bear It | 2 - UESP | https://en.uesp.net/wiki/Skyrim:Grin_and_Bear_It | 2026-05-13 | Bear pelt accepted types and nearby Ivarstead bear-den sourcing. |
 | SRC-000685 | Skyrim:Nilheim | 2 - UESP | https://en.uesp.net/wiki/Skyrim:Nilheim | 2026-05-13 | Nilheim location and Telrav ambush context. |
 | SRC-000686 | Skyrim:Telrav's Request | 2 - UESP | https://en.uesp.net/wiki/Skyrim:Telrav%27s_Request | 2026-05-13 | Telrav ambush route and bugs. |
 
@@ -77,7 +78,7 @@ The Riften thane route requires `Supply and Demand`, additional citizen help, an
 
 `Hunt and Gather` places Wylandriah's Spoon in Fellstar Farm, with ownership timing notes; the guide waits for a legal unlocked entry and takes only the Spoon now. The Windhelm and Winterhold items remain with their later regional stops.
 
-The broad Ivarstead/Rift road pass routes Pinepeak, Honeystrand, Telrav/Nilheim, Rift Watchtower, Clearspring Tarn, Treva's Watch, Angarvunde, and Snapleg Cave because they are safe colocated clearable locations without a hard level or branch gate. Treva's Watch supplies deterministic Bound Sword, Courage, and Detect Life spell tomes. Angarvunde supplies an Animal Allegiance word and requires Medresi's normal key handoff to avoid the source-listed key/progression bug.
+The broad Ivarstead/Rift road pass routes Pinepeak, Honeystrand, Telrav/Nilheim, Rift Watchtower, Clearspring Tarn, Treva's Watch, Angarvunde, and Snapleg Cave because they are safe colocated clearable locations without a hard level or branch gate. Pinepeak and Honeystrand also begin the routed pelt supply for Temba's `Grin and Bear It`; the remaining pelts come from the later Broken Oar route before the Ivarstead turn-in. Treva's Watch supplies deterministic Bound Sword, Courage, and Detect Life spell tomes. Angarvunde supplies an Animal Allegiance word and requires Medresi's normal key handoff to avoid the source-listed key/progression bug.
 
 Shor's Stone is bundled with `Mine or Yours`, `Truth Ore Consequences`, Sylgja's `Special Delivery`, the Grogmar mining activity, Shor's Watchtower, Darkwater Crossing, and Northwind. Darkwater Pass is conditional because the source lists a minimum level of 18 and contains Falmer/chaurus. If the player is below level 18, the guide leaves Derkeethus and Darkwater Pass for a later Eastmarch support route; otherwise it completes `Extracting an Argonian`, records Derkeethus as available, and clears the cave.
 

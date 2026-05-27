@@ -67,7 +67,7 @@ Held for later with concrete reasons:
 
 * `Dragonborn` completion through the Temple of Miraak, `The Temple of Miraak`, Skaal work, and `Cleansing the Stones`: next Solstheim main-quest section, because this pass focuses on Raven Rock stabilization and Frostmoon Beast Blood access.
 * `First Edition`: Cindiri's quest dialogue requires Raven Rock citizens to be freed from Miraak's influence.
-* `Feeding the Addiction`: held until after `Cleansing the Stones`.
+* `Feeding the Addiction`: held until after `Cleansing the Stones`; the later Temple/Skaal/Stalhrim section now completes it on the Raven Rock return after the Earth Stone.
 * `A New Debt`: held until the Tel Mithryn `Reluctant Steward` chain creates the Drovas/Mogrul context.
 * `Put A Fork In It`: exact trigger warned in-guide because the note/fork are visible in The Retching Netch; completion needs the later Staff of Sheogorath route and staff-enchanter context.
 * `Ghosts of the Tribunal`: exact Temple trigger warned in-guide because the dossier is in a routed Temple visit; branch handling remains later.

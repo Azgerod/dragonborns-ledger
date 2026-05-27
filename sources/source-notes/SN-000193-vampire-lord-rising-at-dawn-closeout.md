@@ -34,7 +34,7 @@ The inherited Bittercup item-table rows for Potion of Blood, Ironwood Soup Elixi
 
 No new `NEEDS ROUTE RESOLUTION` rows were introduced by this pass.
 
-Inherited unresolved rows still remain for `Filial Bonds`/Torkild, `Torkild's Letter to Wulf`, `Note from Mogrul`, Potion of Blood, Ironwood Soup Elixir, and Mysterious Potion.
+Inherited unresolved rows still remain for `Note from Mogrul`, Potion of Blood, Ironwood Soup Elixir, and Mysterious Potion. `Filial Bonds`/Torkild is now closed earlier by the pre-Storn search circuit.
 
 ## Linked Records
 

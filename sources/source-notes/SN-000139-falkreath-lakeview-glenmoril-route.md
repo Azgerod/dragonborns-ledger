@@ -48,7 +48,8 @@ Glenmoril Coven is bundled with the Companions handoff because the cave is in Fa
 | SRC-000547 | Skyrim:The Woodsman's Friend | 2 - UESP | https://en.uesp.net/wiki/Skyrim:The_Woodsman%27s_Friend | 2026-05-13 | Used for location and preservation wording for the unique battleaxe. |
 | SRC-000538 | Skyrim:Glenmoril Coven | 2 - UESP | https://en.uesp.net/wiki/Skyrim:Glenmoril_Coven | 2026-05-13 | Used for minimum level, no-respawn clearability, skill-book placements, witch replacement, and pre-Blood's Honor clear bug. |
 | SRC-000530 | Skyrim:Blood's Honor | 2 - UESP | https://en.uesp.net/wiki/Skyrim:Blood%27s_Honor | 2026-05-13 | Used for Companions prerequisite, Glenmoril Witch objective, all-heads cure planning, and immediate Purity of Revenge handoff. |
-| SRC-000546 | Skyrim:Sweet Roll (creature) | 2 - UESP | https://en.uesp.net/wiki/Skyrim:Sweet_Roll_(creature) | 2026-05-13 | Used to audit and hold the Half-Moon-adjacent pet until a deterministic sweet-roll and pet-management pass. |
+| SRC-000077 | Skyrim:Pets of Skyrim (quest) | 2 - UESP | https://en.uesp.net/wiki/Skyrim:Pets_of_Skyrim_(quest) | 2026-05-11 | Used for Sweet Roll's thief-body sweet roll source, Thief's Journal, and pet teleport reward. |
+| SRC-000546 | Skyrim:Sweet Roll (creature) | 2 - UESP | https://en.uesp.net/wiki/Skyrim:Sweet_Roll_(creature) | 2026-05-13 | Used for Sweet Roll location and pet behavior context. |
 
 ## Evidence Summary
 
@@ -62,13 +63,13 @@ Cracked Tusk Keep and Knifepoint Ridge are not safe early clears. Cracked Tusk o
 
 `Build Your Own Home` supports buying land for 5,000 gold after permission, then selecting Small House Layout and building a foundation with one sawn log and ten quarried stone. The same page records Landowner and Land Baron achievement handling and warns that Lakeview should be bought before Dark Brotherhood Helvard consequences. The guide buys and starts Lakeview only when Siddgeir's bandit job was completed in this pass; otherwise the property chain waits for the later Daedric-location return. Rayya is unlocked with thaneship, but her steward assignment waits because later Lakeview services require Main Hall and service-building validation.
 
-Half-Moon Mill provides Hert as a firewood buyer and lumber contact, so it is a good third Falkreath-help stop and a useful Lake Ilinalta support marker. The same place contains Fishing Supplies and a `Physicalities of Werewolves` copy, but the guide does not route fishing or that regular/skill-book handling here because the current pass is land/thane/Glenmoril focused and the book policy still holds until the planned reading window. Sweet Roll, the pet southwest of Half-Moon Mill, is also held because the route has not yet prepared a deterministic sweet-roll item or pet-management endpoint.
+Half-Moon Mill provides Hert as a firewood buyer and lumber contact, so it is a good third Falkreath-help stop and a useful Lake Ilinalta support marker. The same place contains Fishing Supplies and a `Physicalities of Werewolves` copy, but the guide does not route fishing or that regular/skill-book handling here because the current pass is land/thane/Glenmoril focused and the book policy still holds until the planned reading window. Sweet Roll is now routed here because the pet's clearing is immediately south-southwest of Half-Moon Mill and the thief's body provides both `Thief's Journal` and a deterministic sweet roll for taming.
 
 Glenmoril Coven is level 14 minimum, no respawn, and source-listed as clearable only if handled before `Blood's Honor` replaces the normal hags with Glenmoril Witches. The guide therefore pre-clears it once in normal state at level 14+, leaves `A Tragedy in Black` and `Horror of Castle Xyr` closed, then starts `Blood's Honor`, returns, kills all five witches, and takes all five heads for later cure options.
 
 ## Confidence and Open Questions
 
-Confidence is high for the Siddgeir prerequisite sequencing, immediate target handling for Bannermist/Bilegulch/Embershard, Cracked Tusk and Knifepoint holds, Falkreath help trio, Lakeview purchase/foundation placement, Rayya staging, and Glenmoril pre-clear policy.
+Confidence is high for the Siddgeir prerequisite sequencing, immediate target handling for Bannermist/Bilegulch/Embershard, Cracked Tusk and Knifepoint holds, Falkreath help trio, Sweet Roll insertion, Lakeview purchase/foundation placement, Rayya staging, and Glenmoril pre-clear policy.
 
 The remaining live-save variable is Siddgeir's actual target. If the save assigns Cracked Tusk Keep or Knifepoint Ridge, the guide knowingly delays Falkreath thaneship and Lakeview Manor until the later Daedric-route section can complete that location safely. Later sections must preserve this conditional state and avoid treating Lakeview/Rayya as available on those saves before the delayed target is finished.
 

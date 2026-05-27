@@ -19,6 +19,7 @@ Task context: TB-035-MR-058 final-guide expansion.
 | SRC-001394 | Skyrim:Dead Man's Drink | 2 - UESP | https://en.uesp.net/wiki/Skyrim:Dead_Man%27s_Drink | 2026-05-13 | Dead Man's Drink rented-room placement for `Mysterious Altar`. |
 | SRC-001395 | Skyrim:Silver-Blood Inn | 2 - UESP | https://en.uesp.net/wiki/Skyrim:Silver-Blood_Inn | 2026-05-13 | Markarth inn services and cooking-pot support for Spiked Sujamma. |
 | SRC-001396 | Skyrim:The Warrens | 2 - UESP | https://en.uesp.net/wiki/Skyrim:The_Warrens | 2026-05-13 | Warrens location context for Fortunate Son courier/vault route. |
+| SRC-001471 | Skyrim:Skaal Village Dialogue | 2 - UESP | https://en.uesp.net/wiki/Skyrim:Skaal_Village_Dialogue | 2026-05-13 | Morwen's Bera necklace favor and Falkreath Runil delivery during the Solstheim-to-Falkreath handoff. |
 
 ## Route decisions
 
@@ -34,14 +35,16 @@ The Fortune main route uses the Ernanthil-side approach because it avoids depend
 
 The main-route Bittercup is preserved unconsumed under the project's unique-item preservation policy. The ordinary/Hot Ironwood Soup and Ironwood Fruit alchemy-effect rows remain for the later alchemy/cooking reconciliation because the Nothing branch is reloaded and the main route only unlocks later Ironwood Fruit access through Khajiit caravans.
 
+Morwen's Bera necklace favor starts before leaving Solstheim and delivers to Runil during the Falkreath Bittercup stop. The reward turn-in waits until the next Skaal Village visit, keeping the quest split to the minimum natural mainland handoff instead of leaving it for late cleanup.
+
 ## Open questions
 
 The Bittercup item table lists Potion of Blood, Mysterious Potion, and Ironwood Soup Elixir, but the fetched quest/place pages used for this pass did not identify a deterministic pickup action for them. Internal coverage marks those member rows for later route-resolution rather than inventing an acquisition step.
 
 ## Linked records
 
-Objective rows: OBJ-000535, OBJ-000572, OBJ-000573, OBJ-000574, OBJ-000755, OBJ-000841, OBJ-000851, OBJ-000919, OBJ-001380, OBJ-001493, OBJ-002035, OBJ-002132, OBJ-002254, OBJ-002416, OBJ-002421, OBJ-002675.
+Objective rows: OBJ-000439, OBJ-000535, OBJ-000572, OBJ-000573, OBJ-000574, OBJ-000755, OBJ-000841, OBJ-000851, OBJ-000919, OBJ-001380, OBJ-001493, OBJ-002035, OBJ-002132, OBJ-002254, OBJ-002416, OBJ-002421, OBJ-002675.
 
-Checklist rows: CHK-QUESTS-0579, CHK-QUESTS-0580, CHK-QUESTS-0582, CHK-SPELLS-0843, CHK-LOCATIONS-1052, CHK-LOCATIONS-1200, CHK-BOOKS-1871, CHK-BOOKS-1999, CHK-BOOKS-2454, CHK-BOOKS-2463, CHK-BOOKS-2502, CHK-LEARNED-ALCHEMY-EFFECTS-3276 through CHK-LEARNED-ALCHEMY-EFFECTS-3279.
+Checklist rows: CHK-QUESTS-0534, CHK-QUESTS-0579, CHK-QUESTS-0580, CHK-QUESTS-0582, CHK-SPELLS-0843, CHK-LOCATIONS-1052, CHK-LOCATIONS-1200, CHK-BOOKS-1871, CHK-BOOKS-1999, CHK-BOOKS-2454, CHK-BOOKS-2463, CHK-BOOKS-2502, CHK-LEARNED-ALCHEMY-EFFECTS-3276 through CHK-LEARNED-ALCHEMY-EFFECTS-3279.
 
 Files updated: `drafts/final-guide/main-guide-v1.md`, `data/guide-coverage/main-guide-v1-coverage.csv`, `data/constraints/progression-source-selections.csv`, `docs/main-guide-v1-expansion-plan.md`, `docs/task-board.md`, and `docs/session-handoff.md`.

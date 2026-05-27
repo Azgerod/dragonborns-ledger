@@ -45,11 +45,11 @@ Horker Island is held even though it is north of Bujold's Retreat. It contains H
 
 Kagrumez is held because full completion requires the later Nchardak/Revus/Tel Mithryn resonance-gem route and awards Steadfast creature followers plus the Dwarven Black Bow of Fate. White Ridge Barrow is held because it contains `Black Book: The Sallow Regent`, a Cyclone word, Dukaan, and the imbuing chamber; it fits the Tel Mithryn/Black Book/imbuing pass rather than this Thirsk favor pass.
 
-Deathbrand, Horker Island, Kagrumez, White Ridge Barrow, Netch Leather, Sun Stone, Tree Stone, Morwen's Falkreath handoff, Skaal Amulet, and Torkild remain staged by their existing route reasons.
+Deathbrand, Horker Island, Kagrumez, White Ridge Barrow, Netch Leather, Sun Stone, Tree Stone, Morwen's Falkreath handoff, Skaal Amulet, and the final Torkild search remain staged by their existing route reasons.
 
 ## Unresolved
 
-No new `NEEDS ROUTE RESOLUTION` rows were introduced by this pass. The existing `Filial Bonds` random Torkild encounter remains unresolved from SN-000185.
+No new `NEEDS ROUTE RESOLUTION` rows were introduced by this pass. `Filial Bonds` remains in progress from SN-000185, with the final search now scheduled before Storn rather than left unresolved.
 
 ## Linked Records
 

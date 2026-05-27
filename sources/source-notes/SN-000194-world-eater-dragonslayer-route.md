@@ -43,7 +43,7 @@ The inherited Vampire Lord fallback remains only as a conditional continuity bri
 
 No new `NEEDS ROUTE RESOLUTION` rows were introduced by this pass.
 
-Inherited unresolved rows still remain for `Filial Bonds`/Torkild, `Torkild's Letter to Wulf`, `Note from Mogrul`, Potion of Blood, Ironwood Soup Elixir, and Mysterious Potion.
+Inherited unresolved rows still remain for `Note from Mogrul`, Potion of Blood, Ironwood Soup Elixir, and Mysterious Potion. `Filial Bonds`/Torkild is now closed earlier by the pre-Storn search circuit.
 
 Storm Call remains internally in progress after this pass if Forelhost/Strun has not yet been routed on the current guide draft. The Skuldafn word itself is complete here.
 

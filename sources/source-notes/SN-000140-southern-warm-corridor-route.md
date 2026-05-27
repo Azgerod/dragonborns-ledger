@@ -57,6 +57,7 @@ Ivarstead is routed as a compact village/barrow bundle. Temba and Boti provide c
 | SRC-000568 | Skyrim:Angi's Camp | 2 - UESP | https://en.uesp.net/wiki/Skyrim:Angi%27s_Camp | 2026-05-13 | Used for holding Angi's Camp, Treasure Map V, and local skill-book copies with the later Angi route. |
 | SRC-000569 | Skyrim:Froki's Bow | 2 - UESP | https://en.uesp.net/wiki/Skyrim:Froki%27s_Bow | 2026-05-13 | Used for holding Froki's Bow with the later Kyne's Sacred Trials route. |
 | SRC-000570 | Skyrim:Kyne's Sacred Trials | 2 - UESP | https://en.uesp.net/wiki/Skyrim:Kyne%27s_Sacred_Trials | 2026-05-13 | Used for holding Froki's Shack, Froki's Bow, and Kyne's Token with the later multi-region trial route. |
+| SRC-001469 | Skyrim:Grin and Bear It | 2 - UESP | https://en.uesp.net/wiki/Skyrim:Grin_and_Bear_It | 2026-05-13 | Used for accepting Temba's bear-pelt favor during the Ivarstead mill stop and for the exactly-ten-pelt turn-in rule. |
 
 ## Evidence Summary
 
@@ -72,7 +73,7 @@ Pinewatch is clearable and source-listed as containing `Note to Rhorlak`, `The R
 
 Construction and steward sources support completing the Small House from provided site materials, then assigning a steward once the Small House is built. Rayya is the route-default Lakeview steward when unlocked. The Lakeview carriage driver costs 500 gold through the steward and is useful for Survival travel, so it is routed after ordinary section loot can fund it. Bard service, steward furnishing, livestock, and homestead horse purchase remain staged because they depend on later Main Hall/exterior/service planning and larger economy.
 
-`The Straw that Broke` requires speaking to Narfi, asking Wilhelm, retrieving Reyda's Necklace, and returning it to Narfi. The guide routes it before the later Dark Brotherhood contract `Kill Narfi`. Ivarstead also supports Temba firewood and Boti crop-sale checklist rows, and Narfi supplies an Ivarstead beggar-favor row.
+`The Straw that Broke` requires speaking to Narfi, asking Wilhelm, retrieving Reyda's Necklace, and returning it to Narfi. The guide routes it before the later Dark Brotherhood contract `Kill Narfi`. Ivarstead also supports Temba firewood and Boti crop-sale checklist rows, and Narfi supplies an Ivarstead beggar-favor row. `Grin and Bear It` is accepted during the same Temba conversation, but completion waits until routed bear dens and Broken Oar Grotto provide a controlled set of ten pelts.
 
 `Lifting the Shroud` and Shroud Hearth Barrow naturally bundle together. Wilhelm gives the barrow hook, Wyndelius's Journal turns in for the Sapphire Dragon Claw, the claw opens the rest of the barrow, the barrow contains a deterministic Oakflesh tome, and its word wall supplies a Kyne's Peace word. The guide includes a local warning not to use Unrelenting Force or destructive area effects near Wyndelius's journal because the player is sent to that exact table.
 
@@ -80,7 +81,7 @@ Construction and steward sources support completing the Small House from provide
 
 ## Confidence and Open Questions
 
-Confidence is high for the tutorial retrospective move, Dengeir/Bloodlet routing, Moss Mother/Valdr routing, Pinewatch/Stone/mold routing, Ivarstead/Narfi/Shroud routing, and the Lakeview steward/carriage conditional on saves where Lakeview exists.
+Confidence is high for the tutorial retrospective move, Dengeir/Bloodlet routing, Moss Mother/Valdr routing, Pinewatch/Stone/mold routing, Ivarstead/Narfi/Shroud/Temba routing, and the Lakeview steward/carriage conditional on saves where Lakeview exists.
 
 Confidence is medium for the `Fan Favorite` conditional because it balances two source-listed bugs: a corpse despawn if delayed and a Falkreath Jarl dialogue failure if the quest collides with the Jarl letter path. The guide's conditional policy minimizes the live risk on both save states, but later Falkreath-land recovery sections must remember to route `Fan Favorite` promptly once the parked land condition is resolved.
 

@@ -43,7 +43,7 @@ Waking Dreams' reset service is available after `At the Summit of Apocrypha`, bu
 
 ## Unresolved Rows
 
-No new `NEEDS ROUTE RESOLUTION` rows are introduced by this pass. Existing unresolved rows remain inherited: `Filial Bonds`/Torkild, `Note from Mogrul`, Potion of Blood, Ironwood Soup Elixir, Mysterious Potion, and Weakened Sigil Stone.
+No new `NEEDS ROUTE RESOLUTION` rows are introduced by this pass. Existing unresolved rows remain inherited: `Note from Mogrul`, Potion of Blood, Ironwood Soup Elixir, and Mysterious Potion. `Filial Bonds`/Torkild is now closed earlier by the pre-Storn search circuit. `Weakened Sigil Stone` is excluded from this route.
 
 ## Linked Records
 

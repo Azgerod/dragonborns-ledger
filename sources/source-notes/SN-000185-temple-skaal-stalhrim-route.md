@@ -27,6 +27,8 @@ This pass routes the Dragonborn main spine from the Temple of Miraak through `Th
 | SRC-001285; SRC-001286 | Benkongerike and `Lost Knowledge` routing reason. |
 | SRC-001287; SRC-001288 | Netch Leather route scope and why `More Than You Can Chew` waits for a broader north-coast/Sun Stone/Fort Hraggstad pass. |
 | SRC-001281 | Morwen/Bera necklace timing and Falkreath handoff for later Skaal-to-mainland routing. |
+| SRC-001470 | `Feeding the Addiction`, Bralsa Drel, Geldis Sadri, and post-`Cleansing the Stones` Raven Rock favor timing. |
+| SRC-001471 | `Skaal Village Dialogue`, Bera's Necklace, Runil delivery target, and Morwen reward timing. |
 
 ## Routing Decisions
 
@@ -44,7 +46,7 @@ The Ancarion stalhrim sale objective is started through the persuasion/deal path
 
 `Lost Legacy` is accepted after Baldor is rescued because Tharstan starts it at Skaal Village after `A New Source of Stalhrim`; the next central-island route should complete Vahlok's Tomb rather than leaving the quest idle for a long period.
 
-`Filial Bonds` is started, but Torkild remains an uncontrolled random encounter. The guide names the natural acquisition window and action if Torkild appears, but does not ask the player to roam or reload for him. The internal coverage tracker keeps the row in progress until a deterministic policy or a natural encounter closes it before the Dragonborn finale.
+`Filial Bonds` is started now because Wulf is in Skaal Village and the route is already establishing Skaal side objectives. The guide names the natural acquisition action if Torkild appears during intervening Solstheim travel, but the row is no longer left open indefinitely: the Dragonborn finale section now forces an isolated Torkild search before Storn, using the UESP-listed possible encounter sites.
 
 Benkongerike is deliberately held even though Saering's Watch is nearby. UESP records that `Lost Knowledge` is offered by Neloth after `The Gardener of Men` and can send the player to Benkongerike for `Black Book: Untold Legends`; Benkongerike also contains an East Empire Pendant, Telekinesis, and a Cyclone word. Holding the dungeon preserves the Neloth Black Book reward structure and keeps those colocated rows together.
 
@@ -56,9 +58,11 @@ Skaal Amulet is not routed here. The checklist data notes it as obtainable only 
 
 The Sun Stone is left for the Tel Mithryn side of the island, and the Tree Stone/Root of Power remains tied to the Dragonborn finale. Wind, Beast, Water, and Earth are routed now because they are safe once `Cleansing the Stones` is active and align with this section's movement through Skaal, Thirsk-adjacent, Northshore, Stalhrim Source, and Raven Rock.
 
+`Feeding the Addiction` is routed on the Raven Rock return after the Earth Stone. This is the first natural Raven Rock service stop after freeing the town from Miraak's influence, and the quest stays entirely between Bralsa Drel and Geldis Sadri inside Raven Rock.
+
 ## Unresolved
 
-`Filial Bonds` remains partially unresolved because Torkild is a random encounter. The guide provides the natural-encounter action and deadline before `At the Summit of Apocrypha`, but does not force spawn manipulation.
+`Filial Bonds` remains in progress after this section, but it is no longer a route-resolution gap. The later Miraak finale section closes it before `At the Summit of Apocrypha`, because UESP records that active finale quest as blocking Wulf's letter turn-in.
 
 No other new `NEEDS ROUTE RESOLUTION` rows were introduced by this pass.
 

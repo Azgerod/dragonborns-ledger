@@ -38,19 +38,19 @@ This note supports the TB-035 expansion of `Fahlbtharz, Deathbrand, And Karstaag
 - `Paid in Full` is completed immediately after Castle Karstaag because the formula is now in hand and Raven Rock is the natural recovery/storage point. Glover's basement content, Glover's Letter, Blackguard's Armor set, and the Glover Mallory's House East Empire Pendant are handled at the same time.
 - Glover's Letter is acquired now, but Sapphire's Exquisite Sapphire reward is held for the next coherent Riften return. A ferry/mainland round trip solely for that handoff would be a poor Solstheim-section interruption.
 - The section keeps `Pain in the Necklace` active because the Benkongerike strongbox remains with `Black Book: Untold Legends` and `Lost Knowledge`.
-- The section names a natural Torkild handling window during the north-coast route but does not ask the player to roam or reload to force the random encounter. `Filial Bonds` therefore remains unresolved in coverage unless Torkild appears naturally on the actual save.
+- The section names a natural Torkild handling window during the north-coast route because several UESP-listed possible Torkild sites sit near the north-coast travel path. If he still does not appear, the final isolated search is deliberately deferred to the pre-Storn visit so this section does not become a random-encounter loop.
 
 ## Deferred From This Pass
 
 - Benkongerike and `Black Book: Untold Legends` remain held for the later Lost Knowledge route. Entering and taking the Black Book before Neloth can send the player there would undercut the planned Lost Knowledge handling.
 - White Ridge Barrow, `Black Book: The Sallow Regent`, Cyclone: Nos, Dukaan, the Imbuing Chamber, and White Ridge spell/book candidates remain held for the same post-Gardener/Lost Knowledge route.
 - Highpoint Tower and `Old Friends` remain held until `Briarheart Necropsy` is active and a mainland Forsworn Briarheart route can satisfy the prerequisite cleanly.
-- `The Gardener of Men` remains parked at Storn until `Filial Bonds` is resolved or the route adopts a deterministic Torkild policy. Completing Storn early starts `At the Summit of Apocrypha`, and UESP records that active finale quest as blocking Wulf's letter turn-in.
+- `The Gardener of Men` remains parked at Storn until the later forced `Filial Bonds` search. Completing Storn early starts `At the Summit of Apocrypha`, and UESP records that active finale quest as blocking Wulf's letter turn-in.
 - `At the Summit of Apocrypha` and the final Miraak fight remain held for the level 60 Miraak equipment gate.
 
 ## Open Questions
 
-`Filial Bonds` still depends on an uncontrolled Torkild random encounter. This section gives the player a natural north-coast action window if he appears, but does not force the spawn. The internal coverage tracker keeps the row unresolved until a deterministic or explicitly approved random-encounter policy exists.
+`Filial Bonds` remains in progress in this section, but the route-resolution gap is closed later by the pre-Storn Torkild search circuit.
 
 `Note from Mogrul` remains the inherited unresolved row from SN-000187 because the source page still has no fixed executable pickup path.
 

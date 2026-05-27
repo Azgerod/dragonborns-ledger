@@ -12,6 +12,7 @@ This note supports the v1 guide section `First Brotherhood Contracts And Muiri's
 | --- | --- | --- | --- | --- | --- |
 | SRC-000899 | Skyrim:Sanctuary | 2 - UESP | https://en.uesp.net/wiki/Skyrim:Sanctuary | 2026-05-13 | First Brotherhood contracts and contract-target warning. |
 | SRC-000900 | Skyrim:Kill Narfi | 2 - UESP | https://en.uesp.net/wiki/Skyrim:Kill_Narfi | 2026-05-13 | Narfi contract, reward boundary, and `The Straw that Broke` lockout. |
+| SRC-001469 | Skyrim:Grin and Bear It | 2 - UESP | https://en.uesp.net/wiki/Skyrim:Grin_and_Bear_It | 2026-05-13 | Exact ten-pelt turn-in on the next Ivarstead return before Narfi's contract kill. |
 | SRC-000901 | Skyrim:Kill Beitild | 2 - UESP | https://en.uesp.net/wiki/Skyrim:Kill_Beitild | 2026-05-13 | Beitild contract, reward boundary, active-contract ore-sale lockout, and outdoor-kill hostility caution. |
 | SRC-000902 | Skyrim:Kill Ennodius Papius | 2 - UESP | https://en.uesp.net/wiki/Skyrim:Kill_Ennodius_Papius | 2026-05-13 | Ennodius route, Anga's Mill camp placement, reward boundary, and kill-registration bugs. |
 | SRC-000903 | Skyrim:Anga's Mill | 2 - UESP | https://en.uesp.net/wiki/Skyrim:Anga%27s_Mill | 2026-05-13 | Anga's Mill marker, Aeri services, chopping blocks, and Ennodius camp adjacency. |
@@ -36,7 +37,7 @@ This note supports the v1 guide section `First Brotherhood Contracts And Muiri's
 
 The earlier Bards/northern-road section now includes a small Dawnstar insertion before Dark Brotherhood contract acceptance: discover Dawnstar, mine one iron ore at Iron-Breaker Mine, and sell it to Beitild. This is required because UESP records that Beitild pays for iron ore normally, but `Kill Beitild` blocks normal ore-sale dialogue while the contract is active. The route therefore handles the Beitild mine-sale checklist row before Nazir's first set of contracts, while the actual assassination remains with the Brotherhood contract loop.
 
-`Kill Narfi` remains safe in the first contract loop because `The Straw that Broke` was completed in the southern warm corridor. Narfi's non-default Goldenhills farmhand option is closed by the assassination, but the route already chose generic farmhands as the farm default. The player-facing text states the practical consequence once, at the kill point.
+`Kill Narfi` remains safe in the first contract loop because `The Straw that Broke` was completed in the southern warm corridor. The same Ivarstead return is now used to finish Temba's `Grin and Bear It` with exactly ten pelts collected from routed bear locations before killing Narfi. Narfi's non-default Goldenhills farmhand option is closed by the assassination, but the route already chose generic farmhands as the farm default. The player-facing text states the practical consequence once, at the kill point.
 
 Anga's Mill is expanded beyond the Ennodius target because the route is physically there and the next stop is Dawnstar. Aeri's firewood sale, Aeri's Note, Aeri's delivery to Skald, and Aeri's non-default marriage availability are safe, local, and directly sequenced with Dawnstar. Ennodius is killed while awake or outside the tent because UESP records kill-registration and sleeping-body bugs; the guide uses a rotating save before the kill.
 
@@ -52,7 +53,7 @@ Raldbthar is expanded from the old Aetherium handoff. The guide now bundles Alai
 
 ## Coverage Notes
 
-This pass directly places Beitild's Dawnstar mine-sale variant, Dawnstar discovery, `Kill Narfi`, `Kill Ennodius Papius`, `Kill Beitild`, Anga's Mill discovery, Aeri firewood, Aeri's Note, Aeri's delivery, `Mourning Never Comes`, House of Clan Shatter-Shield Stone of Barenziah, Raldbthar, Great Lift at Raldbthar, Aegisbane, Raldbthar Aetherium Shard, Muiri's Ring, and Muiri's non-default marriage option.
+This pass directly places Beitild's Dawnstar mine-sale variant, Dawnstar discovery, `Grin and Bear It`, `Kill Narfi`, `Kill Ennodius Papius`, `Kill Beitild`, Anga's Mill discovery, Aeri firewood, Aeri's Note, Aeri's delivery, `Mourning Never Comes`, House of Clan Shatter-Shield Stone of Barenziah, Raldbthar, Great Lift at Raldbthar, Aegisbane, Raldbthar Aetherium Shard, Muiri's Ring, and Muiri's non-default marriage option.
 
 Held or staged rows are mapped in coverage rather than exposed as player-facing lists: Dawnstar Daedric/property/merchant/Pale content, `Suvaris Atheron's Logbook` and `Rise in the East`, Torbjorn's Amulet of Arkay favor, Blackreach/Septimus access through Raldbthar, Raldbthar skill-book copies, the remaining Lost to the Ages shard and forge work, and Erikur-sensitive `The Dainty Sload` before `Bound Until Death`.
 

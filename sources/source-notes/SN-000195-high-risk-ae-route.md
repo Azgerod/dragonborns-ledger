@@ -50,7 +50,7 @@ Solitude Sewers and Green Butterfly in a Jar remain held for the Saints & Seduce
 
 Craftable or unenchanted variants in the Dragon Plate and Redguard Elite item tables remain staged for later equipment/crafting reconciliation when the route audits forge outputs and unplayable item-table variants. This pass acquires the placed unique/reward versions named in the quests.
 
-The Ayleid Crown of Rielle is excluded as unobtainable per the item table. The Weakened Sigil Stone has no deterministic executable pickup path in the current item data or route pages and remains a `NEEDS ROUTE RESOLUTION` internal row.
+The Ayleid Crown of Rielle is excluded as unobtainable per the item table. The Weakened Sigil Stone is also excluded from the player route: UESP's current `The Consequences` page routes the playable Deadlands finale through Scourge, Torment, and escape from Red Scar Cavern, while UESP's unfinished-quests page records the Sigil Stone decision under removed `The Cause` objectives.
 
 ## Bug-Sensitive Order Used in Guide
 
@@ -62,4 +62,3 @@ The player-facing guide does not include technical fallback prose. It does, howe
 - take the Great Welkynd Stone before fighting Norion or the coffin enemies;
 - do not leave Rielle Crypt until the Rielle stone, Norion, Staff of Ehlno Ede, Rielle Key, and Vigilant Enforcer's Journal sequence is complete;
 - read `Vonos' Journal` after killing Vonos, then immediately continue through the Oblivion Gate for `The Consequences`.
-
