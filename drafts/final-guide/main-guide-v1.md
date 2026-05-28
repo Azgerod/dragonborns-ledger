@@ -2,7 +2,7 @@
 
 This is a self-contained route guide. It tells you what to do, when to do it, what to save before, and which important completion states change as you play. You should not need to consult the objective spreadsheet while playing; the spreadsheet is used behind the scenes to verify completeness.
 
-Draft note: The route sections through `Black Book Defaults and Progression Switches` are player-facing v1 text. Sections marked `Scaffold only - not yet v1-expanded` are still placeholders from the previous scaffold and are not ready for play.
+Draft note: The route sections through `Final Reconciliation` are player-facing v1 text.
 
 ## Guide Conventions
 
@@ -63,9 +63,9 @@ Useful early Survival recipes:
 8. Speak to Alvor for the `Before the Storm` Riverwood step. Accept his starter support, take the woodcutter's axe from the woodpile in Alvor's cellar if you do not already have one, and leave `Before the Storm` parked at the Whiterun/Jarl objective; it is not complete until the Whiterun turn-in.
 9. At Alvor's forge, ask him to show you smithing work. Complete the tutorial sequence: make an iron dagger, improve the dagger, make leather, make a hide helmet, and improve the helmet.
 10. Go to the Sleeping Giant Inn. Buy one inexpensive alcoholic drink from Orgnar if you do not already have one, give it to Embry. Keep the Black-Briar Mead from Helgen for Siddgeir.
-11. Speak to Sven about Camilla and accept his forged letter.
-12. Find Faendal near the mill or around Riverwood. Show him Sven's letter, accept Faendal's counter-forged letter.
-13. Go to the Riverwood Trader. Speak to Lucan or Camilla about the stolen claw and start `The Golden Claw`. Then speak to Camilla about the love triangle, give her Faendal's letter, and return to Faendal. Complete `A Lovely Letter`. Record Hero of the People at 2 of 50 finite miscellaneous objectives.
+11. Speak to Sven about Camilla and accept `Sven's Fake Letter from Faendal`.
+12. Find Faendal near the mill or around Riverwood. Show him `Sven's Fake Letter from Faendal`, then accept `Faendal's Fake Letter from Sven`.
+13. Go to the Riverwood Trader. Speak to Lucan or Camilla about the stolen claw and start `The Golden Claw`. Then speak to Camilla about the love triangle, give her `Faendal's Fake Letter from Sven`, and return to Faendal. Complete `A Lovely Letter`. Record Hero of the People at 2 of 50 finite miscellaneous objectives.
 14. While at the Riverwood Trader, sell ordinary Helgen loot if you need food, arrows, lockpicks, or carry space.
 15. Use the inn as the first Survival support stop: leave Riverwood with food for the Whiterun road, and rent a room first if Fatigue or a waiting level-up needs an indoor bed.
 16. Check your inventory before leaving Riverwood. Keep gold, lockpicks, healing, food, one armor set, one main weapon setup, ammunition if you use it, unique items, quest items, and the woodcutter's axe for the first Whiterun inn loop.
@@ -562,12 +562,12 @@ Useful early Survival recipes:
 15. Ask Calcelmo about the excavation and accept `Nimhe, the Poisoned One`. He gives you access to Nchuand-Zel.
 16. Buy the Dwarven Armored Mudcrab ownership deed from Calcelmo. Read the `Spell Tome: Teleport Pet Mudcrab`, meet the mudcrab beside Calcelmo's work area, and send it to Honeyside, Riften, or another city rather than keeping it with you for the next prison-heavy Markarth section.
 17. Deliver Banning's Spiced Beef to Voada in the Understone Keep kitchen.
-18. Deliver Bothela's Stallion's Potion to Raerek.
+18. Deliver Bothela's Stallion's Potion to Raerek. Before leaving Understone Keep, speak to Jarl Igmund and ask whether he has work for you. Accept his `Kill the Forsworn Leader` assignment, record the exact target, and leave it active for the target-aware Reach redoubt pass. Starting Igmund's work now protects the later Vlindrel Hall purchase route before the Markarth prison state changes.
 19. Speak to Ondolemar in Understone Keep and accept `Search and Seizure`. Go to Ogmund's house, take Ogmund's Amulet of Talos, return it to Ondolemar, complete the quest.
 20. Go to the Silver-Blood Inn. Give Bolli's Purchase Agreement to Kleppr, complete Bolli's `Special Delivery`.
 21. Find Yngvar the Singer in the Silver-Blood Inn during the day or the Treasury House at night. Buy the Love Poem for 200 gold.
 22. Make a rotating manual save before the Calcelmo/Faleen handoffs. Deliver the Love Poem to Faleen, receive Faleen's Letter to Calcelmo.
-23. Give Faleen's letter to Calcelmo, follow him until he and Faleen finish their scene, and let this `The Book of Love` stage update. The quest now points back to Dinya Balu for its final Ruki and Fenrig stage; it is not complete yet.
+23. Give Faleen's letter to Calcelmo, follow him until he and Faleen finish their scene, and let this `The Book of Love` stage update. The quest now points back to Dinya Balu for its final Ruki and Fenrig stage; it is not complete yet, and the Agent of Mara reward remains unclaimed.
 24. Make a rotating manual save before entering Nchuand-Zel. Enter from Understone Keep, kill Nimhe, then cut through the webbing and take Alethius's Notes from Alethius. Read the notes from your inventory to start `The Lost Expedition`.
 25. Continue through Nchuand-Zel in journal order. Take Stromm's Diary first, then Erj's Notes, Krag's Journal, and Staubin's Diary. Take each journal once; do not read a journal from the ground and then take a second copy.
 26. In Nchuand-Zel Control, pull the defense lever. If the quest arrow points back toward the Armory afterward, ignore the arrow and exit to Calcelmo.
@@ -611,7 +611,7 @@ Useful early Survival recipes:
 25. Go to Understone Keep and speak to Brother Verulus about the Hall of the Dead. Use Persuade or Bribe to get the key, then enter Markarth's Hall of the Dead. Leave `2920, Rain's Hand, v4` and Caravan Captain's Note closed.
 26. Speak to Eola in the Hall of the Dead and choose a non-hostile answer that starts `The Taste of Death`. Return to Verulus, tell him the Hall of the Dead is safe, receive his Amulet of Arkay.
 27. Travel to Karthwasten, discover it. Speak to Enmon for the Sybil route here and tell him to stay in town rather than escorting you.
-28. Build this section's active target list: Broken Tower Redoubt for Fjotra, Logrolf's target, Lisbet's target, and the Hjalti's Sword target you recorded at Old Hroldan. If the same location appears more than once, clear it once and handle every active objective there before leaving.
+28. Build this section's active target list: Broken Tower Redoubt for Fjotra, Igmund's Forsworn leader target, Logrolf's target, Lisbet's target, and the Hjalti's Sword target you recorded at Old Hroldan. If the same location appears more than once, clear it once and handle every active objective there before leaving, including killing Igmund's marked Forsworn leader if that marker points there.
 29. Clear Broken Tower Redoubt. Rescue Fjotra for `The Heart of Dibella`. If Logrolf, Lisbet's statue, or Hjalti's Sword is also in Broken Tower, handle those objectives on the same pass. Leave `The Mirror` and `Liminal Bridges` closed.
 30. If Logrolf's target, Lisbet's target, or Hjalti's target is Bruca's Leap Redoubt, clear Bruca's Leap Redoubt, free Logrolf or retrieve the quest item there, leave `A Tragedy in Black` closed.
 31. If Logrolf's target, Lisbet's target, or Hjalti's target is Deepwood Redoubt, clear Deepwood Redoubt, free Logrolf or retrieve the quest item there, leave `Sacred Witness` and `The Legend of Red Eagle` closed.
@@ -625,13 +625,13 @@ Useful early Survival recipes:
 39. Return Hjalti's Sword to the Ghost of Old Hroldan if you retrieved it in the redoubt pass, and add it to Hero of the People tracking.
 40. Return Lisbet's Dibella Statue to Lisbet. Complete `Lisbet's Missing Shipment`, and add it to Hero of the People tracking.
 41. If Logrolf was freed from his target, make `HARD SAVE: HS-MOLAG-LOGROLF-FREED`, then return to the Abandoned House. Follow Logrolf to the altar, complete Molag Bal's scripted finale, take the Mace of Molag Bal. Record Oblivion Walker progress at 4 of 15 qualifying Daedric artifacts.
-42. Return Fjotra to the Temple of Dibella. Pray at Dibella's altar when Hamal tells you to, complete the quest. Add `The Heart of Dibella` to Sideways tracking. Anwen, Orla, and Senna are now non-default spouse options.
+42. Return Fjotra to the Temple of Dibella. Pray at Dibella's altar when Hamal tells you to, complete the quest, and gain Agent of Dibella. Add `The Heart of Dibella` to Sideways tracking. Anwen, Orla, and Senna are now non-default spouse options.
 43. Travel to Reachcliff Cave and meet Eola outside. Clear Reachcliff Cave with her, leave `The Doors of Oblivion` closed, speak to Eola at Namira's shrine. Exit through the newly opened secret exit, discover Reachcliff Secret Entrance.
 44. Return to Markarth's Hall of the Dead and convince Brother Verulus to follow you. Use Bribe if Persuade does not work.
 45. Lead Verulus back through Reachcliff Secret Entrance to Namira's shrine. Make `HARD SAVE: HS-DAEDRIC-NAMIRA-FEAST` before speaking to Eola at the table.
 46. BRANCH ROUTE: from `HS-DAEDRIC-NAMIRA-FEAST`, kill Eola at the feast, save Verulus, fight the hostile guests, record the branch outcome, then reload the hard save.
 47. MAIN ROUTE: let Eola put Verulus on the altar, kill Verulus when directed, feed from his body, receive the Ring of Namira. Record Oblivion Walker progress at 5 of 15 qualifying Daedric artifacts.
-48. Leave Reachcliff Cave, return to Markarth, sleep in the Silver-Blood Inn if needed, sell down, and make a rotating manual save.
+48. Leave Reachcliff Cave and return to Markarth. If Igmund's Forsworn leader target was handled in the redoubt pass, report it to Igmund in Understone Keep before sleeping or leaving the city. Use the Silver-Blood Inn and city merchants to rest and sell, then make a rotating manual save.
 
 ### Arkngthamz and the First Aetherium Shards
 
@@ -719,7 +719,7 @@ Useful early Survival recipes:
 13. After dark, go to Helgi's grave behind the burned house. Kill Laelette, activate Helgi's spirit, then speak to Thonnir when he arrives.
 14. After the quest sends you to Alva's House, enter the house, go to the basement coffin, take and read `Alva's Journal`. Return the journal to Jarl Idgrod.
 15. When the Jarl sends you to Movarth's Lair, make a rotating manual save before the final approach. At the lair, speak to the gathered townspeople and send Thonnir home if the dialogue allows it. Enter Movarth's Lair, kill Movarth Piquine and the hostile vampires, leave `2920, Sun's Dawn, v2` closed, and do not attack Alva if she is present and non-hostile. Take Movarth's Boots from the bedroom area after Movarth is dead.
-16. Return to Jarl Idgrod, complete `Laid to Rest`. Add `Laid to Rest` to Sideways tracking.
+16. Return to Jarl Idgrod, complete `Laid to Rest`. Add `Laid to Rest` to Sideways tracking. Before leaving Morthal, enter Thonnir's House, take Michaela's Flagon from beside the fireplace behind the basket, and preserve it with the unique misc collectibles.
 17. Ask Jarl Idgrod about becoming Thane of Hjaalmarch. Find Benor in or near the Morthal guardhouse, challenge him to a brawl, fight barehanded with no follower, pet, summon, weapon, poison, spell, or shout, then speak to him after winning. Benor is now a non-default follower and spouse option.
 18. At the Morthal wood chopping block, chop one batch of Firewood and sell it to Jorgen.
 19. Find Gorm while he is away from the Jarl, often at Moorside Inn around dinner, and accept Gorm's Letter for Captain Aldis. In Highmoon Hall, speak to Idgrod the Younger about Joric, accept Idgrod's Note, and record the active delivery target. Make Idgrod's delivery as an isolated errand: travel to the named recipient, hand over the note, add the delivery to Hero of the People tracking, then return to Morthal before continuing the Hjaalmarch route.
@@ -740,7 +740,7 @@ Useful early Survival recipes:
 34. Return to Riverwood and speak to Delphine in the Sleeping Giant Inn secret room. Start `Diplomatic Immunity`.
 35. Travel through Whiterun Stables and take the carriage to Solitude. Before meeting Malborn, go to Castle Dour, deliver Gorm's Letter to Captain Aldis, complete `For the Good of Morthal`. Add Gorm's delivery to Hero of the People tracking. Then find Bryling in the Blue Palace or at her house, deliver Pactur's message, complete `Payment Delivery`. Add Pactur's delivery to Hero of the People tracking.
 36. Go to the Winking Skeever and speak to Malborn. Give him the gear you want inside the Thalmor Embassy: one reliable weapon setup, armor or clothing for your build, healing, lockpicks, and any compact tools you need for a hostile interior. Keep only what you are willing to surrender temporarily to Delphine.
-37. Meet Delphine at Solitude Stables. Change into the party outfit, receive the invitation. Let Delphine take the rest of your equipment and board the embassy carriage.
+37. Meet Delphine at Solitude Stables. Change into the party outfit, receive `Invitation to Elenwen's Reception`. Let Delphine take the rest of your equipment and board the embassy carriage.
 38. At the embassy gate, present the invitation, enter the party, discover the Thalmor Embassy.
 39. Speak to Malborn at the party. Use Razelan as the distraction: get Cyrodilic Brandy from Malborn, give it to Razelan, ask Razelan to make a scene, then slip through the kitchen with Malborn and retrieve your smuggled gear from the chest.
 40. In Elenwen's Solar, take the Interrogation Chamber Key, `Thalmor Dossier: Delphine`, `Thalmor Dossier: Ulfric Stormcloak`, and `Dragon Investigation: Current Status` from the office chest. Read the documents.
@@ -1201,7 +1201,7 @@ Useful early Survival recipes:
 32. Clear Tumble Arch Pass.
 33. Sweep the Hjaalmarch marsh and cold passes from Dawnstar, Morthal, or Heljarchen support. Discover Hjaalmarch Imperial Camp, Hjaalmarch Stormcloak Camp, Kjenstag Ruins, The Apprentice Stone, Shrine of Mehrunes Dagon, North Cold Rock Pass, and South Cold Rock Pass. Clear Brood Cavern, Cold Rock Pass, Eldersblood Peak, Fort Snowhawk, Rannveig's Fast, and Skyborn Altar. In Rannveig's Fast, learn the `Kyne's Peace` word `Drem`, fall through Sild's trap route, and take the Stone of Barenziah beside the alchemy lab and chest. Leave `A Dance in Fire, v2` in Fort Snowhawk closed for the Scholar's Insight reading window.
 34. Sweep the Dawnstar and Pale coast. Clear Fort Fellhammer, Frostflow Lighthouse, and Wreck Of The Brinehammer. At Frostflow Lighthouse, take the Torchbug in a Jar, read and take Habd's Journal, Ramati's Journal, Mani's Letter, Sudi's Journal, the Bloodstained Note, and the Scrawled Page, retrieve Habd's remains from the Chaurus Reaper, and place the remains in the lighthouse brazier for Sailor's Repose.
-35. Sweep the Nightgate and Pale pass. Discover Bloodchill Cavern, Pale Stormcloak Camp, Bronze Water Cave, and Wayward Pass. Clear Bronze Water Cave, Darkshade, Duskglow Crevice, Ironbind Barrow, Mount Anthor, Shearpoint, Shrouded Grove, Silverdrift Lair, Snowpoint Beacon, Valtheim Towers, and Weynon Stones. In Duskglow Crevice, take the Moth in a Jar. At Valtheim Towers, loot the Treasure Map II chest. Treasure Maps tracking is now 8 of 13 resolved map-and-cache entries. At Shearpoint, kill the dragon and Krosis, preserve Krosis, and learn all three Throw Voice words from the wall.
+35. Sweep the Nightgate and Pale pass. Discover Bloodchill Cavern, Pale Stormcloak Camp, Bronze Water Cave, and Wayward Pass. Clear Bronze Water Cave, Darkshade, Duskglow Crevice, Ironbind Barrow, Mount Anthor, Shearpoint, Shrouded Grove, Silverdrift Lair, Snowpoint Beacon, Valtheim Towers, and Weynon Stones. At Wayward Pass, take the Ancient Traveler's Skull from the Arkay altar and preserve it. In Duskglow Crevice, take the Moth in a Jar. At Valtheim Towers, loot the Treasure Map II chest. Treasure Maps tracking is now 8 of 13 resolved map-and-cache entries. At Shearpoint, kill the dragon and Krosis, preserve Krosis, and learn all three Throw Voice words from the wall.
 36. Return to Skald in The White Hall and collect the giant bounty. Complete `Kill the Giant`, and add Skald's bounty to Hero of the People tracking.
 37. Speak to Skald again about helping the people of the Pale. Because the route has already completed at least three Pale help objectives, accept Thane of the Pale, receive the Blade of the Pale, and unlock Gregor. Gregor is also a non-default marriage option; leave him unrecruited and unassigned for now.
 38. Ask Skald or Bulfrek about buying a house in the hold and purchase the Heljarchen Hall land plot for 5,000 gold.
@@ -1746,7 +1746,7 @@ Possible Blades dragon-hunt assignments:
 18. Continue building the werewolf perk tree whenever the route sends you through fresh hostile content with eligible corpses and no follower or quest-state conflict. Finish the fight in normal form if that is safer, transform with the Ring of Hircine before leaving, feed on every eligible corpse, open the werewolf perk tree while transformed, and buy every available perk. The full tree requires 165 total feedings; do not cure or replace Beast Blood until all 11 werewolf perks are purchased.
 19. Ask Farkas for his personal cure work first. Travel with him to Ysgramor's Tomb, activate the Flame of the Harbinger with one Glenmoril Witch Head, defeat Farkas's Wolf Spirit, speak to Farkas, and complete his `Purity`.
 20. Return to Jorrvaskr, ask Vilkas for his personal cure work, travel to Ysgramor's Tomb, activate the flame with one Glenmoril Witch Head, defeat Vilkas's Wolf Spirit, speak to Vilkas, and complete his `Purity`.
-21. Keep your own Beast Blood after the Companion cures. Complete the representative `Dragon Seekers` assignment before leaving the Companions behind. Ask Farkas or Vilkas for work. If he gives a different normal Companions job first, complete that assignment as a direct out-and-back under the random-job rules from the earlier Companions section, turn it in, and ask again. When `Dragon Seekers` is offered, travel directly with Farkas or Vilkas to the assigned dragon lair, kill the dragon, absorb the soul if it is not stolen, speak to the quest giver to complete the radiant, and record Dragon Hunter progress if a soul was absorbed.
+21. Keep your own Beast Blood after the Companion cures. Complete the representative `Dragon Seekers` assignment before leaving the Companions behind. Ask Farkas or Vilkas for work. If he gives a different normal Companions job first, complete that assignment as a direct out-and-back under the random-job rules from the earlier Companions section, turn it in, and ask again. When `Dragon Seekers` is offered, travel directly with Farkas or Vilkas to the assigned dragon lair, kill the dragon, absorb the soul if it is not stolen, speak to the quest giver to complete the radiant, and record Dragon Hunter progress if a soul was absorbed. This completes the Companions finite post-quest radiant set: all three `Totems of Hircine` assignments, Farkas's `Purity`, Vilkas's `Purity`, and one representative `Dragon Seekers` assignment.
 22. Serana's Vampire Lord conversion, Vampire Mastered, Falion's cure, and the final mortal-state setup wait until after the Solstheim Frostmoon Crag ring purchase.
 
 ## Solstheim and Dragonborn Spine
@@ -1941,7 +1941,7 @@ Possible Blades dragon-hunt assignments:
 3. In the boilery, solve the steam puzzle by striking resonators 1, 2, and 5 from left to right. In the Grand Hall, use centurion dynamo cores to open the treasure room, then take the Kagrumez Resonance Gem and Visage of Mzund. Before leaving Fahlbtharz, enter Fahlbtharz Forge, kill Hand Kenro Hlan, and take `Hand Kenro's Note`, the Unenchanted Weapon, Kenro's Helmet, Kenro's Robes, the Fahlbtharz Forge Gem, and at least one Pyroil Tar. Read the note, then use the lift exit north of the Abandoned Lodge, return to Raven Rock, and store the fifth Kagrumez gem with the other four. Store the Kenro disguise, Unenchanted Weapon, Fahlbtharz Forge Gem, and Pyroil Tar for the Tribunal route.
 4. Prepare for a long cold north-coast loop, then travel to Haknir's Shoal. Clear the pirate camp, take the Deathbrand Treasure Map from the pirate captain, take the East Empire Company Pendant from the strongbox at the back of the middle tent, and take Deathbrand Helm from the ancient chest northwest of the camp.
 5. Swim or cross to the Riekling island north of Haknir's Shoal and northwest of Frossel. Clear the rieklings and take the East Empire Company Pendant from the strongbox at the top of the larger Riekling structure, near the knapsack.
-6. Follow the Deathbrand map circuit. Go to the river west of Tel Mithryn, near the netches and boulder pile, defeat the ash spawn and treasure hunters, and take Deathbrand Boots from the ancient chest. Then go to the small pine forest north-northwest of the Earth Stone, defeat the reavers, and take Deathbrand Armor. Finally, go to the tidal pool south of Bristleback Cave and near Broken Tusk Mine, clear the mudcrabs, and take Deathbrand Gauntlets. The fourth armor chest gives you the Gyldenhul Barrow Key.
+6. Follow the Deathbrand map circuit. Go to the river west of Tel Mithryn, near the netches and boulder pile, defeat the ash spawn and treasure hunters, and take Deathbrand Boots from the ancient chest. Then go to the small pine forest north-northwest of the Earth Stone, defeat the reavers, and take Deathbrand Armor. Finally, go to the tidal pool south of Bristleback Cave and near Broken Tusk Mine, clear the mudcrabs, and take Deathbrand Gauntlets. The fourth armor chest gives you the Gyldenhul Barrow Key. Treasure Maps tracking is now 12 of 13 resolved map-and-cache entries.
 7. Travel to Horker Island. Clear the horkers, including Lord Tusk, take Horksbane from Saden's body inland from the eastern wreckage, and take the East Empire Company Pendant from the underwater strongbox beside the broken boat on the east coast.
 8. Use the Gyldenhul Barrow Key at the barrow entrance on Horker Island. Take and read `Torn Note` from the dead adventurer, mine the western stalhrim deposit with the Ancient Nordic Pickaxe, continue into the treasure corridor, and take Bloodscythe from Haknir's skeleton. Defeat Haknir Death-Brand and his crew, then take Soulrender from Haknir's remains. Preserve the full Deathbrand set, Bloodscythe, Soulrender, and Horksbane.
 9. Go to Frossel and clear the cave. Take the East Empire Company Pendant from the expert strongbox on the ground in the easternmost chamber after the first tripwire claw trap.
@@ -2131,87 +2131,1179 @@ Possible Blades dragon-hunt assignments:
 
 ## Final Counters, Progression, and Reconciliation
 
-### Location Counter Sweep
+### Late Location Reconciliation
 
-Scaffold only - not yet v1-expanded.
-
-This section is no longer a general dump for unfinished locations. Ordinary remaining objectives must be inserted into the earliest natural regional route point that can handle them safely and coherently. Use this section only for genuinely late-gated reconciliation after the retrospective redistribution pass is complete.
+There is no standalone location sweep here. The route has already moved ordinary discover, enter, and clear instructions back into the regional sections where they belong. Continue with the named reconciliation blocks below; location-linked collectibles, fishing, books, homes, services, level gates, and final systems are handled in those sections rather than in a generic late block.
 
 ### Collectible Reconciliation
 
-Scaffold only - not yet v1-expanded.
-
-1. Reconcile opportunistic pickups already made during natural visits, then complete each finite set from its explicit item list.
-2. Complete Stones of Barenziah, dragon priest masks, claws, bugs in jars, paragons, treasure maps, fishing, pets, mounts, shouts, word walls, and finite collectible sets.
-3. Use the fishing route as a structured quest/species/biome/rod/weather sweep, not incidental fishing from one spot. Preserve ingredient fish needed for alchemy-effect discovery.
-4. Track Dragon Hunter at 20 absorbed souls, not merely dragons killed; avoid counting souls stolen during the Miraak window.
-5. Complete five successful Bend Will dragon rides after all three words are learned, with save and post-dismount state checks.
+1. Start from an owned-home storage stop after Black Book default maintenance. Bring the Wooden Mask, all eight base-game dragon priest masks, preserved dragon claws, bugs in jars, Stones of Barenziah, treasure maps, paragons, and unique misc collectibles into one safe container for a state check. This is not a display setup; do not place artifacts into home display furniture yet.
+2. Resolve Angi's Camp now. Travel to the Falkreath Hold mountain approach in daylight, discover Angi's Camp, and make a rotating manual save before speaking with Angi. If a dragon attacks or Angi's target practice dialogue breaks, reload that save and retry from before the conversation.
+3. Speak with Angi politely, take practice arrows if offered, and complete every Archery Practice round: Test of Accuracy, Test of Speed, Test of Precision, and Final Test. Stay inside the practice boundary and use only practice arrows. After the final dialogue, take Angi's Bow and preserve it.
+4. In Angi's cabin bedroom, do not interact with the `The Gold Ribbon of Merit` copy on top of the end table. Open the end table, take `Treasure Map V`, then leave the camp.
+5. Travel to Lost Valley Redoubt and loot the Treasure Map V cache. Treasure Maps tracking is now 13 of 13 resolved map-and-cache entries: Treasure Map I, II, III, IV, V, VI, VII, VIII, IX, X, Fort Neugrad Treasure Map, Velehk Sain's Treasure Map, and Deathbrand Treasure Map.
+6. Return to owned-home storage and confirm the dragon claw acquisition set by name: Amethyst Claw left half, Amethyst Claw right half, Coral Dragon Claw, Diamond Claw, Ebony Claw, Emerald Dragon Claw, Glass Claw, Golden Claw, Iron Claw, Ivory Dragon Claw, Ruby Dragon Claw, and Sapphire Dragon Claw. Golden Claw and Sapphire Dragon Claw may be quest-returned; count them by completed acquisition state, not by storage possession.
+7. Confirm the bugs in jars by name: Bee in a Jar, Bliss Bug in a Jar, Butterfly in a Jar, Dragonfly in a Jar, Green Butterfly in a Jar, Moth in a Jar, Purple Butterfly in a Jar, and Torchbug in a Jar. Keep the preserved jars in safe storage.
+8. Confirm the Dawnguard finite collectible sets already handled in their route sections: all ten Jiub's Opus pages were collected before returning to Jiub, all four Aetherium Shards were consumed into Lost to the Ages progression, the five paragons were collected and used for Forgotten Vale portal rewards, and the three Reaper gem fragments were used for the Soul Cairn Reaper fight.
+9. Confirm the Dragonborn finite collectible sets already handled in their route sections: all seven Black Books have been read, all five Kagrumez Resonance Gems were acquired and stored after Fahlbtharz, every East Empire Company Pendant was turned in through `Pain in the Necklace`, and the Deathbrand map-and-armor circuit is complete.
+10. Make `HARD SAVE: HS-KONAHRIK-MASK-SHRINE` at Labyrinthian before using the mask shrine. Enter the circular mask building on the Labyrinthian grounds with the Wooden Mask plus Hevnoraak, Krosis, Morokei, Nahkriin, Otar, Rahgot, Vokun, and Volsung. Stand in the central room, equip the Wooden Mask, and do not mount a horse during this transition.
+11. In Bromjunaar Sanctuary, place Hevnoraak, Krosis, Morokei, Nahkriin, Otar, Rahgot, Vokun, and Volsung on their busts. Take Konahrik when it unlocks. Then retrieve all eight placed masks from the busts, confirm the Wooden Mask is still in inventory, and unequip the Wooden Mask to return to the present-day room. Any tempering on the eight placed masks is stripped by this process, so do not temper them before this step.
+12. Store Konahrik, the Wooden Mask, and the eight base-game masks together. The base-game dragon priest mask set is now complete on main continuity.
+13. Do not close No Stone Unturned here unless the guide has already sent you to buy Proudspire Manor and take the Proudspire Stone of Barenziah. On the current route state, Proudspire is still held for the later Solitude home and economy section, so the set remains one stone short. After that later section collects the Proudspire Stone, show all 24 stones to Vex before entering Tolvald's Cave for the Crown of Barenziah; entering Tolvald's for the crown before Vex gives the objective can leave the crown area blocked by rubble.
+14. If the Dragon Hunter counter is already at 20 absorbed dragon souls, record Dragon Hunter complete. Count absorbed souls only, not dragon kills, and do not count souls stolen by Miraak before his defeat. If the counter is below 20, carry the exact deficit forward to the level-gate and final-system sections.
+15. Record Dragonrider at 1 of 5 from the required Sahrotaar ride. NEEDS ROUTE RESOLUTION: OBJ-000477 Dragonrider Trophy Set - exact missing fact: the guide still needs four named safe ride attempts on ordinary rideable dragons after full Bend Will, with hard-save points and post-dismount state checks. Inputs checked: SN-000033, SN-000105, SN-000111, `data/constraints/bug-prone-quests.md`, `data/checklist-mapping/counter-coverage-plan.md`, and the current guide's Sahrotaar step.
+16. NEEDS ROUTE RESOLUTION: OBJ-001893 and OBJ-001894 through OBJ-001918 Fishing Species and Special Catches - exact missing fact: each fish still needs a player-facing catch route with fishing spot, biome, weather, time, rod, active quest state, and ingredient-preservation policy. Inputs checked: SN-000064, SRC-001480, `data/objectives/objectives.csv`, `data/checklist-mapping/coverage-matrix.csv`, and `data/route-planning/objective-route-index.csv`.
+17. Keep pets, mounts, home displays, spouse choices, child adoption, stewards, housecarls, services, and furnishing state for the later household and services section. Balbus's Fork also stays unresolved unless Balbus appears naturally after `Recipe for Disaster` while the Gourmet's Writ of Passage is still available; the route does not force random encounters.
 
 ### Books, Spells, and Documents
 
-Scaffold only - not yet v1-expanded.
+1. Start from owned-home storage after `Collectible Reconciliation`. Confirm `Scholar's Insight` is still active from `Black Book: The Winds of Change`, the Oghma Infinium is stored unread, and you have warm travel supplies, carry space, lockpicks, and enough gold for vendor tomes. Make a rotating manual save before opening any skill books.
+2. Confirm the route has already read these skill books after Scholar's Insight became active. Do not reread duplicate copies; this table is a state check before the final title pass.
 
-1. Finish selected skill-book copy collection and then read planned skill books under Scholar's Insight policy. Check Reader after 50 unique skill-book titles and continue to all 90 required skill-book objectives.
-2. Learn spell tomes from the preselected copies and vendors recorded by the route rather than from random loot.
-3. Finish quest/AE documents, Black Book checks, and final learned-spell verification.
-4. Read/use Oghma Infinium late as a gap closer; hard save first, and do not use it on skills already at 100.
+| Skill | Title | Earlier route source |
+| --- | --- | --- |
+| Alchemy | `Song of the Alchemists` | Apocrypha (Dragonborn), Waking Dreams, Chapter III |
+| Alteration | `Breathing Water` | Apocrypha (Dragonborn), The Hidden Twilight, Chapter V |
+| Archery | `The Black Arrow, v2` | Robber's Gorge (Hjaalmarch), on the table in the cabin at the top of the hill |
+| Archery | `The Gold Ribbon of Merit` | Apocrypha (Dragonborn), Untold Legends, Chapter IV |
+| Block | `Death Blow of Abernanit` | Apocrypha (Dragonborn), Epistolary Acumen, Chapter III |
+| Conjuration | `2920, Hearth Fire, v9` | Apocrypha (Dragonborn), The Hidden Twilight, Chapter V |
+| Conjuration | `Liminal Bridges` | Falkreath Watchtower, at the top of the stairs at the entrance to the tent |
+| Destruction | `A Hypothetical Treachery` | Apocrypha (Dragonborn), The Hidden Twilight, Chapter V |
+| Destruction | `The Art of War Magic` | Apocrypha (Dragonborn), Waking Dreams, Chapter VI |
+| Enchanting | `Catalogue of Weapon Enchantments` | Roadside Ruins (Falkreath Hold), near a chest in the center |
+| Enchanting | `Twin Secrets` | Shrine of Stendarr, south of Swindler's Den |
+| Heavy Armor | `Orsinium and the Orcs` | Apocrypha (Dragonborn), Epistolary Acumen, Chapter III |
+| Illusion | `Before the Ages of Man` | Apocrypha (Dragonborn), The Hidden Twilight, Chapter V |
+| Illusion | `Mystery of Talara, Part 4` | Broken Fang Cave (Whiterun Hold), near Arcane Enchanter |
+| Light Armor | `The Rear Guard` | Apocrypha (Dragonborn), Untold Legends, Chapter IV |
+| Lockpicking | `Advances in Lockpicking` | Apocrypha (Dragonborn), Untold Legends, Chapter IV |
+| Lockpicking | `Proper Lock Design` | West of the gate at the top of Darklight Tower |
+| Lockpicking | `The Wolf Queen, v1` | Broken Fang Cave (Whiterun Hold) |
+| One-handed | `Fire and Darkness` | Apocrypha (Dragonborn), Epistolary Acumen, Chapter III |
+| Pickpocket | `Beggar` | Apocrypha (Dragonborn), Untold Legends, Chapter IV |
+| Restoration | `Racial Phylogeny` | Apocrypha (Dragonborn), The Hidden Twilight, Chapter V |
+| Restoration | `Withershins` | Arcwind Point, on a pedestal at the top of the tower after progressing through the ruins |
+| Smithing | `Cherim's Heart` | Purewater Run (The Reach), inside an underwater chest |
+| Smithing | `Heavy Armor Forging` | Apocrypha (Dragonborn), Waking Dreams, Chapter II |
+| Sneak | `Three Thieves` | Filament and Filigree Apocrypha route |
+| Speech | `2920, Second Seed, v5` | Apocrypha (Dragonborn), The Sallow Regent |
+| Two-handed | `Words and Philosophy` | Apocrypha (Dragonborn), The Winds of Change |
+
+3. Read the rest of the unique skill-book titles in the table below. If an earlier section told you to leave the named copy closed, return to that copy now and read it. If you carried a copy without opening it, read that carried copy at the matching row. In owned or private interiors, read the book in place and do not steal the physical book unless this guide already told you to take it.
+
+| Region pass | Skill | Title | Action |
+| --- | --- | --- | --- |
+| Whiterun and central plains | Alchemy | `Herbalist's Guide to Skyrim` | Read `Herbalist's Guide to Skyrim` at Arcadia's Cauldron (Whiterun). |
+| Whiterun and central plains | Enchanting | `Enchanter's Primer` | Read `Enchanter's Primer` at Carlotta Valentia's House (Whiterun), on the bedroom floor. |
+| Whiterun and central plains | Heavy Armor | `The Knights of the Nine` | Read `The Knights of the Nine` at Guldun Rock Cave (Whiterun Hold). |
+| Whiterun and central plains | Archery | `Vernaccus and Bourlor` | Read `Vernaccus and Bourlor` at Graywinter Watch (Whiterun Hold), on a barrel. |
+| Whiterun and central plains | Two-handed | `King` | Read `King` at Bleakwind Bluff, next to the cairn. |
+| Whiterun and central plains | One-handed | `Night Falls on Sentinel` | Read `Night Falls on Sentinel` at 310 ft S of The Guardian Stones (Falkreath Hold), in a tent in a bandit camp. |
+| Falkreath warm corridor | Alchemy | `Mannimarco, King of Worms` | Read `Mannimarco, King of Worms` at Evergreen Grove (Falkreath Hold), on an altar. |
+| Falkreath warm corridor | Alchemy | `De Rerum Dirennis` | Read `De Rerum Dirennis` at 240 ft N of Evergreen Grove (Falkreath Hold). |
+| Falkreath warm corridor | Archery | `Father Of The Niben` | Read `Father Of The Niben` at Hunter's Rest (Falkreath Hold), between two bedrolls. |
+| Falkreath warm corridor | Pickpocket | `Purloined Shadows` | Read `Purloined Shadows` at NW of Bonechill Passage (Falkreath Hold), in a hut under the bed. |
+| Falkreath warm corridor | Conjuration | `The Warrior's Charge` | Read `The Warrior's Charge` at 310 ft north of Southfringe Sanctum (Falkreath Hold). |
+| Falkreath warm corridor | Destruction | `Response to Bero's Speech` | Read `Response to Bero's Speech` at Haemar's Cavern (Falkreath Hold), on a desk near two dead bandits. |
+| Falkreath warm corridor | Illusion | `Incident at Necrom` | Read `Incident at Necrom` at Bloodlet Throne (Falkreath Hold), in the jail cell. |
+| Falkreath warm corridor | Smithing | `Light Armor Forging` | Read `Light Armor Forging` at Cracked Tusk Keep, near the forge. |
+| Rift and southeast road | Alteration | `Reality & Other Falsehoods` | Read `Reality & Other Falsehoods` at Snow-Shod Farm (The Rift), basement. |
+| Rift and southeast road | Lockpicking | `Surfeit of Thieves` | Read `Surfeit of Thieves` at Mistveil Keep Jarl's Chambers (Riften). |
+| Rift and southeast road | Block | `Battle of Red Mountain` | Read `Battle of Red Mountain` at Largashbur Cellar (The Rift). |
+| Rift and southeast road | Heavy Armor | `Hallgerd's Tale` | Read `Hallgerd's Tale` at 530 ft NNW of Fallowstone Cave (The Rift). |
+| Rift and southeast road | Destruction | `Horror of Castle Xyr` | Read `Horror of Castle Xyr` at 210 ft WSW of Darklight Tower (The Rift). |
+| Rift and southeast road | Light Armor | `Jornibret's Last Dance` | Read `Jornibret's Last Dance` at Autumnwatch Tower (The Rift), top floor of the small tower. |
+| Rift and southeast road | Restoration | `Mystery of Talara, v 2` | Read `Mystery of Talara, v 2` at Crystaldrift Cave (The Rift), carried by dead Gadnor. |
+| Rift and southeast road | One-handed | `Mace Etiquette` | Read `Mace Etiquette` at Fort Greenwall Captain's Quarters (The Rift). |
+| Rift and southeast road | Restoration | `The Exodus` | Read `The Exodus` at Forelhost Crypt (The Rift). |
+| Rift and southeast road | Smithing | `Last Scabbard of Akrash` | Read `Last Scabbard of Akrash` at 330 ft SSE of Black-Briar Lodge. |
+| Eastmarch | Illusion | `2920, Sun's Dawn, v2` | Read `2920, Sun's Dawn, v2` at Ansilvund Burial Chambers, in the second section, large room with the hanging cages, on a pressurized pedestal. |
+| Rift and southeast road | Speech | `A Dance in Fire, v7` | Read `A Dance in Fire, v7` at Outside Angarvunde, on a table. |
+| Eastmarch | Alteration | `Daughter of the Niben` | Read `Daughter of the Niben` at Brandy-Mug Farm (Eastmarch), on top of the fireplace. |
+| Eastmarch | Conjuration | `2920, Frostfall, v10` | Read `2920, Frostfall, v10` at Belyn Hlaalu's House (Windhelm), upstairs behind the dresser. |
+| Eastmarch | Alteration | `The Lunar Lorkhan` | Read `The Lunar Lorkhan` at Cragwallow Slope (Eastmarch), central chamber. |
+| Eastmarch | Illusion | `The Black Arts On Trial` | Read `The Black Arts On Trial` at 370 ft SSE of Hillgrund's Tomb (Eastmarch). |
+| Eastmarch | Light Armor | `Rislav The Righteous` | Read `Rislav The Righteous` at 160 ft W of Abandoned Prison (Eastmarch), in the debris surrounding a cabin crushed by a fallen tree. |
+| Eastmarch | Pickpocket | `Thief` | Read `Thief` at Argonian Assemblage (Windhelm), on a dresser. |
+| Eastmarch | Two-handed | `Song Of Hrormir` | Read `Song Of Hrormir` at Abandoned Prison (Eastmarch), in a storage room filled with books and a Master-level chest. |
+| Hjaalmarch | Block | `A Dance in Fire, v2` | Read `A Dance in Fire, v2` at Fort Snowhawk (Hjaalmarch), on a table in the room west of the back entrance in the main keep. |
+| Pale, Winterhold, and College road | Enchanting | `Catalogue of Armor Enchantments` | Read `Catalogue of Armor Enchantments` at The Brinehammer Below Deck (The Pale). |
+| Pale, Winterhold, and College road | One-handed | `The Importance of Where` | Read `The Importance of Where` at Brina's House (Dawnstar). |
+| Pale, Winterhold, and College road | Sneak | `Sacred Witness` | Read `Sacred Witness` at Dawnstar Sanctuary, on a table in the entrance hall. |
+| Pale, Winterhold, and College road | Sneak | `The Red Kitchen Reader` | Read `The Red Kitchen Reader` at Frostmere Crypt (The Pale), inside the ruins, on a bookshelf. |
+| Pale, Winterhold, and College road | Destruction | `Mystery of Talara, v3` | Read `Mystery of Talara, v3` at Birna's Oddments (Winterhold), upstairs on a dresser. |
+| Winterhold | Block | `Warrior` | Read `Warrior` at Driftshade Refuge (Winterhold), near the fireplace in the boss's chamber. |
+| Winterhold | One-handed | `2920, Morning Star, v1` | Read `2920, Morning Star, v1` at Driftshade Refuge, on a table in the final room with the barred door. |
+| Pale, Winterhold, and College road | Pickpocket | `Aevar Stone-Singer` | Read `Aevar Stone-Singer` at Lost Valkygg, southern room. |
+| Pale, Winterhold, and College road | Conjuration | `The Doors of Oblivion` | Read `The Doors of Oblivion` from the skeleton 120 ft SSW of Sightless Pit (Winterhold); source-listed copy respawns infinitely. |
+| Pale, Winterhold, and College road | Heavy Armor | `Chimarvamidium` | Read `Chimarvamidium` at Septimus Signus's Outpost (Winterhold), on the bookshelf. |
+| Pale, Winterhold, and College road | Two-handed | `Battle of Sancre Tor` | Read `Battle of Sancre Tor` at Bleakcoast Cave (Winterhold), carried by a dead conjurer (respawn infinitely). |
+| Pale, Winterhold, and College road | Lockpicking | `The Locked Room` | Read `The Locked Room` at Alftand Animonculory (Winterhold), in the treasure room. |
+| Pale, Winterhold, and College road | Smithing | `The Armorer's Challenge` | Read `The Armorer's Challenge` at Tower of Mzark (Winterhold). |
+| Haafingar and Solitude | Speech | `Biography of the Wolf Queen` | Read `Biography of the Wolf Queen` at Blue Palace (Solitude), Jarl's bedroom. |
+| Haafingar and Solitude | Speech | `The Buying Game` | Read `The Buying Game` at Bards College (Solitude), in one of the classrooms. |
+| Haafingar and Solitude | Sneak | `Legend of Krately House` | Read `Legend of Krately House` at Potema's Catacombs (Haafingar), in boss chest during The Wolf Queen Awakened. |
+| Haafingar and Solitude | Speech | `A Dance in Fire, v6` | Read `A Dance in Fire, v6` at Dainty Sload (Haafingar). |
+| Reach | Alchemy | `A Game at Dinner` | Read `A Game at Dinner` at Dead Crone Rock (The Reach), by a lever opening the way to the rooftop. |
+| Reach | Archery | `The Marksmanship Lesson` | Read `The Marksmanship Lesson` at Cliffside Retreat (The Reach), on a table. |
+| Reach | Block | `The Mirror` | Read `The Mirror` at Broken Tower Redoubt (The Reach), on bookshelf in the sleeping area. |
+| Reach | Enchanting | `A Tragedy in Black` | Read `A Tragedy in Black` at Bruca's Leap Redoubt (The Reach), on the bookshelf. |
+| Reach | Light Armor | `Ice and Chitin` | Read `Ice and Chitin` at Guard Tower (Markarth), in the northeast corner on a wooden table. |
+| Reach | Pickpocket | `Guide to Better Thieving` | Read `Guide to Better Thieving` at Fort Sungard Oubliette (The Reach), down the hole. |
+| Reach | Light Armor | `The Refugees` | Read `The Refugees` at Blind Cliff Cave, in the collapsed tower. |
+| Reach | Restoration | `2920, Rain's Hand, v4` | Read `2920, Rain's Hand, v4` at Blind Cliff Bastion (The Reach) carried by Petra. |
+| Reach | Sneak | `2920, Last Seed, v8` | Read `2920, Last Seed, v8` at Hag Rock Redoubt Ruin (The Reach), over the table. |
+| Reach | Two-handed | `The Legendary Sancre Tor` | Read `The Legendary Sancre Tor` at 580 ft ENE of Broken Tower Redoubt (The Reach). |
+| Reach | Alteration | `Sithis` | Read `Sithis` at Cradle Stone Tower. |
+| Reach | Heavy Armor | `2920, MidYear, v6` | Read `2920, MidYear, v6` at Blackreach, over a stone table in the south zone. |
+
+4. When the Reader trophy appears at 50 unique skill books, continue through the table. After the last title above, all 90 unique skill-book titles have been read under the route's Scholar's Insight policy.
+5. Travel to Solstheim and stand at a safe support stop such as Severin Manor. Read `Black Book: The Winds of Change`, choose `Companion's Insight` as the final default, then read the book again to return to Solstheim. Store all seven Black Books together afterward.
+6. Confirm these non-vendor or quest-tied spell tomes have already been read or taken through the route. Use this as a spell-list check; the earlier route already gives the acquisition instruction for each one-time source.
+
+| Tome title | Route source |
+| --- | --- |
+| `Teleport Pet Mudcrab` | Dwarven Armored Mudcrab: Learned when receiving Dwarven Armored Mudcrab as a pet |
+| `Teleport Pet Nix-Hound` | Nix-Hound: Learned when receiving Nix-Hound as a pet |
+| `Master Transmute` | The Warrens: Can be found in the safe in Eslaf's room in The Warrens during or after the quest Fortunate Son |
+| `Telekinesis` | Benkongerike Great Hall: Can be found in Benkongerike Great Hall among a pile of Lusty Argonian Maid books |
+| `Telekinesis Arrows` | the Arcanaeum: Can be found in the Arcanaeum |
+| `Transmute Mineral Ore` | Ansilvund Burial Chambers: Can be found in Ansilvund Burial Chambers, Halted Stream Camp |
+| `Detect Undead` | The Sallow Regent: Can be found in The Sallow Regent part of Apocrypha |
+| `Equilibrium` | Labyrinthian Chasm: Can be found in Labyrinthian Chasm |
+| `Conjure Zombie` | Ritual site north of Southfringe Sanctum: Found at the ritual site southeast of Helgen north of Southfringe Sanctum. The Rising Dead page confirms additional Conjure Zombie copies at the site |
+| `Conjure Boneman` | Soul Cairn: Found in the Soul Cairn in the center of the encircling pathways southwest of Jiub's Opus, Page 9 |
+| `Conjure Foul Zombie` | Ritual site north of Southfringe Sanctum: Can be found at the ritual site southeast of Helgen north of Southfringe Sanctum |
+| `Conjure Haunting Spirit` | Yngvild: Yngvild Throne Room treasure-room fixed tome |
+| `Conjure Flaming Familiar` | A Scroll For Anska: Reward for quest A Scroll For Anska |
+| `Conjure Daedric Horse` | Deadlands: Can be found in: The Deadlands (inside The Punished) |
+| `Conjure Dark Seducer Archer` | Thoron: Carried by Thoron |
+| `Conjure Dark Seducer Warrior` | Thoron: Carried by Thoron |
+| `Conjure Golden Saint Archer` | Thoron: Carried by Thoron |
+| `Conjure Golden Saint Warrior` | Thoron: Carried by Thoron |
+| `Conjure Mistman` | Soul Cairn: Found in the Soul Cairn next to Jiub's Opus, Page 7 |
+| `Conjure Putrid Zombie` | Ritual site north of Southfringe Sanctum: Can be found at the ritual site southeast of Helgen north of Southfringe Sanctum |
+| `Conjure Seeker` | Apocrypha: Apocrypha (Dragonborn), Epistolary Acumen, Chapter III |
+| `Conjure Ash Guardian` | Tel Mithryn: Reward choice from From the Ashes if Conjuration is at least 65; otherwise purchase from Talvas after completing From the Ashes |
+| `Conjure Ayleid Lich` | Atronach Forge: Can be created at the Atronach Forge |
+| `Conjure Malignant Zombie` | Ritual site north of Southfringe Sanctum: Can be found at the ritual site southeast of Helgen north of Southfringe Sanctum |
+| `Conjure Wrathman` | Soul Cairn: Found in the Soul Cairn in a building due south of Jiub's Opus, Page 5 |
+| `Conjure Staada` | Atronach Forge: Can be created at the Atronach Forge |
+| `Flame Thrall` | Apocrypha - The Sallow Regent: Found in Apocrypha - The Sallow Regent |
+| `Flames` | Mzulft Aedrome: Mzulft Oculory control table during Revealing the Unseen |
+| `Frostbite` | Mzulft Aedrome: Mzulft Oculory control table during Revealing the Unseen |
+| `Sparks` | Fellglow Keep: Fellglow Keep upper circular library room during Hitting the Books |
+| `Ice Spike` | Raven Rock Mine: Can be found in Raven Rock Mine |
+| `Necromantic Healing` | Dimhollow Crypt: Can be found in Dimhollow Crypt |
+| `Steadfast Ward` | Labyrinthian: Can be found in Labyrinthian |
+| `Heal Other` | Shalidor's Maze: Can be found in Shalidor's Maze |
+| `Turn Undead` | The Wolf Queen Awakened: Given by Styrr during The Wolf Queen Awakened |
+
+7. Visit the listed spell vendors. Buy and read every non-master tome in the table that the vendor offers. If the current skill level keeps a title out of stock, write that title in your route notes under `All-Perks Vendor Return`; the all-perks loop raises the school and returns to the same vendor.
+
+| Vendor | Buy and read these tomes when offered |
+| --- | --- |
+| Tolfdir | `Candlelight`; `Oakflesh`; `Magelight`; `Stoneflesh`; `Detect Life`; `Ironflesh`; `Paralysis Rune`; `Waterbreathing`; `Ebonyflesh`; `Paralyze` |
+| Phinis Gestor | `Bound Sword`; `Conjure Familiar`; `Conjure Skeleton Minion`; `Conjure Undying Ghost`; `Raise Zombie`; `Bound Battleaxe`; `Conjure Flame Atronach`; `Conjure Skeleton Marksman`; `Reanimate Corpse`; `Soul Split`; `Soul Trap`; `Banish Daedra`; `Banish Undead`; `Bound Bow`; `Bound Quiver`; `Conjure Frost Atronach`; `Conjure Skeleton Champion`; `Conjure Tomb Guardian`; `Necromancer's Ritual`; `Revenant`; `Command Daedra`; `Conjure Cursed Spectre`; `Conjure Dremora Lord`; `Conjure Skeleton Warlock`; `Conjure Storm Atronach`; `Dread Zombie`; `Expel Daedra`; `Pride of Hirstaang`; `Conjure Ancient Deathpriest`; `Conjure Bone Colossus` |
+| Faralda | `Choking Grasp`; `Elemental Flare`; `Elemental Bolt`; `Fire Rune`; `Firebolt`; `Frost Rune`; `Lightning Bolt`; `Lightning Rune`; `Strangulation`; `Chain Lightning`; `Elemental Burst`; `Fireball`; `Flame Cloak`; `Frost Cloak`; `Hangman's Noose`; `Ice Storm`; `Lightning Cloak`; `Elemental Blast`; `Icy Spear`; `Incinerate`; `Mara's Wrath`; `Thunderbolt`; `Touch of Death`; `Wall of Flames`; `Wall of Frost`; `Wall of Storms` |
+| Drevis Neloren | `Clairvoyance`; `Courage`; `Fury`; `Calm`; `Fear`; `Muffle`; `Frenzy`; `Orum's Aquatic Escape`; `Rally`; `Fenrik's Welcome`; `Invisibility`; `Pacify`; `Rout` |
+| Colette Marence | `Healing`; `Lesser Ward`; `Fast Healing`; `Healing Hands`; `Turn Lesser Undead`; `Close Wounds`; `Greater Ward`; `Repel Lesser Undead`; `Circle of Protection`; `Grand Healing`; `Repel Undead`; `Turn Greater Undead` |
+| Ronthil | `Heal Undead` |
+| Sorine Jurard | `Sun Fire` |
+| Florentius Baenius | `Stendarr's Aura`; `Vampire's Bane` |
+| Talvas Fathryon | `Ash Shell`; `Ash Rune`; `Bound Dagger`; `Conjure Ash Spawn`; `Whirlwind Cloak`; `Frenzy Rune`; `Poison Rune` |
+
+8. Do not start the master ritual spell quests in this section. Their skill gates and reward tomes belong to the all-perks loop, because the guide has not yet established the final Alteration, Conjuration, Destruction, Illusion, and Restoration levels. Keep this exact gate list for that loop:
+
+| Gate | Tome or document outcome |
+| --- | --- |
+| Alteration 90 | `Alteration Ritual Spell`, heartscales with Kahvozein's Fang, `Dragonhide`, then `Mass Paralysis` from Tolfdir. |
+| Conjuration 90 | `Conjuration Ritual Spell`, Sigil Stone, then `Dead Thrall`, `Frost Thrall`, and `Storm Thrall` from Phinis. |
+| Destruction 100 | `Destruction Ritual Spell`, `Power of the Elements`, `Fire Storm`, then `Unbounded Flames`, `Unbounded Freezing`, `Unbounded Storms`, `Blizzard`, and `Lightning Storm` from Faralda. |
+| Illusion 100 | `Illusion Ritual Spell`, all four `Master Illusion Text` books, `Hysteria`, then `Call to Arms`, `Harmony`, and `Mayhem` from Drevis. |
+| Restoration 90 | `Restoration Ritual Spell`, `Bane of the Undead`, then `Guardian Circle` from Colette. |
+
+9. Confirm the seven Black Book title set by name: `Waking Dreams`, `Epistolary Acumen`, `Untold Legends`, `The Winds of Change`, `The Sallow Regent`, `Filament and Filigree`, and `The Hidden Twilight`. All seven have been read, and `Companion's Insight` is now the final `The Winds of Change` default.
+10. Keep the Oghma Infinium unread. It is already acquired, but the read/use choice waits for the all-perks loop after final skill gaps are known. Do not use it on any skill that is already at 100.
+11. Keep the master-ritual documents with the master ritual gate list above: `Power of the Elements` and the four `Master Illusion Text` books are not complete until their ritual quests are routed.
+12. Keep Fishing documents with the unresolved Fishing pass rather than treating them as book completion here: `Fishing Mastery, v1`, `Fishing Mastery, v2`, `Fishing Mastery, v3`, `Fishing Mastery, v4`, `Fishing Mastery, v5`, `List of Arctic Fish`, `List of Fair Weather Fish`, `List of Rainy Weather Fish`, `List of Rare Fish`, `List of Underground Fish`, `Notice: Fishing Contest`, `Wanted: A Seafood Feast`, and `Wanted: Fishing Tutor` stay tied to the per-species Fishing route.
+13. `Note from Mogrul` remains open with the existing Raven Rock debt-state route note. Do not force Mogrul's thugs by waiting or wandering; handle it only when the route later gives a deterministic debt collection step or a validated random-encounter policy.
+14. Store the Black Books, Oghma Infinium, quest documents, AE documents, and any unread master-ritual papers in owned storage. Rest, sell ordinary loot, restock food, and make a rotating manual save before the crafting and investment systems begin.
 
 ### Crafting, Enchanting, Alchemy, and Investments
 
-Scaffold only - not yet v1-expanded.
+1. Start from Tundra Homestead with the storage cache sorted. If you are still on Solstheim, use Severin Manor first, then travel to Tundra Homestead before the mainland merchant circuit. Sleep in a real bed, empty heavy preserved gear into normal owned containers, carry filled soul gems, disposable armor or jewelry, every stored ingredient, and at least 16,500 gold reserved for investments.
+2. Make `HARD SAVE: HS-CRAFTING-RECONCILIATION`. Keep this save until the enchantment table, alchemy table, Artificer check, investment circuit, and Golden Touch checkpoint are recorded.
+3. Count current gold before spending. If the total is at least 100,000 gold, record Golden Touch now. If it is below 100,000, keep the trophy open, sell ordinary loot and late crafting outputs during the merchant circuit, and do not buy final homes, furnishings, or large material bundles until the total first reaches 100,000 gold.
+4. Confirm these practical crafting-system checks before the progression tables:
 
-1. Learn all non-destructively learnable enchantments from disposable sources. Do not disenchant unique-only preserved items.
-2. Acquire/store one copy of required alchemy ingredients, then complete the Experimenter 3 discovery pass when Alchemy and ingredient preservation state are safe.
-3. Complete merchant investments after Speech 70 and Investor, before any Speech reset and while merchants/replacements are alive and accessible.
-4. Complete practical crafting-system checks: Atronach Forge Fire Salts, Staff Enchanter Staff of Flames, Imbuing Chamber Mind Control Spider, Hearthfire construction/material reconciliation, cooking, smelting, tanning, and other selected station actions.
-5. Confirm the Golden Touch gold target before expensive final material and home work.
+| System | Player action | State after this section |
+| --- | --- | --- |
+| Smithing and Artificer smithing leg | The Alvor tutorial already made and improved an iron dagger and hide helmet. | Smithed-item requirement is already satisfied. |
+| Alchemy and Artificer potion leg | Arcadia's tutorial already crafted a valid potion. | Potion requirement is already satisfied. |
+| Enchanting and Artificer enchanted-item leg | At Tundra Homestead or any safe arcane enchanter, enchant one disposable nonunique item with any learned nonunique effect and a filled soul gem. | Artificer is complete if it did not already appear. |
+| Hard Worker | The route has chopped wood, cooked food, and mined ore. | Hard Worker is complete. |
+| Atronach Forge | The College Midden forge already created Fire Salts and later created the Ayleid Lich tome. | Practical-system use is complete. |
+| Staff Enchanter | Neloth's Staff Enchanter already created `Staff of Flames`. | Representative staff craft is complete. |
+| Imbuing Chamber | White Ridge Barrow already created a Mind Control Spider. | Representative spider craft is complete. |
+| Bone Forge | Gallows Hall already unlocked the Bone Forge and read `Notes on the Bone Forge`. | Do not create a permanent skeleton follower here. |
+| Cooking | Survival food and earlier cooking actions are complete. | Cooking remains available for food support. |
+| Tanning | The Dawnstar Camping Supplies step already tanned the needed hide if leather was missing. | Tanning action is represented. |
+| Smelting | Raven Rock already smelted Northshore ore into Ebony Ingots for Halbarn. | Smelting action is represented. |
+| Construction | Lakeview construction and later Hearthfire work stay with the homes section. | Home buildout is not closed in this section. |
+| Baking | Oven and homestead kitchen validation stay with the homes section. | Baking is not closed in this section. |
 
+5. Learn the enchantments below only from disposable, nonunique items. If an effect is already known, record it and move to the next row. If you do not have a disposable source item yet, write the effect under `All-Perks Enchantment Return` and check late merchants, boss chests, and loot from the level-gate combat blocks before final validation.
+
+| Enchantment | Disposable source item type |
+| --- | --- |
+| `Absorb Health` | All weapons of Absorption |
+| `Absorb Magicka` | All weapons of the Sorcerer |
+| `Absorb Stamina` | All weapons of Subsuming |
+| `Banish` | All weapons of Annihilating |
+| `Chaos Damage` | All weapons of Chaos |
+| `Dark Moon` | Elite and Ascendant Necromancer Hoods CC |
+| `Empower Necromancy` | Elite and Ascendant Necromancer Robes CC |
+| `Fear` | All weapons of Cowardice |
+| `Fire Damage` | All weapons of Burning |
+| `Fortify Alchemy` | All varieties of Bracers/Gauntlets, Helmets, and Necklaces of Alchemy |
+| `Fortify Alteration` | All varieties of Armor, Bracers, and Helmets of Alteration |
+| `Fortify Alteration and Magicka Regen` | All varieties of Robes of Alteration |
+| `Fortify Archery` | All varieties of Bracers/Gauntlets, Circlets, Helmets, and Rings of Archery |
+| `Fortify Barter` | All Necklaces of Haggling |
+| `Fortify Block` | All varieties of Shield of Blocking |
+| `Fortify Carry Weight` | Charmed Necklace |
+| `Fortify Conjuration` | All varieties of Armor, Bracers, and Helmet of Conjuring |
+| `Fortify Conjuration and Magicka Regen` | All varieties of Robes and Vampire Armor DG of Conjuration |
+| `Fortify Destruction` | All varieties of Armor, Bracers, Circlets, Helmets, Necklaces, and Rings of Destruction |
+| `Fortify Destruction and Magicka Regen` | All varieties of Robes and Vampire Armor DG of Destruction |
+| `Fortify Healing Rate` | All varieties of Armor, Necklaces, and Rings of Mending |
+| `Fortify Health` | All varieties of Armor of Health |
+| `Fortify Heavy Armor` | Most varieties of Armor and Necklaces of the Knight |
+| `Fortify Illusion` | All varieties of Armor, and Helmets of Illusion |
+| `Fortify Illusion and Magicka Regen` | All varieties of Robes of Illusion |
+| `Fortify Light Armor` | All varieties of Armor and Necklaces of the Squire |
+| `Fortify Lockpicking` | All varieties of Bracers/Gauntlets and Necklaces of Lockpicking |
+| `Fortify Magicka` | All varieties of Circlets, Helmets, and Rings of Magicka |
+| `Fortify Magicka Regen` | All varieties of Helmets, Rings, and Robes of Recovery items |
+| `Fortify One-Handed` | All varieties of Bracers/Gauntlets, Necklaces, and Rings of Wielding |
+| `Fortify Pickpocket` | All varieties of Bracers/Gauntlets and Rings of Deft Hands |
+| `Fortify Restoration` | All varieties of Armor, Circlets, Helmets, and Rings of Restoration |
+| `Fortify Restoration and Magicka Regen` | All varieties of Robes of Restoration |
+| `Fortify Smithing` | All varieties of Bracers/Gauntlets, Necklaces, and Rings of Smithing |
+| `Fortify Sneak` | All varieties of Boots, Necklaces, and Rings of Sneaking |
+| `Fortify Stamina` | All varieties of Armor, Boots, Necklaces, and Rings of Stamina |
+| `Fortify Stamina Regen` | All varieties of Armor, Necklaces and Rings of Invigoration |
+| `Fortify Two-Handed` | All varieties of Bracers/Gauntlets, Necklaces, and Rings of Sure Grip |
+| `Frost Damage` | All weapons of Chills |
+| `Magicka Damage` | All weapons of Depleting |
+| `Muffle` | All varieties of Boots of Muffling |
+| `Paralyze` | All weapons of Immobilizing |
+| `Resist Disease` | Necklace of Disease Immunity Necklace of Disease Resistance |
+| `Resist Fire` | All varieties of Boots, Necklaces, and Shields of Dwindling Flames |
+| `Resist Frost` | All varieties of Armor, Boots, Necklaces, and Shields of Dwindling Frost |
+| `Resist Magic` | All varieties of Necklaces, Rings, and Shields of Dwindling Magic, of Resist Magic, of Waning Magic, of Magic Abatement, of Magic Suppression, and of Nullification A second version of the effect is available from one item: Shield of Solitude |
+| `Resist Poison` | Necklace of Poison Immunity Necklace of Poison Resistance |
+| `Resist Shock` | All varieties of Boots, Necklaces, and Shields of Dwindling Shock |
+| `Shock Damage` | All weapons of Sparks |
+| `Silent Moons Enchant` | Lunar Iron Mace Lunar Iron Sword Lunar Iron War Axe Lunar Steel Mace Lunar Steel Sword Lunar Steel War Axe |
+| `Soul Trap` | All weapons of Animus |
+| `Stamina Damage` | All weapons of Debilitation |
+| `Turn Undead` | All varieties of Blessed weapons |
+| `Waterbreathing` | All varieties of Circlets, Helmets, and Necklaces of Waterbreathing |
+
+6. Never disenchant the rows below on the main route:
+
+| Enchantment | Item | Reason |
+| --- | --- | --- |
+| `Briarheart Geis` | `Briarheart Geis` | Unobtainable in normal gameplay. |
+| `Fiery Soul Trap` | `Steel Battleaxe of Fiery Souls` | Unique item preserved under the project policy. |
+| `Fortify Unarmed` | `Gloves of the Pugilist` | Unique item preserved under the project policy. |
+| `Huntsman's Prowess` | `Poacher's Axe` | Unique item preserved under the project policy. |
+| `Smithing Expertise` | `Notched Pickaxe` | Unique item preserved under the project policy. |
+
+7. Do the alchemy discovery pass only after the third rank of Experimenter is active. Stand at an alchemy lab with healing ready, eat one copy of each ingredient that has a stored copy, and record the four effects shown in the table. Rows marked as duplicate-effect records are covered when the named standard ingredient effects are known; rows marked `NEEDS ROUTE RESOLUTION` stay open until the missing fact is decided.
+
+| Ingredient | Get or confirm one copy | Effects to reveal |
+| --- | --- | --- |
+| `Abecean Longfin` | Buy one from an apothecary or use one stored from earlier travel. Source: Collected by catching Abacean Longfin fish. | Weakness to Frost; Fortify Sneak; Weakness to Poison; Fortify Restoration |
+| `Alocasia Fruit` | Buy one from a Khajiit caravan. Source: Originating from the Shivering Isles. One of the Rare Curios sold by Khajiit trade caravans. | Regenerate Stamina (1.2x, 1.22x); Light; Ravage Magicka (1.5x, 1.56x); Regenerate Health (1.2x, 1.22x) |
+| `Aloe Vera Leaves` | Buy one from a Khajiit caravan. Source: Added by Special Edition Patch 1.6.1130 on December 5, 2023. | Restore Health; Restore Stamina; Damage Magicka (1.67x, 1.71x); Invisibility |
+| `Ambrosia` | Buy one from a Khajiit caravan. Source: Originating from Mankar Camoran's destroyed realm of Oblivion. One of the Rare Curios sold by Khajiit trade caravans. | Restore Health (1.2x, 1.22x); Regenerate Health (1.2x, 1.22x); Fortify Health (1.25x, 1.27x); Cure Poison (1.56x) |
+| `Ancestor Moth Wing` | Use the Dawnguard or Forgotten Vale copy stored from the parent route. Source: Collected by catching Ancestor Moths. | Damage Stamina; Fortify Conjuration; Damage Magicka Regen; Fortify Enchanting |
+| `Angelfish` | Fishing pass: catch and store one copy before running the eating pass. Source: Caught by Fishing in temperate lakes with an Alik'ri rod, or in the Ancestor Glade. | Regenerate Health; Resist Fire; Fortify Marksman; Waterbreathing |
+| `Angler Larvae` | Fishing pass: catch and store one copy before running the eating pass. Source: Caught by Fishing in freezing waters. | Lingering Damage Health; Regenerate Stamina; Waterbreathing; Fortify Two-handed |
+| `Ash Creep Cluster` | Use one stored Solstheim harvest or merchant copy. Source: Harvested from creep cluster plants unique to Solstheim. | Damage Stamina; Invisibility; Resist Fire; Fortify Destruction |
+| `Ash Hopper Jelly` | Use one stored Solstheim harvest or merchant copy. Source: Collected from dead ash hoppers. | Restore Health; Fortify Light Armor; Resist Shock; Weakness to Frost |
+| `Ashen Grass Pod` | Use one stored Solstheim harvest or merchant copy. Source: Harvested from spiky grass plants unique to Solstheim. | Resist Fire (1.33x, 1.36x); Weakness to Shock; Fortify Lockpicking; Fortify Sneak |
+| `Aster Bloom Core` | Buy one from a Khajiit caravan. Source: Originating from the Shivering Isles. One of the Rare Curios sold by Khajiit trade caravans. | Resist Magic (2x, 2.14x); Fortify Light Armor (2x, 2.14x); Fortify Block (1.25x, 1.27x); Paralysis (2x, 2.14x) |
+| `Bear Claws` | Buy one from an apothecary or use one stored from earlier travel. Source: Collected from various types of dead Bears. | Restore Stamina (0.8x, 0.78x); Fortify Health; Fortify One-handed; Damage Magicka Regen |
+| `Bee` | Buy one from an apothecary or use one stored from earlier travel. Source: Collected from beehives and by catching Bees. | Restore Stamina; Ravage Stamina; Regenerate Stamina; Weakness to Shock |
+| `Beehive Husk` | Buy one from an apothecary or use one stored from earlier travel. Source: Collected from beehives. | Resist Poison (0.5x); Fortify Light Armor; Fortify Sneak; Fortify Destruction |
+| `Berit's Ashes` | Collect one respawning sample from Dengeir's House or Valerica's Study; the earlier Thadgeir delivery stays complete. | Damage Stamina; Resist Fire; Fortify Conjuration; Ravage Stamina |
+| `Bittergreen Petals` | Buy one from a Khajiit caravan. Source: Originating from Vvardenfell. One of the Rare Curios sold by Khajiit trade caravans. | Lingering Damage Stamina (2x, 2.14x); Invisibility (1.5x, 1.56x); Cure Poison; Damage Magicka (1.5x, 1.56x) |
+| `Bleeding Crown` | Grow one at an owned garden or greenhouse, or use one stored from earlier travel. Source: Harvested from Bleeding Crown, a mushroom found in various caves. | Weakness to Fire; Fortify Block; Weakness to Poison; Resist Magic |
+| `Blind Watcher's Eye` | Buy one from a Khajiit caravan. Source: Originating from the Shivering Isles. One of the Rare Curios sold by Khajiit trade caravans. | Light; Fortify Magicka (1.25x, 1.27x); Fortify Alteration (1.25x, 1.27x); Spell Absorption |
+| `Bliss Bug Thorax` | Harvest and store one copy. Source: Harvested by Saints & Seducers. | Weakness to Fire; Resist Fire; Fortify Heavy Armor; Fortify Illusion (0.25x, 0.21x) |
+| `Blister Pod Cap` | Buy one from a Khajiit caravan. Source: Originating from the Shivering Isles. One of the Rare Curios sold by Khajiit trade caravans. | Restore Magicka (1.2x, 1.22x); Fortify Magicka (1.25x, 1.27x); Night Eye; Invisibility (1.5x, 1.56x) |
+| `Blisterwort` | Grow one at an owned garden or greenhouse, or use one stored from earlier travel. Source: Harvested from Blisterwort mushrooms found in various caves. | Damage Stamina; Frenzy; Restore Health (0.6x, 0.57x); Fortify Smithing |
+| `Bloodgrass` | Harvest and store one copy. Source: Harvested from the Deadlands, if one has The Cause to go there. | Invisibility; Resist Poison; Slow (6x, 0.57x); Fortify Health (1.25x, 1.27x) |
+| `Blue Butterfly Wing` | Buy one from an apothecary or use one stored from earlier travel. Source: Collected by catching Blue Butterflies. Often found during daylight hours near flowering plants. | Damage Stamina; Fortify Conjuration; Damage Magicka Regen; Fortify Enchanting |
+| `Blue Dartwing` | Buy one from an apothecary or use one stored from earlier travel. Source: Collected by catching Dragonflies found near rivers and streams below the snow line. | Resist Shock; Fortify Pickpocket; Restore Health; Fear |
+| `Blue Mountain Flower` | Grow one at an owned garden or greenhouse, or use one stored from earlier travel. Source: Harvested from the blue variety of Mountain Flower, found throughout Skyrim. | Restore Health; Fortify Conjuration; Fortify Health; Damage Magicka Regen |
+| `Boar Tusk` | Use one stored Solstheim harvest or merchant copy. Source: Collected from dead bristlebacks and rieklings. | Fortify Stamina (1.25x, 5x, 7.5x); Fortify Health (5x, 5.9x); Fortify Block; Frenzy |
+| `Bog Beacon` | Buy one from a Khajiit caravan. Source: Originating from Cyrodiil. One of the Rare Curios sold by Khajiit trade caravans. | Restore Magicka (1.2x, 1.22x); Fortify Heavy Armor (1.5x, 1.56x); Fear (2x, 2.14x); Damage Stamina (1.33x, 1.36x) |
+| `Bone Meal` | Buy one from an apothecary or use one stored from earlier travel. Source: Collected from undead such as skeletons, and Draugr. | Damage Stamina; Resist Fire; Fortify Conjuration; Ravage Stamina |
+| `Briar Heart` | Buy one from an apothecary or use one stored from earlier travel. Source: Collected from Forsworn Briarhearts. | Restore Magicka; Fortify Block (0.5x); Paralysis; Fortify Magicka |
+| `Bungler's Bane` | Buy one from a Khajiit caravan. Source: Originating from Vvardenfell. One of the Rare Curios sold by Khajiit trade caravans. | Slow (2x, 2.14x); Ravage Stamina (1.5x, 3.34x); Damage Stamina Regen (2x, 2.14x); Resist Magic (2x, 2.14x) |
+| `Burnt Spriggan Wood` | Use one stored Solstheim harvest or merchant copy. Source: Collected from dead burnt spriggans. | Weakness to Fire; Fortify Alteration; Damage Magicka Regen; Slow |
+| `Butterfly Wing` | Buy one from an apothecary or use one stored from earlier travel. Source: Collected from catching Monarch Butterflies. Often found during daylight hours near flowering plants. | Restore Health; Fortify Barter; Lingering Damage Stamina; Damage Magicka |
+| `Canis Root` | Grow one at an owned garden or greenhouse, or use one stored from earlier travel. Source: Harvested from Canis Root, found in The Rift and Hjaalmarch. | Damage Stamina; Fortify One-handed; Fortify Marksman; Paralysis |
+| `Charred Skeever Hide` | Buy one from an apothecary or use one stored from earlier travel. Source: Food, collected from dead Skeevers found on roasting spits. | Restore Stamina; Cure Disease (0.36x); Resist Poison; Restore Health |
+| `Chaurus Eggs` | Buy one from an apothecary or use one stored from earlier travel. Source: Collected from Chaurus Egg Sacs, found in Falmer caves. | Weakness to Poison; Fortify Stamina; Damage Magicka; Invisibility |
+| `Chaurus Hunter Antennae` | Use the Dawnguard or Forgotten Vale copy stored from the parent route. Source: Collected from dead Chaurus Hunters and Chaurus Hunter Fledglings. | Damage Stamina; Fortify Conjuration; Damage Magicka Regen; Fortify Enchanting |
+| `Chicken's Egg` | Buy one from an apothecary or use one stored from earlier travel. Source: Food, harvested from Chicken nests in various farms. | Resist Magic; Damage Magicka Regen; Waterbreathing; Lingering Damage Stamina |
+| `Chokeberry` | Buy one from a Khajiit caravan. Source: Originating from the vile lair of a Cyrodiilic vampire assassin. One of the Rare Curios sold by Khajiit trade caravans. | Damage Health (1.5x, 1.56x); Ravage Health (1.5x, 3.34x); Lingering Damage Health (2x, 2.14x); Weakness to Poison (1.5x, 1.56x) |
+| `Chokeweed` | Buy one from a Khajiit caravan. Source: Originating from Vvardenfell. One of the Rare Curios sold by Khajiit trade caravans. | Weakness to Frost (1.33x, 1.37x); Restore Stamina (1.2x, 1.22x); Cure Disease (0.36x); Damage Magicka (1.33x, 1.37x) |
+| `Coda Flower` | Buy one from a Khajiit caravan. Source: Originating from Vvardenfell. One of the Rare Curios sold by Khajiit trade caravans. | Damage Health (1.5x, 1.56x); Lingering Damage Stamina (2x, 2.14x); Ravage Magicka (1.5x, 1.56x); Fortify Carry Weight (1.25x, 1.27x) |
+| `Comberry` | Buy one from a Khajiit caravan. Source: Originating from Vvardenfell. One of the Rare Curios sold by Khajiit trade caravans. | Damage Stamina (1.33x, 1.36x); Spell Absorption; Restore Magicka (1.2x, 1.22x); Fortify Destruction (1.2x, 1.22x) |
+| `Congealed Putrescence` | Buy one from a Khajiit caravan. Source: Originating from the Shivering Isles. One of the Rare Curios sold by Khajiit trade caravans. | Ravage Health (1.5x, 3.34x); Restore Magicka (1.2x, 1.22x); Weakness to Fire (1.33x, 1.36x); Fortify Conjuration (1.2x, 1.22x) |
+| `Corkbulb Root` | Buy one from a Khajiit caravan. Source: Originating from Vvardenfell. One of the Rare Curios sold by Khajiit trade caravans. | Paralysis (2x, 2.14x); Restore Health (1.2x, 1.22x); Resist Shock (1.33x, 1.36x); Fortify Marksman (1.25x, 1.27x) |
+| `Corrupted Human Heart` | NEEDS ROUTE RESOLUTION: OBJ-002712 Discover Alchemy Effects: Corrupted Human Heart. Missing fact: whether the exact Spell Knight Armor heart variant must be consumed even though the source pages say it shares the Human Heart and Mort Flesh effects and can be transformed into Simon Rodayne's Heart. Inputs checked: SN-000084, SN-000169, data/skills/alchemy-effect-catalog.csv. | Damage Health; Damage Magicka; Damage Magicka Regen; Frenzy |
+| `Creep Cluster` | Grow one at an owned garden or greenhouse, or use one stored from earlier travel. Source: Harvested from Creep Cluster, found in the volcanic tundra of Eastmarch. | Restore Magicka; Damage Stamina Regen; Fortify Carry Weight; Weakness to Magic |
+| `Crimson Nirnroot` | Harvest and store one copy. Source: Harvested from Crimson Nirnroot, found in Blackreach, needed for the quest A Return To Your Roots. | Damage Health (3x); Damage Stamina (3x); Invisibility; Resist Magic |
+| `Cyrodilic Spadetail` | Buy one from an apothecary or use one stored from earlier travel. Source: Collected by catching Cyrodilic Spadetail fish. | Damage Stamina; Fortify Restoration; Fear; Ravage Health |
+| `Daedra Heart` | Buy one from an apothecary or use one stored from earlier travel. Source: Collected from dead Dremora. | Restore Health; Damage Stamina Regen; Damage Magicka; Fear |
+| `Daedra Silk` | Buy one from a Khajiit caravan. Source: Originating from the planes of Oblivion. One of the Rare Curios sold by Khajiit trade caravans. | Lingering Damage Stamina (2x, 2.14x); Paralysis (2x, 2.14x); Night Eye; Invisibility (1.5x, 1.56x) |
+| `Daedra Venin` | Buy one from a Khajiit caravan. Source: Originating from the planes of Oblivion. One of the Rare Curios sold by Khajiit trade caravans. | Ravage Health (1.5x, 3.34x); Paralysis (2x, 2.14x); Fortify Destruction (1.2x, 1.22x); Spell Absorption |
+| `Daedroth Teeth` | Buy one from a Khajiit caravan. Source: Originating from the planes of Oblivion. One of the Rare Curios sold by Khajiit trade caravans. | Resist Frost (1.33x, 1.36x); Light; Damage Magicka Regen (2x, 2.14x); Regenerate Stamina (1.2x, 1.22x) |
+| `Deathbell` | Grow one at an owned garden or greenhouse, or use one stored from earlier travel. Source: Harvested from Deathbell, found in Hjaalmarch. Needed for the quests Few and Far Between and The Only Cure. | Damage Health (1.5x); Ravage Stamina (2.1x); Slow; Weakness to Poison |
+| `Dragon's Tongue` | Grow one at an owned garden or greenhouse, or use one stored from earlier travel. Source: Harvested from Dragon's Tongue, found in the volcanic tundra of Eastmarch. | Resist Fire; Fortify Barter; Fortify Illusion; Fortify Two-handed |
+| `Dreugh Wax` | Buy one from a Khajiit caravan. Source: Originating from Vvardenfell's dreughs or Cyrodiil's land dreughs. One of the Rare Curios sold by Khajiit trade caravans. | Weakness to Magic (1.5x, 1.56x); Frenzy (2x, 2.14x); Fortify Enchanting (2x, 2.14x); Fortify Smithing (1.25x, 1.27x) |
+| `Dwarven Oil` | Buy one from an apothecary or use one stored from earlier travel. Source: Collected from destroyed Dwarven Automatons, found in Dwarven Ruins. | Weakness to Magic; Fortify Illusion; Regenerate Magicka; Restore Magicka |
+| `Ectoplasm` | Buy one from an apothecary or use one stored from earlier travel. Source: Collected from undead Ghosts. | Restore Magicka; Fortify Destruction (0.8x); Fortify Magicka; Damage Health |
+| `Elves Ear` | Buy one from an apothecary or use one stored from earlier travel. Source: Harvested from Dried Elves Ear bunches found in homes and camps. | Restore Magicka; Fortify Marksman; Weakness to Frost; Resist Fire |
+| `Elytra Ichor` | Buy one from a Khajiit caravan. Source: Originating from the Shivering Isles. One of the Rare Curios sold by Khajiit trade caravans. | Restore Magicka (1.2x, 1.22x); Invisibility (1.5x, 1.56x); Slow (2x, 2.14x); Fear (2x, 2.14x) |
+| `Emperor Parasol Moss` | Use one stored Solstheim harvest or merchant copy. Source: Harvested from emperor parasol moss plants near Tel Mithryn. | Damage Health (1.5x); Fortify Magicka; Regenerate Health; Fortify Two-handed |
+| `Eye of Sabre Cat` | Buy one from an apothecary or use one stored from earlier travel. Source: Collected from dead Sabre Cats. | Restore Stamina; Ravage Health; Damage Magicka; Restore Health |
+| `Falmer Ear` | Buy one from an apothecary or use one stored from earlier travel. Source: Collected from dead Falmer. | Damage Health; Frenzy; Resist Poison; Fortify Lockpicking |
+| `Farengar's Frost Salt` | Covered by Frost Salts discovery. The quest salt is the same item with a different name; keep the completed Arcadia delivery intact. | Weakness to Fire; Resist Frost; Restore Magicka; Fortify Conjuration |
+| `Felsaad Tern Feathers` | Use one stored Solstheim harvest or merchant copy. Source: Collected from dead Felsaad terns. | Restore Health; Fortify Light Armor; Cure Disease; Resist Magic |
+| `Fine-Cut Void Salts` | Covered by Void Salts discovery. Do not start Captain Wayfinder's favor here and do not consume an active quest sample. | Weakness to Shock; Resist Magic; Damage Health; Fortify Magicka |
+| `Fire Petal` | Buy one from a Khajiit caravan. Source: Originating from Vvardenfell. One of the Rare Curios sold by Khajiit trade caravans. | Damage Health (1.5x, 1.56x); Resist Fire (1.33x, 1.36x); Spell Absorption; Paralysis (2x, 2.14x) |
+| `Fire Salts` | Buy one from an apothecary or use one stored from earlier travel. Source: Collected from dead Flame Atronachs, a type of daedra. Needed for the quest Stoking the Flames. | Weakness to Frost; Resist Fire; Restore Magicka; Regenerate Magicka |
+| `Flame Stalk` | Buy one from a Khajiit caravan. Source: Originating from the Shivering Isles. One of the Rare Curios sold by Khajiit trade caravans. | Restore Health (1.2x, 1.22x); Resist Frost (1.33x, 1.36x); Weakness to Fire (1.33x, 1.36x); Invisibility (1.5x, 1.56x) |
+| `Fly Amanita` | Grow one at an owned garden or greenhouse, or use one stored from earlier travel. Source: Harvested from Fly Amanita mushrooms, found in various caves. | Resist Fire; Fortify Two-handed; Frenzy; Regenerate Stamina |
+| `Frost Mirriam` | Buy one from an apothecary or use one stored from earlier travel. Source: Harvested from Dried Frost Mirriam bunches found in homes and camps. | Resist Frost; Fortify Sneak; Ravage Magicka; Damage Stamina Regen |
+| `Frost Salts` | Buy one from an apothecary or use one stored from earlier travel. Source: Collected from dead Frost Atronachs, a type of daedra. One is needed for the quest Dravynea's Frost Salts. | Weakness to Fire; Resist Frost; Restore Magicka; Fortify Conjuration |
+| `Fungus Stalk` | Buy one from a Khajiit caravan. Source: Originating from the Shivering Isles. One of the Rare Curios sold by Khajiit trade caravans. | Restore Magicka (1.2x, 1.22x); Fortify Health (1.25x, 5x, 7.5x); Fortify Stamina (1.25x, 5x, 7.5x); Waterbreathing (1.6x, 1.67x) |
+| `Garlic` | Buy one from an apothecary or use one stored from earlier travel. Source: Food. Can also be harvested from Garlic Braids. | Resist Poison; Fortify Stamina; Regenerate Magicka; Regenerate Health |
+| `Giant Lichen` | Grow one at an owned garden or greenhouse, or use one stored from earlier travel. Source: Harvested from Giant Lichen, found in Hjaalmarch. | Weakness to Shock; Ravage Health; Weakness to Poison; Restore Magicka |
+| `Giant's Toe` | Buy one from an apothecary or use one stored from earlier travel. Source: Collected from dead Giants, which can be found in Giant Camps. | Damage Stamina; Fortify Health (5x, 5.9x); Fortify Carry Weight; Damage Stamina Regen |
+| `Glassfish` | Fishing pass: catch and store one copy before running the eating pass. Source: Caught by Fishing in temperate lakes. | Restore Magicka; Invisibility; Fortify Illusion (0.25x, 0.21x); Fortify Persuasion |
+| `Gleamblossom` | Use the Dawnguard or Forgotten Vale copy stored from the parent route. Source: Harvested from the plant of the same name. | Resist Magic; Fear; Regenerate Health; Paralysis |
+| `Glow Dust` | Buy one from an apothecary or use one stored from earlier travel. Source: Collected from dead Wisps and Wispmothers. | Damage Magicka; Damage Magicka Regen; Fortify Destruction; Resist Shock |
+| `Glowing Mushroom` | Grow one at an owned garden or greenhouse, or use one stored from earlier travel. Source: Harvested from Glowing Mushrooms, found in various caves. | Resist Shock; Fortify Destruction; Fortify Smithing; Fortify Health |
+| `Gnarl Bark` | Buy one from a Khajiit caravan. Source: Originating from the Shivering Isles. One of the Rare Curios sold by Khajiit trade caravans. | Damage Health (1.5x, 1.56x); Regenerate Health (1.2x, 1.22x); Fortify Heavy Armor (1.5x, 1.56x); Resist Fire (1.33x, 1.36x) |
+| `Gold Kanet` | Buy one from a Khajiit caravan. Source: Originating from Vvardenfell. One of the Rare Curios sold by Khajiit trade caravans. | Paralysis (2x, 2.14x); Ravage Health (1.5x, 3.34x); Weakness to Frost (1.33x, 1.36x); Fortify Smithing (1.25x, 1.27x) |
+| `Goldfish` | Fishing pass: catch and store one copy before running the eating pass. Source: Caught by Fishing in temperate lakes in clear weather or in the ponds found in some clearings. | Restore Stamina; Fortify Heavy Armor; Waterbreathing; Resist Frost |
+| `Grass Pod` | Grow one at an owned garden or greenhouse, or use one stored from earlier travel. Source: Harvested from Spiky Grass, found in northern regions of Skyrim. | Resist Poison; Ravage Magicka; Fortify Alteration; Restore Magicka |
+| `Green Butterfly Wing` | Harvest and store one copy. Source: Harvested by Saints & Seducers. | Restore Magicka; Fear; Slow (6x, 0.57x); Invisibility |
+| `Hackle-Lo Leaf` | Buy one from a Khajiit caravan. Source: Originating from Vvardenfell. One of the Rare Curios sold by Khajiit trade caravans. | Restore Stamina (1.2x, 1.22x); Paralysis (2x, 2.14x); Waterbreathing (1.6x, 1.67x); Fortify Restoration (1.25x, 1.27x) |
+| `Hagraven Claw` | Buy one from an apothecary or use one stored from earlier travel. Source: Collected from dead Hagravens. | Resist Magic; Lingering Damage Magicka; Fortify Enchanting; Fortify Barter |
+| `Hagraven Feathers` | Buy one from an apothecary or use one stored from earlier travel. Source: Collected from dead Hagravens. Can also be found scattered around their sleeping areas. | Damage Magicka; Fortify Conjuration; Frenzy; Weakness to Shock |
+| `Hanging Moss` | Buy one from an apothecary or use one stored from earlier travel. Source: Harvested from Hanging Moss. | Damage Magicka; Fortify Health; Damage Magicka Regen; Fortify One-handed |
+| `Harrada` | Harvest and store one copy. Source: Harvested from the Deadlands, if one has The Cause to go there. | Damage Health (2x, 2.14x); Damage Magicka (1.33x, 1.36x); Paralysis; Damage Magicka Regen |
+| `Hawk Beak` | Buy one from an apothecary or use one stored from earlier travel. Source: Collected from dead Hawks. | Restore Stamina; Resist Frost; Fortify Carry Weight; Resist Shock |
+| `Hawk Feathers` | Buy one from an apothecary or use one stored from earlier travel. Source: Collected from dead Hawks. | Cure Disease (0.36x); Fortify Light Armor; Fortify One-handed; Fortify Sneak |
+| `Hawk's Egg` | Harvest and store one copy. Source: Harvested from Hawk nests. | Resist Magic; Damage Magicka Regen; Waterbreathing; Lingering Damage Stamina |
+| `Heart of Order` | Buy one from a Khajiit caravan. Source: Originating from the Shivering Isles during a Greymarch. One of the Rare Curios sold by Khajiit trade caravans. | Restore Health (1.2x, 1.22x); Fortify Health (1.25x, 5x, 7.5x); Fortify One-handed (1.25x, 1.27x); Fortify Two-handed (1.25x, 1.27x) |
+| `Histcarp` | Buy one from an apothecary or use one stored from earlier travel. Source: Collected by catching Histcarp fish. | Restore Stamina; Fortify Magicka; Damage Stamina Regen; Waterbreathing |
+| `Honeycomb` | Buy one from an apothecary or use one stored from earlier travel. Source: Food. Collected from beehives. | Restore Stamina; Fortify Block (0.5x); Fortify Light Armor; Ravage Stamina |
+| `Human Flesh` | Harvest and store one copy. Source: Cannot be harvested or collected; with the Dawnguard add-on installed, several respawning samples can be found in Volkihar Keep. | Damage Health; Paralysis; Restore Magicka; Fortify Sneak |
+| `Human Heart` | Harvest and store one copy. Source: Cannot be harvested or collected; limited number of samples available. | Damage Health; Damage Magicka; Damage Magicka Regen; Frenzy |
+| `Hunger Tongue` | Buy one from a Khajiit caravan. Source: Originating from the Shivering Isles. One of the Rare Curios sold by Khajiit trade caravans. | Weakness to Fire (1.33x, 2x, 2.93x); Cure Disease (0.36x); Cure Poison; Fortify Magicka (1.25x, 1.27x) |
+| `Hydnum Azure Giant Spore` | Buy one from a Khajiit caravan. Source: Originating from the Shivering Isles. One of the Rare Curios sold by Khajiit trade caravans. | Resist Frost (1.33x, 1.36x); Fortify Health (1.25x, 5x, 7.5x); Regenerate Health (1.2x, 1.22x); Light |
+| `Hypha Facia` | Buy one from a Khajiit caravan. Source: Originating from Vvardenfell. One of the Rare Curios sold by Khajiit trade caravans. | Weakness to Poison (1.5x, 1.56x); Frenzy (2x, 2.14x); Ravage Stamina (1.5x, 3.34x); Resist Magic (2x, 2.14x) |
+| `Ice Wraith Teeth` | Buy one from an apothecary or use one stored from earlier travel. Source: Collected from Ice Wraiths. Needed for the quest Ice Cold. | Weakness to Frost; Fortify Heavy Armor; Invisibility; Weakness to Fire |
+| `Imp Gall` | Buy one from a Khajiit caravan. Source: Originating from Cyrodiil. One of the Rare Curios sold by Khajiit trade caravans. | Damage Health (1.5x, 1.56x); Weakness to Fire (1.33x, 1.36x); Fortify Barter (2x, 2.14x); Cure Poison |
+| `Imp Stool` | Grow one at an owned garden or greenhouse, or use one stored from earlier travel. Source: Harvested from Imp Stool mushrooms, found in various caves. | Damage Health; Lingering Damage Health; Paralysis; Restore Health (0.6x, 0.57x) |
+| `Ironwood Fruit` | Harvest and store one copy. Source: Harvested from the Ironwood Trees found in Iron Tusk Cave. | Restore Health; Resist Fire; Damage Stamina; Restore Magicka |
+| `Jarrin Root` | Use the Astrid copy preserved from `To Kill an Empire`. Make `HARD SAVE: HS-ALCHEMY-JARRIN`, eat it only during the protected eating pass, heal through the poison damage, then continue from that main save. | Damage Health (100x); Damage Magicka; Damage Stamina; Damage Magicka Regen |
+| `Jazbay Grapes` | Grow one at an owned garden or greenhouse, or use one stored from earlier travel. Source: Harvested from Jazbay vines, found in the volcanic tundra of Eastmarch. Needed for the quest Smooth Jazbay. | Weakness to Magic; Fortify Magicka; Regenerate Magicka; Ravage Health |
+| `Juniper Berries` | Grow one at an owned garden or greenhouse, or use one stored from earlier travel. Source: Harvested from Juniper shrubs, common in The Reach. Needed for the quest Elmus Favor Quest. | Weakness to Fire; Fortify Marksman; Regenerate Health; Damage Stamina Regen |
+| `Juvenile Mudcrab` | Fishing pass: catch and store one copy before running the eating pass. Source: Caught by Fishing on the surface. | Regenerate Stamina; Fortify Carry Weight; Cure Disease; Fortify Two-handed |
+| `Kagouti Hide` | Buy one from a Khajiit caravan. Source: Originating from Vvardenfell. One of the Rare Curios sold by Khajiit trade caravans. | Lingering Damage Stamina (2x, 2.14x); Night Eye; Fortify Carry Weight (1.25x, 1.27x); Resist Shock (1.33x, 1.36x) |
+| `Kresh Fiber` | Buy one from a Khajiit caravan. Source: Originating from Vvardenfell. One of the Rare Curios sold by Khajiit trade caravans. | Weakness to Magic (1.5x, 1.56x); Slow (2x, 2.14x); Fortify Sneak (1.25x, 1.27x); Fortify Pickpocket (1.25x, 1.27x) |
+| `Large Antlers` | Buy one from an apothecary or use one stored from earlier travel. Source: Collected from dead male Elk. | Restore Stamina; Fortify Stamina; Slow (6x, 1.75x); Damage Stamina Regen |
+| `Lavender` | Grow one at an owned garden or greenhouse, or use one stored from earlier travel. Source: Harvested from Lavender, most common in Whiterun Hold. | Resist Magic; Fortify Stamina; Ravage Magicka; Fortify Conjuration |
+| `Lichor` | Buy one from a Khajiit caravan. Source: Originating from Mankar Camoran's destroyed realm of Oblivion. One of the Rare Curios sold by Khajiit trade caravans. | Restore Magicka (1.2x, 1.22x); Regenerate Magicka (1.2x, 1.22x); Fortify Magicka (1.25x, 1.27x); Spell Absorption |
+| `Luminous Russula` | Buy one from a Khajiit caravan. Source: Originating from Vvardenfell. One of the Rare Curios sold by Khajiit trade caravans. | Lingering Damage Stamina (2x, 2.14x); Lingering Damage Health (2x, 2.14x); Waterbreathing (1.6x, 1.67x); Fear (2x, 2.14x) |
+| `Luna Moth Wing` | Buy one from an apothecary or use one stored from earlier travel. Source: Collected by catching Luna Moths. Often found near flowers after dark. | Damage Magicka; Fortify Light Armor; Regenerate Health; Invisibility |
+| `Lyretail Anthias` | Fishing pass: catch and store one copy before running the eating pass. Source: Caught by Fishing in temperate streams and at Evergreen Grove. | Restore Magicka; Fortify Alteration; Fortify Conjuration; Fortify Carry Weight |
+| `Marshmerrow` | Buy one from a Khajiit caravan. Source: Originating from Vvardenfell. One of the Rare Curios sold by Khajiit trade caravans. | Restore Health (1.2x, 1.22x); Fortify Carry Weight (1.25x, 1.27x); Weakness to Magic (1.5x, 1.56x); Damage Stamina (1.33x, 1.36x) |
+| `Minotaur Horn` | Buy one from a Khajiit caravan. Source: Originating from Cyrodiil. One of the Rare Curios sold by Khajiit trade caravans. | Resist Poison (1.25x, 1.27x); Damage Magicka Regen (2x, 2.14x); Regenerate Health (1.2x, 1.22x); Regenerate Magicka (1.2x, 1.22x) |
+| `Moon Sugar` | Buy one from a Khajiit caravan. Source: Cannot be collected or harvested. Can be purchased from the Khajiit Traders. | Weakness to Fire; Resist Frost; Restore Magicka; Regenerate Magicka |
+| `Mora Tapinella` | Grow one at an owned garden or greenhouse, or use one stored from earlier travel. Source: Harvested from Mora Tapinella mushrooms, found growing on dead trees. | Restore Magicka; Lingering Damage Health; Regenerate Stamina; Fortify Illusion |
+| `Mort Flesh` | Use the stored copy from the earlier named source. Source: Originating from Cyrodiil. Dropped by the zombies from Plague of the Dead. | Damage Health; Damage Magicka; Damage Magicka Regen; Frenzy |
+| `Mudcrab Chitin` | Buy one from an apothecary or use one stored from earlier travel. Source: Collected from dead Mudcrabs, found in or near bodies of water. | Restore Stamina; Cure Disease; Resist Poison; Resist Fire |
+| `Namira's Rot` | Grow one at an owned garden or greenhouse, or use one stored from earlier travel. Source: Harvested from Namira's Rot mushrooms, found in various caves. | Damage Magicka; Fortify Lockpicking; Fear; Regenerate Health |
+| `Netch Jelly` | Use one stored Solstheim harvest or merchant copy. Source: Collected from dead netch. | Paralysis; Fortify Carry Weight; Restore Stamina (2x); Fear |
+| `Nightshade` | Grow one at an owned garden or greenhouse, or use one stored from earlier travel. Source: Harvested from Nightshade, found growing throughout Skyrim. Needed for the quest Few and Far Between. | Damage Health; Damage Magicka Regen; Lingering Damage Stamina; Fortify Destruction (0.8x) |
+| `Nightshade` | Harvest and store one copy. Source: A variant of the regular Nightshade that has one less leaf on its stem. | Damage Health; Damage Magicka Regen; Lingering Damage Stamina; Fortify Destruction (0.8x) |
+| `Nirnroot` | Buy one from an apothecary or use one stored from earlier travel. Source: Harvested from Nirnroot, found near bodies of water throughout Skyrim. Needed for the quest Few and Far Between. | Damage Health (12.6x); Damage Stamina; Invisibility; Resist Magic |
+| `Nordic Barnacle` | Buy one from an apothecary or use one stored from earlier travel. Source: Harvested from Nordic Barnacle Clusters, found in or near water. | Damage Magicka; Waterbreathing; Regenerate Health; Fortify Pickpocket |
+| `Ogre's Teeth` | Buy one from a Khajiit caravan. Source: Originating from Cyrodiil. One of the Rare Curios sold by Khajiit trade caravans. | Weakness to Shock (1.33x, 1.36x); Resist Poison (1.25x, 1.27x); Lingering Damage Magicka (2x, 2.12x); Regenerate Health (1.2x, 1.22x) |
+| `Orange Dartwing` | Buy one from an apothecary or use one stored from earlier travel. Source: Collected by catching Dragonflies found near rivers and streams below the snow line. | Restore Stamina; Ravage Magicka; Fortify Pickpocket; Lingering Damage Health |
+| `Pearl` | Buy one from an apothecary or use one stored from earlier travel. Source: Cannot be harvested or collected in the original version of the game; only readily available after the Merchant perk has been unlocked. With Dragonborn, they can be harvested from Pearl Oysters in Solstheim. | Restore Stamina; Fortify Block; Restore Magicka; Resist Shock |
+| `Pearlfish` | Fishing pass: catch and store one copy before running the eating pass. Source: Caught by Fishing in temperate lakes and streams in rainy weather. | Restore Stamina; Resist Frost; Fortify Smithing; Fortify One-handed |
+| `Pine Thrush Egg` | Buy one from an apothecary or use one stored from earlier travel. Source: Harvested from bird nests in forested regions, in particular The Rift. | Restore Stamina; Fortify Lockpicking; Weakness to Poison; Resist Shock |
+| `Poison Bloom` | Use the Dawnguard or Forgotten Vale copy stored from the parent route. Source: Harvested from the plant of the same name. | Damage Health (1.5x); Slow; Fortify Carry Weight; Fear |
+| `Powdered Mammoth Tusk` | Buy one from an apothecary or use one stored from earlier travel. Source: Cannot be harvested or collected; only readily available after the Merchant perk has been unlocked. | Restore Stamina; Fortify Sneak; Weakness to Fire; Fear |
+| `Purple Butterfly Wing` | Harvest and store one copy. Source: Harvested by Saints & Seducers. | Regenerate Health; Regenerate Magicka; Regenerate Stamina; Paralysis |
+| `Purple Mountain Flower` | Grow one at an owned garden or greenhouse, or use one stored from earlier travel. Source: Harvested from the purple variety of Mountain Flower. | Restore Stamina; Fortify Sneak; Lingering Damage Magicka; Resist Frost |
+| `Pygmy Sunfish` | Fishing pass: catch and store one copy before running the eating pass. Source: Caught by Fishing in temperate lakes in rainy weather. | Restore Stamina; Lingering Damage Magicka; Damage Magicka Regen; Fortify Restoration |
+| `Red Kelp Gas Bladder` | Buy one from a Khajiit caravan. Source: Originating from the Shivering Isles. One of the Rare Curios sold by Khajiit trade caravans. | Regenerate Stamina (1.2x, 1.22x); Waterbreathing (1.6x, 1.67x); Cure Disease (0.36x); Fortify Magicka (1.25x, 1.27x) |
+| `Red Mountain Flower` | Grow one at an owned garden or greenhouse, or use one stored from earlier travel. Source: Harvested from the red variety of Mountain Flower. | Restore Magicka; Ravage Magicka; Fortify Magicka; Damage Health |
+| `Redwort Flower` | Buy one from a Khajiit caravan. Source: Originating from Cyrodiil. One of the Rare Curios sold by Khajiit trade caravans. | Resist Frost (1.33x, 1.36x); Cure Poison; Damage Health (1.5x, 1.56x); Invisibility (1.5x, 1.56x) |
+| `River Betty` | Buy one from an apothecary or use one stored from earlier travel. Source: Collected by catching River Betty fish. | Damage Health (2.5x); Fortify Alteration; Slow; Fortify Carry Weight |
+| `Rock Warbler Egg` | Buy one from an apothecary or use one stored from earlier travel. Source: Harvested from bird nests in rocky regions, in particular The Reach. | Restore Health; Fortify One-handed; Damage Stamina; Weakness to Magic |
+| `Roobrush` | Buy one from a Khajiit caravan. Source: Originating from Vvardenfell. One of the Rare Curios sold by Khajiit trade caravans. | Weakness to Magic (1.5x, 1.56x); Fortify Sneak (1.25x, 1.27x); Lingering Damage Health (2x, 2.14x); Cure Poison |
+| `Rot Scale` | Harvest and store one copy. Source: Originating from the Shivering Isles. | Slow (3x, 0.26x); Lingering Damage Health (3x, 3.34x); Fear (0.16x, 0.14x); Paralysis |
+| `Sabre Cat Tooth` | Buy one from an apothecary or use one stored from earlier travel. Source: Collected from dead Sabre cats. | Restore Stamina; Fortify Heavy Armor; Fortify Smithing; Weakness to Poison |
+| `Salmon Roe` | Harvest and store one copy. Source: Harvested from jumping Salmon. | Restore Stamina (0.4x, 0.36x); Waterbreathing (12x, 15.4x); Fortify Magicka (12.5x, 0.08x, 1.05x); Regenerate Magicka |
+| `Salt Pile` | Buy one from an apothecary or use one stored from earlier travel. Source: Food. Cannot be harvested or collected, but is commonly found in barrels and sacks. | Weakness to Magic; Fortify Restoration; Slow; Regenerate Magicka |
+| `Saltrice` | Buy one from a Khajiit caravan. Source: Originating from Morrowind. One of the Rare Curios sold by Khajiit trade caravans. | Restore Stamina (1.2x, 1.22x); Fortify Magicka (1.25x, 1.27x); Damage Stamina Regen (2x, 2.14x); Restore Health (1.2x, 1.22x) |
+| `Scalon Fin` | Buy one from a Khajiit caravan. Source: Originating from the Shivering Isles. One of the Rare Curios sold by Khajiit trade caravans. | Waterbreathing (1.6x, 1.67x); Damage Health (1.5x, 1.56x); Lingering Damage Magicka (2x, 2.14x); Damage Magicka Regen (2x, 2.14x) |
+| `Scaly Pholiota` | Grow one at an owned garden or greenhouse, or use one stored from earlier travel. Source: Harvested from Scaly Pholiota mushrooms, found growing on dead trees. | Weakness to Magic; Fortify Illusion; Regenerate Stamina; Fortify Carry Weight |
+| `Scathecraw` | Use one stored Solstheim harvest or merchant copy. Source: Harvested from scathecraw plants. | Ravage Health; Ravage Stamina; Ravage Magicka; Lingering Damage Health |
+| `Screaming Maw` | Harvest and store one copy. Source: Originating from the Shivering Isles. Harvested by Saints & Seducers. | Regenerate Magicka (4x, 0.2x, 0.78x); Fortify Alteration (1.25x 1.27x); Invisibility (0.25x, 0.22x); Regenerate Health (4x, 0.03x, 0.11x) |
+| `Scrib Jelly` | Buy one from a Khajiit caravan. Source: Originating from Vvardenfell. One of the Rare Curios sold by Khajiit trade caravans. | Regenerate Magicka (1.2x, 1.22x); Cure Poison; Cure Disease (0.36x); Regenerate Stamina (1.2x, 1.22x) |
+| `Scrib Jerky` | Buy one from a Khajiit caravan. Source: Originating from Vvardenfell. One of the Rare Curios sold by Khajiit trade caravans. | Restore Stamina (1.2x, 1.22x); Fortify Stamina (1.25x, 1.27x); Paralysis (2x, 2.14x); Waterbreathing (1.6x, 1.67x) |
+| `Silverside Perch` | Buy one from an apothecary or use one stored from earlier travel. Source: Collected by catching Silverside Perch fish. | Restore Stamina; Damage Stamina Regen; Ravage Health; Resist Frost |
+| `Simon Rodayne's Heart` | NEEDS ROUTE RESOLUTION: OBJ-002716 Discover Alchemy Effects: Simon Rodayne's Heart. Missing fact: whether the exact purified Spell Knight Armor heart variant must be consumed even though the source pages say it shares the Human Heart and Mort Flesh effects and derives from the same one-time heart as the corrupted version. Inputs checked: SN-000084, SN-000169, data/skills/alchemy-effect-catalog.csv. | Damage Health; Damage Magicka; Damage Magicka Regen; Frenzy |
+| `Skeever Tail` | Buy one from an apothecary or use one stored from earlier travel. Source: Collected from dead Skeevers. | Damage Stamina Regen; Ravage Health; Damage Health; Fortify Light Armor |
+| `Slaughterfish Egg` | Buy one from an apothecary or use one stored from earlier travel. Source: Collected from Slaughterfish Egg Nests, found in or near water. | Resist Poison; Fortify Pickpocket; Lingering Damage Health; Fortify Stamina |
+| `Slaughterfish Scales` | Buy one from an apothecary or use one stored from earlier travel. Source: Collected from dead Slaughterfish. | Resist Frost; Lingering Damage Health; Fortify Heavy Armor; Fortify Block |
+| `Sload Soap` | Buy one from a Khajiit caravan. Source: Popular in Vvardenfell. One of the Rare Curios sold by Khajiit trade caravans. | Resist Fire (1.33x, 1.36x); Fear (2x, 2.14x); Fortify Conjuration (1.2x, 1.22x); Fortify Alteration (1.25x, 1.27x) |
+| `Small Antlers` | Buy one from an apothecary or use one stored from earlier travel. Source: Collected from dead female Elk. | Weakness to Poison; Fortify Restoration; Lingering Damage Stamina; Damage Health |
+| `Small Pearl` | Buy one from an apothecary or use one stored from earlier travel. Source: Cannot be harvested or collected in the original version of the game; only readily available after the Merchant perk has been unlocked. With Dragonborn, they can be harvested from Pearl Oysters in Solstheim. | Restore Stamina; Fortify One-handed; Fortify Restoration; Resist Frost |
+| `Snowberries` | Grow one at an owned garden or greenhouse, or use one stored from earlier travel. Source: Harvested from Snowberry bushes, found in snowy regions of Skyrim. | Resist Fire; Fortify Enchanting; Resist Frost; Resist Shock |
+| `Spadefish` | Fishing pass: catch and store one copy before running the eating pass. Source: Caught by Fishing in temperate streams on sunny days, in the Eldergleam Sanctuary, and in the Evergreen Grove. | Restore Health; Fortify Lockpicking; Fortify Pickpocket; Cure Disease |
+| `Spawn Ash` | Use one stored Solstheim harvest or merchant copy. Source: Collected from dead ash spawn. | Ravage Stamina; Resist Fire; Fortify Enchanting; Ravage Magicka |
+| `Spiddal Stick` | Harvest and store one copy. Source: Harvested from the Deadlands, if one has The Cause to go there. | Damage Health (2x, 2.14x); Damage Magicka (1.33x, 1.36x); Weakness to Fire; Restore Stamina (0.4x, 0.36x) |
+| `Spider Egg` | Buy one from an apothecary or use one stored from earlier travel. Source: Collected from spider Egg Sacs and Web Sacs. | Damage Stamina; Damage Magicka Regen; Fortify Lockpicking; Fortify Marksman |
+| `Spriggan Sap` | Buy one from an apothecary or use one stored from earlier travel. Source: Cannot be harvested or collected; best source is merchants. | Damage Magicka Regen; Fortify Enchanting; Fortify Smithing; Fortify Alteration |
+| `Steel-Blue Entoloma` | Buy one from a Khajiit caravan. Source: Originating from Cyrodiil. Useful to con goblins. | Restore Magicka; Fortify Destruction; Resist Frost; Fortify Carry Weight |
+| `Stoneflower Petals` | Buy one from a Khajiit caravan. Source: Originating from Vvardenfell. One of the Rare Curios sold by Khajiit trade caravans. | Weakness to Shock (1.33x, 1.36x); Fortify One-handed (1.25x, 1.27x); Fortify Magicka (1.25x, 1.27x); Fortify Enchanting (2x, 2.14x) |
+| `Swamp Fungal Pod` | Grow one at an owned garden or greenhouse, or use one stored from earlier travel. Source: Harvested from Swamp Fungal Pod, common in the tundra marsh of Hjaalmarch. | Resist Shock; Lingering Damage Magicka; Paralysis; Restore Health |
+| `Taproot` | Buy one from an apothecary or use one stored from earlier travel. Source: Collected from dead Spriggans. | Weakness to Magic; Fortify Illusion; Regenerate Magicka; Restore Magicka |
+| `Thistle Branch` | Grow one at an owned garden or greenhouse, or use one stored from earlier travel. Source: Harvested from Thistle. | Resist Frost; Ravage Stamina; Resist Poison (0.75x, 0x, 0.1x); Fortify Heavy Armor |
+| `Thorn Hook` | Harvest and store one copy. Source: Originating from the Shivering Isles. Harvested by Saints & Seducers. | Lingering Damage Health; Paralysis; Regenerate Magicka (0.6x, 0.6x, 0.32x); Regenerate Health (0.6x, 0.6x, 0.32x) |
+| `Torchbug Thorax` | Buy one from an apothecary or use one stored from earlier travel. Source: Collected by catching Torchbugs. Found below the snowline after dark. | Restore Stamina; Lingering Damage Magicka; Weakness to Magic; Fortify Stamina |
+| `Trama Root` | Use one stored Solstheim harvest or merchant copy. Source: Harvested from trama root plants. | Weakness to Shock; Fortify Carry Weight; Damage Magicka; Slow |
+| `Troll Fat` | Buy one from an apothecary or use one stored from earlier travel. Source: Collected from dead Trolls. Needed for the quest The Cursed Tribe. | Resist Poison; Fortify Two-handed; Frenzy; Damage Health |
+| `Tundra Cotton` | Grow one at an owned garden or greenhouse, or use one stored from earlier travel. Source: Harvested from Tundra Cotton, found in Whiterun Hold. | Resist Magic; Fortify Magicka; Fortify Block; Fortify Barter |
+| `Vampire Dust` | Buy one from an apothecary or use one stored from earlier travel. Source: Collected from dead Vampires. | Invisibility; Restore Magicka; Regenerate Health; Cure Disease |
+| `Void Essence` | Buy one from a Khajiit caravan. Source: Originating from the Shivering Isles. One of the Rare Curios sold by Khajiit trade caravans. | Restore Health (1.2x, 1.22x); Fortify Health (1.25x, 5x, 7.5x); Fortify Stamina (1.25x, 5x, 7.5x); Regenerate Health (1.2x, 1.22x) |
+| `Void Salts` | Buy one from an apothecary or use one stored from earlier travel. Source: Collected from dead Storm Atronachs. | Weakness to Shock; Resist Magic; Damage Health; Fortify Magicka |
+| `Watcher's Eye` | Buy one from a Khajiit caravan. Source: Originating from the Shivering Isles. One of the Rare Curios sold by Khajiit trade caravans. | Night Eye; Fortify Magicka (1.25x, 1.27x); Fortify Illusion (5x, 5.87x); Spell Absorption |
+| `Wheat` | Grow one at an owned garden or greenhouse, or use one stored from earlier travel. Source: Food. Harvested from wheat bushels, found in various farms. | Restore Health; Fortify Health; Damage Stamina Regen; Lingering Damage Magicka |
+| `White Cap` | Grow one at an owned garden or greenhouse, or use one stored from earlier travel. Source: Harvested from White Cap mushrooms, found in various caves. | Weakness to Frost; Fortify Heavy Armor; Restore Magicka; Ravage Magicka |
+| `Wild Grass Pod` | Harvest and store one copy. Source: Growing near the entrance to the Runoff Caverns, made wild by Forgotten Seasons. | Resist Poison; Ravage Magicka; Fortify Alteration; Restore Magicka |
+| `Wisp Stalk Caps` | Buy one from a Khajiit caravan. Source: Originating from Cyrodiil. One of the Rare Curios sold by Khajiit trade caravans. | Damage Health (1.5x, 1.56x); Weakness to Poison (1.5x, 1.56x); Frenzy (2x, 2.14x); Regenerate Stamina (1.2x, 1.22x) |
+| `Wisp Wrappings` | Buy one from an apothecary or use one stored from earlier travel. Source: Collected from dead Wispmothers. | Restore Stamina; Fortify Destruction; Fortify Carry Weight; Resist Magic |
+| `Withering Moon` | Buy one from a Khajiit caravan. Source: Originating from the Shivering Isles. One of the Rare Curios sold by Khajiit trade caravans. | Restore Magicka (1.2x, 1.22x); Spell Absorption; Fortify Light Armor (1.5x, 1.56x); Cure Disease (0.36x) |
+| `Worm's Head Cap` | Buy one from a Khajiit caravan. Source: Originating from the Shivering Isles. One of the Rare Curios sold by Khajiit trade caravans. | Fortify Lockpicking (1.5x, 1.56x); Night Eye; Fortify Carry Weight (1.25x, 1.27x); Slow (2x, 2.14x) |
+| `Yellow Mountain Flower` | Use the Dawnguard or Forgotten Vale copy stored from the parent route. Source: Harvested from the yellow variety of Mountain Flower. | Resist Poison; Fortify Restoration (1.25x); Fortify Health; Damage Stamina Regen |
+
+8. Start the investment circuit only after Speech 70, Merchant, and Investor are active, and only before any Speech Legendary reset. If those perks are not active yet, write `All-Perks Investment Return` in your notes and return immediately after the all-perks loop activates Investor. When the perks are active, invest 500 gold in each merchant row below:
+
+| Hold or region | Merchant | Store or stop |
+| --- | --- | --- |
+| Eastmarch | `Nurelion (Quintus Navale)` | The White Phial, Windhelm |
+| Eastmarch | `Oengul War-Anvil (Hermir Strong-Heart)` | Blacksmith Quarters, Windhelm |
+| Eastmarch | `Revyn Sadri` | Sadri's Used Wares, Windhelm |
+| Eastmarch | `Wuunferth the Unliving` | Palace of the Kings, Windhelm |
+| Falkreath Hold | `Solaf` | Gray Pine Goods, Falkreath |
+| Haafingar | `Beirand` | Solitude Blacksmith, Solitude |
+| Haafingar | `Endarie; Taarie` | Radiant Raiment, Solitude |
+| Haafingar | `Sayma` | Bits and Pieces, Solitude |
+| Haafingar | `Sybille Stentor (Melaran)` | Blue Palace, Solitude |
+| Hjaalmarch | `Lami` | Thaumaturgist's Hut, Morthal |
+| Not Specific to One Hold | `Ahkari` | Dawnstar or Riften |
+| Not Specific to One Hold | `Ri'saad` | Markarth or Whiterun |
+| Not Specific to One Hold | `Ma'dran` | Solitude or Windhelm |
+| Solstheim | `Glover Mallory` | Glover Mallory's House, Raven Rock |
+| The Pale | `Frida` | The Mortar and Pestle, Dawnstar |
+| The Pale | `Rustleif; Seren` | Rustleif's House, Dawnstar |
+| The Reach | `Bothela (Muiri)` | The Hag's Cure, Markarth |
+| The Reach | `Calcelmo` | in Understone Keep, Markarth |
+| The Reach | `Lisbet (Imedhnain)` | Arnleif and Sons Trading Company, Markarth |
+| The Reach | `Moth gro-Bagol` | in Understone Keep, Markarth |
+| The Rift | `Florentius Baenius DG` | Fort Dawnguard DG |
+| The Rift | `Balimund (Asbjorn Fire-Tamer)` | The Scorched Hammer, Riften |
+| The Rift | `Bersi Honey-Hand (Drifa)` | Pawned Prawn, Riften |
+| The Rift | `Elgrim; Hafjorg` | Elgrim's Elixirs, Riften |
+| The Rift | `Wylandriah` | in Mistveil Keep, Riften |
+| Whiterun Hold | `Alvor` | Alvor and Sigrid's House, Riverwood |
+| Whiterun Hold | `Lucan Valerius (Camilla Valerius)` | Riverwood Trader, Riverwood |
+| Whiterun Hold | `Adrianne Avenicci (Outside)` | Warmaiden's, Whiterun |
+| Whiterun Hold | `Adrianne Avenicci; Ulfberth War-Bear` | Warmaiden's, Whiterun |
+| Whiterun Hold | `Arcadia` | Arcadia's Cauldron, Whiterun |
+| Whiterun Hold | `Belethor` | Belethor's General Goods, Whiterun |
+| Whiterun Hold | `Farengar Secret-Fire` | Dragonsreach, Whiterun |
+| Winterhold | `Birna` | Birna's Oddments, Winterhold |
+
+9. Do not chase these investment audit rows under official PS4 AE unless later validation changes their status:
+
+| Bucket | Merchants |
+| --- | --- |
+| Bugged or Unofficial Patch-only | `Angeline Morrard (Vivienne Onis)`; `Anoriath`; `Brand-Shei`; `Elrindir`; `Falion`; `Fihada (Jawanan)`; `Filnjar`; `Ghorza gra-Bagol (Tacitus Sallustius)`; `Grelka`; `Lod`; `Madesi`; `Marise Aravel`; `Zaria` |
+| Unknown AE investment status | `Blacksmith CC`; `Caretaker Ineril CC`; `Curate Melita CC`; `Priest Drureth CC` |
+
+10. After the last available investment, return to owned storage. If Golden Touch has not appeared yet, sell ordinary loot and high-value late crafting outputs through the invested merchants until gold reaches 100,000, then record Golden Touch. Store the remaining ingredients, soul gems, enchanted outputs, Staff of Flames, Mind Control Spider output, unique gear, and Black Books in owned storage before the level-gate section.
 ### Level 78 and Level 80 Gates
 
-Scaffold only - not yet v1-expanded.
+1. Return to owned storage after the investment circuit. Confirm the final mortal baseline is still active, Survival food and rest are stocked, Dragonrend is unlocked, and no recent Legendary reset has left your active offense, armor, Block, or healing plan hollowed out.
 
-1. At level 78+, route a combat-ready Legendary Dragon block.
-2. At level 80+, route `The Ebony Warrior` with a pre-fight manual save and final combat checks.
-3. Do not trigger or fight either target while active combat, armor, or defensive skills are hollowed out from Legendary resets.
+2. If you are below level 78, go to the `All-Perks Loop`, advance only far enough to return with a combat-ready level 78 build, then resume this section before taking on final level-80 work.
+
+3. At level 78 or higher, travel to Jorrvaskr with your current best dragon-fighting equipment, resist potions, healing, arrows or spell charges, food, and carry room. Park followers whose gear you do not want pulled into repeated dragon fights.
+
+4. Make `HARD SAVE: HS-LEVEL78-LEGENDARY-DRAGON`. This save protects the level gate and trophy check; do not reload it to change a random assignment or dragon subtype.
+
+5. Ask Farkas or Vilkas for work until `Dragon Seekers` is offered. If a different Companions job is assigned first, travel directly to its marked target, complete only the assigned job, turn it in, return to Jorrvaskr, and ask again. When `Dragon Seekers` starts, write down the assigned dragon lair and go directly there.
+
+6. Valid `Dragon Seekers` lairs are Ancient's Ascent, Autumnwatch Tower, Bonestrewn Crest, Dragontooth Crater, Eldersblood Peak, Lost Tongue Overlook, Mount Anthor, Northwind Summit, Saering's Watch, Shearpoint, and Skyborn Altar. At the assigned lair, kill the dragon, let the soul and trophy checks settle before looting or opening menus, take the dragon bones, scales, and ordinary treasure you can carry, then speak to Farkas or Vilkas to complete the assignment.
+
+7. If the dragon is named `Legendary Dragon`, record `Legend` after the trophy notification. If it is another dragon type, do not record `Legend`; restock, return to Jorrvaskr, and take another `Dragon Seekers` assignment under the same direct-travel rule until a `Legendary Dragon` dies. Do not count a missed or failed dragon-soul absorption toward Dragon Hunter progress.
+
+8. After `Legend` is recorded, return to owned storage, unload dragon materials and fight loot, sleep, eat, and make a rotating manual save. Keep `HS-LEVEL78-LEGENDARY-DRAGON` until the trophy state is verified.
+
+9. If you are below level 80, go to the `All-Perks Loop`, advance only far enough to return with a combat-ready level 80 build, then resume here at Whiterun. Do not enter a major city at level 80 while your active combat build is hollowed out from a reset.
+
+10. At level 80 or higher, stand outside Whiterun with combat gear restored and make `HARD SAVE: HS-EBONY-WARRIOR-CITY`. Enter Whiterun and let the Ebony Warrior approach you. Accept his challenge, then leave the city without starting other work.
+
+11. Prepare for the duel before traveling to Last Vigil. Store unique melee weapons you are not willing to lose to Disarm or mountain physics. Bring nonunique melee gear, ranged options, summons or follower support if you want it, strong healing, resist potions, food, and carry room for heavy ebony gear.
+
+12. Travel to Last Vigil in the Rift, northeast of Riften and reached from the path east of Fort Greenwall. The route discovered Last Vigil during the earlier southeast Rift road pass; if it is not marked in your save, ride from Riften toward Fort Greenwall and follow the mountain path east to the camp.
+
+13. At Last Vigil, do not attack immediately. Clear the approach if a stray creature is present, move the fight away from cliff edges when possible, and make `HARD SAVE: HS-EBONY-WARRIOR-LAST-VIGIL`.
+
+14. Start the duel only when ready. Defeat the Ebony Warrior, wait for `The Ebony Warrior` to complete, then loot his body completely: the enchanted ebony armor set, necklace, ring, sword, shield, bow, ebony arrows, potions, six flawless gems, Human Heart, Daedra Heart, filled Black Soul Gem, and any remaining valuables. If the kill creates a Whiterun murder bounty or breaks quest completion, reload `HS-EBONY-WARRIOR-LAST-VIGIL` and repeat the duel from the clean save.
+
+15. Return to owned storage, preserve the Ebony Warrior equipment and gems, store the alchemy and soul-gem loot, sleep, eat, and make a rotating manual save. The next section owns level 252, all 251 normal perk ranks, and full skill recovery after any remaining Legendary resets.
 
 ### All-Perks Loop
 
-Scaffold only - not yet v1-expanded.
+1. Begin from owned-home storage after the `Level 78 and Level 80 Gates` section. If the previous section sent you here because level 78 or level 80 was not reached yet, do only enough of this loop to return there with a combat-ready build; after the Legendary Dragon and Ebony Warrior gates are complete, come back here and finish the all-perks closeout.
+2. Confirm the late-route setup: Oghma Infinium is still unread, Scholar's Insight skill-book work is already complete, Golden Touch has been observed or deliberately held for final spending, the crafting/enchanting/alchemy records from the previous section are recorded, and all important unique gear is in owned storage. Sleep in a proper bed before the first level-up screen, restock hot food and healing, empty heavy loot, and make `HARD SAVE: HS-ALL-PERKS-START`.
+3. Keep a written loop ledger with these fields: character level, unused perk points, skill being raised, current skill level, Legendary reset count for that skill, and final recovery status. Spend perk points steadily; do not allow the unused perk-point counter to approach 255.
+4. Use paid training only as a smoothing tool. You can buy at most five training sessions per character level, unused sessions do not carry forward, common trainers stop at 50, expert trainers stop at 75, and master trainers stop at 90. After buying five sessions, gain another character level through skill use and sleep before buying more.
 
-1. Execute the late Legendary reset loop only after beds, storage, materials, gold, spell access, and combat alternatives exist.
-2. Use the preferred repeated reset pool first: Alchemy, Smithing, Enchanting, Alteration, Conjuration, and Illusion.
-3. Use Restoration, Sneak, or Pickpocket only as conditional late fillers when their risks are controlled.
-4. Avoid repeated Lockpicking and Speech resets as the baseline.
-5. Reach level 252+, restore all 18 skills to 100 after any resets, and assign all 251 normal skill perk ranks.
-6. Verify Skill Master and all-perks scope separately; the first skill at 100 is not enough for this project's completion scope.
+Trainer targets for this loop:
+
+| Skill | Trainers to use |
+| --- | --- |
+| Alteration | Tolfdir |
+| Conjuration | Phinis Gestor to expert; Talvas Fathryon or Falion for master training when available |
+| Destruction | Faralda |
+| Enchanting | Sergius Turrianus to expert; Neloth for master training |
+| Illusion | Drevis Neloren |
+| Restoration | Colette Marence to expert; Florentius Baenius for master training after Dawnguard |
+| Archery | Sorine Jurard; Niruin as backup |
+| Block | Njada Stonearm; Chief Larak only if the stronghold route state is clean |
+| Heavy Armor | Farkas; Isran as backup |
+| One-handed | Amren, Athis, or Chief Burguk when their route state is clean |
+| Smithing | Balimund; Eorlund Gray-Mane or Gunmar for master training |
+| Two-handed | Vilkas; Wulf Wild-Blood as backup |
+| Alchemy | Arcadia to expert; Babette for master training |
+| Light Armor | Grelka; Nazir for master training |
+| Lockpicking | Vex |
+| Pickpocket | Silda the Unseen; Vipir the Fleet for master training |
+| Sneak | Garvey; Delvin Mallory for master training |
+| Speech | Revyn Sadri; Giraud Gemane for master training |
+
+5. Before making any skill Legendary, confirm all of the following:
+
+| Check | Required state |
+| --- | --- |
+| Skill level | The skill is exactly 100 on the normal skill screen. Wait out Fortify Skill effects before resetting. |
+| Pending rewards | No active quest, vendor unlock, crafting check, investment check, or master ritual step still depends on the skill staying high. |
+| Combat safety | You are not about to enter a hard fight using the skill you are about to reset. |
+| Perk spend | You have spent enough points that the unused perk-point counter is nowhere near 255. |
+| Recovery plan | You know how the skill will be brought back to 100 before final audit. |
+
+6. Complete the College master ritual windows the first time these thresholds are reached. Do not make the relevant skill Legendary until the quest reward and vendor tomes in the table are secured.
+
+| Gate | Instructions |
+| --- | --- |
+| Alteration 90 | Talk to Tolfdir for `Alteration Ritual Spell`. If Kahvozein's Fang is already stored, take it. If not, retrieve it from Tolfdir's assigned dragon-priest dungeon and return directly. Use a current unlooted dragon corpse, or take one direct `Dragon Seekers` assignment and kill only that dragon, then equip Kahvozein's Fang in your right hand and loot the corpse for heartscales. Return to Tolfdir, complete the quest, learn `Dragonhide`, and buy and read `Mass Paralysis`. |
+| Conjuration 90 | Dismiss followers and pets before the Hall of Attainment roof. Talk to Phinis Gestor for `Conjuration Ritual Spell`, learn and cast `Summon Unbound Dremora` at the summoning circle, defeat and talk to the Dremora through the required sequence, take the Sigil Stone, and return it to Phinis. Learn `Flame Thrall`; then buy and read `Dead Thrall`, `Frost Thrall`, and `Storm Thrall`. |
+| Destruction 100 | Talk to Faralda for `Destruction Ritual Spell` and take `Power of the Elements`. Visit Windward Ruins and cast `Flames` on the pedestal, visit North Skybound Watch and cast `Frostbite` on the pedestal, then visit Four Skull Lookout and cast `Sparks` on the pedestal. Read the completed book to learn `Fire Storm`; then buy and read `Blizzard` and `Lightning Storm` from Faralda. |
+| Illusion 100 | Talk to Drevis Neloren for `Illusion Ritual Spell` and learn `Vision of the Tenth Eye`. With the vision effect active, collect the four `Master Illusion Text` books: one in the Arcanaeum on the west outer-ring table with `The Legend of Red Eagle`, one on the upper landing of the Hall of Attainment, one in the Hall of Countenance upstairs storeroom opposite the room with the arcane enchanter, and one in the Midden near the Atronach Forge. Return to Drevis, learn `Hysteria`, and buy and read `Call to Arms`, `Harmony`, and `Mayhem`. |
+| Restoration 90 | Confirm `Good Intentions` is complete. Store nonessential equipment in safe College storage, set `Become Ethereal` or a strong healing setup for the Augur test, then talk to Colette Marence and go to the Augur in the Midden for `Restoration Ritual Spell`. Survive the test, learn `Bane of the Undead`, retrieve stored items, and buy and read `Guardian Circle` from Colette. |
+
+7. If the previous crafting/investment section left an `All-Perks Investment Return` note, pause this loop as soon as Speech 70, Merchant, and Investor are active. Complete the main-route investment circuit from the previous section before making Speech Legendary or spending down the final gold reserve.
+8. Use the repeated Legendary reset pool in this order of preference. Reset one skill at a time, recover the build before travel or combat, and keep every final-cycle skill at 100 when the loop is over.
+
+| Pool | Skill | How to raise it safely in this late window |
+| --- | --- | --- |
+| Preferred | Alchemy | Use the stored and renewable ingredient stock from Goldenhills Farm, vendors, owned storage, and any planting surfaces the route has already built. Do not count Hearthfire gardens or greenhouses until the homes section has actually built and verified them. Brew value-heavy potions from nonunique ingredients until Alchemy reaches 100, sell the output through invested merchants, and reset again only if more character levels or perk points are still required. Learned ingredient effects stay learned after the reset. |
+| Preferred | Smithing | Forge and temper disposable jewelry, armor, and weapons from stored metals, leather, gems, Dwarven material, and late-game ingots. Do not consume preserved unique items. Restore Smithing to 100 and rebuild the required Smithing perks before any final gear check. |
+| Preferred | Enchanting | Enchant disposable jewelry, clothing, armor, and weapons with learned effects and filled soul gems. Do not disenchant unique items. Restore Enchanting to 100 and reacquire Extra Effect before final enchanted gear or display work. |
+| Preferred | Alteration | After `Alteration Ritual Spell` is complete, combine Tolfdir training, retained Alteration spells, safe College or owned-home casting, and cost-reduction gear until Alteration reaches 100. |
+| Preferred | Conjuration | After `Conjuration Ritual Spell` is complete, combine Phinis/Talvas/Falion training, retained Conjuration spells, safe College or owned-home casting, and cost-reduction gear until Conjuration reaches 100. |
+| Preferred | Illusion | After `Illusion Ritual Spell` is complete, combine Drevis training, retained Illusion spells, safe College or owned-home casting, and cost-reduction gear until Illusion reaches 100. |
+| Conditional | Restoration | Use only after `Restoration Ritual Spell`, Dawnguard spell purchases, and any healing-dependent travel are secure. Combine Colette/Florentius training with controlled Restoration use; recover Restoration before final combat or survival checks. |
+| Conditional | Sneak | Use only after stealth-dependent quest content is complete and you can train or practice without creating crime-state damage. |
+| Conditional | Pickpocket | Use only after Pickpocket 100 and its perk tree are no longer needed for merchant/training convenience. Do not use trainer-gold pickpocketing as the route baseline. |
+| Emergency only | Destruction, One-handed, Two-handed, Archery, Block, Heavy Armor, Light Armor | Keep these for combat strength. Reset one only if the preferred and conditional pools cannot reach the final level/perk target, then recover it before any hard fight. |
+| Excluded repeated baseline | Lockpicking and Speech | Do not use these as repeated reset skills. Lockpicking depends on finite locks and Speech carries investment and economy state. They still must finish at 100 with all perks assigned. |
+
+9. Use the Oghma Infinium only after the reset loop exposes a real late skill gap. Make `HARD SAVE: HS-OGHMA-INFINIUM-USE`, then read Oghma Infinium from inventory. Choose the path with the largest verified below-100 gain: `Path of Magic` for Alteration, Conjuration, Destruction, Enchanting, Illusion, and Restoration; `Path of Might` for Archery, Block, Heavy Armor, One-handed, Smithing, and Two-handed; or `Path of Shadow` for Alchemy, Light Armor, Lockpicking, Pickpocket, Sneak, and Speech. The project default is `Path of Magic` if the groups are otherwise tied. Verify the expected skill increases before accepting the result; if the book fails to grant the expected gains, reload `HS-OGHMA-INFINIUM-USE`, raise or lower one target skill through normal play or training, and read it again.
+10. Continue the bounded loop until the character is level 252 or higher and enough perk points exist for all normal skill perks. Survival Mode delivers level-up choices through sleep, so sleep in a proper bed whenever the level-up prompt is waiting.
+11. Assign all 251 normal skill perk ranks. Use this table as the final allocation checklist:
+
+| Skill | Perk ranks to assign | Count |
+| --- | --- | ---: |
+| Alteration | Novice Alteration; Alteration Dual Casting; Apprentice Alteration; Magic Resistance 1; Magic Resistance 2; Magic Resistance 3; Adept Alteration; Expert Alteration; Atronach; Master Alteration; Stability; Mage Armor 1; Mage Armor 2; Mage Armor 3 | 14 |
+| Conjuration | Novice Conjuration; Apprentice Conjuration; Adept Conjuration; Expert Conjuration; Master Conjuration; Conjuration Dual Casting; Mystic Binding; Soul Stealer; Oblivion Binding; Necromancy; Dark Souls; Summoner 1; Summoner 2; Atromancy; Elemental Potency; Twin Souls | 16 |
+| Destruction | Novice Destruction; Apprentice Destruction; Adept Destruction; Expert Destruction; Master Destruction; Rune Master; Augmented Flames 1; Augmented Flames 2; Intense Flames; Augmented Frost 1; Augmented Frost 2; Deep Freeze; Augmented Shock 1; Augmented Shock 2; Disintegrate; Destruction Dual Casting; Impact | 17 |
+| Enchanting | Enchanter 1; Enchanter 2; Enchanter 3; Enchanter 4; Enchanter 5; Fire Enchanter; Frost Enchanter; Storm Enchanter; Insightful Enchanter; Corpus Enchanter; Extra Effect; Soul Squeezer; Soul Siphon | 13 |
+| Illusion | Novice Illusion; Animage; Kindred Mage; Quiet Casting; Apprentice Illusion; Adept Illusion; Expert Illusion; Master Illusion; Hypnotic Gaze; Aspect of Terror; Rage; Master of the Mind; Illusion Dual Casting | 13 |
+| Restoration | Novice Restoration; Apprentice Restoration; Adept Restoration; Expert Restoration; Master Restoration; Recovery 1; Recovery 2; Avoid Death; Regeneration; Necromage; Respite; Restoration Dual Casting; Ward Absorb | 13 |
+| Archery | Overdraw 1; Overdraw 2; Overdraw 3; Overdraw 4; Overdraw 5; Critical Shot 1; Critical Shot 2; Critical Shot 3; Hunter's Discipline; Ranger; Eagle Eye; Power Shot; Quick Shot; Steady Hand 1; Steady Hand 2; Bullseye | 16 |
+| Block | Shield Wall 1; Shield Wall 2; Shield Wall 3; Shield Wall 4; Shield Wall 5; Deflect Arrows; Elemental Protection; Block Runner; Power Bash; Deadly Bash; Disarming Bash; Shield Charge; Quick Reflexes | 13 |
+| Heavy Armor | Juggernaut 1; Juggernaut 2; Juggernaut 3; Juggernaut 4; Juggernaut 5; Fists of Steel; Cushioned; Conditioning; Well Fitted; Tower of Strength; Matching Set; Reflect Blows | 12 |
+| One-handed | Armsman 1; Armsman 2; Armsman 3; Armsman 4; Armsman 5; Bladesman 1; Bladesman 2; Bladesman 3; Bone Breaker 1; Bone Breaker 2; Bone Breaker 3; Dual Flurry 1; Dual Flurry 2; Dual Savagery; Fighting Stance; Critical Charge; Savage Strike; Paralyzing Strike; Hack and Slash 1; Hack and Slash 2; Hack and Slash 3 | 21 |
+| Smithing | Steel Smithing; Arcane Blacksmith; Dwarven Smithing; Orcish Smithing; Ebony Smithing; Daedric Smithing; Elven Smithing; Advanced Armors; Glass Smithing; Dragon Armor | 10 |
+| Two-handed | Barbarian 1; Barbarian 2; Barbarian 3; Barbarian 4; Barbarian 5; Champion's Stance; Devastating Blow; Great Critical Charge; Sweep; Warmaster; Deep Wounds 1; Deep Wounds 2; Deep Wounds 3; Limbsplitter 1; Limbsplitter 2; Limbsplitter 3; Skullcrusher 1; Skullcrusher 2; Skullcrusher 3 | 19 |
+| Alchemy | Alchemist 1; Alchemist 2; Alchemist 3; Alchemist 4; Alchemist 5; Physician; Benefactor; Experimenter 1; Experimenter 2; Experimenter 3; Poisoner; Concentrated Poison; Green Thumb; Snakeblood; Purity | 15 |
+| Light Armor | Agile Defender 1; Agile Defender 2; Agile Defender 3; Agile Defender 4; Agile Defender 5; Custom Fit; Matching Set; Unhindered; Wind Walker; Deft Movement | 10 |
+| Lockpicking | Novice Locks; Apprentice Locks; Quick Hands; Wax Key; Adept Locks; Expert Locks; Golden Touch; Treasure Hunter; Locksmith; Unbreakable; Master Locks | 11 |
+| Pickpocket | Light Fingers 1; Light Fingers 2; Light Fingers 3; Light Fingers 4; Light Fingers 5; Night Thief; Cutpurse; Keymaster; Misdirection; Perfect Touch; Extra Pockets; Poisoned | 12 |
+| Sneak | Stealth 1; Stealth 2; Stealth 3; Stealth 4; Stealth 5; Backstab; Deadly Aim; Assassin's Blade; Muffled Movement; Light Foot; Silent Roll; Silence; Shadow Warrior | 13 |
+| Speech | Haggling 1; Haggling 2; Haggling 3; Haggling 4; Haggling 5; Allure; Merchant; Investor; Fence; Master Trader; Bribery; Persuasion; Intimidation | 13 |
+| Total | All normal skill perk ranks above | 251 |
+
+12. Run the final skill audit before leaving this section:
+
+| Screen or state | Required result |
+| --- | --- |
+| Character level | 252 or higher. |
+| Skill list | All 18 skills are at 100 after every Legendary reset is finished. |
+| Legendary resets | No skill is left at 15 or at any partial recovery value. |
+| Perks | All 251 normal skill perk ranks are assigned. |
+| Skill Master | The trophy condition has been observed from at least one skill reaching 100; this is separate from the all-skills and all-perks scope. |
+| Oghma Infinium | Acquired earlier, read in this section only if it was used for the late skill gap, and its final skill gains were verified before accepting the save. |
+| Master ritual spells | `Dragonhide`, `Mass Paralysis`, `Flame Thrall`, `Dead Thrall`, `Frost Thrall`, `Storm Thrall`, `Fire Storm`, `Blizzard`, `Lightning Storm`, `Call to Arms`, `Harmony`, `Hysteria`, `Mayhem`, `Bane of the Undead`, and `Guardian Circle` are learned. |
+| Combat build | At least one armor setup, one weapon or spell offense setup, healing, hot food, and carry weight are ready before the homes and final trophy sections. |
 
 ### Homes, Household, Services, Pets, and Mounts
 
-Scaffold only - not yet v1-expanded.
-
-1. Verify every city home, Hearthfire homestead, AE home, Severin Manor, Goldenhills, and relevant upgrade/furnishing state.
-2. Verify Hearthfire wings/services: Lakeview Armory/Storage/Bedrooms, Windstad Kitchen/Alchemy/Greenhouse, Heljarchen Library/Trophy/Enchanter, one steward per homestead, all three carriage drivers, and bards after Main Hall readiness.
-3. Move spouse/children to Tundra Homestead only after household and child-room validation. Recommended defaults are Ysolda, Lucia, and Sofie.
-4. Verify Goldenhills steward/farmhands, pets, mounts, Frost, Shadowmere, Arvak, and any AE pet/mount rows.
-5. Present non-default spouse, child, steward, follower, pet, mount, farmhand, bard, and carriage options as option-list material rather than branch routes.
+1. Start from Tundra Homestead after the all-perks audit. Sell crafted gear, potions, duplicate loot, and fenced goods until you have at least 95,000 gold free for property, furnishing, service, and mount purchases. Bring one Centurion Dynamo Core, any saved Hearthfire building materials, hot food, lockpicks, cold gear, and the courier notes `Warrior's Challenge` and `Dinner Invitation` if they are in storage.
+2. Make `HARD SAVE: HS-HOMES-SERVICES-START`. Keep this save until every property purchase, household move, pet, and mount in this section has been checked.
+3. In Whiterun, enter Breezehome once and confirm the bought furnishings are present with the Alchemy Laboratory choice, not the Child's Bedroom. Enter Tundra Homestead and keep it as the central household and storage base. Do not place unique artifacts into display furniture yet; use normal owned containers until the final display pass.
+4. Ride west of Whiterun Stables, make a rotating manual save, find the Red Wild Horse on the plains west or northwest of the city, mount it, and stay on until it is tamed. If you switch back to another active mount, the red horse returns to its original range.
+5. Travel to Riften. In Honeyside, confirm the house is owned. Speak to the current Riften steward and buy the Honeyside furnishing packages for Bedroom, Kitchen, Alchemy Laboratory, Enchanting Area, Garden, Porch, and Housecarl's Quarters. Keep the Enchanting Area rather than replacing it with the Child's Bedroom.
+6. In the Bee and Barb upstairs room, read `Letter to Clexius` for `Blue in the Face`. Travel to Gromm's Pass south of Forelhost, clear the cave, kill the Blue God, take the Goblin Totem Staff, read `Blue God's Journal`, and free Gogh from the fighting pit. Gogh is the route's Goblins creature-follower completion; dismiss him back to Gromm's Pass before household moves or narrow property work.
+7. Travel to Markarth with at least 12,200 gold. If Igmund's `Kill the Forsworn Leader` target from the earlier Reach pass was not reported yet, report it now. Ask Igmund for the next property prerequisite and accept `Find Hrolfdir's Shield`. The shield marker will be Bleakwind Bluff, Blind Cliff Cave, Dead Crone Rock, Hag's End, or Lost Valley Redoubt; go to the actual marker, retrieve Hrolfdir's Shield, and return it to Igmund.
+8. Make `HARD SAVE: HS-VLINDREL-PURCHASE` before speaking to Raerek. Speak to Raerek only with the purchase money ready, buy Vlindrel Hall for 8,000 gold, and buy the furnishing packages for Bedroom, Living Room, Alchemy Laboratory, Enchanting Laboratory, Entrance Hall, and Housecarl's Quarters. Keep the normal craft/display layout rather than the Child's Bedroom. Return to Igmund, accept Thane of the Reach, receive the Blade of the Reach, and confirm Argis the Bulwark is available in Vlindrel Hall.
+9. Leave Markarth by the Salvius Farm road. Make a rotating manual save north of Salvius Farm, tame the Grey Spotted Wild Horse on the hill north of the farm, then let it return to that range if you switch mounts.
+10. Read `Warrior's Challenge`, travel to Hendraheim north of Bilegulch Mine, speak to Eydvina Shield-Hearth, defeat her in the duel, take the key from her body, enter Hendraheim, and claim the home. Preserve Hendraheim as a display-capable home, but do not place the route's preserved artifacts into its displays yet.
+11. Travel to Runoff Caverns in the Reach and make `HARD SAVE: HS-FORGOTTEN-SEASONS-RUNOFF` outside. Activate the Broken Dwarven Horse torso in the stream outside the entrance to start `The Dwarven Horse`, then enter the ruin and proceed to Vardnknd Gallery.
+12. In Vardnknd Gallery, take the Dwarven Crown from Elberon's body, read `Elberon's Journal`, and read `Forgotten Seasons, v1` from his desk to start the full Runoff Caverns quest route before entering any seasonal wing.
+13. Clear Autumn's Bells. Read `Note on Autumn`, collect the Horse Right Front Leg, Horse Left Back Leg, Horse Right Back Leg, and Horse Left Front Leg, collect the Dwarven Autumn Visage, harvest one Wild Grass Pod, solve the six-wheat depositor puzzle, take the Conduit Control Gem, and take the Horse Head from the opened chamber.
+14. Clear Spring's Symphony. Read `Note on Spring`, kill the Blooming Spriggans to open the blocked paths, take the Dwarven Drone Fly, take the Dwarven Spring Visage after obtaining the Matron's key, and disable the Spring conduit.
+15. Clear Summer's Chords. Read `Note on Summer`, take and use the Spider Control Rod, direct the repair spider to the service waypoints, and disable the Summer conduit.
+16. Clear Winter's Chimes. Read `Note on Winter`, move through the icy reservoirs with hot food and cold gear ready, take the Dwarven Winter Visage from its hidden side area, and disable the Winter conduit.
+17. Return to Vardnknd Gallery after all four conduits are disabled. Clear the new mercenary attack, enter Vardnknd Skykiller Gallery, defeat the Sky Orchestrator, take and read `Turn of the Seasons`, and use the lift back toward the entrance. `Forgotten Seasons` is now complete.
+18. At a forge or anvil, combine the Dwarven Crown with one of the visages and two Leather Strips, then retrieve the Dwarven Crown result so `The Dwarven Crown` is complete and the crown can be changed later. Return outside Runoff Caverns, activate the repaired Dwarven Horse torso, and claim the Dwarven Horse mount.
+19. From the Reach or Falkreath road, tame the remaining southern wild horses. Find the Black Wild Horse south of Evergreen Grove and the Chestnut Wild Horse east of Helgen along the South Skybound Watch road. Make a rotating manual save before each tame, mount the horse, and stay on until it is owned.
+20. Travel to Solitude with at least 36,000 gold. Speak to Falk Firebeard and buy Proudspire Manor for 25,000 gold. Buy the furnishing packages for Bedroom, Kitchen, Living Room, Alchemy Station, Enchanting Station, Patio, Fish Tank, Fish Plaques, and Housecarl's Quarters. Keep Proudspire's normal craft/display layout rather than the Child's Bedroom.
+21. Enter Proudspire Manor, go to the top-floor master bedroom, and take the Stone of Barenziah from the wardrobe behind the door. Return to Elisif, accept Thane of Haafingar, receive the Blade of Haafingar, and confirm Jordis the Sword-Maiden is available in Proudspire Manor.
+22. Travel to the Ragged Flagon in Riften. Show Vex the complete 24-stone set, accept the Crown of Barenziah objective, then go back through Tolvald's Cave for the crown chamber. Do not enter for the crown before Vex gives this objective. Retrieve the Crown of Barenziah, return it to Vex, complete `No Stone Unturned`, and receive Prowler's Profit.
+23. In Solitude, read `The Restless` at the Winking Skeever. Go to Castle Dour Dungeon, persuade or otherwise lawfully get the guard to open the pirate cell, read `Kevon's Note`, and take the Map to Blackbone Isle from the hidden loose brick. Travel to Orphan's Tear, clear the brigands if they are present, use the small boat to Blackbone Isle, enter Blackbone Isle Grotto, and board Dead Man's Dread.
+24. On Dead Man's Dread, take Cyrus' Boots, Cyrus' Clothes, Cyrus' Sabre, Blackwater Blade, the Captain apparel you can loot safely, `Captain's Journal`, and the Pirate's Note that claims the ship. Defeat the Ghost Sailors and Ghost Captain on the way out. Use the rowboat or the claimed ship's map to return; treat the ship map as one-way travel only.
+25. Travel to Winterhold. In The Frozen Hearth, read `Seeks-Ancient-Artifacts' Journal, v1`. Go to Frostroot Cave, enter Nchuanthumz, clear the skeevers and bandits, and use the lift to Nchuanthumz's Manufactory. Read `Seeks-Ancient-Artifacts' Journal, v2` from the body near the controls.
+26. In the manufactory, collect three Dwemer Cogs, three Dwemer Actuators, and one Dwarven Oil from the room, give the parts to the Dwarven Sphere Overseer, and turn on the manufactory. Use the Centurion Dynamo Core to build the spider construct, return to the sanctuary level, summon the construct with the renovation levers, wait one full day, and confirm Nchuanthumz is restored as a home.
+27. Still in Winterhold, go to the Arcanaeum and read `Soran's Journal` from Urag gro-Shub's desk to start `Creature of Legend`. Travel to the pond west of Lost Prospect Mine, make a rotating manual save, tame the Unicorn, and let it return to the College courtyard if you switch mounts later.
+28. Travel through the Winterhold coast to Yngol Barrow. Make a rotating manual save, find the Pale Mare among the snowy pines south of Yngol Barrow, mount it, and stay on until it is owned.
+29. Read `Dinner Invitation` and travel to Bloodchill Cavern. Make `HARD SAVE: HS-BLOODCHILL-DINNER` before entering. Follow the dinner sequence as the mortal main-route character, defeat the vampires and gargoyles when the fight starts, speak to the waiter after the fight, accept the gold and ownership state, and confirm Bloodchill Manor's doors and bed/storage access are available. On this mortal route, not receiving a physical Bloodchill Manor Key is expected.
+30. Return to Lakeview Manor. Make a rotating manual save before major construction, then build or confirm the Main Hall, remodel the Small House into the Entryway only after all important items have been moved out of Small House containers, build the Cellar, and build the Aquarium.
+31. At Lakeview, build the selected wings: Armory, Storage Room, and Bedrooms. Build the Bedrooms and Armory connector work before finishing Storage Room deck connectors. Confirm Rayya is the permanent Lakeview steward; if she was never assigned because the route had parked Lakeview, make `HARD SAVE: HS-LAKEVIEW-RAYYA-STEWARD` and assign her now.
+32. Through Rayya, hire the Lakeview carriage driver, hire Llewellyn the Nightingale as bard, buy the Lakeview horse, cow, and chickens, and pay for steward furnishing on the Entryway, Main Hall, Armory, Storage Room, and Bedrooms. Build Lakeview exterior work: Animal Pen, Armorer Workbench, Apiary, Garden, Grindstone, Smelter, and Stable.
+33. Travel to Windstad Manor. Make `HARD SAVE: HS-WINDSTAD-VALDIMAR-STEWARD`, build or confirm the Small House, Main Hall, Entryway, Cellar, Aquarium, and selected wings: Kitchen, Alchemy Laboratory, and Greenhouse. Assign Valdimar as the permanent Windstad steward.
+34. Through Valdimar, hire the Windstad carriage driver, hire Sonir as bard, buy the Windstad horse, cow, and chickens, and pay for steward furnishing on the Entryway, Main Hall, Kitchen, Alchemy Laboratory, and Greenhouse. Build Windstad exterior work: Animal Pen, Armorer Workbench, Fish Hatchery, Garden, Grindstone, Smelter, and Stable.
+35. Travel to Heljarchen Hall. Make `HARD SAVE: HS-HELJARCHEN-GREGOR-STEWARD`, build or confirm the Small House, Main Hall, Entryway, Cellar, Aquarium, and selected wings: Library, Trophy Room, and Enchanter's Tower. Assign Gregor as the permanent Heljarchen steward.
+36. Through Gregor, hire the Heljarchen carriage driver, hire Oriella as bard, buy the Heljarchen horse, cow, and chickens, and pay for steward furnishing on the Entryway, Main Hall, Library, Trophy Room, and Enchanter's Tower. Build Heljarchen exterior work: Animal Pen, Armorer Workbench, Garden, Grain Mill, Grindstone, Smelter, and Stable.
+37. For all three Hearthfire homes, self-build Cellar and Aquarium furnishings that the steward cannot provide. After paying for steward furnishings, sleep or wait through normal route downtime and revisit each homestead until the paid rooms have appeared before treating Hearthfire full furnishing complete. Master Architect is complete once Lakeview, Windstad, and Heljarchen each have their Main Hall and three selected wings built.
+38. Travel to Goldenhills Plantation. At the Farmer's Workbench, build the remaining farmhouse upgrades: Kitchen, Dining Area, Alchemy and Enchanting Lab, Loft, Master Bedroom, and Library and Display Room. Keep the Library and Display Room rather than the Child's Bedroom because Tundra Homestead supplies the spouse and child beds for this route.
+39. At Goldenhills, build the remaining exterior projects: Apiary, Blacksmithing Workshop, Exterior Decoration, Farmhand Bunkhouse, Stable, and Windmill. Confirm Faendal is still steward, the generic farmhands are hired, cow, goats, and chickens are present, then buy the Goldenhills horse through Faendal. Collect one farm income payout and one Pantry Cupboard harvest after the finished buildout.
+40. Return to Tundra Homestead. Make `HARD SAVE: HS-TUNDRA-HOUSEHOLD`. Confirm the child beds, child containers, adult bed, and spouse/home dialogue are available there before moving anyone.
+41. Speak to Ysolda and move her to Tundra Homestead if she is not already living there. Travel to Whiterun, speak to Lucia, adopt her, and send her to Tundra Homestead. Travel to Windhelm, speak to Sofie, buy her flowers if she offers them, adopt her, and send her to Tundra Homestead. Return to Tundra and confirm Ysolda, Lucia, and Sofie have arrived before continuing.
+42. Do not accept a child pet for the route default. Child pets, dogs, alternate spouses, alternate children, alternate stewards, alternate bards, alternate farmhands, city stable horses beyond the Whiterun horse, and non-default household homes remain option-list choices, not branch routes. Route defaults are now fixed as Ysolda at Tundra Homestead, Lucia and Sofie adopted to Tundra Homestead, Rayya at Lakeview Manor, Valdimar at Windstad Manor, Gregor at Heljarchen Hall, Faendal at Goldenhills Plantation, no child pet, and no permanent optional humanoid follower.
+43. Confirm the humanoid recruitable-follower option set by name: Adelaisa Vendicci, Aela the Huntress, Agmaer, Ahtar, Annekke Crag-Jumper, Aranea Ienith, Argis the Bulwark, Athis, Beleval, Belrand, Benor, Borgakh the Steel Heart, Brelyna Maryon, Calder, Celann, Cicero, Cosnach, Dark Brotherhood Initiate (female), Dark Brotherhood Initiate (male), Derkeethus, Durak, Eola, Erandur, Erik the Slayer, Faendal, Farkas, Frea, Ghorbash the Iron Hand, Golldir, Gregor, Illia, Ingjard, Iona, J'zargo, Jenassa, Jordis the Sword-Maiden, Kharjo, Lob, Lydia, Marcurio, Mjoll the Lioness, Njada Stonearm, Ogol, Onmund, Ralis Sedarys, Rayya, Ria, Roggi Knot-Beard, Serana, Stenvar, Sven, Talvas Fathryon, Teldryn Sero, Torvar, Ugor, Uthgerd the Unbroken, Valdimar, Vilkas, and Vorstag. Treat these as non-default choices unless a route section already assigned, used, preserved, or branch-experienced that follower.
+44. Confirm the creature and mount follower option set by name: Armored Frost Troll, Armored Troll, Arvak, Bran, CuSith, Frost, Garmr, Meeko, Riekling Warrior, Sceolang, Shadowmere, Steadfast Dwarven Sphere, Steadfast Dwarven Spider, Stray Dog, and Vigilance. The main route already acquires Frost, Shadowmere, and Arvak where routed; CuSith, Garmr, and Riekling Warrior stay branch-only or branch-experienced; the remaining named options are non-default choices.
+45. Confirm the owned-home surface by name: Breezehome, Honeyside, Vlindrel Hall, Hjerim, Proudspire Manor, Severin Manor, Tundra Homestead, Myrwatch, Shadowfoot Sanctum, Gallows Hall, Goldenhills Plantation, Hendraheim, Bloodchill Manor, Dead Man's Dread, Nchuanthumz, Lakeview Manor, Windstad Manor, and Heljarchen Hall.
+46. Confirm the pet and creature-follower surface by name: Dwarven Armored Mudcrab, Hilda, Sweet Roll, Skritch, Arachnia, Bone Wolf, Thistle, Nix-Hound, Manic Elytra Nymph, Demented Elytra Nymph, and Gogh. Keep pets dismissed or waiting at safe owned homes before final trophy branches.
+47. Confirm the mount surface by name: Whiterun stable horse, Frost, Shadowmere, Arvak, Reindeer, Dapple Brown Wild Horse, White Spotted Wild Horse, Red Wild Horse, Grey Spotted Wild Horse, Black Wild Horse, Chestnut Wild Horse, Pale Mare Wild Horse, Unicorn, Dwarven Horse, Lakeview horse, Windstad horse, Heljarchen horse, Goldenhills horse, Elven Horse Armor, and Steel Horse Armor. Use the Dwarven Horse, Shadowmere, or Arvak for late travel according to terrain and convenience; no remaining route step depends on ordinary horse mortality.
 
 ### Master Criminal Trophy Branch
 
-Scaffold only - not yet v1-expanded.
+1. Start from Tundra Homestead or another owned home after the homes and all-perks audits. Dismiss followers, pets, and summons. Store unique gear that you do not need for this branch, keep a durable weapon or spell setup, keep healing, and use the Dwarven Horse, Shadowmere, or Arvak for travel.
+2. Make `HARD SAVE: HS-TROPHY-MASTER-CRIMINAL`. This is a trophy branch only. Do not save over it, do not pay fines, do not serve jail time, do not use thane pardons, and do not carry the bounty state into final continuity.
+3. Open General Stats, Crime, and confirm that all nine hold bounties are clean or record any existing branch-only bounty values before starting. The trophy requires 1000 bounty in all nine holds at the same time.
+4. In each hold below, make a rotating branch save just outside the named settlement. Enter on foot or mounted, kill one unnamed hold guard in view of another guard or public witness, then leave the settlement without killing named NPCs, shopkeepers, stewards, housecarls, carriage drivers, stable hands, spouses, children, or quest targets. Do not wipe out witnesses; the witnessed bounty is the point of the branch.
 
-1. Make `HARD SAVE: HS-TROPHY-MASTER-CRIMINAL`.
-2. BRANCH ROUTE: stage controlled 1000-gold bounties in all nine holds. Avoid quest-critical NPC deaths and do not combine this with unrelated crime or late-route work.
-3. Complete the Master Criminal hold-bounty branch.
-4. RETURN: reload `HS-TROPHY-MASTER-CRIMINAL` to restore clean final continuity.
-5. Reload the pre-branch save after the bounty-state branch is recorded.
+| Order | Hold | Settlement for the branch action | Guard target rule |
+| --- | --- | --- | --- |
+| 1 | Whiterun Hold | Whiterun exterior gate or inside Whiterun near the gate | One unnamed Whiterun Guard. |
+| 2 | Falkreath Hold | Falkreath main gate or barracks approach | One unnamed Falkreath Guard. |
+| 3 | The Reach | Markarth exterior gate or city gatehouse approach | One unnamed Markarth Guard. |
+| 4 | Haafingar | Solitude exterior gate or inside Solitude near the gate | One unnamed Solitude Guard. |
+| 5 | Hjaalmarch | Morthal town edge near the guard patrol | One unnamed Hjaalmarch Guard. |
+| 6 | The Pale | Dawnstar town edge near the guard patrol | One unnamed Pale Guard. |
+| 7 | Winterhold | Winterhold town edge near the guard patrol | One unnamed Winterhold Guard. |
+| 8 | Eastmarch | Windhelm exterior gate or inside Windhelm near the gate | One unnamed Windhelm Guard. |
+| 9 | The Rift | Riften exterior gate or inside Riften near the gate | One unnamed Riften Guard. |
+
+5. After each hold, retreat far enough that the immediate guard pursuit drops or becomes manageable, then check General Stats, Crime. Confirm that the hold you just staged shows at least 1000 bounty and that earlier branch bounties are still present. If the wrong hold gained the bounty, a named NPC died, the bounty did not register, or you accidentally cleared witnesses, reload that hold's rotating branch save and repeat only that hold.
+6. After the ninth hold registers, stay out of arrest dialogue and wait for the Master Criminal trophy. If it does not appear immediately, reopen General Stats, Crime and confirm that Whiterun, Falkreath, the Reach, Haafingar, Hjaalmarch, the Pale, Winterhold, Eastmarch, and the Rift all show 1000 bounty or higher at the same time. If one hold is missing, stage only that missing hold from the current branch state and recheck.
+7. When Master Criminal is recorded, reload `HS-TROPHY-MASTER-CRIMINAL`. Confirm the clean continuity is restored: no active all-holds bounty branch, no dead guard branch state, followers and pets still dismissed or waiting where they were before the branch, and the owned-home/storage state from the previous section is intact.
 
 ### Final Reconciliation
 
-Scaffold only - not yet v1-expanded.
+1. Return to Tundra Homestead, Severin Manor, or another owned home with stable storage. Make `HARD SAVE: HS-FINAL-RECONCILIATION-START`. Do not overwrite the branch saves listed in this section until the cross-cutting coverage audits are complete.
+2. Confirm the final continuity state below. If any row is wrong, reload the relevant named branch save and repeat the accepted route path before continuing from this final audit save.
 
-1. Run the final checklist synchronization: quests, trophies, locations, unique items, properties, spells/powers, books, skill books, enchantments, alchemy effects, crafting systems, investments, pets/mounts, followers/options, and branches.
-2. Confirm every branch hard save was reloaded and the canonical final continuity is Imperial, Dawnguard, Dark Brotherhood join, Paarthurnax preserved, Ring of Hircine, Aetherial Crown, Fortune Bittercup path, Nord-side Thirsk, join/infiltrate Ghosts path, spared Ralis, kept Frost, and mortal final character state.
-3. Confirm unique-item preservation: no unique item was disenchanted merely for an effect, and all main-route unique rewards are stored or displayed safely.
-4. Confirm that branch and counter records are complete.
-5. Confirm all skills are 100 after Legendary resets, level is 252+, all 251 normal perk ranks are assigned, all transformation perk trees were completed before final cure, and the final state is mortal.
-6. Record unresolved risks for TB-037 through TB-043 rather than silently closing the guide.
+| Route surface | Accepted final state |
+| --- | --- |
+| Civil War | Imperial main route completed; Stormcloak branch reloaded from `HS-CW-BEFORE-FACTION-OATH`. |
+| Dawnguard | Dawnguard main route completed; Volkihar branch reloaded from `HS-DG-BLOODLINE`; `Destroying the Dawnguard` handled only in its branch continuation. |
+| Dark Brotherhood | Dark Brotherhood join route completed; `Destroy the Dark Brotherhood!` branch reloaded from `HS-DB-ABANDONED-SHACK`. |
+| Main quest and Blades conflict | `Dragonslayer` completed with Paarthurnax alive; temporary Paarthurnax kill branch reloaded from `HS-MQ-PAARTHURNAX`. |
+| Daedric and reward choices | The Black Star, Masque of Clavicus Vile, Ring of Hircine, Mehrunes' Razor, Ring of Namira, Skull of Corruption, and Aetherial Crown are the kept outcomes; reward branches were inspected and reloaded. |
+| Dragonborn | Miraak defeated at the level-60 reward gate, all seven Black Books handled, Bend Will complete, Nord-side Thirsk preserved, Ralis spared, and Raven Rock/Solstheim reward state intact. |
+| Ghosts of the Tribunal | Join/infiltrate continuity kept, Ashfall services restored through civilian letter delivery, and Reclamation Priest propaganda branch reloaded. |
+| Bittercup | Fortune path kept for Master Transmute; Power and Nothing branches audited and reloaded from `HS-AE-BITTERCUP-ALTAR`. |
+| Transformations | Werewolf and Vampire Lord perk trees completed before final cure; final character is mortal, not a werewolf and not a vampire. |
+| Master Criminal | `HS-TROPHY-MASTER-CRIMINAL` was reloaded after the trophy branch; final continuity has no deliberate all-holds bounty state. |
+
+3. Confirm the final progression state:
+
+| Surface | Final check |
+| --- | --- |
+| Level and perks | Character level is 252 or higher; all 251 normal perk ranks are assigned. |
+| Skills | All 18 skills are restored to 100 after the final Legendary reset. |
+| Master spells | All five College master ritual quests are complete and the master spell outcomes from the books/spells section are learned. |
+| Black Book powers | The active practical defaults are Dragonborn Force, Companion's Insight, Secret of Arcana, Mora's Boon, Seeker of Sorcery, and Secret Servant. |
+| Trophies and counters | `Legend`, `The Ebony Warrior`, `Master Criminal`, `Reader`, `Golden Touch`, `Delver`, `Explorer`, `Oblivion Walker`, `One with the Shadows`, `Dragonrider`, and all other trophy counters recorded by the route are checked against the save's stats and quest log. Dragonrider still has the unresolved post-Sahrotaar note below until four safe rides are routed. |
+| Properties and services | Breezehome, Honeyside, Vlindrel Hall, Hjerim, Proudspire Manor, Severin Manor, Tundra Homestead, Myrwatch, Shadowfoot Sanctum, Gallows Hall, Goldenhills Plantation, Hendraheim, Bloodchill Manor, Dead Man's Dread, Nchuanthumz, Lakeview Manor, Windstad Manor, and Heljarchen Hall are owned or confirmed according to the homes section. |
+| Household, pets, and mounts | Ysolda, Lucia, and Sofie are at Tundra Homestead; Hearthfire stewards, bards, carriage drivers, livestock, farmhands, pets, creature followers, wild horses, unique mounts, and horse armor match the homes section audits. |
+
+4. Confirm the preserved unique-item policy. Do not disenchant unique items merely for effects. In particular, preserve the Gloves of the Pugilist, Steel Battleaxe of Fiery Souls, Poacher's Axe, Notched Pickaxe, Shield of Solitude, Gauldur Blackblade, Dragonbane, the Nightingale rewards, the Daedric artifacts, the Civil War Champions equipment, the Dragonborn masks and Miraak gear, Konahrik, the Deathbrand set, the Blackguard set, Windshear, Keening, Hoarfrost, Frost, Shadowmere, Arvak, and all AE reward uniques that were routed earlier. Briarheart Geis remains outside the route because the enchantment is not obtainable through normal official PS4 AE play.
+5. Confirm the learned-effect and crafting surfaces from the crafting section: all 54 learnable enchantments named there are learned from disposable sources, Artificer is complete from a disposable enchanted item, all practical crafting systems named there have their selected output, all routed merchant investments are completed behind Speech 70 and Investor, and all alchemy effects are learned except the two Spell Knight heart route-resolution rows below.
+6. Confirm the book, spell, and document surfaces from the books section: all 90 skill-book titles have been read under Scholar's Insight, Reader is recorded, all seven Black Books are handled, all fixed and vendor spell tomes named there are learned, Oghma Infinium was used only in the accepted late skill-gap window, and route-critical quest documents are stored or no longer needed by active quests.
+7. Confirm the finite collectible surfaces already closed by name: Stones of Barenziah and Crown of Barenziah, dragon claws, Treasure Maps I through XI plus the additional route-tracked treasure maps, bugs in jars, base-game dragon priest masks plus Konahrik, Dawnguard unique sets, Dragonborn unique sets, East Empire Company Pendants, Kagrumez Resonance Gems, Aetherium Shards, Paragons, Unknown Books and translations, and the route's named misc unique items. The Fishing species set and Balbus's Fork remain open in the route-resolution notes below.
+8. Confirm these route-reference entries by their route treatment. They are not separate detours; follow the named route placement or route-resolution state.
+
+| Surface | Guide treatment |
+| --- | --- |
+| `The Words of Power` | Arngeir word-wall guidance remains available on main continuity; word-wall collection is handled by the routed wall route, not by a separate radiant chase. |
+| `Skaal Village Dialogue` | Morwen's Bera Necklace favor is accepted before the Falkreath handoff, delivered to Runil, and turned in on the next Skaal Village return. |
+| `Giant's Grove` | Cleared as part of `The Cursed Tribe` after Largashbur and Fallowstone Cave. |
+| `Sundered Towers` | Handled on the Red Eagle/Rebel's Cairn path when the Reach redoubt route sends you through Sundered Towers. |
+| `Gallows Hall` | Entered and unlocked during `Dreams of the Dead`; storage use waits until ownership is confirmed. |
+| `Frykte Peak` | Confirm the marker was discovered during the Skaal north Solstheim travel/counter surface; treat it as an Explorer/discovery marker only, not a Delver clear. |
+| `Hvitkald Peak` | Confirm the marker was discovered during the Raven Rock west Solstheim travel/counter surface; treat it as an Explorer/discovery marker only, not a Delver clear. |
+| `Mortrag Peak` | Confirm the marker was discovered during the Thirsk-central Solstheim travel/counter surface; treat it as an Explorer/discovery marker only, not a Delver clear. |
+| `Japhet's Folly` | Confirm the marker was discovered on the Winterhold coast location-counter surface; treat it as an Explorer/discovery marker only, not a Delver clear. |
+| `Kolskeggr Mine` | Confirm the marker was discovered during the Markarth/Reach road surface; this table handles the location marker, while quest or favor state is handled by its named route row. |
+| `Reach Imperial Camp` | Confirm the marker was discovered during Imperial Civil War or Reach support travel; treat it as an Explorer/discovery marker only. |
+| `Solitude Military Camp` | Confirm the marker was discovered during Imperial Civil War or Haafingar support travel; treat it as an Explorer/discovery marker only. |
+| `Klimmek's House` | Keep this as the Shroud Hearth Barrow secondary-marker caveat; do not route it as an independent discovery, clear, or Delver objective. |
+| `Goldenhills Farm Bunkhouse` | Confirm this only as a Goldenhills Plantation sublocation tied to the farm/property route; do not treat it as an independent discovery or Delver objective. |
+| `Mythic Dawn Camp` | Visited during `The Cause`; Excavation Leader's Journal is read and taken there. |
+| `Nchuanthumz` | Entered and restored during `The Sanctuary and the Manufactory` home route. |
+| `Rielle` | Entered during `The Cause` after the Rielle hard save; Janus, Norion, shard, journal, and Welkynd Stone handling is done there. |
+| `The Guardian Vault` | Kept as an open route-resolution item; do not enter casually until Dawnfang/Bloodthirst timing is resolved. |
+| `Blackbone Isle Grotto` | Entered on the way to board Dead Man's Dread during `The Restless`. |
+| `Dead Man's Dread` | Boarded and claimed during `The Restless`; ship-map travel remains one-way only. |
+| `Solitude Sewers` | Entered for `Restoring Order`; Thoron, Sword of Jyggalag, Green Butterfly in a Jar, and sewer documents are handled there. |
+
+9. Keep this book/document reference inside the guide. These are not extra detours; each row names the exact title and the route treatment for staged, support, or route-resolution book rows that are easy to miss during normal quest prose.
+
+| Book or document | Guide treatment |
+| --- | --- |
+| `Wind and Sand` | Do not acquire the book or start the quest during the Tel Mithryn/Nchardak pass; hold it with Neloth's later `Old Friends`, `Experimental Subject (B)`, and target-sensitive radiant handling. |
+| `Admonition Against Ebony` | Do not acquire it on the first Whiterun day; keep it with the unresolved `The Whispering Door` and Ebony Blade route. |
+| `Letter from Quintus Navale` | Do not chase the courier letter during the first White Phial route; it belongs with `Repairing the Phial` after the main-quest prerequisite is active. |
+| `Letter from Septimus Signus` | Do not wait for or route this courier letter; the guide starts `Discerning the Transmundane` directly through Septimus after the route is already past the letter's useful level state. |
+| `Runil's Journal` | Do not manipulate Runil's random target; retrieve the journal only when the route gives a target-sensitive isolated assignment. |
+| `Suvaris Atheron's Logbook` | Leave it for `Rise in the East`; do not take it during the Dark Brotherhood/Nilsine Shatter-Shield visit. |
+| `Aesrael's Journal`; `The Crimson Dirks, v7` | Keep both with the later Elven Hunter/`Once A Hunter` route; do not acquire them during the Hircine branch or the Falkreath jail warning pass. |
+| `Beldama Witch's Note`; `Forsworn Shaman's Note`; `Knight Captain's Orders`; `Crypt of the Heart - Draft` | Keep all four with the Spell Knight/`Crypt of the Heart` route; do not acquire them merely because the Karthspire route passes nearby. |
+| `Business Ledger Copy` | Keep it with Bow of Shadows/`In the Shadows`; do not take it from Arcadia's Cauldron during the first Whiterun errands. |
+| `Certificate of Authenticity` | Keep it with the Nordic Jewelry quest and first Nordic jewelry purchase; do not treat the first Whiterun visit as its acquisition window. |
+| `Death of a Crimson Dirk` | Keep it with Daedric Plate/`Beyond the Grave`; do not read or take it from Dragonsreach Dungeon during the opening Whiterun route. |
+| `Fisherman's Journal`; `Line and Lure` | Keep these with the controlled Fishing route, including Bronze Water Cave and `Beneath Bronze Waters`; do not acquire them during the Nightingale or general cave routes. |
+| `M'Sharra's Diary` | Keep it with Silver Armor/`When the Cat's Away`; do not read or take it from The Bannered Mare during first-city service. |
+| `Seedy Guard's Note` | Keep it with Sunder and Wraithguard/`Legends Lost`; do not start that Creation from the lost caravan near Loreius Farm during the Cicero approach. |
+| `Dwarven Crown Control` | Handle it only during Runoff Caverns and `The Dwarven Crown`; read/take it with the crown route, not as a separate book detour. |
+| `Log of Elberon the Great, Vol 2`; `Log of Elberon the Great, Vol 3`; `Log of Elberon the Great, Vol 4`; `Log of Elberon the Great, Vol 5` | Handle the four logs during the corresponding `Forgotten Seasons` seasonal-wing route inside Runoff Caverns. |
+| `Sellonus's Confession`; `Sellonus's Journal Vol. 1`; `Sellonus's Journal Vol. 2`; `Sellonus's Journal Vol. 3` | Keep all four with the unresolved Guardian Vault/`A Soul Divided` bundle; do not enter the vault casually from the Ratway route. |
+
+10. Keep this merchant service reference inside the guide. These merchants are not additional investment targets unless the investment circuit names them; use them only for named route errands, normal buying or selling during an existing stop, inn services, fences, spell tomes, or Master Trader checks.
+
+| Region or stop | Merchant | Service surface |
+| --- | --- | --- |
+| Dawnstar | `Madena` | The White Hall; Spells; Master Trader: Yes |
+| Dawnstar | `Thoring` | Windpeak Inn; Innkeeper; Master Trader: No |
+| Dawnstar - Nightgate Inn | `Hadring` | Nightgate Inn; Innkeeper; Master Trader: No |
+| Falkreath | `Valga Vinicia` | Dead Man's Drink; Innkeeper; Master Trader: No |
+| Falkreath | `Zaria` | Grave Concoctions; Apothecary; Master Trader: Yes |
+| Falkreath | `Lod` | Lod's House; Blacksmith; Master Trader: Yes |
+| Falkreath | `Babette` | The Dark Brotherhood Sanctuary; Apothecary (also buys Tools); Master Trader: Yes |
+| Markarth | `Ghorza gra-Bagol` | At the forge near The Hag's Cure or in Understone Keep; Blacksmith; Master Trader: Yes |
+| Markarth | `Endon` | Endon's House; Fence; Master Trader: Yes |
+| Markarth | `Anton Virane` | In Understone Keep; Innkeeper; Master Trader: No |
+| Markarth | `Hogni Red-Arm` | Marketplace Stall; Innkeeper; Master Trader: No |
+| Markarth | `Kerah` | Marketplace Stall; Jeweler; Master Trader: No |
+| Markarth | `Kleppr` | Silver-Blood Inn; Innkeeper; Master Trader: No |
+| Markarth - Dushnikh Yal | `Gharol` | at Burguk's Longhouse; Blacksmith; Master Trader: Yes |
+| Markarth - Dushnikh Yal | `Murbul` | at Burguk's Longhouse; Apothecary; Master Trader: Yes |
+| Markarth - Mor Khazgur | `Sharamph` | at Larak's Longhouse; Apothecary; Master Trader: Yes |
+| Markarth - Mor Khazgur | `Shuftharz` | at Larak's Longhouse; Blacksmith; Master Trader: Yes |
+| Markarth - Old Hroldan Inn | `Eydis` | Old Hroldan Inn; Innkeeper; Master Trader: No |
+| Morthal | `Falion` | Falion's House; Spells; sells 1 Black Soul Gem; Master Trader: Yes |
+| Morthal | `Jonna` | Moorside Inn; Innkeeper; Master Trader: No |
+| Most Imperial camps | `Imperial Quartermaster` | Blacksmith; Master Trader: No |
+| Most Stormcloak camps | `Stormcloak Quartermaster` | Blacksmith; Master Trader: No |
+| Randomly anywhere in the wilderness | `Hunter` | Meat, Hides; Master Trader: No |
+| Randomly anywhere in the wilderness | `Skooma Dealer` | Moon Sugar, Skooma, Sleeping Tree Sap; Master Trader: No |
+| Randomly anywhere in the wilderness (being attacked by bandits or Forsworn) | `Peddler` | General Goods; Master Trader: No |
+| Riften | `Ungrien` | Black-Briar Meadery; Innkeeper; Master Trader: No |
+| Riften | `Brand-Shei` | Marketplace Stall; General; Master Trader: Yes |
+| Riften | `Grelka` | Marketplace Stall; General; Master Trader: Yes |
+| Riften | `Madesi` | Marketplace Stall; Jeweler; Master Trader: No |
+| Riften | `Marise Aravel` | Marketplace Stall; General; Master Trader: No |
+| Riften | `Keerava` | The Bee and Barb; Innkeeper; Master Trader: No |
+| Riften | `Arnskar Ember-Master` | The Ragged Flagon; Blacksmith; Master Trader: Yes |
+| Riften | `Herluin Lothaire` | The Ragged Flagon; Apothecary; Master Trader: Yes |
+| Riften | `Syndus` | The Ragged Flagon; Blacksmith; Master Trader: Yes |
+| Riften | `Tonilia` | The Ragged Flagon; Fence; Master Trader: Yes |
+| Riften | `Vanryth Gatharian` | The Ragged Flagon; Blacksmith; Master Trader: Yes |
+| Riften | `Vekel the Man` | The Ragged Flagon; Innkeeper; Master Trader: No |
+| Riften - Fort Dawnguard | `Gunmar` | Blacksmith; Master Trader: No |
+| Riften - Fort Dawnguard | `Sorine Jurard` | General; Master Trader: No |
+| Riften - Ivarstead | `Wilhelm` | Vilemyr Inn; Innkeeper; Master Trader: No |
+| Riften - Shor's Stone | `Filnjar` | Filnjar's House; Blacksmith; Master Trader: Yes |
+| Solitude | `Angeline Morrard` | Angeline's Aromatics; Apothecary; Master Trader: Yes |
+| Solitude | `Fihada` | Fletcher; Armor, Arrows, Tools, Weapons; Master Trader: Yes |
+| Solitude | `Addvar` | Marketplace Stall; Innkeeper; Master Trader: Yes |
+| Solitude | `Evette San` | Marketplace Stall; Innkeeper; Master Trader: Yes |
+| Solitude | `Jala` | Marketplace Stall; Innkeeper; Master Trader: Yes |
+| Solitude | `Corpulus Vinius` | The Winking Skeever; Innkeeper; Master Trader: Yes |
+| Solitude | `Gulum-Ei` | The Winking Skeever; Fence; Master Trader: Yes |
+| Solitude - Dragon Bridge | `Faida` | Four Shields Tavern; Innkeeper; Master Trader: No |
+| Solitude - Volkihar Keep | `Feran Sadri` | Apothecary; Master Trader: No |
+| Solitude - Volkihar Keep | `Hestla` | Blacksmith; Master Trader: No |
+| Solitude - Volkihar Keep | `Ronthil` | General; Master Trader: No |
+| Solstheim - Bujold's Retreat | `Halbarn Iron-Fur` | Bujold's Retreat / Thirsk Mead Hall; Blacksmith; Master Trader: Yes |
+| Solstheim - Ramshackle Trading Post | `Falas Selvayn` | Ramshackle Trading Post; General; Master Trader: Yes |
+| Solstheim - Raven Rock | `Fethis Alor` | Alor House; General; Master Trader: Yes |
+| Solstheim - Raven Rock | `Garyn Ienth` | Ienth Farm; Innkeeper; Master Trader: No |
+| Solstheim - Raven Rock | `Milore Ienth` | Ienth Farm; Apothecary; Master Trader: Yes |
+| Solstheim - Raven Rock | `Geldis Sadri` | The Retching Netch; Innkeeper; Master Trader: No |
+| Solstheim - Skaal Village | `Baldor Iron-Shaper` | Baldor Iron-Shaper's House; Blacksmith; Master Trader: source-flagged |
+| Solstheim - Skaal Village | `Edla` | Edla's House; Apothecary; Master Trader: No |
+| Solstheim - Tel Mithryn | `Neloth` | Tel Mithryn; Staves & Spells; Master Trader: Yes |
+| Solstheim - Tel Mithryn | `Revus Sarvani` | Tel Mithryn; General; Master Trader: No |
+| Solstheim - Tel Mithryn | `Talvas Fathryon` | Tel Mithryn; Spells; Master Trader: Yes |
+| Solstheim - Tel Mithryn | `Elynea Mothren` | Tel Mithryn Apothecary; Apothecary; Master Trader: Yes |
+| Traveling - Dawnstar or Riften | `Zaynabi` | Khajiit traders; Fence; Master Trader: Yes |
+| Traveling - Markarth or Whiterun | `Atahbah` | Khajiit traders; Fence; Master Trader: Yes |
+| Traveling - Solitude or Windhelm | `Ma'jhad` | Khajiit traders; Fence; Master Trader: Yes |
+| Whiterun | `Mallus Maccius` | Honningbrew Meadery; Fence; Master Trader: Yes |
+| Whiterun | `Sabjorn` | Honningbrew Meadery; Innkeeper; Master Trader: No |
+| Whiterun | `Anoriath` | Marketplace Stall; Innkeeper; Master Trader: Yes |
+| Whiterun | `Carlotta Valentia` | Marketplace Stall; Innkeeper; Master Trader: Yes |
+| Whiterun | `Fralia Gray-Mane` | Marketplace Stall; Jeweler; Master Trader: No |
+| Whiterun | `Eorlund Gray-Mane` | Skyforge; Blacksmith; Master Trader: Yes |
+| Whiterun | `Hulda` | The Bannered Mare; Innkeeper; Master Trader: Yes |
+| Whiterun - Riverwood | `Orgnar` | Sleeping Giant Inn; Innkeeper (also buys Ingredients); Master Trader: No |
+| Whiterun - Rorikstead | `Mralki` | Frostfruit Inn; Innkeeper; Master Trader: No |
+| Windhelm | `Elda Early-Dawn` | Candlehearth Hall; Innkeeper; Master Trader: Yes |
+| Windhelm | `Aval Atheron` | Marketplace Stall; General; Master Trader: Yes |
+| Windhelm | `Hillevi Cruel-Sea` | Marketplace Stall; Innkeeper; Master Trader: Yes |
+| Windhelm | `Niranye` | Marketplace Stall; General; Master Trader: Yes |
+| Windhelm | `Ambarys Rendar` | New Gnisis Cornerclub; Innkeeper; Master Trader: Yes |
+| Windhelm | `Niranye` | Niranye's House; Fence; Master Trader: Yes |
+| Windhelm - Kynesgrove | `Iddra` | Braidwood Inn; Innkeeper; Master Trader: No |
+| Windhelm - Narzulbur | `Bolar` | at Mauhulakh's Longhouse; Apothecary; Master Trader: Yes |
+| Windhelm - Narzulbur | `Dushnamub` | at Mauhulakh's Longhouse; Blacksmith; Master Trader: Yes |
+| Winterhold | `Dagur` | The Frozen Hearth; Innkeeper; Master Trader: Yes |
+| Winterhold | `Nelacar` | The Frozen Hearth; Spells; Master Trader: Yes |
+| Winterhold - Mage's College | `Enthir` | Hall of Attainment; General; Master Trader: Yes |
+| Winterhold - Mage's College | `Enthir` | Hall of Attainment; Fence; Master Trader: Yes |
+| Winterhold - Mage's College | `Tolfdir` | Hall of Attainment; Spells (Alteration); Master Trader: Yes |
+| Winterhold - Mage's College | `Colette Marence` | Hall of Countenance; Spells (Restoration); Master Trader: Yes |
+| Winterhold - Mage's College | `Drevis Neloren` | Hall of Countenance; Spells (Illusion); Master Trader: Yes |
+| Winterhold - Mage's College | `Faralda` | Hall of Countenance; Spells (Destruction); Master Trader: Yes |
+| Winterhold - Mage's College | `Phinis Gestor` | Hall of Countenance; Spells (Conjuration); Master Trader: Yes |
+| Winterhold - Mage's College | `Urag gro-Shub` | The Arcanaeum; Books; Master Trader: Yes |
+
+10. Make `HARD SAVE: HS-FINAL-CLEAN-CONTINUITY` after the final state checks pass. This is the accepted clean end-state save for later cross-cutting QA, not a branch save.
+
+Open route-resolution items for the next coverage work:
+
+1. NEEDS ROUTE RESOLUTION: OBJ-000477 Dragonrider Trophy Set - exact missing fact: the guide still needs four named safe ride attempts on ordinary rideable dragons after full Bend Will, with hard-save points and post-dismount state checks. Inputs checked: SN-000033, SN-000105, SN-000111, SN-000127, SN-000192, `data/constraints/bug-prone-quests.md`, `data/checklist-mapping/counter-coverage-plan.md`, and the current Sahrotaar route step.
+2. NEEDS ROUTE RESOLUTION: OBJ-001893 and OBJ-001894 through OBJ-001918 Fishing Species and Special Catches - exact missing fact: each fish still needs a player-facing catch route with fishing spot, biome, weather, time, rod, active quest state, and ingredient-preservation policy. Inputs checked: SN-000064, SN-000198, SN-000199, `data/objectives/objectives.csv`, `data/checklist-mapping/coverage-matrix.csv`, `data/route-planning/objective-route-index.csv`, and `data/skills/alchemy-effect-catalog.csv`.
+3. NEEDS ROUTE RESOLUTION: OBJ-001325 Note from Mogrul - exact missing fact: the project still lacks a deterministic normal-play pickup path for the note itself after the Raven Rock debt state. Inputs checked: SN-000187, SN-000199, `data/books/book-document-locations.csv`, and the existing `A New Debt` route notes.
+4. NEEDS ROUTE RESOLUTION: ITEM-001147 Potion of Blood - exact missing fact: the Bittercup item table lists the item, but the current fetched quest and place pages do not identify a deterministic normal-play pickup. Inputs checked: SN-000191, SN-000193, SN-000204, and `data/items/ae-item-members.csv`.
+5. NEEDS ROUTE RESOLUTION: ITEM-001156 Ironwood Soup Elixir - exact missing fact: the Bittercup item table lists the item, but the current fetched quest and place pages do not identify a deterministic normal-play pickup distinct from the routed Ironwood Soup branch reward. Inputs checked: SN-000191, SN-000193, SN-000204, and `data/items/ae-item-members.csv`.
+6. NEEDS ROUTE RESOLUTION: ITEM-001157 Mysterious Potion - exact missing fact: the Bittercup item table lists the item, but the current fetched quest and place pages do not identify a deterministic normal-play pickup. Inputs checked: SN-000191, SN-000193, SN-000204, and `data/items/ae-item-members.csv`.
+7. NEEDS ROUTE RESOLUTION: OBJ-002712 Discover Alchemy Effects: Corrupted Human Heart - exact missing fact: whether the exact Spell Knight Armor heart variant must be consumed even though the source pages say it shares Human Heart and Mort Flesh effects and can be transformed into Simon Rodayne's Heart. Inputs checked: SN-000084, SN-000169, SN-000200, and `data/skills/alchemy-effect-catalog.csv`.
+8. NEEDS ROUTE RESOLUTION: OBJ-002716 Discover Alchemy Effects: Simon Rodayne's Heart - exact missing fact: whether the exact purified Spell Knight Armor heart variant must be consumed even though the source pages say it shares Human Heart and Mort Flesh effects and derives from the same one-time heart as the corrupted version. Inputs checked: SN-000084, SN-000169, SN-000200, and `data/skills/alchemy-effect-catalog.csv`.
+9. NEEDS ROUTE RESOLUTION: OBJ-001744 Unique Item: Balbus's Fork and CHK-COLLECTIBLE-ITEMS-2582 Balbus's Fork - exact missing fact: the route needs either a deterministic Balbus encounter path after `Recipe for Disaster` with Gourmet's Writ of Passage, or an approved random-encounter policy. Inputs checked: SN-000160, SN-000198, `data/objectives/objectives.csv`, `data/checklist-mapping/coverage-matrix.csv`, and `data/route-planning/objective-route-index.csv`.
+10. NEEDS ROUTE RESOLUTION: TB-035-COV-001R quest repair list - exact missing fact: the Objective ID audit found the quest rows below without a completed player-facing route or a sufficient internal duplicate/exclusion record. Inputs checked for the batch: `data/guide-coverage/main-guide-v1-objective-id-audit.csv`, `data/objectives/objectives.csv`, `data/guide-coverage/main-guide-v1-coverage.csv`, the current `main-guide-v1.md`, and the source notes named in the table.
+
+| Objective ID | Objective | Exact missing fact | Inputs checked |
+| --- | --- | --- | --- |
+| OBJ-000142 | Reparations | Needs a validated Thieves Guild repair-quest policy: trigger state, whether intentional route coverage is appropriate without harming guild members, payment/reinstatement steps, and final inclusion or exclusion. | SN-000013; SN-000112; current Thieves Guild route coverage |
+| OBJ-000553 | Missing Merchant | Needs an individual quest-page route for Alternative Armors - Daedric Mail: start trigger, target path, full reward pickup, preservation state, and natural insertion point. | SN-000036; objective row; current guide and coverage audit |
+| OBJ-000558 | Mightier than the Sword | Needs an individual quest-page route for Alternative Armors - Dwarven Plate: start trigger, target path, full reward pickup, preservation state, and natural insertion point. | SN-000036; objective row; current guide and coverage audit |
+| OBJ-000559 | Heart of Crimson | Needs an individual quest-page route for Alternative Armors - Ebony Plate: start trigger, Tyra Blood-Fire document handling, full reward pickup, preservation state, and natural insertion point. | SN-000036; objective row; current guide and coverage audit |
+| OBJ-000562 | Double-Edged | Needs an individual quest-page route for Alternative Armors - Leather: start trigger, Lost Echo/Cliffside path, full reward pickup, preservation state, and natural insertion point. | SN-000036; objective row; current guide and coverage audit |
+| OBJ-000571 | The Arms of Chaos | Needs an individual quest-page route for the Arms of Chaos chain: start trigger, staff/sigil/reward handling, preservation state, and natural insertion point. | SN-000036; objective row; current guide and coverage audit |
+| OBJ-000584 | Relics of the Crusader | Needs an individual quest-page route for Divine Crusader relics: Pilgrim's Path separation, shrine/infamy handling, full relic pickup, and final preservation state. | SN-000036; objective row; current guide and coverage audit |
+| OBJ-000591 | Clear-Headed | Needs full Fishing quest routing: quest start, required catch or item, fishing spot/biome/weather/time/rod requirements, turn-in, and reward/checklist state. | SN-000036; existing Fishing species route-resolution note; current guide and coverage audit |
+| OBJ-000594 | Crustacean Extermination | Needs full Fishing quest routing: quest start, required catch or item, fishing spot/biome/weather/time/rod requirements, turn-in, and reward/checklist state. | SN-000036; existing Fishing species route-resolution note; current guide and coverage audit |
+| OBJ-000595 | Darkest Depths | Needs full Fishing quest routing: quest start, required catch or item, fishing spot/biome/weather/time/rod requirements, turn-in, and reward/checklist state. | SN-000036; existing Fishing species route-resolution note; current guide and coverage audit |
+| OBJ-000596 | End of the Line | Needs full Fishing quest routing: quest start, required catch or item, fishing spot/biome/weather/time/rod requirements, turn-in, and reward/checklist state. | SN-000036; existing Fishing species route-resolution note; current guide and coverage audit |
+| OBJ-000597 | Fishing Legend | Needs full Fishing quest routing: quest start, required catch or item, fishing spot/biome/weather/time/rod requirements, turn-in, and reward/checklist state. | SN-000036; existing Fishing species route-resolution note; current guide and coverage audit |
+| OBJ-000598 | Frozen Fish | Needs full Fishing quest routing: quest start, required catch or item, fishing spot/biome/weather/time/rod requirements, turn-in, and reward/checklist state. | SN-000036; existing Fishing species route-resolution note; current guide and coverage audit |
+| OBJ-000599 | Further Study | Needs full Fishing quest routing: quest start, required catch or item, fishing spot/biome/weather/time/rod requirements, turn-in, and reward/checklist state. | SN-000036; existing Fishing species route-resolution note; current guide and coverage audit |
+| OBJ-000600 | Heart of Gold | Needs full Fishing quest routing: quest start, required catch or item, fishing spot/biome/weather/time/rod requirements, turn-in, and reward/checklist state. | SN-000036; existing Fishing species route-resolution note; current guide and coverage audit |
+| OBJ-000602 | No Contest | Needs full Fishing quest routing: quest start, required catch or item, fishing spot/biome/weather/time/rod requirements, turn-in, and reward/checklist state. | SN-000036; existing Fishing species route-resolution note; current guide and coverage audit |
+| OBJ-000603 | Private Lessons | Needs full Fishing quest routing: quest start, required catch or item, fishing spot/biome/weather/time/rod requirements, turn-in, and reward/checklist state. | SN-000036; existing Fishing species route-resolution note; current guide and coverage audit |
+| OBJ-000604 | Rubbish Retrieval | Needs full Fishing quest routing: quest start, required catch or item, fishing spot/biome/weather/time/rod requirements, turn-in, and reward/checklist state. | SN-000036; existing Fishing species route-resolution note; current guide and coverage audit |
+| OBJ-000605 | Spirits Away | Needs full Fishing quest routing: quest start, required catch or item, fishing spot/biome/weather/time/rod requirements, turn-in, and reward/checklist state. | SN-000036; existing Fishing species route-resolution note; current guide and coverage audit |
+| OBJ-000606 | Stocking Up | Needs full Fishing quest routing: quest start, required catch or item, fishing spot/biome/weather/time/rod requirements, turn-in, and reward/checklist state. | SN-000036; existing Fishing species route-resolution note; current guide and coverage audit |
+| OBJ-000607 | The Ultimate Feast | Needs full Fishing quest routing: quest start, required catch or item, fishing spot/biome/weather/time/rod requirements, turn-in, and reward/checklist state. | SN-000036; existing Fishing species route-resolution note; current guide and coverage audit |
+| OBJ-000608 | Tusked Terror | Needs full Fishing quest routing: quest start, required catch or item, fishing spot/biome/weather/time/rod requirements, turn-in, and reward/checklist state. | SN-000036; existing Fishing species route-resolution note; current guide and coverage audit |
+| OBJ-000609 | Two of a Kind | Needs full Fishing quest routing: quest start, required catch or item, fishing spot/biome/weather/time/rod requirements, turn-in, and reward/checklist state. | SN-000036; existing Fishing species route-resolution note; current guide and coverage audit |
+| OBJ-000610 | Wave Breaker | Needs full Fishing quest routing: quest start, required catch or item, fishing spot/biome/weather/time/rod requirements, turn-in, and reward/checklist state. | SN-000036; existing Fishing species route-resolution note; current guide and coverage audit |
+| OBJ-000622 | A Matter of Pride | Needs an individual quest-page route for Goldbrand: Eranya/Sivdur setup, dungeon path, reward pickup, preservation state, and natural insertion point. | SN-000036; current staged Goldbrand coverage rows; current guide and coverage audit |
+| OBJ-000623 | Blood in the Water | Needs an individual quest-page route for Headman's Cleaver: start trigger, target path, reward pickup, preservation state, and natural insertion point. | SN-000036; objective row; current guide and coverage audit |
+| OBJ-000638 | My Pet Elytra (Dementia) | Needs exact Saints & Seducers pet routing: cage/camp state, nymph acceptance, teleport spell, owned-home send/dismissal state, and camp interaction timing. | SN-000036; current Saints/Seducers route coverage; current guide and coverage audit |
+| OBJ-000639 | My Pet Elytra (Mania) | Needs exact Saints & Seducers pet routing: cage/camp state, nymph acceptance, teleport spell, owned-home send/dismissal state, and camp interaction timing. | SN-000036; current Saints/Seducers route coverage; current guide and coverage audit |
+| OBJ-000645 | Through a Glass, Darkly | Needs an individual quest-page route for Shadowrend: start trigger, combat/choice path, weapon-form handling, preservation state, and natural insertion point. | SN-000036; objective row; current guide and coverage audit |
+| OBJ-000654 | The Gray Cowl of Nocturnal | Needs an individual quest-page route for The Gray Cowl Returns: start trigger, dungeon path, reward/deed/key handling, preservation state, and natural insertion point. | SN-000036; objective row; current guide and coverage audit |
+11. NEEDS ROUTE RESOLUTION: TB-035-COV-001R non-quest repair list - exact missing fact: the Objective ID audit found the non-quest rows below without a completed player-facing route or a sufficient internal duplicate/exclusion record. Inputs checked for the batch: `data/guide-coverage/main-guide-v1-objective-id-audit.csv`, `data/objectives/objectives.csv`, `data/guide-coverage/main-guide-v1-coverage.csv`, the current `main-guide-v1.md`, and the source notes named in the table.
+
+| Objective ID | Objective | Exact missing fact | Inputs checked |
+| --- | --- | --- | --- |
+| OBJ-000269 | Gharol's Message | Needs a source-checked Orc stronghold delivery route: start speaker, recipient, Blood-Kin/stronghold access implications, Hero of the People handling, and natural travel insertion point. | SN-000024; SN-000022; current guide and coverage audit |
+| OBJ-000280 | Buy Dwarven artifact | Needs a source-checked Markarth acquisition-favor route: giver, valid artifact target, purchase source, cost/state handling, and safe turn-in timing. | SN-000024; SN-000022; current guide and coverage audit |
+| OBJ-000282 | Skilled Apprenticeship | Needs a source-checked Markarth retrieval-favor route: giver, requested book/item target, ownership or theft handling, checklist/book interaction, and safe turn-in timing. | SN-000024; SN-000022; current guide and coverage audit |
+| OBJ-000332 | Bounty: Bandit Boss | Needs one representative bounty route with giver, target hold, active-marker policy, named target handling, turn-in, and no save-rerolling assumption. | SN-000025; SN-000022; current bounty and counter coverage |
+| OBJ-000333 | Bounty: Dragon | Needs one representative bounty route with giver, dragon target, dragon soul handling, turn-in, and separation from the level-78 Legendary Dragon route. | SN-000025; SN-000022; current bounty and counter coverage |
+| OBJ-000334 | Bounty: Forsworn | Needs one representative bounty route with giver, target hold, active-marker policy, target-camp overlap rules, and turn-in. | SN-000025; SN-000022; current bounty and counter coverage |
+| OBJ-000335 | Bounty: Giant | Needs one representative bounty route with giver, level-safe giant target, camp approach, turn-in, and survival/combat readiness state. | SN-000025; SN-000022; current bounty and counter coverage |
+| OBJ-001110 | Bounty (bandits) | Needs the source-listed bounty document handling tied to the representative Bandit Boss bounty: notice source, read/take policy, active target, and turn-in state. | SN-000054; SN-000025; current bounty and counter coverage |
+| OBJ-001111 | Bounty (dragon) | Needs the source-listed bounty document handling tied to the representative Dragon bounty: notice source, read/take policy, active target, dragon-soul state, and turn-in state. | SN-000054; SN-000025; current bounty and counter coverage |
+| OBJ-001112 | Bounty (forsworn) | Needs the source-listed bounty document handling tied to the representative Forsworn bounty: notice source, read/take policy, active target, and turn-in state. | SN-000054; SN-000025; current bounty and counter coverage |
+| OBJ-001113 | Bounty (giant) | Needs the source-listed bounty document handling tied to the representative Giant bounty: notice source, read/take policy, active target, and turn-in state. | SN-000054; SN-000025; current bounty and counter coverage |
+| OBJ-000345 | Sleeping Tree Cave | Needs a source-checked dungeon-misc route: cave entry timing, note/sap handling, hostile enemy handling, reward or ingredient preservation, and whether it belongs with Whiterun plains travel. | SN-000025; SN-000022; current guide and coverage audit |
+| OBJ-000350 | Enchanting Tutorial | Needs an explicit tutorial policy: chosen giver or station, player-facing action, whether it is still useful after normal enchanting progression, and final inclusion or exclusion. | SN-000025; SN-000022; current crafting/enchanting guide section |
+| OBJ-002756 | Coming of Age | Needs a source-checked non-journal route: Ironbind Barrow timing, Salma/Beem-Ja outcome, dungeon-clear interaction, reward handling, and any save warning. | SN-000089; current location and guide coverage |
+| OBJ-002759 | Rannveig's Fast Non-Journal Quest | Needs a source-checked non-journal route: Rannveig's Fast trap/captive handling, word-wall/location synchronization, reward handling, and any save warning. | SN-000089; current location and guide coverage |
+| OBJ-002415 | Validate AE Location Coverage: The Guardian Vault | Needs exact AE content-location routing: parent quest linkage, entry timing, reason to enter, reward state, and whether it remains staged with Dawnfang/Bloodthirst. | SN-000079; SN-000128; current guide and coverage audit |
+| OBJ-002423 | Validate AE Location Coverage: Sightless Vault | Needs exact AE content-location routing: parent quest linkage, entry timing, reason to enter, reward state, and whether it remains staged with its Creation quest. | SN-000079; SN-000128; current guide and coverage audit |
+| OBJ-002773 | Thief Trophy Set | Needs an explicit trophy route: lockpicking and pickpocket counter targets, General Stats check cadence, bounty-safe method, and separation from normal skill/perk completion. | SN-000103; current all-perks and thief-skill guide sections |
+12. NEEDS ROUTE RESOLUTION: TB-035-COV-001R crafting and AE item-set repair list - exact missing fact: the Objective ID audit found the item-set rows below without a completed player-facing route for every obtainable member, an explicit member-level exclusion, or a sufficient aggregate coverage record. Inputs checked for the batch: `data/guide-coverage/main-guide-v1-objective-id-audit.csv`, `data/objectives/objectives.csv`, `data/items/ae-item-members.csv`, `data/guide-coverage/main-guide-v1-coverage.csv`, the current `main-guide-v1.md`, and the source notes named in the table.
+
+| Objective ID | Objective | Exact missing fact | Inputs checked |
+| --- | --- | --- | --- |
+| OBJ-000696 | Staves Creation Staff Set | Needs a route policy for the full Staves Creation staff set: which obtainable staves must be crafted, bought, looted, or explicitly excluded, plus material and staff-enchanter timing. | SN-000041; SN-000069; AE item-member table; current crafting guide section |
+| OBJ-000697 | Rare Curios Ammunition, Ingredient, and Curio Set | Needs a member-level route for non-alchemy Rare Curios items still absent from the guide, including arrows, bolts, poisoned apples, Flawed Varla Stone, and Welkynd Stone handling. | SN-000042; SN-000070; AE item-member table; current alchemy guide section |
+| OBJ-000698 | Saints and Seducers Item, Material, and Curio Set | Needs a member-level route for Saints & Seducers armor, weapons, arrows, materials, curios, and explicit exclusions beyond the ingredients and named rewards already listed. | SN-000042; SN-000070; AE item-member table; current Saints/Seducers and alchemy guide sections |
+| OBJ-000703 | Nix-Hound Food and Spell Tome Item Set | Needs exact handling for Nix-Hound Meat and Cooked Nix-Hound Meat, separate from the already routed Nix-Hound pet and Teleport Pet Nix-Hound spell. | SN-000042; SN-000070; AE item-member table; current Tel Mithryn/Nix-Hound guide section |
+| OBJ-000704 | Adventurer's Backpack Equipment Set | Needs a route policy for all obtainable backpack variants: buy/craft source, whether every visual/bedroll variant is required, material needs, and final storage state. | SN-000043; SN-000071; AE item-member table; current crafting guide section |
+| OBJ-000706 | Arcane Archer Ammunition, Spell Tome, and Miscellaneous Item Set | Needs full Arcane Archer member handling for unaccounted arrows and Soul Gem Arrowhead, separate from the already routed Telekinesis, Soul Stealer, Bound Quiver, and Ice Arrow coverage. | SN-000043; SN-000071; AE item-member table; current spell and Kagrumez guide sections |
+| OBJ-000707 | Expanded Crossbow Pack Weapon and Crafting Set | Needs a member-level route for Daedric, Dragonbone, Glass, Imperial, Nordic, Orcish, Silver, and Stalhrim crossbows plus enhanced variants: buy/craft source, material and perk timing, whether every enhanced variant is required, and storage state. | SN-000043; SN-000071; SN-000155; AE item-member table; current Night Hunter and crafting guide sections |
+| OBJ-000708 | Elite Crossbows Weapon and Crafting Set | Needs completion policy for the Enhanced Ebony Crossbow and Enhanced Elven Crossbow after Night Hunter gives the base Ebony and Elven crossbows: exact smithing/crafting source, material and perk timing, and whether the enhanced variants are required on main continuity. | SN-000043; SN-000071; SN-000156; AE item-member table; current Night Hunter and crafting guide sections |
+| OBJ-000710 | Fearsome Fists Brawler Gauntlet Set | Needs a route policy for all brawler gauntlet/bracer variants: buy/craft/loot source, whether duplicate armor-material variants are required, and final preservation or exclusion state. | SN-000043; SN-000071; AE item-member table; current crafting guide section |
+13. NEEDS ROUTE RESOLUTION: TB-035-COV-001R unique-item repair list - exact missing fact: the Objective ID audit found the unique-item rows below without a completed player-facing acquisition and preservation route, a branch-reload route, or an explicit exclusion record. Inputs checked for the batch: `data/guide-coverage/main-guide-v1-objective-id-audit.csv`, `data/objectives/objectives.csv`, `data/items/ae-item-members.csv`, `data/guide-coverage/main-guide-v1-coverage.csv`, the current `main-guide-v1.md`, and the source notes named in the table.
+
+| Objective ID | Objective | Exact missing fact | Inputs checked |
+| --- | --- | --- | --- |
+| OBJ-000713 | Alternative Armors - Daedric Mail Parent Set | Needs member-level acquisition and preservation handling for the Daedric Mail set and Ring of Masser through the associated Creation quest. | SN-000044; SN-000072; AE item-member table; current guide and coverage audit |
+| OBJ-000714 | Alternative Armors - Daedric Plate Parent Set | Needs member-level acquisition and preservation handling for the Daedric Plate armor pieces through the associated Creation quest. | SN-000044; SN-000072; AE item-member table; current guide and coverage audit |
+| OBJ-000718 | Alternative Armors - Dwarven Plate Parent Set | Needs member-level acquisition and preservation handling for the Dwarven Plate armor pieces through `Mightier than the Sword`. | SN-000044; SN-000072; AE item-member table; current guide and coverage audit |
+| OBJ-000719 | Alternative Armors - Ebony Plate Parent Set | Needs member-level acquisition and preservation handling for Ebony Plate armor pieces and Blades Ebony Shield through `Heart of Crimson`, plus explicit handling for the unobtainable Blindfold member. | SN-000044; SN-000072; AE item-member table; current guide and coverage audit |
+| OBJ-000722 | Alternative Armors - Leather Parent Set | Needs member-level acquisition and preservation handling for the Leather Scout armor set through `Double-Edged`. | SN-000044; SN-000072; AE item-member table; current guide and coverage audit |
+| OBJ-000724 | Alternative Armors - Orcish Scaled Parent Set | Needs member-level acquisition and preservation handling for the Orcish Scaled armor set through its Creation quest. | SN-000044; SN-000072; AE item-member table; current guide and coverage audit |
+| OBJ-000725 | Alternative Armors - Silver Parent Set | Needs member-level acquisition and preservation handling for the full Silver armor set; current guide text does not name every member. | SN-000044; SN-000072; AE item-member table; current guide and coverage audit |
+| OBJ-000728 | Divine Crusader Relics Parent Set | Needs a Divine Crusader relic route that separates `The Pilgrim's Path` from Twilight Sepulcher text, names every relic member, handles infamy/shrine state, and stores the rewards. | SN-000045; SN-000073; AE item-member table; current guide and coverage audit |
+| OBJ-000735 | Arms of Chaos Equipment Parent Set | Needs a complete Arms of Chaos route that names the staff/reward members, sigil handling, and preservation state. | SN-000045; SN-000073; AE item-member table; current guide and coverage audit |
+| OBJ-000736 | Chrysamere Unique Weapon | Needs a completed `The Lost Paladin`/Chrysamere route with exact pickup, combat state, and preservation storage. | SN-000045; SN-000073; AE item-member table; current guide and coverage audit |
+| OBJ-000738 | Dead Man's Dread Equipment Parent Set | Needs exact member-level handling for Dead Man's Dread apparel variants and exclusions; current guide names key rewards but not every source-listed member. | SN-000045; SN-000073; AE item-member table; current Dead Man's Dread guide route |
+| OBJ-000743 | Shadowrend Unique Weapon | Needs a completed `Through a Glass, Darkly` route with start trigger, weapon-form handling, reward pickup, and preservation storage. | SN-000045; SN-000073; AE item-member table; current guide and coverage audit |
+| OBJ-000745 | Staff of Sheogorath Unique Staff | Needs a completed `Put a Fork In It` route with Fork of Horripilation, Branch of the Tree of Shades, Ciirta's Eye, crafted staff, and preservation state. | SN-000045; SN-000073; AE item-member table; current guide and coverage audit |
+| OBJ-000747 | Sunder and Wraithguard Artifact Parent Set | Needs a completed `Legends Lost` route with attunement crystal handling, Sunder, Wraithguard, and preservation storage. | SN-000045; SN-000073; AE item-member table; current guide and coverage audit |
+| OBJ-000748 | The Gray Cowl Returns Equipment Parent Set | Needs a completed Gray Cowl route with Gray Cowl of Nocturnal, deed/key/doll/sword member handling, and preservation or explicit exclusion state. | SN-000045; SN-000073; AE item-member table; current guide and coverage audit |
+| OBJ-000752 | Bow of Shadows Unique Weapon | Needs a completed `In the Shadows` route with steward-trigger timing, assassin path, Bow of Shadows pickup, and poisoned food handling or exclusion. | SN-000045; SN-000073; AE item-member table; current guide and coverage audit |
+| OBJ-000753 | Goldbrand Unique Weapon | Needs a completed `A Matter of Pride` route with Eranya/Sivdur setup, Goldbrand pickup, Sivdur's Amulet and Magrathi's Skull handling, and preservation storage. | SN-000045; SN-000073; AE item-member table; current guide and coverage audit |
+| OBJ-000754 | Headman's Cleaver Unique Weapon | Needs a completed `Blood in the Water` route with start trigger, target path, Headman's Cleaver pickup, and preservation storage. | SN-000045; SN-000073; AE item-member table; current guide and coverage audit |
+| OBJ-000757 | Pets of Skyrim Pet Equipment Parent Set | Needs exact handling for Animal Collar, Animal Pack, Potent Frostbite Venom, and pet cage keys; current guide handles several pets but not the full pet-equipment parent set. | SN-000045; SN-000073; AE item-member table; current pets guide sections |
+| OBJ-001563 | Artifact: Ebony Blade | Needs a completed Ebony Blade route with level/prerequisite state, Whispering Door sequence, weapon pickup, and preservation storage. | SN-000058; current guide and coverage audit |
+| OBJ-001612 | Artifact: Azura's Star | Needs the Azura's Star branch route after the existing Azura lead start: hard save, branch-exclusive outcome, reward verification, reload, and final main-route continuity. | SN-000058; current Azura guide start and coverage audit |
+| OBJ-001617 | Unique Item: Drainblood Battleaxe | Needs exact pickup instructions during Labyrinthian/Lost Valkygg or another validated source; current guide clears the area but does not name this weapon. | SN-000059; current Labyrinthian guide route |
+| OBJ-001621 | Unique Item: Bow of the Hunt | Needs exact pickup instructions and preservation storage from a validated source; current guide does not name this bow. | SN-000059; current guide and coverage audit |
+| OBJ-001622 | Unique Item: Drainspell Bow | Needs exact pickup instructions during Labyrinthian/Lost Valkygg or another validated source; current guide clears the area but does not name this weapon. | SN-000059; current Labyrinthian guide route |
+| OBJ-001625 | Unique Item: Glass Bow of the Stag Prince | Needs exact pickup instructions, vendor/NPC state, and preservation storage from a validated source. | SN-000059; current guide and coverage audit |
+| OBJ-001627 | Unique Item: Blade of Sacrifice | Needs exact acquisition and preservation handling tied to Boethiah's route or another validated source. | SN-000059; current Daedric guide route |
+| OBJ-001630 | Unique Item: Borvir's Dagger | Needs exact College-region pickup timing, corpse/location validation, and preservation storage. | SN-000059; current guide and coverage audit |
+| OBJ-001633 | Unique Item: Rundi's Dagger | Needs exact College-region pickup timing, corpse/location validation, and preservation storage. | SN-000059; current guide and coverage audit |
+| OBJ-001634 | Unique Item: Shiv | Needs exact acquisition route and preservation handling; current mechanical name hit is not sufficient item routing. | SN-000059; current guide and coverage audit |
+| OBJ-001642 | Unique Item: Drainheart Sword | Needs exact pickup instructions during Labyrinthian/Lost Valkygg or another validated source; current guide clears the area but does not name this weapon. | SN-000059; current Labyrinthian guide route |
+| OBJ-001653 | Unique Item: Trollsbane | Needs exact pickup instructions at Cradle Stone Tower or another validated source; current guide clears the location but does not name this weapon. | SN-000059; current Reach guide route |
+| OBJ-001680 | Unique Item: Ironhand Gauntlets | Needs exact pickup instructions at White River Watch or another validated source; current guide clears the location but does not name the gauntlets. | SN-000059; current Whiterun guide route |
+| OBJ-001699 | Unique Item: Torturer's Hood | Needs exact opening or later pickup timing, ownership/state handling, and preservation storage. | SN-000059; current guide and coverage audit |
+| OBJ-001701 | Unique Item: Ulfric's Bracers | Needs exact Civil War pickup timing from Ulfric, faction-state handling, and preservation storage. | SN-000059; current Imperial Civil War guide route |
+| OBJ-001708 | Unique Item: Mythic Dawn Robes | Needs exact pickup instructions and preservation storage; current guide names Mythic Dawn enemies and rewards but does not route this clothing item. | SN-000059; current The Cause guide route |
+| OBJ-001714 | Unique Item: Ulfric's Boots | Needs exact Civil War pickup timing from Ulfric, faction-state handling, and preservation storage. | SN-000059; current Imperial Civil War guide route |
+| OBJ-001715 | Unique Item: Ulfric's Clothes | Needs exact Civil War pickup timing from Ulfric, faction-state handling, and preservation storage. | SN-000059; current Imperial Civil War guide route |
+| OBJ-001725 | Unique Item: Yisra's Necklace | Needs exact College-region pickup timing, corpse/location validation, and preservation storage. | SN-000059; current guide and coverage audit |
+| OBJ-001729 | Unique Item: The Bond of Matrimony | Needs explicit ring acquisition and preservation handling tied to the routed marriage state; current guide completes marriage but does not name the item. | SN-000059; current marriage/household guide route |
+| OBJ-001731 | Unique Item: Ilas-Tei's Ring | Needs exact College-region pickup timing, corpse/location validation, and preservation storage. | SN-000059; current guide and coverage audit |
+
+14. NEEDS ROUTE RESOLUTION: TB-035-COV-001R book and document repair list - exact missing fact: the Objective ID audit found the book/document rows below without a completed player-facing acquisition/read route, a sufficient internal duplicate-covered record, or an explicit exclusion. Inputs checked for the batch: `data/guide-coverage/main-guide-v1-objective-id-audit.csv`, `data/objectives/objectives.csv`, `data/books/book-document-locations.csv`, `data/guide-coverage/main-guide-v1-coverage.csv`, the current `main-guide-v1.md`, and the source notes named in the table.
+
+| Objective ID | Objective | Exact missing fact | Inputs checked |
+| --- | --- | --- | --- |
+| OBJ-001090 | Alchemist's Note | Needs a source-checked quest-document route for Siege on the Dragon Cult: exact acquisition source, quest state, read/take policy, ownership or crime handling, and final required, duplicate-covered, or excluded status. | SN-000054; book/document location table; current guide and coverage audit |
+| OBJ-001097 | Arcana Restored | Needs a source-checked quest-document route for Fetch me that Book!: exact acquisition source, quest state, read/take policy, ownership or crime handling, and final required, duplicate-covered, or excluded status. | SN-000054; book/document location table; current guide and coverage audit |
+| OBJ-001098 | Argonian Ceremony | Needs a source-checked quest-document route for Sealing the Deal: exact acquisition source, quest state, read/take policy, ownership or crime handling, and final required, duplicate-covered, or excluded status. | SN-000054; book/document location table; current guide and coverage audit |
+| OBJ-001107 | Blood Horker Orders | Needs a source-checked quest-document route for Rise in the East: exact acquisition source, quest state, read/take policy, ownership or crime handling, and final required, duplicate-covered, or excluded status. | SN-000054; book/document location table; current guide and coverage audit |
+| OBJ-001119 | Chronicles of Nchuleft | Needs a source-checked quest-document route for Fetch me that Book!: exact acquisition source, quest state, read/take policy, ownership or crime handling, and final required, duplicate-covered, or excluded status. | SN-000054; book/document location table; current guide and coverage audit |
+| OBJ-001120 | Cleansing of the Fane | Needs a source-checked quest-document route for Fetch me that Book!: exact acquisition source, quest state, read/take policy, ownership or crime handling, and final required, duplicate-covered, or excluded status. | SN-000054; book/document location table; current guide and coverage audit |
+| OBJ-001121 | Contract (Murder) | Needs a source-checked quest-document route for Revenge, Hired Thugs: exact acquisition source, quest state, read/take policy, ownership or crime handling, and final required, duplicate-covered, or excluded status. | SN-000054; book/document location table; current guide and coverage audit |
+| OBJ-001122 | Contract (Theft) | Needs a source-checked quest-document route for Steal, Thugs hunt player: exact acquisition source, quest state, read/take policy, ownership or crime handling, and final required, duplicate-covered, or excluded status. | SN-000054; book/document location table; current guide and coverage audit |
+| OBJ-001139 | Faralda's Notes | Needs a source-checked quest-document route for Research Thief: exact acquisition source, quest state, read/take policy, ownership or crime handling, and final required, duplicate-covered, or excluded status. | SN-000054; book/document location table; current guide and coverage audit |
+| OBJ-001154 | Habd's Death Letter | Needs a source-checked quest-document route for Frostflow Abyss Investigation: exact acquisition source, quest state, read/take policy, ownership or crime handling, and final required, duplicate-covered, or excluded status. | SN-000054; book/document location table; current guide and coverage audit |
+| OBJ-001164 | Incriminating Letter (Anuriel) | Needs a source-checked quest-document route for Compelling Tribute (Imperial): exact acquisition source, quest state, read/take policy, ownership or crime handling, and final required, duplicate-covered, or excluded status. | SN-000054; book/document location table; current guide and coverage audit |
+| OBJ-001166 | Incriminating Letter (DG) | Needs a source-checked quest-document route for Deceiving the Herd: exact acquisition source, quest state, read/take policy, ownership or crime handling, and final required, duplicate-covered, or excluded status. | SN-000054; book/document location table; current guide and coverage audit |
+| OBJ-001189 | The Legendary Scourge | Needs a source-checked quest-document route for Fetch me that Book!: exact acquisition source, quest state, read/take policy, ownership or crime handling, and final required, duplicate-covered, or excluded status. | SN-000054; book/document location table; current guide and coverage audit |
+| OBJ-001190 | Letter from a Friend | Needs a source-checked quest-document route for Shout - learn about word wall: exact acquisition source, quest state, read/take policy, ownership or crime handling, and final required, duplicate-covered, or excluded status. | SN-000054; book/document location table; current guide and coverage audit |
+| OBJ-001191 | Letter from Calcemo | Needs a source-checked quest-document route for Buy Dwarven artifact: exact acquisition source, quest state, read/take policy, ownership or crime handling, and final required, duplicate-covered, or excluded status. | SN-000054; book/document location table; current guide and coverage audit |
+| OBJ-001194 | Letter from Jarl (Jarl's Name) | Needs a source-checked quest-document route for Build Your Own Home: exact acquisition source, quest state, read/take policy, ownership or crime handling, and final required, duplicate-covered, or excluded status. | SN-000054; book/document location table; current guide and coverage audit |
+| OBJ-001195 | Letter from Jarl (Jarl's Name) of (Jarl's City) | Needs a source-checked quest-document route for Build Your Own Home: exact acquisition source, quest state, read/take policy, ownership or crime handling, and final required, duplicate-covered, or excluded status. | SN-000054; book/document location table; current guide and coverage audit |
+| OBJ-001202 | Letter of Inheritance | Needs a source-checked quest-document route for Inheritance: exact acquisition source, quest state, read/take policy, ownership or crime handling, and final required, duplicate-covered, or excluded status. | SN-000054; book/document location table; current guide and coverage audit |
+| OBJ-001203 | Letter to Beem-Ja | Needs a source-checked quest-document route for Coming of Age: exact acquisition source, quest state, read/take policy, ownership or crime handling, and final required, duplicate-covered, or excluded status. | SN-000054; book/document location table; current guide and coverage audit |
+| OBJ-001204 | Letter to Golldir | Needs a source-checked quest-document route for Ancestral Worship: exact acquisition source, quest state, read/take policy, ownership or crime handling, and final required, duplicate-covered, or excluded status. | SN-000054; book/document location table; current guide and coverage audit |
+| OBJ-001205 | Letter to Salma | Needs a source-checked quest-document route for Coming of Age: exact acquisition source, quest state, read/take policy, ownership or crime handling, and final required, duplicate-covered, or excluded status. | SN-000054; book/document location table; current guide and coverage audit |
+| OBJ-001212 | Malyn Varen's Grimoire | Needs a source-checked quest-document route for The Black Star: exact acquisition source, quest state, read/take policy, ownership or crime handling, and final required, duplicate-covered, or excluded status. | SN-000054; book/document location table; current guide and coverage audit |
+| OBJ-001230 | Note (Mistwatch) | Needs a source-checked quest-document route for Mistwatch (quest): exact acquisition source, quest state, read/take policy, ownership or crime handling, and final required, duplicate-covered, or excluded status. | SN-000054; book/document location table; current guide and coverage audit |
+| OBJ-001231 | Note from Agna | Needs a source-checked quest-document route for Ancestral Worship: exact acquisition source, quest state, read/take policy, ownership or crime handling, and final required, duplicate-covered, or excluded status. | SN-000054; book/document location table; current guide and coverage audit |
+| OBJ-001237 | The Old Ways | Needs a source-checked quest-document route for Fetch me that Book!: exact acquisition source, quest state, read/take policy, ownership or crime handling, and final required, duplicate-covered, or excluded status. | SN-000054; book/document location table; current guide and coverage audit |
+| OBJ-001245 | Purchase Agreement (Sarthis Idren) | Needs a source-checked quest-document route for The Raid: exact acquisition source, quest state, read/take policy, ownership or crime handling, and final required, duplicate-covered, or excluded status. | SN-000054; book/document location table; current guide and coverage audit |
+| OBJ-001251 | Repair Supplies | Needs a source-checked quest-document route for A Night To Remember: exact acquisition source, quest state, read/take policy, ownership or crime handling, and final required, duplicate-covered, or excluded status. | SN-000054; book/document location table; current guide and coverage audit |
+| OBJ-001252 | Request for Help! | Needs a source-checked quest-document route for Waking Nightmare: exact acquisition source, quest state, read/take policy, ownership or crime handling, and final required, duplicate-covered, or excluded status. | SN-000054; book/document location table; current guide and coverage audit |
+| OBJ-001253 | Request from | Needs a source-checked quest-document route for Scare my Enemy: exact acquisition source, quest state, read/take policy, ownership or crime handling, and final required, duplicate-covered, or excluded status. | SN-000054; book/document location table; current guide and coverage audit |
+| OBJ-001258 | A Scrawled Note | Needs a source-checked quest-document route for The Black Star: exact acquisition source, quest state, read/take policy, ownership or crime handling, and final required, duplicate-covered, or excluded status. | SN-000054; book/document location table; current guide and coverage audit |
+| OBJ-001261 | Shalidor's Insights (book) | Needs a source-checked quest-document route for Shalidor's Insights: exact acquisition source, quest state, read/take policy, ownership or crime handling, and final required, duplicate-covered, or excluded status. | SN-000054; book/document location table; current guide and coverage audit |
+| OBJ-001280 | Urag's Note | Needs a source-checked quest-document route for Fetch me that Book!: exact acquisition source, quest state, read/take policy, ownership or crime handling, and final required, duplicate-covered, or excluded status. | SN-000054; book/document location table; current guide and coverage audit |
+| OBJ-001285 | Venarus Vulpin's Journal | Needs a source-checked quest-document route for The Bloodstone Chalice: exact acquisition source, quest state, read/take policy, ownership or crime handling, and final required, duplicate-covered, or excluded status. | SN-000054; book/document location table; current guide and coverage audit |
+| OBJ-001286 | Venarus Vulpin's Research | Needs a source-checked quest-document route for The Bloodstone Chalice: exact acquisition source, quest state, read/take policy, ownership or crime handling, and final required, duplicate-covered, or excluded status. | SN-000054; book/document location table; current guide and coverage audit |
+| OBJ-001287 | War of the First Council | Needs a source-checked quest-document route for Fetch me that Book!: exact acquisition source, quest state, read/take policy, ownership or crime handling, and final required, duplicate-covered, or excluded status. | SN-000054; book/document location table; current guide and coverage audit |
+| OBJ-001288 | The Warmth of Mara | Needs a source-checked quest-document route for Spread the Love: exact acquisition source, quest state, read/take policy, ownership or crime handling, and final required, duplicate-covered, or excluded status. | SN-000054; book/document location table; current guide and coverage audit |
+| OBJ-001289 | The Waters of Oblivion | Needs a source-checked quest-document route for Fetch me that Book!: exact acquisition source, quest state, read/take policy, ownership or crime handling, and final required, duplicate-covered, or excluded status. | SN-000054; book/document location table; current guide and coverage audit |
+| OBJ-001291 | WIKill04RewardLetter | Needs a source-checked quest-document route for An enemy's gratitude: exact acquisition source, quest state, read/take policy, ownership or crime handling, and final required, duplicate-covered, or excluded status. | SN-000054; book/document location table; current guide and coverage audit |
+| OBJ-001292 | WIKill04ThanksLetter | Needs a source-checked quest-document route for An enemy's gratitude: exact acquisition source, quest state, read/take policy, ownership or crime handling, and final required, duplicate-covered, or excluded status. | SN-000054; book/document location table; current guide and coverage audit |
+| OBJ-001299 | Ysolda's Message | Needs a source-checked quest-document route for Sleeping Tree Cave (quest): exact acquisition source, quest state, read/take policy, ownership or crime handling, and final required, duplicate-covered, or excluded status. | SN-000054; book/document location table; current guide and coverage audit |
+| OBJ-001321 | Letter to Imperial City | Needs a source-checked quest-document route for March of the Dead: exact acquisition source, quest state, read/take policy, ownership or crime handling, and final required, duplicate-covered, or excluded status. | SN-000054; book/document location table; current guide and coverage audit |
+| OBJ-001331 | Scribbles of a Madman | Needs a source-checked quest-document route for Black Book (quest): exact acquisition source, quest state, read/take policy, ownership or crime handling, and final required, duplicate-covered, or excluded status. | SN-000054; book/document location table; current guide and coverage audit |
+| OBJ-001341 | Antonius' Note | Needs a source-checked AE document route for Alternative Armors - Orcish Scaled / Gambler's Edge: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001345 | Assassin's Journal | Needs a source-checked AE document route for Bow of Shadows / In the Shadows: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001346 | Assembly Line Constructs | Needs a source-checked AE document route for Nchuanthumz: Dwarven Home / The Sanctuary and the Manufactory: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001355 | Bounty Hunter's Note | Needs a source-checked AE document route for Alternative Armors - Daedric Plate / Beyond the Grave: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001357 | Bounty: Angler Larvae Specimen | Needs a source-checked AE document route for Fishing / Further Study: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001358 | Bounty: Cleaning Our Waterways | Needs a source-checked AE document route for Fishing / Rubbish Retrieval: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001359 | Bounty: Dwarven Investigation | Needs a source-checked AE document route for Fishing / Beneath Bronze Waters: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001360 | Bounty: Fangtusk | Needs a source-checked AE document route for Fishing / Tusked Terror: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001361 | Bounty: Glassfish | Needs a source-checked AE document route for Fishing / Clear-Headed: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001362 | Bounty: Goldfish! | Needs a source-checked AE document route for Fishing / Heart of Gold: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001364 | Bounty: Lost Wares | Needs a source-checked AE document route for Fishing / Spirits Away: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001365 | Bounty: Pearlfish Specimen | Needs a source-checked AE document route for Fishing / Further Study: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001366 | Bounty: Pygmy Sunfish Specimen | Needs a source-checked AE document route for Fishing / Further Study: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001367 | Bounty: Spadefish Specimen | Needs a source-checked AE document route for Fishing / Further Study: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001368 | Bounty: Supply of Arctic Grayling | Needs a source-checked AE document route for Fishing / Stocking Up: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001369 | Bounty: Supply of Brook Bass | Needs a source-checked AE document route for Fishing / Stocking Up: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001370 | Bounty: Supply of Catfish | Needs a source-checked AE document route for Fishing / Stocking Up: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001371 | Bounty: Supply of Salmon | Needs a source-checked AE document route for Fishing / Stocking Up: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001372 | Brutius's Journal | Needs a source-checked AE document route for Fishing / No Contest: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001376 | Carriage Driver's Note | Needs a source-checked AE document route for Sunder & Wraithguard / Legends Lost: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001377 | Casival's Note | Needs a source-checked AE document route for Alternative Armors - Dwarven Plate / Mightier than the Sword: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001381 | Cultist's Note | Needs a source-checked AE document route for Goldbrand / A Matter of Pride: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001385 | Dinner Menu | Needs a source-checked AE document route for Bloodchill Manor / Guests for Dinner: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001386 | Ehlhiel's Journal | Needs a source-checked AE document route for Alternative Armors - Leather / Double-Edged: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001388 | Eranya's Journal | Needs a source-checked AE document route for Goldbrand / A Matter of Pride: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001389 | Eranya's Notes on Sivdur's Tomb | Needs a source-checked AE document route for Goldbrand / A Matter of Pride: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001393 | Eydvina's Note | Needs a source-checked AE document route for Hendraheim / Hendraheim (quest): exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001407 | Gisli's Note | Needs a source-checked AE document route for Fishing / The Ultimate Feast: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001411 | Guard's Dossier: Antonius | Needs a source-checked AE document route for Alternative Armors - Orcish Scaled / Gambler's Edge: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001421 | Hugin Ice-Shaper's Notebook | Needs a source-checked AE document route for Nordic Jewelry / Nordic Jewelry (quest): exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001422 | Hyenril's Journal | Needs a source-checked AE document route for Arms of Chaos / The Arms of Chaos: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001427 | Khajiit's Note | Needs a source-checked AE document route for Alternative Armors - Daedric Plate / Beyond the Grave: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001432 | Letter from Edward | Needs a source-checked AE document route for Alternative Armors - Daedric Mail / Missing Merchant: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001434 | Letter from Mila Valentia | Needs a source-checked AE document route for Fishing / Two of a Kind: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001435 | Letter from Tyra Blood-Fire | Needs a source-checked AE document route for Alternative Armors - Ebony Plate / Heart of Crimson: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001436 | Letter from Viriya | Needs a source-checked AE document route for Fishing / End of the Line: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001437 | Letter on Mudcrab Attacks | Needs a source-checked AE document route for Fishing / Crustacean Extermination: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001440 | Letter to Gisli | Needs a source-checked AE document route for The Gray Cowl Returns! / The Gray Cowl of Nocturnal: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001449 | Looter's Note | Needs a source-checked AE document route for Alternative Armors - Dwarven Plate / Mightier than the Sword: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001450 | Loss of the Sea Stallion | Needs a source-checked AE document route for Arms of Chaos / The Arms of Chaos: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001451 | Lost Caravan Guard's Note | Needs a source-checked AE document route for Sunder & Wraithguard / Legends Lost: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001452 | M'Sharra's Confession | Needs a source-checked AE document route for Alternative Armors - Silver / When the Cat's Away: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001455 | Manufactory Repair Parts | Needs a source-checked AE document route for Nchuanthumz: Dwarven Home / The Sanctuary and the Manufactory: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001457 | Master Ellane's Last Words | Needs a source-checked AE document route for Arms of Chaos / The Arms of Chaos: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001459 | Mercenary's Note | Needs a source-checked AE document route for Forgotten Seasons / Forgotten Seasons (quest): exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001460 | Mila's Note on Very Secret Treasure | Needs a source-checked AE document route for Fishing / Two of a Kind: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001462 | Missing Merchant (note) | Needs a source-checked AE document route for Alternative Armors - Daedric Mail / Missing Merchant: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001463 | Mysterious Note (Staff of Sheogorath) | Needs a source-checked AE document route for Staff of Sheogorath / Put A Fork In It: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001470 | Nivenor's Journal | Needs a source-checked AE document route for The Gray Cowl Returns! / The Gray Cowl of Nocturnal: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001483 | Note to Ehlhiel | Needs a source-checked AE document route for Alternative Armors - Leather / Double-Edged: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001490 | Please Read Aloud | Needs a source-checked AE document route for Bloodchill Manor / Guests for Dinner: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001492 | Possible Vampire Cave | Needs a source-checked AE document route for Bloodchill Manor / Guests for Dinner: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001503 | Seviur's Journal | Needs a source-checked AE document route for Fishing / Crustacean Extermination: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001504 | Shogarz's Journal | Needs a source-checked AE document route for Headman's Cleaver / Blood in the Water: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001509 | Stable Hand's Note | Needs a source-checked AE document route for Bow of Shadows / In the Shadows: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001510 | Steward's Note | Needs a source-checked AE document route for Bow of Shadows / In the Shadows: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001511 | Stranger's Final Instructions (alternate) | Needs a source-checked AE document route for The Gray Cowl Returns! / The Gray Cowl of Nocturnal: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001512 | Stranger's Final Instructions (pickpocket) | Needs a source-checked AE document route for The Gray Cowl Returns! / The Gray Cowl of Nocturnal: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001513 | Stranger's Instructions | Needs a source-checked AE document route for The Gray Cowl Returns! / The Gray Cowl of Nocturnal: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001514 | Stranger's Journal | Needs a source-checked AE document route for The Gray Cowl Returns! / The Gray Cowl of Nocturnal: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001515 | Stranger's Note | Needs a source-checked AE document route for The Gray Cowl Returns! / The Gray Cowl of Nocturnal: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001520 | The Crimson Dirks, v2 | Needs a source-checked AE document route for Alternative Armors - Silver / When the Cat's Away: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001521 | The Crimson Dirks, v3 | Needs a source-checked AE document route for Alternative Armors - Daedric Plate / Beyond the Grave: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001523 | The Crimson Dirks, v5 | Needs a source-checked AE document route for Alternative Armors - Daedric Mail / Missing Merchant: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001524 | The Crimson Dirks, v6 | Needs a source-checked AE document route for Alternative Armors - Orcish Scaled / Gambler's Edge: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001527 | The Fisher King | Needs a source-checked AE document route for Fishing / The Ultimate Feast: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001528 | The Fisher Queen | Needs a source-checked AE document route for Fishing / The Ultimate Feast: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001530 | The Sword of Clan Ice-Blade | Needs a source-checked AE document route for The Gray Cowl Returns! / The Gray Cowl of Nocturnal: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001531 | Thief's Note | Needs a source-checked AE document route for The Gray Cowl Returns! / The Gray Cowl of Nocturnal: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001536 | Tolif's Journal | Needs a source-checked AE document route for Fishing / Crustacean Extermination: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001541 | Urzog's Journal | Needs a source-checked AE document route for Headman's Cleaver / Blood in the Water: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001542 | Velyne's Letter | Needs a source-checked AE document route for Sunder & Wraithguard / Legends Lost: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001544 | Viriya's Hastily Written Letter | Needs a source-checked AE document route for Fishing / Wave Breaker: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001550 | Zaharia's Note | Needs a source-checked AE document route for Alternative Armors - Leather / Double-Edged: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001551 | Zaria's Note from Jarl | Needs a source-checked AE document route for Fishing / Clear-Headed: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000056; book/document location table; current guide and coverage audit |
+| OBJ-001552 | Letter from Shogarz gro-Batul | Needs a source-checked AE document route for Headman's Cleaver / Blood in the Water: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000057; book/document location table; current guide and coverage audit |
+| OBJ-001553 | Orders (Orcish Scaled) | Needs a source-checked AE document route for Alternative Armors - Orcish Scaled / Gambler's Edge: exact acquisition source, quest or courier state, read/take policy, ownership handling, and final required, duplicate-covered, or excluded status. | SN-000057; book/document location table; current guide and coverage audit |

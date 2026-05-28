@@ -43,7 +43,9 @@ PHRASE_EXCEPTIONS = {
         "family sword",
         "family heirloom",
         "family ring",
+        "family seal",
         "meet the family",
+        "cuinanthil's family seal",
     ],
 }
 
