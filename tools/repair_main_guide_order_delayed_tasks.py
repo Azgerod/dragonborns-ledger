@@ -14,15 +14,34 @@ REPAIR_CSV = REPO_ROOT / "data" / "guide-coverage" / "main-guide-v1-order-delaye
 MAIN_GUIDE = REPO_ROOT / "drafts" / "final-guide" / "main-guide-v1.md"
 
 ACTION_VALUES = {"repair_or_mark_route_resolution", "review_support_delay"}
+STALE_ROUTE_RESOLUTION_ACTION = "none_existing_route_resolution"
 GUIDE_BLOCK_START = (
     "15. NEEDS ROUTE RESOLUTION: TB-038R order and delayed-task repair register"
 )
 CLOSURE_IDS = {
+    "OBJ-001399",  # Fishing Mastery, v2 is later read in the Swims-In-Deep-Water challenge route.
+    "OBJ-001400",  # Fishing Mastery, v3 is later read in the Swims-In-Deep-Water challenge route.
+    "OBJ-001401",  # Fishing Mastery, v4 is later read in the Swims-In-Deep-Water challenge route.
+    "OBJ-001402",  # Fishing Mastery, v5 is later read in the Fishing Legend route.
+    "OBJ-001444",  # List of Arctic Fish is later read in the Swims-In-Deep-Water challenge route.
+    "OBJ-001446",  # List of Rainy Weather Fish is later read in the Swims-In-Deep-Water challenge route.
+    "OBJ-001447",  # List of Rare Fish is later read in the Fishing Legend route.
+    "OBJ-001448",  # List of Underground Fish is later read in the Swims-In-Deep-Water challenge route.
+    "OBJ-000630",  # Nordic Jewelry is later completed in the Raven Rock/Hugin Ice-Shaper route.
+    "OBJ-000709",  # Nordic Jewelry crafting is later unlocked and represented by the Raven Rock/Hugin route.
+    "OBJ-001378",  # Certificate of Authenticity is later read from the routed first Nordic jewelry purchase.
+    "OBJ-001390",  # Eranya's Research Notes is later read in the Goldbrand/A Matter of Pride route.
     "OBJ-001501",  # Seeks-Ancient-Artifacts' Journal, v1 is later read in the Nchuanthumz route.
     "OBJ-001508",  # Soran's Journal is later read in the Creature of Legend route.
     "OBJ-001773",  # Stones of Barenziah set is closed by No Stone Unturned.
     "OBJ-001774",  # Whiterun Stone of Barenziah member acquired in guide.
     "OBJ-001796",  # Pinewatch Stone of Barenziah member acquired in guide.
+    "OBJ-002639",  # Angelfish alchemy effects are staged by Fishing Legend for the later alchemy pass.
+    "OBJ-002640",  # Angler Larvae alchemy effects are staged by Frozen Fish for the later alchemy pass.
+    "OBJ-002681",  # Lyretail Anthias alchemy effects are staged by Fishing Legend for the later alchemy pass.
+    "OBJ-002687",  # Pearlfish alchemy effects are staged by Further Study for the later alchemy pass.
+    "OBJ-002689",  # Pygmy Sunfish alchemy effects are staged by Further Study for the later alchemy pass.
+    "OBJ-002700",  # Spadefish alchemy effects are staged by Further Study for the later alchemy pass.
     "OBJ-002414",  # Goldenhills Farm Bunkhouse is tied to the later farm buildout.
 }
 
@@ -58,10 +77,59 @@ def is_closed_or_connected(row: dict[str, str]) -> bool:
     return False
 
 
+def repair_identity_from_audit(row: dict[str, str]) -> tuple[str, str, str, str, str]:
+    record_type = row.get("record_type", "")
+    record_id = row.get("record_id", "")
+    if record_type == "save" or record_id.startswith("TB038R-SOURCE-LINE-"):
+        record_id = ""
+    return (
+        record_type,
+        record_id,
+        row.get("name", ""),
+        row.get("current_location", ""),
+        row.get("current_status", ""),
+    )
+
+
+def repair_identity_from_register(row: dict[str, str]) -> tuple[str, str, str, str, str]:
+    record_type = row.get("record_type", "")
+    record_id = row.get("record_id", "")
+    if record_type == "save" or record_id.startswith("TB038R-SOURCE-LINE-"):
+        record_id = ""
+    return (
+        record_type,
+        record_id,
+        row.get("name", ""),
+        row.get("current_location", ""),
+        row.get("current_status", ""),
+    )
+
+
+def should_repair_row(row: dict[str, str]) -> bool:
+    if row["recommended_action"] in ACTION_VALUES:
+        return True
+    return (
+        row["recommended_action"] == STALE_ROUTE_RESOLUTION_ACTION
+        and row["record_id"] in CLOSURE_IDS
+        and row["section"] != "TB-038R"
+    )
+
+
 def repair_rows() -> list[dict[str, str]]:
     rows = []
+    existing_rows = read_csv(REPAIR_CSV) if REPAIR_CSV.exists() else []
+    existing_by_identity = {
+        repair_identity_from_register(row): row
+        for row in existing_rows
+    }
+    seen_identities = set()
     for row in read_csv(AUDIT_CSV):
-        if row["recommended_action"] not in ACTION_VALUES:
+        identity = repair_identity_from_audit(row)
+        if not should_repair_row(row):
+            existing_row = existing_by_identity.get(identity)
+            if existing_row and identity not in seen_identities:
+                rows.append(existing_row)
+                seen_identities.add(identity)
             continue
         classification = "closed_or_connected" if is_closed_or_connected(row) else "explicit_route_resolution"
         if classification == "closed_or_connected":
@@ -102,6 +170,7 @@ def repair_rows() -> list[dict[str, str]]:
                 ),
             }
         )
+        seen_identities.add(identity)
     return rows
 
 

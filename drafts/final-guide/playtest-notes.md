@@ -1,7 +1,7 @@
 # Playtest Notes
 
 Status: TB-042 simulated playtest complete; result: Pass with explicit route-resolution rows carried forward.
-Generated: 2026-05-28.
+Generated: 2026-05-29.
 
 Scope: document-level simulated playtest of `drafts/final-guide/main-guide-v1.md` as a player-facing black-box itinerary. This pass checks executable section starts, numbered route steps, route-heavy section logistics cues, previous QA repair-action state, placeholder language, and visibility of known unresolved route-resolution rows.
 
@@ -11,11 +11,11 @@ No broad gameplay research was performed. This is not a live PS4 run; live comba
 
 | Check | Result |
 | --- | --- |
-| Audit rows | 95 |
-| Recommended actions | none: 94, none_existing_route_resolution: 1 |
-| Section walkthrough rows | 81 |
-| Section walkthrough status | pass_non_executable_handoff_section: 1, pass_section_executable: 80 |
-| Route-resolution register | 349 unresolved rows remain explicit; by category: ae_creation: 1, book_document: 148, collectible: 26, crafting_unlock: 21, location: 3, misc_objective: 34, npc_relationship: 2, quest: 43, radiant: 8, spell_power: 8, trophy: 7, unique_item: 48 |
+| Audit rows | 96 |
+| Recommended actions | none: 95, none_existing_route_resolution: 1 |
+| Section walkthrough rows | 82 |
+| Section walkthrough status | pass_non_executable_handoff_section: 1, pass_section_executable: 81 |
+| Route-resolution register | 201 unresolved rows remain explicit; by category: ae_creation: 1, book_document: 77, collectible: 5, crafting_unlock: 14, location: 2, misc_objective: 34, npc_relationship: 2, quest: 8, radiant: 8, spell_power: 8, trophy: 7, unique_item: 35 |
 | Repair actions | none |
 
 ## Area Summary
@@ -25,7 +25,7 @@ No broad gameplay research was performed. This is not a live PS4 run; live comba
 | playtest_setup | 7 |
 | previous_qa_integration | 4 |
 | route_resolution_visibility | 1 |
-| section_walkthrough | 81 |
+| section_walkthrough | 82 |
 | simulated_playtest_limits | 2 |
 
 ## Findings

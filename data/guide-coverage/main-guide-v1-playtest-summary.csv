@@ -10,13 +10,13 @@ previous_qa_integration:recommended_action:none,4,Recommended-action distributio
 route_resolution_visibility:rows,1,Generated TB-042 audit rows.
 route_resolution_visibility:status:pass_existing_route_resolution_visible,1,Audit-status distribution.
 route_resolution_visibility:recommended_action:none_existing_route_resolution,1,Recommended-action distribution.
-section_walkthrough:rows,81,Generated TB-042 audit rows.
+section_walkthrough:rows,82,Generated TB-042 audit rows.
 section_walkthrough:status:pass_non_executable_handoff_section,1,Audit-status distribution.
-section_walkthrough:status:pass_section_executable,80,Audit-status distribution.
-section_walkthrough:recommended_action:none,81,Recommended-action distribution.
+section_walkthrough:status:pass_section_executable,81,Audit-status distribution.
+section_walkthrough:recommended_action:none,82,Recommended-action distribution.
 simulated_playtest_limits:rows,2,Generated TB-042 audit rows.
 simulated_playtest_limits:status:pass_simulated_playtest_limit_recorded,2,Audit-status distribution.
 simulated_playtest_limits:recommended_action:none,2,Recommended-action distribution.
-all:rows,95,Generated TB-042 audit rows.
-all:recommended_action:none,94,Recommended-action distribution.
+all:rows,96,Generated TB-042 audit rows.
+all:recommended_action:none,95,Recommended-action distribution.
 all:recommended_action:none_existing_route_resolution,1,Recommended-action distribution.
