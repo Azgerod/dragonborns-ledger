@@ -6,7 +6,7 @@ Source note ID: SN-000140
 
 ## Claim
 
-The guide should use the southern warm corridor after the Falkreath/Lakeview/Glenmoril block to route the remaining safe Falkreath and Ivarstead-adjacent objectives that are naturally bundled: Dengeir's theft and vampire follow-up, Bloodlet Throne, Moss Mother Cavern and Valdr's Lucky Dagger, Pinewatch with its Stone of Barenziah, Pinewatch documents, and Curious Silver Mold, Lakeview Small House/steward/carriage progress when Lakeview is available, Ivarstead service favors, Narfi's pre-Dark-Brotherhood quest, `Lifting the Shroud`, Shroud Hearth Barrow, Oakflesh, and the first routed Kyne's Peace word. `Fan Favorite` is routed from Ivarstead only if Falkreath land is already settled; otherwise it remains held until the delayed Falkreath land condition is clear.
+The guide should use the southern warm corridor after the Falkreath/Lakeview/Glenmoril block to route the remaining safe Falkreath and Ivarstead-adjacent objectives that are naturally bundled: Dengeir's theft and vampire follow-up, Bloodlet Throne, Moss Mother Cavern and Valdr's Lucky Dagger, Pinewatch with its Stone of Barenziah, Pinewatch documents, and Curious Silver Mold, Lakeview Small House/steward/carriage progress when Lakeview is available, Ivarstead service favors, Narfi's pre-Dark-Brotherhood quest, `Lifting the Shroud`, Shroud Hearth Barrow, Oakflesh, and the first routed Kyne's Peace word. `Fan Favorite` is routed from Ivarstead only if Falkreath land is already settled; otherwise it remains held until the delayed Falkreath land condition is clear. TB-044 now supplies that later closeout in the Mehrunes/Cracked Tusk section.
 
 The nearby-objective audit also identifies two retrospective corrections: `Blacksmithing Tutorial` belongs in the first Riverwood visit with Alvor, and `Alchemy Tutorial` belongs in the first Whiterun visit with Arcadia. They should not be artificially delayed to this later Falkreath corridor.
 
@@ -24,7 +24,7 @@ Lakeview service progress is conditional on the previous Falkreath land route. I
 
 Ivarstead is routed as a compact village/barrow bundle. Temba and Boti provide colocated activity/favor rows, Narfi's beggar gift and `The Straw that Broke` are safe before the later Dark Brotherhood contract, and Wilhelm's `Lifting the Shroud` directly unlocks the Sapphire Dragon Claw for the same-location Shroud Hearth Barrow clear. Shroud Hearth also provides a deterministic Oakflesh spell tome and the first routed Kyne's Peace word. Its `Before the Ages of Man` copy remains closed.
 
-`Fan Favorite` is safe and efficient from Ivarstead only if Falkreath land is already settled. The quest page warns that Arena Fan's corpse may despawn if delayed, but it also warns that the quest may stop the Jarl of Falkreath from talking after the Jarl letter. The guide therefore routes it now on saves where Lakeview was already purchased, and holds it on saves where Siddgeir's land chain is still parked behind Cracked Tusk Keep or Knifepoint Ridge.
+`Fan Favorite` is safe and efficient from Ivarstead only if Falkreath land is already settled. The quest page warns that Arena Fan's corpse may despawn if delayed, but it also warns that the quest may stop the Jarl of Falkreath from talking after the Jarl letter. The guide therefore routes it now on saves where Lakeview was already purchased, and holds it on saves where Siddgeir's land chain is still parked behind Cracked Tusk Keep. TB-044 later reclassified a Siddgeir Knifepoint Ridge target as `HS-FALKREATH-LAND-JOB` bug recovery rather than a parked land-chain state, then added the Cracked Tusk/Lakeview delayed closeout that returns to `Fan Favorite` promptly.
 
 ## Sources
 
@@ -77,13 +77,13 @@ Construction and steward sources support completing the Small House from provide
 
 `Lifting the Shroud` and Shroud Hearth Barrow naturally bundle together. Wilhelm gives the barrow hook, Wyndelius's Journal turns in for the Sapphire Dragon Claw, the claw opens the rest of the barrow, the barrow contains a deterministic Oakflesh tome, and its word wall supplies a Kyne's Peace word. The guide includes a local warning not to use Unrelenting Force or destructive area effects near Wyndelius's journal because the player is sent to that exact table.
 
-`Fan Favorite` starts from Arena Fan's Note south of Ivarstead and sends the player to Ruins of Bthalft for Dwarven Mail. Its corpse-despawn warning argues for routing it when the Ivarstead pass reaches the camp. Its Falkreath Jarl bug argues against routing it while the Falkreath land chain is still blocked on Siddgeir. The guide therefore makes it conditional: route it now if Lakeview was already bought, hold it if Falkreath land is still parked.
+`Fan Favorite` starts from Arena Fan's Note south of Ivarstead and sends the player to Ruins of Bthalft for Dwarven Mail. Its corpse-despawn warning argues for routing it when the Ivarstead pass reaches the camp. Its Falkreath Jarl bug argues against routing it while the Falkreath land chain is still blocked on Siddgeir. The guide therefore makes it conditional in this section: route it now if Lakeview was already bought, hold it if Falkreath land is still parked, and close the held branch after the later Cracked Tusk/Lakeview route has made Falkreath land safe.
 
 ## Confidence and Open Questions
 
 Confidence is high for the tutorial retrospective move, Dengeir/Bloodlet routing, Moss Mother/Valdr routing, Pinewatch/Stone/mold routing, Ivarstead/Narfi/Shroud/Temba routing, and the Lakeview steward/carriage conditional on saves where Lakeview exists.
 
-Confidence is medium for the `Fan Favorite` conditional because it balances two source-listed bugs: a corpse despawn if delayed and a Falkreath Jarl dialogue failure if the quest collides with the Jarl letter path. The guide's conditional policy minimizes the live risk on both save states, but later Falkreath-land recovery sections must remember to route `Fan Favorite` promptly once the parked land condition is resolved.
+Confidence is high for the `Fan Favorite` conditional after TB-044 because the later Cracked Tusk/Lakeview route now gives the parked save state an explicit closeout before the guide returns north. The conditional still exists in this section, but it no longer leaves an open route-resolution burden.
 
 No MR-012 route-resolution notes remain open.
 

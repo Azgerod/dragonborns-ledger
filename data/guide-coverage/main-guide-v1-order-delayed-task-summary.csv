@@ -1,0 +1,22 @@
+metric,count,notes
+branch_reload:rows,8,Generated audit rows.
+delayed_coverage:rows,3003,Generated audit rows.
+hard_save_register:rows,87,Generated audit rows.
+branch_reload:status:pass_branch_reload_cue_found,8,Audit-status distribution.
+delayed_coverage:status:needs_support_delay_review,4,Audit-status distribution.
+delayed_coverage:status:pass_closed_by_later_same_record,1533,Audit-status distribution.
+delayed_coverage:status:pass_closed_elsewhere_same_record,940,Audit-status distribution.
+delayed_coverage:status:pass_explicit_route_resolution,192,Audit-status distribution.
+delayed_coverage:status:pass_final_status_branch_handled,1,Audit-status distribution.
+delayed_coverage:status:pass_progress_continues_later_same_record,8,Audit-status distribution.
+delayed_coverage:status:pass_self_closing_support_row,20,Audit-status distribution.
+delayed_coverage:status:pass_tb038r_closed_or_connected,53,Audit-status distribution.
+delayed_coverage:status:pass_tb038r_explicit_route_resolution,252,Audit-status distribution.
+hard_save_register:status:guide_local_hard_save_has_creation_cue,26,Audit-status distribution.
+hard_save_register:status:pass_register_save_present_in_guide,61,Audit-status distribution.
+branch_reload:recommended_action:none,8,Recommended-action distribution.
+delayed_coverage:recommended_action:none,2555,Recommended-action distribution.
+delayed_coverage:recommended_action:none_existing_route_resolution,444,Recommended-action distribution.
+delayed_coverage:recommended_action:review_support_delay,4,Recommended-action distribution.
+hard_save_register:recommended_action:none,61,Recommended-action distribution.
+hard_save_register:recommended_action:none_local_save,26,Recommended-action distribution.

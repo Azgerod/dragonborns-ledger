@@ -31,7 +31,7 @@ Raldbthar is not routed in this pass. UESP ties Raldbthar to Alain Dufont and th
 
 The Dwarven Storeroom shard is not routed in this pass even though the storeroom itself has no enemies. UESP records a bug workaround to pick up the Dwarven Storeroom shard last if the Raldbthar shard misidentifies or fails to update. Mzulft also has a separate main-ruin bug if cleared before `Revealing the Unseen`, and the broader Mzulft support rows include College, spell-tome, skill-book, Dwemer convector, and clearable-location work. The safer sequence is Raldbthar first, then Dwarven Storeroom/Mzulft in the later Eastmarch/College bundle.
 
-The Aetherium Forge remains held for `HS-DG-AETHERIUM-FORGE`. The reward is mutually exclusive: Aetherial Crown is the canonical main-route reward, while Aetherial Staff and Aetherial Shield require branch capture and reload. Taron Dreth's Robes also require a completed Aetherial reward and therefore stay with the later Forge/follow-up pass.
+The Aetherium Forge remains held for `HS-AETHERIUM-FORGE`. The reward is mutually exclusive: Aetherial Crown is the canonical main-route reward, while Aetherial Staff and Aetherial Shield require branch capture and reload. Taron Dreth's Robes also require a completed Aetherial reward and therefore stay with the later Forge/follow-up pass.
 
 The nearby `Light Armor Forging` copy northeast of Arkngthamz was audited but not routed here. Its objective is to read a skill book, not merely to possess a duplicate copy, and the route is preserving skill-book reads for the Scholar's Insight window. Because the copy is a duplicate source in a chest rather than a unique quest item, the guide does not add a separate unmarked detour or ask the player to carry an unread skill book for many sections.
 

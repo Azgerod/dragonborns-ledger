@@ -114,7 +114,7 @@ This table records branch anchors already named by the constraint tables and ref
 | `HS-DAEDRIC-MEHRUNES-SHRINE` | A10 | Reforge Mehrunes' Razor. | Spare Silus branch only. | `quest-conflicts-hard-saves.md` (`SN-000098`) |
 | `HS-DAEDRIC-NAMIRA-FEAST` | A10 | Ring of Namira outcome. | Non-artifact moral outcomes branch only. | `quest-conflicts-hard-saves.md` (`SN-000098`) |
 | `HS-DAEDRIC-VAERMINA-SKULL` | A10 | Skull of Corruption artifact outcome. | Erandur follower outcome branch only unless TB-028 changes policy. | `quest-conflicts-hard-saves.md` (`SN-000098`) |
-| `HS-DG-AETHERIUM-FORGE` | A14 | Aetherial Crown. | Aetherial Staff and Aetherial Shield reward branches. | `quest-conflicts-hard-saves.md` (`SN-000099`); `trophy-dependencies.md` (`SN-000105`) |
+| `HS-AETHERIUM-FORGE` | A14 | Aetherial Crown. | Aetherial Staff and Aetherial Shield reward branches. | `quest-conflicts-hard-saves.md` (`SN-000099`); `trophy-dependencies.md` (`SN-000105`) |
 | `HS-RIFT-FROST-LETRUSH` | A21 | Keep Frost. | Optional outcome note only unless final checklist validation proves an uncovered alternate state. | `quest-conflicts-hard-saves.md` (`SN-000099`) |
 | `HS-DRAGONBORN-UNEARTHED-RALIS` | A17 | Spare Ralis. | Optional kill-outcome note only unless final checklist validation requires it. | `quest-conflicts-hard-saves.md` (`SN-000099`); `npc-dependencies.md` (`SN-000107`) |
 | `HS-COLLEGE-VELEHK-SAIN` | A11 | Release Velehk for hidden treasure. | Optional kill-outcome note only. | `quest-conflicts-hard-saves.md` (`SN-000099`) |

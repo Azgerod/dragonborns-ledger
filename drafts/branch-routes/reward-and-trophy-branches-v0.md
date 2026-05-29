@@ -24,7 +24,7 @@ Scope: compact outcome branches for Daedric rewards, Aetherium Forge rewards, an
 | BR-012 | Mehrunes reward | `HS-DAEDRIC-MEHRUNES-SHRINE` | Mehrunes' Razor | Spare Silus / non-artifact outcome |
 | BR-013 | Namira reward | `HS-DAEDRIC-NAMIRA-FEAST` | Ring of Namira | Save Verulus / kill Eola outcome |
 | BR-014 | Vaermina reward | `HS-DAEDRIC-VAERMINA-SKULL` | Skull of Corruption | Spare Erandur follower outcome |
-| BR-015 | Aetherium Forge reward | `HS-DG-AETHERIUM-FORGE` | Aetherial Crown | Aetherial Staff and Aetherial Shield |
+| BR-015 | Aetherium Forge reward | `HS-AETHERIUM-FORGE` | Aetherial Crown | Aetherial Staff and Aetherial Shield |
 | BR-005 | Master Criminal trophy | `HS-TROPHY-MASTER-CRIMINAL` | Clean final continuity | All-holds bounty trophy branch |
 
 ## Daedric Reward Branches
@@ -51,7 +51,7 @@ Daedric warnings and handoffs:
 
 | Field | Prototype |
 | --- | --- |
-| Hard save | `HS-DG-AETHERIUM-FORGE` before crafting the one Aetherial item. |
+| Hard save | `HS-AETHERIUM-FORGE` before crafting the one Aetherial item. |
 | Canonical resume | Reload and craft the Aetherial Crown on the main save. |
 | Branch goal | Record the two non-canonical Aetherial reward outcomes without losing the Crown default. |
 | Source support | `SN-000099`, `SN-000105`. |
@@ -70,7 +70,7 @@ Warnings and handoffs:
 | --- | --- |
 | Single craft limit | The branch point exists because only one Aetherial item can be forged in one continuity. |
 | Trophy | `Lost to the Ages` trophy completion is separate from which reward is kept. |
-| Reload point | After Staff and Shield branch audits, reload `HS-DG-AETHERIUM-FORGE` and craft Crown. |
+| Reload point | After Staff and Shield branch audits, reload `HS-AETHERIUM-FORGE` and craft Crown. |
 
 ## BR-005 - Master Criminal Trophy Branch
 

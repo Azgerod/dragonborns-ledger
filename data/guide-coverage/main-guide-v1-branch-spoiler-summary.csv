@@ -1,0 +1,21 @@
+metric,count,notes
+branch_decision_matrix:rows,19,Generated TB-041 audit rows.
+branch_decision_matrix:status:pass_branch_save_reload_present,15,Audit-status distribution.
+branch_decision_matrix:status:pass_main_resolved_optional_branch_save,1,Audit-status distribution.
+branch_decision_matrix:status:pass_main_route_resolved_no_full_branch,3,Audit-status distribution.
+branch_decision_matrix:recommended_action:none,19,Recommended-action distribution.
+branch_policy_setup:rows,4,Generated TB-041 audit rows.
+branch_policy_setup:status:pass_policy_rule_present,4,Audit-status distribution.
+branch_policy_setup:recommended_action:none,4,Recommended-action distribution.
+existing_branch_audit:rows,76,Generated TB-041 audit rows.
+existing_branch_audit:status:pass_existing_branch_audit_row,76,Audit-status distribution.
+existing_branch_audit:recommended_action:none,76,Recommended-action distribution.
+guide_branch_cues:rows,17,Generated TB-041 audit rows.
+guide_branch_cues:status:pass_branch_cue_has_save_and_reload,17,Audit-status distribution.
+guide_branch_cues:recommended_action:none,17,Recommended-action distribution.
+spoiler_discipline:rows,2,Generated TB-041 audit rows.
+spoiler_discipline:status:pass_mechanical_branch_language_present,1,Audit-status distribution.
+spoiler_discipline:status:pass_spoiler_phrase_scan,1,Audit-status distribution.
+spoiler_discipline:recommended_action:none,2,Recommended-action distribution.
+all:rows,118,Generated TB-041 audit rows.
+all:recommended_action:none,118,Recommended-action distribution.

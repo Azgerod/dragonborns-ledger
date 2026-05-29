@@ -1,0 +1,46 @@
+metric,count,notes
+geography_cold_support:rows,6,Generated TB-040 audit rows.
+geography_cold_support:status:pass_geography_cold_support_represented,6,Audit-status distribution.
+geography_cold_support:recommended_action:none,6,Recommended-action distribution.
+geography_transport_support:rows,8,Generated TB-040 audit rows.
+geography_transport_support:status:pass_transport_support_layer_available,8,Audit-status distribution.
+geography_transport_support:recommended_action:none,8,Recommended-action distribution.
+guide_section_logistics:rows,81,Generated TB-040 audit rows.
+guide_section_logistics:status:pass_reference_or_reconciliation_section,1,Audit-status distribution.
+guide_section_logistics:status:pass_section_has_survival_logistics_cues,80,Audit-status distribution.
+guide_section_logistics:recommended_action:none,81,Recommended-action distribution.
+legendary_progression_constraint:rows,18,Generated TB-040 audit rows.
+legendary_progression_constraint:status:pass_progression_accounted_in_main_guide,18,Audit-status distribution.
+legendary_progression_constraint:recommended_action:none,18,Recommended-action distribution.
+progression_source_crafting_system_action:rows,13,Generated TB-040 audit rows.
+progression_source_crafting_system_action:status:pass_progression_source_represented,13,Audit-status distribution.
+progression_source_crafting_system_action:recommended_action:none,13,Recommended-action distribution.
+progression_source_legendary_reset_distribution:rows,18,Generated TB-040 audit rows.
+progression_source_legendary_reset_distribution:status:pass_progression_source_represented,18,Audit-status distribution.
+progression_source_legendary_reset_distribution:recommended_action:none,18,Recommended-action distribution.
+progression_source_progression_policy:rows,2,Generated TB-040 audit rows.
+progression_source_progression_policy:status:pass_progression_source_represented,2,Audit-status distribution.
+progression_source_progression_policy:recommended_action:none,2,Recommended-action distribution.
+progression_source_training_policy:rows,18,Generated TB-040 audit rows.
+progression_source_training_policy:status:pass_progression_source_represented,18,Audit-status distribution.
+progression_source_training_policy:recommended_action:none,18,Recommended-action distribution.
+setup_baseline:rows,8,Generated TB-040 audit rows.
+setup_baseline:status:pass_setup_rule_in_guide,8,Audit-status distribution.
+setup_baseline:recommended_action:none,8,Recommended-action distribution.
+survival_cold_region:rows,7,Generated TB-040 audit rows.
+survival_cold_region:status:pass_survival_constraint_represented,7,Audit-status distribution.
+survival_cold_region:recommended_action:none,7,Recommended-action distribution.
+survival_global_rule:rows,7,Generated TB-040 audit rows.
+survival_global_rule:status:pass_survival_constraint_represented,7,Audit-status distribution.
+survival_global_rule:recommended_action:none,7,Recommended-action distribution.
+survival_infrastructure:rows,8,Generated TB-040 audit rows.
+survival_infrastructure:status:pass_carry_relief_with_explicit_backpack_resolution,1,Audit-status distribution.
+survival_infrastructure:status:pass_survival_constraint_represented,7,Audit-status distribution.
+survival_infrastructure:recommended_action:none,7,Recommended-action distribution.
+survival_infrastructure:recommended_action:none_existing_route_resolution,1,Recommended-action distribution.
+survival_travel_network:rows,7,Generated TB-040 audit rows.
+survival_travel_network:status:pass_survival_constraint_represented,7,Audit-status distribution.
+survival_travel_network:recommended_action:none,7,Recommended-action distribution.
+all:rows,201,Generated TB-040 audit rows.
+all:recommended_action:none,200,Recommended-action distribution.
+all:recommended_action:none_existing_route_resolution,1,Recommended-action distribution.

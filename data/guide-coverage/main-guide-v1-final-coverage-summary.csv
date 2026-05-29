@@ -1,0 +1,163 @@
+summary_group,metric,count,notes
+objective_final_status,objective_rows_processed,2789,All rows from data/objectives/objectives.csv were classified.
+objective_final_status,placed_in_main_guide,2374,"Non-branch, non-option, non-excluded, non-unresolved objective rows represented in the self-contained guide or promoted guide reference surfaces."
+objective_final_status,branch_handled,43,Canonical branch_route objective rows handled by branch-first/reload guide blocks after unresolved rows are counted separately.
+objective_final_status,option_default_handled,11,Canonical option_list objective rows represented by route defaults and option/default guide surfaces.
+objective_final_status,excluded,19,Objective rows with canonical excluded placement or explicit guide/coverage exclusion after unresolved rows are counted separately.
+objective_final_status,unresolved,342,"Objective rows with explicit NEEDS ROUTE RESOLUTION coverage, including unresolved branch or appendix rows."
+objective_final_status,total_classified_objective_rows,2789,Should equal objective_rows_processed.
+objective_route_placement_raw,appendix,27,Raw route_placement count from data/objectives/objectives.csv before final-status priority rules.
+objective_route_placement_raw,branch_route,43,Raw route_placement count from data/objectives/objectives.csv before final-status priority rules.
+objective_route_placement_raw,excluded,15,Raw route_placement count from data/objectives/objectives.csv before final-status priority rules.
+objective_route_placement_raw,main_route,2693,Raw route_placement count from data/objectives/objectives.csv before final-status priority rules.
+objective_route_placement_raw,option_list,11,Raw route_placement count from data/objectives/objectives.csv before final-status priority rules.
+unresolved_by_category,ae_creation,1,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_category,book_document,145,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_category,collectible,26,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_category,crafting_unlock,21,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_category,location,3,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_category,misc_objective,34,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_category,npc_relationship,2,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_category,quest,41,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_category,radiant,8,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_category,spell_power,8,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_category,trophy,7,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_category,unique_item,46,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_subcategory,ae_creation:ae_item_consumable_set,1,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_subcategory,book_document:ae_book_title,95,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_subcategory,book_document:quest_book_title,50,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_subcategory,collectible:fishing_special_catch_member,3,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_subcategory,collectible:fishing_species_member,22,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_subcategory,collectible:fishing_species_set,1,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_subcategory,crafting_unlock:ae_ammunition_set,1,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_subcategory,crafting_unlock:ae_equipment_crafting_set,3,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_subcategory,crafting_unlock:ae_ingredient_material_set,3,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_subcategory,crafting_unlock:ae_staff_set,1,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_subcategory,crafting_unlock:ae_weapon_crafting_set,2,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_subcategory,crafting_unlock:alchemy_ingredient_effect_discovery,11,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_subcategory,location:clearable_location,1,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_subcategory,location:content_location,2,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_subcategory,misc_objective:dragonborn_other_misc,1,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_subcategory,misc_objective:dragonborn_raven_rock_misc,1,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_subcategory,misc_objective:dungeon_misc_quest,1,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_subcategory,misc_objective:eastmarch_misc,2,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_subcategory,misc_objective:haafingar_misc,1,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_subcategory,misc_objective:hjaalmarch_misc,1,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_subcategory,misc_objective:non_journal_quest,2,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_subcategory,misc_objective:pale_misc,2,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_subcategory,misc_objective:reach_misc,7,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_subcategory,misc_objective:rift_misc,9,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_subcategory,misc_objective:tutorial_misc,1,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_subcategory,misc_objective:whiterun_misc,1,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_subcategory,misc_objective:windhelm_misc,5,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_subcategory,npc_relationship:housecarl_set,1,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_subcategory,npc_relationship:thaneship,1,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_subcategory,quest:ae_creation_quest,41,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_subcategory,radiant:bounty_quest_type,4,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_subcategory,radiant:college_repeatable,2,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_subcategory,radiant:companions_representative_set,1,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_subcategory,radiant:dragonborn_skaal_misc_radiant,1,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_subcategory,spell_power:ae_spell_item_set,1,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_subcategory,spell_power:dragon_shout,6,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_subcategory,spell_power:standing_stone_choice_set,1,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_subcategory,trophy:dragonborn_trophy,2,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_subcategory,trophy:general_trophy,3,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_subcategory,trophy:misc_objective_trophy,1,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_subcategory,trophy:side_quest_trophy,1,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_subcategory,unique_item:ae_armor_parent_set,4,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_subcategory,unique_item:ae_unique_equipment_parent_set,16,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_subcategory,unique_item:unique_armor,3,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_subcategory,unique_item:unique_clothing,7,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_subcategory,unique_item:unique_jewelry,5,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_subcategory,unique_item:unique_misc_item,1,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+unresolved_by_subcategory,unique_item:unique_weapon,10,Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage.
+audit_artifact,main-guide-v1-objective-id-audit.csv:rows,2789,Generated audit artifact rows in data/guide-coverage/main-guide-v1-objective-id-audit.csv.
+audit_recommended_action,main-guide-v1-objective-id-audit.csv:none,2789,Recommended-action distribution from generated audit artifact.
+audit_status,main-guide-v1-objective-id-audit.csv:covered_by_internal_coverage,2789,Audit-status distribution from generated audit artifact.
+audit_artifact,main-guide-v1-checklist-id-audit.csv:rows,3697,Generated audit artifact rows in data/guide-coverage/main-guide-v1-checklist-id-audit.csv.
+audit_recommended_action,main-guide-v1-checklist-id-audit.csv:none,3697,Recommended-action distribution from generated audit artifact.
+audit_status,main-guide-v1-checklist-id-audit.csv:covered_by_internal_checklist_coverage,2223,Audit-status distribution from generated audit artifact.
+audit_status,main-guide-v1-checklist-id-audit.csv:covered_by_mapped_objective_internal_coverage,1474,Audit-status distribution from generated audit artifact.
+audit_artifact,main-guide-v1-branch-audit.csv:rows,76,Generated audit artifact rows in data/guide-coverage/main-guide-v1-branch-audit.csv.
+audit_recommended_action,main-guide-v1-branch-audit.csv:none,76,Recommended-action distribution from generated audit artifact.
+audit_status,main-guide-v1-branch-audit.csv:branch_checklist_conditionally_not_applicable,1,Audit-status distribution from generated audit artifact.
+audit_status,main-guide-v1-branch-audit.csv:branch_checklist_covered,30,Audit-status distribution from generated audit artifact.
+audit_status,main-guide-v1-branch-audit.csv:branch_checklist_resolved_by_main_continuity,2,Audit-status distribution from generated audit artifact.
+audit_status,main-guide-v1-branch-audit.csv:branch_objective_conditionally_not_applicable,3,Audit-status distribution from generated audit artifact.
+audit_status,main-guide-v1-branch-audit.csv:branch_objective_covered,38,Audit-status distribution from generated audit artifact.
+audit_status,main-guide-v1-branch-audit.csv:branch_objective_resolved_by_main_continuity,2,Audit-status distribution from generated audit artifact.
+audit_artifact,main-guide-v1-option-default-audit.csv:rows,75,Generated audit artifact rows in data/guide-coverage/main-guide-v1-option-default-audit.csv.
+audit_recommended_action,main-guide-v1-option-default-audit.csv:none,75,Recommended-action distribution from generated audit artifact.
+audit_status,main-guide-v1-option-default-audit.csv:option_row_covered,75,Audit-status distribution from generated audit artifact.
+audit_artifact,main-guide-v1-exclusion-audit.csv:rows,322,Generated audit artifact rows in data/guide-coverage/main-guide-v1-exclusion-audit.csv.
+audit_recommended_action,main-guide-v1-exclusion-audit.csv:none,322,Recommended-action distribution from generated audit artifact.
+audit_status,main-guide-v1-exclusion-audit.csv:exclusion_row_covered,317,Audit-status distribution from generated audit artifact.
+audit_status,main-guide-v1-exclusion-audit.csv:exclusion_row_covered_by_mapped_objective,5,Audit-status distribution from generated audit artifact.
+audit_artifact,main-guide-v1-appendix-audit.csv:rows,107,Generated audit artifact rows in data/guide-coverage/main-guide-v1-appendix-audit.csv.
+audit_recommended_action,main-guide-v1-appendix-audit.csv:none,107,Recommended-action distribution from generated audit artifact.
+audit_status,main-guide-v1-appendix-audit.csv:appendix_row_covered,103,Audit-status distribution from generated audit artifact.
+audit_status,main-guide-v1-appendix-audit.csv:appendix_row_covered_by_mapped_objective,4,Audit-status distribution from generated audit artifact.
+audit_artifact,main-guide-v1-location-audit.csv:rows,919,Generated audit artifact rows in data/guide-coverage/main-guide-v1-location-audit.csv.
+audit_recommended_action,main-guide-v1-location-audit.csv:none,913,Recommended-action distribution from generated audit artifact.
+audit_recommended_action,main-guide-v1-location-audit.csv:none_existing_route_resolution,6,Recommended-action distribution from generated audit artifact.
+audit_status,main-guide-v1-location-audit.csv:location_checklist_covered,448,Audit-status distribution from generated audit artifact.
+audit_status,main-guide-v1-location-audit.csv:location_checklist_excluded,1,Audit-status distribution from generated audit artifact.
+audit_status,main-guide-v1-location-audit.csv:location_checklist_route_resolution_recorded,3,Audit-status distribution from generated audit artifact.
+audit_status,main-guide-v1-location-audit.csv:location_objective_covered,464,Audit-status distribution from generated audit artifact.
+audit_status,main-guide-v1-location-audit.csv:location_objective_route_resolution_recorded,3,Audit-status distribution from generated audit artifact.
+audit_artifact,main-guide-v1-book-document-audit.csv:rows,1780,Generated audit artifact rows in data/guide-coverage/main-guide-v1-book-document-audit.csv.
+audit_recommended_action,main-guide-v1-book-document-audit.csv:none,1567,Recommended-action distribution from generated audit artifact.
+audit_recommended_action,main-guide-v1-book-document-audit.csv:none_existing_route_resolution,213,Recommended-action distribution from generated audit artifact.
+audit_status,main-guide-v1-book-document-audit.csv:book_document_checklist_covered,640,Audit-status distribution from generated audit artifact.
+audit_status,main-guide-v1-book-document-audit.csv:book_document_checklist_excluded,314,Audit-status distribution from generated audit artifact.
+audit_status,main-guide-v1-book-document-audit.csv:book_document_checklist_route_resolution_recorded,57,Audit-status distribution from generated audit artifact.
+audit_status,main-guide-v1-book-document-audit.csv:book_document_objective_covered,610,Audit-status distribution from generated audit artifact.
+audit_status,main-guide-v1-book-document-audit.csv:book_document_objective_excluded,3,Audit-status distribution from generated audit artifact.
+audit_status,main-guide-v1-book-document-audit.csv:book_document_objective_route_resolution_recorded,156,Audit-status distribution from generated audit artifact.
+audit_artifact,main-guide-v1-collectible-audit.csv:rows,249,Generated audit artifact rows in data/guide-coverage/main-guide-v1-collectible-audit.csv.
+audit_recommended_action,main-guide-v1-collectible-audit.csv:none,222,Recommended-action distribution from generated audit artifact.
+audit_recommended_action,main-guide-v1-collectible-audit.csv:none_existing_route_resolution,27,Recommended-action distribution from generated audit artifact.
+audit_status,main-guide-v1-collectible-audit.csv:collectible_checklist_covered,59,Audit-status distribution from generated audit artifact.
+audit_status,main-guide-v1-collectible-audit.csv:collectible_checklist_route_resolution_recorded,1,Audit-status distribution from generated audit artifact.
+audit_status,main-guide-v1-collectible-audit.csv:collectible_objective_covered,147,Audit-status distribution from generated audit artifact.
+audit_status,main-guide-v1-collectible-audit.csv:collectible_objective_route_resolution_recorded,26,Audit-status distribution from generated audit artifact.
+audit_status,main-guide-v1-collectible-audit.csv:collectible_unique_gear_covered,16,Audit-status distribution from generated audit artifact.
+audit_artifact,main-guide-v1-crafting-progression-audit.csv:rows,1498,Generated audit artifact rows in data/guide-coverage/main-guide-v1-crafting-progression-audit.csv.
+audit_recommended_action,main-guide-v1-crafting-progression-audit.csv:none,1399,Recommended-action distribution from generated audit artifact.
+audit_recommended_action,main-guide-v1-crafting-progression-audit.csv:none_existing_route_resolution,99,Recommended-action distribution from generated audit artifact.
+audit_status,main-guide-v1-crafting-progression-audit.csv:progression_checklist_covered,1031,Audit-status distribution from generated audit artifact.
+audit_status,main-guide-v1-crafting-progression-audit.csv:progression_checklist_excluded,4,Audit-status distribution from generated audit artifact.
+audit_status,main-guide-v1-crafting-progression-audit.csv:progression_checklist_route_resolution_recorded,70,Audit-status distribution from generated audit artifact.
+audit_status,main-guide-v1-crafting-progression-audit.csv:progression_objective_covered,337,Audit-status distribution from generated audit artifact.
+audit_status,main-guide-v1-crafting-progression-audit.csv:progression_objective_route_resolution_recorded,26,Audit-status distribution from generated audit artifact.
+audit_status,main-guide-v1-crafting-progression-audit.csv:progression_support_covered,8,Audit-status distribution from generated audit artifact.
+audit_status,main-guide-v1-crafting-progression-audit.csv:progression_support_excluded,19,Audit-status distribution from generated audit artifact.
+audit_status,main-guide-v1-crafting-progression-audit.csv:progression_support_route_resolution_recorded,3,Audit-status distribution from generated audit artifact.
+audit_artifact,main-guide-v1-radiant-counter-audit.csv:rows,234,Generated audit artifact rows in data/guide-coverage/main-guide-v1-radiant-counter-audit.csv.
+audit_recommended_action,main-guide-v1-radiant-counter-audit.csv:none,181,Recommended-action distribution from generated audit artifact.
+audit_recommended_action,main-guide-v1-radiant-counter-audit.csv:none_existing_route_resolution,53,Recommended-action distribution from generated audit artifact.
+audit_status,main-guide-v1-radiant-counter-audit.csv:radiant_counter_checklist_covered,103,Audit-status distribution from generated audit artifact.
+audit_status,main-guide-v1-radiant-counter-audit.csv:radiant_counter_checklist_excluded,2,Audit-status distribution from generated audit artifact.
+audit_status,main-guide-v1-radiant-counter-audit.csv:radiant_counter_checklist_route_resolution_recorded,6,Audit-status distribution from generated audit artifact.
+audit_status,main-guide-v1-radiant-counter-audit.csv:radiant_counter_objective_covered,74,Audit-status distribution from generated audit artifact.
+audit_status,main-guide-v1-radiant-counter-audit.csv:radiant_counter_objective_excluded,2,Audit-status distribution from generated audit artifact.
+audit_status,main-guide-v1-radiant-counter-audit.csv:radiant_counter_objective_route_resolution_recorded,47,Audit-status distribution from generated audit artifact.
+coverage_ledger_summary,COV-001:TB-035-COV-001 Objective ID audit,1,Audit generated 2789 rows: 2508 covered by internal coverage; 21 guide-name matches need internal coverage confirmation; 260 objectives need targeted guide or coverage repair before COV-002.
+coverage_ledger_summary,COV-001R:TB-035-COV-001R repair batch 1,1,"Adds internal coverage rows for high-confidence duplicate-covered guide objectives, explicit exclusions, option/default rows, branch reward handling, aggregate systems, and already-routed locations. Ambiguous AE quests, documents, bounties, and unverified item sets remain in the COV-001R queue."
+coverage_ledger_summary,COV-001R:TB-035-COV-001R repair batch 2,1,Adds explicit NEEDS ROUTE RESOLUTION guide notes and internal coverage rows for 30 quest objectives that are source-list or staged-only gaps rather than duplicate-covered guide content.
+coverage_ledger_summary,COV-001R:TB-035-COV-001R repair batch 3,1,"Adds explicit NEEDS ROUTE RESOLUTION guide notes and internal coverage rows for 14 non-quest objective gaps and four bounty document gaps, plus a duplicate-covered aggregate row for the all-holds thaneship set."
+coverage_ledger_summary,COV-001R:TB-035-COV-001R repair batch 4,1,Adds explicit NEEDS ROUTE RESOLUTION guide notes and internal coverage rows for seven crafting or AE item-set objectives whose member tables are expanded but not fully routed in the guide.
+coverage_ledger_summary,COV-001R:TB-035-COV-001R repair batch 5,1,"Adds explicit NEEDS ROUTE RESOLUTION guide notes and internal coverage rows for 40 unique-item objectives, plus a duplicate-covered aggregate row for the Goblins equipment parent set."
+coverage_ledger_summary,COV-001R:TB-035-COV-001R repair batch 6,1,"Adds explicit NEEDS ROUTE RESOLUTION guide notes and internal coverage rows for 119 book/document objectives, plus a duplicate-covered row for Deathbrand (book)."
+coverage_ledger_summary,COV-002:TB-035-COV-002 Checklist ID audit,1,"Audit covers all 3,697 coverage-matrix rows: 2,204 covered by checklist-specific internal coverage, 1,493 covered by mapped objective internal coverage, 0 deferred follow-up buckets, and 0 immediate targeted guide/coverage repairs."
+coverage_ledger_summary,COV-003:TB-035-COV-003 Branch audit,1,Audit covers 33 Branch-route prototype checklist rows and 43 branch_route objective rows. Exact checklist repair rows were added for The Rueful Axe and Azura's Star; TB-044 later closed the Azura branch route-resolution surface. No branch gaps remain after the repair rows.
+coverage_ledger_summary,COV-004:TB-035-COV-004 Option/default audit,1,"Audit covers all 75 Option-list note rows. The guide now names the route defaults plus the full recruitable follower, creature, and mount option sets; 35 exact checklist coverage rows were added for previously deferred option-list rows. No option/default repair actions remain."
+coverage_ledger_summary,COV-005:TB-035-COV-005 Exclusion audit,1,Audit covers all 322 Explicit exclusion rows. Exact internal exclusion coverage rows were added for 314 previously deferred rows; no exclusion repair actions remain.
+coverage_ledger_summary,COV-006:TB-035-COV-006 Appendix-only audit,1,Audit covers all 107 Appendix-only checklist rows. The guide now includes 12 route-reference entries and 95 merchant service-reference entries; exact internal coverage rows were added for 74 previously deferred merchant rows. No appendix-only repair actions remain.
+coverage_ledger_summary,COV-007:TB-035-COV-007 Location audit,1,Audit covers 467 location objectives and 452 checklist location rows. The guide now names the location-reference gaps found by the audit; 915 rows need no action and 4 rows preserve existing route-resolution or exclusion state. No targeted location repair actions remain.
+coverage_ledger_summary,COV-008:TB-035-COV-008 Books/documents audit,1,"Audit covers 769 book/document-related objectives and 1011 Books, Spells, and Dragon Shouts checklist rows. The guide now names exact staged/support document rows found by the audit; 1606 rows need no action and 174 preserve existing route-resolution state. No book/document repair actions remain."
+coverage_ledger_summary,COV-009:TB-035-COV-009 Collectibles audit,1,"Audit covers 173 collectible-related objectives, 60 Collectible Items checklist rows, and 16 relevant Unique Gear rows. 222 rows need no action and 27 preserve existing route-resolution state. No collectible repair actions remain."
+coverage_ledger_summary,COV-010:TB-035-COV-010 Crafting/progression audit,1,"Audit covers 1498 scoped crafting/progression objective, checklist, and support rows. 1438 rows need no action and 60 preserve existing route-resolution state. No crafting/progression repair actions remain."
+coverage_ledger_summary,COV-011:TB-035-COV-011 Radiant/counter audit,1,Audit covers 234 scoped radiant/counter objective and checklist rows. 192 rows need no action and 42 preserve existing route-resolution state. No radiant/counter repair actions remain.
+coverage_ledger_summary,COV-012:TB-035-COV-012 Placeholder search,1,`python3 tools/check_main_guide_placeholders.py drafts/final-guide/main-guide-v1.md` reported no placeholder phrases; no guide prose repairs required.
+coverage_ledger_summary,COV-013:TB-035-COV-013 Final coverage summary,1,"Final summary generated by `python3 tools/summarize_main_guide_coverage.py`: 2,789 objective rows processed; 2,470 placed in main guide; 42 branch-handled; 11 option/default-handled; 18 excluded; 248 unresolved. Objective audit reports 2,789 no-action rows; checklist audit reports 3,697 no-action rows. See `data/guide-coverage/main-guide-v1-final-coverage-summary.csv` and `data/guide-coverage/main-guide-v1-objective-final-status.csv`."
