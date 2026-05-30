@@ -5,10 +5,10 @@ geography_cold_support:recommended_action:none,6,Recommended-action distribution
 geography_transport_support:rows,8,Generated TB-040 audit rows.
 geography_transport_support:status:pass_transport_support_layer_available,8,Audit-status distribution.
 geography_transport_support:recommended_action:none,8,Recommended-action distribution.
-guide_section_logistics:rows,82,Generated TB-040 audit rows.
+guide_section_logistics:rows,84,Generated TB-040 audit rows.
 guide_section_logistics:status:pass_reference_or_reconciliation_section,1,Audit-status distribution.
-guide_section_logistics:status:pass_section_has_survival_logistics_cues,81,Audit-status distribution.
-guide_section_logistics:recommended_action:none,82,Recommended-action distribution.
+guide_section_logistics:status:pass_section_has_survival_logistics_cues,83,Audit-status distribution.
+guide_section_logistics:recommended_action:none,84,Recommended-action distribution.
 legendary_progression_constraint:rows,18,Generated TB-040 audit rows.
 legendary_progression_constraint:status:pass_progression_accounted_in_main_guide,18,Audit-status distribution.
 legendary_progression_constraint:recommended_action:none,18,Recommended-action distribution.
@@ -41,6 +41,6 @@ survival_infrastructure:recommended_action:none_existing_route_resolution,1,Reco
 survival_travel_network:rows,7,Generated TB-040 audit rows.
 survival_travel_network:status:pass_survival_constraint_represented,7,Audit-status distribution.
 survival_travel_network:recommended_action:none,7,Recommended-action distribution.
-all:rows,202,Generated TB-040 audit rows.
-all:recommended_action:none,201,Recommended-action distribution.
+all:rows,204,Generated TB-040 audit rows.
+all:recommended_action:none,203,Recommended-action distribution.
 all:recommended_action:none_existing_route_resolution,1,Recommended-action distribution.

@@ -11,11 +11,11 @@ Final objective status totals:
 | Metric | Count | Notes |
 | --- | --- | --- |
 | objective_rows_processed | 2789 | All rows from data/objectives/objectives.csv were classified. |
-| placed_in_main_guide | 2517 | Non-branch, non-option, non-excluded, non-unresolved objective rows represented in the self-contained guide or promoted guide reference surfaces. |
+| placed_in_main_guide | 2550 | Non-branch, non-option, non-excluded, non-unresolved objective rows represented in the self-contained guide or promoted guide reference surfaces. |
 | branch_handled | 43 | Canonical branch_route objective rows handled by branch-first/reload guide blocks after unresolved rows are counted separately. |
 | option_default_handled | 11 | Canonical option_list objective rows represented by route defaults and option/default guide surfaces. |
 | excluded | 19 | Objective rows with canonical excluded placement or explicit guide/coverage exclusion after unresolved rows are counted separately. |
-| unresolved | 199 | Objective rows with explicit NEEDS ROUTE RESOLUTION coverage, including unresolved branch or appendix rows. |
+| unresolved | 166 | Objective rows with explicit NEEDS ROUTE RESOLUTION coverage, including unresolved branch or appendix rows. |
 | total_classified_objective_rows | 2789 | Should equal objective_rows_processed. |
 
 Raw objective route-placement counts before final-status priority rules:
@@ -33,16 +33,16 @@ Generated audit artifacts:
 | Artifact | Rows | Recommended-action counts |
 | --- | --- | --- |
 | main-guide-v1-appendix-audit.csv | 106 | none: 106 |
-| main-guide-v1-book-document-audit.csv | 1780 | none: 1652, none_existing_route_resolution: 128 |
+| main-guide-v1-book-document-audit.csv | 1780 | none: 1662, none_existing_route_resolution: 118 |
 | main-guide-v1-branch-audit.csv | 76 | none: 76 |
 | main-guide-v1-checklist-id-audit.csv | 3697 | none: 3697 |
 | main-guide-v1-collectible-audit.csv | 249 | none: 227, none_existing_route_resolution: 22 |
-| main-guide-v1-crafting-progression-audit.csv | 1498 | none: 1400, none_existing_route_resolution: 98 |
+| main-guide-v1-crafting-progression-audit.csv | 1498 | none: 1404, none_existing_route_resolution: 94 |
 | main-guide-v1-exclusion-audit.csv | 322 | none: 322 |
 | main-guide-v1-location-audit.csv | 919 | none: 915, none_existing_route_resolution: 4 |
 | main-guide-v1-objective-id-audit.csv | 2789 | none: 2789 |
 | main-guide-v1-option-default-audit.csv | 75 | none: 75 |
-| main-guide-v1-radiant-counter-audit.csv | 234 | none: 187, none_existing_route_resolution: 47 |
+| main-guide-v1-radiant-counter-audit.csv | 234 | none: 182, none_existing_route_resolution: 52 |
 
 ## Appendix B - Guide Section Index
 
@@ -81,69 +81,71 @@ Generated audit artifacts:
 | 701 | Section | Windhelm Murder Investigation and White Phial |
 | 733 | Section | High Hrothgar, Ustengrav, Morthal, and the Embassy |
 | 787 | Section | Windhelm Follow-Up and Eastmarch Roads |
-| 863 | Part | Solitude, Bards, Shield Gate, and Dark Brotherhood |
-| 865 | Section | Solitude Coast, Dragon Bridge, Wild Horse, and Wolfskull |
-| 896 | Section | Bards College, Lost Library, and Instrument Roads |
-| 936 | Section | Potema, Shield of Solitude, and Bone Wolf |
-| 960 | Section | Haafingar Caves, Volskygge, and Night Hunter |
-| 987 | Section | Cicero, Aventus, and the Sanctuary Door |
-| 1007 | Section | First Brotherhood Contracts and Muiri's Revenge |
-| 1028 | Section | Whispers, Solitude Jobs, Nazir Contracts, and the Wedding Assassination |
-| 1085 | Section | Security, Shadowmere, and the Brotherhood Endgame |
-| 1163 | Part | Pale, Winterhold, College, and Level-36 Locks |
-| 1165 | Section | Dawnstar, Vaermina, and Cold-Weather Setup |
-| 1191 | Section | Winterhold, College Entry, and Saarthal |
-| 1233 | Section | The Black Star and Ilinalta's Deep |
-| 1244 | Section | Dawnstar, Pale Blade, and Heljarchen |
-| 1301 | Section | Fellglow Keep and Good Intentions |
-| 1323 | Section | Mzulft and the Winterhold Crisis |
-| 1345 | Section | Labyrinthian and the Eye of Magnus |
-| 1370 | Section | Gauldur Legend Finale |
-| 1389 | Section | College Errands, Arniel, Septimus, and Aetherium |
-| 1416 | Part | Level 46 Reward Loop, Civil War, and Late Main Quest |
-| 1418 | Section | Karthspire, Sky Haven, and Dragonbane |
-| 1431 | Section | Nightingale Rewards and the Skeleton Key |
-| 1461 | Section | Viriya Fishing, Bronze Water, and Wave Breaker |
-| 1495 | Section | Guild Restoration and Amulet of Articulation |
-| 1534 | Section | Whiterun Property, Western Caves, Gray-Mane Rescue, and Onmund |
-| 1559 | Section | Civil War Stormcloak Branch |
-| 1580 | Section | Imperial Civil War |
-| 1610 | Section | Gildergreen Renewal After the War |
-| 1622 | Section | Blades Research, Blackreach, and the Fallen |
-| 1687 | Section | Paarthurnax and Blades Branch |
-| 1697 | Part | Dawnguard, Aetherium, and Transformation Coverage |
-| 1699 | Section | Dawnguard Fork and Volkihar Branch |
-| 1725 | Section | Fort Dawnguard Recruits, Prophet, and Lost Relics |
-| 1770 | Section | Dawnguard Worldspaces |
-| 1842 | Section | Volkihar Finale Branch Continuation |
-| 1864 | Section | Companions Finale, Totems, and Beast-Blood Preservation |
-| 1889 | Part | Solstheim and Dragonborn Spine |
-| 1891 | Section | Solstheim Entry, Raven Rock Core, and Frostmoon Rings |
-| 1941 | Section | Post-Frostmoon Vampire Lord Window |
-| 1955 | Section | Temple of Miraak, Skaal, and Stalhrim |
-| 1983 | Section | Vahlok's Tomb, Riekling Roads, and Thirsk |
-| 2011 | Section | Tel Mithryn, Nchardak, and Kagrumez |
-| 2051 | Section | Kolbjorn Excavation and Raven Rock West |
-| 2083 | Section | Fahlbtharz, Deathbrand, and Karstaag |
-| 2102 | Section | Ghosts of the Tribunal and Trueflame |
-| 2128 | Section | Bittercup, the Pit, and Fortunate Son |
-| 2150 | Section | Miraak Finale, Lost Knowledge, and Last Black Books |
-| 2175 | Section | Vampire Lord Mastery and Rising at Dawn Closeout |
-| 2188 | Part | Main Quest Finale, High-Risk AE, and Black Book Defaults |
-| 2190 | Section | World-Eater's Eyrie and Dragonslayer |
-| 2210 | Section | High-Risk AE Routes and Separate Worldspaces |
-| 2242 | Section | Saints, Seducers, and Atronach Forge Tomes |
-| 2269 | Section | Black Book Defaults and Progression Switches |
-| 2281 | Part | Final Counters, Progression, and Reconciliation |
-| 2283 | Section | Late Location Reconciliation |
-| 2287 | Section | Collectible Reconciliation |
-| 2307 | Section | Books, Spells, and Documents |
-| 2483 | Section | Crafting, Enchanting, Alchemy, and Investments |
-| 2816 | Section | Level 78 and Level 80 Gates |
-| 2848 | Section | All-Perks Loop |
-| 2954 | Section | Homes, Household, Services, Pets, and Mounts |
-| 3004 | Section | Master Criminal Trophy Branch |
-| 3027 | Section | Final Reconciliation |
+| 865 | Part | Solitude, Bards, Shield Gate, and Dark Brotherhood |
+| 867 | Section | Solitude Coast, Dragon Bridge, Wild Horse, and Wolfskull |
+| 898 | Section | Bards College, Lost Library, and Instrument Roads |
+| 938 | Section | Potema, Shield of Solitude, and Bone Wolf |
+| 962 | Section | Haafingar Caves, Volskygge, and Night Hunter |
+| 989 | Section | Cicero, Aventus, and the Sanctuary Door |
+| 1009 | Section | First Brotherhood Contracts and Muiri's Revenge |
+| 1030 | Section | Whispers, Solitude Jobs, Nazir Contracts, and the Wedding Assassination |
+| 1087 | Section | Security, Shadowmere, and the Brotherhood Endgame |
+| 1165 | Part | Pale, Winterhold, College, and Level-36 Locks |
+| 1167 | Section | Dawnstar, Vaermina, and Cold-Weather Setup |
+| 1193 | Section | Winterhold, College Entry, and Saarthal |
+| 1235 | Section | The Black Star and Ilinalta's Deep |
+| 1246 | Section | Dawnstar, Pale Blade, and Heljarchen |
+| 1303 | Section | Fellglow Keep and Good Intentions |
+| 1325 | Section | Mzulft and the Winterhold Crisis |
+| 1347 | Section | Labyrinthian and the Eye of Magnus |
+| 1372 | Section | Gauldur Legend Finale |
+| 1391 | Section | College Errands, Arniel, Septimus, and Aetherium |
+| 1418 | Part | Level 46 Reward Loop, Civil War, and Late Main Quest |
+| 1420 | Section | Karthspire, Sky Haven, and Dragonbane |
+| 1440 | Section | Nightingale Rewards and the Skeleton Key |
+| 1470 | Section | Viriya Fishing, Bronze Water, and Wave Breaker |
+| 1504 | Section | Guild Restoration and Amulet of Articulation |
+| 1543 | Section | Whiterun Property, Western Caves, Gray-Mane Rescue, and Onmund |
+| 1568 | Section | Civil War Stormcloak Branch |
+| 1589 | Section | Imperial Civil War |
+| 1619 | Section | Gildergreen Renewal After the War |
+| 1631 | Section | Blades Research, Blackreach, and the Fallen |
+| 1696 | Section | Paarthurnax and Blades Branch |
+| 1706 | Part | Dawnguard, Aetherium, and Transformation Coverage |
+| 1708 | Section | Dawnguard Fork and Volkihar Branch |
+| 1734 | Section | Fort Dawnguard Recruits, Prophet, and Lost Relics |
+| 1779 | Section | Dawnguard Worldspaces |
+| 1851 | Section | Volkihar Finale Branch Continuation |
+| 1873 | Section | Companions Finale, Totems, and Beast-Blood Preservation |
+| 1903 | Part | Solstheim and Dragonborn Spine |
+| 1905 | Section | Solstheim Entry, Raven Rock Core, and Frostmoon Rings |
+| 1955 | Section | Post-Frostmoon Vampire Lord Window |
+| 1969 | Section | Temple of Miraak, Skaal, and Stalhrim |
+| 1997 | Section | Vahlok's Tomb, Riekling Roads, and Thirsk |
+| 2025 | Section | Tel Mithryn, Nchardak, and Kagrumez |
+| 2069 | Section | Kolbjorn Excavation and Raven Rock West |
+| 2101 | Section | Fahlbtharz, Deathbrand, and Karstaag |
+| 2120 | Section | Ghosts of the Tribunal and Trueflame |
+| 2146 | Section | Bittercup, the Pit, and Fortunate Son |
+| 2168 | Section | Miraak Finale, Lost Knowledge, and Last Black Books |
+| 2193 | Section | Vampire Lord Mastery and Rising at Dawn Closeout |
+| 2206 | Part | Main Quest Finale, High-Risk AE, and Black Book Defaults |
+| 2208 | Section | World-Eater's Eyrie and Dragonslayer |
+| 2228 | Section | High-Risk AE Routes and Separate Worldspaces |
+| 2260 | Section | Saints, Seducers, and Atronach Forge Tomes |
+| 2287 | Section | Black Book Defaults and Progression Switches |
+| 2299 | Section | Legends Lost and Sightless Vault |
+| 2313 | Part | Final Counters, Progression, and Reconciliation |
+| 2315 | Section | Late Location Reconciliation |
+| 2319 | Section | Collectible Reconciliation |
+| 2339 | Section | Books, Spells, and Documents |
+| 2515 | Section | Crafting, Enchanting, Alchemy, and Investments |
+| 2848 | Section | Level 78 and Level 80 Gates |
+| 2880 | Section | All-Perks Loop |
+| 2986 | Section | The Gray Cowl of Nocturnal |
+| 3006 | Section | Homes, Household, Services, Pets, and Mounts |
+| 3057 | Section | Master Criminal Trophy Branch |
+| 3080 | Section | Final Reconciliation |
 
 ## Appendix C - Named Hard-Save Reference
 
@@ -169,6 +171,7 @@ This table mirrors the current hard-save register for quick review. The guide ro
 | `HS-BOW-OF-SHADOWS` | Asking the Whiterun steward for `In the Shadows` work during the level-8 Whiterun/Silent Moons pass. | Continue after `In the Shadows` completes, `Bow of Shadows` is looted and preserved, and the steward reward is received. | Protects the PS4-relevant no-assassin spawn risk, Jarl-occupied scene timing, and Bow of Shadows reward state; not a branch save. |
 | `HS-DAWNFANG-GUARDIAN-VAULT` | Following the Ghostly Apparition from the Ratway Skritch room into the Guardian Vault. | Continue after `A Soul Divided` is complete, Dawnfang/Duskfang is looted and preserved, `Verrick's Note` has started `Bloodthirst`, and all four Sellonus documents are in invent... | Protects the Guardian Vault crash/spawn bugs, the `Verrick's Note` quest-start bug, the conditional Faldar's Tooth note chain, and Dawnfang/Duskfang reward state; not a branch s... |
 | `HS-CHRYSAMERE-FORELHOST` | Approaching Forelhost before speaking to Captain Valmir or starting `Siege on the Dragon Cult`. | Continue after the Lost Paladin is killed, Chrysamere is looted and preserved, and Storm Call: Strun is learned from the battlements word wall. | Protects the Lost Paladin spawn conflict with `Siege on the Dragon Cult`, the unprotected Paladin early-kill risk, and the Chrysamere reward state; not a branch save. |
+| `HS-SHADOWREND-ATRONACH` | Touching Shadowrend at the black geyser pool northeast of The Atronach Stone. | Continue after `[player]'s Shadow` is defeated, `Through a Glass, Darkly` completes, Shadowrend is looted and preserved, and no permanent Marked for Death armor-rating damage is... | Protects the player/follower state from the source-listed Shadow Marked for Death armor-rating bug and the Shadowrend reward/form state; not a branch save. |
 | `HS-DIVINE-CRUSADER-FOUR-SKULL` | Clearing Four Skull Lookout for `Relics of the Crusader`. | Continue after Remy, Viparth, Eigorn, and Oren are defeated, Viparth's Journal is read/taken, and all twelve Divine Crusader relics are acquired without equipping them. | Protects named bandit/relic acquisition and keeps the relic pickup separate from the later clean-continuity pilgrimage; not a branch save. |
 | `HS-DIVINE-CRUSADER-PILGRIMAGE` | Equipping a stored Divine Crusader relic during final reconciliation to start `The Pilgrim's Path`. | Continue after all nine shrines are visited without new infamy actions, `The Pilgrim's Path` completes, and all Divine Crusader relics are returned to owned storage. | Protects the shrine-progress state and the source-listed infamy/restart loop; not a branch save. |
 | `HS-AE-THE-CAUSE-RIELLE` | Entering Rielle Crypt during `The Cause`. | Continue after Janus' Journal, all four shards, the Great Welkynd Stone, Norion, Staff of Ehlno Ede, Rielle Key, and Vigilant Enforcer's Journal are handled. | Protects the bug-sensitive Rielle Crypt order and one-way gate closure risk; not a branch save. |
@@ -191,9 +194,12 @@ This table mirrors the current hard-save register for quick review. The guide ro
 | `HS-SKAAL-ABANDONED-LODGE` | Entering the Abandoned Lodge combat/rescue segment of `A New Source of Stalhrim`. | Continue after Baldor is present, rescued, and the map objective points to Northshore Landing. | Protects the Stalhrim Source Map handoff, Baldor rescue, and stalhrim crafting unlock chain. |
 | `HS-ALL-PERKS-START` | Starting the late all-perks loop after level-gate content and progression setup are complete. | Continue after level 252+, all 251 normal perk ranks, all 18 skills restored to 100 after final Legendary reset, and all master ritual spell gates are complete. | Protects the high-impact Legendary reset loop, final perk allocation, and post-reset combat viability; not a branch save. |
 | `HS-OGHMA-INFINIUM-USE` | Reading Oghma Infinium for the late skill-gap path. | Continue only after the chosen path's expected below-100 skills increase and Oghma is removed in the accepted final state. | Protects the one-time skill-gain choice and documented skill-gain failure risk; not a branch save. |
+| `HS-GRAY-COWL-START` | Starting the late `The Gray Cowl of Nocturnal` route after the all-perks audit. | Continue after the thief/beggar start, Bolli strongbox, Solitude deed route, Silverdrift Lair, Gray Cowl reward, and owned-storage unload are complete. | Protects the Riften thief body/start state, Silverdrift hold-unentered policy, reward handoff, cowl guard-hostility warning, and late route baseline; not a branch save. |
+| `HS-GRAY-COWL-GISLI` | Starting the Gisli deed handling during `The Gray Cowl of Nocturnal`. | Branch first for the pickpocket-only `Stranger's Final Instructions` variant, then reload and keep the Erikur's House forged-deed path on main continuity. | Protects the source-listed final-instructions variant split and keeps branch-exclusive document coverage out of final continuity. |
 | `HS-HOMES-SERVICES-START` | Starting the late homes, household, services, pets, and mounts pass from Tundra Homestead. | Continue after property purchases, household moves, pet checks, and mount checks in the section are complete. | Protects the large gold spend, owned-storage baseline, household move state, and final property-service audit; not a branch save. |
 | `HS-VLINDREL-PURCHASE` | Speaking to Raerek for Vlindrel Hall purchase after Igmund's property prerequisites are complete. | Continue after Vlindrel Hall is purchased, furnished, Thane of the Reach is accepted, and Argis is available. | Protects the Reach property purchase state, especially the source-listed steward/purchase caveats and the post-Cidhna Igmund route. |
 | `HS-FORGOTTEN-SEASONS-RUNOFF` | Entering Runoff Caverns for `Forgotten Seasons`, `The Dwarven Horse`, and `The Dwarven Crown`. | Continue after all four seasonal wings, Turn of the Seasons, the Dwarven Crown, and the Dwarven Horse are complete. | Protects a long separate dungeon bundle with multiple quest rewards, route-critical parts, and Creation reward state. |
+| `HS-LEGENDS-LOST` | Starting the late `Legends Lost` route from New Gnisis Cornerclub. | Continue after all five caravan notes are read/taken, the Attunement Crystal is used, Sightless Pit and Sightless Vault are cleared in one pass, the Messenger is defeated, and b... | Protects the source-listed note-order bugs, one-way Sightless Pit route, Attunement Crystal loss risk, and one-artifact Messenger/vault state. |
 | `HS-BLOODCHILL-DINNER` | Entering Bloodchill Cavern for `Guests for Dinner`. | Continue after the mortal-route feast fight, reward handoff, ownership state, and access checks are complete. | Protects Bloodchill ownership and the source-listed Bloodchill door/key/spouse-state caveats; not a branch save. |
 | `HS-LAKEVIEW-RAYYA-STEWARD` | Assigning Rayya as the permanent Lakeview Manor steward if she was not already assigned. | Continue after Rayya is steward and Lakeview carriage, bard, horse, livestock, exterior, and furnishing orders are placed. | Protects the default Hearthfire steward/service assignment and paid furnishing state; not a branch save. |
 | `HS-WINDSTAD-VALDIMAR-STEWARD` | Assigning Valdimar as the permanent Windstad Manor steward. | Continue after Valdimar is steward and Windstad carriage, bard, horse, livestock, exterior, and furnishing orders are placed. | Protects the default Hearthfire steward/service assignment and paid furnishing state; not a branch save. |
@@ -555,24 +561,23 @@ Unresolved rows by category:
 | Category | Count | Notes |
 | --- | --- | --- |
 | ae_creation | 1 | Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage. |
-| book_document | 77 | Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage. |
+| book_document | 59 | Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage. |
 | collectible | 5 | Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage. |
-| crafting_unlock | 14 | Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage. |
+| crafting_unlock | 12 | Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage. |
 | location | 2 | Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage. |
 | misc_objective | 34 | Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage. |
 | npc_relationship | 2 | Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage. |
-| quest | 6 | Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage. |
-| radiant | 8 | Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage. |
+| radiant | 7 | Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage. |
 | spell_power | 8 | Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage. |
 | trophy | 7 | Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage. |
-| unique_item | 35 | Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage. |
+| unique_item | 29 | Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage. |
 
 Unresolved rows by subcategory:
 
 | Subcategory | Count | Notes |
 | --- | --- | --- |
 | ae_creation:ae_item_consumable_set | 1 | Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage. |
-| book_document:ae_book_title | 27 | Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage. |
+| book_document:ae_book_title | 9 | Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage. |
 | book_document:quest_book_title | 50 | Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage. |
 | collectible:fishing_special_catch_member | 3 | Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage. |
 | collectible:fishing_species_member | 1 | Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage. |
@@ -582,7 +587,7 @@ Unresolved rows by subcategory:
 | crafting_unlock:ae_ingredient_material_set | 3 | Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage. |
 | crafting_unlock:ae_staff_set | 1 | Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage. |
 | crafting_unlock:ae_weapon_crafting_set | 2 | Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage. |
-| crafting_unlock:alchemy_ingredient_effect_discovery | 5 | Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage. |
+| crafting_unlock:alchemy_ingredient_effect_discovery | 3 | Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage. |
 | location:clearable_location | 1 | Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage. |
 | location:content_location | 1 | Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage. |
 | misc_objective:dragonborn_other_misc | 1 | Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage. |
@@ -600,10 +605,8 @@ Unresolved rows by subcategory:
 | misc_objective:windhelm_misc | 5 | Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage. |
 | npc_relationship:housecarl_set | 1 | Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage. |
 | npc_relationship:thaneship | 1 | Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage. |
-| quest:ae_creation_quest | 6 | Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage. |
 | radiant:bounty_quest_type | 4 | Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage. |
 | radiant:college_repeatable | 2 | Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage. |
-| radiant:companions_representative_set | 1 | Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage. |
 | radiant:dragonborn_skaal_misc_radiant | 1 | Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage. |
 | spell_power:ae_spell_item_set | 1 | Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage. |
 | spell_power:dragon_shout | 6 | Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage. |
@@ -612,7 +615,7 @@ Unresolved rows by subcategory:
 | trophy:general_trophy | 3 | Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage. |
 | trophy:misc_objective_trophy | 1 | Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage. |
 | trophy:side_quest_trophy | 1 | Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage. |
-| unique_item:ae_unique_equipment_parent_set | 9 | Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage. |
+| unique_item:ae_unique_equipment_parent_set | 3 | Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage. |
 | unique_item:unique_armor | 3 | Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage. |
 | unique_item:unique_clothing | 7 | Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage. |
 | unique_item:unique_jewelry | 5 | Objective rows classified unresolved by explicit NEEDS ROUTE RESOLUTION coverage. |
@@ -623,7 +626,6 @@ Full unresolved objective index:
 
 | Objective ID | Objective | Category | Subcategory | Route placement | Guide location |
 | --- | --- | --- | --- | --- | --- |
-| OBJ-000115 | Companions Radiant Representative Set | radiant | companions_representative_set | appendix | Beast Blood And The Silver Hand \| Companions Entry \| TB-038R order and delayed-task repair register |
 | OBJ-000127 | Fetch me that Book! | radiant | college_repeatable | main_route | College Errands Arniel Septimus And Aetherium \| TB-038R order and delayed-task repair register \| Winterhold, College Entry, And Saarthal |
 | OBJ-000128 | Shalidor's Insights | radiant | college_repeatable | main_route | College Errands Arniel Septimus And Aetherium \| Labyrinthian And The Eye Of Magnus \| TB-038R order and delayed-task repair register \| Winterhold, College Entry, And Saarthal |
 | OBJ-000219 | Sideways Trophy Set | trophy | side_quest_trophy | main_route | Bards College Lost Library And Instrument Roads \| Blades Research Blackreach And The Fallen \| Bleak Falls Barrow And First Dragon \| Cicero Aventus And The Sanctuary Door \| Dawns... |
@@ -667,12 +669,6 @@ Full unresolved objective index:
 | OBJ-000469 | Sell Stalhrim Armor and Weapons to Ancarion | misc_objective | dragonborn_other_misc | main_route | TB-038R order and delayed-task repair register \| Temple Of Miraak, Skaal, And Stalhrim |
 | OBJ-000476 | Stalhrim Crafter Trophy Set | trophy | dragonborn_trophy | main_route | TB-038R order and delayed-task repair register \| Temple Of Miraak, Skaal, And Stalhrim |
 | OBJ-000477 | Dragonrider Trophy Set | trophy | dragonborn_trophy | main_route | Collectible Reconciliation \| Final Reconciliation \| Miraak Finale, Lost Knowledge, And Last Black Books |
-| OBJ-000645 | Through a Glass, Darkly | quest | ae_creation_quest | main_route | Final Reconciliation open route-resolution items |
-| OBJ-000646 | Crypt of the Heart | quest | ae_creation_quest | main_route | Karthspire Sky Haven And Dragonbane \| TB-038R order and delayed-task repair register |
-| OBJ-000648 | Put A Fork In It | quest | ae_creation_quest | main_route | Kolbjorn Excavation And Raven Rock West \| Solstheim Entry, Raven Rock Core, And Frostmoon Rings \| TB-038R order and delayed-task repair register |
-| OBJ-000649 | If I had a Hammer | quest | ae_creation_quest | main_route | Markarth Nchuand-Zel And Old Hroldan \| TB-038R order and delayed-task repair register |
-| OBJ-000650 | Legends Lost | quest | ae_creation_quest | main_route | Cicero Aventus And The Sanctuary Door \| TB-038R order and delayed-task repair register |
-| OBJ-000654 | The Gray Cowl of Nocturnal | quest | ae_creation_quest | main_route | Final Reconciliation open route-resolution items |
 | OBJ-000693 | Arcane Accessories Spell Tome and Robe Set | spell_power | ae_spell_item_set | main_route | Bards College Lost Library And Instrument Roads \| TB-038R order and delayed-task repair register |
 | OBJ-000696 | Staves Creation Staff Set | crafting_unlock | ae_staff_set | main_route | Final Reconciliation open route-resolution items |
 | OBJ-000697 | Rare Curios Ammunition, Ingredient, and Curio Set | crafting_unlock | ae_ingredient_material_set | main_route | Final Reconciliation open route-resolution items |
@@ -684,19 +680,13 @@ Full unresolved objective index:
 | OBJ-000707 | Expanded Crossbow Pack Weapon and Crafting Set | crafting_unlock | ae_weapon_crafting_set | main_route | Final Reconciliation route-resolution list \| Potema Shield Of Solitude And Bone Wolf |
 | OBJ-000708 | Elite Crossbows Weapon and Crafting Set | crafting_unlock | ae_weapon_crafting_set | main_route | Final Reconciliation route-resolution list \| Haafingar Caves Volskygge And Night Hunter |
 | OBJ-000710 | Fearsome Fists Brawler Gauntlet Set | crafting_unlock | ae_equipment_crafting_set | main_route | Final Reconciliation open route-resolution items |
-| OBJ-000730 | Spell Knight Armor Parent Set | unique_item | ae_unique_equipment_parent_set | main_route | Karthspire Sky Haven And Dragonbane \| TB-038R order and delayed-task repair register |
 | OBJ-000738 | Dead Man's Dread Equipment Parent Set | unique_item | ae_unique_equipment_parent_set | main_route | Final Reconciliation open route-resolution items |
-| OBJ-000743 | Shadowrend Unique Weapon | unique_item | ae_unique_equipment_parent_set | main_route | Final Reconciliation open route-resolution items |
-| OBJ-000745 | Staff of Sheogorath Unique Staff | unique_item | ae_unique_equipment_parent_set | main_route | Final Reconciliation open route-resolution items |
-| OBJ-000746 | Stendarr's Hammer Unique Weapon | unique_item | ae_unique_equipment_parent_set | main_route | Markarth Nchuand-Zel And Old Hroldan \| TB-038R order and delayed-task repair register |
-| OBJ-000747 | Sunder and Wraithguard Artifact Parent Set | unique_item | ae_unique_equipment_parent_set | main_route | Final Reconciliation open route-resolution items |
-| OBJ-000748 | The Gray Cowl Returns Equipment Parent Set | unique_item | ae_unique_equipment_parent_set | main_route | Final Reconciliation open route-resolution items |
 | OBJ-000757 | Pets of Skyrim Pet Equipment Parent Set | unique_item | ae_unique_equipment_parent_set | main_route | Final Reconciliation open route-resolution items |
 | OBJ-000758 | Wild Horses Map and Saddle Parent Set | unique_item | ae_unique_equipment_parent_set | main_route | Solitude Coast Wild Horse And Wolfskull \| TB-038R order and delayed-task repair register |
 | OBJ-000761 | Animal Allegiance | spell_power | dragon_shout | main_route | Companions Finale, Totems, And Beast-Blood Preservation \| Riften Thaneship Frost And Rift Roads \| TB-038R order and delayed-task repair register |
 | OBJ-000762 | Aura Whisper | spell_power | dragon_shout | main_route | Riften Thaneship Frost And Rift Roads \| TB-038R order and delayed-task repair register \| Whispers, Solitude Jobs, And The Wedding Assassination |
 | OBJ-000764 | Become Ethereal | spell_power | dragon_shout | main_route | Main Quest Staging Before Sky Haven \| TB-038R order and delayed-task repair register |
-| OBJ-000770 | Disarm | spell_power | dragon_shout | main_route | Goldenglow Honningbrew Solitude And Snow Veil \| TB-038R order and delayed-task repair register |
+| OBJ-000770 | Disarm | spell_power | dragon_shout | main_route | Goldenglow Honningbrew Solitude And Snow Veil \| TB-038R order and delayed-task repair register \| The Gray Cowl of Nocturnal |
 | OBJ-000771 | Dismay | spell_power | dragon_shout | main_route | Labyrinthian And The Eye Of Magnus \| Riften Thaneship Frost And Rift Roads \| TB-038R order and delayed-task repair register |
 | OBJ-000776 | Fire Breath | spell_power | dragon_shout | main_route | Blades Research Blackreach And The Fallen \| Companions Entry \| TB-038R order and delayed-task repair register |
 | OBJ-000788 | Standing Stone Power and Ability Choice Set | spell_power | standing_stone_choice_set | main_route | Helgen Riverwood And First Survival Loop \| TB-038R order and delayed-task repair register |
@@ -751,32 +741,14 @@ Full unresolved objective index:
 | OBJ-001325 | Note from Mogrul | book_document | quest_book_title | main_route | Bittercup, The Pit, And Fortunate Son \| Black Book Defaults and Progression Switches \| Books, Spells, and Documents \| Fahlbtharz, Deathbrand, And Karstaag \| Final Reconciliation... |
 | OBJ-001331 | Scribbles of a Madman | book_document | quest_book_title | main_route | Final Reconciliation open route-resolution items |
 | OBJ-001346 | Assembly Line Constructs | book_document | ae_book_title | main_route | Final Reconciliation open route-resolution items |
-| OBJ-001351 | Beldama Witch's Note | book_document | ae_book_title | main_route | Karthspire Sky Haven And Dragonbane \| TB-038R order and delayed-task repair register |
-| OBJ-001375 | Caravan Captain's Note | book_document | ae_book_title | main_route | Markarth Prison Daedric Rites And Reach Redoubts \| TB-038R order and delayed-task repair register |
-| OBJ-001376 | Carriage Driver's Note | book_document | ae_book_title | main_route | Final Reconciliation open route-resolution items |
 | OBJ-001385 | Dinner Menu | book_document | ae_book_title | main_route | Final Reconciliation open route-resolution items |
 | OBJ-001386 | Ehlhiel's Journal | book_document | ae_book_title | main_route | Final Reconciliation open route-resolution items |
 | OBJ-001393 | Eydvina's Note | book_document | ae_book_title | main_route | Final Reconciliation open route-resolution items |
-| OBJ-001404 | Forsworn Shaman's Note | book_document | ae_book_title | main_route | Karthspire Sky Haven And Dragonbane \| TB-038R order and delayed-task repair register |
-| OBJ-001429 | Knight Captain's Orders | book_document | ae_book_title | main_route | Karthspire Sky Haven And Dragonbane \| TB-038R order and delayed-task repair register |
-| OBJ-001440 | Letter to Gisli | book_document | ae_book_title | main_route | Final Reconciliation open route-resolution items |
-| OBJ-001451 | Lost Caravan Guard's Note | book_document | ae_book_title | main_route | Final Reconciliation open route-resolution items |
 | OBJ-001455 | Manufactory Repair Parts | book_document | ae_book_title | main_route | Final Reconciliation open route-resolution items |
 | OBJ-001459 | Mercenary's Note | book_document | ae_book_title | main_route | Final Reconciliation open route-resolution items |
-| OBJ-001463 | Mysterious Note (Staff of Sheogorath) | book_document | ae_book_title | main_route | Final Reconciliation open route-resolution items |
-| OBJ-001470 | Nivenor's Journal | book_document | ae_book_title | main_route | Final Reconciliation open route-resolution items |
 | OBJ-001490 | Please Read Aloud | book_document | ae_book_title | main_route | Final Reconciliation open route-resolution items |
 | OBJ-001492 | Possible Vampire Cave | book_document | ae_book_title | main_route | Final Reconciliation open route-resolution items |
-| OBJ-001500 | Seedy Guard's Note | book_document | ae_book_title | main_route | Cicero Aventus And The Sanctuary Door \| TB-038R order and delayed-task repair register |
-| OBJ-001511 | Stranger's Final Instructions (alternate) | book_document | ae_book_title | main_route | Final Reconciliation open route-resolution items |
-| OBJ-001512 | Stranger's Final Instructions (pickpocket) | book_document | ae_book_title | main_route | Final Reconciliation open route-resolution items |
-| OBJ-001513 | Stranger's Instructions | book_document | ae_book_title | main_route | Final Reconciliation open route-resolution items |
-| OBJ-001514 | Stranger's Journal | book_document | ae_book_title | main_route | Final Reconciliation open route-resolution items |
-| OBJ-001515 | Stranger's Note | book_document | ae_book_title | main_route | Final Reconciliation open route-resolution items |
 | OBJ-001529 | The Restless (book) | book_document | ae_book_title | main_route | Goldenglow Honningbrew Solitude And Snow Veil \| TB-038R order and delayed-task repair register |
-| OBJ-001530 | The Sword of Clan Ice-Blade | book_document | ae_book_title | main_route | Final Reconciliation open route-resolution items |
-| OBJ-001531 | Thief's Note | book_document | ae_book_title | main_route | Final Reconciliation open route-resolution items |
-| OBJ-001542 | Velyne's Letter | book_document | ae_book_title | main_route | Final Reconciliation open route-resolution items |
 | OBJ-001617 | Unique Item: Drainblood Battleaxe | unique_item | unique_weapon | main_route | Final Reconciliation open route-resolution items |
 | OBJ-001621 | Unique Item: Bow of the Hunt | unique_item | unique_weapon | main_route | Final Reconciliation open route-resolution items |
 | OBJ-001622 | Unique Item: Drainspell Bow | unique_item | unique_weapon | main_route | Final Reconciliation open route-resolution items |
@@ -815,8 +787,6 @@ Full unresolved objective index:
 | OBJ-002663 | Discover Alchemy Effects: Glassfish | crafting_unlock | alchemy_ingredient_effect_discovery | main_route | Crafting, Enchanting, Alchemy, and Investments \| TB-038R order and delayed-task repair register |
 | OBJ-002666 | Discover Alchemy Effects: Goldfish | crafting_unlock | alchemy_ingredient_effect_discovery | main_route | Crafting, Enchanting, Alchemy, and Investments \| TB-038R order and delayed-task repair register |
 | OBJ-002676 | Discover Alchemy Effects: Juvenile Mudcrab | crafting_unlock | alchemy_ingredient_effect_discovery | main_route | Crafting, Enchanting, Alchemy, and Investments \| First Riften Visit And Guild Doorway \| TB-038R order and delayed-task repair register |
-| OBJ-002712 | Discover Alchemy Effects: Corrupted Human Heart | crafting_unlock | alchemy_ingredient_effect_discovery | main_route | Crafting, Enchanting, Alchemy, and Investments \| Final Reconciliation \| Karthspire Sky Haven And Dragonbane |
-| OBJ-002716 | Discover Alchemy Effects: Simon Rodayne's Heart | crafting_unlock | alchemy_ingredient_effect_discovery | main_route | Crafting, Enchanting, Alchemy, and Investments \| Final Reconciliation \| Karthspire Sky Haven And Dragonbane |
 | OBJ-002756 | Coming of Age | misc_objective | non_journal_quest | main_route | Final Reconciliation open route-resolution items |
 | OBJ-002759 | Rannveig's Fast Non-Journal Quest | misc_objective | non_journal_quest | main_route | Final Reconciliation open route-resolution items |
 | OBJ-002773 | Thief Trophy Set | trophy | general_trophy | main_route | Final Reconciliation open route-resolution items |

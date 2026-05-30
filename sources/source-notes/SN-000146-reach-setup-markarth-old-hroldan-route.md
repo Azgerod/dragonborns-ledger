@@ -57,7 +57,7 @@ The safe city errands are routed now because they begin and end in the same Mark
 
 Calcelmo's Nchuand-Zel content is routed now because `Nimhe, the Poisoned One` grants access to the excavation and leads directly to Alethius's Notes. The guide takes the journals in source-listed quest order, puts Stromm first, and avoids the known bug where taking later journals before Stromm can break normal completion. It also uses the source note that the quest arrow may point back to the Armory after the lever; the guide sends the player out to Calcelmo instead.
 
-After Nimhe is reported, the Dwemer Museum Stone of Barenziah can be taken under Calcelmo's access. The guide takes only that Stone because Stendarr's Hammer is heavy and theft/AE-route sensitive, while Calcelmo's Laboratory and Tower are reserved for `Hard Answers`.
+After Nimhe is reported, the Dwemer Museum Stone of Barenziah can be taken under Calcelmo's access. The guide takes only that Stone because Stendarr's Hammer is 100-weight carry/storage-sensitive and is now routed in `SN-000246` after Vlindrel Hall is owned, while Calcelmo's Laboratory and Tower are reserved for `Hard Answers`.
 
 Soljund's Sinkhole is pulled into this pass because it is on the Old Hroldan road, is far above its suggested/minimum level by this point, and has a same-site Perth turn-in. The source says Soljund's Sinkhole does not receive a cleared-map state even though the quest clears the draugr; the guide therefore uses the quest turn-in and location discovery cue rather than a cleared-location cue. `Jornibret's Last Dance` and `Boethiah's Proving` get a local warning because this route sends the player into the exact mine room where those books may be visible.
 

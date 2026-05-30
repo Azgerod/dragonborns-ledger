@@ -33,6 +33,25 @@ CLOSURE_IDS = {
     "OBJ-001390",  # Eranya's Research Notes is later read in the Goldbrand/A Matter of Pride route.
     "OBJ-001501",  # Seeks-Ancient-Artifacts' Journal, v1 is later read in the Nchuanthumz route.
     "OBJ-001508",  # Soran's Journal is later read in the Creature of Legend route.
+    "OBJ-000646",  # Crypt of the Heart is later completed in the Spell Knight/Karthspire route.
+    "CHK-QUESTS-0629",  # Crypt of the Heart checklist row is later completed in the Spell Knight/Karthspire route.
+    "CHK-BOOKS-2453",  # Crypt of the Heart - Draft is later read in the Spell Knight/Karthspire route.
+    "OBJ-000730",  # Spell Knight Armor parent set is later closed by reward branch, main reward, and crafting route.
+    "OBJ-001351",  # Beldama Witch's Note is later read during the Spell Knight/Karthspire route.
+    "OBJ-001404",  # Forsworn Shaman's Note is later read during the Spell Knight grave route.
+    "OBJ-001429",  # Knight Captain's Orders is later read during the Spell Knight grave route.
+    "OBJ-000648",  # Put A Fork In It is later completed after Tel Mithryn Staff Enchanter access.
+    "CHK-QUESTS-0578",  # Put A Fork In It checklist row is later completed in the Staff of Sheogorath route.
+    "OBJ-000745",  # Staff of Sheogorath parent set is later closed by fork/trial/staff crafting route.
+    "OBJ-001463",  # Mysterious Note (Staff of Sheogorath) is later read at The Retching Netch.
+    "ITEM-000761",  # Staff Enchanter cross-reference is later covered by the Tel Mithryn Staff of Sheogorath craft.
+    "ITEM-000764",  # Staff Enchanter cross-reference is later covered by the same recipe even though Myrwatch is not used.
+    "OBJ-000649",  # If I had a Hammer is later completed after Vlindrel Hall storage is available.
+    "CHK-QUESTS-0581",  # If I had a Hammer checklist row is later completed in the late Markarth storage pass.
+    "OBJ-000746",  # Stendarr's Hammer parent set is later closed by the Dwemer Museum pickup and preservation route.
+    "OBJ-001375",  # Caravan Captain's Note is later read during the Legends Lost route.
+    "OBJ-001500",  # Seedy Guard's Note is later read during the Legends Lost route.
+    "OBJ-000650",  # Legends Lost is later completed through the late Sunder and Wraithguard route.
     "OBJ-001773",  # Stones of Barenziah set is closed by No Stone Unturned.
     "OBJ-001774",  # Whiterun Stone of Barenziah member acquired in guide.
     "OBJ-001796",  # Pinewatch Stone of Barenziah member acquired in guide.

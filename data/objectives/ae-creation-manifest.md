@@ -53,7 +53,7 @@ Result: all 74 AE parent package rows now have at least one source-list child ro
 | OBJ-000484 | Plague of the Dead | OBJ-000632, OBJ-000692, OBJ-000695, OBJ-000699 | quest, system/item, spell/power, crafting/equipment | Level-start, zombie-system, spell, ingredient, and Survival Mode details remain deferred. |
 | OBJ-000485 | Ruin's Edge | OBJ-000634, OBJ-000742 | quest, unique/equipment | Quest constraints, acquisition timing, and preservation details remain deferred. |
 | OBJ-000486 | Staff of Sheogorath | OBJ-000648, OBJ-000745 | quest, unique/equipment | Quest constraints, acquisition timing, and preservation details remain deferred. |
-| OBJ-000487 | Stendarr's Hammer | OBJ-000649, OBJ-000746 | quest, unique/equipment | Quest constraints, acquisition timing, and preservation details remain deferred. |
+| OBJ-000487 | Stendarr's Hammer | OBJ-000649, OBJ-000746 | quest, unique/equipment | TB-044 routes acquisition after Vlindrel Hall storage is available: use Calcelmo museum access, take the 100-weight hammer from the Dwemer Museum southwest display, and preserve it in owned storage. |
 | OBJ-000488 | Dwarven Armored Mudcrab | OBJ-000585, OBJ-000669, OBJ-000759 | quest, pet/mount, unique/equipment | Pet, spell/item, acquisition, and checklist details remain deferred. |
 | OBJ-000489 | Lord's Mail | OBJ-000625, OBJ-000741 | quest, unique/equipment | Quest constraints, item-state handling, and preservation details remain deferred. |
 | OBJ-000490 | Adventurer's Backpack | OBJ-000704 | crafting/equipment | Backpack variants, recipes, checklist, and Survival Mode logistics remain deferred. |
@@ -72,11 +72,11 @@ Result: all 74 AE parent package rows now have at least one source-list child ro
 | OBJ-000503 | Elite Crossbows | OBJ-000586, OBJ-000708 | quest, crafting/equipment | Crossbow acquisition, recipe, checklist, and route details remain deferred. |
 | OBJ-000504 | Forgotten Seasons | OBJ-000611, OBJ-000612, OBJ-000613, OBJ-000688, OBJ-000701, OBJ-000739 | quest, pet/mount, system/item, unique/equipment | Dungeon, mount, item, reward, difficulty, and route details remain deferred. |
 | OBJ-000505 | Saturalia Holiday Pack | OBJ-000643, OBJ-000689, OBJ-000734 | quest, pet/mount, unique/equipment | Outfit, mount, checklist, and northern-route details remain deferred. |
-| OBJ-000506 | Sunder & Wraithguard | OBJ-000650, OBJ-000747 | quest, unique/equipment | Quest constraints, artifact preservation, and route details remain deferred. |
+| OBJ-000506 | Sunder & Wraithguard | OBJ-000650, OBJ-000747 | quest, unique/equipment | TB-044 routes `Legends Lost` after Saints/Seducers, Keening, and Scholar's Insight: start from `Lost Caravan Guard's Note`, follow the caravan-note chain, clear Sightless Pit/Sightless Vault in one pass, and preserve Sunder and Wraithguard. |
 | OBJ-000507 | Vigil Enforcer Armor Set | OBJ-000656, OBJ-000731 | quest, unique/equipment | Quest constraints, armor-member, and Hall of the Vigilant timing details remain deferred. |
 | OBJ-000508 | Arms of Chaos | OBJ-000571, OBJ-000735 | quest, unique/equipment | Quest constraints, item-member, reward, and route details remain deferred. |
 | OBJ-000509 | Shadowfoot Sanctum | OBJ-000644, OBJ-000667 | quest, property | Acquisition, safe-storage, display, furnishing, and family-use details remain deferred. |
-| OBJ-000510 | Spell Knight Armor | OBJ-000646, OBJ-000730 | quest, unique/equipment | Quest outcome, armor-member, crafting, and preservation details remain deferred. |
+| OBJ-000510 | Spell Knight Armor | OBJ-000646, OBJ-000730 | quest, unique/equipment | TB-044 routes `Crypt of the Heart`, Spell Knight armor reward branches, crafting unlock, documents, hard saves, and heart alchemy policy in SN-000244. |
 | OBJ-000511 | Umbra | OBJ-000655, OBJ-000749 | quest, unique/equipment | Quest constraints, difficulty, acquisition, and preservation details remain deferred. |
 | OBJ-000512 | Alternative Armors - Dwarven Mail | OBJ-000557, OBJ-000717 | quest, unique/equipment | Quest constraints, armor-member, recipe, and checklist details remain deferred. |
 | OBJ-000513 | Alternative Armors - Stalhrim Fur | OBJ-000566, OBJ-000726 | quest, unique/equipment | Quest constraints, armor-member, recipe, and checklist details remain deferred. |
@@ -92,7 +92,7 @@ Result: all 74 AE parent package rows now have at least one source-list child ro
 | OBJ-000523 | Goblins | OBJ-000621, OBJ-000679, OBJ-000756 | quest, follower, unique/equipment | Follower, carried item, quest, and route details remain deferred. |
 | OBJ-000524 | Saints & Seducers | OBJ-000635, OBJ-000636, OBJ-000637, OBJ-000638, OBJ-000639, OBJ-000640, OBJ-000641, OBJ-000642, OBJ-000677, OBJ-000678, OBJ-000698 | quest, pet/mount, crafting/equipment | Quest, pet, ingredient, branch/conflict, and item-member details remain deferred. |
 | OBJ-000525 | Hendraheim | OBJ-000624, OBJ-000664 | quest, property | Acquisition, safe-storage, display, furnishing, and family-use details remain deferred. |
-| OBJ-000526 | The Gray Cowl Returns! | OBJ-000654, OBJ-000748 | quest, unique/equipment | Quest constraints, item-member, reward, and route details remain deferred. |
+| OBJ-000526 | The Gray Cowl Returns! | OBJ-000654, OBJ-000748 | quest, unique/equipment | TB-044 routes the full quest after the all-perks audit, including the Gisli/deed branch note variant, Silverdrift key/chest/sword handling, Gray Cowl reward preservation, and item-member closeout. |
 | OBJ-000527 | Alternative Armors - Daedric Plate | OBJ-000554, OBJ-000714 | quest, unique/equipment | Quest constraints, armor-member, recipe, and checklist details remain deferred. |
 | OBJ-000528 | Alternative Armors - Dragon Plate | OBJ-000556, OBJ-000715 | quest, unique/equipment | Quest constraints, armor-member, recipe, and checklist details remain deferred. |
 | OBJ-000529 | Alternative Armors - Dwarven Plate | OBJ-000558, OBJ-000718 | quest, unique/equipment | Quest constraints, armor-member, recipe, and checklist details remain deferred. |
@@ -131,8 +131,8 @@ Result: all 74 AE parent package rows now have at least one source-list child ro
 | OBJ-000483 | Divine Crusader | Apparel; Weapons | Armor can be found by exploring Four Skull Lookout far east-northeast of Markarth. | Unique items |
 | OBJ-000484 | Plague of the Dead | Creatures; Gameplay | Quest "The Rising Dead" starts by reading an Anonymous Letter delivered by courier upon reaching level 5. | Quest and system |
 | OBJ-000485 | Ruin's Edge | Weapons | Weapon is located in Stony Creek Cave far southeast of Windhelm. | Unique item |
-| OBJ-000486 | Staff of Sheogorath | Weapons | Quest "Put a Fork in it" starts by reading a "Mysterious Note" at The Retching Netch in Raven Rock. | Quest and unique item |
-| OBJ-000487 | Stendarr's Hammer | Weapons | Weapon can be stolen from the Dwemer Museum in Markarth. | Unique item |
+| OBJ-000486 | Staff of Sheogorath | Weapons | Quest "Put a Fork in it" starts by reading a "Mysterious Note" at The Retching Netch in Raven Rock; the route waits until Tel Mithryn Staff Enchanter access is unlocked, then crafts the staff with the two netch quest items and two Heart Stones. | Quest and unique item |
+| OBJ-000487 | Stendarr's Hammer | Weapons | Weapon can be taken from the Dwemer Museum in Markarth; TB-044 waits until late Markarth owned storage because the hammer weighs 100. | Unique item |
 | OBJ-000488 | Dwarven Armored Mudcrab | Creatures | Pet can be purchased from Calcelmo in Markarth. | Pet |
 | OBJ-000489 | Lord's Mail | Apparel | Quest "Gift of Kynareth" starts by reading "Letter to General Tullius" at Castle Dour in Solitude. | Quest and unique item |
 | OBJ-000490 | Adventurer's Backpack | Apparel; Gameplay | Backpacks can be purchased at vendors and crafted via Forge. | Crafting and equipment |
@@ -151,7 +151,7 @@ Result: all 74 AE parent package rows now have at least one source-list child ro
 | OBJ-000503 | Elite Crossbows | Weapons | Quest "Night Hunter" starts by reading Kragrash's Letter at Ironback Hideout northwest of Solitude. | Quest and equipment |
 | OBJ-000504 | Forgotten Seasons | Apparel; Creatures; Gameplay; World | Search for the Runoff Caverns west of Lost Valley Redoubt. | Quest and dungeon |
 | OBJ-000505 | Saturalia Holiday Pack | Apparel; Creatures | Outfit and mount obtained from Agrane Peryval west of Dawnstar. | Mount and equipment |
-| OBJ-000506 | Sunder & Wraithguard | Apparel; Weapons | Quest "Legends Lost" starts by reading the Lost Caravan Guard's Note at the New Gnisis Cornerclub in Windhelm. | Quest and unique items |
+| OBJ-000506 | Sunder & Wraithguard | Apparel; Weapons | Quest "Legends Lost" starts by reading the Lost Caravan Guard's Note at the New Gnisis Cornerclub in Windhelm; TB-044 completes it through the full caravan-note chain and Sightless Vault after Keening and Scholar's Insight are ready. | Quest and unique items |
 | OBJ-000507 | Vigil Enforcer Armor Set | Apparel | Quest "Unholy Vigil" starts by reading the Letter to Keeper Carcette in the Hall of the Vigilant south of Dawnstar. | Quest and equipment |
 | OBJ-000508 | Arms of Chaos | Apparel; Weapons | Quest "The Arms of Chaos" starts by reading Hyenril's Journal at Skytemple Ruins, north of the College of Winterhold. | Quest and unique items |
 | OBJ-000509 | Shadowfoot Sanctum | World | House can be purchased from Vekel the Man in the Ragged Flagon in the Riften Ratway. | Property |
@@ -171,7 +171,7 @@ Result: all 74 AE parent package rows now have at least one source-list child ro
 | OBJ-000523 | Goblins | Creatures | Quest "Blue in the Face" starts by reading Letter to Clexius at The Bee and Barb in Riften. | Quest and creature |
 | OBJ-000524 | Saints & Seducers | Apparel; Creatures; Gameplay; Weapons; World | Quest "Balance of Power" starts by talking to the traveling Khajiit Merchant Ri'saad. | Quest, items, and system |
 | OBJ-000525 | Hendraheim | World | Quest "Hendraheim" starts by reading the Warrior's Challenge delivered by courier upon reaching level 10. | Property and quest |
-| OBJ-000526 | The Gray Cowl Returns! | Apparel | Quest "The Gray Cowl of Nocturnal" starts by confronting a thief in the Riften graveyard. | Quest and unique item |
+| OBJ-000526 | The Gray Cowl Returns! | Apparel | Quest "The Gray Cowl of Nocturnal" starts by confronting a thief in the Riften graveyard; TB-044 routes it late after all-perks recovery. | Quest and unique item |
 | OBJ-000527 | Alternative Armors - Daedric Plate | Apparel | Quest "Beyond the Grave" starts by reading Death of a Crimson Dirk in Dragonreach Dungeon in Whiterun. | Quest and equipment |
 | OBJ-000528 | Alternative Armors - Dragon Plate | Apparel | Bones for a Crow starts by speaking to an innkeeper for Bounty for Crowstooth. | Quest and equipment |
 | OBJ-000529 | Alternative Armors - Dwarven Plate | Apparel | Quest "Mightier than the Sword" starts by reading Looter's Note at the Silver-Blood Inn in Markarth. | Quest and equipment |

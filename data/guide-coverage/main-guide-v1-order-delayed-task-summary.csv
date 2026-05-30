@@ -1,20 +1,20 @@
 metric,count,notes
-branch_reload:rows,8,Generated audit rows.
-delayed_coverage:rows,2968,Generated audit rows.
-hard_save_register:rows,96,Generated audit rows.
-branch_reload:status:pass_branch_reload_cue_found,8,Audit-status distribution.
-delayed_coverage:status:pass_closed_by_later_same_record,1652,Audit-status distribution.
-delayed_coverage:status:pass_closed_elsewhere_same_record,955,Audit-status distribution.
-delayed_coverage:status:pass_explicit_route_resolution,139,Audit-status distribution.
+branch_reload:rows,9,Generated audit rows.
+delayed_coverage:rows,2971,Generated audit rows.
+hard_save_register:rows,103,Generated audit rows.
+branch_reload:status:pass_branch_reload_cue_found,9,Audit-status distribution.
+delayed_coverage:status:pass_closed_by_later_same_record,1663,Audit-status distribution.
+delayed_coverage:status:pass_closed_elsewhere_same_record,961,Audit-status distribution.
+delayed_coverage:status:pass_explicit_route_resolution,123,Audit-status distribution.
 delayed_coverage:status:pass_final_status_branch_handled,1,Audit-status distribution.
 delayed_coverage:status:pass_progress_continues_later_same_record,8,Audit-status distribution.
 delayed_coverage:status:pass_self_closing_support_row,20,Audit-status distribution.
-delayed_coverage:status:pass_tb038r_closed_or_connected,51,Audit-status distribution.
-delayed_coverage:status:pass_tb038r_explicit_route_resolution,142,Audit-status distribution.
-hard_save_register:status:guide_local_hard_save_has_creation_cue,27,Audit-status distribution.
-hard_save_register:status:pass_register_save_present_in_guide,69,Audit-status distribution.
-branch_reload:recommended_action:none,8,Recommended-action distribution.
-delayed_coverage:recommended_action:none,2687,Recommended-action distribution.
-delayed_coverage:recommended_action:none_existing_route_resolution,281,Recommended-action distribution.
-hard_save_register:recommended_action:none,69,Recommended-action distribution.
-hard_save_register:recommended_action:none_local_save,27,Recommended-action distribution.
+delayed_coverage:status:pass_tb038r_closed_or_connected,67,Audit-status distribution.
+delayed_coverage:status:pass_tb038r_explicit_route_resolution,128,Audit-status distribution.
+hard_save_register:status:guide_local_hard_save_has_creation_cue,28,Audit-status distribution.
+hard_save_register:status:pass_register_save_present_in_guide,75,Audit-status distribution.
+branch_reload:recommended_action:none,9,Recommended-action distribution.
+delayed_coverage:recommended_action:none,2720,Recommended-action distribution.
+delayed_coverage:recommended_action:none_existing_route_resolution,251,Recommended-action distribution.
+hard_save_register:recommended_action:none,75,Recommended-action distribution.
+hard_save_register:recommended_action:none_local_save,28,Recommended-action distribution.

@@ -10,7 +10,7 @@ The Companions faction page lists repeatable radiant quest types available after
 
 ## Routing Relevance
 
-The guide specification requires bounded radiant content and representative completion of meaningful radiant types. This source note supports placeholder objective rows only; exact counts and final routing boundaries remain deferred to the radiant boundary pass.
+The guide specification requires bounded radiant content and representative completion of meaningful radiant types. This source note supports placeholder objective rows only; the TB-044 closeout in `SN-000249-companions-radiant-representative-closeout.md` records the current representative route policy for the ordinary Companions pool and `OBJ-000115`.
 
 ## Sources
 
@@ -24,7 +24,7 @@ UESP lists seven repeatable radiants available after Take Up Arms, three repeata
 
 ## Confidence and Open Questions
 
-Confidence is high for the placeholder inventory. Exact representative requirements, whether all finite post-quest variants should be routed, and safe timing around lycanthropy need TB-018 and later conflict validation.
+Confidence is high for the placeholder inventory. Later constraint and guide passes now resolve the finite post-quest chain and `OBJ-000115` representative parent; this source note remains historical support for the original placeholder rows.
 
 ## Linked Records
 
