@@ -11,11 +11,11 @@ No broad gameplay research was performed. This is not a live PS4 run; live comba
 
 | Check | Result |
 | --- | --- |
-| Audit rows | 98 |
-| Recommended actions | none: 97, none_existing_route_resolution: 1 |
-| Section walkthrough rows | 84 |
-| Section walkthrough status | pass_non_executable_handoff_section: 1, pass_section_executable: 83 |
-| Route-resolution register | 166 unresolved rows remain explicit; by category: ae_creation: 1, book_document: 59, collectible: 5, crafting_unlock: 12, location: 2, misc_objective: 34, npc_relationship: 2, radiant: 7, spell_power: 8, trophy: 7, unique_item: 29 |
+| Audit rows | 100 |
+| Recommended actions | none: 99, none_existing_route_resolution: 1 |
+| Section walkthrough rows | 86 |
+| Section walkthrough status | pass_non_executable_handoff_section: 1, pass_section_executable: 85 |
+| Route-resolution register | 140 unresolved rows remain explicit; by category: ae_creation: 1, book_document: 45, collectible: 5, crafting_unlock: 12, location: 2, misc_objective: 33, npc_relationship: 2, spell_power: 4, trophy: 7, unique_item: 29 |
 | Repair actions | none |
 
 ## Area Summary
@@ -25,7 +25,7 @@ No broad gameplay research was performed. This is not a live PS4 run; live comba
 | playtest_setup | 7 |
 | previous_qa_integration | 4 |
 | route_resolution_visibility | 1 |
-| section_walkthrough | 84 |
+| section_walkthrough | 86 |
 | simulated_playtest_limits | 2 |
 
 ## Findings

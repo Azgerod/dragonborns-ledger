@@ -14,33 +14,33 @@ No broad gameplay research was performed. TB-040 uses the existing Survival, pro
 | Objective final accounting | Pass | 2789 objective rows classified; status total 2789; expected total 2789. |
 | Checklist row accounting | Pass | 3697 coverage-matrix rows and 3697 checklist-audit rows; recommended_action: none: 3697. |
 | Focused COV audit artifacts | Pass | All generated audits use only allowed no-action states. |
-| Appendix unresolved register | Pass | 166 Appendix I unresolved rows; expected 166. |
+| Appendix unresolved register | Pass | 139 Appendix I unresolved rows; expected 139. |
 | Appendix headings | Pass | All expected Appendix A through I headings appear once. |
 | Placeholder phrase scan | Pass | 0 banned placeholder hits in main-guide-v1.md. |
 | Coverage ledger COV summaries | Pass | 19 COV summary rows found in main-guide-v1-coverage.csv. |
-| TB-039 trophy/leveled/cell QA | Pass with explicit route-resolution rows | 1191 audit rows; recommended_action: none: 1131, none_existing_route_resolution: 60. |
-| TB-040 Survival/Legendary QA | Pass with explicit route-resolution rows | 204 audit rows; recommended_action: none: 203, none_existing_route_resolution: 1. |
+| TB-039 trophy/leveled/cell QA | Pass with explicit route-resolution rows | 1191 audit rows; recommended_action: none: 1141, none_existing_route_resolution: 50. |
+| TB-040 Survival/Legendary QA | Pass with explicit route-resolution rows | 206 audit rows; recommended_action: none: 205, none_existing_route_resolution: 1. |
 | TB-041 branch/spoiler QA | Pass | 119 audit rows; recommended_action: none: 119. |
-| TB-042 simulated playtest QA | Pass with explicit route-resolution rows | 98 audit rows; recommended_action: none: 97, none_existing_route_resolution: 1. |
-| TB-043 unresolved-risk report | Pass with known unresolved risks | 166 risk-register rows; severity: high: 51, medium: 56, low: 59. |
+| TB-042 simulated playtest QA | Pass with explicit route-resolution rows | 100 audit rows; recommended_action: none: 99, none_existing_route_resolution: 1. |
+| TB-043 unresolved-risk report | Pass with known unresolved risks | 139 risk-register rows; severity: high: 39, medium: 55, low: 45. |
 
 ## Objective Final Status
 
 | Final status | Count | QA note |
 | --- | --- | --- |
-| placed_in_main_guide | 2550 | Non-branch, non-option, non-excluded, non-unresolved objective rows represented in the self-contained guide or promoted guide reference surfaces. |
+| placed_in_main_guide | 2577 | Non-branch, non-option, non-excluded, non-unresolved objective rows represented in the self-contained guide or promoted guide reference surfaces. |
 | branch_handled | 43 | Canonical branch_route objective rows handled by branch-first/reload guide blocks after unresolved rows are counted separately. |
 | option_default_handled | 11 | Canonical option_list objective rows represented by route defaults and option/default guide surfaces. |
 | excluded | 19 | Objective rows with canonical excluded placement or explicit guide/coverage exclusion after unresolved rows are counted separately. |
-| unresolved | 166 | Objective rows with explicit NEEDS ROUTE RESOLUTION coverage, including unresolved branch or appendix rows. |
+| unresolved | 139 | Objective rows with explicit NEEDS ROUTE RESOLUTION coverage, including unresolved branch or appendix rows. |
 | total_classified_objective_rows | 2789 | Matches objective_rows_processed. |
 
 ## Checklist Audit Status
 
 | Audit status | Count |
 | --- | --- |
-| covered_by_internal_checklist_coverage | 2286 |
-| covered_by_mapped_objective_internal_coverage | 1411 |
+| covered_by_internal_checklist_coverage | 2293 |
+| covered_by_mapped_objective_internal_coverage | 1404 |
 
 ## Focused Audit Artifacts
 
@@ -50,29 +50,28 @@ No broad gameplay research was performed. TB-040 uses the existing Survival, pro
 | Checklist ID audit | 3697 | 3697 | none: 3697 | Pass |
 | Branch audit | 76 | 76 | none: 76 | Pass |
 | Option/default audit | 75 | 75 | none: 75 | Pass |
-| Explicit exclusion audit | 322 | 322 | none: 322 | Pass |
-| Appendix/reference audit | 106 | 106 | none: 106 | Pass |
+| Explicit exclusion audit | 320 | 320 | none: 320 | Pass |
+| Appendix/reference audit | 107 | 107 | none: 107 | Pass |
 | Location audit | 919 | 919 | none: 915, none_existing_route_resolution: 4 | Pass with explicit route-resolution rows |
-| Book/document audit | 1780 | 1780 | none: 1662, none_existing_route_resolution: 118 | Pass with explicit route-resolution rows |
+| Book/document audit | 1780 | 1780 | none: 1693, none_existing_route_resolution: 87 | Pass with explicit route-resolution rows |
 | Collectible audit | 249 | 249 | none: 227, none_existing_route_resolution: 22 | Pass with explicit route-resolution rows |
 | Crafting/progression audit | 1498 | 1498 | none: 1404, none_existing_route_resolution: 94 | Pass with explicit route-resolution rows |
-| Radiant/counter audit | 234 | 234 | none: 182, none_existing_route_resolution: 52 | Pass with explicit route-resolution rows |
+| Radiant/counter audit | 234 | 234 | none: 189, none_existing_route_resolution: 45 | Pass with explicit route-resolution rows |
 
 ## Unresolved Route-Resolution Register
 
-The 166 unresolved objective rows are explicit `NEEDS ROUTE RESOLUTION` states, not hidden coverage gaps. The full row list is in Appendix I of `drafts/final-guide/appendices-v0.md` and in `data/guide-coverage/main-guide-v1-objective-final-status.csv`.
+The 139 unresolved objective rows are explicit `NEEDS ROUTE RESOLUTION` states, not hidden coverage gaps. The full row list is in Appendix I of `drafts/final-guide/appendices-v0.md` and in `data/guide-coverage/main-guide-v1-objective-final-status.csv`.
 
 | Category | Unresolved rows |
 | --- | --- |
 | ae_creation | 1 |
-| book_document | 59 |
+| book_document | 45 |
 | collectible | 5 |
 | crafting_unlock | 12 |
 | location | 2 |
-| misc_objective | 34 |
+| misc_objective | 33 |
 | npc_relationship | 2 |
-| radiant | 7 |
-| spell_power | 8 |
+| spell_power | 3 |
 | trophy | 7 |
 | unique_item | 29 |
 
@@ -99,9 +98,9 @@ No broad gameplay research was performed. TB-038R records remaining delayed-task
 | Check | Status | Evidence |
 | --- | --- | --- |
 | Registered hard saves | Pass with explicit route-resolution row | 75 registered saves appear in the guide; 0 known save remains tied to explicit route-resolution state. |
-| Guide-local hard saves | Pass | 28 local guide saves have creation cues. |
+| Guide-local hard saves | Pass | 31 local guide saves have creation cues. |
 | Branch reload cues | Pass | 9 branch markers have same-section reload cues. |
-| Delayed coverage closeout | Pass with explicit route-resolution rows | 3083 audit rows; recommended_action: none: 2804, none_existing_route_resolution: 251, none_local_save: 28. TB-038R classified 190 findings: 127 explicit route-resolution and 63 connected to existing route/final-reference closeouts. |
+| Delayed coverage closeout | Pass with explicit route-resolution rows | 3056 audit rows; recommended_action: none: 2790, none_existing_route_resolution: 235, none_local_save: 31. TB-038R classified 190 findings: 127 explicit route-resolution and 63 connected to existing route/final-reference closeouts. |
 
 ## TB-039 Trophy, Leveled-Item, and Cell-Entry QA
 
@@ -112,7 +111,7 @@ No broad gameplay research was performed. This pass audits the v1 guide against 
 | Check | Status | Evidence |
 | --- | --- | --- |
 | Trophy setup rules | Pass | 4 setup rows; recommended_action: none: 4. |
-| Trophy dependencies | Pass with explicit route-resolution rows | 1115 constraint rows; recommended_action: none: 1056, none_existing_route_resolution: 59. |
+| Trophy dependencies | Pass with explicit route-resolution rows | 1115 constraint rows; recommended_action: none: 1066, none_existing_route_resolution: 49. |
 | Leveled rewards | Pass | 24 constraint rows; recommended_action: none: 24. |
 | Cell-entry and related locks | Pass with explicit route-resolution row | 48 constraint rows; recommended_action: none: 47, none_existing_route_resolution: 1. |
 
@@ -126,7 +125,7 @@ No broad gameplay research was performed. This pass audits the v1 guide against 
 | --- | --- | --- |
 | Setup baseline | Pass | 8 setup rules; recommended_action: none: 8. |
 | Survival constraint table | Pass with explicit route-resolution row | 29 constraint rows; recommended_action: none: 28, none_existing_route_resolution: 1. |
-| Guide section logistics | Pass | 84 guide sections scanned; 83 route sections include explicit logistics cues. |
+| Guide section logistics | Pass | 86 guide sections scanned; 85 route sections include explicit logistics cues. |
 | Legendary progression constraints | Pass | 18 progression constraint rows accounted in current guide coverage. |
 | Reset, training, crafting, and policy defaults | Pass | 51 progression-source rows represented. |
 | Cold and transport geography support | Pass | 6 cold-risk groups and 8 transport/access groups audited. |
@@ -154,7 +153,7 @@ No broad gameplay research was performed. This document-level pass audits execut
 | Check | Status | Evidence |
 | --- | --- | --- |
 | Player setup contract | Pass | 7 setup/player-contract rows; recommended_action: none: 7. |
-| Section walkthrough | Pass | 84 route-section rows; pass_section_executable: 83, pass_non_executable_handoff_section: 1. |
+| Section walkthrough | Pass | 86 route-section rows; pass_section_executable: 85, pass_non_executable_handoff_section: 1. |
 | Prior QA integration | Pass | 4 prior-QA artifacts checked; recommended_action: none: 4. |
 | Route-resolution visibility | Pass with explicit route-resolution row | 1 route-resolution visibility row; recommended_action: none_existing_route_resolution: 1. |
 | Simulated-playtest limits | Pass | 2 scope-boundary rows; recommended_action: none: 2. |
@@ -168,9 +167,9 @@ No broad gameplay research was performed. This section summarizes explicit route
 | Check | Status | Evidence |
 | --- | --- | --- |
 | Risk report artifact | Pass | drafts/final-guide/unresolved-risk-report.md exists. |
-| Risk register row count | Pass | 166 risk-register rows; expected 166 unresolved objective rows. |
-| Severity triage | Pass | high: 51, medium: 56, low: 59. |
-| Category ownership | Pass | ae_creation: 1, book_document: 59, collectible: 5, crafting_unlock: 12, location: 2, misc_objective: 34, npc_relationship: 2, radiant: 7, spell_power: 8, trophy: 7, unique_item: 29 |
+| Risk register row count | Pass | 139 risk-register rows; expected 139 unresolved objective rows. |
+| Severity triage | Pass | high: 39, medium: 55, low: 45. |
+| Category ownership | Pass | ae_creation: 1, book_document: 45, collectible: 5, crafting_unlock: 12, location: 2, misc_objective: 33, npc_relationship: 2, spell_power: 3, trophy: 7, unique_item: 29 |
 
 ## Remaining Work Handoff
 

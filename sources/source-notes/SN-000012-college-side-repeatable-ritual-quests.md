@@ -10,7 +10,7 @@ The College of Winterhold faction page lists four one-time optional College ques
 
 ## Routing Relevance
 
-The objective database needs placeholder rows for College side and ritual quest inventory before later routing. This pass does not decide how repeatable quests are bounded or how master ritual spell quests interact with the all-spells and all-skills requirements.
+The objective database needs placeholder rows for College side and ritual quest inventory before later routing. This pass does not decide how repeatable quests are bounded or how master ritual spell quests interact with the all-spells and all-skills requirements. TB-044 later closes the Urag repeatable boundary in `SN-000250-college-urag-repeatable-closeout.md`.
 
 ## Sources
 

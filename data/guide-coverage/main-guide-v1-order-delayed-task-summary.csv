@@ -1,20 +1,20 @@
 metric,count,notes
 branch_reload:rows,9,Generated audit rows.
-delayed_coverage:rows,2971,Generated audit rows.
-hard_save_register:rows,103,Generated audit rows.
+delayed_coverage:rows,2941,Generated audit rows.
+hard_save_register:rows,106,Generated audit rows.
 branch_reload:status:pass_branch_reload_cue_found,9,Audit-status distribution.
-delayed_coverage:status:pass_closed_by_later_same_record,1663,Audit-status distribution.
-delayed_coverage:status:pass_closed_elsewhere_same_record,961,Audit-status distribution.
-delayed_coverage:status:pass_explicit_route_resolution,123,Audit-status distribution.
+delayed_coverage:status:pass_closed_by_later_same_record,1671,Audit-status distribution.
+delayed_coverage:status:pass_closed_elsewhere_same_record,939,Audit-status distribution.
+delayed_coverage:status:pass_explicit_route_resolution,111,Audit-status distribution.
 delayed_coverage:status:pass_final_status_branch_handled,1,Audit-status distribution.
 delayed_coverage:status:pass_progress_continues_later_same_record,8,Audit-status distribution.
 delayed_coverage:status:pass_self_closing_support_row,20,Audit-status distribution.
 delayed_coverage:status:pass_tb038r_closed_or_connected,67,Audit-status distribution.
-delayed_coverage:status:pass_tb038r_explicit_route_resolution,128,Audit-status distribution.
-hard_save_register:status:guide_local_hard_save_has_creation_cue,28,Audit-status distribution.
+delayed_coverage:status:pass_tb038r_explicit_route_resolution,124,Audit-status distribution.
+hard_save_register:status:guide_local_hard_save_has_creation_cue,31,Audit-status distribution.
 hard_save_register:status:pass_register_save_present_in_guide,75,Audit-status distribution.
 branch_reload:recommended_action:none,9,Recommended-action distribution.
-delayed_coverage:recommended_action:none,2720,Recommended-action distribution.
-delayed_coverage:recommended_action:none_existing_route_resolution,251,Recommended-action distribution.
+delayed_coverage:recommended_action:none,2706,Recommended-action distribution.
+delayed_coverage:recommended_action:none_existing_route_resolution,235,Recommended-action distribution.
 hard_save_register:recommended_action:none,75,Recommended-action distribution.
-hard_save_register:recommended_action:none_local_save,28,Recommended-action distribution.
+hard_save_register:recommended_action:none_local_save,31,Recommended-action distribution.

@@ -26,8 +26,8 @@ After the final skill-book read, `Black Book: The Winds of Change` is safe to ch
 Spell tomes are split into three player-facing states instead of being hidden under a broad book cleanup line:
 
 - 35 non-vendor or quest-tied tomes are checked against already-routed fixed, pet, reward, Atronach Forge, Apocrypha, or quest sources.
-- 102 non-master vendor tomes are bought and read from the named spell vendors when offered, with unavailable skill-gated stock written to `All-Perks Vendor Return`.
-- 17 master ritual outcomes remain staged for the all-perks loop because the guide has not yet established the final Alteration 90, Conjuration 90, Destruction 100, Illusion 100, and Restoration 90 states.
+- 89 non-master vendor tomes are bought and read from the named spell vendors when offered, with unavailable skill-gated stock written to `All-Perks Vendor Return`. TB-044 moved thirteen Arcane Accessories tomes out of this vendor bucket because the guide already learns them from the Ancient Tome Chest.
+- 14 master ritual outcomes remain staged for the all-perks loop because the guide has not yet established the final Alteration 90, Conjuration 90, Destruction 100, Illusion 100, and Restoration 90 states. TB-044 also removed the three Unbounded Arcane Accessories spells from this gate because the Ancient Tome Chest already supplies them.
 
 The Oghma Infinium remains acquired but unread. Its use still belongs to the all-perks loop after final skill gaps are known, and the guide repeats the boundary not to spend it on a skill already at 100.
 

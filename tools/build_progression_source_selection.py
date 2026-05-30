@@ -299,6 +299,8 @@ def route_block_for_location(row: dict[str, str]) -> str:
         return "G12"
     if worldspace in {"Soul Cairn", "Deadlands", "Skuldafn", "Apocrypha"}:
         return "G13"
+    if "Hob's Fall Cave" in joined:
+        return "G07"
     if "College of Winterhold" in joined or hold == "Winterhold":
         return "G08"
     if hold == "Whiterun Hold":
@@ -355,6 +357,9 @@ def choose_skill_book(rows: list[dict[str, str]]) -> dict[str, str]:
 def choose_spell_source(rows: list[dict[str, str]]) -> dict[str, str]:
     school = rows[0].get("skill_or_school", "")
     specialist = COLLEGE_SPECIALIST.get(school, "")
+    for row in rows:
+        if "Hob's Fall Cave during The Lost Library quest" in row.get("location_detail", ""):
+            return row
     for row in rows:
         if specialist and f"Purchase from {specialist}" in row.get("location_detail", ""):
             return row

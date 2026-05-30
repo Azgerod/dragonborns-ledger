@@ -9,15 +9,15 @@ leveled_item:status:pass_constraint_accounted_in_main_guide,24,Audit-status dist
 leveled_item:recommended_action:none,24,Recommended-action distribution.
 trophy_dependency:rows,1115,Generated TB-039 audit rows.
 trophy_dependency:status:pass_branch_handled,5,Audit-status distribution.
-trophy_dependency:status:pass_constraint_accounted_in_main_guide,1048,Audit-status distribution.
-trophy_dependency:status:pass_existing_route_resolution,59,Audit-status distribution.
+trophy_dependency:status:pass_constraint_accounted_in_main_guide,1058,Audit-status distribution.
+trophy_dependency:status:pass_existing_route_resolution,49,Audit-status distribution.
 trophy_dependency:status:pass_option_default_handled,1,Audit-status distribution.
 trophy_dependency:status:pass_scope_exclusion,2,Audit-status distribution.
-trophy_dependency:recommended_action:none,1056,Recommended-action distribution.
-trophy_dependency:recommended_action:none_existing_route_resolution,59,Recommended-action distribution.
+trophy_dependency:recommended_action:none,1066,Recommended-action distribution.
+trophy_dependency:recommended_action:none_existing_route_resolution,49,Recommended-action distribution.
 trophy_setup:rows,4,Generated TB-039 audit rows.
 trophy_setup:status:pass_setup_rule_in_guide,4,Audit-status distribution.
 trophy_setup:recommended_action:none,4,Recommended-action distribution.
 all:rows,1191,Generated TB-039 audit rows.
-all:recommended_action:none,1131,Recommended-action distribution.
-all:recommended_action:none_existing_route_resolution,60,Recommended-action distribution.
+all:recommended_action:none,1141,Recommended-action distribution.
+all:recommended_action:none_existing_route_resolution,50,Recommended-action distribution.

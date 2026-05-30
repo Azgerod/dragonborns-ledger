@@ -1,32 +1,30 @@
 summary_group,metric,count,notes
-severity,high,51,TB-043 triage severity; all rows remain required until resolved or explicitly re-scoped.
-severity,low,59,TB-043 triage severity; all rows remain required until resolved or explicitly re-scoped.
-severity,medium,56,TB-043 triage severity; all rows remain required until resolved or explicitly re-scoped.
+severity,high,39,TB-043 triage severity; all rows remain required until resolved or explicitly re-scoped.
+severity,low,45,TB-043 triage severity; all rows remain required until resolved or explicitly re-scoped.
+severity,medium,55,TB-043 triage severity; all rows remain required until resolved or explicitly re-scoped.
 category,ae_creation,1,AE Creation quest and reward routing
-category,book_document,59,Book and document source-location routing
+category,book_document,45,Book and document source-location routing
 category,collectible,5,Finite collectible and Fishing route policy
 category,crafting_unlock,12,"Crafting, alchemy, and progression routing"
 category,location,2,Location route validation
-category,misc_objective,34,Hold favor and miscellaneous-objective routing
+category,misc_objective,33,Hold favor and miscellaneous-objective routing
 category,npc_relationship,2,Relationship and household option routing
-category,radiant,7,Radiant and counter assignment routing
-category,spell_power,8,"Spell, shout, and power routing"
+category,spell_power,3,"Spell, shout, and power routing"
 category,trophy,7,Trophy and counter verification
 category,unique_item,29,Unique item/member route routing
 affected_route_surface,Books/spells/documents reconciliation,1,Dominant guide or QA surface carrying the explicit unresolved row.
 affected_route_surface,Collectible/Fishing reconciliation,7,Dominant guide or QA surface carrying the explicit unresolved row.
-affected_route_surface,Final Reconciliation route-resolution register,95,Dominant guide or QA surface carrying the explicit unresolved row.
+affected_route_surface,Final Reconciliation route-resolution register,76,Dominant guide or QA surface carrying the explicit unresolved row.
 affected_route_surface,Retrospective redistributed regional sections; no player-facing Location Counter Sweep dump,1,Dominant guide or QA surface carrying the explicit unresolved row.
-affected_route_surface,TB-038R delayed-task carryforward,62,Dominant guide or QA surface carrying the explicit unresolved row.
+affected_route_surface,TB-038R delayed-task carryforward,54,Dominant guide or QA surface carrying the explicit unresolved row.
 risk_owner,AE Creation item-member policy,1,Likely follow-up owner inferred from objective category.
-risk_owner,Book and document source-location routing,59,Likely follow-up owner inferred from objective category.
+risk_owner,Book and document source-location routing,45,Likely follow-up owner inferred from objective category.
 risk_owner,"Crafting, alchemy, and progression routing",12,Likely follow-up owner inferred from objective category.
 risk_owner,Finite collectible and Fishing route policy,5,Likely follow-up owner inferred from objective category.
-risk_owner,Hold favor and miscellaneous-objective routing,34,Likely follow-up owner inferred from objective category.
+risk_owner,Hold favor and miscellaneous-objective routing,33,Likely follow-up owner inferred from objective category.
 risk_owner,Location route validation,2,Likely follow-up owner inferred from objective category.
-risk_owner,Radiant and counter assignment routing,7,Likely follow-up owner inferred from objective category.
 risk_owner,Relationship and household option routing,2,Likely follow-up owner inferred from objective category.
-risk_owner,"Spell, shout, and power routing",8,Likely follow-up owner inferred from objective category.
+risk_owner,"Spell, shout, and power routing",3,Likely follow-up owner inferred from objective category.
 risk_owner,Trophy and counter verification,7,Likely follow-up owner inferred from objective category.
 risk_owner,Unique item/member route routing,29,Likely follow-up owner inferred from objective category.
-all,unresolved_rows,166,All explicit unresolved objective rows from main-guide-v1-objective-final-status.csv.
+all,unresolved_rows,139,All explicit unresolved objective rows from main-guide-v1-objective-final-status.csv.
